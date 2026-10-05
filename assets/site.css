@@ -1,13 +1,13 @@
 * { box-sizing: border-box; }
-html { scroll-padding-top: 24px; }
+html { scroll-padding-top: 128px; }
 body { margin: 0; background: var(--paper); color: var(--ink); font: 18px/1.85 var(--font); word-break: keep-all; overflow-wrap: anywhere; }
 a { color: var(--teal); text-decoration-thickness: 1px; text-underline-offset: 4px; }
 a:hover { color: var(--navy); }
 a:focus-visible, summary:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--teal); outline-offset: 5px; border-radius: 2px; }
 img { max-width: 100%; height: auto; }
-.skip-link { position: absolute; left: 16px; top: -100px; z-index: 10; background: var(--surface); padding: 12px 20px; }
+.skip-link { position: fixed; left: 16px; top: -100px; z-index: 10; background: var(--surface); padding: 12px 20px; }
 .skip-link:focus { top: 12px; }
-.site-header { max-width: var(--site-width); margin: auto; padding: 26px 0; border-bottom: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.site-header { position: sticky; top: 0; z-index: 5; background: var(--paper); padding: 26px max(28px, calc((100% - var(--site-width)) / 2)); border-bottom: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .wordmark { display: flex; align-items: center; gap: 13px; text-decoration: none; color: var(--navy); font-size: 23px; font-weight: 800; letter-spacing: -.06em; }
 .wordmark::before { content: ""; width: 10px; height: 26px; background: var(--amber); border-radius: 8px 8px 2px 2px; }
 .site-header nav { display: flex; gap: 24px; flex-wrap: wrap; font-size: 15px; }
@@ -77,6 +77,9 @@ p { margin: 0 0 22px; }
 .analysis-figure img { display: block; width: 100%; background: var(--surface); }
 figcaption { color: var(--muted); font-size: 14px; line-height: 1.8; margin-top: 16px; }
 .table-wrap { overflow-x: auto; margin: 30px 0 12px; }
+.table-wrap .comparison-sheet { min-width: 680px; table-layout: fixed; }
+.comparison-sheet th:first-child { width: 24%; }
+.comparison-sheet th:nth-child(2), .comparison-sheet th:nth-child(3) { width: 18%; }
 table { width: 100%; border-collapse: collapse; font-size: 16px; }
 caption { text-align: left; font-weight: 700; margin-bottom: 12px; color: var(--navy); }
 th,td { text-align: left; border-bottom: 1px solid var(--line); padding: 15px 12px; vertical-align: top; }
@@ -98,6 +101,14 @@ blockquote p { margin: 0; }
 .ad-placement[data-ad-state="preview"] ins { display: none !important; }
 .ad-placement[data-ad-placement="article_end"] { min-height: 180px; }
 .ad-placement[data-ad-placement="article_end"] .ad-preview { min-height: 120px; }
+.home-chapters { padding-left: 24px; margin: 24px 0; }
+.home-chapters li { padding: 8px 0; }
+.home-chapters a { display: inline-block; padding: 6px 0; }
+.series-nav { max-width: 760px; margin: 48px auto 0; padding: 24px; background: var(--tint); border-radius: 12px; }
+.series-nav h2 { font-size: 20px; margin: 0 0 12px; }
+.series-nav ol { list-style: none; margin: 0 0 16px; padding: 0; }
+.series-nav li a { display: block; padding: 12px 0; font-size: 15px; }
+.series-nav [aria-current="page"] { font-weight: 700; text-decoration: underline; text-underline-offset: 4px; }
 .next-reading { padding: 32px 0; border-top: 2px solid var(--navy); margin-top: 44px; }
 .next-reading h2 { margin-top: 0; }
 .next-reading>p:not(.eyebrow) { color: var(--muted); }
@@ -118,11 +129,13 @@ blockquote p { margin: 0; }
 .site-footer details { max-width: 740px; margin-top: 18px; }
 .site-footer summary { cursor: pointer; min-height: 44px; }
 .site-footer details p { margin-bottom: 12px; }
-@media(max-width: 1180px) { .site-header, main, .site-footer { margin-left: 28px; margin-right: 28px; } }
+@media(max-width: 1180px) { main, .site-footer { margin-left: 28px; margin-right: 28px; } }
 @media(max-width: 680px) {
+  /* Leave room for the header even when its navigation wraps to two rows. */
+  html { scroll-padding-top: 150px; }
   body { font-size: 17px; }
-  .site-header, main, .site-footer { margin-left: 20px; margin-right: 20px; }
-  .site-header { padding: 17px 0; flex-wrap: wrap; gap: 6px; }
+  main, .site-footer { margin-left: 20px; margin-right: 20px; }
+  .site-header { padding: 17px 20px; flex-wrap: wrap; gap: 6px; }
   .site-header nav { gap: 22px; }
   .wordmark { font-size: 22px; }
   .hero { padding: 46px 0; }

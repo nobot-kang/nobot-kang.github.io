@@ -1,0 +1,186 @@
+{
+  "schema": "papa_penguin_followup_evidence_v1",
+  "months": [
+    "2026-05",
+    "2026-06"
+  ],
+  "snapshot_built_date": "2026-10-04",
+  "snapshot_reference_end": "2026-09",
+  "information_cutoff": null,
+  "source": "국토교통부 아파트 매매 실거래가 상세 자료",
+  "source_url": "https://www.data.go.kr/data/15126468/openapi.do",
+  "amount_unit": "만원",
+  "policy": "strict; P2 only; land leasehold excluded",
+  "minimum_support": 10,
+  "regions": {
+    "11350": "노원구",
+    "11500": "강서구"
+  },
+  "comparison_groups": {
+    "p17_18": {
+      "unit_types": [
+        17,
+        18
+      ],
+      "label": "전용 17·18평형 (59형 포함)"
+    },
+    "p25_26": {
+      "unit_types": [
+        25,
+        26
+      ],
+      "label": "전용 25·26평형 (84형 포함)"
+    }
+  },
+  "area_basis": "exclusive area; floor(area_m2 / 3.3058 + 0.5)",
+  "pyeong_m2": 3.3058,
+  "population": "Only the two selected exclusive-area groups; not all district sales",
+  "decomposition": "sum(w_may * (mean_june-mean_may)) + sum((w_june-w_may) * mean_june); descriptive, not causal",
+  "support_population": "June observed complex × comparison_group cells only; zero-trade cells excluded",
+  "groups": [
+    {
+      "region": "11350",
+      "ym": "2026-05",
+      "comparison_group": "p17_18",
+      "n": 216,
+      "mean": 64789.351851851854,
+      "median": 60000.0
+    },
+    {
+      "region": "11350",
+      "ym": "2026-05",
+      "comparison_group": "p25_26",
+      "n": 152,
+      "mean": 88475.98684210527,
+      "median": 87250.0
+    },
+    {
+      "region": "11350",
+      "ym": "2026-06",
+      "comparison_group": "p17_18",
+      "n": 159,
+      "mean": 66516.03773584905,
+      "median": 64500.0
+    },
+    {
+      "region": "11350",
+      "ym": "2026-06",
+      "comparison_group": "p25_26",
+      "n": 142,
+      "mean": 85933.0985915493,
+      "median": 84500.0
+    },
+    {
+      "region": "11500",
+      "ym": "2026-05",
+      "comparison_group": "p17_18",
+      "n": 109,
+      "mean": 92387.61467889909,
+      "median": 93000.0
+    },
+    {
+      "region": "11500",
+      "ym": "2026-05",
+      "comparison_group": "p25_26",
+      "n": 171,
+      "mean": 106491.52046783626,
+      "median": 100000.0
+    },
+    {
+      "region": "11500",
+      "ym": "2026-06",
+      "comparison_group": "p17_18",
+      "n": 89,
+      "mean": 93194.94382022473,
+      "median": 95000.0
+    },
+    {
+      "region": "11500",
+      "ym": "2026-06",
+      "comparison_group": "p25_26",
+      "n": 99,
+      "mean": 108780.80808080808,
+      "median": 105000.0
+    }
+  ],
+  "totals": [
+    {
+      "region": "11350",
+      "ym": "2026-05",
+      "n": 368,
+      "mean": 74572.96195652174,
+      "median": 70000.0
+    },
+    {
+      "region": "11350",
+      "ym": "2026-06",
+      "n": 301,
+      "mean": 75676.24584717608,
+      "median": 72000.0
+    },
+    {
+      "region": "11500",
+      "ym": "2026-05",
+      "n": 280,
+      "mean": 101001.07142857143,
+      "median": 95000.0
+    },
+    {
+      "region": "11500",
+      "ym": "2026-06",
+      "n": 188,
+      "mean": 101402.39361702128,
+      "median": 98000.0
+    }
+  ],
+  "mix": [
+    {
+      "region": "11350",
+      "from_month": "2026-05",
+      "to_month": "2026-06",
+      "fixed_previous_mix_mean": 74536.12808929046,
+      "total_change": 1103.283890654333,
+      "within_group_term": -36.833867231282056,
+      "mix_term": 1140.117757885615
+    },
+    {
+      "region": "11500",
+      "from_month": "2026-05",
+      "to_month": "2026-06",
+      "fixed_previous_mix_mean": 102713.45377936671,
+      "total_change": 401.3221884498489,
+      "within_group_term": 1712.3823507952766,
+      "mix_term": -1311.0601623454277
+    }
+  ],
+  "support": [
+    {
+      "region": "11350",
+      "ym": "2026-06",
+      "bucket": "multiple",
+      "cells": 72,
+      "transactions": 217
+    },
+    {
+      "region": "11350",
+      "ym": "2026-06",
+      "bucket": "one",
+      "cells": 84,
+      "transactions": 84
+    },
+    {
+      "region": "11500",
+      "ym": "2026-06",
+      "bucket": "multiple",
+      "cells": 39,
+      "transactions": 98
+    },
+    {
+      "region": "11500",
+      "ym": "2026-06",
+      "bucket": "one",
+      "cells": 90,
+      "transactions": 90
+    }
+  ]
+}
