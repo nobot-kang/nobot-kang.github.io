@@ -1,0 +1,65 @@
+{
+  "schema": "papa_penguin_article_cells_v1",
+  "month": "2026-06",
+  "snapshot_built_date": "2026-10-04",
+  "snapshot_reference_end": "2026-09",
+  "information_cutoff": null,
+  "source": "국토교통부 아파트 매매 실거래가 상세 자료",
+  "source_url": "https://www.data.go.kr/data/15126468/openapi.do",
+  "statistic": "median of eligible transaction amounts",
+  "amount_unit": "만원",
+  "policy": "strict; P2 only; land leasehold excluded",
+  "minimum_support": 10,
+  "regions": {
+    "11350": "노원구",
+    "11500": "강서구"
+  },
+  "comparison_groups": {
+    "p17_18": {
+      "unit_types": [
+        17,
+        18
+      ],
+      "label": "전용 17·18평형 (59형 포함)"
+    },
+    "p25_26": {
+      "unit_types": [
+        25,
+        26
+      ],
+      "label": "전용 25·26평형 (84형 포함)"
+    }
+  },
+  "area_basis": "exclusive area; floor(area_m2 / 3.3058 + 0.5)",
+  "pyeong_m2": 3.3058,
+  "rows": [
+    {
+      "region": "11350",
+      "ym": "2026-06",
+      "comparison_group": "p17_18",
+      "n": 159,
+      "amount": 64500.0
+    },
+    {
+      "region": "11350",
+      "ym": "2026-06",
+      "comparison_group": "p25_26",
+      "n": 142,
+      "amount": 84500.0
+    },
+    {
+      "region": "11500",
+      "ym": "2026-06",
+      "comparison_group": "p17_18",
+      "n": 89,
+      "amount": 95000.0
+    },
+    {
+      "region": "11500",
+      "ym": "2026-06",
+      "comparison_group": "p25_26",
+      "n": 99,
+      "amount": 105000.0
+    }
+  ]
+}
