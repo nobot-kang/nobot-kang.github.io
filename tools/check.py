@@ -2,6 +2,7 @@
 import argparse
 import json
 import shutil
+from datetime import datetime
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urljoin, urlsplit
@@ -78,6 +79,9 @@ def check(root):
                 for key in ('datePublished', 'dateModified', 'publisher', 'mainEntityOfPage', 'image'):
                     assert schema[key], (name, key)
                 assert schema['image'].endswith('.png'), name
+                dates = [datetime.fromisoformat(schema[key]) for key in ('datePublished', 'dateModified')]
+                assert all(value.tzinfo is not None for value in dates), f'{name}: timezone required'
+                assert dates[0] <= dates[1], name
             if name == '404.html':
                 assert doc.meta['robots'] == 'noindex'
                 assert all(link.startswith(('/', 'https:', '#', 'mailto:')) for link in doc.links), '404 needs root links'
