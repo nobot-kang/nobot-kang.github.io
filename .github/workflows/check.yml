@@ -1,0 +1,62 @@
+name: Site checks and deployment
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4 * * 1'
+permissions:
+  contents: read
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  check:
+    name: Public site checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python tools/check.py --stage _site
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Validate HTML with Nu Html Checker
+        run: |
+          curl --fail --location --retry 3 -o /tmp/vnu.jar https://github.com/validator/validator/releases/download/latest/vnu.jar
+          java -jar /tmp/vnu.jar --errors-only --skip-non-html _site
+      - name: Demonstrate rejection of broken links
+        run: |
+          cp index.html /tmp/index.html
+          python -c "from pathlib import Path; p=Path('index.html'); p.write_text(p.read_text().replace('</main>', '<a href=\"missing-ci-probe/\">CI probe</a></main>'))"
+          if python tools/check.py; then exit 1; fi
+          cp /tmp/index.html index.html
+          python tools/check.py
+      - uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main' && github.event_name != 'schedule'
+        with:
+          path: _site
+  external-links:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python tools/check.py --external
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'schedule'
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy validated public files
+        id: deployment
+        uses: actions/deploy-pages@v4
