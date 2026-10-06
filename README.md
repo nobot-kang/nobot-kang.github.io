@@ -11,7 +11,7 @@
 ## 구조와 미리보기
 
 - `index.html`, `series/`, `posts/`: 홈, 시리즈, 네 편의 글.
-- `privacy/`, `404.html`: 개인정보 안내와 없는 주소의 복귀 화면.
+- `privacy/`, `license/`, `404.html`: 개인정보 안내와 없는 주소의 복귀 화면.
 - `assets/`: 공통 스타일·광고/분석 스크립트, 그림, 공개 집계 JSON.
 - `ads.txt`, `robots.txt`, `sitemap.xml`, 아이콘: 광고·검색·브라우저 자산.
 - `public-files.json`: 실제 Pages 배포 허용 목록.
@@ -89,3 +89,12 @@ PR과 `main` 푸시에 내부 링크·앵커, 이미지 경로, JSON·JSON-LD, �
 배포 소스는 GitHub Actions입니다. 검사를 통과한 `main`의 `public-files.json`
 목록만 `_site/`로 모아 Pages artifact로 업로드합니다. README, 도구, 워크플로,
 검토 자료는 사이트로 배포하지 않습니다. 필수 검사 이름은 `Public site checks`입니다.
+
+## 라이선스
+
+코드는 [MIT](LICENSE.txt), 원본 글·분석 그림·비교표는 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ko)입니다.
+상업적 이용이 가능하며 출처·라이선스·변경 사실을 표시하고, 수정한 저작물 공유 시
+동일조건을 적용해야 합니다. 캐릭터·로고·캐릭터가 포함된 공유 카드와 아이콘은
+**All rights reserved**로 제외됩니다. 원자료와 단순 사실·수치의 권리를 새로
+제한하지 않습니다. 이전 배포본의 기부여 허락을 소급 철회하지 않습니다.
+자세한 자산별 범위는 [이용 조건](https://nobot-kang.github.io/license/)에서 확인합니다.

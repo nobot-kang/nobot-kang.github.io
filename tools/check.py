@@ -65,6 +65,8 @@ def check(root):
             assert ('kang.nobot@gmail.com' not in source) or name == 'privacy/index.html', name
             doc = docs[name] = Document(source)
             assert doc.h1 == 1 and len(doc.jsons) == 2, name
+            assert '글·그림 CC BY-SA 4.0' in source and '캐릭터 All rights reserved' in source, name
+            assert 'CC BY-NC' not in source, name
             assert doc.meta['referrer'] == 'strict-origin-when-cross-origin', name
             assert "object-src 'none'" in doc.meta['Content-Security-Policy'], name
             schema, runtime = doc.jsons
