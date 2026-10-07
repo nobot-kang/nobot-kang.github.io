@@ -2,6 +2,7 @@
 import argparse
 import json
 import shutil
+import re
 from datetime import datetime
 from html.parser import HTMLParser
 from pathlib import Path
@@ -10,7 +11,6 @@ from urllib.request import urlopen
 import xml.etree.ElementTree as ET
 
 SITE = 'https://nobot-kang.github.io/'
-GAMES = {'/apt-vs/', '/apt-king/', '/apt-guessing/'}
 
 
 class Document(HTMLParser):
@@ -53,6 +53,11 @@ class Document(HTMLParser):
 def check(root):
     names = json.loads((root/'public-files.json').read_text())
     assert len(names) == len(set(names))
+    games = json.loads((root/'games.json').read_text())
+    game_routes = [game['route'] for game in games]
+    assert len(game_routes) == len(set(game_routes)), 'duplicate game route'
+    assert all(re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*/', route) for route in game_routes), 'invalid game route'
+    game_paths = {'/'+route for route in game_routes}
     docs = {}
     for name in names:
         path = root/name
@@ -91,7 +96,7 @@ def check(root):
             url = urlsplit(urljoin(SITE+name, link))
             if url.scheme in {'mailto', 'data'}:
                 continue
-            if url.netloc != urlsplit(SITE).netloc or any(url.path.startswith(game) for game in GAMES):
+            if url.netloc != urlsplit(SITE).netloc or any(url.path.startswith(game) for game in game_paths):
                 if url.scheme in {'http', 'https'}:
                     external.add(url.geturl())
                 continue
@@ -105,9 +110,27 @@ def check(root):
     assert (root/'.nojekyll').is_file()
     sitemap = ET.parse(root/'sitemap.xml')
     ns = {'s':'http://www.sitemaps.org/schemas/sitemap/0.9'}
-    locations = {el.text for el in sitemap.findall('s:url/s:loc', ns)}
+    entries = sitemap.findall('s:url', ns)
+    locations = {el.findtext('s:loc', namespaces=ns) for el in entries}
     expected = {SITE+name.removesuffix('index.html') for name in docs if name != '404.html'}
-    assert locations == expected, 'sitemap must match indexable pages'
+    game_urls = {SITE+route for route in game_routes}
+    assert not expected & game_urls, 'game routes must not shadow blog pages'
+    assert game_urls <= set(docs['index.html'].links), 'every game needs a home link'
+    expected |= game_urls
+    assert len(entries) == len(locations) and locations == expected, 'sitemap must match indexable pages and games'
+    by_url = {el.findtext('s:loc', namespaces=ns):el for el in entries}
+    for location, entry in by_url.items():
+        modified = entry.findtext('s:lastmod', namespaces=ns)
+        if location not in game_urls:
+            assert modified, 'blog sitemap entries require lastmod'
+        if modified:
+            assert re.fullmatch(r'\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}:\d{2}(Z|[+-]\d{2}:\d{2}))?', modified), 'invalid lastmod'
+            datetime.fromisoformat(modified)
+    for name, doc in docs.items():
+        if name.startswith('posts/'):
+            assert by_url[SITE+name.removesuffix('index.html')].findtext('s:lastmod', namespaces=ns) == doc.jsons[0]['dateModified'], 'article lastmod must match dateModified'
+    for game in games:
+        assert by_url[SITE+game['route']].findtext('s:lastmod', namespaces=ns) == game.get('modified'), 'game lastmod requires verified metadata'
     print(f'{len(names)} public files, {len(docs)} pages: links, anchors, JSON, policy and metadata passed')
     return names, external
 
