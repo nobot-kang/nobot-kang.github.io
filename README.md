@@ -10,7 +10,7 @@
 
 ## 구조와 미리보기
 
-- `index.html`, `series/`, `posts/`: 홈, 시리즈, 네 편의 글.
+- `index.html`, `series/`, `posts/`: 홈, 두 시리즈, 여덟 편의 글.
 - `privacy/`, `license/`, `404.html`: 개인정보 안내와 없는 주소의 복귀 화면.
 - `assets/`: 공통 스타일·광고/분석 스크립트, 그림, 공개 집계 JSON.
 - `ads.txt`, `robots.txt`, `sitemap.xml`, 아이콘: 광고·검색·브라우저 자산.
@@ -25,7 +25,7 @@ Python 3.13 이상에서 `python -m http.server 8766 --bind 127.0.0.1`로 열고
 
 ## 글 추가와 설정 변경
 
-1. 비공개 원본의 `weblog/content/`에 본문을 쓰고 `pages.json`에 경로·제목·날짜·광고 위치를 등록합니다. 시리즈 목록은 `weblog/series.py`에서 관리합니다.
+1. 비공개 원본의 `weblog/content/`에 본문을 쓰고 `pages.json`에 경로·제목·날짜·광고 위치를 등록합니다. 시리즈 목록은 `weblog/series.py`와 `weblog/statistics_series.py`에서 관리합니다.
 2. 루트 환경에서 생성기와 본문·집계·브라우저 검사를 실행합니다. 공개 집계만 승인하며 기존 경로를 유지합니다.
 3. `python -m weblog.export_public <공개 저장소 체크아웃>`으로 허용된 파일만 복사하고 변경을 검토한 뒤 PR을 만듭니다. 필수 CI 통과 후 `main`에 병합하면 Pages에 배포됩니다.
 
@@ -113,3 +113,7 @@ PR과 `main` 푸시에 내부 링크·앵커, 이미지 경로, JSON·JSON-LD, �
 **All rights reserved**로 제외됩니다. 원자료와 단순 사실·수치의 권리를 새로
 제한하지 않습니다. 이전 배포본의 기부여 허락을 소급 철회하지 않습니다.
 자세한 자산별 범위는 [이용 조건](https://nobot-kang.github.io/license/)에서 확인합니다.
+
+## 통계의 함정 강의
+
+[시리즈 목차](https://nobot-kang.github.io/series/statistics-traps/)에서 평균·중앙값, 집계의 재집계, 세대수·면적 가중, 변화율과 용어를 배웁니다. 실제 수치는 기존 `assets/series-followups.json`의 두 지역·두 평형군·두 계약월 집계를 재사용합니다. 세대수 가중 설명의 수치는 가상 예시입니다. `stats-*.svg`와 `stats-*.png`는 seaborn으로 만든 강의 그림이며 모바일용 SVG를 별도로 제공합니다.
