@@ -39,10 +39,11 @@ p { margin: 0 0 22px; }
 .note-label { color: var(--teal); font-size: 13px; }
 .feature-note p { font-size: 27px; color: var(--navy); line-height: 1.7; margin: 20px 0; font-weight: 650; }
 .home-section { padding: 48px 0; border-bottom: 1px solid var(--line); }
-.games-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; margin-top: 28px; }
+.games-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 36px; margin-top: 28px; }
+.games-grid article { display: flex; flex-direction: column; align-items: flex-start; }
 .games-grid h3 { margin: 8px 0 14px; }
 .games-grid p { font-size: 16px; }
-.games-grid a { min-height: 44px; display: inline-flex; align-items: center; font-size: 15px; }
+.games-grid a { min-height: 44px; display: inline-flex; align-items: center; font-size: 15px; margin-top: auto; }
 .game-index { font-size: 14px; color: var(--teal); font-variant-numeric: tabular-nums; }
 .author { display: flex; align-items: center; gap: 30px; }
 .author img { width: 160px; flex: 0 0 160px; }
@@ -132,6 +133,7 @@ blockquote p { margin: 0; }
 .consent-reopen { min-height: 44px; padding: 8px 12px; border: 1px solid currentColor; border-radius: 4px; color: var(--navy); background: var(--surface); font: inherit; cursor: pointer; }
 .consent-reopen:hover { color: var(--teal); }
 @media(max-width: 1180px) { main, .site-footer { margin-left: 28px; margin-right: 28px; } }
+@media(max-width: 960px) { .games-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media(max-width: 680px) {
   /* Leave room for the header even when its navigation wraps to two rows. */
   html { scroll-padding-top: 150px; }
