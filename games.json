@@ -18,5 +18,10 @@
     "name": "APT BIN",
     "route": "apt-bin/",
     "description": "아파트 값 분리 수거.\n두 기준 가격을 보고 추정가격의 구간을 맞혀보세요."
+  },
+  {
+    "name": "APT SENSE",
+    "route": "apt-sense/",
+    "description": "감각 온도계.\n예상 가격을 입력하고 모델 추정가격과의 차이를 확인해 보세요."
   }
 ]
