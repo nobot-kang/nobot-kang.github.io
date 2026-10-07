@@ -3,7 +3,7 @@ html { scroll-padding-top: 128px; }
 body { margin: 0; background: var(--paper); color: var(--ink); font: 18px/1.85 var(--font); word-break: keep-all; overflow-wrap: anywhere; }
 a { color: var(--teal); text-decoration-thickness: 1px; text-underline-offset: 4px; }
 a:hover { color: var(--navy); }
-a:focus-visible, summary:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--teal); outline-offset: 5px; border-radius: 2px; }
+a:focus-visible, button:focus-visible, summary:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--teal); outline-offset: 5px; border-radius: 2px; }
 img { max-width: 100%; height: auto; }
 .skip-link { position: fixed; left: 16px; top: -100px; z-index: 10; background: var(--surface); padding: 12px 20px; }
 .skip-link:focus { top: 12px; }
@@ -129,6 +129,8 @@ blockquote p { margin: 0; }
 .site-footer details { max-width: 740px; margin-top: 18px; }
 .site-footer summary { cursor: pointer; min-height: 44px; }
 .site-footer details p { margin-bottom: 12px; }
+.consent-reopen { min-height: 44px; padding: 8px 12px; border: 1px solid currentColor; border-radius: 4px; color: var(--navy); background: var(--surface); font: inherit; cursor: pointer; }
+.consent-reopen:hover { color: var(--teal); }
 @media(max-width: 1180px) { main, .site-footer { margin-left: 28px; margin-right: 28px; } }
 @media(max-width: 680px) {
   /* Leave room for the header even when its navigation wraps to two rows. */

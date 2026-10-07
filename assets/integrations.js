@@ -45,6 +45,31 @@
     placements.forEach(placement => { placement.hidden = true; });
     return;
   }
+  // Reopen the certified CMP; never synthesize a user's consent choice.
+  const reopen = document.getElementById('consent-reopen');
+  const feedback = document.getElementById('consent-feedback');
+  if (reopen) {
+    const failed = () => { if (feedback) feedback.hidden = false; };
+    window.googlefc = window.googlefc || {};
+    window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+    window.googlefc.callbackQueue.push({CONSENT_API_READY: () => {
+      if (typeof window.__tcfapi !== 'function') return;
+      try {
+        window.__tcfapi('addEventListener', 0, (data, success) => {
+          reopen.hidden = !(success && data?.gdprApplies === true &&
+            typeof window.googlefc.showRevocationMessage === 'function');
+        });
+      } catch { reopen.hidden = true; }
+    }});
+    reopen.addEventListener('click', () => {
+      if (feedback) feedback.hidden = true;
+      try {
+        window.googlefc.callbackQueue.push({CONSENT_API_READY: () => {
+          try { window.googlefc.showRevocationMessage(); } catch { failed(); }
+        }});
+      } catch { failed(); }
+    });
+  }
   const pending = new Set();
   const collapse = placement => {
     const rect = placement.getBoundingClientRect();
