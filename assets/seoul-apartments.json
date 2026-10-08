@@ -1,11 +1,11 @@
 {
-  "schema": "seoul_apartments_2025_v1",
+  "schema": "seoul_apartments_2025_2026q1_v2",
   "snapshot_built_date": "2026-10-04",
   "reference_end": "2026-09",
   "information_cutoff": null,
   "source": "국토교통부 아파트 매매 실거래가 상세 자료",
   "source_url": "https://www.data.go.kr/data/15126468/openapi.do",
-  "population": "2025 Seoul 25 districts, all exclusive areas; eligible_strict AND NOT land; merged contracts",
+  "population": "2025-01-01 through 2026-03-31 Seoul 25 districts, all exclusive areas; eligible_strict AND NOT land; merged contracts",
   "amount_unit": "만원",
   "minimum_support": 10,
   "bands": [
@@ -16,6 +16,16 @@
     "25억 초과"
   ],
   "periods": [
+    {
+      "start": "2025-01-01",
+      "end": "2025-02-12",
+      "days": 43
+    },
+    {
+      "start": "2025-02-13",
+      "end": "2025-03-23",
+      "days": 39
+    },
     {
       "start": "2025-03-24",
       "end": "2025-06-27",
@@ -30,8 +40,20 @@
       "start": "2025-10-16",
       "end": "2025-12-31",
       "days": 77
+    },
+    {
+      "start": "2026-01-01",
+      "end": "2026-03-31",
+      "days": 90
     }
   ],
+  "group_names": {
+    "A": "강남3구",
+    "B": "마용성",
+    "C": "노도강",
+    "D": "금관구",
+    "기타 13개 구": "기타 13개 구"
+  },
   "groups": {
     "A": "강남·서초·송파",
     "B": "마포·용산·성동",
@@ -39,131 +61,170 @@
     "D": "금천·관악·구로",
     "기타 13개 구": "나머지 서울 13개 구"
   },
-  "audit": {
-    "merged_n": 77887,
-    "admitted_n": 69280,
-    "districts": 25
-  },
+  "audit": [
+    {
+      "span": "2025",
+      "merged_n": 77887,
+      "admitted_n": 69280,
+      "districts": 25
+    },
+    {
+      "span": "2026-Q1",
+      "merged_n": 16758,
+      "admitted_n": 15743,
+      "districts": 25
+    }
+  ],
   "quarterly": [
     {
-      "quarter": 1,
+      "quarter": "2025-Q1",
       "grp": "A",
       "n": 4592,
       "amount": 1116398390
     },
     {
-      "quarter": 1,
+      "quarter": "2025-Q1",
       "grp": "B",
       "n": 2415,
       "amount": 397615648
     },
     {
-      "quarter": 1,
+      "quarter": "2025-Q1",
       "grp": "C",
       "n": 1562,
       "amount": 91861310
     },
     {
-      "quarter": 1,
+      "quarter": "2025-Q1",
       "grp": "D",
       "n": 1205,
       "amount": 84143790
     },
     {
-      "quarter": 1,
+      "quarter": "2025-Q1",
       "grp": "기타 13개 구",
       "n": 7925,
       "amount": 842023780
     },
     {
-      "quarter": 2,
+      "quarter": "2025-Q2",
       "grp": "A",
       "n": 2284,
       "amount": 568307770
     },
     {
-      "quarter": 2,
+      "quarter": "2025-Q2",
       "grp": "B",
       "n": 2881,
       "amount": 476072930
     },
     {
-      "quarter": 2,
+      "quarter": "2025-Q2",
       "grp": "C",
       "n": 2381,
       "amount": 145060440
     },
     {
-      "quarter": 2,
+      "quarter": "2025-Q2",
       "grp": "D",
       "n": 1734,
       "amount": 127554984
     },
     {
-      "quarter": 2,
+      "quarter": "2025-Q2",
       "grp": "기타 13개 구",
       "n": 11659,
       "amount": 1303265622
     },
     {
-      "quarter": 3,
+      "quarter": "2025-Q3",
       "grp": "A",
       "n": 1802,
       "amount": 409923020
     },
     {
-      "quarter": 3,
+      "quarter": "2025-Q3",
       "grp": "B",
       "n": 1845,
       "amount": 302346124
     },
     {
-      "quarter": 3,
+      "quarter": "2025-Q3",
       "grp": "C",
       "n": 1843,
       "amount": 113603550
     },
     {
-      "quarter": 3,
+      "quarter": "2025-Q3",
       "grp": "D",
       "n": 1363,
       "amount": 102224070
     },
     {
-      "quarter": 3,
+      "quarter": "2025-Q3",
       "grp": "기타 13개 구",
       "n": 8466,
       "amount": 922208615
     },
     {
-      "quarter": 4,
+      "quarter": "2025-Q4",
       "grp": "A",
       "n": 2461,
       "amount": 545600551
     },
     {
-      "quarter": 4,
+      "quarter": "2025-Q4",
       "grp": "B",
       "n": 1360,
       "amount": 229380369
     },
     {
-      "quarter": 4,
+      "quarter": "2025-Q4",
       "grp": "C",
       "n": 1915,
       "amount": 123765450
     },
     {
-      "quarter": 4,
+      "quarter": "2025-Q4",
       "grp": "D",
       "n": 1442,
       "amount": 112736265
     },
     {
-      "quarter": 4,
+      "quarter": "2025-Q4",
       "grp": "기타 13개 구",
       "n": 8145,
       "amount": 902240973
+    },
+    {
+      "quarter": "2026-Q1",
+      "grp": "A",
+      "n": 1712,
+      "amount": 386071246
+    },
+    {
+      "quarter": "2026-Q1",
+      "grp": "B",
+      "n": 990,
+      "amount": 170464173
+    },
+    {
+      "quarter": "2026-Q1",
+      "grp": "C",
+      "n": 2933,
+      "amount": 188350679
+    },
+    {
+      "quarter": "2026-Q1",
+      "grp": "D",
+      "n": 1884,
+      "amount": 145280450
+    },
+    {
+      "quarter": "2026-Q1",
+      "grp": "기타 13개 구",
+      "n": 8224,
+      "amount": 868903455
     }
   ],
   "monthly": [
@@ -526,98 +587,460 @@
       "band": 4,
       "n": 224,
       "amount": 83442381
+    },
+    {
+      "ym": "2026-01",
+      "band": 0,
+      "n": 1030,
+      "amount": 46022670
+    },
+    {
+      "ym": "2026-01",
+      "band": 1,
+      "n": 1374,
+      "amount": 104482887
+    },
+    {
+      "ym": "2026-01",
+      "band": 2,
+      "n": 1646,
+      "amount": 194204580
+    },
+    {
+      "ym": "2026-01",
+      "band": 3,
+      "n": 762,
+      "amount": 142402540
+    },
+    {
+      "ym": "2026-01",
+      "band": 4,
+      "n": 309,
+      "amount": 114224250
+    },
+    {
+      "ym": "2026-02",
+      "band": 0,
+      "n": 1179,
+      "amount": 53894829
+    },
+    {
+      "ym": "2026-02",
+      "band": 1,
+      "n": 1541,
+      "amount": 116204107
+    },
+    {
+      "ym": "2026-02",
+      "band": 2,
+      "n": 1743,
+      "amount": 201849944
+    },
+    {
+      "ym": "2026-02",
+      "band": 3,
+      "n": 752,
+      "amount": 140677178
+    },
+    {
+      "ym": "2026-02",
+      "band": 4,
+      "n": 264,
+      "amount": 100298380
+    },
+    {
+      "ym": "2026-03",
+      "band": 0,
+      "n": 1267,
+      "amount": 56566640
+    },
+    {
+      "ym": "2026-03",
+      "band": 1,
+      "n": 1540,
+      "amount": 115087904
+    },
+    {
+      "ym": "2026-03",
+      "band": 2,
+      "n": 1482,
+      "amount": 171770673
+    },
+    {
+      "ym": "2026-03",
+      "band": 3,
+      "n": 616,
+      "amount": 114489420
+    },
+    {
+      "ym": "2026-03",
+      "band": 4,
+      "n": 238,
+      "amount": 86894001
     }
   ],
   "period_bands": [
     {
       "period": 0,
       "band": 0,
+      "n": 905,
+      "amount": 38405060
+    },
+    {
+      "period": 0,
+      "band": 1,
+      "n": 1108,
+      "amount": 84255110
+    },
+    {
+      "period": 0,
+      "band": 2,
+      "n": 1485,
+      "amount": 174745390
+    },
+    {
+      "period": 0,
+      "band": 3,
+      "n": 821,
+      "amount": 158367996
+    },
+    {
+      "period": 0,
+      "band": 4,
+      "n": 473,
+      "amount": 177276186
+    },
+    {
+      "period": 1,
+      "band": 0,
+      "n": 1482,
+      "amount": 64083109
+    },
+    {
+      "period": 1,
+      "band": 1,
+      "n": 2154,
+      "amount": 164359490
+    },
+    {
+      "period": 1,
+      "band": 2,
+      "n": 3709,
+      "amount": 441355163
+    },
+    {
+      "period": 1,
+      "band": 3,
+      "n": 2657,
+      "amount": 510976746
+    },
+    {
+      "period": 1,
+      "band": 4,
+      "n": 1610,
+      "amount": 579403998
+    },
+    {
+      "period": 2,
+      "band": 0,
       "n": 3629,
       "amount": 161864383
     },
     {
-      "period": 0,
+      "period": 2,
       "band": 1,
       "n": 5308,
       "amount": 404283265
     },
     {
-      "period": 0,
+      "period": 2,
       "band": 2,
       "n": 7386,
       "amount": 874331612
     },
     {
-      "period": 0,
+      "period": 2,
       "band": 3,
       "n": 3928,
       "amount": 728844406
     },
     {
-      "period": 0,
+      "period": 2,
       "band": 4,
       "n": 1436,
       "amount": 525999080
     },
     {
-      "period": 1,
+      "period": 3,
       "band": 0,
       "n": 3536,
       "amount": 157078325
     },
     {
-      "period": 1,
+      "period": 3,
       "band": 1,
       "n": 5146,
       "amount": 392047235
     },
     {
-      "period": 1,
+      "period": 3,
       "band": 2,
       "n": 7472,
       "amount": 880573480
     },
     {
-      "period": 1,
+      "period": 3,
       "band": 3,
       "n": 3667,
       "amount": 677096050
     },
     {
-      "period": 1,
+      "period": 3,
       "band": 4,
       "n": 1098,
       "amount": 400711034
     },
     {
-      "period": 2,
+      "period": 4,
       "band": 0,
       "n": 1853,
       "amount": 83175000
     },
     {
-      "period": 2,
+      "period": 4,
       "band": 1,
       "n": 2516,
       "amount": 190745643
     },
     {
-      "period": 2,
+      "period": 4,
       "band": 2,
       "n": 3213,
       "amount": 378014730
     },
     {
-      "period": 2,
+      "period": 4,
       "band": 3,
       "n": 1763,
       "amount": 334425120
     },
     {
-      "period": 2,
+      "period": 4,
       "band": 4,
       "n": 925,
       "amount": 333916040
+    },
+    {
+      "period": 5,
+      "band": 0,
+      "n": 3476,
+      "amount": 156484139
+    },
+    {
+      "period": 5,
+      "band": 1,
+      "n": 4455,
+      "amount": 335774898
+    },
+    {
+      "period": 5,
+      "band": 2,
+      "n": 4871,
+      "amount": 567825197
+    },
+    {
+      "period": 5,
+      "band": 3,
+      "n": 2130,
+      "amount": 397569138
+    },
+    {
+      "period": 5,
+      "band": 4,
+      "n": 811,
+      "amount": 301416631
+    }
+  ],
+  "period_regions": [
+    {
+      "period": 0,
+      "grp": "A",
+      "n": 1118,
+      "amount": 265021940
+    },
+    {
+      "period": 0,
+      "grp": "B",
+      "n": 596,
+      "amount": 95792992
+    },
+    {
+      "period": 0,
+      "grp": "C",
+      "n": 480,
+      "amount": 28030400
+    },
+    {
+      "period": 0,
+      "grp": "D",
+      "n": 363,
+      "amount": 24529700
+    },
+    {
+      "period": 0,
+      "grp": "기타 13개 구",
+      "n": 2235,
+      "amount": 219674710
+    },
+    {
+      "period": 1,
+      "grp": "A",
+      "n": 3439,
+      "amount": 838803450
+    },
+    {
+      "period": 1,
+      "grp": "B",
+      "n": 1655,
+      "amount": 277958656
+    },
+    {
+      "period": 1,
+      "grp": "C",
+      "n": 910,
+      "amount": 53497060
+    },
+    {
+      "period": 1,
+      "grp": "D",
+      "n": 717,
+      "amount": 50584200
+    },
+    {
+      "period": 1,
+      "grp": "기타 13개 구",
+      "n": 4891,
+      "amount": 539335140
+    },
+    {
+      "period": 2,
+      "grp": "A",
+      "n": 2231,
+      "amount": 561663500
+    },
+    {
+      "period": 2,
+      "grp": "B",
+      "n": 2991,
+      "amount": 491769630
+    },
+    {
+      "period": 2,
+      "grp": "C",
+      "n": 2478,
+      "amount": 150744840
+    },
+    {
+      "period": 2,
+      "grp": "D",
+      "n": 1804,
+      "amount": 132468874
+    },
+    {
+      "period": 2,
+      "grp": "기타 13개 구",
+      "n": 12183,
+      "amount": 1358675902
+    },
+    {
+      "period": 3,
+      "grp": "A",
+      "n": 2171,
+      "amount": 491388140
+    },
+    {
+      "period": 3,
+      "grp": "B",
+      "n": 2456,
+      "amount": 401988024
+    },
+    {
+      "period": 3,
+      "grp": "C",
+      "n": 2508,
+      "amount": 156779050
+    },
+    {
+      "period": 3,
+      "grp": "D",
+      "n": 1887,
+      "amount": 144427215
+    },
+    {
+      "period": 3,
+      "grp": "기타 13개 구",
+      "n": 11897,
+      "amount": 1312923695
+    },
+    {
+      "period": 4,
+      "grp": "A",
+      "n": 2180,
+      "amount": 483352701
+    },
+    {
+      "period": 4,
+      "grp": "B",
+      "n": 803,
+      "amount": 137905769
+    },
+    {
+      "period": 4,
+      "grp": "C",
+      "n": 1325,
+      "amount": 85239400
+    },
+    {
+      "period": 4,
+      "grp": "D",
+      "n": 973,
+      "amount": 74649120
+    },
+    {
+      "period": 4,
+      "grp": "기타 13개 구",
+      "n": 4989,
+      "amount": 539129543
+    },
+    {
+      "period": 5,
+      "grp": "A",
+      "n": 1712,
+      "amount": 386071246
+    },
+    {
+      "period": 5,
+      "grp": "B",
+      "n": 990,
+      "amount": 170464173
+    },
+    {
+      "period": 5,
+      "grp": "C",
+      "n": 2933,
+      "amount": 188350679
+    },
+    {
+      "period": 5,
+      "grp": "D",
+      "n": 1884,
+      "amount": 145280450
+    },
+    {
+      "period": 5,
+      "grp": "기타 13개 구",
+      "n": 8224,
+      "amount": 868903455
     }
   ]
 }
