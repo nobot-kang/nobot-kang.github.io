@@ -1,0 +1,177 @@
+{
+  "schema": "seoul_mix_v1",
+  "snapshot_built_date": "2026-10-04",
+  "information_cutoff": null,
+  "reference_end": "2026-09",
+  "region": "노원구",
+  "region_code": "11350",
+  "population": "2025-12 and 2026-01 contracts; all exclusive areas; eligible_strict AND NOT land",
+  "amount_unit": "만원",
+  "minimum_support": 10,
+  "source_url": "https://www.data.go.kr/data/15126468/openapi.do",
+  "selection": "Post-hoc teaching example, not a representative sample or causal test.",
+  "search_window": [
+    "2025-01",
+    "2026-03"
+  ],
+  "search": {
+    "month": {
+      "candidate_pairs": 350,
+      "support_and_same_dongs_pairs": 51,
+      "all_dongs_up_total_down_pairs": 0
+    },
+    "quarter": {
+      "candidate_pairs": 100,
+      "support_and_same_dongs_pairs": 32,
+      "all_dongs_up_total_down_pairs": 0
+    }
+  },
+  "cells": [
+    {
+      "dong": "10200",
+      "ym": "2025-12",
+      "n": 67,
+      "amount": 4804100,
+      "mean_area_m2": 63.111558208955195,
+      "q25": 59650.0,
+      "median": 73800.0,
+      "q75": 87000.0,
+      "name": "월계동"
+    },
+    {
+      "dong": "10200",
+      "ym": "2026-01",
+      "n": 69,
+      "amount": 5168150,
+      "mean_area_m2": 66.2279608695652,
+      "q25": 59500.0,
+      "median": 77300.0,
+      "q75": 88000.0,
+      "name": "월계동"
+    },
+    {
+      "dong": "10300",
+      "ym": "2025-12",
+      "n": 69,
+      "amount": 4186850,
+      "mean_area_m2": 62.598913043478255,
+      "q25": 49000.0,
+      "median": 57900.0,
+      "q75": 70000.0,
+      "name": "공릉동"
+    },
+    {
+      "dong": "10300",
+      "ym": "2026-01",
+      "n": 81,
+      "amount": 5119400,
+      "mean_area_m2": 64.3193333333333,
+      "q25": 51000.0,
+      "median": 59800.0,
+      "q75": 77850.0,
+      "name": "공릉동"
+    },
+    {
+      "dong": "10400",
+      "ym": "2025-12",
+      "n": 41,
+      "amount": 2846750,
+      "mean_area_m2": 65.74336585365853,
+      "q25": 53800.0,
+      "median": 65300.0,
+      "q75": 83000.0,
+      "name": "하계동"
+    },
+    {
+      "dong": "10400",
+      "ym": "2026-01",
+      "n": 50,
+      "amount": 3486250,
+      "mean_area_m2": 68.76544000000003,
+      "q25": 50175.0,
+      "median": 67000.0,
+      "q75": 88325.0,
+      "name": "하계동"
+    },
+    {
+      "dong": "10500",
+      "ym": "2025-12",
+      "n": 169,
+      "amount": 10128050,
+      "mean_area_m2": 61.39079171597636,
+      "q25": 47500.0,
+      "median": 56500.0,
+      "q75": 69000.0,
+      "name": "상계동"
+    },
+    {
+      "dong": "10500",
+      "ym": "2026-01",
+      "n": 211,
+      "amount": 12187070,
+      "mean_area_m2": 58.50244454976301,
+      "q25": 49850.0,
+      "median": 57500.0,
+      "q75": 67400.0,
+      "name": "상계동"
+    },
+    {
+      "dong": "10600",
+      "ym": "2025-12",
+      "n": 107,
+      "amount": 8069550,
+      "mean_area_m2": 73.63507943925234,
+      "q25": 54650.0,
+      "median": 67500.0,
+      "q75": 87400.0,
+      "name": "중계동"
+    },
+    {
+      "dong": "10600",
+      "ym": "2026-01",
+      "n": 99,
+      "amount": 7659700,
+      "mean_area_m2": 71.06204040404043,
+      "q25": 54500.0,
+      "median": 68000.0,
+      "q75": 98100.0,
+      "name": "중계동"
+    }
+  ],
+  "totals": [
+    {
+      "ym": "2025-12",
+      "n": 453,
+      "amount": 30035300,
+      "mean_area_m2": 65.11539668874161,
+      "q25": 51500.0,
+      "median": 60000.0,
+      "q75": 81000.0
+    },
+    {
+      "ym": "2026-01",
+      "n": 510,
+      "amount": 33620570,
+      "mean_area_m2": 63.91573549019601,
+      "q25": 51000.0,
+      "median": 60000.0,
+      "q75": 77962.5
+    }
+  ],
+  "synthetic": [
+    {
+      "name": "낮은 가격 동",
+      "before_n": 20,
+      "before_mean": 50000,
+      "after_n": 80,
+      "after_mean": 60000
+    },
+    {
+      "name": "높은 가격 동",
+      "before_n": 80,
+      "before_mean": 150000,
+      "after_n": 20,
+      "after_mean": 160000
+    }
+  ]
+}

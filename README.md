@@ -134,3 +134,17 @@ have mobile SVG variants and PNG metadata images. Monthly charts retain all twel
 share figure uses only those twelve districts, while the Seoul-wide share figure
 retains all 25. These comparisons do not estimate causal policy effects, actual
 loan amounts, cash inflows or time-to-sale.
+
+### 평균과 거래 구성 사례
+
+`assets/seoul-mix.json` (`seoul_mix_v1`) is a separate admitted teaching example:
+Nowon, December 2025 and January 2026, all exclusive areas, same eligibility and
+October 4 snapshot as the Seoul series. `cells` has ten legal-dong/month aggregates;
+`totals` has two pooled aggregates. `n` counts contracts; `amount` sums 만원;
+`q25`, `median`, `q75` are transaction price quantiles in 만원, not uncertainty bounds;
+`mean_area_m2` averages exclusive square metres. `synthetic` holds explicitly fictitious
+two-dong counts and mean amounts. Never treat those rows as observed Seoul transactions.
+`search` records the post-hoc example search over adjacent 2025–2026 Q1 months/quarters,
+with minimum 10 trades per dong/period and identical observed dong sets in both periods.
+`seoul-mix-*` figures distinguish the hypothetical reversal, actual dong mean changes,
+and descriptive fixed-composition calculation. No individual transactions are published.
