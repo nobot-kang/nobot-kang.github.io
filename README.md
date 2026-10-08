@@ -117,3 +117,17 @@ PR과 `main` 푸시에 내부 링크·앵커, 이미지 경로, JSON·JSON-LD, �
 ## 통계의 함정 강의
 
 [시리즈 목차](https://nobot-kang.github.io/series/statistics-traps/)에서 평균·중앙값, 집계의 재집계, 세대수·면적 가중, 변화율과 용어를 배웁니다. 실제 수치는 기존 `assets/series-followups.json`의 두 지역·두 평형군·두 계약월 집계를 재사용합니다. 세대수 가중 설명의 수치는 가상 예시입니다. `stats-*.svg`와 `stats-*.png`는 seaborn으로 만든 강의 그림이며 모바일용 SVG를 별도로 제공합니다.
+
+## 서울 아파트 자료
+
+`assets/seoul-apartments.json` contains 2025 Seoul aggregates, not individual trades.
+`quarterly` holds quarter × A/B/C/D/remaining-13-district counts and amounts;
+`monthly` holds month × five right-closed price bands; `period_bands` uses the three
+inclusive date windows in `periods`. `n` is eligible contract count, `amount` is total
+contract value in 만원. `bands`, `groups`, snapshot clocks, the population statement,
+minimum support and before/after admission counts are included in the JSON.
+The unnumbered `series/seoul-apartments/` category links the three launch articles.
+The five `seoul-*.svg` figures include dedicated mobile variants; PNGs supply article
+metadata images. Policy citations distinguish announcement, effective dates, and
+loan valuation from reported contract prices. These comparisons do not estimate
+causal policy effects, cash inflows or time-to-sale.
