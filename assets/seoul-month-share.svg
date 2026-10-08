@@ -1612,8 +1612,8 @@ L 644.99976 335.559451
 " style="fill: none; stroke: #cccccc; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_21">
-    <!-- 가격대별 계약금액 비중 -->
-    <g style="fill: #203042" transform="translate(285.426 13.69224) scale(0.12 -0.12)">
+    <!-- 가격대별 계약금액 비중 · 2025년 12개월 -->
+    <g style="fill: #203042" transform="translate(235.836 13.69224) scale(0.12 -0.12)">
      <defs>
       <path id="AppleGothic-a5b" d="M 6189 1965
 L 5133 1965
@@ -2027,6 +2027,80 @@ Q 5395 5190 5529 5174
 Q 5664 5158 5664 5082
 z
 " transform="scale(0.015625)"/>
+      <path id="AppleGothic-148" d="M 1005 2010
+L 378 2010
+L 378 2675
+L 1005 2675
+L 1005 2010
+z
+" transform="scale(0.015625)"/>
+      <path id="AppleGothic-a6d" d="M 5658 5101
+Q 5658 5094 5648 5065
+Q 5638 5037 5626 4973
+Q 5594 4845 5594 4806
+L 5587 -467
+L 5158 -506
+L 5171 2163
+L 4256 2138
+L 4256 -186
+L 3853 -224
+Q 3853 19 3853 393
+Q 3853 768 3859 1274
+Q 3866 1786 3866 2301
+Q 3866 2816 3872 3354
+Q 3878 3898 3881 4211
+Q 3885 4525 3885 4634
+Q 3885 4883 3866 5050
+L 3898 5050
+Q 4051 5050 4188 5034
+Q 4326 5018 4326 4966
+Q 4326 4954 4294 4874
+Q 4262 4794 4262 4717
+Q 4262 4704 4262 4592
+Q 4262 4480 4256 4275
+Q 4250 4070 4250 3910
+Q 4250 3750 4250 3642
+L 4256 2483
+L 5178 2502
+L 5190 4250
+L 5190 4717
+Q 5190 4902 5187 4998
+Q 5184 5094 5171 5190
+L 5248 5190
+Q 5478 5190 5568 5171
+Q 5658 5152 5658 5101
+z
+M 2989 4410
+Q 2989 4205 2966 4009
+Q 2944 3814 2899 3610
+Q 2829 3264 2691 2931
+Q 2554 2598 2362 2266
+Q 2074 1760 1651 1350
+Q 1338 1056 1011 845
+Q 774 685 730 685
+Q 704 698 691 707
+Q 678 717 666 723
+Q 634 749 608 771
+Q 582 794 563 819
+Q 525 870 457 905
+Q 390 941 390 954
+L 403 986
+Q 448 986 666 1114
+Q 992 1293 1280 1549
+Q 1485 1722 1657 1930
+Q 1830 2138 1978 2381
+Q 2291 2893 2464 3526
+Q 2490 3629 2515 3760
+Q 2541 3891 2560 4051
+L 1696 4058
+L 627 4026
+L 627 4403
+Q 723 4397 838 4397
+Q 954 4397 1082 4390
+L 1491 4390
+L 2989 4410
+z
+" transform="scale(0.015625)"/>
      </defs>
      <use xlink:href="#AppleGothic-a5b"/>
      <use xlink:href="#AppleGothic-a97" transform="translate(100 0)"/>
@@ -2040,6 +2114,19 @@ z
      <use xlink:href="#AppleGothic-3" transform="translate(832 0)"/>
      <use xlink:href="#AppleGothic-e57" transform="translate(864 0)"/>
      <use xlink:href="#AppleGothic-10d7" transform="translate(964 0)"/>
+     <use xlink:href="#AppleGothic-3" transform="translate(1064 0)"/>
+     <use xlink:href="#AppleGothic-148" transform="translate(1096 0)"/>
+     <use xlink:href="#AppleGothic-3" transform="translate(1118.5 0)"/>
+     <use xlink:href="#AppleGothic-1a" transform="translate(1150.5 0)"/>
+     <use xlink:href="#AppleGothic-18" transform="translate(1218.5 0)"/>
+     <use xlink:href="#AppleGothic-1a" transform="translate(1286.5 0)"/>
+     <use xlink:href="#AppleGothic-1d" transform="translate(1354.5 0)"/>
+     <use xlink:href="#AppleGothic-bb6" transform="translate(1422.5 0)"/>
+     <use xlink:href="#AppleGothic-3" transform="translate(1522.5 0)"/>
+     <use xlink:href="#AppleGothic-19" transform="translate(1554.5 0)"/>
+     <use xlink:href="#AppleGothic-1a" transform="translate(1622.5 0)"/>
+     <use xlink:href="#AppleGothic-a6d" transform="translate(1690.5 0)"/>
+     <use xlink:href="#AppleGothic-1035" transform="translate(1790.5 0)"/>
     </g>
    </g>
    <g id="legend_1">

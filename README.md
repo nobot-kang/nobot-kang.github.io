@@ -120,14 +120,17 @@ PR과 `main` 푸시에 내부 링크·앵커, 이미지 경로, JSON·JSON-LD, �
 
 ## 서울 아파트 자료
 
-`assets/seoul-apartments.json` contains 2025 Seoul aggregates, not individual trades.
-`quarterly` holds quarter × A/B/C/D/remaining-13-district counts and amounts;
-`monthly` holds month × five right-closed price bands; `period_bands` uses the three
-inclusive date windows in `periods`. `n` is eligible contract count, `amount` is total
-contract value in 만원. `bands`, `groups`, snapshot clocks, the population statement,
-minimum support and before/after admission counts are included in the JSON.
-The unnumbered `series/seoul-apartments/` category links the three launch articles.
-The five `seoul-*.svg` figures include dedicated mobile variants; PNGs supply article
-metadata images. Policy citations distinguish announcement, effective dates, and
-loan valuation from reported contract prices. These comparisons do not estimate
-causal policy effects, cash inflows or time-to-sale.
+`assets/seoul-apartments.json` v2 contains 2025–2026 Q1 Seoul aggregates, not individual trades.
+`quarterly` holds year-quarter × region counts and amounts. `group_names` maps
+internal A/B/C/D keys to 강남3구/마용성/노도강/금관구; `groups` names constituent districts.
+`monthly` holds month × five right-closed price bands. `period_bands` and
+`period_regions` hold the five complete 2025 policy windows plus a separate 2026 Q1
+follow-up. Inclusive dates and day counts are defined in `periods`.
+`n` is eligible contract count; `amount` is contract value in 만원. `audit` separates
+2025 and 2026-Q1 before/after admission counts. Minimum support is 10 per cell.
+The unnumbered `series/seoul-apartments/` category links three articles. Six figures
+have mobile SVG variants and PNG metadata images. Monthly charts retain all twelve
+2025 months on one axis; the 2026 follow-up is reported separately. The four-region
+share figure uses only those twelve districts, while the Seoul-wide share figure
+retains all 25. These comparisons do not estimate causal policy effects, actual
+loan amounts, cash inflows or time-to-sale.
