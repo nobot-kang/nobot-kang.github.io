@@ -10,7 +10,7 @@
 
 ## 구조와 미리보기
 
-- `index.html`, `series/`, `posts/`: 홈, 두 시리즈, 여덟 편의 글.
+- `index.html`, `topics/`, `series/`, `posts/`: 홈, 주제별 전체 글 목록, 세 시리즈와 열두 편의 글.
 - `privacy/`, `license/`, `404.html`: 개인정보 안내와 없는 주소의 복귀 화면.
 - `assets/`: 공통 스타일·광고/분석 스크립트, 그림, 공개 집계 JSON.
 - `ads.txt`, `robots.txt`, `sitemap.xml`, 아이콘: 광고·검색·브라우저 자산.
@@ -25,11 +25,11 @@ Python 3.13 이상에서 `python -m http.server 8766 --bind 127.0.0.1`로 열고
 
 ## 글 추가와 설정 변경
 
-1. 비공개 원본의 `weblog/content/`에 본문을 쓰고 `pages.json`에 경로·제목·날짜·광고 위치를 등록합니다. 시리즈 목록은 `weblog/series.py`와 `weblog/statistics_series.py`에서 관리합니다.
+1. 비공개 원본의 `weblog/content/`에 본문을 쓰고 `pages.json`에 경로·제목·날짜·광고 위치를 등록합니다. 서가·시리즈의 관계는 `weblog/catalog.py`, 시리즈별 글 목록은 해당 카탈로그 모듈에서 관리합니다.
 2. 루트 환경에서 생성기와 본문·집계·브라우저 검사를 실행합니다. 공개 집계만 승인하며 기존 경로를 유지합니다.
 3. `python -m weblog.export_public <공개 저장소 체크아웃>`으로 허용된 파일만 복사하고 변경을 검토한 뒤 PR을 만듭니다. 필수 CI 통과 후 `main`에 병합하면 Pages에 배포됩니다.
 
-메뉴·푸터·메타는 비공개 원본의 `weblog/build.py`, GA·AdSense 계정 및 슬롯은
+메뉴·경로 안내·본문 옆 탐색·서가 목록은 `weblog/navigation.py`, 공통 페이지와 메타는 `weblog/build.py`, GA·AdSense 계정 및 슬롯은
 `weblog/monetization.json`, 공통 런타임은 `weblog/scripts/integrations.js`에서
 수정한 뒤 다시 내보냅니다. 생성된 HTML을 직접 수정하면 다음 빌드에서 덮어씁니다.
 공개 ID는 비밀번호가 아니며, API 키나 인증 토큰은 이 저장소에 넣지 않습니다.
