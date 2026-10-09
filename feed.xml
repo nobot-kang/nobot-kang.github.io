@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-10T05:47:29+09:00</updated>
+  <updated>2026-10-10T05:55:17+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>수원·용인·성남 84㎡ 아파트 가격 비교: 10개 구와 연식의 차이</title>
+    <id>https://nobot-kang.github.io/posts/suwon-yongin-seongnam-prices/</id>
+    <published>2026-10-10T05:55:17+09:00</published>
+    <updated>2026-10-10T05:55:17+09:00</updated>
+    <summary>2026년 상반기 수원·용인·성남 10개 구의 84㎡ 실거래 중앙값과 가격 분포를 비교합니다. 서울 대비 비율, 연식 구성과 표본 부족까지 함께 확인하세요.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/suwon-yongin-seongnam-prices/" />
+    <category term="경기도 도시 비교" />
+  </entry>
   <entry>
     <title>주택담보대출 금리 1%p 오르면? 3억·30년 월 상환액 비교</title>
     <id>https://nobot-kang.github.io/posts/mortgage-rate-payment/</id>
@@ -77,7 +86,7 @@
     <title>신축 프리미엄, 연식별 아파트 가격표만으로 알 수 있을까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-age-price-comparison/</id>
     <published>2026-10-10T03:27:14+09:00</published>
-    <updated>2026-10-10T03:41:26+09:00</updated>
+    <updated>2026-10-10T05:55:17+09:00</updated>
     <summary>노원·강서의 2026년 상반기 84㎡ 실거래를 연식별로 비교합니다. 신축 표본이 부족한 칸과 연식별 중앙값 차이, 비교 분모와 입지 혼입을 확인하고 소멸 연도를 단정할 수 없는 이유를 설명합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-age-price-comparison/" />
     <category term="단지 조건 비교" />
@@ -122,7 +131,7 @@
     <title>서울·경기 84㎡ 아파트 가격, 어디까지 겹칠까?</title>
     <id>https://nobot-kang.github.io/posts/seoul-gyeonggi-price-overlap/</id>
     <published>2026-10-09T23:18:56+09:00</published>
-    <updated>2026-10-10T00:35:17+09:00</updated>
+    <updated>2026-10-10T05:55:17+09:00</updated>
     <summary>2026년 상반기 전용84㎡ 이상85㎡ 미만 거래로 서울25구와 수집 경기36지역의 중앙값·가운데50% 구간을 비교합니다. 과천·광명·하남 사례와61지역 전체 표를 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-gyeonggi-price-overlap/" />
     <category term="수도권 가격 지도" />
