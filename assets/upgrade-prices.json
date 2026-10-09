@@ -1,0 +1,253 @@
+{
+  "schema": "observed_upgrade_prices_v1",
+  "period": [
+    "2022-01",
+    "2026-06"
+  ],
+  "source_region": "11350",
+  "target_region": "11500",
+  "regions": {
+    "11350": "노원구",
+    "11500": "강서구"
+  },
+  "area_selector": "84 <= exclusive area_m2 < 85; editorial selector",
+  "snapshot_built_date": "2026-10-04",
+  "reference_end": "2026-09",
+  "information_cutoff": null,
+  "source_url": "https://www.data.go.kr/data/15126468/openapi.do",
+  "amount_unit": "만원",
+  "policy": "strict observed sales excluding land leasehold; contract-weighted half-year linear quantiles",
+  "selection": "preselected Nowon to Gangseo, not a housing-quality ranking or optimum-date search",
+  "price_support_minimum": 40,
+  "complex_support_minimum": 2,
+  "count_support_minimum": 10,
+  "source_shards": 108,
+  "minimum_gap_period": "2022-H1",
+  "rows": [
+    {
+      "period": "2022-H1",
+      "source": {
+        "region": "11350",
+        "period": "2022-H1",
+        "n": 71,
+        "complex_count": "48",
+        "status": "supported",
+        "p25": 76000.0,
+        "median": 93000.0,
+        "p75": 100000.0
+      },
+      "target": {
+        "region": "11500",
+        "period": "2022-H1",
+        "n": 76,
+        "complex_count": "53",
+        "status": "supported",
+        "p25": 80000.0,
+        "median": 98500.0,
+        "p75": 125750.0
+      },
+      "gap": 5500.0,
+      "ratio_pct": 5.913978494623651
+    },
+    {
+      "period": "2022-H2",
+      "source": {
+        "region": "11350",
+        "period": "2022-H2",
+        "n": 37,
+        "complex_count": "27",
+        "status": "insufficient",
+        "p25": null,
+        "median": null,
+        "p75": null
+      },
+      "target": {
+        "region": "11500",
+        "period": "2022-H2",
+        "n": 41,
+        "complex_count": "29",
+        "status": "supported",
+        "p25": 80500.0,
+        "median": 98000.0,
+        "p75": 114800.0
+      },
+      "gap": null,
+      "ratio_pct": null
+    },
+    {
+      "period": "2023-H1",
+      "source": {
+        "region": "11350",
+        "period": "2023-H1",
+        "n": 191,
+        "complex_count": "77",
+        "status": "supported",
+        "p25": 67250.0,
+        "median": 77500.0,
+        "p75": 87900.0
+      },
+      "target": {
+        "region": "11500",
+        "period": "2023-H1",
+        "n": 265,
+        "complex_count": "94",
+        "status": "supported",
+        "p25": 77000.0,
+        "median": 93000.0,
+        "p75": 115000.0
+      },
+      "gap": 15500.0,
+      "ratio_pct": 19.999999999999996
+    },
+    {
+      "period": "2023-H2",
+      "source": {
+        "region": "11350",
+        "period": "2023-H2",
+        "n": 227,
+        "complex_count": "81",
+        "status": "supported",
+        "p25": 67200.0,
+        "median": 79000.0,
+        "p75": 89000.0
+      },
+      "target": {
+        "region": "11500",
+        "period": "2023-H2",
+        "n": 228,
+        "complex_count": "104",
+        "status": "supported",
+        "p25": 74000.0,
+        "median": 87250.0,
+        "p75": 107200.0
+      },
+      "gap": 8250.0,
+      "ratio_pct": 10.443037974683534
+    },
+    {
+      "period": "2024-H1",
+      "source": {
+        "region": "11350",
+        "period": "2024-H1",
+        "n": 326,
+        "complex_count": "99",
+        "status": "supported",
+        "p25": 65000.0,
+        "median": 77400.0,
+        "p75": 86700.0
+      },
+      "target": {
+        "region": "11500",
+        "period": "2024-H1",
+        "n": 399,
+        "complex_count": "128",
+        "status": "supported",
+        "p25": 79000.0,
+        "median": 95000.0,
+        "p75": 120000.0
+      },
+      "gap": 17600.0,
+      "ratio_pct": 22.7390180878553
+    },
+    {
+      "period": "2024-H2",
+      "source": {
+        "region": "11350",
+        "period": "2024-H2",
+        "n": 442,
+        "complex_count": "116",
+        "status": "supported",
+        "p25": 69000.0,
+        "median": 81500.0,
+        "p75": 91375.0
+      },
+      "target": {
+        "region": "11500",
+        "period": "2024-H2",
+        "n": 390,
+        "complex_count": "120",
+        "status": "supported",
+        "p25": 84125.0,
+        "median": 97500.0,
+        "p75": 124375.0
+      },
+      "gap": 16000.0,
+      "ratio_pct": 19.631901840490794
+    },
+    {
+      "period": "2025-H1",
+      "source": {
+        "region": "11350",
+        "period": "2025-H1",
+        "n": 469,
+        "complex_count": "118",
+        "status": "supported",
+        "p25": 68500.0,
+        "median": 81000.0,
+        "p75": 90000.0
+      },
+      "target": {
+        "region": "11500",
+        "period": "2025-H1",
+        "n": 555,
+        "complex_count": "150",
+        "status": "supported",
+        "p25": 84250.0,
+        "median": 100000.0,
+        "p75": 130000.0
+      },
+      "gap": 19000.0,
+      "ratio_pct": 23.456790123456784
+    },
+    {
+      "period": "2025-H2",
+      "source": {
+        "region": "11350",
+        "period": "2025-H2",
+        "n": 466,
+        "complex_count": "120",
+        "status": "supported",
+        "p25": 70000.0,
+        "median": 84000.0,
+        "p75": 97000.0
+      },
+      "target": {
+        "region": "11500",
+        "period": "2025-H2",
+        "n": 630,
+        "complex_count": "142",
+        "status": "supported",
+        "p25": 90000.0,
+        "median": 107600.0,
+        "p75": 138000.0
+      },
+      "gap": 23600.0,
+      "ratio_pct": 28.095238095238084
+    },
+    {
+      "period": "2026-H1",
+      "source": {
+        "region": "11350",
+        "period": "2026-H1",
+        "n": 802,
+        "complex_count": "143",
+        "status": "supported",
+        "p25": 69000.0,
+        "median": 85000.0,
+        "p75": 98375.0
+      },
+      "target": {
+        "region": "11500",
+        "period": "2026-H1",
+        "n": 726,
+        "complex_count": "171",
+        "status": "supported",
+        "p25": 85850.0,
+        "median": 104400.0,
+        "p75": 127500.0
+      },
+      "gap": 19400.0,
+      "ratio_pct": 22.82352941176471
+    }
+  ]
+}
