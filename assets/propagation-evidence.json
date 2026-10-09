@@ -1,0 +1,589 @@
+{
+  "schema": "propagation_evidence_v1",
+  "model_version": "price_propagation_v2_research",
+  "evaluation": [
+    "2019-01-03",
+    "2026-04-30"
+  ],
+  "certification_date": "2026-04-30",
+  "snapshot_built_at": "2026-10-10T05:29:35+09:00",
+  "source_vintage": "current retrospective; previously inspected evaluation years",
+  "configurations": 123,
+  "summary": [
+    {
+      "grain": "region",
+      "candidate_rows": 5430,
+      "validated": 0,
+      "nominal_selected_fit": 492,
+      "family_pass": 21,
+      "minimum_q": 6.723149745747199e-73,
+      "estimated_pairs": 1742,
+      "family_pairs": 2025,
+      "family_tests": 12150,
+      "settings": 41
+    },
+    {
+      "grain": "dong",
+      "candidate_rows": 28168,
+      "validated": 0,
+      "nominal_selected_fit": 2380,
+      "family_pass": 83,
+      "minimum_q": 0.0,
+      "estimated_pairs": 10254,
+      "family_pairs": 14685,
+      "family_tests": 88110,
+      "settings": 41
+    },
+    {
+      "grain": "complex",
+      "candidate_rows": 6375,
+      "validated": 0,
+      "nominal_selected_fit": 676,
+      "family_pass": 21,
+      "minimum_q": 3.141921742600874e-22,
+      "estimated_pairs": 3032,
+      "family_pairs": 5525,
+      "family_tests": 33150,
+      "settings": 41
+    }
+  ],
+  "regimes": [
+    {
+      "grain": "region",
+      "regime": "all",
+      "candidate_rows": 1742,
+      "validated": 0,
+      "status": "estimated"
+    },
+    {
+      "grain": "region",
+      "regime": "rise",
+      "candidate_rows": 1690,
+      "validated": 0,
+      "status": "estimated"
+    },
+    {
+      "grain": "region",
+      "regime": "slowdown",
+      "candidate_rows": 1116,
+      "validated": 0,
+      "status": "estimated"
+    },
+    {
+      "grain": "region",
+      "regime": "flat",
+      "candidate_rows": 440,
+      "validated": 0,
+      "status": "estimated"
+    },
+    {
+      "grain": "region",
+      "regime": "fall",
+      "candidate_rows": 442,
+      "validated": 0,
+      "status": "estimated"
+    },
+    {
+      "grain": "region",
+      "regime": "rebound",
+      "candidate_rows": 0,
+      "validated": 0,
+      "status": "unavailable"
+    },
+    {
+      "grain": "dong",
+      "regime": "all",
+      "candidate_rows": 10254,
+      "validated": 0,
+      "status": "estimated"
+    },
+    {
+      "grain": "dong",
+      "regime": "rise",
+      "candidate_rows": 9372,
+      "validated": 0,
+      "status": "estimated"
+    },
+    {
+      "grain": "dong",
+      "regime": "slowdown",
+      "candidate_rows": 5834,
+      "validated": 0,
+      "status": "estimated"
+    },
+    {
+      "grain": "dong",
+      "regime": "flat",
+      "candidate_rows": 1327,
+      "validated": 0,
+      "status": "estimated"
+    },
+    {
+      "grain": "dong",
+      "regime": "fall",
+      "candidate_rows": 1381,
+      "validated": 0,
+      "status": "estimated"
+    },
+    {
+      "grain": "dong",
+      "regime": "rebound",
+      "candidate_rows": 0,
+      "validated": 0,
+      "status": "unavailable"
+    },
+    {
+      "grain": "complex",
+      "regime": "all",
+      "candidate_rows": 3032,
+      "validated": 0,
+      "status": "estimated"
+    },
+    {
+      "grain": "complex",
+      "regime": "rise",
+      "candidate_rows": 2464,
+      "validated": 0,
+      "status": "estimated"
+    },
+    {
+      "grain": "complex",
+      "regime": "slowdown",
+      "candidate_rows": 844,
+      "validated": 0,
+      "status": "estimated"
+    },
+    {
+      "grain": "complex",
+      "regime": "flat",
+      "candidate_rows": 27,
+      "validated": 0,
+      "status": "estimated"
+    },
+    {
+      "grain": "complex",
+      "regime": "fall",
+      "candidate_rows": 8,
+      "validated": 0,
+      "status": "estimated"
+    },
+    {
+      "grain": "complex",
+      "regime": "rebound",
+      "candidate_rows": 0,
+      "validated": 0,
+      "status": "unavailable"
+    }
+  ],
+  "geography": [
+    {
+      "scope": "gangnam",
+      "regime": "all",
+      "selected_pairs": 46,
+      "candidate_rows": 3,
+      "validated": 0,
+      "followers": 3,
+      "status": "estimated"
+    },
+    {
+      "scope": "gangnam",
+      "regime": "rise",
+      "selected_pairs": 46,
+      "candidate_rows": 3,
+      "validated": 0,
+      "followers": 3,
+      "status": "estimated"
+    },
+    {
+      "scope": "gangnam",
+      "regime": "slowdown",
+      "selected_pairs": 46,
+      "candidate_rows": 0,
+      "validated": 0,
+      "followers": 0,
+      "status": "unavailable"
+    },
+    {
+      "scope": "gangnam",
+      "regime": "flat",
+      "selected_pairs": 46,
+      "candidate_rows": 0,
+      "validated": 0,
+      "followers": 0,
+      "status": "unavailable"
+    },
+    {
+      "scope": "gangnam",
+      "regime": "fall",
+      "selected_pairs": 46,
+      "candidate_rows": 0,
+      "validated": 0,
+      "followers": 0,
+      "status": "unavailable"
+    },
+    {
+      "scope": "gangnam",
+      "regime": "rebound",
+      "selected_pairs": 46,
+      "candidate_rows": 0,
+      "validated": 0,
+      "followers": 0,
+      "status": "unavailable"
+    },
+    {
+      "scope": "seoul_gyeonggi",
+      "regime": "all",
+      "selected_pairs": 553,
+      "candidate_rows": 467,
+      "validated": 0,
+      "followers": 33,
+      "status": "estimated"
+    },
+    {
+      "scope": "seoul_gyeonggi",
+      "regime": "rise",
+      "selected_pairs": 553,
+      "candidate_rows": 454,
+      "validated": 0,
+      "followers": 33,
+      "status": "estimated"
+    },
+    {
+      "scope": "seoul_gyeonggi",
+      "regime": "slowdown",
+      "selected_pairs": 553,
+      "candidate_rows": 281,
+      "validated": 0,
+      "followers": 33,
+      "status": "estimated"
+    },
+    {
+      "scope": "seoul_gyeonggi",
+      "regime": "flat",
+      "selected_pairs": 553,
+      "candidate_rows": 10,
+      "validated": 0,
+      "followers": 10,
+      "status": "estimated"
+    },
+    {
+      "scope": "seoul_gyeonggi",
+      "regime": "fall",
+      "selected_pairs": 553,
+      "candidate_rows": 3,
+      "validated": 0,
+      "followers": 3,
+      "status": "estimated"
+    },
+    {
+      "scope": "seoul_gyeonggi",
+      "regime": "rebound",
+      "selected_pairs": 553,
+      "candidate_rows": 0,
+      "validated": 0,
+      "followers": 0,
+      "status": "unavailable"
+    },
+    {
+      "scope": "gyeonggi_seoul",
+      "regime": "all",
+      "selected_pairs": 415,
+      "candidate_rows": 329,
+      "validated": 0,
+      "followers": 19,
+      "status": "estimated"
+    },
+    {
+      "scope": "gyeonggi_seoul",
+      "regime": "rise",
+      "selected_pairs": 415,
+      "candidate_rows": 313,
+      "validated": 0,
+      "followers": 19,
+      "status": "estimated"
+    },
+    {
+      "scope": "gyeonggi_seoul",
+      "regime": "slowdown",
+      "selected_pairs": 415,
+      "candidate_rows": 102,
+      "validated": 0,
+      "followers": 14,
+      "status": "estimated"
+    },
+    {
+      "scope": "gyeonggi_seoul",
+      "regime": "flat",
+      "selected_pairs": 415,
+      "candidate_rows": 0,
+      "validated": 0,
+      "followers": 0,
+      "status": "unavailable"
+    },
+    {
+      "scope": "gyeonggi_seoul",
+      "regime": "fall",
+      "selected_pairs": 415,
+      "candidate_rows": 0,
+      "validated": 0,
+      "followers": 0,
+      "status": "unavailable"
+    },
+    {
+      "scope": "gyeonggi_seoul",
+      "regime": "rebound",
+      "selected_pairs": 415,
+      "candidate_rows": 0,
+      "validated": 0,
+      "followers": 0,
+      "status": "unavailable"
+    }
+  ],
+  "gates": [
+    {
+      "grain": "region",
+      "gate": "multiplicity",
+      "pass_count": 21,
+      "total": 5430
+    },
+    {
+      "grain": "region",
+      "gate": "interval",
+      "pass_count": 234,
+      "total": 5430
+    },
+    {
+      "grain": "region",
+      "gate": "baselines",
+      "pass_count": 590,
+      "total": 5430
+    },
+    {
+      "grain": "region",
+      "gate": "recurrence",
+      "pass_count": 608,
+      "total": 5430
+    },
+    {
+      "grain": "region",
+      "gate": "sign",
+      "pass_count": 3470,
+      "total": 5430
+    },
+    {
+      "grain": "region",
+      "gate": "lag",
+      "pass_count": 5026,
+      "total": 5430
+    },
+    {
+      "grain": "region",
+      "gate": "methods",
+      "pass_count": 3,
+      "total": 5430
+    },
+    {
+      "grain": "region",
+      "gate": "settings",
+      "pass_count": 105,
+      "total": 5430
+    },
+    {
+      "grain": "dong",
+      "gate": "multiplicity",
+      "pass_count": 83,
+      "total": 28168
+    },
+    {
+      "grain": "dong",
+      "gate": "interval",
+      "pass_count": 1130,
+      "total": 28168
+    },
+    {
+      "grain": "dong",
+      "gate": "baselines",
+      "pass_count": 2850,
+      "total": 28168
+    },
+    {
+      "grain": "dong",
+      "gate": "recurrence",
+      "pass_count": 1906,
+      "total": 28168
+    },
+    {
+      "grain": "dong",
+      "gate": "sign",
+      "pass_count": 18653,
+      "total": 28168
+    },
+    {
+      "grain": "dong",
+      "gate": "lag",
+      "pass_count": 25962,
+      "total": 28168
+    },
+    {
+      "grain": "dong",
+      "gate": "methods",
+      "pass_count": 1,
+      "total": 28168
+    },
+    {
+      "grain": "dong",
+      "gate": "settings",
+      "pass_count": 248,
+      "total": 28168
+    },
+    {
+      "grain": "complex",
+      "gate": "multiplicity",
+      "pass_count": 21,
+      "total": 6375
+    },
+    {
+      "grain": "complex",
+      "gate": "interval",
+      "pass_count": 287,
+      "total": 6375
+    },
+    {
+      "grain": "complex",
+      "gate": "baselines",
+      "pass_count": 430,
+      "total": 6375
+    },
+    {
+      "grain": "complex",
+      "gate": "recurrence",
+      "pass_count": 195,
+      "total": 6375
+    },
+    {
+      "grain": "complex",
+      "gate": "sign",
+      "pass_count": 5014,
+      "total": 6375
+    },
+    {
+      "grain": "complex",
+      "gate": "lag",
+      "pass_count": 5896,
+      "total": 6375
+    },
+    {
+      "grain": "complex",
+      "gate": "methods",
+      "pass_count": 0,
+      "total": 6375
+    },
+    {
+      "grain": "complex",
+      "gate": "settings",
+      "pass_count": 78,
+      "total": 6375
+    }
+  ],
+  "designs": [
+    {
+      "grain": "region",
+      "design": "contiguous",
+      "settings": 2,
+      "median_of_setting_medians": -0.059908771000085737,
+      "min_setting_median": -0.10299763024865327,
+      "max_setting_median": -0.0168199117515182
+    },
+    {
+      "grain": "region",
+      "design": "alternating",
+      "settings": 2,
+      "median_of_setting_medians": -0.03600003161159249,
+      "min_setting_median": -0.06229247489536627,
+      "max_setting_median": -0.009707588327818706
+    },
+    {
+      "grain": "region",
+      "design": "walk_forward",
+      "settings": 35,
+      "median_of_setting_medians": -0.03232108393213673,
+      "min_setting_median": -0.08099409323553852,
+      "max_setting_median": 0.024878182277014993
+    },
+    {
+      "grain": "region",
+      "design": "regime_stratified",
+      "settings": 2,
+      "median_of_setting_medians": -0.04243069433372093,
+      "min_setting_median": -0.0709619044473353,
+      "max_setting_median": -0.013899484220106562
+    },
+    {
+      "grain": "dong",
+      "design": "contiguous",
+      "settings": 2,
+      "median_of_setting_medians": -0.10031150807169631,
+      "min_setting_median": -0.1595640611318434,
+      "max_setting_median": -0.041058955011549214
+    },
+    {
+      "grain": "dong",
+      "design": "alternating",
+      "settings": 2,
+      "median_of_setting_medians": -0.04780111047663149,
+      "min_setting_median": -0.060252646290916534,
+      "max_setting_median": -0.03534957466234645
+    },
+    {
+      "grain": "dong",
+      "design": "walk_forward",
+      "settings": 35,
+      "median_of_setting_medians": -0.05521130453503664,
+      "min_setting_median": -0.09473024160119059,
+      "max_setting_median": -0.009246071014883839
+    },
+    {
+      "grain": "dong",
+      "design": "regime_stratified",
+      "settings": 2,
+      "median_of_setting_medians": -0.07596736701080548,
+      "min_setting_median": -0.12133813676943361,
+      "max_setting_median": -0.030596597252177338
+    },
+    {
+      "grain": "complex",
+      "design": "contiguous",
+      "settings": 2,
+      "median_of_setting_medians": -0.046063270730823114,
+      "min_setting_median": -0.04700573395472063,
+      "max_setting_median": -0.0451208075069256
+    },
+    {
+      "grain": "complex",
+      "design": "alternating",
+      "settings": 2,
+      "median_of_setting_medians": -0.049398229511126934,
+      "min_setting_median": -0.05317714238539928,
+      "max_setting_median": -0.04561931663685459
+    },
+    {
+      "grain": "complex",
+      "design": "walk_forward",
+      "settings": 35,
+      "median_of_setting_medians": -0.05940537862606199,
+      "min_setting_median": -0.11151134475980129,
+      "max_setting_median": -0.0035989374008229547
+    },
+    {
+      "grain": "complex",
+      "design": "regime_stratified",
+      "settings": 2,
+      "median_of_setting_medians": -0.05650237681284448,
+      "min_setting_median": -0.0806069401880386,
+      "max_setting_median": -0.03239781343765036
+    }
+  ],
+  "policy": "All supported complete-complex area-household prices; matched-cohort returns; not fixed 84sqm trades",
+  "gain_definition": "1 - model MSE / same-row baseline MSE; not apartment-price return",
+  "source_url": "https://www.data.go.kr/data/15126468/openapi.do"
+}
