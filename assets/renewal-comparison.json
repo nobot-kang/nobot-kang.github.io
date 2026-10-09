@@ -1,0 +1,51 @@
+{
+  "schema": "observed_renewal_comparison_v1",
+  "start": "2026-01",
+  "end": "2026-06",
+  "snapshot_built_date": "2026-10-04",
+  "reference_end": "2026-09",
+  "information_cutoff": null,
+  "source_url": "https://www.data.go.kr/data/15126474/openapi.do",
+  "population": "서울 master 지리, 월세 0·양의 보증금, canonical eligible 전세 계약",
+  "matching": "canonical complex_id × exact reported area_m2 × contract quarter; each new and renewal n>=10",
+  "estimand": "equal-cell median and inclusive quartiles of 100*(renewal deposit median/new deposit median-1)",
+  "district_count": 25,
+  "source_shards": 150,
+  "cell_minimum": 10,
+  "groups": [
+    {
+      "status": "new",
+      "n": 26662,
+      "deposit": 60000.0
+    },
+    {
+      "status": "renewal_right",
+      "n": 15745,
+      "deposit": 59800.0
+    },
+    {
+      "status": "renewal_unspecified",
+      "n": 13288,
+      "deposit": 48000.0
+    },
+    {
+      "status": "unknown",
+      "n": 826,
+      "deposit": 53000.0
+    },
+    {
+      "status": "renewal",
+      "n": 29033,
+      "deposit": 54600.0
+    }
+  ],
+  "excluded": 122,
+  "matched": {
+    "cells": 99,
+    "new_n": 1479,
+    "renewal_n": 1749,
+    "median": -9.736842105263154,
+    "p25": -13.552197802197803,
+    "p75": -6.289473684210528
+  }
+}
