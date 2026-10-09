@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-10T05:26:40+09:00</updated>
+  <updated>2026-10-10T05:37:46+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>주택담보대출 금리 1%p 오르면? 3억·30년 월 상환액 비교</title>
+    <id>https://nobot-kang.github.io/posts/mortgage-rate-payment/</id>
+    <published>2026-10-10T05:37:46+09:00</published>
+    <updated>2026-10-10T05:37:46+09:00</updated>
+    <summary>3억 원·30년 가상 대출의 금리 3~7% 월 상환액과 월150만 원의 역산 원금을 비교합니다. 남은 원금·만기·총이자, 명목금리와 실질 부담의 차이를 계산기와 표로 확인하세요.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/mortgage-rate-payment/" />
+    <category term="금리와 상환 부담" />
+  </entry>
   <entry>
     <title>아파트 시세 추정 정확도: 평균 오차 5.68%를 어떻게 읽어야 할까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-model-price-error/</id>
@@ -41,7 +50,7 @@
     <title>갈아타기 차액이 줄면 필요한 현금도 줄어들까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-upgrade-price-gap/</id>
     <published>2026-10-10T04:29:05+09:00</published>
-    <updated>2026-10-10T05:00:48+09:00</updated>
+    <updated>2026-10-10T05:37:46+09:00</updated>
     <summary>노원·강서 84㎡ 실거래의 반기별 중앙값 차이를 비교합니다. 표본 부족 구간은 비공개로 남기고, 기존 대출·새 대출·부대비용을 넣은 가상 예시로 가격 차액과 실제 추가 현금을 구분합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-upgrade-price-gap/" />
     <category term="다음 집으로 가는 비용" />
@@ -131,7 +140,7 @@
     <title>보증금 1억을 올리면 월세는 얼마 줄까? 두 조건의 전환율 계산법</title>
     <id>https://nobot-kang.github.io/posts/deposit-rent-comparison/</id>
     <published>2026-10-09T17:07:20+09:00</published>
-    <updated>2026-10-09T19:09:23+09:00</updated>
+    <updated>2026-10-10T05:37:46+09:00</updated>
     <summary>보증금 1억원을 더 내면 월세는 얼마나 줄어야 할까요? 같은 집의 두 조건으로 전환율을 계산하고, 추가 자금 비용과 비교하는 계산기·가상 예시·법정 상한의 구분을 제공합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/deposit-rent-comparison/" />
     <category term="전세와 월세 계약 읽기" />

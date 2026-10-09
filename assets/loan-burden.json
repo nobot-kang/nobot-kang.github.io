@@ -1,0 +1,134 @@
+{
+  "schema": "loan_burden_editorial_v1",
+  "currency": "KRW",
+  "fictional_assumptions": {
+    "payment_timing": "month_end",
+    "nominal_annual_rate_divisor": 12,
+    "fees": 0,
+    "grace_months": 0,
+    "rate_fixed_within_each_scenario": true,
+    "monthly_rounding": false,
+    "approval_or_DSR": false
+  },
+  "fictional": {
+    "main": [
+      {
+        "principal": 300000000.0,
+        "rate": 3.0,
+        "months": 360,
+        "monthly": 1264812.1011883514,
+        "first_interest": 750000.0,
+        "total_interest": 155332356.42780647,
+        "budget_principal": 355784072.2564273
+      },
+      {
+        "principal": 300000000.0,
+        "rate": 4.0,
+        "months": 360,
+        "monthly": 1432245.8863963785,
+        "first_interest": 1000000.0,
+        "total_interest": 215608519.10269624,
+        "budget_principal": 314191860.68128884
+      },
+      {
+        "principal": 300000000.0,
+        "rate": 5.0,
+        "months": 360,
+        "monthly": 1610464.869036417,
+        "first_interest": 1250000.0,
+        "total_interest": 279767352.8531101,
+        "budget_principal": 279422425.5691133
+      },
+      {
+        "principal": 300000000.0,
+        "rate": 6.0,
+        "months": 360,
+        "monthly": 1798651.5754582572,
+        "first_interest": 1500000.0,
+        "total_interest": 347514567.1649726,
+        "budget_principal": 250187421.58850294
+      },
+      {
+        "principal": 300000000.0,
+        "rate": 7.0,
+        "months": 360,
+        "monthly": 1995907.4855375495,
+        "first_interest": 1750000.0,
+        "total_interest": 418526694.7935178,
+        "budget_principal": 225461351.92173168
+      }
+    ],
+    "terms": [
+      {
+        "principal": 300000000.0,
+        "rate": 4.0,
+        "months": 240,
+        "monthly": 1817940.987898256,
+        "first_interest": 1000000.0,
+        "total_interest": 136305837.0955814
+      },
+      {
+        "principal": 300000000.0,
+        "rate": 4.0,
+        "months": 360,
+        "monthly": 1432245.8863963785,
+        "first_interest": 1000000.0,
+        "total_interest": 215608519.10269624
+      },
+      {
+        "principal": 300000000.0,
+        "rate": 4.0,
+        "months": 480,
+        "monthly": 1253815.4082114424,
+        "first_interest": 1000000.0,
+        "total_interest": 301831395.9414923
+      }
+    ],
+    "reset": {
+      "principal": 271342539.40827286,
+      "rate": 5.0,
+      "months": 300,
+      "monthly": 1586241.4637556267,
+      "first_interest": 1130593.914201137,
+      "total_interest": 204529899.71841517,
+      "balance_after_60": 271342539.40827286,
+      "prior_monthly": 1432245.8863963785,
+      "increase": 153995.5773592482
+    },
+    "equal_principal": {
+      "first": 1833333.3333333333,
+      "last": 836111.1111111111,
+      "total_interest": 180500000.0,
+      "balloon": 0
+    },
+    "bullet": {
+      "first": 1000000.0,
+      "last": 301000000.0,
+      "total_interest": 360000000.0,
+      "balloon": 300000000.0
+    }
+  },
+  "observed": [
+    {
+      "source_month": "2021-12",
+      "nominal": 3.63,
+      "inflation": 3.6977972690122707,
+      "real": -0.06779726901227079
+    },
+    {
+      "source_month": "2022-12",
+      "nominal": 4.63,
+      "inflation": 5.017301038062283,
+      "real": -0.387301038062283
+    },
+    {
+      "source_month": "2025-12",
+      "nominal": 4.23,
+      "inflation": 2.3148551039944287,
+      "real": 1.9151448960055717
+    }
+  ],
+  "observed_definition": "KB common monthly mortgage rate minus trailing CPI YoY; not personal quote or expected real rate",
+  "historical_vintage_available": false,
+  "source_checked_on": "2026-10-10"
+}
