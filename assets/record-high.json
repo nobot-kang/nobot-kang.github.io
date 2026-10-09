@@ -1,0 +1,466 @@
+{
+  "schema": "record_high_v1",
+  "period": [
+    "2026-01-01",
+    "2026-06-30"
+  ],
+  "cancellation_cohort": [
+    "2026-01-01",
+    "2026-03-31"
+  ],
+  "observation_date": "2026-10-03",
+  "history_start": "2010-01-01",
+  "information_cutoff": null,
+  "frequency": [
+    {
+      "scope": "11",
+      "month": 0,
+      "total": 39595,
+      "eligible": 38146,
+      "supported": 36647,
+      "high": 7867,
+      "unsupported": 1499,
+      "excluded": 1449
+    },
+    {
+      "scope": "11",
+      "month": 1,
+      "total": 5403,
+      "eligible": 5283,
+      "supported": 5085,
+      "high": 1289,
+      "unsupported": 198,
+      "excluded": 120
+    },
+    {
+      "scope": "11",
+      "month": 2,
+      "total": 5812,
+      "eligible": 5652,
+      "supported": 5466,
+      "high": 1502,
+      "unsupported": 186,
+      "excluded": 160
+    },
+    {
+      "scope": "11",
+      "month": 3,
+      "total": 5543,
+      "eligible": 5327,
+      "supported": 5122,
+      "high": 1062,
+      "unsupported": 205,
+      "excluded": 216
+    },
+    {
+      "scope": "11",
+      "month": 4,
+      "total": 8726,
+      "eligible": 8379,
+      "supported": 8039,
+      "high": 1352,
+      "unsupported": 340,
+      "excluded": 347
+    },
+    {
+      "scope": "11",
+      "month": 5,
+      "total": 8784,
+      "eligible": 8364,
+      "supported": 7991,
+      "high": 1413,
+      "unsupported": 373,
+      "excluded": 420
+    },
+    {
+      "scope": "11",
+      "month": 6,
+      "total": 5327,
+      "eligible": 5141,
+      "supported": 4944,
+      "high": 1249,
+      "unsupported": 197,
+      "excluded": 186
+    },
+    {
+      "scope": "41",
+      "month": 0,
+      "total": 80853,
+      "eligible": 77716,
+      "supported": 76120,
+      "high": 5664,
+      "unsupported": 1596,
+      "excluded": 3137
+    },
+    {
+      "scope": "41",
+      "month": 1,
+      "total": 13007,
+      "eligible": 12620,
+      "supported": 12359,
+      "high": 783,
+      "unsupported": 261,
+      "excluded": 387
+    },
+    {
+      "scope": "41",
+      "month": 2,
+      "total": 10935,
+      "eligible": 10566,
+      "supported": 10319,
+      "high": 893,
+      "unsupported": 247,
+      "excluded": 369
+    },
+    {
+      "scope": "41",
+      "month": 3,
+      "total": 13090,
+      "eligible": 12452,
+      "supported": 12189,
+      "high": 714,
+      "unsupported": 263,
+      "excluded": 638
+    },
+    {
+      "scope": "41",
+      "month": 4,
+      "total": 14172,
+      "eligible": 13397,
+      "supported": 13146,
+      "high": 833,
+      "unsupported": 251,
+      "excluded": 775
+    },
+    {
+      "scope": "41",
+      "month": 5,
+      "total": 14765,
+      "eligible": 14200,
+      "supported": 13935,
+      "high": 981,
+      "unsupported": 265,
+      "excluded": 565
+    },
+    {
+      "scope": "41",
+      "month": 6,
+      "total": 14884,
+      "eligible": 14481,
+      "supported": 14172,
+      "high": 1460,
+      "unsupported": 309,
+      "excluded": 403
+    }
+  ],
+  "sensitivity": [
+    {
+      "scope": "11",
+      "definition": "event",
+      "supported": 36647,
+      "high": 7867
+    },
+    {
+      "scope": "11",
+      "definition": "reported",
+      "supported": 36681,
+      "high": 7750
+    },
+    {
+      "scope": "11",
+      "definition": "survivor",
+      "supported": 36641,
+      "high": 7931
+    },
+    {
+      "scope": "11",
+      "definition": "amount",
+      "supported": 36647,
+      "high": 7789
+    },
+    {
+      "scope": "11",
+      "definition": "exact_area",
+      "supported": 36042,
+      "high": 9129
+    },
+    {
+      "scope": "11",
+      "definition": "ten_prior",
+      "supported": 35668,
+      "high": 7283
+    },
+    {
+      "scope": "41",
+      "definition": "event",
+      "supported": 76120,
+      "high": 5664
+    },
+    {
+      "scope": "41",
+      "definition": "reported",
+      "supported": 76147,
+      "high": 5552
+    },
+    {
+      "scope": "41",
+      "definition": "survivor",
+      "supported": 76083,
+      "high": 5725
+    },
+    {
+      "scope": "41",
+      "definition": "amount",
+      "supported": 76120,
+      "high": 5592
+    },
+    {
+      "scope": "41",
+      "definition": "exact_area",
+      "supported": 75414,
+      "high": 7153
+    },
+    {
+      "scope": "41",
+      "definition": "ten_prior",
+      "supported": 75398,
+      "high": 5449
+    }
+  ],
+  "methods": [
+    {
+      "scope": "11",
+      "method": "brokered",
+      "n": 38161,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "method": "direct",
+      "n": 1419,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "method": "unknown",
+      "n": 15,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "method": "conflict",
+      "n": 0,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "method": "brokered",
+      "n": 77716,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "method": "direct",
+      "n": 3122,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "method": "unknown",
+      "n": 15,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "method": "conflict",
+      "n": 0,
+      "status": "supported"
+    }
+  ],
+  "outcomes": [
+    {
+      "cohort": "Q1",
+      "horizon": 90,
+      "arm": "high",
+      "mature": 6243,
+      "immature": 0,
+      "clock_missing": 0,
+      "unavailable": 0,
+      "events": null,
+      "unknown": null,
+      "non_events": null,
+      "rate_low": null,
+      "rate_high": null
+    },
+    {
+      "cohort": "Q1",
+      "horizon": 90,
+      "arm": "nonhigh",
+      "mature": 44297,
+      "immature": 0,
+      "clock_missing": 0,
+      "unavailable": 0,
+      "events": null,
+      "unknown": null,
+      "non_events": null,
+      "rate_low": null,
+      "rate_high": null
+    },
+    {
+      "cohort": "Q1",
+      "horizon": 90,
+      "arm": "unsupported",
+      "mature": 3250,
+      "immature": 0,
+      "clock_missing": 0,
+      "unavailable": 0,
+      "events": null,
+      "unknown": null,
+      "non_events": null,
+      "rate_low": null,
+      "rate_high": null
+    },
+    {
+      "cohort": "Q1",
+      "horizon": 180,
+      "arm": "high",
+      "mature": 6243,
+      "immature": 0,
+      "clock_missing": 0,
+      "unavailable": 0,
+      "events": null,
+      "unknown": null,
+      "non_events": null,
+      "rate_low": null,
+      "rate_high": null
+    },
+    {
+      "cohort": "Q1",
+      "horizon": 180,
+      "arm": "nonhigh",
+      "mature": 44297,
+      "immature": 0,
+      "clock_missing": 0,
+      "unavailable": 0,
+      "events": null,
+      "unknown": null,
+      "non_events": null,
+      "rate_low": null,
+      "rate_high": null
+    },
+    {
+      "cohort": "Q1",
+      "horizon": 180,
+      "arm": "unsupported",
+      "mature": 3250,
+      "immature": 0,
+      "clock_missing": 0,
+      "unavailable": 0,
+      "events": null,
+      "unknown": null,
+      "non_events": null,
+      "rate_low": null,
+      "rate_high": null
+    },
+    {
+      "cohort": "Q1",
+      "horizon": 365,
+      "arm": "high",
+      "mature": 0,
+      "immature": 6243,
+      "clock_missing": 0,
+      "unavailable": 0,
+      "events": null,
+      "unknown": null,
+      "non_events": null,
+      "rate_low": null,
+      "rate_high": null
+    },
+    {
+      "cohort": "Q1",
+      "horizon": 365,
+      "arm": "nonhigh",
+      "mature": 0,
+      "immature": 44297,
+      "clock_missing": 0,
+      "unavailable": 0,
+      "events": null,
+      "unknown": null,
+      "non_events": null,
+      "rate_low": null,
+      "rate_high": null
+    },
+    {
+      "cohort": "Q1",
+      "horizon": 365,
+      "arm": "unsupported",
+      "mature": 0,
+      "immature": 3250,
+      "clock_missing": 0,
+      "unavailable": 0,
+      "events": null,
+      "unknown": null,
+      "non_events": null,
+      "rate_low": null,
+      "rate_high": null
+    },
+    {
+      "cohort": "H1",
+      "horizon": 90,
+      "arm": "high",
+      "mature": 13531,
+      "immature": 0,
+      "clock_missing": 0,
+      "unavailable": 0,
+      "events": null,
+      "unknown": null,
+      "non_events": null,
+      "rate_low": null,
+      "rate_high": null
+    },
+    {
+      "cohort": "H1",
+      "horizon": 90,
+      "arm": "nonhigh",
+      "mature": 99236,
+      "immature": 0,
+      "clock_missing": 0,
+      "unavailable": 0,
+      "events": null,
+      "unknown": null,
+      "non_events": null,
+      "rate_low": null,
+      "rate_high": null
+    },
+    {
+      "cohort": "H1",
+      "horizon": 90,
+      "arm": "unsupported",
+      "mature": 7681,
+      "immature": 0,
+      "clock_missing": 0,
+      "unavailable": 0,
+      "events": null,
+      "unknown": null,
+      "non_events": null,
+      "rate_low": null,
+      "rate_high": null
+    }
+  ],
+  "outcome_counts_suppressed": true,
+  "matched": {
+    "target_n": 855,
+    "control_n": 3388,
+    "cells": 374,
+    "complexes": 324,
+    "supported": true,
+    "risk_difference_low": -0.24392926839424658,
+    "risk_difference_high": -0.1471722242687814,
+    "interval_low": -1.4793260999941507,
+    "interval_high": 1.1089490360095717,
+    "replicates": 399,
+    "seed": 271828,
+    "eligible_target_n": 6243,
+    "coverage_pct": 13.695338779432966
+  }
+}
