@@ -44,6 +44,12 @@
 
 지역·가격대·거래금액이 어디서 어떻게 움직였는지 실거래 집계로 따라갑니다.
 
+### [집값이 움직이는 순서](https://nobot-kang.github.io/series/price-propagation/)
+
+강남구와 서울·경기의 선후관계, 예측 검증과 약한 결과의 해석을 살펴봅니다.
+
+- [강남이 오르면 다음은 어디? 아파트 가격 전파 검증의 한계](https://nobot-kang.github.io/posts/gangnam-price-propagation/): 강남구와 서울→경기 아파트의 선후관계를 검증했습니다. 다중검정 보정과 반복 예측 기준을 함께 확인하고, 인증된 관계가 0개라는 결과를 전파 없음으로 읽으면 안 되는 이유를 설명합니다.
+
 ### [경기도 도시 비교](https://nobot-kang.github.io/series/gyeonggi-cities/)
 
 도시와 구별 관측 가격, 거래된 주택의 연식 구성과 실제 후보의 차이를 확인합니다.
