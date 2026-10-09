@@ -1,0 +1,154 @@
+{
+  "schema": "observed_size_prices_v1",
+  "period": [
+    "2026-01",
+    "2026-06"
+  ],
+  "area_selector": "84 <= exclusive area_m2 < 85",
+  "snapshot_built_date": "2026-10-04",
+  "reference_end": "2026-09",
+  "information_cutoff": null,
+  "amount_unit": "만원",
+  "source_urls": [
+    "https://www.data.go.kr/data/15126468/openapi.do",
+    "https://www.k-apt.go.kr/"
+  ],
+  "inventory": "current corroborated eligible inventory from large_complex_data.inventory; construction year before 2025; not historical stock",
+  "eligibility": "strict observed sale excluding land leasehold; one contract one vote",
+  "selection": "Nowon/Gangseo inherited examples; 1000 total households; age20_29 predeclared sensitivity",
+  "price_support_minimum": 40,
+  "complex_support_minimum": 2,
+  "count_support_minimum": 10,
+  "regions": [
+    {
+      "region": "11350",
+      "label": "노원구",
+      "total": 802,
+      "included": 678,
+      "excluded": 124,
+      "rows": [
+        {
+          "scope": "all",
+          "group": 0,
+          "label": "1,000세대 미만",
+          "n": 560,
+          "complex_count": "101",
+          "status": "supported",
+          "p25": 66500.0,
+          "median": 79650.0,
+          "p75": 92625.0
+        },
+        {
+          "scope": "all",
+          "group": 1,
+          "label": "1,000세대 이상",
+          "n": 118,
+          "complex_count": "10개 미만",
+          "status": "supported",
+          "p25": 89425.0,
+          "median": 105000.0,
+          "p75": 113375.0
+        },
+        {
+          "scope": "age20_29",
+          "group": 0,
+          "label": "1,000세대 미만",
+          "n": 306,
+          "complex_count": "61",
+          "status": "supported",
+          "p25": 67000.0,
+          "median": 78400.0,
+          "p75": 87950.0
+        },
+        {
+          "scope": "age20_29",
+          "group": 1,
+          "label": "1,000세대 이상",
+          "n": 81,
+          "complex_count": "10개 미만",
+          "status": "supported",
+          "p25": 88500.0,
+          "median": 100000.0,
+          "p75": 108500.0
+        }
+      ],
+      "gaps": [
+        {
+          "scope": "all",
+          "gap_manwon": 25350.0,
+          "gap_pct": 31.826741996233523
+        },
+        {
+          "scope": "age20_29",
+          "gap_manwon": 21600.0,
+          "gap_pct": 27.55102040816326
+        }
+      ]
+    },
+    {
+      "region": "11500",
+      "label": "강서구",
+      "total": 726,
+      "included": 633,
+      "excluded": 93,
+      "rows": [
+        {
+          "scope": "all",
+          "group": 0,
+          "label": "1,000세대 미만",
+          "n": 492,
+          "complex_count": "106",
+          "status": "supported",
+          "p25": 87500.0,
+          "median": 100000.0,
+          "p75": 118000.0
+        },
+        {
+          "scope": "all",
+          "group": 1,
+          "label": "1,000세대 이상",
+          "n": 141,
+          "complex_count": "12",
+          "status": "supported",
+          "p25": 127500.0,
+          "median": 152000.0,
+          "p75": 164000.0
+        },
+        {
+          "scope": "age20_29",
+          "group": 0,
+          "label": "1,000세대 미만",
+          "n": 250,
+          "complex_count": "62",
+          "status": "supported",
+          "p25": 86000.0,
+          "median": 95100.0,
+          "p75": 109950.0
+        },
+        {
+          "scope": "age20_29",
+          "group": 1,
+          "label": "1,000세대 이상",
+          "n": 59,
+          "complex_count": "10개 미만",
+          "status": "supported",
+          "p25": 114750.0,
+          "median": 124000.0,
+          "p75": 157500.0
+        }
+      ],
+      "gaps": [
+        {
+          "scope": "all",
+          "gap_manwon": 52000.0,
+          "gap_pct": 52.0
+        },
+        {
+          "scope": "age20_29",
+          "gap_manwon": 28900.0,
+          "gap_pct": 30.38906414300737
+        }
+      ]
+    }
+  ]
+}
