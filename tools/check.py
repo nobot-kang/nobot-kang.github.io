@@ -65,6 +65,8 @@ def check(root):
         assert root.resolve() in path.resolve().parents and '..' not in Path(name).parts
         if name.endswith('.json'):
             json.loads(path.read_text())
+        if name.endswith('.xml'):
+            ET.parse(path)
         if name.endswith('.html'):
             source = path.read_text()
             assert '{{' not in source and '원로' not in source, name
