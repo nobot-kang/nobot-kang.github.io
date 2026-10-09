@@ -1,0 +1,61 @@
+{
+  "schema": "kb_nominal_peak_recovery_v1",
+  "source_asset": "market-cycles.json",
+  "source_asset_sha256": "b2de8169d8102f4c937b32314dc2bddda3156df0471ac6ab7f15fdedebc4d0b9",
+  "source_url": "https://data.kbland.kr/kbstats/wmh?tIdx=HT01&tsIdx=monthAptSalePriceInx",
+  "methodology_url": "https://blog.naver.com/kbland_official/223818660146",
+  "source_fetched_at": "2026-10-03T07:34:22.741270+00:00",
+  "source_updated_label": "20260914",
+  "peak_search": [
+    "2021-01",
+    "2022-12"
+  ],
+  "observation_end": "2026-06",
+  "rule": "earliest tied peak; first return to >= peak strictly after a below-peak observation; two-month confirmation uses consecutive >= observations; no interpolation or real-time claim",
+  "results": [
+    {
+      "region": "1100000000",
+      "label": "서울",
+      "peak_month": "2022-07",
+      "peak_index": 96.110528673465,
+      "first_below_month": "2022-08",
+      "first_recovery_month": "2025-10",
+      "two_month_confirmation": "2025-11",
+      "peak_to_first_months": 39,
+      "below_after_first_months": 0,
+      "end_month": "2026-06",
+      "end_index": 105.7983526197,
+      "end_at_or_above_peak": true,
+      "trough_month": "2024-05",
+      "trough_index": 86.074989287189,
+      "trough_at_end": false,
+      "end_vs_peak_pct": 10.079877907184684,
+      "end_peak_ratio_pct": 110.07987790718468,
+      "rebound_pct": 22.914162982587246,
+      "needed_rise_pct": 0,
+      "restored_loss_pct": 196.53515943032903
+    },
+    {
+      "region": "4100000000",
+      "label": "경기",
+      "peak_month": "2022-05",
+      "peak_index": 114.29444600702,
+      "first_below_month": "2022-06",
+      "first_recovery_month": null,
+      "two_month_confirmation": null,
+      "peak_to_first_months": null,
+      "below_after_first_months": null,
+      "end_month": "2026-06",
+      "end_index": 102.6305381975,
+      "end_at_or_above_peak": false,
+      "trough_month": "2024-06",
+      "trough_index": 97.686794897297,
+      "trough_at_end": false,
+      "end_vs_peak_pct": -10.205139634522222,
+      "end_peak_ratio_pct": 89.79486036547777,
+      "rebound_pct": 5.060810220460814,
+      "needed_rise_pct": 11.364948498149962,
+      "restored_loss_pct": 29.767865832084276
+    }
+  ]
+}
