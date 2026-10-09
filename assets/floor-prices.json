@@ -1,0 +1,123 @@
+{
+  "schema": "observed_floor_prices_v1",
+  "period": [
+    "2026-01",
+    "2026-06"
+  ],
+  "area_selector": "84 <= exclusive area_m2 < 85; editorial selector",
+  "floor_definition": "reported positive integer absolute floor; separate from floor / building height",
+  "snapshot_built_date": "2026-10-04",
+  "reference_end": "2026-09",
+  "information_cutoff": null,
+  "source_url": "https://www.data.go.kr/data/15126468/openapi.do",
+  "amount_unit": "만원",
+  "selection": "Nowon/Gangseo inherited from first-home series; predeclared floor bins",
+  "policy": "strict observed sale excluding land leasehold; contract-weighted linear quantiles; prices do not require matched height",
+  "height_coverage": "current registry conservative building linkage; not historical inventory or model support",
+  "price_support_minimum": 40,
+  "complex_support_minimum": 2,
+  "count_support_minimum": 10,
+  "source_shards": 12,
+  "regions": [
+    {
+      "region": "11350",
+      "label": "노원구",
+      "total": 802,
+      "excluded_floor": 0,
+      "matched_height": 662,
+      "unmatched_height": 140,
+      "rows": [
+        {
+          "group": 0,
+          "label": "1–3층",
+          "n": 150,
+          "complex_count": "77",
+          "status": "supported",
+          "p25": 63000.0,
+          "median": 79500.0,
+          "p75": 92750.0
+        },
+        {
+          "group": 1,
+          "label": "4–9층",
+          "n": 322,
+          "complex_count": "119",
+          "status": "supported",
+          "p25": 69000.0,
+          "median": 82250.0,
+          "p75": 93000.0
+        },
+        {
+          "group": 2,
+          "label": "10–14층",
+          "n": 203,
+          "complex_count": "84",
+          "status": "supported",
+          "p25": 70000.0,
+          "median": 87200.0,
+          "p75": 100750.0
+        },
+        {
+          "group": 3,
+          "label": "15층 이상",
+          "n": 127,
+          "complex_count": "46",
+          "status": "supported",
+          "p25": 82000.0,
+          "median": 94000.0,
+          "p75": 109750.0
+        }
+      ]
+    },
+    {
+      "region": "11500",
+      "label": "강서구",
+      "total": 726,
+      "excluded_floor": 0,
+      "matched_height": 606,
+      "unmatched_height": 120,
+      "rows": [
+        {
+          "group": 0,
+          "label": "1–3층",
+          "n": 162,
+          "complex_count": "89",
+          "status": "supported",
+          "p25": 81250.0,
+          "median": 95000.0,
+          "p75": 114375.0
+        },
+        {
+          "group": 1,
+          "label": "4–9층",
+          "n": 303,
+          "complex_count": "139",
+          "status": "supported",
+          "p25": 83775.0,
+          "median": 104000.0,
+          "p75": 126000.0
+        },
+        {
+          "group": 2,
+          "label": "10–14층",
+          "n": 202,
+          "complex_count": "93",
+          "status": "supported",
+          "p25": 91000.0,
+          "median": 105000.0,
+          "p75": 127000.0
+        },
+        {
+          "group": 3,
+          "label": "15층 이상",
+          "n": 59,
+          "complex_count": "30",
+          "status": "supported",
+          "p25": 110000.0,
+          "median": 133000.0,
+          "p75": 157000.0
+        }
+      ]
+    }
+  ]
+}
