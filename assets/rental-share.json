@@ -1,0 +1,169 @@
+{
+  "schema": "rental_share_v1",
+  "snapshot_built_date": "2026-10-04",
+  "reference_end": "2026-09",
+  "information_cutoff": null,
+  "source_url": "https://www.data.go.kr/data/15126474/openapi.do",
+  "population": "서울 마스터 지리, 전체 전용면적, canonical eligible 계약; 토지임대부·분류충돌·금액/면적 무효 제외",
+  "monthly_definition": "monthly payment > 0; nonnegative deposit",
+  "jeonse_definition": "monthly payment = 0; positive deposit",
+  "geography_support": 30,
+  "cell_support": 10,
+  "coverage": {
+    "districts": 25,
+    "months": 54,
+    "source_shards": 1350
+  },
+  "periods": [
+    {
+      "period": "2022",
+      "start": "2022-01",
+      "end": "2022-12",
+      "n": 233381,
+      "monthly": 104029,
+      "excluded": 339,
+      "groups": [
+        {
+          "group": "new",
+          "n": 115469,
+          "monthly": 59056
+        },
+        {
+          "group": "renewal",
+          "n": 84108,
+          "monthly": 26148
+        },
+        {
+          "group": "unknown",
+          "n": 33804,
+          "monthly": 18825
+        }
+      ]
+    },
+    {
+      "period": "2023",
+      "start": "2023-01",
+      "end": "2023-12",
+      "n": 255656,
+      "monthly": 107933,
+      "excluded": 468,
+      "groups": [
+        {
+          "group": "new",
+          "n": 160414,
+          "monthly": 69257
+        },
+        {
+          "group": "renewal",
+          "n": 66354,
+          "monthly": 22059
+        },
+        {
+          "group": "unknown",
+          "n": 28888,
+          "monthly": 16617
+        }
+      ]
+    },
+    {
+      "period": "2024",
+      "start": "2024-01",
+      "end": "2024-12",
+      "n": 231350,
+      "monthly": 100495,
+      "excluded": 909,
+      "groups": [
+        {
+          "group": "new",
+          "n": 153278,
+          "monthly": 70015
+        },
+        {
+          "group": "renewal",
+          "n": 72433,
+          "monthly": 28179
+        },
+        {
+          "group": "unknown",
+          "n": 5639,
+          "monthly": 2301
+        }
+      ]
+    },
+    {
+      "period": "2025",
+      "start": "2025-01",
+      "end": "2025-12",
+      "n": 250939,
+      "monthly": 112444,
+      "excluded": 1027,
+      "groups": [
+        {
+          "group": "new",
+          "n": 136418,
+          "monthly": 65481
+        },
+        {
+          "group": "renewal",
+          "n": 98499,
+          "monthly": 36907
+        },
+        {
+          "group": "unknown",
+          "n": 16022,
+          "monthly": 10056
+        }
+      ]
+    },
+    {
+      "period": "2025H1",
+      "start": "2025-01",
+      "end": "2025-06",
+      "n": 129099,
+      "monthly": 56337,
+      "excluded": 647,
+      "groups": [
+        {
+          "group": "new",
+          "n": 70158,
+          "monthly": 32373
+        },
+        {
+          "group": "renewal",
+          "n": 49130,
+          "monthly": 18015
+        },
+        {
+          "group": "unknown",
+          "n": 9811,
+          "monthly": 5949
+        }
+      ]
+    },
+    {
+      "period": "2026H1",
+      "start": "2026-01",
+      "end": "2026-06",
+      "n": 115171,
+      "monthly": 58650,
+      "excluded": 308,
+      "groups": [
+        {
+          "group": "new",
+          "n": 61148,
+          "monthly": 34486
+        },
+        {
+          "group": "renewal",
+          "n": 52781,
+          "monthly": 23748
+        },
+        {
+          "group": "unknown",
+          "n": 1242,
+          "monthly": 416
+        }
+      ]
+    }
+  ]
+}
