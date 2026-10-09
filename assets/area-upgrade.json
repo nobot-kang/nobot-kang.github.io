@@ -1,0 +1,180 @@
+{
+  "schema": "observed_area_upgrade_v1",
+  "period": [
+    "2026-01",
+    "2026-06"
+  ],
+  "area_selectors": [
+    "59 <= exclusive area_m2 < 60",
+    "84 <= exclusive area_m2 < 85"
+  ],
+  "common_rule": "same canonical complex, at least 5 strict sales in each editorial area selector",
+  "policy": "strict observed sale excluding land leasehold; linear quantiles; no individual prices or IDs exported",
+  "statistic": "all/common prices pool trades; paired gaps give each common complex one vote",
+  "selection": "preselected Nowon/Gangseo; same H1 as prior series",
+  "snapshot_built_date": "2026-10-04",
+  "reference_end": "2026-09",
+  "information_cutoff": null,
+  "source_url": "https://www.data.go.kr/data/15126468/openapi.do",
+  "amount_unit": "만원",
+  "price_support_minimum": 40,
+  "pair_complex_minimum": 10,
+  "count_support_minimum": 10,
+  "source_shards": 12,
+  "regions": [
+    {
+      "region": "11350",
+      "label": "노원구",
+      "rows": [
+        {
+          "scope": "all",
+          "area": 59,
+          "n": 832,
+          "complex_count": "105",
+          "status": "supported",
+          "p25": 53000.0,
+          "median": 60000.0,
+          "p75": 74725.0
+        },
+        {
+          "scope": "all",
+          "area": 84,
+          "n": 802,
+          "complex_count": "143",
+          "status": "supported",
+          "p25": 69000.0,
+          "median": 85000.0,
+          "p75": 98375.0
+        },
+        {
+          "scope": "common",
+          "area": 59,
+          "n": 271,
+          "complex_count": "23",
+          "status": "supported",
+          "p25": 56400.0,
+          "median": 73500.0,
+          "p75": 90800.0
+        },
+        {
+          "scope": "common",
+          "area": 84,
+          "n": 272,
+          "complex_count": "23",
+          "status": "supported",
+          "p25": 77962.5,
+          "median": 93000.0,
+          "p75": 110000.0
+        }
+      ],
+      "gaps": [
+        {
+          "scope": "all",
+          "gap": 25000.0
+        },
+        {
+          "scope": "common",
+          "gap": 19500.0
+        }
+      ],
+      "coverage": [
+        {
+          "area": 59,
+          "total": 832,
+          "included": 271,
+          "excluded": 561
+        },
+        {
+          "area": 84,
+          "total": 802,
+          "included": 272,
+          "excluded": 530
+        }
+      ],
+      "pairs": {
+        "complex_count": "23",
+        "status": "supported",
+        "p25": 13075.0,
+        "median": 15000.0,
+        "p75": 22625.0
+      }
+    },
+    {
+      "region": "11500",
+      "label": "강서구",
+      "rows": [
+        {
+          "scope": "all",
+          "area": 59,
+          "n": 431,
+          "complex_count": "96",
+          "status": "supported",
+          "p25": 72000.0,
+          "median": 90000.0,
+          "p75": 113500.0
+        },
+        {
+          "scope": "all",
+          "area": 84,
+          "n": 726,
+          "complex_count": "171",
+          "status": "supported",
+          "p25": 85850.0,
+          "median": 104400.0,
+          "p75": 127500.0
+        },
+        {
+          "scope": "common",
+          "area": 59,
+          "n": 158,
+          "complex_count": "19",
+          "status": "supported",
+          "p25": 77625.0,
+          "median": 103000.0,
+          "p75": 135000.0
+        },
+        {
+          "scope": "common",
+          "area": 84,
+          "n": 180,
+          "complex_count": "19",
+          "status": "supported",
+          "p25": 89375.0,
+          "median": 129500.0,
+          "p75": 155850.0
+        }
+      ],
+      "gaps": [
+        {
+          "scope": "all",
+          "gap": 14400.0
+        },
+        {
+          "scope": "common",
+          "gap": 26500.0
+        }
+      ],
+      "coverage": [
+        {
+          "area": 59,
+          "total": 431,
+          "included": 158,
+          "excluded": 273
+        },
+        {
+          "area": 84,
+          "total": 726,
+          "included": 180,
+          "excluded": 546
+        }
+      ],
+      "pairs": {
+        "complex_count": "19",
+        "status": "supported",
+        "p25": 10800.0,
+        "median": 13000.0,
+        "p75": 15750.0
+      }
+    }
+  ]
+}
