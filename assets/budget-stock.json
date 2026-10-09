@@ -1,0 +1,1362 @@
+{
+  "schema": "budget_stock_v1",
+  "months": [
+    "2016-06",
+    "2021-06",
+    "2026-06"
+  ],
+  "dates": [
+    "2016-06-30",
+    "2021-06-24",
+    "2026-06-25"
+  ],
+  "budgets": [
+    60000,
+    90000
+  ],
+  "shifts": [
+    -0.1,
+    -0.05,
+    0.0,
+    0.05,
+    0.1
+  ],
+  "inventory_dates": [
+    "20260424",
+    "20260626",
+    "20260828",
+    "20261002"
+  ],
+  "snapshot_built_date": "2026-10-04",
+  "information_cutoff": null,
+  "price_definition": "canonical reference dwelling; current measured area households; structural support including qualified area transfers",
+  "macro": [
+    {
+      "scope": "11",
+      "period": "2016-06",
+      "reference_date": "2016-06-30",
+      "known_households": 1389948,
+      "unmapped": 263605,
+      "unknown_household_complexes": "495",
+      "mapped": 1126343,
+      "supported": 1033210,
+      "unsupported": 93133,
+      "under6": 722943,
+      "under9": 902908
+    },
+    {
+      "scope": "11",
+      "period": "2021-06",
+      "reference_date": "2021-06-24",
+      "known_households": 1561769,
+      "unmapped": 288776,
+      "unknown_household_complexes": "542",
+      "mapped": 1272993,
+      "supported": 1024409,
+      "unsupported": 248584,
+      "under6": 119964,
+      "under9": 389692
+    },
+    {
+      "scope": "11",
+      "period": "2026-06",
+      "reference_date": "2026-06-25",
+      "known_households": 1673122,
+      "unmapped": 324111,
+      "unknown_household_complexes": "562",
+      "mapped": 1349011,
+      "supported": 1165815,
+      "unsupported": 183196,
+      "under6": 127971,
+      "under9": 352255
+    },
+    {
+      "scope": "41",
+      "period": "2016-06",
+      "reference_date": "2016-06-30",
+      "known_households": 1847094,
+      "unmapped": 165413,
+      "unknown_household_complexes": "636",
+      "mapped": 1681681,
+      "supported": 1524345,
+      "unsupported": 157336,
+      "under6": 1449761,
+      "under9": 1515651
+    },
+    {
+      "scope": "41",
+      "period": "2021-06",
+      "reference_date": "2021-06-24",
+      "known_households": 2322786,
+      "unmapped": 196817,
+      "unknown_household_complexes": "680",
+      "mapped": 2125969,
+      "supported": 1902298,
+      "unsupported": 223671,
+      "under6": 1053281,
+      "under9": 1617206
+    },
+    {
+      "scope": "41",
+      "period": "2026-06",
+      "reference_date": "2026-06-25",
+      "known_households": 2550507,
+      "unmapped": 221980,
+      "unknown_household_complexes": "706",
+      "mapped": 2328527,
+      "supported": 2161128,
+      "unsupported": 167399,
+      "under6": 1171922,
+      "under9": 1711799
+    }
+  ],
+  "regions": [
+    {
+      "region": "11110",
+      "label": "종로구",
+      "mapped": 9839,
+      "supported": 7732,
+      "unsupported": 2107,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "11140",
+      "label": "중구",
+      "mapped": 11166,
+      "supported": 8916,
+      "unsupported": 2250,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "11170",
+      "label": "용산구",
+      "mapped": 27089,
+      "supported": 20326,
+      "unsupported": 6763,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "11200",
+      "label": "성동구",
+      "mapped": 45367,
+      "supported": 35560,
+      "unsupported": 9807,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "11215",
+      "label": "광진구",
+      "mapped": 29112,
+      "supported": 21261,
+      "unsupported": 7851,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "11230",
+      "label": "동대문구",
+      "mapped": 53909,
+      "supported": 50488,
+      "unsupported": 3421,
+      "under6": 3041,
+      "under9": 10260,
+      "status": "supported"
+    },
+    {
+      "region": "11260",
+      "label": "중랑구",
+      "mapped": 40677,
+      "supported": 35601,
+      "unsupported": 5076,
+      "under6": 9216,
+      "under9": 27057,
+      "status": "supported"
+    },
+    {
+      "region": "11290",
+      "label": "성북구",
+      "mapped": 64385,
+      "supported": 60905,
+      "unsupported": 3480,
+      "under6": 3489,
+      "under9": 19392,
+      "status": "supported"
+    },
+    {
+      "region": "11305",
+      "label": "강북구",
+      "mapped": 22060,
+      "supported": 19906,
+      "unsupported": 2154,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "11320",
+      "label": "도봉구",
+      "mapped": 55526,
+      "supported": 50777,
+      "unsupported": 4749,
+      "under6": 24328,
+      "under9": 41904,
+      "status": "supported"
+    },
+    {
+      "region": "11350",
+      "label": "노원구",
+      "mapped": 107804,
+      "supported": 98190,
+      "unsupported": 9614,
+      "under6": 33694,
+      "under9": 76258,
+      "status": "supported"
+    },
+    {
+      "region": "11380",
+      "label": "은평구",
+      "mapped": 52970,
+      "supported": 43125,
+      "unsupported": 9845,
+      "under6": 4182,
+      "under9": 18940,
+      "status": "supported"
+    },
+    {
+      "region": "11410",
+      "label": "서대문구",
+      "mapped": 41971,
+      "supported": 39799,
+      "unsupported": 2172,
+      "under6": 2462,
+      "under9": 9718,
+      "status": "supported"
+    },
+    {
+      "region": "11440",
+      "label": "마포구",
+      "mapped": 45869,
+      "supported": 40087,
+      "unsupported": 5782,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "11470",
+      "label": "양천구",
+      "mapped": 65808,
+      "supported": 49983,
+      "unsupported": 15825,
+      "under6": 2493,
+      "under9": 13414,
+      "status": "supported"
+    },
+    {
+      "region": "11500",
+      "label": "강서구",
+      "mapped": 76111,
+      "supported": 68828,
+      "unsupported": 7283,
+      "under6": 3409,
+      "under9": 18448,
+      "status": "supported"
+    },
+    {
+      "region": "11530",
+      "label": "구로구",
+      "mapped": 64376,
+      "supported": 57847,
+      "unsupported": 6529,
+      "under6": 9471,
+      "under9": 36581,
+      "status": "supported"
+    },
+    {
+      "region": "11545",
+      "label": "금천구",
+      "mapped": 21673,
+      "supported": 19996,
+      "unsupported": 1677,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "11560",
+      "label": "영등포구",
+      "mapped": 68176,
+      "supported": 59031,
+      "unsupported": 9145,
+      "under6": 2253,
+      "under9": 8114,
+      "status": "supported"
+    },
+    {
+      "region": "11590",
+      "label": "동작구",
+      "mapped": 52454,
+      "supported": 46226,
+      "unsupported": 6228,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "11620",
+      "label": "관악구",
+      "mapped": 33789,
+      "supported": 31425,
+      "unsupported": 2364,
+      "under6": 5542,
+      "under9": 14745,
+      "status": "supported"
+    },
+    {
+      "region": "11650",
+      "label": "서초구",
+      "mapped": 73269,
+      "supported": 55794,
+      "unsupported": 17475,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "11680",
+      "label": "강남구",
+      "mapped": 89205,
+      "supported": 66535,
+      "unsupported": 22670,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "11710",
+      "label": "송파구",
+      "mapped": 107609,
+      "supported": 96351,
+      "unsupported": 11258,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "11740",
+      "label": "강동구",
+      "mapped": 88797,
+      "supported": 81126,
+      "unsupported": 7671,
+      "under6": 1891,
+      "under9": 7107,
+      "status": "supported"
+    },
+    {
+      "region": "41111",
+      "label": "수원시 장안구",
+      "mapped": 49954,
+      "supported": 46776,
+      "unsupported": 3178,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41113",
+      "label": "수원시 권선구",
+      "mapped": 73721,
+      "supported": 69939,
+      "unsupported": 3782,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41115",
+      "label": "수원시 팔달구",
+      "mapped": 34993,
+      "supported": 33003,
+      "unsupported": 1990,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41117",
+      "label": "수원시 영통구",
+      "mapped": 81716,
+      "supported": 79314,
+      "unsupported": 2402,
+      "under6": 27560,
+      "under9": 47771,
+      "status": "supported"
+    },
+    {
+      "region": "41131",
+      "label": "성남시 수정구",
+      "mapped": 26100,
+      "supported": 23991,
+      "unsupported": 2109,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41133",
+      "label": "성남시 중원구",
+      "mapped": 26556,
+      "supported": 25943,
+      "unsupported": 613,
+      "under6": 5953,
+      "under9": 11627,
+      "status": "supported"
+    },
+    {
+      "region": "41135",
+      "label": "성남시 분당구",
+      "mapped": 84453,
+      "supported": 72570,
+      "unsupported": 11883,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41150",
+      "label": "의정부시",
+      "mapped": 109133,
+      "supported": 95983,
+      "unsupported": 13150,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41171",
+      "label": "안양시 만안구",
+      "mapped": 39046,
+      "supported": 36138,
+      "unsupported": 2908,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41173",
+      "label": "안양시 동안구",
+      "mapped": 78419,
+      "supported": 73911,
+      "unsupported": 4508,
+      "under6": 12537,
+      "under9": 38650,
+      "status": "supported"
+    },
+    {
+      "region": "41192",
+      "label": "부천시 원미구",
+      "mapped": 53414,
+      "supported": 48914,
+      "unsupported": 4500,
+      "under6": 20538,
+      "under9": 43454,
+      "status": "supported"
+    },
+    {
+      "region": "41194",
+      "label": "부천시 소사구",
+      "mapped": 42355,
+      "supported": 38491,
+      "unsupported": 3864,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41196",
+      "label": "부천시 오정구",
+      "mapped": 9633,
+      "supported": 5968,
+      "unsupported": 3665,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41210",
+      "label": "광명시",
+      "mapped": 62803,
+      "supported": 58763,
+      "unsupported": 4040,
+      "under6": 8880,
+      "under9": 30642,
+      "status": "supported"
+    },
+    {
+      "region": "41220",
+      "label": "평택시",
+      "mapped": 148506,
+      "supported": 135186,
+      "unsupported": 13320,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41271",
+      "label": "안산시 상록구",
+      "mapped": 45123,
+      "supported": 41003,
+      "unsupported": 4120,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41273",
+      "label": "안산시 단원구",
+      "mapped": 54583,
+      "supported": 51440,
+      "unsupported": 3143,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41281",
+      "label": "고양시 덕양구",
+      "mapped": 86598,
+      "supported": 82086,
+      "unsupported": 4512,
+      "under6": 42561,
+      "under9": 73264,
+      "status": "supported"
+    },
+    {
+      "region": "41285",
+      "label": "고양시 일산동구",
+      "mapped": 41743,
+      "supported": 38556,
+      "unsupported": 3187,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41287",
+      "label": "고양시 일산서구",
+      "mapped": 67472,
+      "supported": 60995,
+      "unsupported": 6477,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41290",
+      "label": "과천시",
+      "mapped": 13531,
+      "supported": 9514,
+      "unsupported": 4017,
+      "under6": 0,
+      "under9": 0,
+      "status": "supported"
+    },
+    {
+      "region": "41310",
+      "label": "구리시",
+      "mapped": 38348,
+      "supported": 37646,
+      "unsupported": 702,
+      "under6": 5284,
+      "under9": 29251,
+      "status": "supported"
+    },
+    {
+      "region": "41360",
+      "label": "남양주시",
+      "mapped": 152505,
+      "supported": 143861,
+      "unsupported": 8644,
+      "under6": 96027,
+      "under9": 126430,
+      "status": "supported"
+    },
+    {
+      "region": "41410",
+      "label": "군포시",
+      "mapped": 52154,
+      "supported": 49876,
+      "unsupported": 2278,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41430",
+      "label": "의왕시",
+      "mapped": 37442,
+      "supported": 32576,
+      "unsupported": 4866,
+      "under6": 13359,
+      "under9": 23566,
+      "status": "supported"
+    },
+    {
+      "region": "41450",
+      "label": "하남시",
+      "mapped": 73145,
+      "supported": 69366,
+      "unsupported": 3779,
+      "under6": 3284,
+      "under9": 15291,
+      "status": "supported"
+    },
+    {
+      "region": "41461",
+      "label": "용인시 처인구",
+      "mapped": 49995,
+      "supported": 45766,
+      "unsupported": 4229,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41463",
+      "label": "용인시 기흥구",
+      "mapped": 104681,
+      "supported": 102627,
+      "unsupported": 2054,
+      "under6": 48287,
+      "under9": 85976,
+      "status": "supported"
+    },
+    {
+      "region": "41465",
+      "label": "용인시 수지구",
+      "mapped": 101542,
+      "supported": 98130,
+      "unsupported": 3412,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41480",
+      "label": "파주시",
+      "mapped": 105909,
+      "supported": 94084,
+      "unsupported": 11825,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41570",
+      "label": "김포시",
+      "mapped": 108220,
+      "supported": 102500,
+      "unsupported": 5720,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41591",
+      "label": "화성시 만세구",
+      "mapped": 38762,
+      "supported": 33822,
+      "unsupported": 4940,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41593",
+      "label": "화성시 효행구",
+      "mapped": 37144,
+      "supported": 33708,
+      "unsupported": 3436,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41595",
+      "label": "화성시 병점구",
+      "mapped": 44072,
+      "supported": 41499,
+      "unsupported": 2573,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "region": "41597",
+      "label": "화성시 동탄구",
+      "mapped": 98884,
+      "supported": 96483,
+      "unsupported": 2401,
+      "under6": 15506,
+      "under9": 63334,
+      "status": "supported"
+    },
+    {
+      "region": "41610",
+      "label": "광주시",
+      "mapped": 55872,
+      "supported": 50700,
+      "unsupported": 5172,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    }
+  ],
+  "region_suppressed": [
+    "11110",
+    "11140",
+    "11170",
+    "11200",
+    "11215",
+    "11305",
+    "11440",
+    "11545",
+    "11590",
+    "11650",
+    "11680",
+    "11710",
+    "41111",
+    "41113",
+    "41115",
+    "41131",
+    "41135",
+    "41150",
+    "41171",
+    "41194",
+    "41196",
+    "41220",
+    "41271",
+    "41273",
+    "41285",
+    "41287",
+    "41410",
+    "41461",
+    "41465",
+    "41480",
+    "41570",
+    "41591",
+    "41593",
+    "41595",
+    "41610"
+  ],
+  "price_status": [
+    {
+      "scope": "11",
+      "period": "2016-06",
+      "status": "cold_start",
+      "households": 5554
+    },
+    {
+      "scope": "11",
+      "period": "2016-06",
+      "status": "eligible",
+      "households": 1033210
+    },
+    {
+      "scope": "11",
+      "period": "2016-06",
+      "status": "missing",
+      "households": 32643
+    },
+    {
+      "scope": "11",
+      "period": "2016-06",
+      "status": "sparse",
+      "households": 5230
+    },
+    {
+      "scope": "11",
+      "period": "2016-06",
+      "status": "stale",
+      "households": 49706
+    },
+    {
+      "scope": "11",
+      "period": "2021-06",
+      "status": "cold_start",
+      "households": 4624
+    },
+    {
+      "scope": "11",
+      "period": "2021-06",
+      "status": "eligible",
+      "households": 1024409
+    },
+    {
+      "scope": "11",
+      "period": "2021-06",
+      "status": "missing",
+      "households": 49212
+    },
+    {
+      "scope": "11",
+      "period": "2021-06",
+      "status": "sparse",
+      "households": 7391
+    },
+    {
+      "scope": "11",
+      "period": "2021-06",
+      "status": "stale",
+      "households": 187357
+    },
+    {
+      "scope": "11",
+      "period": "2026-06",
+      "status": "cold_start",
+      "households": 7203
+    },
+    {
+      "scope": "11",
+      "period": "2026-06",
+      "status": "eligible",
+      "households": 1165815
+    },
+    {
+      "scope": "11",
+      "period": "2026-06",
+      "status": "missing",
+      "households": 25300
+    },
+    {
+      "scope": "11",
+      "period": "2026-06",
+      "status": "sparse",
+      "households": 3890
+    },
+    {
+      "scope": "11",
+      "period": "2026-06",
+      "status": "stale",
+      "households": 146803
+    },
+    {
+      "scope": "41",
+      "period": "2016-06",
+      "status": "cold_start",
+      "households": 6044
+    },
+    {
+      "scope": "41",
+      "period": "2016-06",
+      "status": "eligible",
+      "households": 1524345
+    },
+    {
+      "scope": "41",
+      "period": "2016-06",
+      "status": "missing",
+      "households": 89884
+    },
+    {
+      "scope": "41",
+      "period": "2016-06",
+      "status": "sparse",
+      "households": 9378
+    },
+    {
+      "scope": "41",
+      "period": "2016-06",
+      "status": "stale",
+      "households": 52030
+    },
+    {
+      "scope": "41",
+      "period": "2021-06",
+      "status": "cold_start",
+      "households": 11049
+    },
+    {
+      "scope": "41",
+      "period": "2021-06",
+      "status": "eligible",
+      "households": 1902298
+    },
+    {
+      "scope": "41",
+      "period": "2021-06",
+      "status": "missing",
+      "households": 101317
+    },
+    {
+      "scope": "41",
+      "period": "2021-06",
+      "status": "sparse",
+      "households": 13744
+    },
+    {
+      "scope": "41",
+      "period": "2021-06",
+      "status": "stale",
+      "households": 97561
+    },
+    {
+      "scope": "41",
+      "period": "2026-06",
+      "status": "cold_start",
+      "households": 11245
+    },
+    {
+      "scope": "41",
+      "period": "2026-06",
+      "status": "eligible",
+      "households": 2161128
+    },
+    {
+      "scope": "41",
+      "period": "2026-06",
+      "status": "missing",
+      "households": 20241
+    },
+    {
+      "scope": "41",
+      "period": "2026-06",
+      "status": "sparse",
+      "households": 10405
+    },
+    {
+      "scope": "41",
+      "period": "2026-06",
+      "status": "stale",
+      "households": 125508
+    }
+  ],
+  "sensitivity": [
+    {
+      "scope": "11",
+      "basis": "reference",
+      "shift": -0.1,
+      "mapped": 1349011,
+      "supported": 1165815,
+      "unsupported": 183196,
+      "under6": 177414,
+      "under9": 420113
+    },
+    {
+      "scope": "11",
+      "basis": "reference",
+      "shift": -0.05,
+      "mapped": 1349011,
+      "supported": 1165815,
+      "unsupported": 183196,
+      "under6": 154906,
+      "under9": 384702
+    },
+    {
+      "scope": "11",
+      "basis": "reference",
+      "shift": 0.0,
+      "mapped": 1349011,
+      "supported": 1165815,
+      "unsupported": 183196,
+      "under6": 127971,
+      "under9": 352255
+    },
+    {
+      "scope": "11",
+      "basis": "reference",
+      "shift": 0.05,
+      "mapped": 1349011,
+      "supported": 1165815,
+      "unsupported": 183196,
+      "under6": 105435,
+      "under9": 319813
+    },
+    {
+      "scope": "11",
+      "basis": "reference",
+      "shift": 0.1,
+      "mapped": 1349011,
+      "supported": 1165815,
+      "unsupported": 183196,
+      "under6": 95834,
+      "under9": 292088
+    },
+    {
+      "scope": "11",
+      "basis": "exact_area",
+      "shift": 0,
+      "mapped": 1349011,
+      "supported": 1165815,
+      "unsupported": 183196,
+      "under6": 127751,
+      "under9": 355582
+    },
+    {
+      "scope": "11",
+      "basis": "own_model",
+      "shift": 0,
+      "mapped": 1295978,
+      "supported": 1113121,
+      "unsupported": 182857,
+      "under6": 118094,
+      "under9": 328804
+    },
+    {
+      "scope": "41",
+      "basis": "reference",
+      "shift": -0.1,
+      "mapped": 2328527,
+      "supported": 2161128,
+      "unsupported": 167399,
+      "under6": 1331409,
+      "under9": 1813067
+    },
+    {
+      "scope": "41",
+      "basis": "reference",
+      "shift": -0.05,
+      "mapped": 2328527,
+      "supported": 2161128,
+      "unsupported": 167399,
+      "under6": 1244507,
+      "under9": 1769757
+    },
+    {
+      "scope": "41",
+      "basis": "reference",
+      "shift": 0.0,
+      "mapped": 2328527,
+      "supported": 2161128,
+      "unsupported": 167399,
+      "under6": 1171922,
+      "under9": 1711799
+    },
+    {
+      "scope": "41",
+      "basis": "reference",
+      "shift": 0.05,
+      "mapped": 2328527,
+      "supported": 2161128,
+      "unsupported": 167399,
+      "under6": 1105628,
+      "under9": 1661678
+    },
+    {
+      "scope": "41",
+      "basis": "reference",
+      "shift": 0.1,
+      "mapped": 2328527,
+      "supported": 2161128,
+      "unsupported": 167399,
+      "under6": 1044811,
+      "under9": 1603248
+    },
+    {
+      "scope": "41",
+      "basis": "exact_area",
+      "shift": 0,
+      "mapped": 2328527,
+      "supported": 2161128,
+      "unsupported": 167399,
+      "under6": 1181114,
+      "under9": 1721716
+    },
+    {
+      "scope": "41",
+      "basis": "own_model",
+      "shift": 0,
+      "mapped": 2317420,
+      "supported": 2151215,
+      "unsupported": 166205,
+      "under6": 1165318,
+      "under9": 1702968
+    }
+  ],
+  "composition": [
+    {
+      "scope": "11",
+      "axis": "area_bin",
+      "group": "le60",
+      "mapped": 463812,
+      "supported": 410973,
+      "unsupported": 52839,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "scope": "11",
+      "axis": "area_bin",
+      "group": "le85",
+      "mapped": 599932,
+      "supported": 542743,
+      "unsupported": 57189,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "scope": "11",
+      "axis": "area_bin",
+      "group": "gt85",
+      "mapped": 285267,
+      "supported": 212099,
+      "unsupported": 73168,
+      "under6": null,
+      "under9": null,
+      "status": "suppressed"
+    },
+    {
+      "scope": "11",
+      "axis": "age_bin",
+      "group": "before2000",
+      "mapped": 520661,
+      "supported": 458329,
+      "unsupported": 62332,
+      "under6": 90273,
+      "under9": 204558,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "axis": "age_bin",
+      "group": "2000s",
+      "mapped": 431549,
+      "supported": 371993,
+      "unsupported": 59556,
+      "under6": 21921,
+      "under9": 102804,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "axis": "age_bin",
+      "group": "2010plus",
+      "mapped": 396801,
+      "supported": 335493,
+      "unsupported": 61308,
+      "under6": 15777,
+      "under9": 44893,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "axis": "age_bin",
+      "group": "unknown",
+      "mapped": 0,
+      "supported": 0,
+      "unsupported": 0,
+      "under6": 0,
+      "under9": 0,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "axis": "area_bin",
+      "group": "le60",
+      "mapped": 650923,
+      "supported": 612195,
+      "unsupported": 38728,
+      "under6": 436474,
+      "under9": 546941,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "axis": "area_bin",
+      "group": "le85",
+      "mapped": 1237119,
+      "supported": 1170975,
+      "unsupported": 66144,
+      "under6": 627635,
+      "under9": 928122,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "axis": "area_bin",
+      "group": "gt85",
+      "mapped": 440485,
+      "supported": 377958,
+      "unsupported": 62527,
+      "under6": 107813,
+      "under9": 236736,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "axis": "age_bin",
+      "group": "before2000",
+      "mapped": 613986,
+      "supported": 559332,
+      "unsupported": 54654,
+      "under6": 375742,
+      "under9": 474180,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "axis": "age_bin",
+      "group": "2000s",
+      "mapped": 715632,
+      "supported": 677092,
+      "unsupported": 38540,
+      "under6": 412345,
+      "under9": 586573,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "axis": "age_bin",
+      "group": "2010plus",
+      "mapped": 998909,
+      "supported": 924704,
+      "unsupported": 74205,
+      "under6": 383835,
+      "under9": 651046,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "axis": "age_bin",
+      "group": "unknown",
+      "mapped": 0,
+      "supported": 0,
+      "unsupported": 0,
+      "under6": 0,
+      "under9": 0,
+      "status": "supported"
+    }
+  ],
+  "common": [
+    {
+      "scope": "11",
+      "old": "2016-06",
+      "new": "2026-06",
+      "budget": 60000,
+      "paired": 923310,
+      "old_under": null,
+      "new_under": null,
+      "both_under": null,
+      "moved_above": null,
+      "moved_below": null,
+      "status": "suppressed"
+    },
+    {
+      "scope": "11",
+      "old": "2016-06",
+      "new": "2026-06",
+      "budget": 90000,
+      "paired": 923310,
+      "old_under": null,
+      "new_under": null,
+      "both_under": null,
+      "moved_above": null,
+      "moved_below": null,
+      "status": "suppressed"
+    },
+    {
+      "scope": "11",
+      "old": "2021-06",
+      "new": "2026-06",
+      "budget": 60000,
+      "paired": 941921,
+      "old_under": null,
+      "new_under": null,
+      "both_under": null,
+      "moved_above": null,
+      "moved_below": null,
+      "status": "suppressed"
+    },
+    {
+      "scope": "11",
+      "old": "2021-06",
+      "new": "2026-06",
+      "budget": 90000,
+      "paired": 941921,
+      "old_under": null,
+      "new_under": null,
+      "both_under": null,
+      "moved_above": null,
+      "moved_below": null,
+      "status": "suppressed"
+    },
+    {
+      "scope": "41",
+      "old": "2016-06",
+      "new": "2026-06",
+      "budget": 60000,
+      "paired": 1438241,
+      "old_under": null,
+      "new_under": null,
+      "both_under": null,
+      "moved_above": null,
+      "moved_below": null,
+      "status": "suppressed"
+    },
+    {
+      "scope": "41",
+      "old": "2016-06",
+      "new": "2026-06",
+      "budget": 90000,
+      "paired": 1438241,
+      "old_under": null,
+      "new_under": null,
+      "both_under": null,
+      "moved_above": null,
+      "moved_below": null,
+      "status": "suppressed"
+    },
+    {
+      "scope": "41",
+      "old": "2021-06",
+      "new": "2026-06",
+      "budget": 60000,
+      "paired": 1816548,
+      "old_under": null,
+      "new_under": null,
+      "both_under": null,
+      "moved_above": null,
+      "moved_below": null,
+      "status": "suppressed"
+    },
+    {
+      "scope": "41",
+      "old": "2021-06",
+      "new": "2026-06",
+      "budget": 90000,
+      "paired": 1816548,
+      "old_under": null,
+      "new_under": null,
+      "both_under": null,
+      "moved_above": null,
+      "moved_below": null,
+      "status": "suppressed"
+    }
+  ],
+  "transfer": [
+    {
+      "scope": "11",
+      "supported": 1165815,
+      "transferred": 52694,
+      "unknown_build_households": 0
+    },
+    {
+      "scope": "41",
+      "supported": 2161128,
+      "transferred": 9913,
+      "unknown_build_households": 0
+    }
+  ]
+}
