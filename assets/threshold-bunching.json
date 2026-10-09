@@ -1,0 +1,2609 @@
+{
+  "schema": "canonical_threshold_bunching_editorial_v1",
+  "amount_unit": "KRW",
+  "sample": "canonical sale_benchmark_eligible; Seoul 25 and collected Gyeonggi 36 districts",
+  "phase_end_exclusive": true,
+  "source_clock": "contract_date_proxy",
+  "causal_claim_allowed": false,
+  "individual_eligibility_observed": false,
+  "counterfactual": "quadratic fit on 1M KRW grid excluding central +/-2%; signed masses divided by all local trades",
+  "primary_horizon_days": 84,
+  "primary_bandwidth": 0.1,
+  "histogram_step_krw": 50000000,
+  "source_maturity_lag_days": 60,
+  "thresholds": [
+    {
+      "cutoff_krw": 1500000000,
+      "announcement": "2025-10-15",
+      "effective_from": "2025-10-16",
+      "effective_to": null,
+      "verified_to": "2026-07-01",
+      "main": [
+        {
+          "phase": "before",
+          "start": "2025-07-23",
+          "end": "2025-10-15",
+          "days": 84,
+          "maturity": "mature",
+          "bandwidth": 0.1,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 3002,
+            "clusters": 38,
+            "exact_cutoff_n": 196,
+            "exact_cutoff_share": 0.06528980679546968,
+            "excess_below_share": 0.05612350017123287,
+            "deficit_above_share": 0.03502935175323527,
+            "log_density_above_below": -0.5571889433041921,
+            "intervals": {
+              "excess_below_share": [
+                0.03681626795804657,
+                0.07543073238441916
+              ],
+              "deficit_above_share": [
+                0.02036139433720667,
+                0.049697309169263876
+              ],
+              "log_density_above_below": [
+                -0.7703983743923498,
+                -0.3439795122160344
+              ]
+            },
+            "uncertainty_status": "geographic_cluster_bootstrap_t",
+            "digits": [
+              {
+                "granularity_krw": 1000000,
+                "n": 2980,
+                "share": 0.9926715522984677
+              },
+              {
+                "granularity_krw": 10000000,
+                "n": 2287,
+                "share": 0.7618254497001998
+              },
+              {
+                "granularity_krw": 50000000,
+                "n": 962,
+                "share": 0.32045303131245834
+              },
+              {
+                "granularity_krw": 100000000,
+                "n": 579,
+                "share": 0.19287141905396402
+              }
+            ],
+            "digit_status": "available",
+            "nonround_sensitivity": {
+              "status": "descriptive",
+              "n": 715,
+              "excess_below_share": 0.08988678495342893,
+              "deficit_above_share": 0.029947346452490725,
+              "log_density_above_below": -0.9710510414173927
+            },
+            "polynomial_sensitivity": [
+              {
+                "degree": 1,
+                "excess_below_share": 0.04819967712812345,
+                "deficit_above_share": 0.042953174796344695,
+                "log_density_above_below": -0.5571889433041921
+              },
+              {
+                "degree": 3,
+                "excess_below_share": 0.050110358927680704,
+                "deficit_above_share": 0.029016210509683046,
+                "log_density_above_below": -0.5571889433041921
+              }
+            ],
+            "central_below_count": 447,
+            "central_above_count": 166,
+            "expected_below_count": 278.51725248595886,
+            "expected_above_count": 271.15811396321226,
+            "histogram": {
+              "step_krw": 50000000,
+              "rows": [
+                {
+                  "lower_krw": 1350000000,
+                  "upper_krw": 1400000000,
+                  "n": 694,
+                  "width_krw": 50000000,
+                  "share": 0.23117921385742837,
+                  "density_per_million": 0.004623584277148567,
+                  "expected_share": 0.19240279099133759
+                },
+                {
+                  "lower_krw": 1400000000,
+                  "upper_krw": 1450000000,
+                  "n": 494,
+                  "width_krw": 50000000,
+                  "share": 0.16455696202531644,
+                  "density_per_million": 0.0032911392405063286,
+                  "expected_share": 0.17091956711618367
+                },
+                {
+                  "lower_krw": 1450000000,
+                  "upper_krw": 1500000000,
+                  "n": 585,
+                  "width_krw": 50000000,
+                  "share": 0.19487008660892738,
+                  "density_per_million": 0.0038974017321785474,
+                  "expected_share": 0.15677321642909403
+                },
+                {
+                  "lower_krw": 1500000000,
+                  "upper_krw": 1550000000,
+                  "n": 389,
+                  "width_krw": 50000000,
+                  "share": 0.12958027981345768,
+                  "density_per_million": 0.0025916055962691537,
+                  "expected_share": 0.14996373893006873
+                },
+                {
+                  "lower_krw": 1550000000,
+                  "upper_krw": 1600000000,
+                  "n": 464,
+                  "width_krw": 50000000,
+                  "share": 0.15456362425049966,
+                  "density_per_million": 0.003091272485009993,
+                  "expected_share": 0.15049113461910776
+                },
+                {
+                  "lower_krw": 1600000000,
+                  "upper_krw": 1650000000,
+                  "n": 376,
+                  "width_krw": 50000000,
+                  "share": 0.1252498334443704,
+                  "density_per_million": 0.0025049966688874084,
+                  "expected_share": 0.1583554034962111
+                }
+              ],
+              "status": "available"
+            }
+          }
+        },
+        {
+          "phase": "during",
+          "start": "2025-10-16",
+          "end": "2026-01-08",
+          "days": 84,
+          "maturity": "mature",
+          "bandwidth": 0.1,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 1623,
+            "clusters": 41,
+            "exact_cutoff_n": 135,
+            "exact_cutoff_share": 0.08317929759704251,
+            "excess_below_share": 0.10506659445404724,
+            "deficit_above_share": 0.03126755250996097,
+            "log_density_above_below": -0.9476387115478372,
+            "intervals": {
+              "excess_below_share": [
+                0.08371846869673731,
+                0.1264147202113572
+              ],
+              "deficit_above_share": [
+                0.014633057980134728,
+                0.04790204703978722
+              ],
+              "log_density_above_below": [
+                -1.2208785942350435,
+                -0.6743988288606309
+              ]
+            },
+            "uncertainty_status": "geographic_cluster_bootstrap_t",
+            "digits": [
+              {
+                "granularity_krw": 1000000,
+                "n": 1609,
+                "share": 0.9913739987677141
+              },
+              {
+                "granularity_krw": 10000000,
+                "n": 1248,
+                "share": 0.7689463955637708
+              },
+              {
+                "granularity_krw": 50000000,
+                "n": 516,
+                "share": 0.3179297597042514
+              },
+              {
+                "granularity_krw": 100000000,
+                "n": 317,
+                "share": 0.19531731361675908
+              }
+            ],
+            "digit_status": "available",
+            "nonround_sensitivity": {
+              "status": "descriptive",
+              "n": 375,
+              "excess_below_share": 0.13164944286018432,
+              "deficit_above_share": 0.011974699530577844,
+              "log_density_above_below": -1.3144994910882948
+            },
+            "polynomial_sensitivity": [
+              {
+                "degree": 1,
+                "excess_below_share": 0.10413441790591044,
+                "deficit_above_share": 0.03219972905809777,
+                "log_density_above_below": -0.9476387115478372
+              },
+              {
+                "degree": 3,
+                "excess_below_share": 0.09861625900407923,
+                "deficit_above_share": 0.024817217059992933,
+                "log_density_above_below": -0.9476387115478372
+              }
+            ],
+            "central_below_count": 322,
+            "central_above_count": 96,
+            "expected_below_count": 151.47691720108133,
+            "expected_above_count": 146.74723772366667,
+            "histogram": {
+              "step_krw": 50000000,
+              "rows": [
+                {
+                  "lower_krw": 1350000000,
+                  "upper_krw": 1400000000,
+                  "n": 333,
+                  "width_krw": 50000000,
+                  "share": 0.20517560073937152,
+                  "density_per_million": 0.00410351201478743,
+                  "expected_share": 0.1760425831962842
+                },
+                {
+                  "lower_krw": 1400000000,
+                  "upper_krw": 1450000000,
+                  "n": 277,
+                  "width_krw": 50000000,
+                  "share": 0.17067159581022798,
+                  "density_per_million": 0.0034134319162045595,
+                  "expected_share": 0.16622144521021812
+                },
+                {
+                  "lower_krw": 1450000000,
+                  "upper_krw": 1500000000,
+                  "n": 406,
+                  "width_krw": 50000000,
+                  "share": 0.2501540357362908,
+                  "density_per_million": 0.005003080714725816,
+                  "expected_share": 0.15726343365761203
+                },
+                {
+                  "lower_krw": 1500000000,
+                  "upper_krw": 1550000000,
+                  "n": 206,
+                  "width_krw": 50000000,
+                  "share": 0.12692544670363523,
+                  "density_per_million": 0.0025385089340727047,
+                  "expected_share": 0.14916854853846595
+                },
+                {
+                  "lower_krw": 1550000000,
+                  "upper_krw": 1600000000,
+                  "n": 217,
+                  "width_krw": 50000000,
+                  "share": 0.1337030191004313,
+                  "density_per_million": 0.002674060382008626,
+                  "expected_share": 0.14193678985277985
+                },
+                {
+                  "lower_krw": 1600000000,
+                  "upper_krw": 1650000000,
+                  "n": 184,
+                  "width_krw": 50000000,
+                  "share": 0.11337030191004313,
+                  "density_per_million": 0.0022674060382008626,
+                  "expected_share": 0.13556815760055377
+                }
+              ],
+              "status": "available"
+            }
+          }
+        }
+      ],
+      "contrasts": [
+        {
+          "horizon_days": 28,
+          "bandwidth": 0.05,
+          "from_phase": "before",
+          "to_phase": "during",
+          "status": "insufficient_support",
+          "differences": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "intervals": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "uncertainty_status": "insufficient_clusters"
+        },
+        {
+          "horizon_days": 28,
+          "bandwidth": 0.1,
+          "from_phase": "before",
+          "to_phase": "during",
+          "status": "descriptive",
+          "differences": {
+            "excess_below_share": 0.03551755478583888,
+            "deficit_above_share": 0.0032275707682293264,
+            "log_density_above_below": -0.48976349706120736
+          },
+          "intervals": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "uncertainty_status": "insufficient_clusters"
+        },
+        {
+          "horizon_days": 28,
+          "bandwidth": 0.2,
+          "from_phase": "before",
+          "to_phase": "during",
+          "status": "descriptive",
+          "differences": {
+            "excess_below_share": 0.015350798790520565,
+            "deficit_above_share": -0.0011696658761038321,
+            "log_density_above_below": -0.26140873199443315
+          },
+          "intervals": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "uncertainty_status": "insufficient_clusters"
+        },
+        {
+          "horizon_days": 84,
+          "bandwidth": 0.05,
+          "from_phase": "before",
+          "to_phase": "during",
+          "status": "descriptive",
+          "differences": {
+            "excess_below_share": 0.06825113882367982,
+            "deficit_above_share": -0.011342185863218654,
+            "log_density_above_below": -0.44765951972694284
+          },
+          "intervals": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "uncertainty_status": "insufficient_clusters"
+        },
+        {
+          "horizon_days": 84,
+          "bandwidth": 0.1,
+          "from_phase": "before",
+          "to_phase": "during",
+          "status": "descriptive",
+          "differences": {
+            "excess_below_share": 0.048943094282814376,
+            "deficit_above_share": -0.0037617992432742997,
+            "log_density_above_below": -0.3904497682436451
+          },
+          "intervals": {
+            "excess_below_share": [
+              0.01759015552063091,
+              0.08029603304499784
+            ],
+            "deficit_above_share": [
+              -0.0253160958314297,
+              0.0177924973448811
+            ],
+            "log_density_above_below": [
+              -0.7417782270912312,
+              -0.039121309396058956
+            ]
+          },
+          "uncertainty_status": "geographic_cluster_bootstrap_t"
+        },
+        {
+          "horizon_days": 84,
+          "bandwidth": 0.2,
+          "from_phase": "before",
+          "to_phase": "during",
+          "status": "descriptive",
+          "differences": {
+            "excess_below_share": 0.023532301811552067,
+            "deficit_above_share": -0.004928731426853603,
+            "log_density_above_below": -0.24915782586167617
+          },
+          "intervals": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "uncertainty_status": "insufficient_clusters"
+        },
+        {
+          "horizon_days": 168,
+          "bandwidth": 0.05,
+          "from_phase": "before",
+          "to_phase": "during",
+          "status": "maturity_or_calendar_unavailable",
+          "differences": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "intervals": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          }
+        },
+        {
+          "horizon_days": 168,
+          "bandwidth": 0.1,
+          "from_phase": "before",
+          "to_phase": "during",
+          "status": "maturity_or_calendar_unavailable",
+          "differences": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "intervals": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          }
+        },
+        {
+          "horizon_days": 168,
+          "bandwidth": 0.2,
+          "from_phase": "before",
+          "to_phase": "during",
+          "status": "maturity_or_calendar_unavailable",
+          "differences": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "intervals": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          }
+        }
+      ],
+      "placebos": [
+        {
+          "cutoff_krw": 1300000000,
+          "status": "candidate",
+          "periods": [
+            {
+              "phase": "before",
+              "start": "2025-07-23",
+              "end": "2025-10-15",
+              "days": 84,
+              "maturity": "mature",
+              "bandwidth": 0.1,
+              "lag_sensitivity": {
+                "30": "mature",
+                "60": "mature",
+                "90": "mature"
+              },
+              "distribution": {
+                "status": "descriptive",
+                "n": 3824,
+                "clusters": 44,
+                "exact_cutoff_n": 218,
+                "exact_cutoff_share": 0.05700836820083682,
+                "excess_below_share": 0.04576772647772685,
+                "deficit_above_share": 0.04850918419432734,
+                "log_density_above_below": -0.4131383132045624,
+                "intervals": {
+                  "excess_below_share": null,
+                  "deficit_above_share": null,
+                  "log_density_above_below": null
+                },
+                "uncertainty_status": "insufficient_clusters"
+              }
+            },
+            {
+              "phase": "during",
+              "start": "2025-10-16",
+              "end": "2026-01-08",
+              "days": 84,
+              "maturity": "mature",
+              "bandwidth": 0.1,
+              "lag_sensitivity": {
+                "30": "mature",
+                "60": "mature",
+                "90": "mature"
+              },
+              "distribution": {
+                "status": "descriptive",
+                "n": 2236,
+                "clusters": 44,
+                "exact_cutoff_n": 145,
+                "exact_cutoff_share": 0.0648479427549195,
+                "excess_below_share": 0.06395183798767858,
+                "deficit_above_share": 0.0362364804976245,
+                "log_density_above_below": -0.3611551751715815,
+                "intervals": {
+                  "excess_below_share": null,
+                  "deficit_above_share": null,
+                  "log_density_above_below": null
+                },
+                "uncertainty_status": "insufficient_clusters"
+              }
+            }
+          ],
+          "contrast": {
+            "status": "descriptive",
+            "differences": {
+              "excess_below_share": 0.018184111509951723,
+              "deficit_above_share": -0.012272703696702844,
+              "log_density_above_below": 0.05198313803298088
+            },
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "cutoff_krw": 1700000000,
+          "status": "candidate",
+          "periods": [
+            {
+              "phase": "before",
+              "start": "2025-07-23",
+              "end": "2025-10-15",
+              "days": 84,
+              "maturity": "mature",
+              "bandwidth": 0.1,
+              "lag_sensitivity": {
+                "30": "mature",
+                "60": "mature",
+                "90": "mature"
+              },
+              "distribution": {
+                "status": "descriptive",
+                "n": 2288,
+                "clusters": 34,
+                "exact_cutoff_n": 125,
+                "exact_cutoff_share": 0.054632867132867136,
+                "excess_below_share": 0.025154373623126787,
+                "deficit_above_share": 0.051930435155503815,
+                "log_density_above_below": -0.35068957238026227,
+                "intervals": {
+                  "excess_below_share": null,
+                  "deficit_above_share": null,
+                  "log_density_above_below": null
+                },
+                "uncertainty_status": "insufficient_clusters"
+              }
+            },
+            {
+              "phase": "during",
+              "start": "2025-10-16",
+              "end": "2026-01-08",
+              "days": 84,
+              "maturity": "mature",
+              "bandwidth": 0.1,
+              "lag_sensitivity": {
+                "30": "mature",
+                "60": "mature",
+                "90": "mature"
+              },
+              "distribution": {
+                "status": "descriptive",
+                "n": 1254,
+                "clusters": 35,
+                "exact_cutoff_n": 80,
+                "exact_cutoff_share": 0.06379585326953748,
+                "excess_below_share": 0.05195586677923146,
+                "deficit_above_share": 0.05641748249338519,
+                "log_density_above_below": -0.5289581001120162,
+                "intervals": {
+                  "excess_below_share": null,
+                  "deficit_above_share": null,
+                  "log_density_above_below": null
+                },
+                "uncertainty_status": "insufficient_clusters"
+              }
+            }
+          ],
+          "contrast": {
+            "status": "descriptive",
+            "differences": {
+              "excess_below_share": 0.026801493156104673,
+              "deficit_above_share": 0.004487047337881377,
+              "log_density_above_below": -0.1782685277317539
+            },
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        }
+      ],
+      "date_placebos": [
+        {
+          "horizon_days": 28,
+          "fake_effective_date": "2025-09-17",
+          "periods": [
+            {
+              "phase": "placebo_before",
+              "start": "2025-08-20",
+              "end": "2025-09-17",
+              "days": 28,
+              "maturity": "mature",
+              "bandwidth": 0.1,
+              "lag_sensitivity": {
+                "30": "mature",
+                "60": "mature",
+                "90": "mature"
+              },
+              "distribution": {
+                "status": "descriptive",
+                "n": 857,
+                "clusters": 34,
+                "exact_cutoff_n": 47,
+                "exact_cutoff_share": 0.05484247374562427,
+                "excess_below_share": 0.03341215016363492,
+                "deficit_above_share": 0.05584869136220527,
+                "log_density_above_below": -0.6518915301628231,
+                "intervals": {
+                  "excess_below_share": null,
+                  "deficit_above_share": null,
+                  "log_density_above_below": null
+                },
+                "uncertainty_status": "insufficient_clusters"
+              }
+            },
+            {
+              "phase": "placebo_after",
+              "start": "2025-09-17",
+              "end": "2025-10-15",
+              "days": 28,
+              "maturity": "mature",
+              "bandwidth": 0.1,
+              "lag_sensitivity": {
+                "30": "mature",
+                "60": "mature",
+                "90": "mature"
+              },
+              "distribution": {
+                "status": "descriptive",
+                "n": 1793,
+                "clusters": 33,
+                "exact_cutoff_n": 123,
+                "exact_cutoff_share": 0.06860011154489683,
+                "excess_below_share": 0.06119285492857544,
+                "deficit_above_share": 0.029164011328799408,
+                "log_density_above_below": -0.5084166376488511,
+                "intervals": {
+                  "excess_below_share": null,
+                  "deficit_above_share": null,
+                  "log_density_above_below": null
+                },
+                "uncertainty_status": "insufficient_clusters"
+              }
+            }
+          ],
+          "contrast": {
+            "status": "descriptive",
+            "differences": {
+              "excess_below_share": 0.027780704764940517,
+              "deficit_above_share": -0.026684680033405864,
+              "log_density_above_below": 0.14347489251397194
+            },
+            "intervals": {
+              "excess_below_share": [
+                -0.019432358123620028,
+                0.07499376765350106
+              ],
+              "deficit_above_share": [
+                -0.05025979764110319,
+                -0.0031095624257085307
+              ],
+              "log_density_above_below": [
+                -0.4224387134487695,
+                0.7093884984767134
+              ]
+            },
+            "uncertainty_status": "geographic_cluster_bootstrap_t"
+          }
+        },
+        {
+          "horizon_days": 84,
+          "fake_effective_date": "2025-07-23",
+          "periods": [
+            {
+              "phase": "placebo_before",
+              "start": "2025-04-30",
+              "end": "2025-07-23",
+              "days": 84,
+              "maturity": "collection_date_unknown",
+              "bandwidth": 0.1,
+              "lag_sensitivity": {
+                "30": "collection_date_unknown",
+                "60": "collection_date_unknown",
+                "90": "collection_date_unknown"
+              },
+              "distribution": {
+                "status": "maturity_unverified",
+                "n": 3302,
+                "clusters": 38,
+                "exact_cutoff_n": 160,
+                "exact_cutoff_share": 0.04845548152634767,
+                "excess_below_share": null,
+                "deficit_above_share": null,
+                "log_density_above_below": null,
+                "intervals": {
+                  "excess_below_share": null,
+                  "deficit_above_share": null,
+                  "log_density_above_below": null
+                },
+                "uncertainty_status": "maturity_unverified"
+              }
+            },
+            {
+              "phase": "placebo_after",
+              "start": "2025-07-23",
+              "end": "2025-10-15",
+              "days": 84,
+              "maturity": "mature",
+              "bandwidth": 0.1,
+              "lag_sensitivity": {
+                "30": "mature",
+                "60": "mature",
+                "90": "mature"
+              },
+              "distribution": {
+                "status": "descriptive",
+                "n": 3002,
+                "clusters": 38,
+                "exact_cutoff_n": 196,
+                "exact_cutoff_share": 0.06528980679546968,
+                "excess_below_share": 0.05612350017123287,
+                "deficit_above_share": 0.03502935175323527,
+                "log_density_above_below": -0.5571889433041921,
+                "intervals": {
+                  "excess_below_share": null,
+                  "deficit_above_share": null,
+                  "log_density_above_below": null
+                },
+                "uncertainty_status": "insufficient_clusters"
+              }
+            }
+          ],
+          "contrast": {
+            "status": "maturity_or_calendar_unavailable",
+            "differences": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            }
+          }
+        }
+      ],
+      "control": {
+        "status": "no_clean_matched_controls",
+        "pairs": 0
+      },
+      "stable_contrast": {
+        "status": "descriptive",
+        "differences": {
+          "excess_below_share": 0.048943094282814376,
+          "deficit_above_share": -0.0037617992432742997,
+          "log_density_above_below": -0.3904497682436451
+        },
+        "intervals": {
+          "excess_below_share": [
+            0.01759015552063091,
+            0.08029603304499784
+          ],
+          "deficit_above_share": [
+            -0.0253160958314297,
+            0.0177924973448811
+          ],
+          "log_density_above_below": [
+            -0.7417782270912312,
+            -0.039121309396058956
+          ]
+        },
+        "uncertainty_status": "geographic_cluster_bootstrap_t"
+      },
+      "other_periods": [
+        {
+          "horizon_days": 28,
+          "phase": "before",
+          "start": "2025-09-17",
+          "end": "2025-10-15",
+          "days": 28,
+          "maturity": "mature",
+          "bandwidth": 0.05,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 812,
+            "clusters": 31,
+            "exact_cutoff_n": 123,
+            "exact_cutoff_share": 0.15147783251231528,
+            "excess_below_share": 0.11876089884825036,
+            "deficit_above_share": 0.07366441129138704,
+            "log_density_above_below": -1.1439363187856402,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 28,
+          "phase": "before",
+          "start": "2025-09-17",
+          "end": "2025-10-15",
+          "days": 28,
+          "maturity": "mature",
+          "bandwidth": 0.1,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 1793,
+            "clusters": 33,
+            "exact_cutoff_n": 123,
+            "exact_cutoff_share": 0.06860011154489683,
+            "excess_below_share": 0.06119285492857544,
+            "deficit_above_share": 0.029164011328799408,
+            "log_density_above_below": -0.5084166376488511,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 28,
+          "phase": "before",
+          "start": "2025-09-17",
+          "end": "2025-10-15",
+          "days": 28,
+          "maturity": "mature",
+          "bandwidth": 0.2,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 3610,
+            "clusters": 41,
+            "exact_cutoff_n": 123,
+            "exact_cutoff_share": 0.03407202216066482,
+            "excess_below_share": 0.022301896969048947,
+            "deficit_above_share": 0.021103996940980904,
+            "log_density_above_below": -0.17265955981283695,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 28,
+          "phase": "during",
+          "start": "2025-10-16",
+          "end": "2025-11-13",
+          "days": 28,
+          "maturity": "mature",
+          "bandwidth": 0.05,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "insufficient_support",
+            "n": 290,
+            "clusters": 32,
+            "exact_cutoff_n": 55,
+            "exact_cutoff_share": 0.1896551724137931,
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 28,
+          "phase": "during",
+          "start": "2025-10-16",
+          "end": "2025-11-13",
+          "days": 28,
+          "maturity": "mature",
+          "bandwidth": 0.1,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 581,
+            "clusters": 37,
+            "exact_cutoff_n": 55,
+            "exact_cutoff_share": 0.09466437177280551,
+            "excess_below_share": 0.09671040971441432,
+            "deficit_above_share": 0.032391582097028734,
+            "log_density_above_below": -0.9981801347100585,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 28,
+          "phase": "during",
+          "start": "2025-10-16",
+          "end": "2025-11-13",
+          "days": 28,
+          "maturity": "mature",
+          "bandwidth": 0.2,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 1271,
+            "clusters": 43,
+            "exact_cutoff_n": 55,
+            "exact_cutoff_share": 0.043273013375295044,
+            "excess_below_share": 0.03765269575956951,
+            "deficit_above_share": 0.019934331064877072,
+            "log_density_above_below": -0.4340682918072701,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 84,
+          "phase": "before",
+          "start": "2025-07-23",
+          "end": "2025-10-15",
+          "days": 84,
+          "maturity": "mature",
+          "bandwidth": 0.05,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 1411,
+            "clusters": 35,
+            "exact_cutoff_n": 196,
+            "exact_cutoff_share": 0.13890857547838412,
+            "excess_below_share": 0.10029394756674269,
+            "deficit_above_share": 0.0886546190764522,
+            "log_density_above_below": -1.1859509064593887,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 84,
+          "phase": "before",
+          "start": "2025-07-23",
+          "end": "2025-10-15",
+          "days": 84,
+          "maturity": "mature",
+          "bandwidth": 0.2,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 6142,
+            "clusters": 43,
+            "exact_cutoff_n": 196,
+            "exact_cutoff_share": 0.03191142950179095,
+            "excess_below_share": 0.02216388952948397,
+            "deficit_above_share": 0.02125204987976403,
+            "log_density_above_below": -0.23036088441295155,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 84,
+          "phase": "during",
+          "start": "2025-10-16",
+          "end": "2026-01-08",
+          "days": 84,
+          "maturity": "mature",
+          "bandwidth": 0.05,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 844,
+            "clusters": 37,
+            "exact_cutoff_n": 135,
+            "exact_cutoff_share": 0.15995260663507108,
+            "excess_below_share": 0.1685450863904225,
+            "deficit_above_share": 0.07731243321323354,
+            "log_density_above_below": -1.6336104261863316,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 84,
+          "phase": "during",
+          "start": "2025-10-16",
+          "end": "2026-01-08",
+          "days": 84,
+          "maturity": "mature",
+          "bandwidth": 0.2,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 3505,
+            "clusters": 45,
+            "exact_cutoff_n": 135,
+            "exact_cutoff_share": 0.03851640513552068,
+            "excess_below_share": 0.04569619134103604,
+            "deficit_above_share": 0.016323318452910428,
+            "log_density_above_below": -0.4795187102746277,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 168,
+          "phase": "before",
+          "start": "2025-04-30",
+          "end": "2025-10-15",
+          "days": 168,
+          "maturity": "collection_date_unknown",
+          "bandwidth": 0.05,
+          "lag_sensitivity": {
+            "30": "collection_date_unknown",
+            "60": "collection_date_unknown",
+            "90": "collection_date_unknown"
+          },
+          "distribution": {
+            "status": "maturity_unverified",
+            "n": 3012,
+            "clusters": 37,
+            "exact_cutoff_n": 356,
+            "exact_cutoff_share": 0.11819389110225764,
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "maturity_unverified"
+          }
+        },
+        {
+          "horizon_days": 168,
+          "phase": "before",
+          "start": "2025-04-30",
+          "end": "2025-10-15",
+          "days": 168,
+          "maturity": "collection_date_unknown",
+          "bandwidth": 0.1,
+          "lag_sensitivity": {
+            "30": "collection_date_unknown",
+            "60": "collection_date_unknown",
+            "90": "collection_date_unknown"
+          },
+          "distribution": {
+            "status": "maturity_unverified",
+            "n": 6304,
+            "clusters": 39,
+            "exact_cutoff_n": 356,
+            "exact_cutoff_share": 0.056472081218274114,
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "maturity_unverified"
+          }
+        },
+        {
+          "horizon_days": 168,
+          "phase": "before",
+          "start": "2025-04-30",
+          "end": "2025-10-15",
+          "days": 168,
+          "maturity": "collection_date_unknown",
+          "bandwidth": 0.2,
+          "lag_sensitivity": {
+            "30": "collection_date_unknown",
+            "60": "collection_date_unknown",
+            "90": "collection_date_unknown"
+          },
+          "distribution": {
+            "status": "maturity_unverified",
+            "n": 12841,
+            "clusters": 45,
+            "exact_cutoff_n": 356,
+            "exact_cutoff_share": 0.02772369753134491,
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "maturity_unverified"
+          }
+        },
+        {
+          "horizon_days": 168,
+          "phase": "during",
+          "start": "2025-10-16",
+          "end": "2026-04-02",
+          "days": 168,
+          "maturity": "mature",
+          "bandwidth": 0.05,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 2027,
+            "clusters": 40,
+            "exact_cutoff_n": 291,
+            "exact_cutoff_share": 0.14356191415885544,
+            "excess_below_share": 0.13417181594315059,
+            "deficit_above_share": 0.08189103583421611,
+            "log_density_above_below": -1.4774559570892327,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 168,
+          "phase": "during",
+          "start": "2025-10-16",
+          "end": "2026-04-02",
+          "days": 168,
+          "maturity": "mature",
+          "bandwidth": 0.1,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 3825,
+            "clusters": 43,
+            "exact_cutoff_n": 291,
+            "exact_cutoff_share": 0.07607843137254902,
+            "excess_below_share": 0.08691786995208038,
+            "deficit_above_share": 0.035393395399408285,
+            "log_density_above_below": -0.8820680705507941,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 168,
+          "phase": "during",
+          "start": "2025-10-16",
+          "end": "2026-04-02",
+          "days": 168,
+          "maturity": "mature",
+          "bandwidth": 0.2,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 8040,
+            "clusters": 47,
+            "exact_cutoff_n": 291,
+            "exact_cutoff_share": 0.03619402985074627,
+            "excess_below_share": 0.04112370022256498,
+            "deficit_above_share": 0.016399117832883874,
+            "log_density_above_below": -0.48194422708391044,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        }
+      ]
+    },
+    {
+      "cutoff_krw": 2500000000,
+      "announcement": "2025-10-15",
+      "effective_from": "2025-10-16",
+      "effective_to": null,
+      "verified_to": "2026-07-01",
+      "main": [
+        {
+          "phase": "before",
+          "start": "2025-07-23",
+          "end": "2025-10-15",
+          "days": 84,
+          "maturity": "mature",
+          "bandwidth": 0.1,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 580,
+            "clusters": 19,
+            "exact_cutoff_n": 50,
+            "exact_cutoff_share": 0.08620689655172414,
+            "excess_below_share": 0.06798778683149428,
+            "deficit_above_share": -0.0033550894623926232,
+            "log_density_above_below": -0.28852730051722286,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters",
+            "digits": [],
+            "digit_status": "suppressed",
+            "nonround_sensitivity": {
+              "status": "insufficient_support",
+              "n": 57,
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "polynomial_sensitivity": [
+              {
+                "degree": 1,
+                "excess_below_share": 0.06356634868455074,
+                "deficit_above_share": 0.0010663486845508823,
+                "log_density_above_below": -0.28852730051722286
+              },
+              {
+                "degree": 3,
+                "excess_below_share": 0.06280740336050444,
+                "deficit_above_share": -0.00853547293338244,
+                "log_density_above_below": -0.28852730051722286
+              }
+            ],
+            "central_below_count": 93,
+            "central_above_count": 52,
+            "expected_below_count": 53.567083637733326,
+            "expected_above_count": 50.05404811181228,
+            "histogram": {
+              "step_krw": 50000000,
+              "rows": [
+                {
+                  "lower_krw": 2250000000,
+                  "upper_krw": 2300000000,
+                  "n": 104,
+                  "width_krw": 50000000,
+                  "share": 0.1793103448275862,
+                  "density_per_million": 0.003586206896551724,
+                  "expected_share": 0.12542774826184838
+                },
+                {
+                  "lower_krw": 2300000000,
+                  "upper_krw": 2350000000,
+                  "n": 44,
+                  "width_krw": 50000000,
+                  "share": 0.07586206896551724,
+                  "density_per_million": 0.001517241379310345,
+                  "expected_share": 0.1158336399409814
+                },
+                {
+                  "lower_krw": 2350000000,
+                  "upper_krw": 2400000000,
+                  "n": 72,
+                  "width_krw": 50000000,
+                  "share": 0.12413793103448276,
+                  "density_per_million": 0.002482758620689655,
+                  "expected_share": 0.10712381924950307
+                },
+                {
+                  "lower_krw": 2400000000,
+                  "upper_krw": 2450000000,
+                  "n": 53,
+                  "width_krw": 50000000,
+                  "share": 0.09137931034482759,
+                  "density_per_million": 0.001827586206896552,
+                  "expected_share": 0.09929828618741353
+                },
+                {
+                  "lower_krw": 2450000000,
+                  "upper_krw": 2500000000,
+                  "n": 93,
+                  "width_krw": 50000000,
+                  "share": 0.16034482758620688,
+                  "density_per_million": 0.003206896551724137,
+                  "expected_share": 0.09235704075471263
+                },
+                {
+                  "lower_krw": 2500000000,
+                  "upper_krw": 2550000000,
+                  "n": 52,
+                  "width_krw": 50000000,
+                  "share": 0.0896551724137931,
+                  "density_per_million": 0.001793103448275862,
+                  "expected_share": 0.08630008295140049
+                },
+                {
+                  "lower_krw": 2550000000,
+                  "upper_krw": 2600000000,
+                  "n": 49,
+                  "width_krw": 50000000,
+                  "share": 0.08448275862068966,
+                  "density_per_million": 0.001689655172413793,
+                  "expected_share": 0.08112741277747702
+                },
+                {
+                  "lower_krw": 2600000000,
+                  "upper_krw": 2650000000,
+                  "n": 25,
+                  "width_krw": 50000000,
+                  "share": 0.04310344827586207,
+                  "density_per_million": 0.0008620689655172415,
+                  "expected_share": 0.0768390302329423
+                },
+                {
+                  "lower_krw": 2650000000,
+                  "upper_krw": 2700000000,
+                  "n": 57,
+                  "width_krw": 50000000,
+                  "share": 0.09827586206896552,
+                  "density_per_million": 0.0019655172413793106,
+                  "expected_share": 0.07343493531779628
+                },
+                {
+                  "lower_krw": 2700000000,
+                  "upper_krw": 2750000000,
+                  "n": 31,
+                  "width_krw": 50000000,
+                  "share": 0.05344827586206897,
+                  "density_per_million": 0.0010689655172413793,
+                  "expected_share": 0.07091512803203896
+                }
+              ],
+              "status": "available"
+            }
+          }
+        },
+        {
+          "phase": "during",
+          "start": "2025-10-16",
+          "end": "2026-01-08",
+          "days": 84,
+          "maturity": "mature",
+          "bandwidth": 0.1,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 437,
+            "clusters": 16,
+            "exact_cutoff_n": 36,
+            "exact_cutoff_share": 0.08237986270022883,
+            "excess_below_share": 0.064165654243893,
+            "deficit_above_share": 0.027636668171511846,
+            "log_density_above_below": -0.6165509856879604,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters",
+            "digits": [],
+            "digit_status": "suppressed",
+            "nonround_sensitivity": {
+              "status": "insufficient_support",
+              "n": 50,
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "polynomial_sensitivity": [
+              {
+                "degree": 1,
+                "excess_below_share": 0.06106134427406395,
+                "deficit_above_share": 0.03074097814134091,
+                "log_density_above_below": -0.6165509856879604
+              },
+              {
+                "degree": 3,
+                "excess_below_share": 0.05830012630436006,
+                "deficit_above_share": 0.021771140231978896,
+                "log_density_above_below": -0.6165509856879604
+              }
+            ],
+            "central_below_count": 70,
+            "central_above_count": 28,
+            "expected_below_count": 41.959609095418756,
+            "expected_above_count": 40.07722399095068,
+            "histogram": {
+              "step_krw": 50000000,
+              "rows": [
+                {
+                  "lower_krw": 2250000000,
+                  "upper_krw": 2300000000,
+                  "n": 61,
+                  "width_krw": 50000000,
+                  "share": 0.13958810068649885,
+                  "density_per_million": 0.0027917620137299774,
+                  "expected_share": 0.11945610166343634
+                },
+                {
+                  "lower_krw": 2300000000,
+                  "upper_krw": 2350000000,
+                  "n": 52,
+                  "width_krw": 50000000,
+                  "share": 0.11899313501144165,
+                  "density_per_million": 0.002379862700228833,
+                  "expected_share": 0.11266513628604428
+                },
+                {
+                  "lower_krw": 2350000000,
+                  "upper_krw": 2400000000,
+                  "n": 58,
+                  "width_krw": 50000000,
+                  "share": 0.13272311212814644,
+                  "density_per_million": 0.0026544622425629287,
+                  "expected_share": 0.10649503290261807
+                },
+                {
+                  "lower_krw": 2400000000,
+                  "upper_krw": 2450000000,
+                  "n": 29,
+                  "width_krw": 50000000,
+                  "share": 0.06636155606407322,
+                  "density_per_million": 0.0013272311212814644,
+                  "expected_share": 0.10094579151315766
+                },
+                {
+                  "lower_krw": 2450000000,
+                  "upper_krw": 2500000000,
+                  "n": 70,
+                  "width_krw": 50000000,
+                  "share": 0.16018306636155608,
+                  "density_per_million": 0.003203661327231121,
+                  "expected_share": 0.09601741211766306
+                },
+                {
+                  "lower_krw": 2500000000,
+                  "upper_krw": 2550000000,
+                  "n": 28,
+                  "width_krw": 50000000,
+                  "share": 0.06407322654462243,
+                  "density_per_million": 0.0012814645308924484,
+                  "expected_share": 0.09170989471613428
+                },
+                {
+                  "lower_krw": 2550000000,
+                  "upper_krw": 2600000000,
+                  "n": 43,
+                  "width_krw": 50000000,
+                  "share": 0.09839816933638444,
+                  "density_per_million": 0.0019679633867276886,
+                  "expected_share": 0.08802323930857131
+                },
+                {
+                  "lower_krw": 2600000000,
+                  "upper_krw": 2650000000,
+                  "n": 29,
+                  "width_krw": 50000000,
+                  "share": 0.06636155606407322,
+                  "density_per_million": 0.0013272311212814644,
+                  "expected_share": 0.08495744589497416
+                },
+                {
+                  "lower_krw": 2650000000,
+                  "upper_krw": 2700000000,
+                  "n": 40,
+                  "width_krw": 50000000,
+                  "share": 0.09153318077803203,
+                  "density_per_million": 0.0018306636155606408,
+                  "expected_share": 0.08251251447534283
+                },
+                {
+                  "lower_krw": 2700000000,
+                  "upper_krw": 2750000000,
+                  "n": 27,
+                  "width_krw": 50000000,
+                  "share": 0.06178489702517163,
+                  "density_per_million": 0.0012356979405034325,
+                  "expected_share": 0.08068844504967732
+                }
+              ],
+              "status": "available"
+            }
+          }
+        }
+      ],
+      "contrasts": [
+        {
+          "horizon_days": 28,
+          "bandwidth": 0.05,
+          "from_phase": "before",
+          "to_phase": "during",
+          "status": "insufficient_support",
+          "differences": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "intervals": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "uncertainty_status": "insufficient_clusters"
+        },
+        {
+          "horizon_days": 28,
+          "bandwidth": 0.1,
+          "from_phase": "before",
+          "to_phase": "during",
+          "status": "descriptive",
+          "differences": {
+            "excess_below_share": -0.012974955715246456,
+            "deficit_above_share": -0.0036675774742110662,
+            "log_density_above_below": 0.33856165195260823
+          },
+          "intervals": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "uncertainty_status": "insufficient_clusters"
+        },
+        {
+          "horizon_days": 28,
+          "bandwidth": 0.2,
+          "from_phase": "before",
+          "to_phase": "during",
+          "status": "descriptive",
+          "differences": {
+            "excess_below_share": -0.001513757988150937,
+            "deficit_above_share": -0.006735749777755994,
+            "log_density_above_below": 0.278587568708716
+          },
+          "intervals": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "uncertainty_status": "insufficient_clusters"
+        },
+        {
+          "horizon_days": 84,
+          "bandwidth": 0.05,
+          "from_phase": "before",
+          "to_phase": "during",
+          "status": "insufficient_support",
+          "differences": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "intervals": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "uncertainty_status": "insufficient_clusters"
+        },
+        {
+          "horizon_days": 84,
+          "bandwidth": 0.1,
+          "from_phase": "before",
+          "to_phase": "during",
+          "status": "descriptive",
+          "differences": {
+            "excess_below_share": -0.003822132587601279,
+            "deficit_above_share": 0.03099175763390447,
+            "log_density_above_below": -0.32802368517073754
+          },
+          "intervals": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "uncertainty_status": "insufficient_clusters"
+        },
+        {
+          "horizon_days": 84,
+          "bandwidth": 0.2,
+          "from_phase": "before",
+          "to_phase": "during",
+          "status": "descriptive",
+          "differences": {
+            "excess_below_share": -0.0009042555775909365,
+            "deficit_above_share": 0.013631633243665921,
+            "log_density_above_below": -0.2647769054959009
+          },
+          "intervals": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "uncertainty_status": "insufficient_clusters"
+        },
+        {
+          "horizon_days": 168,
+          "bandwidth": 0.05,
+          "from_phase": "before",
+          "to_phase": "during",
+          "status": "maturity_or_calendar_unavailable",
+          "differences": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "intervals": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          }
+        },
+        {
+          "horizon_days": 168,
+          "bandwidth": 0.1,
+          "from_phase": "before",
+          "to_phase": "during",
+          "status": "maturity_or_calendar_unavailable",
+          "differences": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "intervals": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          }
+        },
+        {
+          "horizon_days": 168,
+          "bandwidth": 0.2,
+          "from_phase": "before",
+          "to_phase": "during",
+          "status": "maturity_or_calendar_unavailable",
+          "differences": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          },
+          "intervals": {
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null
+          }
+        }
+      ],
+      "placebos": [
+        {
+          "cutoff_krw": 2100000000,
+          "status": "candidate",
+          "periods": [
+            {
+              "phase": "before",
+              "start": "2025-07-23",
+              "end": "2025-10-15",
+              "days": 84,
+              "maturity": "mature",
+              "bandwidth": 0.1,
+              "lag_sensitivity": {
+                "30": "mature",
+                "60": "mature",
+                "90": "mature"
+              },
+              "distribution": {
+                "status": "descriptive",
+                "n": 1146,
+                "clusters": 25,
+                "exact_cutoff_n": 70,
+                "exact_cutoff_share": 0.06108202443280977,
+                "excess_below_share": 0.040774162118177706,
+                "deficit_above_share": 0.052306773553861,
+                "log_density_above_below": -0.7481729714978588,
+                "intervals": {
+                  "excess_below_share": null,
+                  "deficit_above_share": null,
+                  "log_density_above_below": null
+                },
+                "uncertainty_status": "insufficient_clusters"
+              }
+            },
+            {
+              "phase": "during",
+              "start": "2025-10-16",
+              "end": "2026-01-08",
+              "days": 84,
+              "maturity": "mature",
+              "bandwidth": 0.1,
+              "lag_sensitivity": {
+                "30": "mature",
+                "60": "mature",
+                "90": "mature"
+              },
+              "distribution": {
+                "status": "descriptive",
+                "n": 744,
+                "clusters": 25,
+                "exact_cutoff_n": 42,
+                "exact_cutoff_share": 0.056451612903225805,
+                "excess_below_share": 0.013795052151549279,
+                "deficit_above_share": 0.06162780326514163,
+                "log_density_above_below": -0.2887697955782624,
+                "intervals": {
+                  "excess_below_share": null,
+                  "deficit_above_share": null,
+                  "log_density_above_below": null
+                },
+                "uncertainty_status": "insufficient_clusters"
+              }
+            }
+          ],
+          "contrast": {
+            "status": "descriptive",
+            "differences": {
+              "excess_below_share": -0.026979109966628428,
+              "deficit_above_share": 0.009321029711280633,
+              "log_density_above_below": 0.4594031759195964
+            },
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "cutoff_krw": 2900000000,
+          "status": "candidate",
+          "periods": [
+            {
+              "phase": "before",
+              "start": "2025-07-23",
+              "end": "2025-10-15",
+              "days": 84,
+              "maturity": "mature",
+              "bandwidth": 0.1,
+              "lag_sensitivity": {
+                "30": "mature",
+                "60": "mature",
+                "90": "mature"
+              },
+              "distribution": {
+                "status": "descriptive",
+                "n": 355,
+                "clusters": 15,
+                "exact_cutoff_n": 19,
+                "exact_cutoff_share": 0.05352112676056338,
+                "excess_below_share": 0.021802814846688494,
+                "deficit_above_share": 0.04940960549144299,
+                "log_density_above_below": -0.1004788526625358,
+                "intervals": {
+                  "excess_below_share": null,
+                  "deficit_above_share": null,
+                  "log_density_above_below": null
+                },
+                "uncertainty_status": "insufficient_clusters"
+              }
+            },
+            {
+              "phase": "during",
+              "start": "2025-10-16",
+              "end": "2026-01-08",
+              "days": 84,
+              "maturity": "mature",
+              "bandwidth": 0.1,
+              "lag_sensitivity": {
+                "30": "mature",
+                "60": "mature",
+                "90": "mature"
+              },
+              "distribution": {
+                "status": "descriptive",
+                "n": 384,
+                "clusters": 15,
+                "exact_cutoff_n": 25,
+                "exact_cutoff_share": 0.06510416666666667,
+                "excess_below_share": 0.03568909779692595,
+                "deficit_above_share": 0.022495031366893913,
+                "log_density_above_below": 0.1652786956761972,
+                "intervals": {
+                  "excess_below_share": null,
+                  "deficit_above_share": null,
+                  "log_density_above_below": null
+                },
+                "uncertainty_status": "insufficient_clusters"
+              }
+            }
+          ],
+          "contrast": {
+            "status": "descriptive",
+            "differences": {
+              "excess_below_share": 0.013886282950237458,
+              "deficit_above_share": -0.02691457412454908,
+              "log_density_above_below": 0.265757548338733
+            },
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        }
+      ],
+      "date_placebos": [
+        {
+          "horizon_days": 28,
+          "fake_effective_date": "2025-09-17",
+          "periods": [
+            {
+              "phase": "placebo_before",
+              "start": "2025-08-20",
+              "end": "2025-09-17",
+              "days": 28,
+              "maturity": "mature",
+              "bandwidth": 0.1,
+              "lag_sensitivity": {
+                "30": "mature",
+                "60": "mature",
+                "90": "mature"
+              },
+              "distribution": {
+                "status": "insufficient_support",
+                "n": 144,
+                "clusters": 17,
+                "exact_cutoff_n": 14,
+                "exact_cutoff_share": 0.09722222222222222,
+                "excess_below_share": null,
+                "deficit_above_share": null,
+                "log_density_above_below": null,
+                "intervals": {
+                  "excess_below_share": null,
+                  "deficit_above_share": null,
+                  "log_density_above_below": null
+                },
+                "uncertainty_status": "insufficient_clusters"
+              }
+            },
+            {
+              "phase": "placebo_after",
+              "start": "2025-09-17",
+              "end": "2025-10-15",
+              "days": 28,
+              "maturity": "mature",
+              "bandwidth": 0.1,
+              "lag_sensitivity": {
+                "30": "mature",
+                "60": "mature",
+                "90": "mature"
+              },
+              "distribution": {
+                "status": "descriptive",
+                "n": 381,
+                "clusters": 17,
+                "exact_cutoff_n": 34,
+                "exact_cutoff_share": 0.08923884514435695,
+                "excess_below_share": 0.07598854696647028,
+                "deficit_above_share": 0.018043684227163487,
+                "log_density_above_below": -0.5915327154208626,
+                "intervals": {
+                  "excess_below_share": null,
+                  "deficit_above_share": null,
+                  "log_density_above_below": null
+                },
+                "uncertainty_status": "insufficient_clusters"
+              }
+            }
+          ],
+          "contrast": {
+            "status": "insufficient_support",
+            "differences": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 84,
+          "fake_effective_date": "2025-07-23",
+          "periods": [
+            {
+              "phase": "placebo_before",
+              "start": "2025-04-30",
+              "end": "2025-07-23",
+              "days": 84,
+              "maturity": "collection_date_unknown",
+              "bandwidth": 0.1,
+              "lag_sensitivity": {
+                "30": "collection_date_unknown",
+                "60": "collection_date_unknown",
+                "90": "collection_date_unknown"
+              },
+              "distribution": {
+                "status": "maturity_unverified",
+                "n": 942,
+                "clusters": 17,
+                "exact_cutoff_n": 83,
+                "exact_cutoff_share": 0.0881104033970276,
+                "excess_below_share": null,
+                "deficit_above_share": null,
+                "log_density_above_below": null,
+                "intervals": {
+                  "excess_below_share": null,
+                  "deficit_above_share": null,
+                  "log_density_above_below": null
+                },
+                "uncertainty_status": "maturity_unverified"
+              }
+            },
+            {
+              "phase": "placebo_after",
+              "start": "2025-07-23",
+              "end": "2025-10-15",
+              "days": 84,
+              "maturity": "mature",
+              "bandwidth": 0.1,
+              "lag_sensitivity": {
+                "30": "mature",
+                "60": "mature",
+                "90": "mature"
+              },
+              "distribution": {
+                "status": "descriptive",
+                "n": 580,
+                "clusters": 19,
+                "exact_cutoff_n": 50,
+                "exact_cutoff_share": 0.08620689655172414,
+                "excess_below_share": 0.06798778683149428,
+                "deficit_above_share": -0.0033550894623926232,
+                "log_density_above_below": -0.28852730051722286,
+                "intervals": {
+                  "excess_below_share": null,
+                  "deficit_above_share": null,
+                  "log_density_above_below": null
+                },
+                "uncertainty_status": "insufficient_clusters"
+              }
+            }
+          ],
+          "contrast": {
+            "status": "maturity_or_calendar_unavailable",
+            "differences": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            }
+          }
+        }
+      ],
+      "control": {
+        "status": "no_clean_matched_controls",
+        "pairs": 0
+      },
+      "stable_contrast": {
+        "status": "descriptive",
+        "differences": {
+          "excess_below_share": -0.003822132587601279,
+          "deficit_above_share": 0.03099175763390447,
+          "log_density_above_below": -0.32802368517073754
+        },
+        "intervals": {
+          "excess_below_share": null,
+          "deficit_above_share": null,
+          "log_density_above_below": null
+        },
+        "uncertainty_status": "insufficient_clusters"
+      },
+      "other_periods": [
+        {
+          "horizon_days": 28,
+          "phase": "before",
+          "start": "2025-09-17",
+          "end": "2025-10-15",
+          "days": 28,
+          "maturity": "mature",
+          "bandwidth": 0.05,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "insufficient_support",
+            "n": 198,
+            "clusters": 15,
+            "exact_cutoff_n": 34,
+            "exact_cutoff_share": 0.1717171717171717,
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 28,
+          "phase": "before",
+          "start": "2025-09-17",
+          "end": "2025-10-15",
+          "days": 28,
+          "maturity": "mature",
+          "bandwidth": 0.1,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 381,
+            "clusters": 17,
+            "exact_cutoff_n": 34,
+            "exact_cutoff_share": 0.08923884514435695,
+            "excess_below_share": 0.07598854696647028,
+            "deficit_above_share": 0.018043684227163487,
+            "log_density_above_below": -0.5915327154208626,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 28,
+          "phase": "before",
+          "start": "2025-09-17",
+          "end": "2025-10-15",
+          "days": 28,
+          "maturity": "mature",
+          "bandwidth": 0.2,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 864,
+            "clusters": 20,
+            "exact_cutoff_n": 34,
+            "exact_cutoff_share": 0.03935185185185185,
+            "excess_below_share": 0.02965949977547429,
+            "deficit_above_share": 0.0116662148684239,
+            "log_density_above_below": -0.3825315951783497,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 28,
+          "phase": "during",
+          "start": "2025-10-16",
+          "end": "2025-11-13",
+          "days": 28,
+          "maturity": "mature",
+          "bandwidth": 0.05,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "insufficient_support",
+            "n": 121,
+            "clusters": 14,
+            "exact_cutoff_n": 23,
+            "exact_cutoff_share": 0.19008264462809918,
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 28,
+          "phase": "during",
+          "start": "2025-10-16",
+          "end": "2025-11-13",
+          "days": 28,
+          "maturity": "mature",
+          "bandwidth": 0.1,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 238,
+            "clusters": 14,
+            "exact_cutoff_n": 23,
+            "exact_cutoff_share": 0.09663865546218488,
+            "excess_below_share": 0.06301359125122383,
+            "deficit_above_share": 0.01437610675295242,
+            "log_density_above_below": -0.2529710634682544,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 28,
+          "phase": "during",
+          "start": "2025-10-16",
+          "end": "2025-11-13",
+          "days": 28,
+          "maturity": "mature",
+          "bandwidth": 0.2,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 554,
+            "clusters": 18,
+            "exact_cutoff_n": 23,
+            "exact_cutoff_share": 0.04151624548736462,
+            "excess_below_share": 0.028145741787323354,
+            "deficit_above_share": 0.004930465090667906,
+            "log_density_above_below": -0.10394402646963374,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 84,
+          "phase": "before",
+          "start": "2025-07-23",
+          "end": "2025-10-15",
+          "days": 84,
+          "maturity": "mature",
+          "bandwidth": 0.05,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "insufficient_support",
+            "n": 306,
+            "clusters": 18,
+            "exact_cutoff_n": 50,
+            "exact_cutoff_share": 0.16339869281045752,
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 84,
+          "phase": "before",
+          "start": "2025-07-23",
+          "end": "2025-10-15",
+          "days": 84,
+          "maturity": "mature",
+          "bandwidth": 0.2,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 1338,
+            "clusters": 23,
+            "exact_cutoff_n": 50,
+            "exact_cutoff_share": 0.03736920777279522,
+            "excess_below_share": 0.027269392355163798,
+            "deficit_above_share": -0.00027027768568574183,
+            "log_density_above_below": -0.08528471721662617,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 84,
+          "phase": "during",
+          "start": "2025-10-16",
+          "end": "2026-01-08",
+          "days": 84,
+          "maturity": "mature",
+          "bandwidth": 0.05,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "insufficient_support",
+            "n": 218,
+            "clusters": 15,
+            "exact_cutoff_n": 36,
+            "exact_cutoff_share": 0.1651376146788991,
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 84,
+          "phase": "during",
+          "start": "2025-10-16",
+          "end": "2026-01-08",
+          "days": 84,
+          "maturity": "mature",
+          "bandwidth": 0.2,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 1007,
+            "clusters": 21,
+            "exact_cutoff_n": 36,
+            "exact_cutoff_share": 0.03574975173783516,
+            "excess_below_share": 0.02636513677757286,
+            "deficit_above_share": 0.01336135555798018,
+            "log_density_above_below": -0.35006162271252705,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 168,
+          "phase": "before",
+          "start": "2025-04-30",
+          "end": "2025-10-15",
+          "days": 168,
+          "maturity": "collection_date_unknown",
+          "bandwidth": 0.05,
+          "lag_sensitivity": {
+            "30": "collection_date_unknown",
+            "60": "collection_date_unknown",
+            "90": "collection_date_unknown"
+          },
+          "distribution": {
+            "status": "maturity_unverified",
+            "n": 783,
+            "clusters": 18,
+            "exact_cutoff_n": 133,
+            "exact_cutoff_share": 0.1698595146871009,
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "maturity_unverified"
+          }
+        },
+        {
+          "horizon_days": 168,
+          "phase": "before",
+          "start": "2025-04-30",
+          "end": "2025-10-15",
+          "days": 168,
+          "maturity": "collection_date_unknown",
+          "bandwidth": 0.1,
+          "lag_sensitivity": {
+            "30": "collection_date_unknown",
+            "60": "collection_date_unknown",
+            "90": "collection_date_unknown"
+          },
+          "distribution": {
+            "status": "maturity_unverified",
+            "n": 1522,
+            "clusters": 19,
+            "exact_cutoff_n": 133,
+            "exact_cutoff_share": 0.0873850197109067,
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "maturity_unverified"
+          }
+        },
+        {
+          "horizon_days": 168,
+          "phase": "before",
+          "start": "2025-04-30",
+          "end": "2025-10-15",
+          "days": 168,
+          "maturity": "collection_date_unknown",
+          "bandwidth": 0.2,
+          "lag_sensitivity": {
+            "30": "collection_date_unknown",
+            "60": "collection_date_unknown",
+            "90": "collection_date_unknown"
+          },
+          "distribution": {
+            "status": "maturity_unverified",
+            "n": 3258,
+            "clusters": 25,
+            "exact_cutoff_n": 133,
+            "exact_cutoff_share": 0.04082259054634745,
+            "excess_below_share": null,
+            "deficit_above_share": null,
+            "log_density_above_below": null,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "maturity_unverified"
+          }
+        },
+        {
+          "horizon_days": 168,
+          "phase": "during",
+          "start": "2025-10-16",
+          "end": "2026-04-02",
+          "days": 168,
+          "maturity": "mature",
+          "bandwidth": 0.05,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 448,
+            "clusters": 15,
+            "exact_cutoff_n": 66,
+            "exact_cutoff_share": 0.14732142857142858,
+            "excess_below_share": 0.16034869658405332,
+            "deficit_above_share": -0.0002666059985088382,
+            "log_density_above_below": -1.4938326730094968,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 168,
+          "phase": "during",
+          "start": "2025-10-16",
+          "end": "2026-04-02",
+          "days": 168,
+          "maturity": "mature",
+          "bandwidth": 0.1,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 882,
+            "clusters": 19,
+            "exact_cutoff_n": 66,
+            "exact_cutoff_share": 0.07482993197278912,
+            "excess_below_share": 0.07026780392090842,
+            "deficit_above_share": 0.02047901064529173,
+            "log_density_above_below": -0.7377765817232861,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        },
+        {
+          "horizon_days": 168,
+          "phase": "during",
+          "start": "2025-10-16",
+          "end": "2026-04-02",
+          "days": 168,
+          "maturity": "mature",
+          "bandwidth": 0.2,
+          "lag_sensitivity": {
+            "30": "mature",
+            "60": "mature",
+            "90": "mature"
+          },
+          "distribution": {
+            "status": "descriptive",
+            "n": 2016,
+            "clusters": 23,
+            "exact_cutoff_n": 66,
+            "exact_cutoff_share": 0.03273809523809524,
+            "excess_below_share": 0.026708469693478017,
+            "deficit_above_share": 0.013385029234837427,
+            "log_density_above_below": -0.546816205537185,
+            "intervals": {
+              "excess_below_share": null,
+              "deficit_above_share": null,
+              "log_density_above_below": null
+            },
+            "uncertainty_status": "insufficient_clusters"
+          }
+        }
+      ]
+    }
+  ]
+}
