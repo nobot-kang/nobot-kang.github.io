@@ -1,0 +1,178 @@
+{
+  "schema": "kb_fixed_peak_downturn_v1",
+  "source_asset": "market-cycles.json",
+  "source_asset_sha256": "b2de8169d8102f4c937b32314dc2bddda3156df0471ac6ab7f15fdedebc4d0b9",
+  "source_url": "https://data.kbland.kr/kbstats/wmh?tIdx=HT01&tsIdx=monthAptSalePriceInx",
+  "methodology_url": "https://blog.naver.com/kbland_official/223818660146",
+  "source_fetched_at": "2026-10-03T07:34:22.741270+00:00",
+  "source_updated_label": "20260914",
+  "peak_search": [
+    "2021-01",
+    "2022-12"
+  ],
+  "trough_ends": [
+    "2023-12",
+    "2024-12"
+  ],
+  "rule": "earliest tied peak in fixed 2021–2022 window; earliest tied minimum from peak through each fixed end; descriptive retrospective, not a real-time signal",
+  "results": [
+    {
+      "region": "1100000000",
+      "label": "서울",
+      "peak_month": "2022-07",
+      "peak_index": 96.110528673465,
+      "first_negative_2022": "2022-08",
+      "second_consecutive_negative_2022": "2022-09",
+      "annual_2022_pct": -2.964881671791273,
+      "monthly_2022": [
+        {
+          "month": "2022-01",
+          "change_pct": 0.23303179566906151
+        },
+        {
+          "month": "2022-02",
+          "change_pct": 0.09200804999995478
+        },
+        {
+          "month": "2022-03",
+          "change_pct": 0.05460470927135619
+        },
+        {
+          "month": "2022-04",
+          "change_pct": 0.10947483172741795
+        },
+        {
+          "month": "2022-05",
+          "change_pct": 0.2121246437515154
+        },
+        {
+          "month": "2022-06",
+          "change_pct": 0.13369142044854615
+        },
+        {
+          "month": "2022-07",
+          "change_pct": 0.03464122227012035
+        },
+        {
+          "month": "2022-08",
+          "change_pct": -0.14534647304418344
+        },
+        {
+          "month": "2022-09",
+          "change_pct": -0.1937021012823132
+        },
+        {
+          "month": "2022-10",
+          "change_pct": -0.6682931319353053
+        },
+        {
+          "month": "2022-11",
+          "change_pct": -1.4157291583561862
+        },
+        {
+          "month": "2022-12",
+          "change_pct": -1.4325073742584462
+        }
+      ],
+      "windows": [
+        {
+          "end": "2023-12",
+          "trough_month": "2023-08",
+          "trough_index": 86.274344191408,
+          "peak_to_trough_pct": -10.23424240592348,
+          "end_index": 86.643839916179,
+          "end_vs_peak_pct": -9.849793657309933,
+          "trough_at_end": false
+        },
+        {
+          "end": "2024-12",
+          "trough_month": "2024-05",
+          "trough_index": 86.074989287189,
+          "peak_to_trough_pct": -10.441664950540112,
+          "end_index": 89.106862556171,
+          "end_vs_peak_pct": -7.287095611646168,
+          "trough_at_end": false
+        }
+      ]
+    },
+    {
+      "region": "4100000000",
+      "label": "경기",
+      "peak_month": "2022-05",
+      "peak_index": 114.29444600702,
+      "first_negative_2022": "2022-06",
+      "second_consecutive_negative_2022": "2022-07",
+      "annual_2022_pct": -5.258612379932158,
+      "monthly_2022": [
+        {
+          "month": "2022-01",
+          "change_pct": 0.2268872428869038
+        },
+        {
+          "month": "2022-02",
+          "change_pct": 0.07960579000060423
+        },
+        {
+          "month": "2022-03",
+          "change_pct": 0.03573176544533484
+        },
+        {
+          "month": "2022-04",
+          "change_pct": 0.14562223635153282
+        },
+        {
+          "month": "2022-05",
+          "change_pct": 0.16721348406014983
+        },
+        {
+          "month": "2022-06",
+          "change_pct": -0.04558642140388854
+        },
+        {
+          "month": "2022-07",
+          "change_pct": -0.1514256307221145
+        },
+        {
+          "month": "2022-08",
+          "change_pct": -0.3273316701403791
+        },
+        {
+          "month": "2022-09",
+          "change_pct": -0.3537005774691192
+        },
+        {
+          "month": "2022-10",
+          "change_pct": -1.1061330417761384
+        },
+        {
+          "month": "2022-11",
+          "change_pct": -1.8300099106371903
+        },
+        {
+          "month": "2022-12",
+          "change_pct": -2.1934392894051995
+        }
+      ],
+      "windows": [
+        {
+          "end": "2023-12",
+          "trough_month": "2023-07",
+          "trough_index": 97.838904905458,
+          "peak_to_trough_pct": -14.397498458106439,
+          "end_index": 98.356973265065,
+          "end_vs_peak_pct": -13.944223274835345,
+          "trough_at_end": false
+        },
+        {
+          "end": "2024-12",
+          "trough_month": "2024-06",
+          "trough_index": 97.686794897297,
+          "peak_to_trough_pct": -14.530584547129221,
+          "end_index": 98.390701107604,
+          "end_vs_peak_pct": -13.914713667223328,
+          "trough_at_end": false
+        }
+      ]
+    }
+  ]
+}
