@@ -1,0 +1,3202 @@
+{
+  "schema": "gyeonggi_policy_v1",
+  "population": "canonical strict non-land sale observations; all exclusive areas; current master geography",
+  "snapshot_built_date": "2026-10-04",
+  "information_cutoff": null,
+  "reference_end": "2026-09",
+  "bands": [
+    "6억 이하",
+    "6억 초과~9억 이하",
+    "9억 초과~15억 이하",
+    "15억 초과~25억 이하",
+    "25억 초과"
+  ],
+  "periods": [
+    {
+      "start": "2025-03-24",
+      "end": "2025-06-27",
+      "days": 96
+    },
+    {
+      "start": "2025-06-28",
+      "end": "2025-10-15",
+      "days": 110
+    },
+    {
+      "start": "2025-10-16",
+      "end": "2025-12-31",
+      "days": 77
+    },
+    {
+      "start": "2026-01-01",
+      "end": "2026-03-31",
+      "days": 90
+    }
+  ],
+  "macro": [
+    {
+      "scope": "11",
+      "period": 0,
+      "n": 21687,
+      "days": 96,
+      "daily": 225.90625
+    },
+    {
+      "scope": "11",
+      "period": 1,
+      "n": 20919,
+      "days": 110,
+      "daily": 190.1727272727273
+    },
+    {
+      "scope": "11",
+      "period": 2,
+      "n": 10270,
+      "days": 77,
+      "daily": 133.37662337662337
+    },
+    {
+      "scope": "11",
+      "period": 3,
+      "n": 15743,
+      "days": 90,
+      "daily": 174.92222222222222
+    },
+    {
+      "scope": "41",
+      "period": 0,
+      "n": 34020,
+      "days": 96,
+      "daily": 354.375
+    },
+    {
+      "scope": "41",
+      "period": 1,
+      "n": 31059,
+      "days": 110,
+      "daily": 282.3545454545455
+    },
+    {
+      "scope": "41",
+      "period": 2,
+      "n": 25619,
+      "days": 77,
+      "daily": 332.7142857142857
+    },
+    {
+      "scope": "41",
+      "period": 3,
+      "n": 34097,
+      "days": 90,
+      "daily": 378.85555555555555
+    }
+  ],
+  "period_bands": [
+    {
+      "scope": "11",
+      "period": 0,
+      "band": 0,
+      "n": 3629,
+      "days": 96,
+      "daily": 37.802083333333336,
+      "share": 16.733526997740583,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 0,
+      "band": 1,
+      "n": 5308,
+      "days": 96,
+      "daily": 55.291666666666664,
+      "share": 24.475492230368424,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 0,
+      "band": 2,
+      "n": 7386,
+      "days": 96,
+      "daily": 76.9375,
+      "share": 34.057269331857796,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 0,
+      "band": 3,
+      "n": 3928,
+      "days": 96,
+      "daily": 40.916666666666664,
+      "share": 18.11223313505787,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 0,
+      "band": 4,
+      "n": 1436,
+      "days": 96,
+      "daily": 14.958333333333334,
+      "share": 6.621478304975331,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 1,
+      "band": 0,
+      "n": 3536,
+      "days": 110,
+      "daily": 32.14545454545455,
+      "share": 16.903293656484536,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 1,
+      "band": 1,
+      "n": 5146,
+      "days": 110,
+      "daily": 46.78181818181818,
+      "share": 24.59964625460108,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 1,
+      "band": 2,
+      "n": 7472,
+      "days": 110,
+      "daily": 67.92727272727272,
+      "share": 35.7187246044266,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 1,
+      "band": 3,
+      "n": 3667,
+      "days": 110,
+      "daily": 33.336363636363636,
+      "share": 17.529518619436875,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 1,
+      "band": 4,
+      "n": 1098,
+      "days": 110,
+      "daily": 9.981818181818182,
+      "share": 5.248816865050911,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 2,
+      "band": 0,
+      "n": 1853,
+      "days": 77,
+      "daily": 24.064935064935064,
+      "share": 18.04284323271665,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 2,
+      "band": 1,
+      "n": 2516,
+      "days": 77,
+      "daily": 32.675324675324674,
+      "share": 24.498539435248297,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 2,
+      "band": 2,
+      "n": 3213,
+      "days": 77,
+      "daily": 41.72727272727273,
+      "share": 31.285296981499513,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 2,
+      "band": 3,
+      "n": 1763,
+      "days": 77,
+      "daily": 22.896103896103895,
+      "share": 17.166504381694256,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 2,
+      "band": 4,
+      "n": 925,
+      "days": 77,
+      "daily": 12.012987012987013,
+      "share": 9.006815968841286,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 3,
+      "band": 0,
+      "n": 3476,
+      "days": 90,
+      "daily": 38.62222222222222,
+      "share": 22.079654449596646,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 3,
+      "band": 1,
+      "n": 4455,
+      "days": 90,
+      "daily": 49.5,
+      "share": 28.29829130407165,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 3,
+      "band": 2,
+      "n": 4871,
+      "days": 90,
+      "daily": 54.12222222222222,
+      "share": 30.94073556501302,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 3,
+      "band": 3,
+      "n": 2130,
+      "days": 90,
+      "daily": 23.666666666666668,
+      "share": 13.529822778377692,
+      "status": "supported"
+    },
+    {
+      "scope": "11",
+      "period": 3,
+      "band": 4,
+      "n": 811,
+      "days": 90,
+      "daily": 9.011111111111111,
+      "share": 5.151495902940989,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 0,
+      "band": 0,
+      "n": 19427,
+      "days": 96,
+      "daily": 202.36458333333334,
+      "share": 57.10464432686655,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 0,
+      "band": 1,
+      "n": 8820,
+      "days": 96,
+      "daily": 91.875,
+      "share": 25.925925925925927,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 0,
+      "band": 2,
+      "n": 4423,
+      "days": 96,
+      "daily": 46.072916666666664,
+      "share": 13.001175778953558,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 0,
+      "band": 3,
+      "n": 1235,
+      "days": 96,
+      "daily": 12.864583333333334,
+      "share": 3.630217519106408,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 0,
+      "band": 4,
+      "n": 115,
+      "days": 96,
+      "daily": 1.1979166666666667,
+      "share": 0.33803644914756026,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 1,
+      "band": 0,
+      "n": 16569,
+      "days": 110,
+      "daily": 150.62727272727273,
+      "share": 53.34685598377282,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 1,
+      "band": 1,
+      "n": 8347,
+      "days": 110,
+      "daily": 75.88181818181818,
+      "share": 26.87465790914067,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 1,
+      "band": 2,
+      "n": 4930,
+      "days": 110,
+      "daily": 44.81818181818182,
+      "share": 15.873015873015873,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 1,
+      "band": 3,
+      "n": 1085,
+      "days": 110,
+      "daily": 9.863636363636363,
+      "share": 3.4933513635339195,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 1,
+      "band": 4,
+      "n": 128,
+      "days": 110,
+      "daily": 1.1636363636363636,
+      "share": 0.4121188705367204,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 2,
+      "band": 0,
+      "n": 14754,
+      "days": 77,
+      "daily": 191.6103896103896,
+      "share": 57.59006987001835,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 2,
+      "band": 1,
+      "n": 7314,
+      "days": 77,
+      "daily": 94.98701298701299,
+      "share": 28.549123697255943,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 2,
+      "band": 2,
+      "n": 3105,
+      "days": 77,
+      "daily": 40.324675324675326,
+      "share": 12.119911003552051,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 2,
+      "band": 3,
+      "n": 410,
+      "days": 77,
+      "daily": 5.324675324675325,
+      "share": 1.6003747218861002,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 2,
+      "band": 4,
+      "n": 36,
+      "days": 77,
+      "daily": 0.4675324675324675,
+      "share": 0.14052070728756003,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 3,
+      "band": 0,
+      "n": 19409,
+      "days": 90,
+      "daily": 215.65555555555557,
+      "share": 56.92289644250227,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 3,
+      "band": 1,
+      "n": 9400,
+      "days": 90,
+      "daily": 104.44444444444444,
+      "share": 27.568407777810364,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 3,
+      "band": 2,
+      "n": 4517,
+      "days": 90,
+      "daily": 50.18888888888889,
+      "share": 13.2474997800393,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 3,
+      "band": 3,
+      "n": 720,
+      "days": 90,
+      "daily": 8.0,
+      "share": 2.1116227234067515,
+      "status": "supported"
+    },
+    {
+      "scope": "41",
+      "period": 3,
+      "band": 4,
+      "n": 51,
+      "days": 90,
+      "daily": 0.5666666666666667,
+      "share": 0.14957327624131156,
+      "status": "supported"
+    }
+  ],
+  "regional": [
+    {
+      "region": "11110",
+      "label": "종로구",
+      "period": 0,
+      "n": 183,
+      "daily": 1.90625,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11110",
+      "label": "종로구",
+      "period": 1,
+      "n": 184,
+      "daily": 1.6727272727272726,
+      "first_ratio": 87.74962742175856,
+      "status": "supported"
+    },
+    {
+      "region": "11110",
+      "label": "종로구",
+      "period": 2,
+      "n": 90,
+      "daily": 1.1688311688311688,
+      "first_ratio": 61.31573344688099,
+      "status": "supported"
+    },
+    {
+      "region": "11110",
+      "label": "종로구",
+      "period": 3,
+      "n": 144,
+      "daily": 1.6,
+      "first_ratio": 83.93442622950819,
+      "status": "supported"
+    },
+    {
+      "region": "11140",
+      "label": "중구",
+      "period": 0,
+      "n": 363,
+      "daily": 3.78125,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11140",
+      "label": "중구",
+      "period": 1,
+      "n": 331,
+      "daily": 3.0090909090909093,
+      "first_ratio": 79.57926371149512,
+      "status": "supported"
+    },
+    {
+      "region": "11140",
+      "label": "중구",
+      "period": 2,
+      "n": 134,
+      "daily": 1.7402597402597402,
+      "first_ratio": 46.02339808951379,
+      "status": "supported"
+    },
+    {
+      "region": "11140",
+      "label": "중구",
+      "period": 3,
+      "n": 223,
+      "daily": 2.477777777777778,
+      "first_ratio": 65.52800734618916,
+      "status": "supported"
+    },
+    {
+      "region": "11170",
+      "label": "용산구",
+      "period": 0,
+      "n": 212,
+      "daily": 2.2083333333333335,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11170",
+      "label": "용산구",
+      "period": 1,
+      "n": 304,
+      "daily": 2.7636363636363637,
+      "first_ratio": 125.14579759862778,
+      "status": "supported"
+    },
+    {
+      "region": "11170",
+      "label": "용산구",
+      "period": 2,
+      "n": 246,
+      "daily": 3.1948051948051948,
+      "first_ratio": 144.67042391570692,
+      "status": "supported"
+    },
+    {
+      "region": "11170",
+      "label": "용산구",
+      "period": 3,
+      "n": 233,
+      "daily": 2.588888888888889,
+      "first_ratio": 117.23270440251572,
+      "status": "supported"
+    },
+    {
+      "region": "11200",
+      "label": "성동구",
+      "period": 0,
+      "n": 1419,
+      "daily": 14.78125,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11200",
+      "label": "성동구",
+      "period": 1,
+      "n": 1081,
+      "daily": 9.827272727272728,
+      "first_ratio": 66.48472035364213,
+      "status": "supported"
+    },
+    {
+      "region": "11200",
+      "label": "성동구",
+      "period": 2,
+      "n": 233,
+      "daily": 3.0259740259740258,
+      "first_ratio": 20.47170588396804,
+      "status": "supported"
+    },
+    {
+      "region": "11200",
+      "label": "성동구",
+      "period": 3,
+      "n": 329,
+      "daily": 3.6555555555555554,
+      "first_ratio": 24.73103124265915,
+      "status": "supported"
+    },
+    {
+      "region": "11215",
+      "label": "광진구",
+      "period": 0,
+      "n": 669,
+      "daily": 6.96875,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11215",
+      "label": "광진구",
+      "period": 1,
+      "n": 573,
+      "daily": 5.209090909090909,
+      "first_ratio": 74.7492865878516,
+      "status": "supported"
+    },
+    {
+      "region": "11215",
+      "label": "광진구",
+      "period": 2,
+      "n": 133,
+      "daily": 1.7272727272727273,
+      "first_ratio": 24.78597635548308,
+      "status": "supported"
+    },
+    {
+      "region": "11215",
+      "label": "광진구",
+      "period": 3,
+      "n": 176,
+      "daily": 1.9555555555555555,
+      "first_ratio": 28.06178375685102,
+      "status": "supported"
+    },
+    {
+      "region": "11230",
+      "label": "동대문구",
+      "period": 0,
+      "n": 967,
+      "daily": 10.072916666666666,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11230",
+      "label": "동대문구",
+      "period": 1,
+      "n": 1187,
+      "daily": 10.790909090909091,
+      "first_ratio": 107.1279496098524,
+      "status": "supported"
+    },
+    {
+      "region": "11230",
+      "label": "동대문구",
+      "period": 2,
+      "n": 449,
+      "daily": 5.8311688311688314,
+      "first_ratio": 57.889576814085615,
+      "status": "supported"
+    },
+    {
+      "region": "11230",
+      "label": "동대문구",
+      "period": 3,
+      "n": 704,
+      "daily": 7.822222222222222,
+      "first_ratio": 77.65598069631162,
+      "status": "supported"
+    },
+    {
+      "region": "11260",
+      "label": "중랑구",
+      "period": 0,
+      "n": 505,
+      "daily": 5.260416666666667,
+      "first_ratio": 100.00000000000001,
+      "status": "supported"
+    },
+    {
+      "region": "11260",
+      "label": "중랑구",
+      "period": 1,
+      "n": 525,
+      "daily": 4.7727272727272725,
+      "first_ratio": 90.72907290729071,
+      "status": "supported"
+    },
+    {
+      "region": "11260",
+      "label": "중랑구",
+      "period": 2,
+      "n": 320,
+      "daily": 4.1558441558441555,
+      "first_ratio": 79.00218593287899,
+      "status": "supported"
+    },
+    {
+      "region": "11260",
+      "label": "중랑구",
+      "period": 3,
+      "n": 579,
+      "daily": 6.433333333333334,
+      "first_ratio": 122.29702970297029,
+      "status": "supported"
+    },
+    {
+      "region": "11290",
+      "label": "성북구",
+      "period": 0,
+      "n": 1218,
+      "daily": 12.6875,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11290",
+      "label": "성북구",
+      "period": 1,
+      "n": 1253,
+      "daily": 11.39090909090909,
+      "first_ratio": 89.78056426332287,
+      "status": "supported"
+    },
+    {
+      "region": "11290",
+      "label": "성북구",
+      "period": 2,
+      "n": 623,
+      "daily": 8.090909090909092,
+      "first_ratio": 63.77071204657412,
+      "status": "supported"
+    },
+    {
+      "region": "11290",
+      "label": "성북구",
+      "period": 3,
+      "n": 1059,
+      "daily": 11.766666666666667,
+      "first_ratio": 92.74220032840724,
+      "status": "supported"
+    },
+    {
+      "region": "11305",
+      "label": "강북구",
+      "period": 0,
+      "n": 326,
+      "daily": 3.3958333333333335,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11305",
+      "label": "강북구",
+      "period": 1,
+      "n": 341,
+      "daily": 3.1,
+      "first_ratio": 91.28834355828221,
+      "status": "supported"
+    },
+    {
+      "region": "11305",
+      "label": "강북구",
+      "period": 2,
+      "n": 208,
+      "daily": 2.7012987012987013,
+      "first_ratio": 79.54744641861207,
+      "status": "supported"
+    },
+    {
+      "region": "11305",
+      "label": "강북구",
+      "period": 3,
+      "n": 408,
+      "daily": 4.533333333333333,
+      "first_ratio": 133.49693251533742,
+      "status": "supported"
+    },
+    {
+      "region": "11320",
+      "label": "도봉구",
+      "period": 0,
+      "n": 543,
+      "daily": 5.65625,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11320",
+      "label": "도봉구",
+      "period": 1,
+      "n": 538,
+      "daily": 4.890909090909091,
+      "first_ratio": 86.46911099949773,
+      "status": "supported"
+    },
+    {
+      "region": "11320",
+      "label": "도봉구",
+      "period": 2,
+      "n": 261,
+      "daily": 3.3896103896103895,
+      "first_ratio": 59.92681351797374,
+      "status": "supported"
+    },
+    {
+      "region": "11320",
+      "label": "도봉구",
+      "period": 3,
+      "n": 592,
+      "daily": 6.5777777777777775,
+      "first_ratio": 116.29220380601595,
+      "status": "supported"
+    },
+    {
+      "region": "11350",
+      "label": "노원구",
+      "period": 0,
+      "n": 1609,
+      "daily": 16.760416666666668,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11350",
+      "label": "노원구",
+      "period": 1,
+      "n": 1629,
+      "daily": 14.809090909090909,
+      "first_ratio": 88.35753432397308,
+      "status": "supported"
+    },
+    {
+      "region": "11350",
+      "label": "노원구",
+      "period": 2,
+      "n": 856,
+      "daily": 11.116883116883116,
+      "first_ratio": 66.32820256188808,
+      "status": "supported"
+    },
+    {
+      "region": "11350",
+      "label": "노원구",
+      "period": 3,
+      "n": 1933,
+      "daily": 21.477777777777778,
+      "first_ratio": 128.14584628133414,
+      "status": "supported"
+    },
+    {
+      "region": "11380",
+      "label": "은평구",
+      "period": 0,
+      "n": 696,
+      "daily": 7.25,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11380",
+      "label": "은평구",
+      "period": 1,
+      "n": 848,
+      "daily": 7.709090909090909,
+      "first_ratio": 106.33228840125392,
+      "status": "supported"
+    },
+    {
+      "region": "11380",
+      "label": "은평구",
+      "period": 2,
+      "n": 443,
+      "daily": 5.753246753246753,
+      "first_ratio": 79.35512763098968,
+      "status": "supported"
+    },
+    {
+      "region": "11380",
+      "label": "은평구",
+      "period": 3,
+      "n": 860,
+      "daily": 9.555555555555555,
+      "first_ratio": 131.8007662835249,
+      "status": "supported"
+    },
+    {
+      "region": "11410",
+      "label": "서대문구",
+      "period": 0,
+      "n": 963,
+      "daily": 10.03125,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11410",
+      "label": "서대문구",
+      "period": 1,
+      "n": 833,
+      "daily": 7.572727272727272,
+      "first_ratio": 75.49136222033418,
+      "status": "supported"
+    },
+    {
+      "region": "11410",
+      "label": "서대문구",
+      "period": 2,
+      "n": 470,
+      "daily": 6.103896103896104,
+      "first_ratio": 60.848808512359916,
+      "status": "supported"
+    },
+    {
+      "region": "11410",
+      "label": "서대문구",
+      "period": 3,
+      "n": 677,
+      "daily": 7.522222222222222,
+      "first_ratio": 74.98788508134302,
+      "status": "supported"
+    },
+    {
+      "region": "11440",
+      "label": "마포구",
+      "period": 0,
+      "n": 1360,
+      "daily": 14.166666666666666,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11440",
+      "label": "마포구",
+      "period": 1,
+      "n": 1071,
+      "daily": 9.736363636363636,
+      "first_ratio": 68.72727272727273,
+      "status": "supported"
+    },
+    {
+      "region": "11440",
+      "label": "마포구",
+      "period": 2,
+      "n": 324,
+      "daily": 4.207792207792208,
+      "first_ratio": 29.702062643239117,
+      "status": "supported"
+    },
+    {
+      "region": "11440",
+      "label": "마포구",
+      "period": 3,
+      "n": 428,
+      "daily": 4.7555555555555555,
+      "first_ratio": 33.568627450980394,
+      "status": "supported"
+    },
+    {
+      "region": "11470",
+      "label": "양천구",
+      "period": 0,
+      "n": 1129,
+      "daily": 11.760416666666666,
+      "first_ratio": 99.99999999999999,
+      "status": "supported"
+    },
+    {
+      "region": "11470",
+      "label": "양천구",
+      "period": 1,
+      "n": 882,
+      "daily": 8.018181818181818,
+      "first_ratio": 68.17940252838393,
+      "status": "supported"
+    },
+    {
+      "region": "11470",
+      "label": "양천구",
+      "period": 2,
+      "n": 504,
+      "daily": 6.545454545454546,
+      "first_ratio": 55.65665512521138,
+      "status": "supported"
+    },
+    {
+      "region": "11470",
+      "label": "양천구",
+      "period": 3,
+      "n": 648,
+      "daily": 7.2,
+      "first_ratio": 61.22232063773251,
+      "status": "supported"
+    },
+    {
+      "region": "11500",
+      "label": "강서구",
+      "period": 0,
+      "n": 1234,
+      "daily": 12.854166666666666,
+      "first_ratio": 99.99999999999999,
+      "status": "supported"
+    },
+    {
+      "region": "11500",
+      "label": "강서구",
+      "period": 1,
+      "n": 1434,
+      "daily": 13.036363636363637,
+      "first_ratio": 101.41741564756153,
+      "status": "supported"
+    },
+    {
+      "region": "11500",
+      "label": "강서구",
+      "period": 2,
+      "n": 579,
+      "daily": 7.51948051948052,
+      "first_ratio": 58.498389778778765,
+      "status": "supported"
+    },
+    {
+      "region": "11500",
+      "label": "강서구",
+      "period": 3,
+      "n": 1050,
+      "daily": 11.666666666666666,
+      "first_ratio": 90.76175040518638,
+      "status": "supported"
+    },
+    {
+      "region": "11530",
+      "label": "구로구",
+      "period": 0,
+      "n": 951,
+      "daily": 9.90625,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11530",
+      "label": "구로구",
+      "period": 1,
+      "n": 932,
+      "daily": 8.472727272727273,
+      "first_ratio": 85.5291081158589,
+      "status": "supported"
+    },
+    {
+      "region": "11530",
+      "label": "구로구",
+      "period": 2,
+      "n": 515,
+      "daily": 6.688311688311688,
+      "first_ratio": 67.51608013437667,
+      "status": "supported"
+    },
+    {
+      "region": "11530",
+      "label": "구로구",
+      "period": 3,
+      "n": 1008,
+      "daily": 11.2,
+      "first_ratio": 113.05993690851734,
+      "status": "supported"
+    },
+    {
+      "region": "11545",
+      "label": "금천구",
+      "period": 0,
+      "n": 234,
+      "daily": 2.4375,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11545",
+      "label": "금천구",
+      "period": 1,
+      "n": 260,
+      "daily": 2.3636363636363638,
+      "first_ratio": 96.96969696969697,
+      "status": "supported"
+    },
+    {
+      "region": "11545",
+      "label": "금천구",
+      "period": 2,
+      "n": 143,
+      "daily": 1.8571428571428572,
+      "first_ratio": 76.19047619047619,
+      "status": "supported"
+    },
+    {
+      "region": "11545",
+      "label": "금천구",
+      "period": 3,
+      "n": 314,
+      "daily": 3.488888888888889,
+      "first_ratio": 143.13390313390315,
+      "status": "supported"
+    },
+    {
+      "region": "11560",
+      "label": "영등포구",
+      "period": 0,
+      "n": 1361,
+      "daily": 14.177083333333334,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11560",
+      "label": "영등포구",
+      "period": 1,
+      "n": 1193,
+      "daily": 10.845454545454546,
+      "first_ratio": 76.49989980629216,
+      "status": "supported"
+    },
+    {
+      "region": "11560",
+      "label": "영등포구",
+      "period": 2,
+      "n": 455,
+      "daily": 5.909090909090909,
+      "first_ratio": 41.680582459421544,
+      "status": "supported"
+    },
+    {
+      "region": "11560",
+      "label": "영등포구",
+      "period": 3,
+      "n": 801,
+      "daily": 8.9,
+      "first_ratio": 62.7773695811903,
+      "status": "supported"
+    },
+    {
+      "region": "11590",
+      "label": "동작구",
+      "period": 0,
+      "n": 1365,
+      "daily": 14.21875,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11590",
+      "label": "동작구",
+      "period": 1,
+      "n": 1088,
+      "daily": 9.89090909090909,
+      "first_ratio": 69.56243756243755,
+      "status": "supported"
+    },
+    {
+      "region": "11590",
+      "label": "동작구",
+      "period": 2,
+      "n": 340,
+      "daily": 4.415584415584416,
+      "first_ratio": 31.0546596260882,
+      "status": "supported"
+    },
+    {
+      "region": "11590",
+      "label": "동작구",
+      "period": 3,
+      "n": 557,
+      "daily": 6.188888888888889,
+      "first_ratio": 43.52625152625153,
+      "status": "supported"
+    },
+    {
+      "region": "11620",
+      "label": "관악구",
+      "period": 0,
+      "n": 619,
+      "daily": 6.447916666666667,
+      "first_ratio": 100.00000000000001,
+      "status": "supported"
+    },
+    {
+      "region": "11620",
+      "label": "관악구",
+      "period": 1,
+      "n": 695,
+      "daily": 6.318181818181818,
+      "first_ratio": 97.98795711558232,
+      "status": "supported"
+    },
+    {
+      "region": "11620",
+      "label": "관악구",
+      "period": 2,
+      "n": 315,
+      "daily": 4.090909090909091,
+      "first_ratio": 63.44543985901013,
+      "status": "supported"
+    },
+    {
+      "region": "11620",
+      "label": "관악구",
+      "period": 3,
+      "n": 562,
+      "daily": 6.2444444444444445,
+      "first_ratio": 96.84437264404954,
+      "status": "supported"
+    },
+    {
+      "region": "11650",
+      "label": "서초구",
+      "period": 0,
+      "n": 447,
+      "daily": 4.65625,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11650",
+      "label": "서초구",
+      "period": 1,
+      "n": 446,
+      "daily": 4.054545454545455,
+      "first_ratio": 87.07748627211716,
+      "status": "supported"
+    },
+    {
+      "region": "11650",
+      "label": "서초구",
+      "period": 2,
+      "n": 494,
+      "daily": 6.415584415584416,
+      "first_ratio": 137.784363287719,
+      "status": "supported"
+    },
+    {
+      "region": "11650",
+      "label": "서초구",
+      "period": 3,
+      "n": 388,
+      "daily": 4.311111111111111,
+      "first_ratio": 92.5876211782252,
+      "status": "supported"
+    },
+    {
+      "region": "11680",
+      "label": "강남구",
+      "period": 0,
+      "n": 760,
+      "daily": 7.916666666666667,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11680",
+      "label": "강남구",
+      "period": 1,
+      "n": 694,
+      "daily": 6.3090909090909095,
+      "first_ratio": 79.69377990430623,
+      "status": "supported"
+    },
+    {
+      "region": "11680",
+      "label": "강남구",
+      "period": 2,
+      "n": 573,
+      "daily": 7.441558441558442,
+      "first_ratio": 93.99863294600136,
+      "status": "supported"
+    },
+    {
+      "region": "11680",
+      "label": "강남구",
+      "period": 3,
+      "n": 490,
+      "daily": 5.444444444444445,
+      "first_ratio": 68.7719298245614,
+      "status": "supported"
+    },
+    {
+      "region": "11710",
+      "label": "송파구",
+      "period": 0,
+      "n": 1024,
+      "daily": 10.666666666666666,
+      "first_ratio": 99.99999999999999,
+      "status": "supported"
+    },
+    {
+      "region": "11710",
+      "label": "송파구",
+      "period": 1,
+      "n": 1031,
+      "daily": 9.372727272727273,
+      "first_ratio": 87.86931818181819,
+      "status": "supported"
+    },
+    {
+      "region": "11710",
+      "label": "송파구",
+      "period": 2,
+      "n": 1113,
+      "daily": 14.454545454545455,
+      "first_ratio": 135.51136363636365,
+      "status": "supported"
+    },
+    {
+      "region": "11710",
+      "label": "송파구",
+      "period": 3,
+      "n": 834,
+      "daily": 9.266666666666667,
+      "first_ratio": 86.87500000000001,
+      "status": "supported"
+    },
+    {
+      "region": "11740",
+      "label": "강동구",
+      "period": 0,
+      "n": 1530,
+      "daily": 15.9375,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "11740",
+      "label": "강동구",
+      "period": 1,
+      "n": 1566,
+      "daily": 14.236363636363636,
+      "first_ratio": 89.32620320855615,
+      "status": "supported"
+    },
+    {
+      "region": "11740",
+      "label": "강동구",
+      "period": 2,
+      "n": 449,
+      "daily": 5.8311688311688314,
+      "first_ratio": 36.58772599949071,
+      "status": "supported"
+    },
+    {
+      "region": "11740",
+      "label": "강동구",
+      "period": 3,
+      "n": 746,
+      "daily": 8.28888888888889,
+      "first_ratio": 52.00871459694989,
+      "status": "supported"
+    },
+    {
+      "region": "41111",
+      "label": "수원시 장안구",
+      "period": 0,
+      "n": 720,
+      "daily": 7.5,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41111",
+      "label": "수원시 장안구",
+      "period": 1,
+      "n": 636,
+      "daily": 5.781818181818182,
+      "first_ratio": 77.0909090909091,
+      "status": "supported"
+    },
+    {
+      "region": "41111",
+      "label": "수원시 장안구",
+      "period": 2,
+      "n": 328,
+      "daily": 4.259740259740259,
+      "first_ratio": 56.79653679653679,
+      "status": "supported"
+    },
+    {
+      "region": "41111",
+      "label": "수원시 장안구",
+      "period": 3,
+      "n": 672,
+      "daily": 7.466666666666667,
+      "first_ratio": 99.55555555555556,
+      "status": "supported"
+    },
+    {
+      "region": "41113",
+      "label": "수원시 권선구",
+      "period": 0,
+      "n": 975,
+      "daily": 10.15625,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41113",
+      "label": "수원시 권선구",
+      "period": 1,
+      "n": 786,
+      "daily": 7.1454545454545455,
+      "first_ratio": 70.35524475524475,
+      "status": "supported"
+    },
+    {
+      "region": "41113",
+      "label": "수원시 권선구",
+      "period": 2,
+      "n": 1089,
+      "daily": 14.142857142857142,
+      "first_ratio": 139.25274725274724,
+      "status": "supported"
+    },
+    {
+      "region": "41113",
+      "label": "수원시 권선구",
+      "period": 3,
+      "n": 1230,
+      "daily": 13.666666666666666,
+      "first_ratio": 134.56410256410254,
+      "status": "supported"
+    },
+    {
+      "region": "41115",
+      "label": "수원시 팔달구",
+      "period": 0,
+      "n": 526,
+      "daily": 5.479166666666667,
+      "first_ratio": 100.00000000000001,
+      "status": "supported"
+    },
+    {
+      "region": "41115",
+      "label": "수원시 팔달구",
+      "period": 1,
+      "n": 560,
+      "daily": 5.090909090909091,
+      "first_ratio": 92.91393017628758,
+      "status": "supported"
+    },
+    {
+      "region": "41115",
+      "label": "수원시 팔달구",
+      "period": 2,
+      "n": 318,
+      "daily": 4.12987012987013,
+      "first_ratio": 75.37405560219248,
+      "status": "supported"
+    },
+    {
+      "region": "41115",
+      "label": "수원시 팔달구",
+      "period": 3,
+      "n": 648,
+      "daily": 7.2,
+      "first_ratio": 131.40684410646386,
+      "status": "supported"
+    },
+    {
+      "region": "41117",
+      "label": "수원시 영통구",
+      "period": 0,
+      "n": 1672,
+      "daily": 17.416666666666668,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41117",
+      "label": "수원시 영통구",
+      "period": 1,
+      "n": 1738,
+      "daily": 15.8,
+      "first_ratio": 90.71770334928229,
+      "status": "supported"
+    },
+    {
+      "region": "41117",
+      "label": "수원시 영통구",
+      "period": 2,
+      "n": 953,
+      "daily": 12.376623376623376,
+      "first_ratio": 71.06195240166532,
+      "status": "supported"
+    },
+    {
+      "region": "41117",
+      "label": "수원시 영통구",
+      "period": 3,
+      "n": 1435,
+      "daily": 15.944444444444445,
+      "first_ratio": 91.54704944178629,
+      "status": "supported"
+    },
+    {
+      "region": "41131",
+      "label": "성남시 수정구",
+      "period": 0,
+      "n": 438,
+      "daily": 4.5625,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41131",
+      "label": "성남시 수정구",
+      "period": 1,
+      "n": 617,
+      "daily": 5.609090909090909,
+      "first_ratio": 122.93897882938981,
+      "status": "supported"
+    },
+    {
+      "region": "41131",
+      "label": "성남시 수정구",
+      "period": 2,
+      "n": 182,
+      "daily": 2.3636363636363638,
+      "first_ratio": 51.805728518057286,
+      "status": "supported"
+    },
+    {
+      "region": "41131",
+      "label": "성남시 수정구",
+      "period": 3,
+      "n": 317,
+      "daily": 3.522222222222222,
+      "first_ratio": 77.19939117199391,
+      "status": "supported"
+    },
+    {
+      "region": "41133",
+      "label": "성남시 중원구",
+      "period": 0,
+      "n": 523,
+      "daily": 5.447916666666667,
+      "first_ratio": 100.00000000000001,
+      "status": "supported"
+    },
+    {
+      "region": "41133",
+      "label": "성남시 중원구",
+      "period": 1,
+      "n": 548,
+      "daily": 4.9818181818181815,
+      "first_ratio": 91.44446375803926,
+      "status": "supported"
+    },
+    {
+      "region": "41133",
+      "label": "성남시 중원구",
+      "period": 2,
+      "n": 204,
+      "daily": 2.6493506493506493,
+      "first_ratio": 48.63052817163715,
+      "status": "supported"
+    },
+    {
+      "region": "41133",
+      "label": "성남시 중원구",
+      "period": 3,
+      "n": 446,
+      "daily": 4.955555555555556,
+      "first_ratio": 90.96239643084766,
+      "status": "supported"
+    },
+    {
+      "region": "41135",
+      "label": "성남시 분당구",
+      "period": 0,
+      "n": 2328,
+      "daily": 24.25,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41135",
+      "label": "성남시 분당구",
+      "period": 1,
+      "n": 1875,
+      "daily": 17.045454545454547,
+      "first_ratio": 70.29053420806,
+      "status": "supported"
+    },
+    {
+      "region": "41135",
+      "label": "성남시 분당구",
+      "period": 2,
+      "n": 494,
+      "daily": 6.415584415584416,
+      "first_ratio": 26.45601820859553,
+      "status": "supported"
+    },
+    {
+      "region": "41135",
+      "label": "성남시 분당구",
+      "period": 3,
+      "n": 829,
+      "daily": 9.21111111111111,
+      "first_ratio": 37.98396334478809,
+      "status": "supported"
+    },
+    {
+      "region": "41150",
+      "label": "의정부시",
+      "period": 0,
+      "n": 1317,
+      "daily": 13.71875,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41150",
+      "label": "의정부시",
+      "period": 1,
+      "n": 1113,
+      "daily": 10.118181818181819,
+      "first_ratio": 73.7544004969973,
+      "status": "supported"
+    },
+    {
+      "region": "41150",
+      "label": "의정부시",
+      "period": 2,
+      "n": 931,
+      "daily": 12.090909090909092,
+      "first_ratio": 88.13418927314144,
+      "status": "supported"
+    },
+    {
+      "region": "41150",
+      "label": "의정부시",
+      "period": 3,
+      "n": 1278,
+      "daily": 14.2,
+      "first_ratio": 103.50797266514806,
+      "status": "supported"
+    },
+    {
+      "region": "41171",
+      "label": "안양시 만안구",
+      "period": 0,
+      "n": 565,
+      "daily": 5.885416666666667,
+      "first_ratio": 100.00000000000001,
+      "status": "supported"
+    },
+    {
+      "region": "41171",
+      "label": "안양시 만안구",
+      "period": 1,
+      "n": 498,
+      "daily": 4.527272727272727,
+      "first_ratio": 76.92357200321803,
+      "status": "supported"
+    },
+    {
+      "region": "41171",
+      "label": "안양시 만안구",
+      "period": 2,
+      "n": 609,
+      "daily": 7.909090909090909,
+      "first_ratio": 134.38455349959773,
+      "status": "supported"
+    },
+    {
+      "region": "41171",
+      "label": "안양시 만안구",
+      "period": 3,
+      "n": 800,
+      "daily": 8.88888888888889,
+      "first_ratio": 151.03244837758112,
+      "status": "supported"
+    },
+    {
+      "region": "41173",
+      "label": "안양시 동안구",
+      "period": 0,
+      "n": 1730,
+      "daily": 18.020833333333332,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41173",
+      "label": "안양시 동안구",
+      "period": 1,
+      "n": 1683,
+      "daily": 15.3,
+      "first_ratio": 84.90173410404626,
+      "status": "supported"
+    },
+    {
+      "region": "41173",
+      "label": "안양시 동안구",
+      "period": 2,
+      "n": 727,
+      "daily": 9.441558441558442,
+      "first_ratio": 52.39246302830119,
+      "status": "supported"
+    },
+    {
+      "region": "41173",
+      "label": "안양시 동안구",
+      "period": 3,
+      "n": 1264,
+      "daily": 14.044444444444444,
+      "first_ratio": 77.9344894026975,
+      "status": "supported"
+    },
+    {
+      "region": "41192",
+      "label": "부천시 원미구",
+      "period": 0,
+      "n": 793,
+      "daily": 8.260416666666666,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41192",
+      "label": "부천시 원미구",
+      "period": 1,
+      "n": 726,
+      "daily": 6.6,
+      "first_ratio": 79.89911727616646,
+      "status": "supported"
+    },
+    {
+      "region": "41192",
+      "label": "부천시 원미구",
+      "period": 2,
+      "n": 897,
+      "daily": 11.64935064935065,
+      "first_ratio": 141.02618692782627,
+      "status": "supported"
+    },
+    {
+      "region": "41192",
+      "label": "부천시 원미구",
+      "period": 3,
+      "n": 997,
+      "daily": 11.077777777777778,
+      "first_ratio": 134.10676754939053,
+      "status": "supported"
+    },
+    {
+      "region": "41194",
+      "label": "부천시 소사구",
+      "period": 0,
+      "n": 436,
+      "daily": 4.541666666666667,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41194",
+      "label": "부천시 소사구",
+      "period": 1,
+      "n": 387,
+      "daily": 3.518181818181818,
+      "first_ratio": 77.46455379482902,
+      "status": "supported"
+    },
+    {
+      "region": "41194",
+      "label": "부천시 소사구",
+      "period": 2,
+      "n": 420,
+      "daily": 5.454545454545454,
+      "first_ratio": 120.10008340283568,
+      "status": "supported"
+    },
+    {
+      "region": "41194",
+      "label": "부천시 소사구",
+      "period": 3,
+      "n": 524,
+      "daily": 5.822222222222222,
+      "first_ratio": 128.19571865443424,
+      "status": "supported"
+    },
+    {
+      "region": "41196",
+      "label": "부천시 오정구",
+      "period": 0,
+      "n": 139,
+      "daily": 1.4479166666666667,
+      "first_ratio": 100.00000000000001,
+      "status": "supported"
+    },
+    {
+      "region": "41196",
+      "label": "부천시 오정구",
+      "period": 1,
+      "n": 123,
+      "daily": 1.1181818181818182,
+      "first_ratio": 77.22694571615435,
+      "status": "supported"
+    },
+    {
+      "region": "41196",
+      "label": "부천시 오정구",
+      "period": 2,
+      "n": 93,
+      "daily": 1.2077922077922079,
+      "first_ratio": 83.41586471082874,
+      "status": "supported"
+    },
+    {
+      "region": "41196",
+      "label": "부천시 오정구",
+      "period": 3,
+      "n": 133,
+      "daily": 1.4777777777777779,
+      "first_ratio": 102.06235011990407,
+      "status": "supported"
+    },
+    {
+      "region": "41210",
+      "label": "광명시",
+      "period": 0,
+      "n": 1188,
+      "daily": 12.375,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41210",
+      "label": "광명시",
+      "period": 1,
+      "n": 1466,
+      "daily": 13.327272727272728,
+      "first_ratio": 107.69513314967861,
+      "status": "supported"
+    },
+    {
+      "region": "41210",
+      "label": "광명시",
+      "period": 2,
+      "n": 613,
+      "daily": 7.961038961038961,
+      "first_ratio": 64.33162796799161,
+      "status": "supported"
+    },
+    {
+      "region": "41210",
+      "label": "광명시",
+      "period": 3,
+      "n": 954,
+      "daily": 10.6,
+      "first_ratio": 85.65656565656566,
+      "status": "supported"
+    },
+    {
+      "region": "41220",
+      "label": "평택시",
+      "period": 0,
+      "n": 1664,
+      "daily": 17.333333333333332,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41220",
+      "label": "평택시",
+      "period": 1,
+      "n": 1411,
+      "daily": 12.827272727272728,
+      "first_ratio": 74.0034965034965,
+      "status": "supported"
+    },
+    {
+      "region": "41220",
+      "label": "평택시",
+      "period": 2,
+      "n": 1309,
+      "daily": 17.0,
+      "first_ratio": 98.07692307692308,
+      "status": "supported"
+    },
+    {
+      "region": "41220",
+      "label": "평택시",
+      "period": 3,
+      "n": 1800,
+      "daily": 20.0,
+      "first_ratio": 115.38461538461539,
+      "status": "supported"
+    },
+    {
+      "region": "41271",
+      "label": "안산시 상록구",
+      "period": 0,
+      "n": 396,
+      "daily": 4.125,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41271",
+      "label": "안산시 상록구",
+      "period": 1,
+      "n": 365,
+      "daily": 3.3181818181818183,
+      "first_ratio": 80.44077134986226,
+      "status": "supported"
+    },
+    {
+      "region": "41271",
+      "label": "안산시 상록구",
+      "period": 2,
+      "n": 347,
+      "daily": 4.5064935064935066,
+      "first_ratio": 109.24832743014561,
+      "status": "supported"
+    },
+    {
+      "region": "41271",
+      "label": "안산시 상록구",
+      "period": 3,
+      "n": 466,
+      "daily": 5.177777777777778,
+      "first_ratio": 125.52188552188554,
+      "status": "supported"
+    },
+    {
+      "region": "41273",
+      "label": "안산시 단원구",
+      "period": 0,
+      "n": 652,
+      "daily": 6.791666666666667,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41273",
+      "label": "안산시 단원구",
+      "period": 1,
+      "n": 549,
+      "daily": 4.990909090909091,
+      "first_ratio": 73.48577802565532,
+      "status": "supported"
+    },
+    {
+      "region": "41273",
+      "label": "안산시 단원구",
+      "period": 2,
+      "n": 540,
+      "daily": 7.012987012987013,
+      "first_ratio": 103.25870448569835,
+      "status": "supported"
+    },
+    {
+      "region": "41273",
+      "label": "안산시 단원구",
+      "period": 3,
+      "n": 687,
+      "daily": 7.633333333333334,
+      "first_ratio": 112.39263803680981,
+      "status": "supported"
+    },
+    {
+      "region": "41281",
+      "label": "고양시 덕양구",
+      "period": 0,
+      "n": 1189,
+      "daily": 12.385416666666666,
+      "first_ratio": 99.99999999999999,
+      "status": "supported"
+    },
+    {
+      "region": "41281",
+      "label": "고양시 덕양구",
+      "period": 1,
+      "n": 872,
+      "daily": 7.927272727272728,
+      "first_ratio": 64.00489334046947,
+      "status": "supported"
+    },
+    {
+      "region": "41281",
+      "label": "고양시 덕양구",
+      "period": 2,
+      "n": 967,
+      "daily": 12.558441558441558,
+      "first_ratio": 101.39700501348946,
+      "status": "supported"
+    },
+    {
+      "region": "41281",
+      "label": "고양시 덕양구",
+      "period": 3,
+      "n": 1201,
+      "daily": 13.344444444444445,
+      "first_ratio": 107.74320156994675,
+      "status": "supported"
+    },
+    {
+      "region": "41285",
+      "label": "고양시 일산동구",
+      "period": 0,
+      "n": 522,
+      "daily": 5.4375,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41285",
+      "label": "고양시 일산동구",
+      "period": 1,
+      "n": 437,
+      "daily": 3.9727272727272727,
+      "first_ratio": 73.06165099268547,
+      "status": "supported"
+    },
+    {
+      "region": "41285",
+      "label": "고양시 일산동구",
+      "period": 2,
+      "n": 472,
+      "daily": 6.12987012987013,
+      "first_ratio": 112.73324376772653,
+      "status": "supported"
+    },
+    {
+      "region": "41285",
+      "label": "고양시 일산동구",
+      "period": 3,
+      "n": 511,
+      "daily": 5.677777777777778,
+      "first_ratio": 104.41890166028098,
+      "status": "supported"
+    },
+    {
+      "region": "41287",
+      "label": "고양시 일산서구",
+      "period": 0,
+      "n": 827,
+      "daily": 8.614583333333334,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41287",
+      "label": "고양시 일산서구",
+      "period": 1,
+      "n": 605,
+      "daily": 5.5,
+      "first_ratio": 63.84522370012091,
+      "status": "supported"
+    },
+    {
+      "region": "41287",
+      "label": "고양시 일산서구",
+      "period": 2,
+      "n": 575,
+      "daily": 7.467532467532467,
+      "first_ratio": 86.68477834136841,
+      "status": "supported"
+    },
+    {
+      "region": "41287",
+      "label": "고양시 일산서구",
+      "period": 3,
+      "n": 637,
+      "daily": 7.0777777777777775,
+      "first_ratio": 82.16041918581216,
+      "status": "supported"
+    },
+    {
+      "region": "41290",
+      "label": "과천시",
+      "period": 0,
+      "n": 264,
+      "daily": 2.75,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41290",
+      "label": "과천시",
+      "period": 1,
+      "n": 136,
+      "daily": 1.2363636363636363,
+      "first_ratio": 44.95867768595041,
+      "status": "supported"
+    },
+    {
+      "region": "41290",
+      "label": "과천시",
+      "period": 2,
+      "n": 43,
+      "daily": 0.5584415584415584,
+      "first_ratio": 20.306965761511215,
+      "status": "supported"
+    },
+    {
+      "region": "41290",
+      "label": "과천시",
+      "period": 3,
+      "n": 47,
+      "daily": 0.5222222222222223,
+      "first_ratio": 18.989898989898993,
+      "status": "supported"
+    },
+    {
+      "region": "41310",
+      "label": "구리시",
+      "period": 0,
+      "n": 513,
+      "daily": 5.34375,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41310",
+      "label": "구리시",
+      "period": 1,
+      "n": 586,
+      "daily": 5.327272727272727,
+      "first_ratio": 99.69165337586391,
+      "status": "supported"
+    },
+    {
+      "region": "41310",
+      "label": "구리시",
+      "period": 2,
+      "n": 929,
+      "daily": 12.064935064935066,
+      "first_ratio": 225.7765626186679,
+      "status": "supported"
+    },
+    {
+      "region": "41310",
+      "label": "구리시",
+      "period": 3,
+      "n": 1306,
+      "daily": 14.511111111111111,
+      "first_ratio": 271.5529564652372,
+      "status": "supported"
+    },
+    {
+      "region": "41360",
+      "label": "남양주시",
+      "period": 0,
+      "n": 1857,
+      "daily": 19.34375,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41360",
+      "label": "남양주시",
+      "period": 1,
+      "n": 1570,
+      "daily": 14.272727272727273,
+      "first_ratio": 73.7846967249229,
+      "status": "supported"
+    },
+    {
+      "region": "41360",
+      "label": "남양주시",
+      "period": 2,
+      "n": 1734,
+      "daily": 22.51948051948052,
+      "first_ratio": 116.41734678891385,
+      "status": "supported"
+    },
+    {
+      "region": "41360",
+      "label": "남양주시",
+      "period": 3,
+      "n": 2202,
+      "daily": 24.466666666666665,
+      "first_ratio": 126.48357565966612,
+      "status": "supported"
+    },
+    {
+      "region": "41410",
+      "label": "군포시",
+      "period": 0,
+      "n": 719,
+      "daily": 7.489583333333333,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41410",
+      "label": "군포시",
+      "period": 1,
+      "n": 636,
+      "daily": 5.781818181818182,
+      "first_ratio": 77.19812871412316,
+      "status": "supported"
+    },
+    {
+      "region": "41410",
+      "label": "군포시",
+      "period": 2,
+      "n": 835,
+      "daily": 10.844155844155845,
+      "first_ratio": 144.78984159095424,
+      "status": "supported"
+    },
+    {
+      "region": "41410",
+      "label": "군포시",
+      "period": 3,
+      "n": 1097,
+      "daily": 12.188888888888888,
+      "first_ratio": 162.74455261937877,
+      "status": "supported"
+    },
+    {
+      "region": "41430",
+      "label": "의왕시",
+      "period": 0,
+      "n": 611,
+      "daily": 6.364583333333333,
+      "first_ratio": 99.99999999999999,
+      "status": "supported"
+    },
+    {
+      "region": "41430",
+      "label": "의왕시",
+      "period": 1,
+      "n": 568,
+      "daily": 5.163636363636364,
+      "first_ratio": 81.13078410950752,
+      "status": "supported"
+    },
+    {
+      "region": "41430",
+      "label": "의왕시",
+      "period": 2,
+      "n": 271,
+      "daily": 3.5194805194805197,
+      "first_ratio": 55.29789359576594,
+      "status": "supported"
+    },
+    {
+      "region": "41430",
+      "label": "의왕시",
+      "period": 3,
+      "n": 478,
+      "daily": 5.311111111111111,
+      "first_ratio": 83.44789961811239,
+      "status": "supported"
+    },
+    {
+      "region": "41450",
+      "label": "하남시",
+      "period": 0,
+      "n": 1158,
+      "daily": 12.0625,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41450",
+      "label": "하남시",
+      "period": 1,
+      "n": 1540,
+      "daily": 14.0,
+      "first_ratio": 116.06217616580311,
+      "status": "supported"
+    },
+    {
+      "region": "41450",
+      "label": "하남시",
+      "period": 2,
+      "n": 600,
+      "daily": 7.792207792207792,
+      "first_ratio": 64.59861382141175,
+      "status": "supported"
+    },
+    {
+      "region": "41450",
+      "label": "하남시",
+      "period": 3,
+      "n": 746,
+      "daily": 8.28888888888889,
+      "first_ratio": 68.71617731721359,
+      "status": "supported"
+    },
+    {
+      "region": "41461",
+      "label": "용인시 처인구",
+      "period": 0,
+      "n": 518,
+      "daily": 5.395833333333333,
+      "first_ratio": 99.99999999999999,
+      "status": "supported"
+    },
+    {
+      "region": "41461",
+      "label": "용인시 처인구",
+      "period": 1,
+      "n": 526,
+      "daily": 4.781818181818182,
+      "first_ratio": 88.62056862056863,
+      "status": "supported"
+    },
+    {
+      "region": "41461",
+      "label": "용인시 처인구",
+      "period": 2,
+      "n": 467,
+      "daily": 6.064935064935065,
+      "first_ratio": 112.40034097176955,
+      "status": "supported"
+    },
+    {
+      "region": "41461",
+      "label": "용인시 처인구",
+      "period": 3,
+      "n": 651,
+      "daily": 7.233333333333333,
+      "first_ratio": 134.05405405405406,
+      "status": "supported"
+    },
+    {
+      "region": "41463",
+      "label": "용인시 기흥구",
+      "period": 0,
+      "n": 1439,
+      "daily": 14.989583333333334,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41463",
+      "label": "용인시 기흥구",
+      "period": 1,
+      "n": 1280,
+      "daily": 11.636363636363637,
+      "first_ratio": 77.62966706677618,
+      "status": "supported"
+    },
+    {
+      "region": "41463",
+      "label": "용인시 기흥구",
+      "period": 2,
+      "n": 1649,
+      "daily": 21.415584415584416,
+      "first_ratio": 142.86977789410034,
+      "status": "supported"
+    },
+    {
+      "region": "41463",
+      "label": "용인시 기흥구",
+      "period": 3,
+      "n": 2252,
+      "daily": 25.022222222222222,
+      "first_ratio": 166.93073893907805,
+      "status": "supported"
+    },
+    {
+      "region": "41465",
+      "label": "용인시 수지구",
+      "period": 0,
+      "n": 2287,
+      "daily": 23.822916666666668,
+      "first_ratio": 100.00000000000001,
+      "status": "supported"
+    },
+    {
+      "region": "41465",
+      "label": "용인시 수지구",
+      "period": 1,
+      "n": 2046,
+      "daily": 18.6,
+      "first_ratio": 78.0760822037604,
+      "status": "supported"
+    },
+    {
+      "region": "41465",
+      "label": "용인시 수지구",
+      "period": 2,
+      "n": 1061,
+      "daily": 13.779220779220779,
+      "first_ratio": 57.840192164634665,
+      "status": "supported"
+    },
+    {
+      "region": "41465",
+      "label": "용인시 수지구",
+      "period": 3,
+      "n": 1666,
+      "daily": 18.511111111111113,
+      "first_ratio": 77.70295875236846,
+      "status": "supported"
+    },
+    {
+      "region": "41480",
+      "label": "파주시",
+      "period": 0,
+      "n": 1126,
+      "daily": 11.729166666666666,
+      "first_ratio": 99.99999999999999,
+      "status": "supported"
+    },
+    {
+      "region": "41480",
+      "label": "파주시",
+      "period": 1,
+      "n": 882,
+      "daily": 8.018181818181818,
+      "first_ratio": 68.36105280155013,
+      "status": "supported"
+    },
+    {
+      "region": "41480",
+      "label": "파주시",
+      "period": 2,
+      "n": 860,
+      "daily": 11.168831168831169,
+      "first_ratio": 95.2227168923439,
+      "status": "supported"
+    },
+    {
+      "region": "41480",
+      "label": "파주시",
+      "period": 3,
+      "n": 952,
+      "daily": 10.577777777777778,
+      "first_ratio": 90.18354055654234,
+      "status": "supported"
+    },
+    {
+      "region": "41570",
+      "label": "김포시",
+      "period": 0,
+      "n": 1192,
+      "daily": 12.416666666666666,
+      "first_ratio": 99.99999999999999,
+      "status": "supported"
+    },
+    {
+      "region": "41570",
+      "label": "김포시",
+      "period": 1,
+      "n": 1089,
+      "daily": 9.9,
+      "first_ratio": 79.73154362416108,
+      "status": "supported"
+    },
+    {
+      "region": "41570",
+      "label": "김포시",
+      "period": 2,
+      "n": 928,
+      "daily": 12.051948051948052,
+      "first_ratio": 97.06266887474942,
+      "status": "supported"
+    },
+    {
+      "region": "41570",
+      "label": "김포시",
+      "period": 3,
+      "n": 1180,
+      "daily": 13.11111111111111,
+      "first_ratio": 105.59284116331096,
+      "status": "supported"
+    },
+    {
+      "region": "41591",
+      "label": "화성시 만세구",
+      "period": 0,
+      "n": 343,
+      "daily": 3.5729166666666665,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41591",
+      "label": "화성시 만세구",
+      "period": 1,
+      "n": 284,
+      "daily": 2.581818181818182,
+      "first_ratio": 72.26080042406574,
+      "status": "supported"
+    },
+    {
+      "region": "41591",
+      "label": "화성시 만세구",
+      "period": 2,
+      "n": 290,
+      "daily": 3.7662337662337664,
+      "first_ratio": 105.41062436106169,
+      "status": "supported"
+    },
+    {
+      "region": "41591",
+      "label": "화성시 만세구",
+      "period": 3,
+      "n": 316,
+      "daily": 3.511111111111111,
+      "first_ratio": 98.27016520894071,
+      "status": "supported"
+    },
+    {
+      "region": "41593",
+      "label": "화성시 효행구",
+      "period": 0,
+      "n": 437,
+      "daily": 4.552083333333333,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41593",
+      "label": "화성시 효행구",
+      "period": 1,
+      "n": 334,
+      "daily": 3.036363636363636,
+      "first_ratio": 66.7027251924277,
+      "status": "supported"
+    },
+    {
+      "region": "41593",
+      "label": "화성시 효행구",
+      "period": 2,
+      "n": 333,
+      "daily": 4.324675324675325,
+      "first_ratio": 95.00430919195222,
+      "status": "supported"
+    },
+    {
+      "region": "41593",
+      "label": "화성시 효행구",
+      "period": 3,
+      "n": 422,
+      "daily": 4.688888888888889,
+      "first_ratio": 103.0053394355454,
+      "status": "supported"
+    },
+    {
+      "region": "41595",
+      "label": "화성시 병점구",
+      "period": 0,
+      "n": 571,
+      "daily": 5.947916666666667,
+      "first_ratio": 100.00000000000001,
+      "status": "supported"
+    },
+    {
+      "region": "41595",
+      "label": "화성시 병점구",
+      "period": 1,
+      "n": 499,
+      "daily": 4.536363636363636,
+      "first_ratio": 76.26811017353924,
+      "status": "supported"
+    },
+    {
+      "region": "41595",
+      "label": "화성시 병점구",
+      "period": 2,
+      "n": 576,
+      "daily": 7.48051948051948,
+      "first_ratio": 125.76705256214886,
+      "status": "supported"
+    },
+    {
+      "region": "41595",
+      "label": "화성시 병점구",
+      "period": 3,
+      "n": 691,
+      "daily": 7.677777777777778,
+      "first_ratio": 129.08347927612377,
+      "status": "supported"
+    },
+    {
+      "region": "41597",
+      "label": "화성시 동탄구",
+      "period": 0,
+      "n": 1693,
+      "daily": 17.635416666666668,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41597",
+      "label": "화성시 동탄구",
+      "period": 1,
+      "n": 1498,
+      "daily": 13.618181818181819,
+      "first_ratio": 77.22064114267305,
+      "status": "supported"
+    },
+    {
+      "region": "41597",
+      "label": "화성시 동탄구",
+      "period": 2,
+      "n": 2364,
+      "daily": 30.7012987012987,
+      "first_ratio": 174.08887627434584,
+      "status": "supported"
+    },
+    {
+      "region": "41597",
+      "label": "화성시 동탄구",
+      "period": 3,
+      "n": 2542,
+      "daily": 28.244444444444444,
+      "first_ratio": 160.15751132112618,
+      "status": "supported"
+    },
+    {
+      "region": "41610",
+      "label": "광주시",
+      "period": 0,
+      "n": 692,
+      "daily": 7.208333333333333,
+      "first_ratio": 100.0,
+      "status": "supported"
+    },
+    {
+      "region": "41610",
+      "label": "광주시",
+      "period": 1,
+      "n": 590,
+      "daily": 5.363636363636363,
+      "first_ratio": 74.40882816605361,
+      "status": "supported"
+    },
+    {
+      "region": "41610",
+      "label": "광주시",
+      "period": 2,
+      "n": 611,
+      "daily": 7.935064935064935,
+      "first_ratio": 110.08182568876211,
+      "status": "supported"
+    },
+    {
+      "region": "41610",
+      "label": "광주시",
+      "period": 3,
+      "n": 720,
+      "daily": 8.0,
+      "first_ratio": 110.98265895953757,
+      "status": "supported"
+    }
+  ],
+  "monthly": [
+    {
+      "scope": "11",
+      "ym": "2025-01",
+      "n": 3040,
+      "days": 31,
+      "daily": 98.06451612903226
+    },
+    {
+      "scope": "11",
+      "ym": "2025-02",
+      "n": 5848,
+      "days": 28,
+      "daily": 208.85714285714286
+    },
+    {
+      "scope": "11",
+      "ym": "2025-03",
+      "n": 8811,
+      "days": 31,
+      "daily": 284.2258064516129
+    },
+    {
+      "scope": "11",
+      "ym": "2025-04",
+      "n": 4524,
+      "days": 30,
+      "daily": 150.8
+    },
+    {
+      "scope": "11",
+      "ym": "2025-05",
+      "n": 6449,
+      "days": 31,
+      "daily": 208.03225806451613
+    },
+    {
+      "scope": "11",
+      "ym": "2025-06",
+      "n": 9966,
+      "days": 30,
+      "daily": 332.2
+    },
+    {
+      "scope": "11",
+      "ym": "2025-07",
+      "n": 3608,
+      "days": 31,
+      "daily": 116.38709677419355
+    },
+    {
+      "scope": "11",
+      "ym": "2025-08",
+      "n": 3703,
+      "days": 31,
+      "daily": 119.45161290322581
+    },
+    {
+      "scope": "11",
+      "ym": "2025-09",
+      "n": 8008,
+      "days": 30,
+      "daily": 266.93333333333334
+    },
+    {
+      "scope": "11",
+      "ym": "2025-10",
+      "n": 7829,
+      "days": 31,
+      "daily": 252.5483870967742
+    },
+    {
+      "scope": "11",
+      "ym": "2025-11",
+      "n": 3163,
+      "days": 30,
+      "daily": 105.43333333333334
+    },
+    {
+      "scope": "11",
+      "ym": "2025-12",
+      "n": 4331,
+      "days": 31,
+      "daily": 139.70967741935485
+    },
+    {
+      "scope": "11",
+      "ym": "2026-01",
+      "n": 5121,
+      "days": 31,
+      "daily": 165.19354838709677
+    },
+    {
+      "scope": "11",
+      "ym": "2026-02",
+      "n": 5479,
+      "days": 28,
+      "daily": 195.67857142857142
+    },
+    {
+      "scope": "11",
+      "ym": "2026-03",
+      "n": 5143,
+      "days": 31,
+      "daily": 165.90322580645162
+    },
+    {
+      "scope": "41",
+      "ym": "2025-01",
+      "n": 4760,
+      "days": 31,
+      "daily": 153.5483870967742
+    },
+    {
+      "scope": "41",
+      "ym": "2025-02",
+      "n": 7566,
+      "days": 28,
+      "daily": 270.2142857142857
+    },
+    {
+      "scope": "41",
+      "ym": "2025-03",
+      "n": 10545,
+      "days": 31,
+      "daily": 340.16129032258067
+    },
+    {
+      "scope": "41",
+      "ym": "2025-04",
+      "n": 8569,
+      "days": 30,
+      "daily": 285.6333333333333
+    },
+    {
+      "scope": "41",
+      "ym": "2025-05",
+      "n": 9945,
+      "days": 31,
+      "daily": 320.80645161290323
+    },
+    {
+      "scope": "41",
+      "ym": "2025-06",
+      "n": 13910,
+      "days": 30,
+      "daily": 463.6666666666667
+    },
+    {
+      "scope": "41",
+      "ym": "2025-07",
+      "n": 6646,
+      "days": 31,
+      "daily": 214.38709677419354
+    },
+    {
+      "scope": "41",
+      "ym": "2025-08",
+      "n": 6834,
+      "days": 31,
+      "daily": 220.4516129032258
+    },
+    {
+      "scope": "41",
+      "ym": "2025-09",
+      "n": 11163,
+      "days": 30,
+      "daily": 372.1
+    },
+    {
+      "scope": "41",
+      "ym": "2025-10",
+      "n": 12212,
+      "days": 31,
+      "daily": 393.93548387096774
+    },
+    {
+      "scope": "41",
+      "ym": "2025-11",
+      "n": 9483,
+      "days": 30,
+      "daily": 316.1
+    },
+    {
+      "scope": "41",
+      "ym": "2025-12",
+      "n": 9502,
+      "days": 31,
+      "daily": 306.51612903225805
+    },
+    {
+      "scope": "41",
+      "ym": "2026-01",
+      "n": 12032,
+      "days": 31,
+      "daily": 388.1290322580645
+    },
+    {
+      "scope": "41",
+      "ym": "2026-02",
+      "n": 10117,
+      "days": 28,
+      "daily": 361.32142857142856
+    },
+    {
+      "scope": "41",
+      "ym": "2026-03",
+      "n": 11948,
+      "days": 31,
+      "daily": 385.4193548387097
+    }
+  ],
+  "equal_windows": [
+    {
+      "scope": "11",
+      "year": 2024,
+      "width": 28,
+      "side": 0,
+      "start": "2024-05-31",
+      "end": "2024-06-27",
+      "days": 28,
+      "n": 6370,
+      "daily": 227.5
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "width": 28,
+      "side": 1,
+      "start": "2024-06-28",
+      "end": "2024-07-25",
+      "days": 28,
+      "n": 7701,
+      "daily": 275.0357142857143
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "width": 84,
+      "side": 0,
+      "start": "2024-04-05",
+      "end": "2024-06-27",
+      "days": 84,
+      "n": 14635,
+      "daily": 174.22619047619048
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "width": 84,
+      "side": 1,
+      "start": "2024-06-28",
+      "end": "2024-09-19",
+      "days": 84,
+      "n": 16928,
+      "daily": 201.52380952380952
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "width": 28,
+      "side": 0,
+      "start": "2025-05-31",
+      "end": "2025-06-27",
+      "days": 28,
+      "n": 9882,
+      "daily": 352.92857142857144
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "width": 28,
+      "side": 1,
+      "start": "2025-06-28",
+      "end": "2025-07-25",
+      "days": 28,
+      "n": 3607,
+      "daily": 128.82142857142858
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "width": 84,
+      "side": 0,
+      "start": "2025-04-05",
+      "end": "2025-06-27",
+      "days": 84,
+      "n": 19897,
+      "daily": 236.86904761904762
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "width": 84,
+      "side": 1,
+      "start": "2025-06-28",
+      "end": "2025-09-19",
+      "days": 84,
+      "n": 11842,
+      "daily": 140.97619047619048
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "width": 28,
+      "side": 0,
+      "start": "2024-05-31",
+      "end": "2024-06-27",
+      "days": 28,
+      "n": 9938,
+      "daily": 354.92857142857144
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "width": 28,
+      "side": 1,
+      "start": "2024-06-28",
+      "end": "2024-07-25",
+      "days": 28,
+      "n": 11502,
+      "daily": 410.7857142857143
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "width": 84,
+      "side": 0,
+      "start": "2024-04-05",
+      "end": "2024-06-27",
+      "days": 84,
+      "n": 24932,
+      "daily": 296.8095238095238
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "width": 84,
+      "side": 1,
+      "start": "2024-06-28",
+      "end": "2024-09-19",
+      "days": 84,
+      "n": 27532,
+      "daily": 327.76190476190476
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "width": 28,
+      "side": 0,
+      "start": "2025-05-31",
+      "end": "2025-06-27",
+      "days": 28,
+      "n": 13716,
+      "daily": 489.85714285714283
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "width": 28,
+      "side": 1,
+      "start": "2025-06-28",
+      "end": "2025-07-25",
+      "days": 28,
+      "n": 6368,
+      "daily": 227.42857142857142
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "width": 84,
+      "side": 0,
+      "start": "2025-04-05",
+      "end": "2025-06-27",
+      "days": 84,
+      "n": 30492,
+      "daily": 363.0
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "width": 84,
+      "side": 1,
+      "start": "2025-06-28",
+      "end": "2025-09-19",
+      "days": 84,
+      "n": 20571,
+      "daily": 244.89285714285714
+    }
+  ],
+  "sensitivity": [
+    {
+      "scope": "11",
+      "year": 2024,
+      "width": 28,
+      "before_daily": 227.5,
+      "after_daily": 275.0357142857143,
+      "change_percent": 20.894819466248027
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "width": 84,
+      "before_daily": 174.22619047619048,
+      "after_daily": 201.52380952380952,
+      "change_percent": 15.667919371369997
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "width": 28,
+      "before_daily": 352.92857142857144,
+      "after_daily": 128.82142857142858,
+      "change_percent": -63.49929164136814
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "width": 84,
+      "before_daily": 236.86904761904762,
+      "after_daily": 140.97619047619048,
+      "change_percent": -40.48348997336282
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "width": 28,
+      "before_daily": 354.92857142857144,
+      "after_daily": 410.7857142857143,
+      "change_percent": 15.73757295230429
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "width": 84,
+      "before_daily": 296.8095238095238,
+      "after_daily": 327.76190476190476,
+      "change_percent": 10.428365153216745
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "width": 28,
+      "before_daily": 489.85714285714283,
+      "after_daily": 227.42857142857142,
+      "change_percent": -53.57247010790318
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "width": 84,
+      "before_daily": 363.0,
+      "after_daily": 244.89285714285714,
+      "change_percent": -32.536402990948446
+    }
+  ],
+  "native": [
+    {
+      "scope": "11",
+      "period": 0,
+      "status": "suppressed",
+      "n": null
+    },
+    {
+      "scope": "11",
+      "period": 1,
+      "status": "suppressed",
+      "n": null
+    },
+    {
+      "scope": "11",
+      "period": 2,
+      "status": "suppressed",
+      "n": null
+    },
+    {
+      "scope": "11",
+      "period": 3,
+      "status": "suppressed",
+      "n": null
+    },
+    {
+      "scope": "41",
+      "period": 0,
+      "status": "suppressed",
+      "n": null
+    },
+    {
+      "scope": "41",
+      "period": 1,
+      "status": "suppressed",
+      "n": null
+    },
+    {
+      "scope": "41",
+      "period": 2,
+      "status": "suppressed",
+      "n": null
+    },
+    {
+      "scope": "41",
+      "period": 3,
+      "status": "suppressed",
+      "n": null
+    }
+  ],
+  "price_suppressed": [],
+  "regional_suppressed": []
+}
