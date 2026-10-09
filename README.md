@@ -10,7 +10,7 @@
 
 ## 구조와 미리보기
 
-- `index.html`, `topics/`, `series/`, `posts/`: 홈, 주제별 전체 글 목록, 세 시리즈와 열두 편의 글.
+- `index.html`, `topics/`, `series/`, `posts/`: 홈, 주제별 전체 글 목록, 주제별 시리즈와 게시물.
 - `privacy/`, `license/`, `404.html`: 개인정보 안내와 없는 주소의 복귀 화면.
 - `assets/`: 공통 스타일·광고/분석 스크립트, 그림, 공개 집계 JSON.
 - `ads.txt`, `robots.txt`, `sitemap.xml`, 아이콘: 광고·검색·브라우저 자산.
