@@ -1,0 +1,24 @@
+.deposit-calculator { margin: 32px 0; padding: 24px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.deposit-calculator fieldset { min-width: 0; border: 0; padding: 0; margin: 0 0 24px; }
+.deposit-calculator legend { font-size: 20px; font-weight: 700; color: var(--navy); margin-bottom: 12px; }
+.deposit-inputs { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.deposit-calculator label { display: block; font-weight: 700; }
+.deposit-calculator input { display: block; width: 100%; min-height: 48px; padding: 10px 12px; font: inherit; border: 1px solid var(--line); border-radius: 5px; color: var(--ink); background: var(--surface); }
+.deposit-calculator input:focus-visible, .deposit-calculator button:focus-visible { outline: 3px solid var(--teal); outline-offset: 3px; }
+.deposit-calculator input[aria-invalid="true"] { border-color: #a52822; }
+.deposit-calculator small { display: block; color: #a52822; font-size: 15px; }
+.deposit-errors { border-left: 4px solid #a52822; padding: 12px 16px; margin-bottom: 24px; }
+.deposit-errors a { display: block; }
+.deposit-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 24px 0; }
+.deposit-actions button { cursor: pointer; font-family: inherit; }
+.deposit-reset { min-height: 48px; padding: 10px 18px; border: 1px solid var(--navy); border-radius: 5px; color: var(--navy); background: var(--surface); font-size: 16px; }
+.deposit-result { border-top: 2px solid var(--teal); margin-top: 24px; padding-top: 20px; }
+.deposit-result dl { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; }
+.deposit-result dd { margin: 0; font-weight: 700; }
+.deposit-result:focus, .deposit-errors:focus { outline: 2px solid var(--teal); outline-offset: 4px; }
+@media(max-width: 600px) {
+  .deposit-calculator { padding: 18px; }
+  .deposit-inputs { grid-template-columns: 1fr; gap: 16px; }
+  .deposit-result dl { grid-template-columns: 1fr; gap: 2px; }
+  .deposit-result dd { margin-bottom: 14px; }
+}
