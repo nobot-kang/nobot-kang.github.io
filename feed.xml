@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-10T02:26:54+09:00</updated>
+  <updated>2026-10-10T03:21:35+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>신축 프리미엄, 연식별 아파트 가격표만으로 알 수 있을까?</title>
+    <id>https://nobot-kang.github.io/posts/apartment-age-price-comparison/</id>
+    <published>2026-10-10T03:21:35+09:00</published>
+    <updated>2026-10-10T03:21:35+09:00</updated>
+    <summary>노원·강서의 2026년 상반기 84㎡ 실거래를 연식별로 비교합니다. 신축 표본이 부족한 칸과 연식별 중앙값 차이, 비교 분모와 입지 혼입을 확인하고 소멸 연도를 단정할 수 없는 이유를 설명합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-age-price-comparison/" />
+    <category term="단지 조건 비교" />
+  </entry>
   <entry>
     <title>2026년 6월, 서울·경기 아파트는 과거 고점을 회복했을까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-peak-recovery/</id>
@@ -41,7 +50,7 @@
     <title>노원·강서 84㎡ 아파트, 같은 구에서도 동별 가격은 다를까?</title>
     <id>https://nobot-kang.github.io/posts/district-neighborhood-price-ranges/</id>
     <published>2026-10-10T00:40:11+09:00</published>
-    <updated>2026-10-10T00:40:48+09:00</updated>
+    <updated>2026-10-10T03:21:35+09:00</updated>
     <summary>2026년 상반기 전용84㎡ 이상85㎡ 미만 노원·강서 거래를 법정동별로 비교합니다. 중앙값과 가운데50% 구간, 표본 부족으로 비워 둔 가격을 함께 보고 단지 후보로 좁히는 기준을 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/district-neighborhood-price-ranges/" />
     <category term="수도권 가격 지도" />

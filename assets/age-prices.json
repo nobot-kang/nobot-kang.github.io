@@ -1,0 +1,158 @@
+{
+  "schema": "observed_age_prices_v1",
+  "period": [
+    "2026-01",
+    "2026-06"
+  ],
+  "area_selector": "84 <= exclusive area_m2 < 85; editorial selector",
+  "age_definition": "contract calendar year minus canonical construction-year proxy; not anniversary age",
+  "snapshot_built_date": "2026-10-04",
+  "reference_end": "2026-09",
+  "information_cutoff": null,
+  "source_url": "https://www.data.go.kr/data/15126468/openapi.do",
+  "amount_unit": "만원",
+  "selection": "Nowon/Gangseo inherited from first-home series; not selected by observed gaps",
+  "policy": "strict observed sale excluding land leasehold; contract-weighted linear quantiles",
+  "price_support_minimum": 40,
+  "complex_support_minimum": 2,
+  "count_support_minimum": 10,
+  "source_shards": 12,
+  "regions": [
+    {
+      "region": "11350",
+      "label": "노원구",
+      "total": 802,
+      "age_missing": 0,
+      "rows": [
+        {
+          "group": 0,
+          "label": "0–4년",
+          "n": 28,
+          "complex_count": "10개 미만",
+          "status": "insufficient",
+          "p25": null,
+          "median": null,
+          "p75": null,
+          "gap_manwon": null,
+          "gap_pct": null
+        },
+        {
+          "group": 1,
+          "label": "5–9년",
+          "n": 49,
+          "complex_count": "10개 미만",
+          "status": "supported",
+          "p25": 103000.0,
+          "median": 110000.0,
+          "p75": 120000.0,
+          "gap_manwon": 28500.0,
+          "gap_pct": 34.96932515337423
+        },
+        {
+          "group": 2,
+          "label": "10–19년",
+          "n": 41,
+          "complex_count": "10개 미만",
+          "status": "supported",
+          "p25": 83000.0,
+          "median": 89500.0,
+          "p75": 94500.0,
+          "gap_manwon": 8000.0,
+          "gap_pct": 9.81595092024541
+        },
+        {
+          "group": 3,
+          "label": "20–29년",
+          "n": 441,
+          "complex_count": "81",
+          "status": "supported",
+          "p25": 69000.0,
+          "median": 81500.0,
+          "p75": 91400.0,
+          "gap_manwon": 0.0,
+          "gap_pct": 0.0
+        },
+        {
+          "group": 4,
+          "label": "30년 이상",
+          "n": 243,
+          "complex_count": "47",
+          "status": "supported",
+          "p25": 65550.0,
+          "median": 83000.0,
+          "p75": 111500.0,
+          "gap_manwon": 1500.0,
+          "gap_pct": 1.8404907975460016
+        }
+      ]
+    },
+    {
+      "region": "11500",
+      "label": "강서구",
+      "total": null,
+      "age_missing": 0,
+      "rows": [
+        {
+          "group": 0,
+          "label": "0–4년",
+          "n": null,
+          "complex_count": "10개 미만",
+          "status": "insufficient",
+          "p25": null,
+          "median": null,
+          "p75": null,
+          "gap_manwon": null,
+          "gap_pct": null
+        },
+        {
+          "group": 1,
+          "label": "5–9년",
+          "n": null,
+          "complex_count": "10개 미만",
+          "status": "insufficient",
+          "p25": null,
+          "median": null,
+          "p75": null,
+          "gap_manwon": null,
+          "gap_pct": null
+        },
+        {
+          "group": 2,
+          "label": "10–19년",
+          "n": null,
+          "complex_count": "37",
+          "status": "supported",
+          "p25": 115125.0,
+          "median": 133000.0,
+          "p75": 153000.0,
+          "gap_manwon": 38000.0,
+          "gap_pct": 39.99999999999999
+        },
+        {
+          "group": 3,
+          "label": "20–29년",
+          "n": null,
+          "complex_count": "105",
+          "status": "supported",
+          "p25": 80000.0,
+          "median": 95000.0,
+          "p75": 112500.0,
+          "gap_manwon": 0.0,
+          "gap_pct": 0.0
+        },
+        {
+          "group": 4,
+          "label": "30년 이상",
+          "n": null,
+          "complex_count": "23",
+          "status": "supported",
+          "p25": 85000.0,
+          "median": 97000.0,
+          "p75": 112000.0,
+          "gap_manwon": 2000.0,
+          "gap_pct": 2.1052631578947434
+        }
+      ]
+    }
+  ]
+}
