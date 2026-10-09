@@ -1,0 +1,172 @@
+{
+  "schema": "observed_neighborhood_prices_v1",
+  "period": [
+    "2026-01",
+    "2026-06"
+  ],
+  "area_selector": "84 <= exclusive area_m2 < 85; editorial selector",
+  "snapshot_built_date": "2026-10-04",
+  "reference_end": "2026-09",
+  "information_cutoff": null,
+  "source_url": "https://www.data.go.kr/data/15126468/openapi.do",
+  "amount_unit": "만원",
+  "selection": "Nowon/Gangseo carried forward from first-home series; not selected by price gaps",
+  "policy": "strict observed sales excluding land leasehold; current master region + legal-dong; contract weighted linear quantiles",
+  "price_support_minimum": 40,
+  "count_support_minimum": 10,
+  "source_shards": 12,
+  "rows": [
+    {
+      "region": "11350",
+      "dong": "10200",
+      "n": 156,
+      "p25": 72950.0,
+      "median": 95500.0,
+      "p75": 107125.0,
+      "label": "월계동",
+      "status": "supported"
+    },
+    {
+      "region": "11350",
+      "dong": "10300",
+      "n": 157,
+      "p25": 70000.0,
+      "median": 80500.0,
+      "p75": 87000.0,
+      "label": "공릉동",
+      "status": "supported"
+    },
+    {
+      "region": "11350",
+      "dong": "10400",
+      "n": 108,
+      "p25": 86450.0,
+      "median": 89000.0,
+      "p75": 94000.0,
+      "label": "하계동",
+      "status": "supported"
+    },
+    {
+      "region": "11350",
+      "dong": "10500",
+      "n": 198,
+      "p25": 59625.0,
+      "median": 68000.0,
+      "p75": 87000.0,
+      "label": "상계동",
+      "status": "supported"
+    },
+    {
+      "region": "11350",
+      "dong": "10600",
+      "n": 183,
+      "p25": 70750.0,
+      "median": 87000.0,
+      "p75": 114000.0,
+      "label": "중계동",
+      "status": "supported"
+    },
+    {
+      "region": "11500",
+      "dong": "10100",
+      "n": 159,
+      "p25": 95000.0,
+      "median": 109800.0,
+      "p75": 118500.0,
+      "label": "염창동",
+      "status": "supported"
+    },
+    {
+      "region": "11500",
+      "dong": "10200",
+      "n": 81,
+      "p25": 86000.0,
+      "median": 95000.0,
+      "p75": 109500.0,
+      "label": "등촌동",
+      "status": "supported"
+    },
+    {
+      "region": "11500",
+      "dong": "10300",
+      "n": 97,
+      "p25": 94500.0,
+      "median": 118500.0,
+      "p75": 150000.0,
+      "label": "화곡동",
+      "status": "supported"
+    },
+    {
+      "region": "11500",
+      "dong": "10400",
+      "n": 48,
+      "p25": 105750.0,
+      "median": 119250.0,
+      "p75": 130000.0,
+      "label": "가양동",
+      "status": "supported"
+    },
+    {
+      "region": "11500",
+      "dong": "10500",
+      "n": 127,
+      "p25": 91750.0,
+      "median": 127000.0,
+      "p75": 167250.0,
+      "label": "마곡동",
+      "status": "supported"
+    },
+    {
+      "region": "11500",
+      "dong": "10600",
+      "n": 111,
+      "p25": 81000.0,
+      "median": 117800.0,
+      "p75": 134000.0,
+      "label": "내발산동",
+      "status": "supported"
+    },
+    {
+      "region": "11500",
+      "dong": "10800",
+      "n": 10,
+      "p25": null,
+      "median": null,
+      "p75": null,
+      "label": "공항동",
+      "status": "insufficient_price_support"
+    },
+    {
+      "region": "11500",
+      "dong": "10900",
+      "n": 93,
+      "p25": 72000.0,
+      "median": 78000.0,
+      "p75": 82500.0,
+      "label": "방화동",
+      "status": "supported"
+    }
+  ],
+  "totals": [
+    {
+      "region": "11350",
+      "n": 802,
+      "p25": 69000.0,
+      "median": 85000.0,
+      "p75": 98375.0,
+      "label": "노원구",
+      "excluded": 39,
+      "unmapped_dong": 0
+    },
+    {
+      "region": "11500",
+      "n": 726,
+      "p25": 85850.0,
+      "median": 104400.0,
+      "p75": 127500.0,
+      "label": "강서구",
+      "excluded": 58,
+      "unmapped_dong": 0
+    }
+  ]
+}
