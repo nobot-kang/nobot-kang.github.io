@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-09T19:09:23+09:00</updated>
+  <updated>2026-10-09T23:10:36+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>서울·경기 84㎡ 아파트 가격, 어디까지 겹칠까?</title>
+    <id>https://nobot-kang.github.io/posts/seoul-gyeonggi-price-overlap/</id>
+    <published>2026-10-09T23:10:36+09:00</published>
+    <updated>2026-10-09T23:10:36+09:00</updated>
+    <summary>2026년 상반기 전용84㎡ 이상85㎡ 미만 거래로 서울25구와 수집 경기36지역의 중앙값·가운데50% 구간을 비교합니다. 과천·광명·하남 사례와61지역 전체 표를 확인하세요.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-gyeonggi-price-overlap/" />
+    <category term="수도권 가격 지도" />
+  </entry>
   <entry>
     <title>갱신 전세는 신규보다 얼마나 쌀까? 서울 비교 표본의 한계</title>
     <id>https://nobot-kang.github.io/posts/seoul-renewal-jeonse-comparison/</id>
@@ -50,7 +59,7 @@
     <title>서울 아파트 6억·9억 예산, 거래된 집의 면적과 연식은?</title>
     <id>https://nobot-kang.github.io/posts/seoul-budget-home-profiles/</id>
     <published>2026-10-09T15:11:48+09:00</published>
-    <updated>2026-10-09T18:25:11+09:00</updated>
+    <updated>2026-10-09T23:10:36+09:00</updated>
     <summary>서울 2025년 7월~2026년 6월 거래를 가격대별로 비교합니다. 전용면적·연식의 중앙값과 분포, 분기 차이를 확인하고 과거 거래를 현재 매물로 오해하지 않는 기준을 정리합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-budget-home-profiles/" />
     <category term="서울 아파트" />
@@ -68,7 +77,7 @@
     <title>아파트 평당가 계산법: 전용면적·공급면적을 바꾸면 순위도 달라질까?</title>
     <id>https://nobot-kang.github.io/posts/exclusive-supply-area-price/</id>
     <published>2026-10-09T14:29:06+09:00</published>
-    <updated>2026-10-09T19:09:23+09:00</updated>
+    <updated>2026-10-09T23:10:36+09:00</updated>
     <summary>아파트 평당가를 전용·공급면적으로 계산하면 무엇이 달라질까요? 가상 두 집의 순위 반전, 84㎡ 평 환산, 실제 평형군 중앙값을 잘못 나누는 사례로 비교 기준을 설명합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/exclusive-supply-area-price/" />
     <category term="아파트 가격표 읽기" />
