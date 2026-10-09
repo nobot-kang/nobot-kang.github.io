@@ -55,7 +55,7 @@
     });
     const same = Math.abs(result.net) < 1e-9;
     document.getElementById('deposit-net').textContent = same ? '두 안의 계산상 비용이 같습니다.' :
-      `B안이 A안보다 월 ${format(Math.abs(result.net))}만원 ${result.net > 0 ? '적습니다' : '많습니다'}.`;
+      `B안이 A안보다 월 ${format(Math.abs(result.net))}만 원 ${result.net > 0 ? '적습니다' : '많습니다'}.`;
     document.getElementById('deposit-direction').textContent = result.saving <= 0 ?
       '보증금을 더 내지만 월세가 줄지 않는 조건입니다. 음수 전환율은 월세 절감이 없다는 산술 표시입니다.' :
       '계산된 전환율은 입력한 두 조건의 차이입니다. 시장 대표율·법정 상한·보장 수익률이 아닙니다.';

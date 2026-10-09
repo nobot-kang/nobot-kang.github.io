@@ -15,6 +15,7 @@
 - `assets/`: 공통 스타일·광고/분석 스크립트, 그림, 공개 집계 JSON.
 - `ads.txt`, `robots.txt`, `sitemap.xml`, 아이콘: 광고·검색·브라우저 자산.
 - `games.json`: 별도 저장소에서 운영하는 게임의 공개 목록. 홈 링크·사이트맵 검증에 함께 사용합니다.
+- `feed.xml`: 모든 글의 Atom 피드(발행일 역순). `llms.txt`: 답변 엔진·AI 도우미용 사이트 지도(llmstxt.org 형식). 둘 다 글 목록에서 자동 생성합니다.
 - `public-files.json`: 실제 Pages 배포 허용 목록.
 - `tools/check.py`, `.github/workflows/check.yml`: 링크·JSON·정책·HTML 검사와 배포.
 
