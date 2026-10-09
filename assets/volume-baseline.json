@@ -1,0 +1,3269 @@
+{
+  "schema": "volume_baseline_v1",
+  "period": [
+    "2026-01",
+    "2026-06"
+  ],
+  "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "primary_baseline": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "sensitivity_baseline": [
+    2023,
+    2024,
+    2025
+  ],
+  "five_year_baseline": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "snapshot_built_date": "2026-10-04",
+  "reference_end": "2026-09",
+  "information_cutoff": null,
+  "source_url": "https://www.data.go.kr/data/15126468/openapi.do",
+  "population": "all exclusive areas; current master regions; merged contract=one; known land leasehold excluded",
+  "strict": "canonical valid observations excluding cancellations and direct deals; compared only within 2022–2026",
+  "invariant": "canonical valid observations including cancellations and direct deals; not completed or brokered sales",
+  "month_zero": "January–June sum; ratio of sums, not mean of monthly ratios",
+  "macro_counts": [
+    {
+      "scope": "11",
+      "year": 2021,
+      "month": 0,
+      "invariant": 25979,
+      "strict": null
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "month": 1,
+      "invariant": 5781,
+      "strict": null
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "month": 2,
+      "invariant": 3858,
+      "strict": null
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "month": 3,
+      "invariant": 3815,
+      "strict": null
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "month": 4,
+      "invariant": 3688,
+      "strict": null
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "month": 5,
+      "invariant": 4942,
+      "strict": null
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "month": 6,
+      "invariant": 3895,
+      "strict": null
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "month": 0,
+      "invariant": 7986,
+      "strict": 6492
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "month": 1,
+      "invariant": 1113,
+      "strict": 860
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "month": 2,
+      "invariant": 844,
+      "strict": 705
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "month": 3,
+      "invariant": 1488,
+      "strict": 1202
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "month": 4,
+      "invariant": 1791,
+      "strict": 1555
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "month": 5,
+      "invariant": 1732,
+      "strict": 1324
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "month": 6,
+      "invariant": 1018,
+      "strict": 846
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "month": 0,
+      "invariant": 17280,
+      "strict": 15455
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "month": 1,
+      "invariant": 1454,
+      "strict": 1265
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "month": 2,
+      "invariant": 2505,
+      "strict": 2276
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "month": 3,
+      "invariant": 2903,
+      "strict": 2523
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "month": 4,
+      "invariant": 3212,
+      "strict": 2917
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "month": 5,
+      "invariant": 3409,
+      "strict": 3079
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "month": 6,
+      "invariant": 3797,
+      "strict": 3395
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "month": 0,
+      "invariant": 26897,
+      "strict": 24897
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "month": 1,
+      "invariant": 2618,
+      "strict": 2403
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "month": 2,
+      "invariant": 2647,
+      "strict": 2448
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "month": 3,
+      "invariant": 4329,
+      "strict": 3974
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "month": 4,
+      "invariant": 4507,
+      "strict": 4150
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "month": 5,
+      "invariant": 5168,
+      "strict": 4801
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "month": 6,
+      "invariant": 7628,
+      "strict": 7121
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "month": 0,
+      "invariant": 44001,
+      "strict": 38638
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "month": 1,
+      "invariant": 3383,
+      "strict": 3040
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "month": 2,
+      "invariant": 6433,
+      "strict": 5848
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "month": 3,
+      "invariant": 9916,
+      "strict": 8811
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "month": 4,
+      "invariant": 5283,
+      "strict": 4524
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "month": 5,
+      "invariant": 7525,
+      "strict": 6449
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "month": 6,
+      "invariant": 11461,
+      "strict": 9966
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "month": 0,
+      "invariant": 39580,
+      "strict": 37004
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "month": 1,
+      "invariant": 5402,
+      "strict": 5121
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "month": 2,
+      "invariant": 5810,
+      "strict": 5479
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "month": 3,
+      "invariant": 5540,
+      "strict": 5143
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "month": 4,
+      "invariant": 8724,
+      "strict": 8154
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "month": 5,
+      "invariant": 8782,
+      "strict": 8105
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "month": 6,
+      "invariant": 5322,
+      "strict": 5002
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "month": 0,
+      "invariant": 74685,
+      "strict": null
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "month": 1,
+      "invariant": 16388,
+      "strict": null
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "month": 2,
+      "invariant": 12392,
+      "strict": null
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "month": 3,
+      "invariant": 12418,
+      "strict": null
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "month": 4,
+      "invariant": 10251,
+      "strict": null
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "month": 5,
+      "invariant": 12392,
+      "strict": null
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "month": 6,
+      "invariant": 10844,
+      "strict": null
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "month": 0,
+      "invariant": 23235,
+      "strict": 20396
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "month": 1,
+      "invariant": 2747,
+      "strict": 2425
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "month": 2,
+      "invariant": 3038,
+      "strict": 2681
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "month": 3,
+      "invariant": 4607,
+      "strict": 4153
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "month": 4,
+      "invariant": 5081,
+      "strict": 4516
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "month": 5,
+      "invariant": 4604,
+      "strict": 3881
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "month": 6,
+      "invariant": 3158,
+      "strict": 2740
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "month": 0,
+      "invariant": 44051,
+      "strict": 39922
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "month": 1,
+      "invariant": 4066,
+      "strict": 3603
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "month": 2,
+      "invariant": 7362,
+      "strict": 6700
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "month": 3,
+      "invariant": 7816,
+      "strict": 7058
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "month": 4,
+      "invariant": 7807,
+      "strict": 7078
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "month": 5,
+      "invariant": 8520,
+      "strict": 7728
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "month": 6,
+      "invariant": 8480,
+      "strict": 7755
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "month": 0,
+      "invariant": 51655,
+      "strict": 46893
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "month": 1,
+      "invariant": 6630,
+      "strict": 5989
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "month": 2,
+      "invariant": 6417,
+      "strict": 5766
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "month": 3,
+      "invariant": 8845,
+      "strict": 8018
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "month": 4,
+      "invariant": 8615,
+      "strict": 7788
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "month": 5,
+      "invariant": 9387,
+      "strict": 8481
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "month": 6,
+      "invariant": 11761,
+      "strict": 10851
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "month": 0,
+      "invariant": 62815,
+      "strict": 55295
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "month": 1,
+      "invariant": 5423,
+      "strict": 4760
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "month": 2,
+      "invariant": 8560,
+      "strict": 7566
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "month": 3,
+      "invariant": 11927,
+      "strict": 10545
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "month": 4,
+      "invariant": 9806,
+      "strict": 8569
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "month": 5,
+      "invariant": 11344,
+      "strict": 9945
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "month": 6,
+      "invariant": 15755,
+      "strict": 13910
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "month": 0,
+      "invariant": 80853,
+      "strict": 74398
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "month": 1,
+      "invariant": 13007,
+      "strict": 12032
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "month": 2,
+      "invariant": 10935,
+      "strict": 10117
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "month": 3,
+      "invariant": 13090,
+      "strict": 11948
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "month": 4,
+      "invariant": 14172,
+      "strict": 12855
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "month": 5,
+      "invariant": 14765,
+      "strict": 13550
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "month": 6,
+      "invariant": 14884,
+      "strict": 13896
+    }
+  ],
+  "comparisons": [
+    {
+      "scope": "11",
+      "month": 0,
+      "current": 37004,
+      "baseline_mean": 21370.5,
+      "baseline_median": 20176.0,
+      "mean_ratio": 173.1545822512342,
+      "median_ratio": 183.406026962728,
+      "minimum": 6492,
+      "maximum": 38638,
+      "three_year_mean": 26330,
+      "three_year_ratio": 140.53930877326243,
+      "invariant_current": 39580,
+      "invariant_five_mean": 24428.6,
+      "invariant_five_ratio": 162.02320231204408,
+      "invariant_four_mean": 24041,
+      "invariant_four_ratio": 164.63541450022876
+    },
+    {
+      "scope": "11",
+      "month": 1,
+      "current": 5121,
+      "baseline_mean": 1892,
+      "baseline_median": 1834.0,
+      "mean_ratio": 270.6659619450317,
+      "median_ratio": 279.2257360959651,
+      "minimum": 860,
+      "maximum": 3040,
+      "three_year_mean": 2236,
+      "three_year_ratio": 229.02504472271914,
+      "invariant_current": 5402,
+      "invariant_five_mean": 2869.8,
+      "invariant_five_ratio": 188.2361140149139,
+      "invariant_four_mean": 2142,
+      "invariant_four_ratio": 252.19421101774043
+    },
+    {
+      "scope": "11",
+      "month": 2,
+      "current": 5479,
+      "baseline_mean": 2819.25,
+      "baseline_median": 2362.0,
+      "mean_ratio": 194.3424669681653,
+      "median_ratio": 231.9644369178662,
+      "minimum": 705,
+      "maximum": 5848,
+      "three_year_mean": 3524,
+      "three_year_ratio": 155.4767309875142,
+      "invariant_current": 5810,
+      "invariant_five_mean": 3257.4,
+      "invariant_five_ratio": 178.3631116841653,
+      "invariant_four_mean": 3107.25,
+      "invariant_four_ratio": 186.98205808995093
+    },
+    {
+      "scope": "11",
+      "month": 3,
+      "current": 5143,
+      "baseline_mean": 4127.5,
+      "baseline_median": 3248.5,
+      "mean_ratio": 124.60327074500303,
+      "median_ratio": 158.31922425734953,
+      "minimum": 1202,
+      "maximum": 8811,
+      "three_year_mean": 5102.666666666667,
+      "three_year_ratio": 100.79043637313822,
+      "invariant_current": 5540,
+      "invariant_five_mean": 4490.2,
+      "invariant_five_ratio": 123.37980490846734,
+      "invariant_four_mean": 4659,
+      "invariant_four_ratio": 118.90963726121485
+    },
+    {
+      "scope": "11",
+      "month": 4,
+      "current": 8154,
+      "baseline_mean": 3286.5,
+      "baseline_median": 3533.5,
+      "mean_ratio": 248.10588772250114,
+      "median_ratio": 230.76269987264752,
+      "minimum": 1555,
+      "maximum": 4524,
+      "three_year_mean": 3863.6666666666665,
+      "three_year_ratio": 211.04305064274007,
+      "invariant_current": 8724,
+      "invariant_five_mean": 3696.2,
+      "invariant_five_ratio": 236.0261890590336,
+      "invariant_four_mean": 3698.25,
+      "invariant_four_ratio": 235.8953559115798
+    },
+    {
+      "scope": "11",
+      "month": 5,
+      "current": 8105,
+      "baseline_mean": 3913.25,
+      "baseline_median": 3940.0,
+      "mean_ratio": 207.11684661087332,
+      "median_ratio": 205.71065989847716,
+      "minimum": 1324,
+      "maximum": 6449,
+      "three_year_mean": 4776.333333333333,
+      "three_year_ratio": 169.69083676460326,
+      "invariant_current": 8782,
+      "invariant_five_mean": 4555.2,
+      "invariant_five_ratio": 192.79065683175273,
+      "invariant_four_mean": 4458.5,
+      "invariant_four_ratio": 196.9720758102501
+    },
+    {
+      "scope": "11",
+      "month": 6,
+      "current": 5002,
+      "baseline_mean": 5332,
+      "baseline_median": 5258.0,
+      "mean_ratio": 93.81095273818454,
+      "median_ratio": 95.13122860403195,
+      "minimum": 846,
+      "maximum": 9966,
+      "three_year_mean": 6827.333333333333,
+      "three_year_ratio": 73.26432965530711,
+      "invariant_current": 5322,
+      "invariant_five_mean": 5559.8,
+      "invariant_five_ratio": 95.722867729055,
+      "invariant_four_mean": 5976,
+      "invariant_four_ratio": 89.05622489959839
+    },
+    {
+      "scope": "41",
+      "month": 0,
+      "current": 74398,
+      "baseline_mean": 40626.5,
+      "baseline_median": 43407.5,
+      "mean_ratio": 183.12677685746988,
+      "median_ratio": 171.39434429534066,
+      "minimum": 20396,
+      "maximum": 55295,
+      "three_year_mean": 47370,
+      "three_year_ratio": 157.05720920413765,
+      "invariant_current": 80853,
+      "invariant_five_mean": 51288.2,
+      "invariant_five_ratio": 157.6444484306332,
+      "invariant_four_mean": 45439,
+      "invariant_four_ratio": 177.93745460947645
+    },
+    {
+      "scope": "41",
+      "month": 1,
+      "current": 12032,
+      "baseline_mean": 4194.25,
+      "baseline_median": 4181.5,
+      "mean_ratio": 286.86892769863505,
+      "median_ratio": 287.74363266770297,
+      "minimum": 2425,
+      "maximum": 5989,
+      "three_year_mean": 4784,
+      "three_year_ratio": 251.50501672240802,
+      "invariant_current": 13007,
+      "invariant_five_mean": 7050.8,
+      "invariant_five_ratio": 184.47552050831112,
+      "invariant_four_mean": 4716.5,
+      "invariant_four_ratio": 275.776529205979
+    },
+    {
+      "scope": "41",
+      "month": 2,
+      "current": 10117,
+      "baseline_mean": 5678.25,
+      "baseline_median": 6233.0,
+      "mean_ratio": 178.17109144542772,
+      "median_ratio": 162.3134927001444,
+      "minimum": 2681,
+      "maximum": 7566,
+      "three_year_mean": 6677.333333333333,
+      "three_year_ratio": 151.51257987220447,
+      "invariant_current": 10935,
+      "invariant_five_mean": 7553.8,
+      "invariant_five_ratio": 144.76157695464534,
+      "invariant_four_mean": 6344.25,
+      "invariant_four_ratio": 172.36079914883555
+    },
+    {
+      "scope": "41",
+      "month": 3,
+      "current": 11948,
+      "baseline_mean": 7443.5,
+      "baseline_median": 7538.0,
+      "mean_ratio": 160.51588634378987,
+      "median_ratio": 158.50358185195012,
+      "minimum": 4153,
+      "maximum": 10545,
+      "three_year_mean": 8540.333333333334,
+      "three_year_ratio": 139.90086257367003,
+      "invariant_current": 13090,
+      "invariant_five_mean": 9122.6,
+      "invariant_five_ratio": 143.48979457610767,
+      "invariant_four_mean": 8298.75,
+      "invariant_four_ratio": 157.73459858412411
+    },
+    {
+      "scope": "41",
+      "month": 4,
+      "current": 12855,
+      "baseline_mean": 6987.75,
+      "baseline_median": 7433.0,
+      "mean_ratio": 183.96479553504346,
+      "median_ratio": 172.94497511099152,
+      "minimum": 4516,
+      "maximum": 8569,
+      "three_year_mean": 7811.666666666667,
+      "three_year_ratio": 164.56155323234478,
+      "invariant_current": 14172,
+      "invariant_five_mean": 8312,
+      "invariant_five_ratio": 170.5004812319538,
+      "invariant_four_mean": 7827.25,
+      "invariant_four_ratio": 181.05975917467822
+    },
+    {
+      "scope": "41",
+      "month": 5,
+      "current": 13550,
+      "baseline_mean": 7508.75,
+      "baseline_median": 8104.5,
+      "mean_ratio": 180.45613450973863,
+      "median_ratio": 167.1910666913443,
+      "minimum": 3881,
+      "maximum": 9945,
+      "three_year_mean": 8718,
+      "three_year_ratio": 155.42555632025693,
+      "invariant_current": 14765,
+      "invariant_five_mean": 9249.4,
+      "invariant_five_ratio": 159.6319761281813,
+      "invariant_four_mean": 8463.75,
+      "invariant_four_ratio": 174.44985969576135
+    },
+    {
+      "scope": "41",
+      "month": 6,
+      "current": 13896,
+      "baseline_mean": 8814,
+      "baseline_median": 9303.0,
+      "mean_ratio": 157.65827093260722,
+      "median_ratio": 149.3711705901322,
+      "minimum": 2740,
+      "maximum": 13910,
+      "three_year_mean": 10838.666666666666,
+      "three_year_ratio": 128.20765161766516,
+      "invariant_current": 14884,
+      "invariant_five_mean": 9999.6,
+      "invariant_five_ratio": 148.84595383815352,
+      "invariant_four_mean": 9788.5,
+      "invariant_four_ratio": 152.055984062931
+    }
+  ],
+  "districts": [
+    {
+      "region": "11110",
+      "label": "종로구",
+      "status": "supported",
+      "current": 308,
+      "baseline_mean": 178.75,
+      "baseline_median": 158.5,
+      "mean_ratio": 172.30769230769232,
+      "median_ratio": 194.3217665615142,
+      "minimum": 89,
+      "maximum": 309,
+      "three_year_mean": 208.66666666666666,
+      "three_year_ratio": 147.6038338658147
+    },
+    {
+      "region": "11140",
+      "label": "중구",
+      "status": "supported",
+      "current": 496,
+      "baseline_mean": 326.25,
+      "baseline_median": 279.5,
+      "mean_ratio": 152.03065134099617,
+      "median_ratio": 177.45974955277282,
+      "minimum": 112,
+      "maximum": 634,
+      "three_year_mean": 397.6666666666667,
+      "three_year_ratio": 124.72757753562448
+    },
+    {
+      "region": "11170",
+      "label": "용산구",
+      "status": "supported",
+      "current": 584,
+      "baseline_mean": 379.75,
+      "baseline_median": 349.0,
+      "mean_ratio": 153.78538512179065,
+      "median_ratio": 167.3352435530086,
+      "minimum": 149,
+      "maximum": 672,
+      "three_year_mean": 456.6666666666667,
+      "three_year_ratio": 127.88321167883211
+    },
+    {
+      "region": "11200",
+      "label": "성동구",
+      "status": "supported",
+      "current": 874,
+      "baseline_mean": 1154,
+      "baseline_median": 1001.5,
+      "mean_ratio": 75.736568457539,
+      "median_ratio": 87.2690963554668,
+      "minimum": 235,
+      "maximum": 2378,
+      "three_year_mean": 1460.3333333333333,
+      "three_year_ratio": 59.84934946359279
+    },
+    {
+      "region": "11215",
+      "label": "광진구",
+      "status": "supported",
+      "current": 483,
+      "baseline_mean": 525,
+      "baseline_median": 437.0,
+      "mean_ratio": 92.0,
+      "median_ratio": 110.52631578947368,
+      "minimum": 135,
+      "maximum": 1091,
+      "three_year_mean": 655,
+      "three_year_ratio": 73.74045801526718
+    },
+    {
+      "region": "11230",
+      "label": "동대문구",
+      "status": "supported",
+      "current": 1595,
+      "baseline_mean": 906,
+      "baseline_median": 860.5,
+      "mean_ratio": 176.0485651214128,
+      "median_ratio": 185.3573503776874,
+      "minimum": 287,
+      "maximum": 1616,
+      "three_year_mean": 1112.3333333333333,
+      "three_year_ratio": 143.3922685046449
+    },
+    {
+      "region": "11260",
+      "label": "중랑구",
+      "status": "supported",
+      "current": 1431,
+      "baseline_mean": 522.25,
+      "baseline_median": 525.5,
+      "mean_ratio": 274.0067017711824,
+      "median_ratio": 272.31208372978114,
+      "minimum": 225,
+      "maximum": 813,
+      "three_year_mean": 621.3333333333334,
+      "three_year_ratio": 230.31115879828326
+    },
+    {
+      "region": "11290",
+      "label": "성북구",
+      "status": "supported",
+      "current": 2303,
+      "baseline_mean": 1077.25,
+      "baseline_median": 1070.5,
+      "mean_ratio": 213.78510095149687,
+      "median_ratio": 215.1331153666511,
+      "minimum": 257,
+      "maximum": 1911,
+      "three_year_mean": 1350.6666666666667,
+      "three_year_ratio": 170.50839091806515
+    },
+    {
+      "region": "11305",
+      "label": "강북구",
+      "status": "supported",
+      "current": 896,
+      "baseline_mean": 323.25,
+      "baseline_median": 326.5,
+      "mean_ratio": 277.184841453983,
+      "median_ratio": 274.4257274119449,
+      "minimum": 108,
+      "maximum": 532,
+      "three_year_mean": 395,
+      "three_year_ratio": 226.83544303797467
+    },
+    {
+      "region": "11320",
+      "label": "도봉구",
+      "status": "supported",
+      "current": 1520,
+      "baseline_mean": 562.5,
+      "baseline_median": 589.5,
+      "mean_ratio": 270.22222222222223,
+      "median_ratio": 257.8456318914334,
+      "minimum": 226,
+      "maximum": 845,
+      "three_year_mean": 674.6666666666666,
+      "three_year_ratio": 225.29644268774706
+    },
+    {
+      "region": "11350",
+      "label": "노원구",
+      "status": "supported",
+      "current": 4405,
+      "baseline_mean": 1473.25,
+      "baseline_median": 1394.5,
+      "mean_ratio": 298.99881215000846,
+      "median_ratio": 315.8838293295088,
+      "minimum": 538,
+      "maximum": 2566,
+      "three_year_mean": 1785,
+      "three_year_ratio": 246.77871148459383
+    },
+    {
+      "region": "11380",
+      "label": "은평구",
+      "status": "supported",
+      "current": 1761,
+      "baseline_mean": 728.25,
+      "baseline_median": 761.0,
+      "mean_ratio": 241.81256436663233,
+      "median_ratio": 231.4060446780552,
+      "minimum": 272,
+      "maximum": 1119,
+      "three_year_mean": 880.3333333333334,
+      "three_year_ratio": 200.03786444528586
+    },
+    {
+      "region": "11410",
+      "label": "서대문구",
+      "status": "supported",
+      "current": 1465,
+      "baseline_mean": 797.75,
+      "baseline_median": 750.5,
+      "mean_ratio": 183.64149169539328,
+      "median_ratio": 195.20319786808795,
+      "minimum": 221,
+      "maximum": 1469,
+      "three_year_mean": 990,
+      "three_year_ratio": 147.97979797979798
+    },
+    {
+      "region": "11440",
+      "label": "마포구",
+      "status": "supported",
+      "current": 1035,
+      "baseline_mean": 1118.25,
+      "baseline_median": 980.0,
+      "mean_ratio": 92.5553319919517,
+      "median_ratio": 105.61224489795919,
+      "minimum": 267,
+      "maximum": 2246,
+      "three_year_mean": 1402,
+      "three_year_ratio": 73.82310984308131
+    },
+    {
+      "region": "11470",
+      "label": "양천구",
+      "status": "supported",
+      "current": 1372,
+      "baseline_mean": 916.75,
+      "baseline_median": 834.0,
+      "mean_ratio": 149.65912189800926,
+      "median_ratio": 164.5083932853717,
+      "minimum": 257,
+      "maximum": 1742,
+      "three_year_mean": 1136.6666666666667,
+      "three_year_ratio": 120.70381231671553
+    },
+    {
+      "region": "11500",
+      "label": "강서구",
+      "status": "supported",
+      "current": 2474,
+      "baseline_mean": 1094.5,
+      "baseline_median": 1030.5,
+      "mean_ratio": 226.03928734582001,
+      "median_ratio": 240.07763221737022,
+      "minimum": 380,
+      "maximum": 1937,
+      "three_year_mean": 1332.6666666666667,
+      "three_year_ratio": 185.64282141070535
+    },
+    {
+      "region": "11530",
+      "label": "구로구",
+      "status": "supported",
+      "current": 2203,
+      "baseline_mean": 891.5,
+      "baseline_median": 833.0,
+      "mean_ratio": 247.11160964666294,
+      "median_ratio": 264.4657863145258,
+      "minimum": 373,
+      "maximum": 1527,
+      "three_year_mean": 1064.3333333333333,
+      "three_year_ratio": 206.98402756028815
+    },
+    {
+      "region": "11545",
+      "label": "금천구",
+      "status": "supported",
+      "current": 709,
+      "baseline_mean": 270.25,
+      "baseline_median": 276.0,
+      "mean_ratio": 262.3496762257169,
+      "median_ratio": 256.8840579710145,
+      "minimum": 137,
+      "maximum": 392,
+      "three_year_mean": 314.6666666666667,
+      "three_year_ratio": 225.31779661016947
+    },
+    {
+      "region": "11560",
+      "label": "영등포구",
+      "status": "supported",
+      "current": 1706,
+      "baseline_mean": 1139.75,
+      "baseline_median": 1012.0,
+      "mean_ratio": 149.68194779556922,
+      "median_ratio": 168.57707509881422,
+      "minimum": 311,
+      "maximum": 2224,
+      "three_year_mean": 1416,
+      "three_year_ratio": 120.48022598870057
+    },
+    {
+      "region": "11590",
+      "label": "동작구",
+      "status": "supported",
+      "current": 1320,
+      "baseline_mean": 1034.75,
+      "baseline_median": 816.5,
+      "mean_ratio": 127.56704517999516,
+      "median_ratio": 161.66564605021432,
+      "minimum": 281,
+      "maximum": 2225,
+      "three_year_mean": 1286,
+      "three_year_ratio": 102.64385692068429
+    },
+    {
+      "region": "11620",
+      "label": "관악구",
+      "status": "supported",
+      "current": 1257,
+      "baseline_mean": 575.25,
+      "baseline_median": 516.5,
+      "mean_ratio": 218.51368970013039,
+      "median_ratio": 243.36882865440464,
+      "minimum": 248,
+      "maximum": 1020,
+      "three_year_mean": 684.3333333333334,
+      "three_year_ratio": 183.68241597661958
+    },
+    {
+      "region": "11650",
+      "label": "서초구",
+      "status": "supported",
+      "current": 1211,
+      "baseline_mean": 1038,
+      "baseline_median": 1014.5,
+      "mean_ratio": 116.66666666666667,
+      "median_ratio": 119.36914736323313,
+      "minimum": 372,
+      "maximum": 1751,
+      "three_year_mean": 1260,
+      "three_year_ratio": 96.11111111111111
+    },
+    {
+      "region": "11680",
+      "label": "강남구",
+      "status": "supported",
+      "current": 1472,
+      "baseline_mean": 1332.75,
+      "baseline_median": 1320.5,
+      "mean_ratio": 110.44832114049896,
+      "median_ratio": 111.4729269216206,
+      "minimum": 430,
+      "maximum": 2260,
+      "three_year_mean": 1633.6666666666667,
+      "three_year_ratio": 90.10406039583758
+    },
+    {
+      "region": "11710",
+      "label": "송파구",
+      "status": "supported",
+      "current": 2236,
+      "baseline_mean": 1664.25,
+      "baseline_median": 1732.5,
+      "mean_ratio": 134.35481448099745,
+      "median_ratio": 129.06204906204906,
+      "minimum": 327,
+      "maximum": 2865,
+      "three_year_mean": 2110,
+      "three_year_ratio": 105.97156398104265
+    },
+    {
+      "region": "11740",
+      "label": "강동구",
+      "status": "supported",
+      "current": 1888,
+      "baseline_mean": 1340.25,
+      "baseline_median": 1306.0,
+      "mean_ratio": 140.8692408132811,
+      "median_ratio": 144.5635528330781,
+      "minimum": 255,
+      "maximum": 2494,
+      "three_year_mean": 1702,
+      "three_year_ratio": 110.9283196239718
+    },
+    {
+      "region": "41111",
+      "label": "수원시 장안구",
+      "status": "supported",
+      "current": 1611,
+      "baseline_mean": 749.5,
+      "baseline_median": 774.0,
+      "mean_ratio": 214.94329553035357,
+      "median_ratio": 208.13953488372093,
+      "minimum": 286,
+      "maximum": 1164,
+      "three_year_mean": 904,
+      "three_year_ratio": 178.2079646017699
+    },
+    {
+      "region": "41113",
+      "label": "수원시 권선구",
+      "status": "supported",
+      "current": 2569,
+      "baseline_mean": 1236.25,
+      "baseline_median": 1388.0,
+      "mean_ratio": 207.80586450960567,
+      "median_ratio": 185.0864553314121,
+      "minimum": 583,
+      "maximum": 1586,
+      "three_year_mean": 1454,
+      "three_year_ratio": 176.6850068775791
+    },
+    {
+      "region": "41115",
+      "label": "수원시 팔달구",
+      "status": "supported",
+      "current": 1453,
+      "baseline_mean": 504,
+      "baseline_median": 504.5,
+      "mean_ratio": 288.2936507936508,
+      "median_ratio": 288.00792864222,
+      "minimum": 174,
+      "maximum": 833,
+      "three_year_mean": 614,
+      "three_year_ratio": 236.64495114006516
+    },
+    {
+      "region": "41117",
+      "label": "수원시 영통구",
+      "status": "supported",
+      "current": 3336,
+      "baseline_mean": 2011.75,
+      "baseline_median": 2363.5,
+      "mean_ratio": 165.82577358021624,
+      "median_ratio": 141.14660461180452,
+      "minimum": 758,
+      "maximum": 2562,
+      "three_year_mean": 2429.6666666666665,
+      "three_year_ratio": 137.30278501852106
+    },
+    {
+      "region": "41131",
+      "label": "성남시 수정구",
+      "status": "supported",
+      "current": 707,
+      "baseline_mean": 435.25,
+      "baseline_median": 483.0,
+      "mean_ratio": 162.43538196438828,
+      "median_ratio": 146.3768115942029,
+      "minimum": 94,
+      "maximum": 681,
+      "three_year_mean": 549,
+      "three_year_ratio": 128.77959927140256
+    },
+    {
+      "region": "41133",
+      "label": "성남시 중원구",
+      "status": "supported",
+      "current": 978,
+      "baseline_mean": 421.75,
+      "baseline_median": 385.5,
+      "mean_ratio": 231.89093064611737,
+      "median_ratio": 253.69649805447472,
+      "minimum": 125,
+      "maximum": 791,
+      "three_year_mean": 520.6666666666666,
+      "three_year_ratio": 187.83610755441742
+    },
+    {
+      "region": "41135",
+      "label": "성남시 분당구",
+      "status": "supported",
+      "current": 2239,
+      "baseline_mean": 2039,
+      "baseline_median": 1968.0,
+      "mean_ratio": 109.80872976949485,
+      "median_ratio": 113.77032520325203,
+      "minimum": 807,
+      "maximum": 3413,
+      "three_year_mean": 2449.6666666666665,
+      "three_year_ratio": 91.40019050210914
+    },
+    {
+      "region": "41150",
+      "label": "의정부시",
+      "status": "supported",
+      "current": 2683,
+      "baseline_mean": 1649.75,
+      "baseline_median": 1763.0,
+      "mean_ratio": 162.6307016214578,
+      "median_ratio": 152.18377765173,
+      "minimum": 853,
+      "maximum": 2220,
+      "three_year_mean": 1915.3333333333333,
+      "three_year_ratio": 140.08005569091543
+    },
+    {
+      "region": "41171",
+      "label": "안양시 만안구",
+      "status": "supported",
+      "current": 1604,
+      "baseline_mean": 586,
+      "baseline_median": 566.5,
+      "mean_ratio": 273.7201365187713,
+      "median_ratio": 283.14210061782876,
+      "minimum": 286,
+      "maximum": 925,
+      "three_year_mean": 686,
+      "three_year_ratio": 233.8192419825073
+    },
+    {
+      "region": "41173",
+      "label": "안양시 동안구",
+      "status": "supported",
+      "current": 3033,
+      "baseline_mean": 1496.75,
+      "baseline_median": 1458.5,
+      "mean_ratio": 202.6390512777685,
+      "median_ratio": 207.95337675694208,
+      "minimum": 409,
+      "maximum": 2661,
+      "three_year_mean": 1859.3333333333333,
+      "three_year_ratio": 163.12298314808174
+    },
+    {
+      "region": "41192",
+      "label": "부천시 원미구",
+      "status": "supported",
+      "current": 2208,
+      "baseline_mean": 1102,
+      "baseline_median": 1197.0,
+      "mean_ratio": 200.36297640653356,
+      "median_ratio": 184.4611528822055,
+      "minimum": 601,
+      "maximum": 1413,
+      "three_year_mean": 1269,
+      "three_year_ratio": 173.9952718676123
+    },
+    {
+      "region": "41194",
+      "label": "부천시 소사구",
+      "status": "supported",
+      "current": 1169,
+      "baseline_mean": 625,
+      "baseline_median": 690.5,
+      "mean_ratio": 187.04,
+      "median_ratio": 169.29761042722666,
+      "minimum": 391,
+      "maximum": 728,
+      "three_year_mean": 703,
+      "three_year_ratio": 166.2873399715505
+    },
+    {
+      "region": "41196",
+      "label": "부천시 오정구",
+      "status": "supported",
+      "current": 283,
+      "baseline_mean": 210.25,
+      "baseline_median": 219.5,
+      "mean_ratio": 134.60166468489894,
+      "median_ratio": 128.92938496583145,
+      "minimum": 164,
+      "maximum": 238,
+      "three_year_mean": 208,
+      "three_year_ratio": 136.05769230769232
+    },
+    {
+      "region": "41210",
+      "label": "광명시",
+      "status": "supported",
+      "current": 1972,
+      "baseline_mean": 1039.25,
+      "baseline_median": 1053.5,
+      "mean_ratio": 189.7522251623767,
+      "median_ratio": 187.18557190317986,
+      "minimum": 253,
+      "maximum": 1797,
+      "three_year_mean": 1301.3333333333333,
+      "three_year_ratio": 151.53688524590166
+    },
+    {
+      "region": "41220",
+      "label": "평택시",
+      "status": "supported",
+      "current": 3653,
+      "baseline_mean": 2859.75,
+      "baseline_median": 2865.0,
+      "mean_ratio": 127.73843867470933,
+      "median_ratio": 127.5043630017452,
+      "minimum": 2661,
+      "maximum": 3048,
+      "three_year_mean": 2862.6666666666665,
+      "three_year_ratio": 127.60829063809967
+    },
+    {
+      "region": "41271",
+      "label": "안산시 상록구",
+      "status": "supported",
+      "current": 880,
+      "baseline_mean": 618,
+      "baseline_median": 645.0,
+      "mean_ratio": 142.39482200647248,
+      "median_ratio": 136.43410852713177,
+      "minimum": 402,
+      "maximum": 780,
+      "three_year_mean": 690,
+      "three_year_ratio": 127.53623188405797
+    },
+    {
+      "region": "41273",
+      "label": "안산시 단원구",
+      "status": "supported",
+      "current": 1435,
+      "baseline_mean": 1066,
+      "baseline_median": 1194.0,
+      "mean_ratio": 134.6153846153846,
+      "median_ratio": 120.18425460636516,
+      "minimum": 591,
+      "maximum": 1285,
+      "three_year_mean": 1224.3333333333333,
+      "three_year_ratio": 117.20664307105909
+    },
+    {
+      "region": "41281",
+      "label": "고양시 덕양구",
+      "status": "supported",
+      "current": 2647,
+      "baseline_mean": 1469.75,
+      "baseline_median": 1619.5,
+      "mean_ratio": 180.0986562340534,
+      "median_ratio": 163.44550787280025,
+      "minimum": 670,
+      "maximum": 1970,
+      "three_year_mean": 1736.3333333333333,
+      "three_year_ratio": 152.4476866961029
+    },
+    {
+      "region": "41285",
+      "label": "고양시 일산동구",
+      "status": "supported",
+      "current": 1070,
+      "baseline_mean": 801.25,
+      "baseline_median": 833.0,
+      "mean_ratio": 133.54134165366614,
+      "median_ratio": 128.45138055222088,
+      "minimum": 617,
+      "maximum": 922,
+      "three_year_mean": 862.6666666666666,
+      "three_year_ratio": 124.03400309119012
+    },
+    {
+      "region": "41287",
+      "label": "고양시 일산서구",
+      "status": "supported",
+      "current": 1460,
+      "baseline_mean": 1163.5,
+      "baseline_median": 1143.5,
+      "mean_ratio": 125.48345509239364,
+      "median_ratio": 127.67818102317446,
+      "minimum": 988,
+      "maximum": 1379,
+      "three_year_mean": 1222,
+      "three_year_ratio": 119.47626841243863
+    },
+    {
+      "region": "41290",
+      "label": "과천시",
+      "status": "supported",
+      "current": 155,
+      "baseline_mean": 325.25,
+      "baseline_median": 354.0,
+      "mean_ratio": 47.65564950038432,
+      "median_ratio": 43.78531073446328,
+      "minimum": 43,
+      "maximum": 550,
+      "three_year_mean": 419.3333333333333,
+      "three_year_ratio": 36.96343402225755
+    },
+    {
+      "region": "41310",
+      "label": "구리시",
+      "status": "supported",
+      "current": 2323,
+      "baseline_mean": 483.75,
+      "baseline_median": 479.0,
+      "mean_ratio": 480.20671834625324,
+      "median_ratio": 484.96868475991647,
+      "minimum": 181,
+      "maximum": 796,
+      "three_year_mean": 584.6666666666666,
+      "three_year_ratio": 397.3204104903079
+    },
+    {
+      "region": "41360",
+      "label": "남양주시",
+      "status": "supported",
+      "current": 4623,
+      "baseline_mean": 2260.75,
+      "baseline_median": 2421.5,
+      "mean_ratio": 204.4896605108924,
+      "median_ratio": 190.91472227957877,
+      "minimum": 1118,
+      "maximum": 3082,
+      "three_year_mean": 2641.6666666666665,
+      "three_year_ratio": 175.0031545741325
+    },
+    {
+      "region": "41410",
+      "label": "군포시",
+      "status": "supported",
+      "current": 2258,
+      "baseline_mean": 964.75,
+      "baseline_median": 1052.5,
+      "mean_ratio": 234.05027209121533,
+      "median_ratio": 214.53681710213777,
+      "minimum": 523,
+      "maximum": 1231,
+      "three_year_mean": 1112,
+      "three_year_ratio": 203.05755395683454
+    },
+    {
+      "region": "41430",
+      "label": "의왕시",
+      "status": "supported",
+      "current": 1194,
+      "baseline_mean": 559.75,
+      "baseline_median": 539.0,
+      "mean_ratio": 213.30951317552478,
+      "median_ratio": 221.5213358070501,
+      "minimum": 160,
+      "maximum": 1001,
+      "three_year_mean": 693,
+      "three_year_ratio": 172.2943722943723
+    },
+    {
+      "region": "41450",
+      "label": "하남시",
+      "status": "supported",
+      "current": 1683,
+      "baseline_mean": 1260.5,
+      "baseline_median": 1369.5,
+      "mean_ratio": 133.51844506148353,
+      "median_ratio": 122.89156626506023,
+      "minimum": 383,
+      "maximum": 1920,
+      "three_year_mean": 1553,
+      "three_year_ratio": 108.37089504185448
+    },
+    {
+      "region": "41461",
+      "label": "용인시 처인구",
+      "status": "supported",
+      "current": 1235,
+      "baseline_mean": 741.75,
+      "baseline_median": 771.0,
+      "mean_ratio": 166.49814627569936,
+      "median_ratio": 160.1815823605707,
+      "minimum": 539,
+      "maximum": 886,
+      "three_year_mean": 809.3333333333334,
+      "three_year_ratio": 152.59472817133442
+    },
+    {
+      "region": "41463",
+      "label": "용인시 기흥구",
+      "status": "supported",
+      "current": 4707,
+      "baseline_mean": 1642.25,
+      "baseline_median": 1830.5,
+      "mean_ratio": 286.6189678794337,
+      "median_ratio": 257.14285714285717,
+      "minimum": 635,
+      "maximum": 2273,
+      "three_year_mean": 1978,
+      "three_year_ratio": 237.96764408493428
+    },
+    {
+      "region": "41465",
+      "label": "용인시 수지구",
+      "status": "supported",
+      "current": 3475,
+      "baseline_mean": 2136,
+      "baseline_median": 2122.5,
+      "mean_ratio": 162.68726591760299,
+      "median_ratio": 163.72202591283863,
+      "minimum": 614,
+      "maximum": 3685,
+      "three_year_mean": 2643.3333333333335,
+      "three_year_ratio": 131.46279949558638
+    },
+    {
+      "region": "41480",
+      "label": "파주시",
+      "status": "supported",
+      "current": 2132,
+      "baseline_mean": 1628.25,
+      "baseline_median": 1706.5,
+      "mean_ratio": 130.93812375249502,
+      "median_ratio": 124.93407559331966,
+      "minimum": 1212,
+      "maximum": 1888,
+      "three_year_mean": 1767,
+      "three_year_ratio": 120.65647990945105
+    },
+    {
+      "region": "41570",
+      "label": "김포시",
+      "status": "supported",
+      "current": 2394,
+      "baseline_mean": 1911.25,
+      "baseline_median": 2074.5,
+      "mean_ratio": 125.25833878351864,
+      "median_ratio": 115.40130151843817,
+      "minimum": 1029,
+      "maximum": 2467,
+      "three_year_mean": 2205.3333333333335,
+      "three_year_ratio": 108.55501813784764
+    },
+    {
+      "region": "41591",
+      "label": "화성시 만세구",
+      "status": "supported",
+      "current": 642,
+      "baseline_mean": 583,
+      "baseline_median": 612.5,
+      "mean_ratio": 110.12006861063465,
+      "median_ratio": 104.81632653061224,
+      "minimum": 343,
+      "maximum": 764,
+      "three_year_mean": 663,
+      "three_year_ratio": 96.83257918552036
+    },
+    {
+      "region": "41593",
+      "label": "화성시 효행구",
+      "status": "supported",
+      "current": 869,
+      "baseline_mean": 506.75,
+      "baseline_median": 516.0,
+      "mean_ratio": 171.48495313270843,
+      "median_ratio": 168.4108527131783,
+      "minimum": 269,
+      "maximum": 726,
+      "three_year_mean": 586,
+      "three_year_ratio": 148.2935153583618
+    },
+    {
+      "region": "41595",
+      "label": "화성시 병점구",
+      "status": "supported",
+      "current": 1583,
+      "baseline_mean": 730,
+      "baseline_median": 883.0,
+      "mean_ratio": 216.84931506849315,
+      "median_ratio": 179.27519818799547,
+      "minimum": 177,
+      "maximum": 977,
+      "three_year_mean": 914.3333333333334,
+      "three_year_ratio": 173.13160772876412
+    },
+    {
+      "region": "41597",
+      "label": "화성시 동탄구",
+      "status": "supported",
+      "current": 6501,
+      "baseline_mean": 1990,
+      "baseline_median": 2311.0,
+      "mean_ratio": 326.68341708542715,
+      "median_ratio": 281.30679359584593,
+      "minimum": 670,
+      "maximum": 2668,
+      "three_year_mean": 2430,
+      "three_year_ratio": 267.5308641975309
+    },
+    {
+      "region": "41610",
+      "label": "광주시",
+      "status": "supported",
+      "current": 1634,
+      "baseline_mean": 817.75,
+      "baseline_median": 785.0,
+      "mean_ratio": 199.81656985631307,
+      "median_ratio": 208.15286624203821,
+      "minimum": 544,
+      "maximum": 1157,
+      "three_year_mean": 909,
+      "three_year_ratio": 179.75797579757975
+    }
+  ],
+  "district_counts": [
+    {
+      "region": "11110",
+      "year": 2022,
+      "n": 89
+    },
+    {
+      "region": "11110",
+      "year": 2023,
+      "n": 116
+    },
+    {
+      "region": "11110",
+      "year": 2024,
+      "n": 201
+    },
+    {
+      "region": "11110",
+      "year": 2025,
+      "n": 309
+    },
+    {
+      "region": "11110",
+      "year": 2026,
+      "n": 308
+    },
+    {
+      "region": "11140",
+      "year": 2022,
+      "n": 112
+    },
+    {
+      "region": "11140",
+      "year": 2023,
+      "n": 207
+    },
+    {
+      "region": "11140",
+      "year": 2024,
+      "n": 352
+    },
+    {
+      "region": "11140",
+      "year": 2025,
+      "n": 634
+    },
+    {
+      "region": "11140",
+      "year": 2026,
+      "n": 496
+    },
+    {
+      "region": "11170",
+      "year": 2022,
+      "n": 149
+    },
+    {
+      "region": "11170",
+      "year": 2023,
+      "n": 215
+    },
+    {
+      "region": "11170",
+      "year": 2024,
+      "n": 483
+    },
+    {
+      "region": "11170",
+      "year": 2025,
+      "n": 672
+    },
+    {
+      "region": "11170",
+      "year": 2026,
+      "n": 584
+    },
+    {
+      "region": "11200",
+      "year": 2022,
+      "n": 235
+    },
+    {
+      "region": "11200",
+      "year": 2023,
+      "n": 649
+    },
+    {
+      "region": "11200",
+      "year": 2024,
+      "n": 1354
+    },
+    {
+      "region": "11200",
+      "year": 2025,
+      "n": 2378
+    },
+    {
+      "region": "11200",
+      "year": 2026,
+      "n": 874
+    },
+    {
+      "region": "11215",
+      "year": 2022,
+      "n": 135
+    },
+    {
+      "region": "11215",
+      "year": 2023,
+      "n": 299
+    },
+    {
+      "region": "11215",
+      "year": 2024,
+      "n": 575
+    },
+    {
+      "region": "11215",
+      "year": 2025,
+      "n": 1091
+    },
+    {
+      "region": "11215",
+      "year": 2026,
+      "n": 483
+    },
+    {
+      "region": "11230",
+      "year": 2022,
+      "n": 287
+    },
+    {
+      "region": "11230",
+      "year": 2023,
+      "n": 720
+    },
+    {
+      "region": "11230",
+      "year": 2024,
+      "n": 1001
+    },
+    {
+      "region": "11230",
+      "year": 2025,
+      "n": 1616
+    },
+    {
+      "region": "11230",
+      "year": 2026,
+      "n": 1595
+    },
+    {
+      "region": "11260",
+      "year": 2022,
+      "n": 225
+    },
+    {
+      "region": "11260",
+      "year": 2023,
+      "n": 365
+    },
+    {
+      "region": "11260",
+      "year": 2024,
+      "n": 686
+    },
+    {
+      "region": "11260",
+      "year": 2025,
+      "n": 813
+    },
+    {
+      "region": "11260",
+      "year": 2026,
+      "n": 1431
+    },
+    {
+      "region": "11290",
+      "year": 2022,
+      "n": 257
+    },
+    {
+      "region": "11290",
+      "year": 2023,
+      "n": 820
+    },
+    {
+      "region": "11290",
+      "year": 2024,
+      "n": 1321
+    },
+    {
+      "region": "11290",
+      "year": 2025,
+      "n": 1911
+    },
+    {
+      "region": "11290",
+      "year": 2026,
+      "n": 2303
+    },
+    {
+      "region": "11305",
+      "year": 2022,
+      "n": 108
+    },
+    {
+      "region": "11305",
+      "year": 2023,
+      "n": 281
+    },
+    {
+      "region": "11305",
+      "year": 2024,
+      "n": 372
+    },
+    {
+      "region": "11305",
+      "year": 2025,
+      "n": 532
+    },
+    {
+      "region": "11305",
+      "year": 2026,
+      "n": 896
+    },
+    {
+      "region": "11320",
+      "year": 2022,
+      "n": 226
+    },
+    {
+      "region": "11320",
+      "year": 2023,
+      "n": 502
+    },
+    {
+      "region": "11320",
+      "year": 2024,
+      "n": 677
+    },
+    {
+      "region": "11320",
+      "year": 2025,
+      "n": 845
+    },
+    {
+      "region": "11320",
+      "year": 2026,
+      "n": 1520
+    },
+    {
+      "region": "11350",
+      "year": 2022,
+      "n": 538
+    },
+    {
+      "region": "11350",
+      "year": 2023,
+      "n": 1148
+    },
+    {
+      "region": "11350",
+      "year": 2024,
+      "n": 1641
+    },
+    {
+      "region": "11350",
+      "year": 2025,
+      "n": 2566
+    },
+    {
+      "region": "11350",
+      "year": 2026,
+      "n": 4405
+    },
+    {
+      "region": "11380",
+      "year": 2022,
+      "n": 272
+    },
+    {
+      "region": "11380",
+      "year": 2023,
+      "n": 582
+    },
+    {
+      "region": "11380",
+      "year": 2024,
+      "n": 940
+    },
+    {
+      "region": "11380",
+      "year": 2025,
+      "n": 1119
+    },
+    {
+      "region": "11380",
+      "year": 2026,
+      "n": 1761
+    },
+    {
+      "region": "11410",
+      "year": 2022,
+      "n": 221
+    },
+    {
+      "region": "11410",
+      "year": 2023,
+      "n": 570
+    },
+    {
+      "region": "11410",
+      "year": 2024,
+      "n": 931
+    },
+    {
+      "region": "11410",
+      "year": 2025,
+      "n": 1469
+    },
+    {
+      "region": "11410",
+      "year": 2026,
+      "n": 1465
+    },
+    {
+      "region": "11440",
+      "year": 2022,
+      "n": 267
+    },
+    {
+      "region": "11440",
+      "year": 2023,
+      "n": 703
+    },
+    {
+      "region": "11440",
+      "year": 2024,
+      "n": 1257
+    },
+    {
+      "region": "11440",
+      "year": 2025,
+      "n": 2246
+    },
+    {
+      "region": "11440",
+      "year": 2026,
+      "n": 1035
+    },
+    {
+      "region": "11470",
+      "year": 2022,
+      "n": 257
+    },
+    {
+      "region": "11470",
+      "year": 2023,
+      "n": 665
+    },
+    {
+      "region": "11470",
+      "year": 2024,
+      "n": 1003
+    },
+    {
+      "region": "11470",
+      "year": 2025,
+      "n": 1742
+    },
+    {
+      "region": "11470",
+      "year": 2026,
+      "n": 1372
+    },
+    {
+      "region": "11500",
+      "year": 2022,
+      "n": 380
+    },
+    {
+      "region": "11500",
+      "year": 2023,
+      "n": 810
+    },
+    {
+      "region": "11500",
+      "year": 2024,
+      "n": 1251
+    },
+    {
+      "region": "11500",
+      "year": 2025,
+      "n": 1937
+    },
+    {
+      "region": "11500",
+      "year": 2026,
+      "n": 2474
+    },
+    {
+      "region": "11530",
+      "year": 2022,
+      "n": 373
+    },
+    {
+      "region": "11530",
+      "year": 2023,
+      "n": 628
+    },
+    {
+      "region": "11530",
+      "year": 2024,
+      "n": 1038
+    },
+    {
+      "region": "11530",
+      "year": 2025,
+      "n": 1527
+    },
+    {
+      "region": "11530",
+      "year": 2026,
+      "n": 2203
+    },
+    {
+      "region": "11545",
+      "year": 2022,
+      "n": 137
+    },
+    {
+      "region": "11545",
+      "year": 2023,
+      "n": 224
+    },
+    {
+      "region": "11545",
+      "year": 2024,
+      "n": 328
+    },
+    {
+      "region": "11545",
+      "year": 2025,
+      "n": 392
+    },
+    {
+      "region": "11545",
+      "year": 2026,
+      "n": 709
+    },
+    {
+      "region": "11560",
+      "year": 2022,
+      "n": 311
+    },
+    {
+      "region": "11560",
+      "year": 2023,
+      "n": 774
+    },
+    {
+      "region": "11560",
+      "year": 2024,
+      "n": 1250
+    },
+    {
+      "region": "11560",
+      "year": 2025,
+      "n": 2224
+    },
+    {
+      "region": "11560",
+      "year": 2026,
+      "n": 1706
+    },
+    {
+      "region": "11590",
+      "year": 2022,
+      "n": 281
+    },
+    {
+      "region": "11590",
+      "year": 2023,
+      "n": 553
+    },
+    {
+      "region": "11590",
+      "year": 2024,
+      "n": 1080
+    },
+    {
+      "region": "11590",
+      "year": 2025,
+      "n": 2225
+    },
+    {
+      "region": "11590",
+      "year": 2026,
+      "n": 1320
+    },
+    {
+      "region": "11620",
+      "year": 2022,
+      "n": 248
+    },
+    {
+      "region": "11620",
+      "year": 2023,
+      "n": 373
+    },
+    {
+      "region": "11620",
+      "year": 2024,
+      "n": 660
+    },
+    {
+      "region": "11620",
+      "year": 2025,
+      "n": 1020
+    },
+    {
+      "region": "11620",
+      "year": 2026,
+      "n": 1257
+    },
+    {
+      "region": "11650",
+      "year": 2022,
+      "n": 372
+    },
+    {
+      "region": "11650",
+      "year": 2023,
+      "n": 666
+    },
+    {
+      "region": "11650",
+      "year": 2024,
+      "n": 1363
+    },
+    {
+      "region": "11650",
+      "year": 2025,
+      "n": 1751
+    },
+    {
+      "region": "11650",
+      "year": 2026,
+      "n": 1211
+    },
+    {
+      "region": "11680",
+      "year": 2022,
+      "n": 430
+    },
+    {
+      "region": "11680",
+      "year": 2023,
+      "n": 1080
+    },
+    {
+      "region": "11680",
+      "year": 2024,
+      "n": 1561
+    },
+    {
+      "region": "11680",
+      "year": 2025,
+      "n": 2260
+    },
+    {
+      "region": "11680",
+      "year": 2026,
+      "n": 1472
+    },
+    {
+      "region": "11710",
+      "year": 2022,
+      "n": 327
+    },
+    {
+      "region": "11710",
+      "year": 2023,
+      "n": 1440
+    },
+    {
+      "region": "11710",
+      "year": 2024,
+      "n": 2025
+    },
+    {
+      "region": "11710",
+      "year": 2025,
+      "n": 2865
+    },
+    {
+      "region": "11710",
+      "year": 2026,
+      "n": 2236
+    },
+    {
+      "region": "11740",
+      "year": 2022,
+      "n": 255
+    },
+    {
+      "region": "11740",
+      "year": 2023,
+      "n": 1065
+    },
+    {
+      "region": "11740",
+      "year": 2024,
+      "n": 1547
+    },
+    {
+      "region": "11740",
+      "year": 2025,
+      "n": 2494
+    },
+    {
+      "region": "11740",
+      "year": 2026,
+      "n": 1888
+    },
+    {
+      "region": "41111",
+      "year": 2022,
+      "n": 286
+    },
+    {
+      "region": "41111",
+      "year": 2023,
+      "n": 627
+    },
+    {
+      "region": "41111",
+      "year": 2024,
+      "n": 921
+    },
+    {
+      "region": "41111",
+      "year": 2025,
+      "n": 1164
+    },
+    {
+      "region": "41111",
+      "year": 2026,
+      "n": 1611
+    },
+    {
+      "region": "41113",
+      "year": 2022,
+      "n": 583
+    },
+    {
+      "region": "41113",
+      "year": 2023,
+      "n": 1191
+    },
+    {
+      "region": "41113",
+      "year": 2024,
+      "n": 1586
+    },
+    {
+      "region": "41113",
+      "year": 2025,
+      "n": 1585
+    },
+    {
+      "region": "41113",
+      "year": 2026,
+      "n": 2569
+    },
+    {
+      "region": "41115",
+      "year": 2022,
+      "n": 174
+    },
+    {
+      "region": "41115",
+      "year": 2023,
+      "n": 425
+    },
+    {
+      "region": "41115",
+      "year": 2024,
+      "n": 584
+    },
+    {
+      "region": "41115",
+      "year": 2025,
+      "n": 833
+    },
+    {
+      "region": "41115",
+      "year": 2026,
+      "n": 1453
+    },
+    {
+      "region": "41117",
+      "year": 2022,
+      "n": 758
+    },
+    {
+      "region": "41117",
+      "year": 2023,
+      "n": 2278
+    },
+    {
+      "region": "41117",
+      "year": 2024,
+      "n": 2449
+    },
+    {
+      "region": "41117",
+      "year": 2025,
+      "n": 2562
+    },
+    {
+      "region": "41117",
+      "year": 2026,
+      "n": 3336
+    },
+    {
+      "region": "41131",
+      "year": 2022,
+      "n": 94
+    },
+    {
+      "region": "41131",
+      "year": 2023,
+      "n": 452
+    },
+    {
+      "region": "41131",
+      "year": 2024,
+      "n": 514
+    },
+    {
+      "region": "41131",
+      "year": 2025,
+      "n": 681
+    },
+    {
+      "region": "41131",
+      "year": 2026,
+      "n": 707
+    },
+    {
+      "region": "41133",
+      "year": 2022,
+      "n": 125
+    },
+    {
+      "region": "41133",
+      "year": 2023,
+      "n": 309
+    },
+    {
+      "region": "41133",
+      "year": 2024,
+      "n": 462
+    },
+    {
+      "region": "41133",
+      "year": 2025,
+      "n": 791
+    },
+    {
+      "region": "41133",
+      "year": 2026,
+      "n": 978
+    },
+    {
+      "region": "41135",
+      "year": 2022,
+      "n": 807
+    },
+    {
+      "region": "41135",
+      "year": 2023,
+      "n": 1710
+    },
+    {
+      "region": "41135",
+      "year": 2024,
+      "n": 2226
+    },
+    {
+      "region": "41135",
+      "year": 2025,
+      "n": 3413
+    },
+    {
+      "region": "41135",
+      "year": 2026,
+      "n": 2239
+    },
+    {
+      "region": "41150",
+      "year": 2022,
+      "n": 853
+    },
+    {
+      "region": "41150",
+      "year": 2023,
+      "n": 1527
+    },
+    {
+      "region": "41150",
+      "year": 2024,
+      "n": 1999
+    },
+    {
+      "region": "41150",
+      "year": 2025,
+      "n": 2220
+    },
+    {
+      "region": "41150",
+      "year": 2026,
+      "n": 2683
+    },
+    {
+      "region": "41171",
+      "year": 2022,
+      "n": 286
+    },
+    {
+      "region": "41171",
+      "year": 2023,
+      "n": 510
+    },
+    {
+      "region": "41171",
+      "year": 2024,
+      "n": 623
+    },
+    {
+      "region": "41171",
+      "year": 2025,
+      "n": 925
+    },
+    {
+      "region": "41171",
+      "year": 2026,
+      "n": 1604
+    },
+    {
+      "region": "41173",
+      "year": 2022,
+      "n": 409
+    },
+    {
+      "region": "41173",
+      "year": 2023,
+      "n": 1163
+    },
+    {
+      "region": "41173",
+      "year": 2024,
+      "n": 1754
+    },
+    {
+      "region": "41173",
+      "year": 2025,
+      "n": 2661
+    },
+    {
+      "region": "41173",
+      "year": 2026,
+      "n": 3033
+    },
+    {
+      "region": "41192",
+      "year": 2022,
+      "n": 601
+    },
+    {
+      "region": "41192",
+      "year": 2023,
+      "n": 1050
+    },
+    {
+      "region": "41192",
+      "year": 2024,
+      "n": 1413
+    },
+    {
+      "region": "41192",
+      "year": 2025,
+      "n": 1344
+    },
+    {
+      "region": "41192",
+      "year": 2026,
+      "n": 2208
+    },
+    {
+      "region": "41194",
+      "year": 2022,
+      "n": 391
+    },
+    {
+      "region": "41194",
+      "year": 2023,
+      "n": 672
+    },
+    {
+      "region": "41194",
+      "year": 2024,
+      "n": 709
+    },
+    {
+      "region": "41194",
+      "year": 2025,
+      "n": 728
+    },
+    {
+      "region": "41194",
+      "year": 2026,
+      "n": 1169
+    },
+    {
+      "region": "41196",
+      "year": 2022,
+      "n": 217
+    },
+    {
+      "region": "41196",
+      "year": 2023,
+      "n": 164
+    },
+    {
+      "region": "41196",
+      "year": 2024,
+      "n": 222
+    },
+    {
+      "region": "41196",
+      "year": 2025,
+      "n": 238
+    },
+    {
+      "region": "41196",
+      "year": 2026,
+      "n": 283
+    },
+    {
+      "region": "41210",
+      "year": 2022,
+      "n": 253
+    },
+    {
+      "region": "41210",
+      "year": 2023,
+      "n": 868
+    },
+    {
+      "region": "41210",
+      "year": 2024,
+      "n": 1239
+    },
+    {
+      "region": "41210",
+      "year": 2025,
+      "n": 1797
+    },
+    {
+      "region": "41210",
+      "year": 2026,
+      "n": 1972
+    },
+    {
+      "region": "41220",
+      "year": 2022,
+      "n": 2851
+    },
+    {
+      "region": "41220",
+      "year": 2023,
+      "n": 3048
+    },
+    {
+      "region": "41220",
+      "year": 2024,
+      "n": 2661
+    },
+    {
+      "region": "41220",
+      "year": 2025,
+      "n": 2879
+    },
+    {
+      "region": "41220",
+      "year": 2026,
+      "n": 3653
+    },
+    {
+      "region": "41271",
+      "year": 2022,
+      "n": 402
+    },
+    {
+      "region": "41271",
+      "year": 2023,
+      "n": 602
+    },
+    {
+      "region": "41271",
+      "year": 2024,
+      "n": 780
+    },
+    {
+      "region": "41271",
+      "year": 2025,
+      "n": 688
+    },
+    {
+      "region": "41271",
+      "year": 2026,
+      "n": 880
+    },
+    {
+      "region": "41273",
+      "year": 2022,
+      "n": 591
+    },
+    {
+      "region": "41273",
+      "year": 2023,
+      "n": 1227
+    },
+    {
+      "region": "41273",
+      "year": 2024,
+      "n": 1285
+    },
+    {
+      "region": "41273",
+      "year": 2025,
+      "n": 1161
+    },
+    {
+      "region": "41273",
+      "year": 2026,
+      "n": 1435
+    },
+    {
+      "region": "41281",
+      "year": 2022,
+      "n": 670
+    },
+    {
+      "region": "41281",
+      "year": 2023,
+      "n": 1532
+    },
+    {
+      "region": "41281",
+      "year": 2024,
+      "n": 1707
+    },
+    {
+      "region": "41281",
+      "year": 2025,
+      "n": 1970
+    },
+    {
+      "region": "41281",
+      "year": 2026,
+      "n": 2647
+    },
+    {
+      "region": "41285",
+      "year": 2022,
+      "n": 617
+    },
+    {
+      "region": "41285",
+      "year": 2023,
+      "n": 787
+    },
+    {
+      "region": "41285",
+      "year": 2024,
+      "n": 922
+    },
+    {
+      "region": "41285",
+      "year": 2025,
+      "n": 879
+    },
+    {
+      "region": "41285",
+      "year": 2026,
+      "n": 1070
+    },
+    {
+      "region": "41287",
+      "year": 2022,
+      "n": 988
+    },
+    {
+      "region": "41287",
+      "year": 2023,
+      "n": 1024
+    },
+    {
+      "region": "41287",
+      "year": 2024,
+      "n": 1263
+    },
+    {
+      "region": "41287",
+      "year": 2025,
+      "n": 1379
+    },
+    {
+      "region": "41287",
+      "year": 2026,
+      "n": 1460
+    },
+    {
+      "region": "41290",
+      "year": 2022,
+      "n": 43
+    },
+    {
+      "region": "41290",
+      "year": 2023,
+      "n": 289
+    },
+    {
+      "region": "41290",
+      "year": 2024,
+      "n": 419
+    },
+    {
+      "region": "41290",
+      "year": 2025,
+      "n": 550
+    },
+    {
+      "region": "41290",
+      "year": 2026,
+      "n": 155
+    },
+    {
+      "region": "41310",
+      "year": 2022,
+      "n": 181
+    },
+    {
+      "region": "41310",
+      "year": 2023,
+      "n": 379
+    },
+    {
+      "region": "41310",
+      "year": 2024,
+      "n": 579
+    },
+    {
+      "region": "41310",
+      "year": 2025,
+      "n": 796
+    },
+    {
+      "region": "41310",
+      "year": 2026,
+      "n": 2323
+    },
+    {
+      "region": "41360",
+      "year": 2022,
+      "n": 1118
+    },
+    {
+      "region": "41360",
+      "year": 2023,
+      "n": 2122
+    },
+    {
+      "region": "41360",
+      "year": 2024,
+      "n": 2721
+    },
+    {
+      "region": "41360",
+      "year": 2025,
+      "n": 3082
+    },
+    {
+      "region": "41360",
+      "year": 2026,
+      "n": 4623
+    },
+    {
+      "region": "41410",
+      "year": 2022,
+      "n": 523
+    },
+    {
+      "region": "41410",
+      "year": 2023,
+      "n": 876
+    },
+    {
+      "region": "41410",
+      "year": 2024,
+      "n": 1231
+    },
+    {
+      "region": "41410",
+      "year": 2025,
+      "n": 1229
+    },
+    {
+      "region": "41410",
+      "year": 2026,
+      "n": 2258
+    },
+    {
+      "region": "41430",
+      "year": 2022,
+      "n": 160
+    },
+    {
+      "region": "41430",
+      "year": 2023,
+      "n": 507
+    },
+    {
+      "region": "41430",
+      "year": 2024,
+      "n": 571
+    },
+    {
+      "region": "41430",
+      "year": 2025,
+      "n": 1001
+    },
+    {
+      "region": "41430",
+      "year": 2026,
+      "n": 1194
+    },
+    {
+      "region": "41450",
+      "year": 2022,
+      "n": 383
+    },
+    {
+      "region": "41450",
+      "year": 2023,
+      "n": 1284
+    },
+    {
+      "region": "41450",
+      "year": 2024,
+      "n": 1455
+    },
+    {
+      "region": "41450",
+      "year": 2025,
+      "n": 1920
+    },
+    {
+      "region": "41450",
+      "year": 2026,
+      "n": 1683
+    },
+    {
+      "region": "41461",
+      "year": 2022,
+      "n": 539
+    },
+    {
+      "region": "41461",
+      "year": 2023,
+      "n": 674
+    },
+    {
+      "region": "41461",
+      "year": 2024,
+      "n": 868
+    },
+    {
+      "region": "41461",
+      "year": 2025,
+      "n": 886
+    },
+    {
+      "region": "41461",
+      "year": 2026,
+      "n": 1235
+    },
+    {
+      "region": "41463",
+      "year": 2022,
+      "n": 635
+    },
+    {
+      "region": "41463",
+      "year": 2023,
+      "n": 1641
+    },
+    {
+      "region": "41463",
+      "year": 2024,
+      "n": 2020
+    },
+    {
+      "region": "41463",
+      "year": 2025,
+      "n": 2273
+    },
+    {
+      "region": "41463",
+      "year": 2026,
+      "n": 4707
+    },
+    {
+      "region": "41465",
+      "year": 2022,
+      "n": 614
+    },
+    {
+      "region": "41465",
+      "year": 2023,
+      "n": 2003
+    },
+    {
+      "region": "41465",
+      "year": 2024,
+      "n": 2242
+    },
+    {
+      "region": "41465",
+      "year": 2025,
+      "n": 3685
+    },
+    {
+      "region": "41465",
+      "year": 2026,
+      "n": 3475
+    },
+    {
+      "region": "41480",
+      "year": 2022,
+      "n": 1212
+    },
+    {
+      "region": "41480",
+      "year": 2023,
+      "n": 1569
+    },
+    {
+      "region": "41480",
+      "year": 2024,
+      "n": 1844
+    },
+    {
+      "region": "41480",
+      "year": 2025,
+      "n": 1888
+    },
+    {
+      "region": "41480",
+      "year": 2026,
+      "n": 2132
+    },
+    {
+      "region": "41570",
+      "year": 2022,
+      "n": 1029
+    },
+    {
+      "region": "41570",
+      "year": 2023,
+      "n": 2094
+    },
+    {
+      "region": "41570",
+      "year": 2024,
+      "n": 2467
+    },
+    {
+      "region": "41570",
+      "year": 2025,
+      "n": 2055
+    },
+    {
+      "region": "41570",
+      "year": 2026,
+      "n": 2394
+    },
+    {
+      "region": "41591",
+      "year": 2022,
+      "n": 343
+    },
+    {
+      "region": "41591",
+      "year": 2023,
+      "n": 635
+    },
+    {
+      "region": "41591",
+      "year": 2024,
+      "n": 764
+    },
+    {
+      "region": "41591",
+      "year": 2025,
+      "n": 590
+    },
+    {
+      "region": "41591",
+      "year": 2026,
+      "n": 642
+    },
+    {
+      "region": "41593",
+      "year": 2022,
+      "n": 269
+    },
+    {
+      "region": "41593",
+      "year": 2023,
+      "n": 413
+    },
+    {
+      "region": "41593",
+      "year": 2024,
+      "n": 619
+    },
+    {
+      "region": "41593",
+      "year": 2025,
+      "n": 726
+    },
+    {
+      "region": "41593",
+      "year": 2026,
+      "n": 869
+    },
+    {
+      "region": "41595",
+      "year": 2022,
+      "n": 177
+    },
+    {
+      "region": "41595",
+      "year": 2023,
+      "n": 977
+    },
+    {
+      "region": "41595",
+      "year": 2024,
+      "n": 827
+    },
+    {
+      "region": "41595",
+      "year": 2025,
+      "n": 939
+    },
+    {
+      "region": "41595",
+      "year": 2026,
+      "n": 1583
+    },
+    {
+      "region": "41597",
+      "year": 2022,
+      "n": 670
+    },
+    {
+      "region": "41597",
+      "year": 2023,
+      "n": 2668
+    },
+    {
+      "region": "41597",
+      "year": 2024,
+      "n": 2002
+    },
+    {
+      "region": "41597",
+      "year": 2025,
+      "n": 2620
+    },
+    {
+      "region": "41597",
+      "year": 2026,
+      "n": 6501
+    },
+    {
+      "region": "41610",
+      "year": 2022,
+      "n": 544
+    },
+    {
+      "region": "41610",
+      "year": 2023,
+      "n": 625
+    },
+    {
+      "region": "41610",
+      "year": 2024,
+      "n": 945
+    },
+    {
+      "region": "41610",
+      "year": 2025,
+      "n": 1157
+    },
+    {
+      "region": "41610",
+      "year": 2026,
+      "n": 1634
+    }
+  ],
+  "district_counts_suppressed": false
+}
