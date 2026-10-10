@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-10T21:30:44+09:00</updated>
+  <updated>2026-10-10T23:13:27+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -11,10 +11,19 @@
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
   <entry>
+    <title>하락기에 팔린 아파트는 어떤 집이었나? 2021~2023년 거래 구성 비교</title>
+    <id>https://nobot-kang.github.io/posts/apartment-downturn-composition/</id>
+    <published>2026-10-10T23:02:39+09:00</published>
+    <updated>2026-10-10T23:13:27+09:00</updated>
+    <summary>서울·수집 경기의 2021~2023년 지역·가격·면적·연식별 신고 구성을 비교합니다. 고정 집단으로 나눈 평균 변화와 2023년 반등, 해제·직거래 포함 기준에 따라 달라지는 결론을 함께 확인합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-downturn-composition/" />
+    <category term="거래량과 시장 읽기" />
+  </entry>
+  <entry>
     <title>서울·경기 전세가율: 평균보다 지역별 분포를 먼저 보세요</title>
     <id>https://nobot-kang.github.io/posts/seoul-gyeonggi-jeonse-ratios/</id>
     <published>2026-10-10T21:30:44+09:00</published>
-    <updated>2026-10-10T21:30:44+09:00</updated>
+    <updated>2026-10-10T23:13:27+09:00</updated>
     <summary>서울25구·수집경기36시·구의 KB 전세가율과 가격지수 변화를 비교합니다. 광역 평균 뒤의 지역별 겹침, 전세가격 상승과 비율 하락의 공존, 표본이 부족할 때 답할 수 있는 범위를 정리합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-gyeonggi-jeonse-ratios/" />
     <category term="수도권 가격 지도" />
@@ -392,7 +401,7 @@
     <title>모든 동네가 올랐는데, 우리 구는 내렸다?</title>
     <id>https://nobot-kang.github.io/posts/seoul-average-paradox/</id>
     <published>2026-10-08T16:29:27+09:00</published>
-    <updated>2026-10-10T06:32:29+09:00</updated>
+    <updated>2026-10-10T23:13:27+09:00</updated>
     <summary>가상의 심슨 역설과 실제 노원구 거래로 평균가격의 변화를 분해합니다. 거래 구성·선택 편향·표준화를 이해하고 집값 상승과 하락을 읽는 다섯 질문을 정리합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-average-paradox/" />
     <category term="서울 아파트" />
@@ -482,7 +491,7 @@
     <title>평균 거래가격이 올랐는데, 같은 집도 올랐을까?</title>
     <id>https://nobot-kang.github.io/posts/average-price-and-mix/</id>
     <published>2026-10-06T01:30:09+09:00</published>
-    <updated>2026-10-10T06:32:29+09:00</updated>
+    <updated>2026-10-10T23:13:27+09:00</updated>
     <summary>2026년 5~6월 노원구·강서구 실거래로 평균가격 변화와 면적군 거래 구성 변화를 나눠봅니다. 평균 상승을 같은 집의 상승으로 읽기 전에 확인할 기준입니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/average-price-and-mix/" />
     <category term="첫 집을 위한 가격 읽기" />
