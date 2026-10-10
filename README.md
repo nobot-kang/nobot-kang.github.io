@@ -161,3 +161,22 @@ is excluded under the recorded population rule. These are surviving connected
 inventory, not transactions, historical original supply, a probability sample
 or a causal estimate. The article explains the restriction and missing coverage.
 `completion-era*.svg` and `.png` visualize only these admitted aggregates.
+
+### 직거래와 두 비교가격
+
+`assets/direct-sale-comparison.json` (`direct_sale_comparison_fields_v1`) covers
+2021.11–2026.6, current Seoul25 and collected Gyeonggi36. `panel_a` contains contract
+percent gaps against retrospective prior-Thursday own-type model prices; `panel_b`
+contains percent gaps against actual same-complex/type/quarter/floor-group broker
+unit-price medians. `composition` applies common direct-count weights to A category
+means. All prices require40 trades and ten complexes. Quantiles describe distributions,
+not confidence intervals. B arithmetic means and exact complex/control counts are absent.
+
+`status` distinguishes supported, insufficient support and joint-count protection.
+`coverage_status` is separate: supported rows can retain n/prices while withholding both
+coverage percentage and its population denominator. Do not fill absent fields with zero.
+`regional_rates`/`monthly_rates` count explicitly flagged direct sales among all merged
+reported contracts, including cancellations; their denominator differs from price
+coverage. Original labels remain even when all numbers are withheld. The positive
+Seoul2022 B counterexample is retained. These selected comparisons are not market-wide
+discounts, causal effects, contemporary forecasts or valuations of individual homes.

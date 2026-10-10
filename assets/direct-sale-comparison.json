@@ -1,0 +1,6507 @@
+{
+  "schema": "direct_sale_comparison_fields_v1",
+  "periods": {
+    "all": [
+      "2021-11",
+      "2026-06"
+    ],
+    "2021_tail": [
+      "2021-11",
+      "2021-12"
+    ],
+    "2022": [
+      "2022-01",
+      "2022-12"
+    ],
+    "2023": [
+      "2023-01",
+      "2023-12"
+    ],
+    "2024": [
+      "2024-01",
+      "2024-12"
+    ],
+    "2025": [
+      "2025-01",
+      "2025-12"
+    ],
+    "2025H1": [
+      "2025-01",
+      "2025-06"
+    ],
+    "2026H1": [
+      "2026-01",
+      "2026-06"
+    ]
+  },
+  "snapshot": "Retained retrospective snapshot; not historical real-time availability",
+  "geography": "Current Seoul25 and collected Gyeonggi36 regions; no Incheon",
+  "area_groups": "Native exact UnitType17/18 and25/26 combined after alignment; not exact59/84sqm",
+  "price_support": {
+    "transactions": 40,
+    "complexes": 10
+  },
+  "count_floor": 10,
+  "rate_definition": "Explicit direct flag / all merged reported contracts; includes cancelled direct records",
+  "model_gap": "100*(actual_amount / strictly_previous_Thursday_actual_area_benchmark - 1)",
+  "matched_gap": "100*(direct_exclusive_pyeong_price / same_complex_type_quarter_floor_broker_median - 1)",
+  "match_support": "At least three confirmed noncancelled broker controls; unknown floors excluded",
+  "quarter_clock": "Same-quarter retrospective controls; first quarter is only2021.11-12 inside the fixed window",
+  "composition_definition": "Common region/native-area-group/quarter cells with ten contracts per category; direct-count weights for both means",
+  "quantiles": "Type7 linear interpolation; contract-equal distribution",
+  "panel_a": [
+    {
+      "geo": "11",
+      "period": "all",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 4421,
+          "mean": -12.355942112506481,
+          "median": -10.729769998874229,
+          "p25": -25.293125058637045,
+          "p75": -1.6641514868648732,
+          "category_n": 10177,
+          "coverage_pct": 43.44109265991943
+        },
+        "brokered": {
+          "n": 160270,
+          "mean": 0.877353796855988,
+          "median": 0.8913046258014923,
+          "p25": -2.1637199468508923,
+          "p75": 3.9452301503797695,
+          "category_n": 199952,
+          "coverage_pct": 80.15423701688405
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "period": "all",
+      "group": "p17_18",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 858,
+          "mean": -15.783828937780555,
+          "median": -13.932152302627966,
+          "p25": -28.451302024637897,
+          "p75": -3.6802267276186544,
+          "category_n": 1479,
+          "coverage_pct": 58.012170385395535
+        },
+        "brokered": {
+          "n": 48893,
+          "mean": 0.849098882579502,
+          "median": 0.9331775625305072,
+          "p25": -1.8895226796250442,
+          "p75": 3.6699143550731117,
+          "category_n": 55642,
+          "coverage_pct": 87.8706732324503
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "period": "all",
+      "group": "p25_26",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 1422,
+          "mean": -16.075980407035892,
+          "median": -14.714344463382266,
+          "p25": -27.91568643047492,
+          "p75": -4.531212737279095,
+          "category_n": 2105,
+          "coverage_pct": 67.55344418052256
+        },
+        "brokered": {
+          "n": 57891,
+          "mean": 0.7852619110628284,
+          "median": 0.8506950665063684,
+          "p25": -2.18498887126638,
+          "p75": 3.843317116496703,
+          "category_n": 68429,
+          "coverage_pct": 84.60009645033539
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "period": "all",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 14407,
+          "mean": -7.514021870435662,
+          "median": -5.954871666268479,
+          "p25": -15.400424487435217,
+          "p75": 0.37842823329841124,
+          "category_n": 20230,
+          "coverage_pct": 71.21601581809195
+        },
+        "brokered": {
+          "n": 352302,
+          "mean": -0.17040581527063156,
+          "median": 0.04581915068528897,
+          "p25": -3.38811753199077,
+          "p75": 3.1681428417795034,
+          "category_n": 392671,
+          "coverage_pct": 89.71938340239029
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "period": "all",
+      "group": "p17_18",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 3066,
+          "mean": -8.051221214559597,
+          "median": -6.051178493807157,
+          "p25": -14.659972840935179,
+          "p75": -0.04246819669586621,
+          "category_n": 3932,
+          "coverage_pct": 77.97558494404883
+        },
+        "brokered": {
+          "n": 93193,
+          "mean": -0.3320169663830226,
+          "median": 0.0315678486986215,
+          "p25": -3.3371885597460182,
+          "p75": 3.008199419390256,
+          "category_n": 99795,
+          "coverage_pct": 93.38443809810111
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "period": "all",
+      "group": "p25_26",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 5260,
+          "mean": -8.253351508932841,
+          "median": -6.1773760439680245,
+          "p25": -15.344918356462971,
+          "p75": -0.09727312173155311,
+          "category_n": 6472,
+          "coverage_pct": 81.27317676143387
+        },
+        "brokered": {
+          "n": 136547,
+          "mean": -0.27849311697387363,
+          "median": -0.06151382537187278,
+          "p25": -3.48561195813194,
+          "p75": 3.044873002620496,
+          "category_n": 146033,
+          "coverage_pct": 93.50420795299692
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "period": "2021_tail",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "joint_count_protection",
+      "categories": {
+        "direct": {
+          "n": 151,
+          "mean": -1.6211682180475078,
+          "median": -1.2301817875005616,
+          "p25": -8.001477021883048,
+          "p75": 4.169881566174394
+        },
+        "brokered": {
+          "n": 1514,
+          "mean": 1.1134767243127595,
+          "median": 0.7276969068510053,
+          "p25": -3.104731225459739,
+          "p75": 4.5090343632768874
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "period": "2021_tail",
+      "group": "p17_18",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2021_tail",
+      "group": "p25_26",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2021_tail",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "joint_count_protection",
+      "categories": {
+        "direct": {
+          "n": 511,
+          "mean": -3.0796185503456286,
+          "median": -4.271412516068462,
+          "p25": -12.034435607930927,
+          "p75": 3.339939680792936
+        },
+        "brokered": {
+          "n": 5593,
+          "mean": 2.1870420928686922,
+          "median": 0.9117031359047179,
+          "p25": -3.04072686304917,
+          "p75": 5.854083609871719
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "period": "2021_tail",
+      "group": "p17_18",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 82,
+          "mean": -7.498477939987862,
+          "median": -6.952507104742416,
+          "p25": -13.140589571127615,
+          "p75": -1.0543371394992396,
+          "category_n": 102,
+          "coverage_pct": 80.3921568627451
+        },
+        "brokered": {
+          "n": 1475,
+          "mean": 2.1867350582106373,
+          "median": 0.7105746794578982,
+          "p25": -2.9367045155953955,
+          "p75": 5.480243659800788,
+          "category_n": 1576,
+          "coverage_pct": 93.59137055837563
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "period": "2021_tail",
+      "group": "p25_26",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 143,
+          "mean": -8.751518363507339,
+          "median": -6.256067035534918,
+          "p25": -14.845844654177725,
+          "p75": -0.7294241723107386,
+          "category_n": 161,
+          "coverage_pct": 88.81987577639751
+        },
+        "brokered": {
+          "n": 1945,
+          "mean": 1.0137061705869304,
+          "median": 0.34882322439535596,
+          "p25": -3.7497139611532337,
+          "p75": 4.456058992234979,
+          "category_n": 2052,
+          "coverage_pct": 94.78557504873294
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "period": "2022",
+      "group": "all",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2022",
+      "group": "p17_18",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2022",
+      "group": "p25_26",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2022",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 2020,
+          "mean": -7.468933680023973,
+          "median": -7.0191837654392355,
+          "p25": -17.692623385148146,
+          "p75": 0.6081923150489998,
+          "category_n": 3303,
+          "coverage_pct": 61.15652437178323
+        },
+        "brokered": {
+          "n": 25233,
+          "mean": -2.43115406518116,
+          "median": -1.9030359797825858,
+          "p25": -7.141523083245471,
+          "p75": 2.2297387608731123,
+          "category_n": 31681,
+          "coverage_pct": 79.64710709889208
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "period": "2022",
+      "group": "p17_18",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 422,
+          "mean": -9.360195334008754,
+          "median": -7.04334839972201,
+          "p25": -18.399558723733335,
+          "p75": 0.014936682064758955,
+          "category_n": 559,
+          "coverage_pct": 75.49194991055457
+        },
+        "brokered": {
+          "n": 6922,
+          "mean": -2.6274474691849306,
+          "median": -1.8617479597107633,
+          "p25": -6.8830462930344005,
+          "p75": 2.0828736695210015,
+          "category_n": 8035,
+          "coverage_pct": 86.14810205351587
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "period": "2022",
+      "group": "p25_26",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 722,
+          "mean": -9.043520950754534,
+          "median": -7.89861563192939,
+          "p25": -17.211050001965106,
+          "p75": -0.44680632445055213,
+          "category_n": 956,
+          "coverage_pct": 75.52301255230125
+        },
+        "brokered": {
+          "n": 8864,
+          "mean": -3.490494595693804,
+          "median": -2.878482057762483,
+          "p25": -8.040143537582098,
+          "p75": 1.163343941813827,
+          "category_n": 10563,
+          "coverage_pct": 83.9155542932879
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "period": "2023",
+      "group": "all",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2023",
+      "group": "p17_18",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2023",
+      "group": "p25_26",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2023",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "joint_count_protection",
+      "categories": {
+        "direct": {
+          "n": 3019,
+          "mean": -6.355179718924847,
+          "median": -5.659658366178244,
+          "p25": -13.760804116953441,
+          "p75": 0.8261944309321589
+        },
+        "brokered": {
+          "n": 65547,
+          "mean": -0.2805193597340644,
+          "median": 0.042471106984076634,
+          "p25": -3.7102213659868157,
+          "p75": 3.4373637325485595
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "period": "2023",
+      "group": "p17_18",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 665,
+          "mean": -6.6083301384573545,
+          "median": -6.240181018302405,
+          "p25": -12.909714825489448,
+          "p75": 0.24943491277511498,
+          "category_n": 877,
+          "coverage_pct": 75.8266818700114
+        },
+        "brokered": {
+          "n": 17275,
+          "mean": -0.5999395201571662,
+          "median": -0.08888053025262188,
+          "p25": -3.7717294717973635,
+          "p75": 3.101538057605957,
+          "category_n": 19170,
+          "coverage_pct": 90.11476264997391
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "period": "2023",
+      "group": "p25_26",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 1165,
+          "mean": -7.391247210846092,
+          "median": -6.14549685526784,
+          "p25": -14.642076553237127,
+          "p75": 0.23126286847627853,
+          "category_n": 1454,
+          "coverage_pct": 80.12379642365887
+        },
+        "brokered": {
+          "n": 26222,
+          "mean": -0.1227123773657938,
+          "median": 0.11520778632433393,
+          "p25": -3.5806202582665536,
+          "p75": 3.5283278808835083,
+          "category_n": 29042,
+          "coverage_pct": 90.28992493629916
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "period": "2024",
+      "group": "all",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2024",
+      "group": "p17_18",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2024",
+      "group": "p25_26",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2024",
+      "group": "all",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2024",
+      "group": "p17_18",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2024",
+      "group": "p25_26",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2025",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "joint_count_protection",
+      "categories": {
+        "direct": {
+          "n": 1293,
+          "mean": -14.767503844547674,
+          "median": -12.828575820675315,
+          "p25": -27.686412640513204,
+          "p75": -3.019177859506672
+        },
+        "brokered": {
+          "n": 58915,
+          "mean": 1.3889781258311773,
+          "median": 1.205199708115523,
+          "p25": -1.6166559670477643,
+          "p75": 4.199708677923708
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "period": "2025",
+      "group": "p17_18",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 263,
+          "mean": -15.959575770565776,
+          "median": -14.966831486282818,
+          "p25": -28.778466426433205,
+          "p75": -3.9966872662117625,
+          "category_n": 372,
+          "coverage_pct": 70.6989247311828
+        },
+        "brokered": {
+          "n": 18058,
+          "mean": 1.134551875010135,
+          "median": 1.1163708225675362,
+          "p25": -1.4957577266219158,
+          "p75": 3.7282617001065055,
+          "category_n": 19662,
+          "coverage_pct": 91.84213203132947
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "period": "2025",
+      "group": "p25_26",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 450,
+          "mean": -16.955747961990625,
+          "median": -16.56119737390474,
+          "p25": -29.23297528540271,
+          "p75": -4.6414895437345365,
+          "category_n": 591,
+          "coverage_pct": 76.14213197969544
+        },
+        "brokered": {
+          "n": 21838,
+          "mean": 1.2982877284991656,
+          "median": 1.1516069292064501,
+          "p25": -1.6264448094600426,
+          "p75": 4.12576034965006,
+          "category_n": 24565,
+          "coverage_pct": 88.89883981274171
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "period": "2025",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "joint_count_protection",
+      "categories": {
+        "direct": {
+          "n": 3511,
+          "mean": -7.423659100249363,
+          "median": -5.332793907131716,
+          "p25": -14.520986794646884,
+          "p75": 0.6338200849798192
+        },
+        "brokered": {
+          "n": 102203,
+          "mean": -0.04064175455952504,
+          "median": 0.10986557566479149,
+          "p25": -2.9452352251995273,
+          "p75": 2.9451983306878704
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "period": "2025",
+      "group": "p17_18",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 738,
+          "mean": -8.023883141358175,
+          "median": -5.2765325475256475,
+          "p25": -13.90401687724197,
+          "p75": -0.03919259446129586,
+          "category_n": 927,
+          "coverage_pct": 79.6116504854369
+        },
+        "brokered": {
+          "n": 27328,
+          "mean": -0.14757013632056443,
+          "median": 0.14674046731539825,
+          "p25": -2.898044889130322,
+          "p75": 2.8447043468984026,
+          "category_n": 28701,
+          "coverage_pct": 95.21619455768092
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "period": "2025",
+      "group": "p25_26",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 1239,
+          "mean": -8.027339058661704,
+          "median": -5.664381087490533,
+          "p25": -14.805299606448507,
+          "p75": 0.0017834718586240417,
+          "category_n": 1421,
+          "coverage_pct": 87.19211822660098
+        },
+        "brokered": {
+          "n": 39396,
+          "mean": -0.14396826806501345,
+          "median": -0.011634269857657698,
+          "p25": -3.069197838028237,
+          "p75": 2.8131932162493434,
+          "category_n": 41371,
+          "coverage_pct": 95.22612458001981
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "period": "2025H1",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 671,
+          "mean": -12.711159273647853,
+          "median": -10.458252074262553,
+          "p25": -24.40796498319711,
+          "p75": -2.1591333074661434,
+          "category_n": 1427,
+          "coverage_pct": 47.02172389628591
+        },
+        "brokered": {
+          "n": 32578,
+          "mean": 0.9809292268804093,
+          "median": 0.9137767204964398,
+          "p25": -1.7464720515535408,
+          "p75": 3.636248606710746,
+          "category_n": 38638,
+          "coverage_pct": 84.31595838293907
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "period": "2025H1",
+      "group": "p17_18",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 136,
+          "mean": -13.442726076395505,
+          "median": -11.009510966966712,
+          "p25": -25.06968642925939,
+          "p75": -1.5331747946635388,
+          "category_n": 217,
+          "coverage_pct": 62.672811059907836
+        },
+        "brokered": {
+          "n": 10184,
+          "mean": 0.6425569090888124,
+          "median": 0.7931151302516537,
+          "p25": -1.6332336883747218,
+          "p75": 3.1077027607340657,
+          "category_n": 11118,
+          "coverage_pct": 91.59920849073575
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "period": "2025H1",
+      "group": "p25_26",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 245,
+          "mean": -14.845633326954044,
+          "median": -12.917368303092946,
+          "p25": -26.255348471746498,
+          "p75": -3.923544687756453,
+          "category_n": 321,
+          "coverage_pct": 76.32398753894081
+        },
+        "brokered": {
+          "n": 12062,
+          "mean": 0.950691162760248,
+          "median": 0.9150022768245503,
+          "p25": -1.7539286124951174,
+          "p75": 3.611014027950543,
+          "category_n": 13703,
+          "coverage_pct": 88.0245201780632
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "period": "2025H1",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 1775,
+          "mean": -6.802921094299695,
+          "median": -4.85528629010018,
+          "p25": -13.403285461729835,
+          "p75": 0.6343268566766258,
+          "category_n": 2331,
+          "coverage_pct": 76.14757614757615
+        },
+        "brokered": {
+          "n": 50164,
+          "mean": -0.31959196146903357,
+          "median": -0.12873296141616142,
+          "p25": -3.1777120130173753,
+          "p75": 2.6432191080646095,
+          "category_n": 55295,
+          "coverage_pct": 90.7206799891491
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "period": "2025H1",
+      "group": "p17_18",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 380,
+          "mean": -6.245498303348433,
+          "median": -3.911767463658217,
+          "p25": -11.084856484601216,
+          "p75": 0.451783329017702,
+          "category_n": 470,
+          "coverage_pct": 80.85106382978724
+        },
+        "brokered": {
+          "n": 13631,
+          "mean": -0.3562278157282504,
+          "median": -0.05011094713303077,
+          "p25": -3.0696245612137183,
+          "p75": 2.622739560673204,
+          "category_n": 14377,
+          "coverage_pct": 94.81115670863184
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "period": "2025H1",
+      "group": "p25_26",
+      "status": "supported",
+      "coverage_status": "supported",
+      "categories": {
+        "direct": {
+          "n": 660,
+          "mean": -7.859088111660657,
+          "median": -5.415470695402814,
+          "p25": -13.962275004202734,
+          "p75": -0.14044558841816157,
+          "category_n": 761,
+          "coverage_pct": 86.72798948751642
+        },
+        "brokered": {
+          "n": 19180,
+          "mean": -0.3916111538096901,
+          "median": -0.21827976723935438,
+          "p25": -3.2894600477829106,
+          "p75": 2.548217575616757,
+          "category_n": 20364,
+          "coverage_pct": 94.18581811039088
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "period": "2026H1",
+      "group": "all",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2026H1",
+      "group": "p17_18",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2026H1",
+      "group": "p25_26",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2026H1",
+      "group": "all",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2026H1",
+      "group": "p17_18",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2026H1",
+      "group": "p25_26",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    }
+  ],
+  "panel_b": [
+    {
+      "geo": "11",
+      "period": "all",
+      "group": "all",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 1590,
+      "median": -14.147734688706842,
+      "p25": -28.735632183908045,
+      "p75": -4.044899307705085,
+      "direct_n": 10177,
+      "coverage_pct": 15.623464675248108
+    },
+    {
+      "geo": "11",
+      "period": "all",
+      "group": "all",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 2094,
+      "median": -13.902373247033456,
+      "p25": -28.323194146893563,
+      "p75": -3.8556489593356114,
+      "direct_n": 10177,
+      "coverage_pct": 20.575808194949396
+    },
+    {
+      "geo": "11",
+      "period": "all",
+      "group": "p17_18",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 411,
+      "median": -16.17910447761194,
+      "p25": -30.546461242176214,
+      "p75": -5.2885837782862986,
+      "direct_n": 1479,
+      "coverage_pct": 27.789046653144016
+    },
+    {
+      "geo": "11",
+      "period": "all",
+      "group": "p17_18",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 516,
+      "median": -15.307600545330612,
+      "p25": -29.79816642911191,
+      "p75": -5.21922851644214,
+      "direct_n": 1479,
+      "coverage_pct": 34.88843813387424
+    },
+    {
+      "geo": "11",
+      "period": "all",
+      "group": "p25_26",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 572,
+      "median": -16.666666666666675,
+      "p25": -28.86449213558417,
+      "p75": -4.974416209600848,
+      "direct_n": 2105,
+      "coverage_pct": 27.173396674584325
+    },
+    {
+      "geo": "11",
+      "period": "all",
+      "group": "p25_26",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 783,
+      "median": -15.749999999999996,
+      "p25": -28.689972233038862,
+      "p75": -4.927404317802637,
+      "direct_n": 2105,
+      "coverage_pct": 37.197149643705465
+    },
+    {
+      "geo": "41",
+      "period": "all",
+      "group": "all",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 6473,
+      "median": -5.098039215686279,
+      "p25": -14.529914529914533,
+      "p75": 0.6711409395973034,
+      "direct_n": 20230,
+      "coverage_pct": 31.99703410776075
+    },
+    {
+      "geo": "41",
+      "period": "all",
+      "group": "all",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 8235,
+      "median": -5.098287386781619,
+      "p25": -14.635671253928084,
+      "p75": 0.7761059155849459,
+      "direct_n": 20230,
+      "coverage_pct": 40.706870983687594
+    },
+    {
+      "geo": "41",
+      "period": "all",
+      "group": "p17_18",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 1757,
+      "median": -4.761904761904767,
+      "p25": -13.414634146341465,
+      "p75": 0.8403361344537785,
+      "direct_n": 3932,
+      "coverage_pct": 44.68463886063072
+    },
+    {
+      "geo": "41",
+      "period": "all",
+      "group": "p17_18",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 2159,
+      "median": -5.0372564760687855,
+      "p25": -14.002821972461444,
+      "p75": 0.6960471052045558,
+      "direct_n": 3932,
+      "coverage_pct": 54.908443540183114
+    },
+    {
+      "geo": "41",
+      "period": "all",
+      "group": "p25_26",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 2702,
+      "median": -4.993403577590277,
+      "p25": -14.541569541569544,
+      "p75": 0.5011695498835789,
+      "direct_n": 6472,
+      "coverage_pct": 41.74907292954264
+    },
+    {
+      "geo": "41",
+      "period": "all",
+      "group": "p25_26",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 3420,
+      "median": -4.905660377358501,
+      "p25": -14.596273291925478,
+      "p75": 0.7906491158385764,
+      "direct_n": 6472,
+      "coverage_pct": 52.843016069221264
+    },
+    {
+      "geo": "11",
+      "period": "2021_tail",
+      "group": "all",
+      "method": "floor_matched",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2021_tail",
+      "group": "all",
+      "method": "floor_pooled",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2021_tail",
+      "group": "p17_18",
+      "method": "floor_matched",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2021_tail",
+      "group": "p17_18",
+      "method": "floor_pooled",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2021_tail",
+      "group": "p25_26",
+      "method": "floor_matched",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2021_tail",
+      "group": "p25_26",
+      "method": "floor_pooled",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2021_tail",
+      "group": "all",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 64,
+      "median": -3.633514761669149,
+      "p25": -12.762190039968345,
+      "p75": 4.476911976911974,
+      "direct_n": 670,
+      "coverage_pct": 9.552238805970148
+    },
+    {
+      "geo": "41",
+      "period": "2021_tail",
+      "group": "all",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 93,
+      "median": -5.522268581408896,
+      "p25": -12.903225806451612,
+      "p75": 0.6885593220339103,
+      "direct_n": 670,
+      "coverage_pct": 13.880597014925373
+    },
+    {
+      "geo": "41",
+      "period": "2021_tail",
+      "group": "p17_18",
+      "method": "floor_matched",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2021_tail",
+      "group": "p17_18",
+      "method": "floor_pooled",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2021_tail",
+      "group": "p25_26",
+      "method": "floor_matched",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2021_tail",
+      "group": "p25_26",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 41,
+      "median": -3.98669592958798,
+      "p25": -12.643678160919535,
+      "p75": 0.0714811299053375,
+      "direct_n": 161,
+      "coverage_pct": 25.46583850931677
+    },
+    {
+      "geo": "11",
+      "period": "2022",
+      "group": "all",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "joint_count_protection",
+      "n": 84,
+      "median": 0.8867184990040355,
+      "p25": -8.706722332865994,
+      "p75": 17.4077641315254
+    },
+    {
+      "geo": "11",
+      "period": "2022",
+      "group": "all",
+      "method": "floor_pooled",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2022",
+      "group": "p17_18",
+      "method": "floor_matched",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2022",
+      "group": "p17_18",
+      "method": "floor_pooled",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2022",
+      "group": "p25_26",
+      "method": "floor_matched",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2022",
+      "group": "p25_26",
+      "method": "floor_pooled",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2022",
+      "group": "all",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 486,
+      "median": -1.9220156255771337,
+      "p25": -10.373440939104919,
+      "p75": 4.910382997423573,
+      "direct_n": 3303,
+      "coverage_pct": 14.713896457765667
+    },
+    {
+      "geo": "41",
+      "period": "2022",
+      "group": "all",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 646,
+      "median": -2.3392612859097053,
+      "p25": -11.231015187849719,
+      "p75": 4.820055904961551,
+      "direct_n": 3303,
+      "coverage_pct": 19.557977596124736
+    },
+    {
+      "geo": "41",
+      "period": "2022",
+      "group": "p17_18",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 152,
+      "median": -2.374041502404367,
+      "p25": -9.932432432432433,
+      "p75": 2.631951568392299,
+      "direct_n": 559,
+      "coverage_pct": 27.191413237924866
+    },
+    {
+      "geo": "41",
+      "period": "2022",
+      "group": "p17_18",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 193,
+      "median": -2.6212319790301364,
+      "p25": -9.909909909909908,
+      "p75": 2.613746369796699,
+      "direct_n": 559,
+      "coverage_pct": 34.52593917710197
+    },
+    {
+      "geo": "41",
+      "period": "2022",
+      "group": "p25_26",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 191,
+      "median": -2.261938572645761,
+      "p25": -12.36535998990973,
+      "p75": 4.9796484947442154,
+      "direct_n": 956,
+      "coverage_pct": 19.97907949790795
+    },
+    {
+      "geo": "41",
+      "period": "2022",
+      "group": "p25_26",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 254,
+      "median": -1.990583574625604,
+      "p25": -12.961911925601752,
+      "p75": 5.2404718693284895,
+      "direct_n": 956,
+      "coverage_pct": 26.569037656903767
+    },
+    {
+      "geo": "11",
+      "period": "2023",
+      "group": "all",
+      "method": "floor_matched",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2023",
+      "group": "all",
+      "method": "floor_pooled",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2023",
+      "group": "p17_18",
+      "method": "floor_matched",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2023",
+      "group": "p17_18",
+      "method": "floor_pooled",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2023",
+      "group": "p25_26",
+      "method": "floor_matched",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2023",
+      "group": "p25_26",
+      "method": "floor_pooled",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2023",
+      "group": "all",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "joint_count_protection",
+      "n": 1492,
+      "median": -4.582168152044558,
+      "p25": -12.202279396170042,
+      "p75": 1.714662322027255
+    },
+    {
+      "geo": "41",
+      "period": "2023",
+      "group": "all",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "joint_count_protection",
+      "n": 1884,
+      "median": -4.662029993479672,
+      "p25": -12.44751498016969,
+      "p75": 1.6265994152555974
+    },
+    {
+      "geo": "41",
+      "period": "2023",
+      "group": "p17_18",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 417,
+      "median": -4.447945987072899,
+      "p25": -11.003236245954696,
+      "p75": 2.7027027027027195,
+      "direct_n": 877,
+      "coverage_pct": 47.548460661345494
+    },
+    {
+      "geo": "41",
+      "period": "2023",
+      "group": "p17_18",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 498,
+      "median": -4.568012145709877,
+      "p25": -11.52121452912196,
+      "p75": 2.427967662171404,
+      "direct_n": 877,
+      "coverage_pct": 56.78449258836944
+    },
+    {
+      "geo": "41",
+      "period": "2023",
+      "group": "p25_26",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 638,
+      "median": -5.366060609590567,
+      "p25": -13.156835230645195,
+      "p75": 1.2716450216450292,
+      "direct_n": 1454,
+      "coverage_pct": 43.878954607977995
+    },
+    {
+      "geo": "41",
+      "period": "2023",
+      "group": "p25_26",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 797,
+      "median": -5.000000000000016,
+      "p25": -13.254437869822489,
+      "p75": 1.1904761904761862,
+      "direct_n": 1454,
+      "coverage_pct": 54.81430536451169
+    },
+    {
+      "geo": "11",
+      "period": "2024",
+      "group": "all",
+      "method": "floor_matched",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2024",
+      "group": "all",
+      "method": "floor_pooled",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2024",
+      "group": "p17_18",
+      "method": "floor_matched",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2024",
+      "group": "p17_18",
+      "method": "floor_pooled",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2024",
+      "group": "p25_26",
+      "method": "floor_matched",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2024",
+      "group": "p25_26",
+      "method": "floor_pooled",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2024",
+      "group": "all",
+      "method": "floor_matched",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2024",
+      "group": "all",
+      "method": "floor_pooled",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2024",
+      "group": "p17_18",
+      "method": "floor_matched",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2024",
+      "group": "p17_18",
+      "method": "floor_pooled",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2024",
+      "group": "p25_26",
+      "method": "floor_matched",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2024",
+      "group": "p25_26",
+      "method": "floor_pooled",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2025",
+      "group": "all",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "joint_count_protection",
+      "n": 557,
+      "median": -15.2317880794702,
+      "p25": -29.184549356223176,
+      "p75": -4.422555317630261
+    },
+    {
+      "geo": "11",
+      "period": "2025",
+      "group": "all",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "joint_count_protection",
+      "n": 728,
+      "median": -15.03094830746669,
+      "p25": -29.430733409603075,
+      "p75": -4.32557115368942
+    },
+    {
+      "geo": "11",
+      "period": "2025",
+      "group": "p17_18",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 140,
+      "median": -18.71657824793249,
+      "p25": -30.69479766207112,
+      "p75": -4.380055009156947,
+      "direct_n": 372,
+      "coverage_pct": 37.634408602150536
+    },
+    {
+      "geo": "11",
+      "period": "2025",
+      "group": "p17_18",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 173,
+      "median": -18.900343642611684,
+      "p25": -30.923694779116452,
+      "p75": -4.996212163619584,
+      "direct_n": 372,
+      "coverage_pct": 46.505376344086024
+    },
+    {
+      "geo": "11",
+      "period": "2025",
+      "group": "p25_26",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 210,
+      "median": -17.149560757352532,
+      "p25": -29.852941176470573,
+      "p75": -5.329055753550138,
+      "direct_n": 591,
+      "coverage_pct": 35.53299492385787
+    },
+    {
+      "geo": "11",
+      "period": "2025",
+      "group": "p25_26",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 288,
+      "median": -16.102230796189396,
+      "p25": -30.29004329004329,
+      "p75": -4.800101858925396,
+      "direct_n": 591,
+      "coverage_pct": 48.73096446700507
+    },
+    {
+      "geo": "41",
+      "period": "2025",
+      "group": "all",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "joint_count_protection",
+      "n": 1723,
+      "median": -4.982817869415824,
+      "p25": -14.631756686331325,
+      "p75": 0.34699173712787745
+    },
+    {
+      "geo": "41",
+      "period": "2025",
+      "group": "all",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "joint_count_protection",
+      "n": 2180,
+      "median": -5.166070168450865,
+      "p25": -14.981303757540282,
+      "p75": 0.30985138743759855
+    },
+    {
+      "geo": "41",
+      "period": "2025",
+      "group": "p17_18",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 468,
+      "median": -4.252136752136753,
+      "p25": -12.692167587519886,
+      "p75": 0.493994343599341,
+      "direct_n": 927,
+      "coverage_pct": 50.48543689320388
+    },
+    {
+      "geo": "41",
+      "period": "2025",
+      "group": "p17_18",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 583,
+      "median": -4.844290657439442,
+      "p25": -14.285714285714285,
+      "p75": 0.153798392366844,
+      "direct_n": 927,
+      "coverage_pct": 62.891046386192016
+    },
+    {
+      "geo": "41",
+      "period": "2025",
+      "group": "p25_26",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 696,
+      "median": -4.766689241451083,
+      "p25": -14.877521651555313,
+      "p75": 0.3051240196630167,
+      "direct_n": 1421,
+      "coverage_pct": 48.97959183673469
+    },
+    {
+      "geo": "41",
+      "period": "2025",
+      "group": "p25_26",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 876,
+      "median": -5.000000000000021,
+      "p25": -14.915152037212506,
+      "p75": 0.31291470623718287,
+      "direct_n": 1421,
+      "coverage_pct": 61.64672765657987
+    },
+    {
+      "geo": "11",
+      "period": "2025H1",
+      "group": "all",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 332,
+      "median": -13.528116153797537,
+      "p25": -27.272516977809683,
+      "p75": -3.499080914730865,
+      "direct_n": 1427,
+      "coverage_pct": 23.2655921513665
+    },
+    {
+      "geo": "11",
+      "period": "2025H1",
+      "group": "all",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 426,
+      "median": -12.500000000000005,
+      "p25": -27.04979077891666,
+      "p75": -3.4533931183815785,
+      "direct_n": 1427,
+      "coverage_pct": 29.852838121934127
+    },
+    {
+      "geo": "11",
+      "period": "2025H1",
+      "group": "p17_18",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 82,
+      "median": -12.448347107438025,
+      "p25": -28.055775316455687,
+      "p75": -2.9254005117615027,
+      "direct_n": 217,
+      "coverage_pct": 37.78801843317972
+    },
+    {
+      "geo": "11",
+      "period": "2025H1",
+      "group": "p17_18",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 100,
+      "median": -13.435269053257503,
+      "p25": -28.014983770686726,
+      "p75": -3.6776670396399758,
+      "direct_n": 217,
+      "coverage_pct": 46.08294930875576
+    },
+    {
+      "geo": "11",
+      "period": "2025H1",
+      "group": "p25_26",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 133,
+      "median": -15.2317880794702,
+      "p25": -27.27272727272728,
+      "p75": -4.677846425419241,
+      "direct_n": 321,
+      "coverage_pct": 41.43302180685358
+    },
+    {
+      "geo": "11",
+      "period": "2025H1",
+      "group": "p25_26",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 174,
+      "median": -13.102261551398069,
+      "p25": -26.952889598264747,
+      "p75": -4.45714559641805,
+      "direct_n": 321,
+      "coverage_pct": 54.205607476635514
+    },
+    {
+      "geo": "41",
+      "period": "2025H1",
+      "group": "all",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 901,
+      "median": -4.230769230769238,
+      "p25": -12.760416666666652,
+      "p75": 0.8203674548338924,
+      "direct_n": 2331,
+      "coverage_pct": 38.65293865293865
+    },
+    {
+      "geo": "41",
+      "period": "2025H1",
+      "group": "all",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 1136,
+      "median": -4.485580743425105,
+      "p25": -12.917327841189733,
+      "p75": 0.7486183691116144,
+      "direct_n": 2331,
+      "coverage_pct": 48.73444873444873
+    },
+    {
+      "geo": "41",
+      "period": "2025H1",
+      "group": "p17_18",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 244,
+      "median": -3.354985836382751,
+      "p25": -10.570170276264612,
+      "p75": 1.0418145430749037,
+      "direct_n": 470,
+      "coverage_pct": 51.91489361702128
+    },
+    {
+      "geo": "41",
+      "period": "2025H1",
+      "group": "p17_18",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 307,
+      "median": -3.7286377173385343,
+      "p25": -11.069439381633146,
+      "p75": 0.8970233306516362,
+      "direct_n": 470,
+      "coverage_pct": 65.31914893617021
+    },
+    {
+      "geo": "41",
+      "period": "2025H1",
+      "group": "p25_26",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 388,
+      "median": -4.256934156462972,
+      "p25": -13.580965909090928,
+      "p75": 0.33621506592651507,
+      "direct_n": 761,
+      "coverage_pct": 50.98554533508541
+    },
+    {
+      "geo": "41",
+      "period": "2025H1",
+      "group": "p25_26",
+      "method": "floor_pooled",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 482,
+      "median": -4.634564235698996,
+      "p25": -13.905572535361443,
+      "p75": 0.28808448495011296,
+      "direct_n": 761,
+      "coverage_pct": 63.337713534822605
+    },
+    {
+      "geo": "11",
+      "period": "2026H1",
+      "group": "all",
+      "method": "floor_matched",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2026H1",
+      "group": "all",
+      "method": "floor_pooled",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2026H1",
+      "group": "p17_18",
+      "method": "floor_matched",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2026H1",
+      "group": "p17_18",
+      "method": "floor_pooled",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2026H1",
+      "group": "p25_26",
+      "method": "floor_matched",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2026H1",
+      "group": "p25_26",
+      "method": "floor_pooled",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2026H1",
+      "group": "all",
+      "method": "floor_matched",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2026H1",
+      "group": "all",
+      "method": "floor_pooled",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2026H1",
+      "group": "p17_18",
+      "method": "floor_matched",
+      "status": "supported",
+      "coverage_status": "supported",
+      "n": 306,
+      "median": -9.063401663903797,
+      "p25": -22.76171987438197,
+      "p75": -1.6909000280501574,
+      "direct_n": 553,
+      "coverage_pct": 55.33453887884268
+    },
+    {
+      "geo": "41",
+      "period": "2026H1",
+      "group": "p17_18",
+      "method": "floor_pooled",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2026H1",
+      "group": "p25_26",
+      "method": "floor_matched",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2026H1",
+      "group": "p25_26",
+      "method": "floor_pooled",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    }
+  ],
+  "composition": [
+    {
+      "geo": "11",
+      "period": "all",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 351,
+      "brokered_n": 8804,
+      "direct_mean": -13.87108637150337,
+      "brokered_mean": 0.7133178147261936,
+      "difference_pp": -14.584404186229564,
+      "direct_coverage_pct": 7.939380230717032,
+      "brokered_coverage_pct": 5.493230174081238,
+      "direct_eligible_n": 4421,
+      "brokered_eligible_n": 160270
+    },
+    {
+      "geo": "11",
+      "period": "all",
+      "group": "p17_18",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 61,
+      "brokered_n": 1931,
+      "direct_mean": -16.34742289623463,
+      "brokered_mean": 0.3901044663624555,
+      "difference_pp": -16.737527362597085,
+      "direct_coverage_pct": 7.10955710955711,
+      "brokered_coverage_pct": 3.949440615220993,
+      "direct_eligible_n": 858,
+      "brokered_eligible_n": 48893
+    },
+    {
+      "geo": "11",
+      "period": "all",
+      "group": "p25_26",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 191,
+      "brokered_n": 6205,
+      "direct_mean": -18.726789189812006,
+      "brokered_mean": 1.1913202094689757,
+      "difference_pp": -19.918109399280983,
+      "direct_coverage_pct": 13.431786216596343,
+      "brokered_coverage_pct": 10.71841909795996,
+      "direct_eligible_n": 1422,
+      "brokered_eligible_n": 57891
+    },
+    {
+      "geo": "41",
+      "period": "all",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 4651,
+      "brokered_n": 101465,
+      "direct_mean": -6.899504690626243,
+      "brokered_mean": -0.641711255731045,
+      "difference_pp": -6.257793434895198,
+      "direct_coverage_pct": 32.2829180259596,
+      "brokered_coverage_pct": 28.80057450709902,
+      "direct_eligible_n": 14407,
+      "brokered_eligible_n": 352302
+    },
+    {
+      "geo": "41",
+      "period": "all",
+      "group": "p17_18",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 1129,
+      "brokered_n": 24023,
+      "direct_mean": -5.7839085053033985,
+      "brokered_mean": -0.7145960438421087,
+      "difference_pp": -5.06931246146129,
+      "direct_coverage_pct": 36.823222439660796,
+      "brokered_coverage_pct": 25.777687165345036,
+      "direct_eligible_n": 3066,
+      "brokered_eligible_n": 93193
+    },
+    {
+      "geo": "41",
+      "period": "all",
+      "group": "p25_26",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 3378,
+      "brokered_n": 77215,
+      "direct_mean": -7.302278309373266,
+      "brokered_mean": -0.6314050353978564,
+      "difference_pp": -6.67087327397541,
+      "direct_coverage_pct": 64.22053231939164,
+      "brokered_coverage_pct": 56.54829472635796,
+      "direct_eligible_n": 5260,
+      "brokered_eligible_n": 136547
+    },
+    {
+      "geo": "11",
+      "period": "2021_tail",
+      "group": "all",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2021_tail",
+      "group": "p17_18",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2021_tail",
+      "group": "p25_26",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2021_tail",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 75,
+      "brokered_n": 782,
+      "direct_mean": -6.9263032577698445,
+      "brokered_mean": 0.8780220398063712,
+      "difference_pp": -7.804325297576216,
+      "direct_coverage_pct": 14.677103718199609,
+      "brokered_coverage_pct": 13.98176291793313,
+      "direct_eligible_n": 511,
+      "brokered_eligible_n": 5593
+    },
+    {
+      "geo": "41",
+      "period": "2021_tail",
+      "group": "p17_18",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2021_tail",
+      "group": "p25_26",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 61,
+      "brokered_n": 540,
+      "direct_mean": -8.87902699268837,
+      "brokered_mean": 0.5843062842851557,
+      "difference_pp": -9.463333276973525,
+      "direct_coverage_pct": 42.65734265734266,
+      "brokered_coverage_pct": 27.763496143958868,
+      "direct_eligible_n": 143,
+      "brokered_eligible_n": 1945
+    },
+    {
+      "geo": "11",
+      "period": "2022",
+      "group": "all",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2022",
+      "group": "p17_18",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2022",
+      "group": "p25_26",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2022",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 442,
+      "brokered_n": 5220,
+      "direct_mean": -5.4629062771888215,
+      "brokered_mean": -2.3728379907737254,
+      "difference_pp": -3.090068286415096,
+      "direct_coverage_pct": 21.88118811881188,
+      "brokered_coverage_pct": 20.687195339436453,
+      "direct_eligible_n": 2020,
+      "brokered_eligible_n": 25233
+    },
+    {
+      "geo": "41",
+      "period": "2022",
+      "group": "p17_18",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 92,
+      "brokered_n": 1601,
+      "direct_mean": -7.151070032110743,
+      "brokered_mean": -0.9792210518796165,
+      "difference_pp": -6.171848980231127,
+      "direct_coverage_pct": 21.80094786729858,
+      "brokered_coverage_pct": 23.129153423865933,
+      "direct_eligible_n": 422,
+      "brokered_eligible_n": 6922
+    },
+    {
+      "geo": "41",
+      "period": "2022",
+      "group": "p25_26",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 306,
+      "brokered_n": 3560,
+      "direct_mean": -8.263559710239434,
+      "brokered_mean": -3.284508342111345,
+      "difference_pp": -4.97905136812809,
+      "direct_coverage_pct": 42.38227146814405,
+      "brokered_coverage_pct": 40.16245487364621,
+      "direct_eligible_n": 722,
+      "brokered_eligible_n": 8864
+    },
+    {
+      "geo": "11",
+      "period": "2023",
+      "group": "all",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2023",
+      "group": "p17_18",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2023",
+      "group": "p25_26",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2023",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 1037,
+      "brokered_n": 19241,
+      "direct_mean": -6.228694838798385,
+      "brokered_mean": -0.46332407865554504,
+      "difference_pp": -5.76537076014284,
+      "direct_coverage_pct": 34.34912222590262,
+      "brokered_coverage_pct": 29.354508978290387,
+      "direct_eligible_n": 3019,
+      "brokered_eligible_n": 65547
+    },
+    {
+      "geo": "41",
+      "period": "2023",
+      "group": "p17_18",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 262,
+      "brokered_n": 4821,
+      "direct_mean": -6.137976108615895,
+      "brokered_mean": -0.9016809128137938,
+      "difference_pp": -5.236295195802101,
+      "direct_coverage_pct": 39.3984962406015,
+      "brokered_coverage_pct": 27.907380607814762,
+      "direct_eligible_n": 665,
+      "brokered_eligible_n": 17275
+    },
+    {
+      "geo": "41",
+      "period": "2023",
+      "group": "p25_26",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 775,
+      "brokered_n": 14420,
+      "direct_mean": -6.259363622421368,
+      "brokered_mean": -0.31513118762398235,
+      "difference_pp": -5.944232434797386,
+      "direct_coverage_pct": 66.52360515021459,
+      "brokered_coverage_pct": 54.991991457554725,
+      "direct_eligible_n": 1165,
+      "brokered_eligible_n": 26222
+    },
+    {
+      "geo": "11",
+      "period": "2024",
+      "group": "all",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2024",
+      "group": "p17_18",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2024",
+      "group": "p25_26",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2024",
+      "group": "all",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2024",
+      "group": "p17_18",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2024",
+      "group": "p25_26",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2025",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 157,
+      "brokered_n": 4160,
+      "direct_mean": -16.145839302334583,
+      "brokered_mean": 0.7761643979239002,
+      "difference_pp": -16.922003700258482,
+      "direct_coverage_pct": 12.14230471771075,
+      "brokered_coverage_pct": 7.061020113723161,
+      "direct_eligible_n": 1293,
+      "brokered_eligible_n": 58915
+    },
+    {
+      "geo": "11",
+      "period": "2025",
+      "group": "p17_18",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2025",
+      "group": "p25_26",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 97,
+      "brokered_n": 3199,
+      "direct_mean": -19.34651843412482,
+      "brokered_mean": 1.387313760031351,
+      "difference_pp": -20.73383219415617,
+      "direct_coverage_pct": 21.555555555555557,
+      "brokered_coverage_pct": 14.648777360564154,
+      "direct_eligible_n": 450,
+      "brokered_eligible_n": 21838
+    },
+    {
+      "geo": "41",
+      "period": "2025",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 1108,
+      "brokered_n": 27639,
+      "direct_mean": -6.277257930693498,
+      "brokered_mean": -0.5924330483498867,
+      "difference_pp": -5.684824882343611,
+      "direct_coverage_pct": 31.5579606949587,
+      "brokered_coverage_pct": 27.04323747835191,
+      "direct_eligible_n": 3511,
+      "brokered_eligible_n": 102203
+    },
+    {
+      "geo": "41",
+      "period": "2025",
+      "group": "p17_18",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 237,
+      "brokered_n": 4955,
+      "direct_mean": -3.502970997903284,
+      "brokered_mean": -0.9289794600575407,
+      "difference_pp": -2.5739915378457434,
+      "direct_coverage_pct": 32.113821138211385,
+      "brokered_coverage_pct": 18.131586651053865,
+      "direct_eligible_n": 738,
+      "brokered_eligible_n": 27328
+    },
+    {
+      "geo": "41",
+      "period": "2025",
+      "group": "p25_26",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 838,
+      "brokered_n": 22554,
+      "direct_mean": -7.12908657685606,
+      "brokered_mean": -0.5100976026826517,
+      "difference_pp": -6.6189889741734085,
+      "direct_coverage_pct": 67.63518966908798,
+      "brokered_coverage_pct": 57.24946695095949,
+      "direct_eligible_n": 1239,
+      "brokered_eligible_n": 39396
+    },
+    {
+      "geo": "11",
+      "period": "2025H1",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 102,
+      "brokered_n": 3012,
+      "direct_mean": -14.683673281982125,
+      "brokered_mean": 0.6063786315985977,
+      "difference_pp": -15.290051913580722,
+      "direct_coverage_pct": 15.201192250372578,
+      "brokered_coverage_pct": 9.245503100251703,
+      "direct_eligible_n": 671,
+      "brokered_eligible_n": 32578
+    },
+    {
+      "geo": "11",
+      "period": "2025H1",
+      "group": "p17_18",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2025H1",
+      "group": "p25_26",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 63,
+      "brokered_n": 2408,
+      "direct_mean": -18.330573365641815,
+      "brokered_mean": 1.1137954204866278,
+      "difference_pp": -19.444368786128443,
+      "direct_coverage_pct": 25.714285714285715,
+      "brokered_coverage_pct": 19.9635218040126,
+      "direct_eligible_n": 245,
+      "brokered_eligible_n": 12062
+    },
+    {
+      "geo": "41",
+      "period": "2025H1",
+      "group": "all",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 631,
+      "brokered_n": 14639,
+      "direct_mean": -6.337314122001432,
+      "brokered_mean": -0.6937111047755581,
+      "difference_pp": -5.643603017225874,
+      "direct_coverage_pct": 35.54929577464789,
+      "brokered_coverage_pct": 29.182282114663902,
+      "direct_eligible_n": 1775,
+      "brokered_eligible_n": 50164
+    },
+    {
+      "geo": "41",
+      "period": "2025H1",
+      "group": "p17_18",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 136,
+      "brokered_n": 2738,
+      "direct_mean": -3.9544210131733393,
+      "brokered_mean": -1.034293319631443,
+      "difference_pp": -2.9201276935418963,
+      "direct_coverage_pct": 35.78947368421053,
+      "brokered_coverage_pct": 20.086567383170713,
+      "direct_eligible_n": 380,
+      "brokered_eligible_n": 13631
+    },
+    {
+      "geo": "41",
+      "period": "2025H1",
+      "group": "p25_26",
+      "status": "supported",
+      "coverage_status": "supported",
+      "direct_n": 484,
+      "brokered_n": 11829,
+      "direct_mean": -7.151044410037609,
+      "brokered_mean": -0.6156143422008941,
+      "difference_pp": -6.535430067836715,
+      "direct_coverage_pct": 73.33333333333333,
+      "brokered_coverage_pct": 61.67361835245047,
+      "direct_eligible_n": 660,
+      "brokered_eligible_n": 19180
+    },
+    {
+      "geo": "11",
+      "period": "2026H1",
+      "group": "all",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2026H1",
+      "group": "p17_18",
+      "status": "insufficient_support",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "11",
+      "period": "2026H1",
+      "group": "p25_26",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2026H1",
+      "group": "all",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2026H1",
+      "group": "p17_18",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    },
+    {
+      "geo": "41",
+      "period": "2026H1",
+      "group": "p25_26",
+      "status": "joint_count_protection",
+      "coverage_status": "distribution_unavailable"
+    }
+  ],
+  "regional_rates": [
+    {
+      "region": "11110",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 1963,
+      "direct_n": 141,
+      "direct_pct": 7.182883341823739
+    },
+    {
+      "region": "11140",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 3388,
+      "direct_n": 148,
+      "direct_pct": 4.368358913813459
+    },
+    {
+      "region": "11170",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 4012,
+      "direct_n": 206,
+      "direct_pct": 5.134596211365903
+    },
+    {
+      "region": "11200",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 9870,
+      "direct_n": 304,
+      "direct_pct": 3.0800405268490376
+    },
+    {
+      "region": "11215",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 4866,
+      "direct_n": 317,
+      "direct_pct": 6.514591039868475
+    },
+    {
+      "region": "11230",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 9913,
+      "direct_n": 578,
+      "direct_pct": 5.830727327751437
+    },
+    {
+      "region": "11260",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 6462,
+      "direct_n": 466,
+      "direct_pct": 7.211389662643144
+    },
+    {
+      "region": "11290",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 12093,
+      "direct_n": 562,
+      "direct_pct": 4.647316629455057
+    },
+    {
+      "region": "11305",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 4028,
+      "direct_n": 315,
+      "direct_pct": 7.82025819265144
+    },
+    {
+      "region": "11320",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 6577,
+      "direct_n": 305,
+      "direct_pct": 4.637372662308043
+    },
+    {
+      "region": "11350",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 17805,
+      "direct_n": 657,
+      "direct_pct": 3.6899747262005054
+    },
+    {
+      "region": "11380",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 8927,
+      "direct_n": 932,
+      "direct_pct": 10.440237481796796
+    },
+    {
+      "region": "11410",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 8613,
+      "direct_n": 434,
+      "direct_pct": 5.038894694067108
+    },
+    {
+      "region": "11440",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 9730,
+      "direct_n": 283,
+      "direct_pct": 2.908530318602261
+    },
+    {
+      "region": "11470",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 9548,
+      "direct_n": 331,
+      "direct_pct": 3.466694595726854
+    },
+    {
+      "region": "11500",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 12356,
+      "direct_n": 671,
+      "direct_pct": 5.430560051796698
+    },
+    {
+      "region": "11530",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 10220,
+      "direct_n": 641,
+      "direct_pct": 6.2720156555773
+    },
+    {
+      "region": "11545",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 3252,
+      "direct_n": 226,
+      "direct_pct": 6.9495694956949565
+    },
+    {
+      "region": "11560",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 11530,
+      "direct_n": 623,
+      "direct_pct": 5.4032957502168255
+    },
+    {
+      "region": "11590",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 9722,
+      "direct_n": 371,
+      "direct_pct": 3.816087224850854
+    },
+    {
+      "region": "11620",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 6375,
+      "direct_n": 353,
+      "direct_pct": 5.537254901960784
+    },
+    {
+      "region": "11650",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 9626,
+      "direct_n": 396,
+      "direct_pct": 4.113858300436318
+    },
+    {
+      "region": "11680",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 12462,
+      "direct_n": 496,
+      "direct_pct": 3.9800995024875623
+    },
+    {
+      "region": "11710",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 15607,
+      "direct_n": 501,
+      "direct_pct": 3.21009803293394
+    },
+    {
+      "region": "11740",
+      "period": "all",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41111",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 8482,
+      "direct_n": 367,
+      "direct_pct": 4.326809714689932
+    },
+    {
+      "region": "41113",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 13933,
+      "direct_n": 604,
+      "direct_pct": 4.335031938563123
+    },
+    {
+      "region": "41115",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 6458,
+      "direct_n": 498,
+      "direct_pct": 7.71136574790957
+    },
+    {
+      "region": "41117",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 20176,
+      "direct_n": 574,
+      "direct_pct": 2.844964314036479
+    },
+    {
+      "region": "41131",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 4825,
+      "direct_n": 441,
+      "direct_pct": 9.139896373056995
+    },
+    {
+      "region": "41133",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 4778,
+      "direct_n": 184,
+      "direct_pct": 3.8509836751778987
+    },
+    {
+      "region": "41135",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 17830,
+      "direct_n": 538,
+      "direct_pct": 3.0173864273696016
+    },
+    {
+      "region": "41150",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 17507,
+      "direct_n": 1026,
+      "direct_pct": 5.86051293768207
+    },
+    {
+      "region": "41171",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 7382,
+      "direct_n": 376,
+      "direct_pct": 5.093470604172311
+    },
+    {
+      "region": "41173",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 16201,
+      "direct_n": 546,
+      "direct_pct": 3.370162335658293
+    },
+    {
+      "region": "41192",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 12672,
+      "direct_n": 910,
+      "direct_pct": 7.1811868686868685
+    },
+    {
+      "region": "41194",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 6967,
+      "direct_n": 626,
+      "direct_pct": 8.985216018372327
+    },
+    {
+      "region": "41196",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 2438,
+      "direct_n": 455,
+      "direct_pct": 18.66283839212469
+    },
+    {
+      "region": "41210",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 11374,
+      "direct_n": 353,
+      "direct_pct": 3.1035695445753473
+    },
+    {
+      "region": "41220",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 28915,
+      "direct_n": 2564,
+      "direct_pct": 8.867369877226354
+    },
+    {
+      "region": "41271",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 6314,
+      "direct_n": 373,
+      "direct_pct": 5.907507127019322
+    },
+    {
+      "region": "41273",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 10415,
+      "direct_n": 440,
+      "direct_pct": 4.224675948151704
+    },
+    {
+      "region": "41281",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 15469,
+      "direct_n": 639,
+      "direct_pct": 4.130842329820932
+    },
+    {
+      "region": "41285",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 8146,
+      "direct_n": 434,
+      "direct_pct": 5.32776822980604
+    },
+    {
+      "region": "41287",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 11518,
+      "direct_n": 625,
+      "direct_pct": 5.426289286334433
+    },
+    {
+      "region": "41290",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 2388,
+      "direct_n": 74,
+      "direct_pct": 3.0988274706867673
+    },
+    {
+      "region": "41310",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 7564,
+      "direct_n": 236,
+      "direct_pct": 3.120042305658382
+    },
+    {
+      "region": "41360",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 25437,
+      "direct_n": 1375,
+      "direct_pct": 5.4055116562487715
+    },
+    {
+      "region": "41410",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 10711,
+      "direct_n": 535,
+      "direct_pct": 4.994865091961535
+    },
+    {
+      "region": "41430",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 6225,
+      "direct_n": 273,
+      "direct_pct": 4.385542168674699
+    },
+    {
+      "region": "41450",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 12679,
+      "direct_n": 454,
+      "direct_pct": 3.5807240318637117
+    },
+    {
+      "region": "41461",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 8029,
+      "direct_n": 532,
+      "direct_pct": 6.6259808195292065
+    },
+    {
+      "region": "41463",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 20250,
+      "direct_n": 864,
+      "direct_pct": 4.266666666666667
+    },
+    {
+      "region": "41465",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 21474,
+      "direct_n": 697,
+      "direct_pct": 3.2457856011921393
+    },
+    {
+      "region": "41480",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 16676,
+      "direct_n": 826,
+      "direct_pct": 4.9532261933317345
+    },
+    {
+      "region": "41570",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 19289,
+      "direct_n": 896,
+      "direct_pct": 4.645134532635181
+    },
+    {
+      "region": "41591",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 5807,
+      "direct_n": 413,
+      "direct_pct": 7.112106078870329
+    },
+    {
+      "region": "41593",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 5424,
+      "direct_n": 261,
+      "direct_pct": 4.811946902654867
+    },
+    {
+      "region": "41595",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 8180,
+      "direct_n": 323,
+      "direct_pct": 3.9486552567237165
+    },
+    {
+      "region": "41597",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 25160,
+      "direct_n": 592,
+      "direct_pct": 2.3529411764705883
+    },
+    {
+      "region": "41610",
+      "period": "all",
+      "status": "supported",
+      "reported_n": 9246,
+      "direct_n": 551,
+      "direct_pct": 5.959333765952844
+    },
+    {
+      "region": "11110",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "11140",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "11170",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "11200",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "11215",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "11230",
+      "period": "2021_tail",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11260",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "11290",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "11305",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "11320",
+      "period": "2021_tail",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11350",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "11380",
+      "period": "2021_tail",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11410",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "11440",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "11470",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "11500",
+      "period": "2021_tail",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11530",
+      "period": "2021_tail",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11545",
+      "period": "2021_tail",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11560",
+      "period": "2021_tail",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11590",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "11620",
+      "period": "2021_tail",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11650",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "11680",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "11710",
+      "period": "2021_tail",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11740",
+      "period": "2021_tail",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41111",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "41113",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 174,
+      "direct_n": 13,
+      "direct_pct": 7.471264367816092
+    },
+    {
+      "region": "41115",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 64,
+      "direct_n": 25,
+      "direct_pct": 39.0625
+    },
+    {
+      "region": "41117",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 246,
+      "direct_n": 16,
+      "direct_pct": 6.504065040650406
+    },
+    {
+      "region": "41131",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "41133",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "41135",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 174,
+      "direct_n": 13,
+      "direct_pct": 7.471264367816092
+    },
+    {
+      "region": "41150",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 340,
+      "direct_n": 43,
+      "direct_pct": 12.647058823529411
+    },
+    {
+      "region": "41171",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "41173",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "41192",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 211,
+      "direct_n": 46,
+      "direct_pct": 21.80094786729858
+    },
+    {
+      "region": "41194",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 140,
+      "direct_n": 29,
+      "direct_pct": 20.714285714285715
+    },
+    {
+      "region": "41196",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "41210",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "41220",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 929,
+      "direct_n": 115,
+      "direct_pct": 12.378902045209903
+    },
+    {
+      "region": "41271",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 155,
+      "direct_n": 11,
+      "direct_pct": 7.096774193548387
+    },
+    {
+      "region": "41273",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "41281",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "41285",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "41287",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 297,
+      "direct_n": 22,
+      "direct_pct": 7.407407407407407
+    },
+    {
+      "region": "41290",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 15,
+      "direct_n": 0,
+      "direct_pct": 0.0
+    },
+    {
+      "region": "41310",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "41360",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 432,
+      "direct_n": 41,
+      "direct_pct": 9.49074074074074
+    },
+    {
+      "region": "41410",
+      "period": "2021_tail",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41430",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "41450",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 175,
+      "direct_n": 18,
+      "direct_pct": 10.285714285714286
+    },
+    {
+      "region": "41461",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 224,
+      "direct_n": 12,
+      "direct_pct": 5.357142857142857
+    },
+    {
+      "region": "41463",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 329,
+      "direct_n": 17,
+      "direct_pct": 5.167173252279635
+    },
+    {
+      "region": "41465",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 298,
+      "direct_n": 63,
+      "direct_pct": 21.140939597315437
+    },
+    {
+      "region": "41480",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 502,
+      "direct_n": 33,
+      "direct_pct": 6.573705179282869
+    },
+    {
+      "region": "41570",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 374,
+      "direct_n": 25,
+      "direct_pct": 6.684491978609626
+    },
+    {
+      "region": "41591",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 112,
+      "direct_n": 16,
+      "direct_pct": 14.285714285714286
+    },
+    {
+      "region": "41593",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "41595",
+      "period": "2021_tail",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "41597",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 253,
+      "direct_n": 30,
+      "direct_pct": 11.857707509881424
+    },
+    {
+      "region": "41610",
+      "period": "2021_tail",
+      "status": "supported",
+      "reported_n": 190,
+      "direct_n": 13,
+      "direct_pct": 6.842105263157895
+    },
+    {
+      "region": "11110",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11140",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11170",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11200",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11215",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11230",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11260",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11290",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11305",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11320",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11350",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11380",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11410",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11440",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11470",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11500",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11530",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11545",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11560",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11590",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11620",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11650",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11680",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11710",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11740",
+      "period": "2022",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41111",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 530,
+      "direct_n": 53,
+      "direct_pct": 10.0
+    },
+    {
+      "region": "41113",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 1097,
+      "direct_n": 96,
+      "direct_pct": 8.751139471285324
+    },
+    {
+      "region": "41115",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 432,
+      "direct_n": 101,
+      "direct_pct": 23.37962962962963
+    },
+    {
+      "region": "41117",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 1437,
+      "direct_n": 100,
+      "direct_pct": 6.958942240779401
+    },
+    {
+      "region": "41131",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 217,
+      "direct_n": 14,
+      "direct_pct": 6.451612903225806
+    },
+    {
+      "region": "41133",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 217,
+      "direct_n": 21,
+      "direct_pct": 9.67741935483871
+    },
+    {
+      "region": "41135",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 1070,
+      "direct_n": 67,
+      "direct_pct": 6.261682242990654
+    },
+    {
+      "region": "41150",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 1690,
+      "direct_n": 237,
+      "direct_pct": 14.023668639053254
+    },
+    {
+      "region": "41171",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 551,
+      "direct_n": 77,
+      "direct_pct": 13.97459165154265
+    },
+    {
+      "region": "41173",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 687,
+      "direct_n": 49,
+      "direct_pct": 7.132459970887918
+    },
+    {
+      "region": "41192",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 1209,
+      "direct_n": 204,
+      "direct_pct": 16.87344913151365
+    },
+    {
+      "region": "41194",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 682,
+      "direct_n": 69,
+      "direct_pct": 10.117302052785924
+    },
+    {
+      "region": "41196",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 403,
+      "direct_n": 63,
+      "direct_pct": 15.632754342431761
+    },
+    {
+      "region": "41210",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 515,
+      "direct_n": 54,
+      "direct_pct": 10.485436893203884
+    },
+    {
+      "region": "41220",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 5107,
+      "direct_n": 476,
+      "direct_pct": 9.320540434697474
+    },
+    {
+      "region": "41271",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 697,
+      "direct_n": 54,
+      "direct_pct": 7.747489239598278
+    },
+    {
+      "region": "41273",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 977,
+      "direct_n": 70,
+      "direct_pct": 7.164790174002047
+    },
+    {
+      "region": "41281",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 1201,
+      "direct_n": 99,
+      "direct_pct": 8.243130724396336
+    },
+    {
+      "region": "41285",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 943,
+      "direct_n": 67,
+      "direct_pct": 7.104984093319194
+    },
+    {
+      "region": "41287",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 1518,
+      "direct_n": 94,
+      "direct_pct": 6.19235836627141
+    },
+    {
+      "region": "41290",
+      "period": "2022",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "41310",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 301,
+      "direct_n": 32,
+      "direct_pct": 10.631229235880399
+    },
+    {
+      "region": "41360",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 2050,
+      "direct_n": 184,
+      "direct_pct": 8.975609756097562
+    },
+    {
+      "region": "41410",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 788,
+      "direct_n": 59,
+      "direct_pct": 7.4873096446700504
+    },
+    {
+      "region": "41430",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 355,
+      "direct_n": 50,
+      "direct_pct": 14.084507042253522
+    },
+    {
+      "region": "41450",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 700,
+      "direct_n": 69,
+      "direct_pct": 9.857142857142858
+    },
+    {
+      "region": "41461",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 957,
+      "direct_n": 116,
+      "direct_pct": 12.121212121212121
+    },
+    {
+      "region": "41463",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 1120,
+      "direct_n": 123,
+      "direct_pct": 10.982142857142858
+    },
+    {
+      "region": "41465",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 1094,
+      "direct_n": 115,
+      "direct_pct": 10.511882998171846
+    },
+    {
+      "region": "41480",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 2229,
+      "direct_n": 159,
+      "direct_pct": 7.133243606998654
+    },
+    {
+      "region": "41570",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 1894,
+      "direct_n": 148,
+      "direct_pct": 7.81414994720169
+    },
+    {
+      "region": "41591",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 655,
+      "direct_n": 61,
+      "direct_pct": 9.312977099236642
+    },
+    {
+      "region": "41593",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 504,
+      "direct_n": 31,
+      "direct_pct": 6.150793650793651
+    },
+    {
+      "region": "41595",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 464,
+      "direct_n": 65,
+      "direct_pct": 14.008620689655173
+    },
+    {
+      "region": "41597",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 1540,
+      "direct_n": 119,
+      "direct_pct": 7.7272727272727275
+    },
+    {
+      "region": "41610",
+      "period": "2022",
+      "status": "supported",
+      "reported_n": 972,
+      "direct_n": 93,
+      "direct_pct": 9.567901234567902
+    },
+    {
+      "region": "11110",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11140",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11170",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11200",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11215",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11230",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11260",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11290",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11305",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11320",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11350",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11380",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11410",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11440",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11470",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11500",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11530",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11545",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11560",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11590",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11620",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11650",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11680",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11710",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11740",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41111",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 1560,
+      "direct_n": 82,
+      "direct_pct": 5.256410256410256
+    },
+    {
+      "region": "41113",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 2615,
+      "direct_n": 117,
+      "direct_pct": 4.474187380497132
+    },
+    {
+      "region": "41115",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 1073,
+      "direct_n": 149,
+      "direct_pct": 13.886300093196645
+    },
+    {
+      "region": "41117",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 4384,
+      "direct_n": 145,
+      "direct_pct": 3.3074817518248176
+    },
+    {
+      "region": "41131",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 852,
+      "direct_n": 65,
+      "direct_pct": 7.629107981220657
+    },
+    {
+      "region": "41133",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 607,
+      "direct_n": 18,
+      "direct_pct": 2.9654036243822075
+    },
+    {
+      "region": "41135",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 3182,
+      "direct_n": 93,
+      "direct_pct": 2.9226901319924576
+    },
+    {
+      "region": "41150",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 3583,
+      "direct_n": 223,
+      "direct_pct": 6.223834775327937
+    },
+    {
+      "region": "41171",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 1178,
+      "direct_n": 74,
+      "direct_pct": 6.281833616298812
+    },
+    {
+      "region": "41173",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 2593,
+      "direct_n": 104,
+      "direct_pct": 4.010798303123795
+    },
+    {
+      "region": "41192",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 2263,
+      "direct_n": 151,
+      "direct_pct": 6.672558550596554
+    },
+    {
+      "region": "41194",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 1402,
+      "direct_n": 119,
+      "direct_pct": 8.487874465049929
+    },
+    {
+      "region": "41196",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 433,
+      "direct_n": 74,
+      "direct_pct": 17.090069284064665
+    },
+    {
+      "region": "41210",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 1804,
+      "direct_n": 84,
+      "direct_pct": 4.656319290465632
+    },
+    {
+      "region": "41220",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 6535,
+      "direct_n": 597,
+      "direct_pct": 9.135424636572303
+    },
+    {
+      "region": "41271",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 1355,
+      "direct_n": 93,
+      "direct_pct": 6.863468634686347
+    },
+    {
+      "region": "41273",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 2475,
+      "direct_n": 107,
+      "direct_pct": 4.3232323232323235
+    },
+    {
+      "region": "41281",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 3223,
+      "direct_n": 155,
+      "direct_pct": 4.809183990071362
+    },
+    {
+      "region": "41285",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 1719,
+      "direct_n": 84,
+      "direct_pct": 4.886561954624782
+    },
+    {
+      "region": "41287",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 2459,
+      "direct_n": 123,
+      "direct_pct": 5.002033346888979
+    },
+    {
+      "region": "41290",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 517,
+      "direct_n": 22,
+      "direct_pct": 4.25531914893617
+    },
+    {
+      "region": "41310",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 818,
+      "direct_n": 50,
+      "direct_pct": 6.112469437652812
+    },
+    {
+      "region": "41360",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 4633,
+      "direct_n": 308,
+      "direct_pct": 6.647960284912584
+    },
+    {
+      "region": "41410",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 1980,
+      "direct_n": 113,
+      "direct_pct": 5.707070707070707
+    },
+    {
+      "region": "41430",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 1162,
+      "direct_n": 67,
+      "direct_pct": 5.76592082616179
+    },
+    {
+      "region": "41450",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 2376,
+      "direct_n": 106,
+      "direct_pct": 4.461279461279461
+    },
+    {
+      "region": "41461",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 1501,
+      "direct_n": 126,
+      "direct_pct": 8.394403730846102
+    },
+    {
+      "region": "41463",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 3532,
+      "direct_n": 193,
+      "direct_pct": 5.464326160815402
+    },
+    {
+      "region": "41465",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 3951,
+      "direct_n": 126,
+      "direct_pct": 3.1890660592255125
+    },
+    {
+      "region": "41480",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 3463,
+      "direct_n": 186,
+      "direct_pct": 5.3710655501010685
+    },
+    {
+      "region": "41570",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 4704,
+      "direct_n": 250,
+      "direct_pct": 5.3146258503401365
+    },
+    {
+      "region": "41591",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 1375,
+      "direct_n": 108,
+      "direct_pct": 7.8545454545454545
+    },
+    {
+      "region": "41593",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 1016,
+      "direct_n": 65,
+      "direct_pct": 6.397637795275591
+    },
+    {
+      "region": "41595",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 1873,
+      "direct_n": 71,
+      "direct_pct": 3.790710090763481
+    },
+    {
+      "region": "41597",
+      "period": "2023",
+      "status": "supported",
+      "reported_n": 4594,
+      "direct_n": 101,
+      "direct_pct": 2.198519808445799
+    },
+    {
+      "region": "41610",
+      "period": "2023",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11110",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11140",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11170",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11200",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11215",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11230",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11260",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11290",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11305",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11320",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11350",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11380",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11410",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11440",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11470",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11500",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11530",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11545",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11560",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11590",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11620",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11650",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11680",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11710",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11740",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41111",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41113",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41115",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41117",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41131",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41133",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41135",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41150",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41171",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41173",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41192",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41194",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41196",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41210",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41220",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41271",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41273",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41281",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41285",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41287",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41290",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41310",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41360",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41410",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41430",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41450",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41461",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41463",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41465",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41480",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41570",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41591",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41593",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41595",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41597",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41610",
+      "period": "2024",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11110",
+      "period": "2025",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11140",
+      "period": "2025",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11170",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 1456,
+      "direct_n": 116,
+      "direct_pct": 7.967032967032967
+    },
+    {
+      "region": "11200",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 4244,
+      "direct_n": 147,
+      "direct_pct": 3.463713477851084
+    },
+    {
+      "region": "11215",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 2020,
+      "direct_n": 78,
+      "direct_pct": 3.8613861386138613
+    },
+    {
+      "region": "11230",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 3740,
+      "direct_n": 230,
+      "direct_pct": 6.149732620320855
+    },
+    {
+      "region": "11260",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 1943,
+      "direct_n": 134,
+      "direct_pct": 6.896551724137931
+    },
+    {
+      "region": "11290",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 4229,
+      "direct_n": 149,
+      "direct_pct": 3.5232915582880113
+    },
+    {
+      "region": "11305",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 1203,
+      "direct_n": 54,
+      "direct_pct": 4.488778054862843
+    },
+    {
+      "region": "11320",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 1814,
+      "direct_n": 79,
+      "direct_pct": 4.355016538037487
+    },
+    {
+      "region": "11350",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 5519,
+      "direct_n": 181,
+      "direct_pct": 3.279579633991665
+    },
+    {
+      "region": "11380",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 2799,
+      "direct_n": 251,
+      "direct_pct": 8.967488388710253
+    },
+    {
+      "region": "11410",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 3106,
+      "direct_n": 89,
+      "direct_pct": 2.8654217643271087
+    },
+    {
+      "region": "11440",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 3949,
+      "direct_n": 74,
+      "direct_pct": 1.8738921245885034
+    },
+    {
+      "region": "11470",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 3453,
+      "direct_n": 85,
+      "direct_pct": 2.4616275702287864
+    },
+    {
+      "region": "11500",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 4369,
+      "direct_n": 196,
+      "direct_pct": 4.486152437628748
+    },
+    {
+      "region": "11530",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 3295,
+      "direct_n": 156,
+      "direct_pct": 4.734446130500759
+    },
+    {
+      "region": "11545",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 882,
+      "direct_n": 35,
+      "direct_pct": 3.9682539682539684
+    },
+    {
+      "region": "11560",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 4329,
+      "direct_n": 154,
+      "direct_pct": 3.5574035574035574
+    },
+    {
+      "region": "11590",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 4018,
+      "direct_n": 126,
+      "direct_pct": 3.1358885017421603
+    },
+    {
+      "region": "11620",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 2194,
+      "direct_n": 73,
+      "direct_pct": 3.327256153144941
+    },
+    {
+      "region": "11650",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 2968,
+      "direct_n": 108,
+      "direct_pct": 3.638814016172507
+    },
+    {
+      "region": "11680",
+      "period": "2025",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11710",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 5382,
+      "direct_n": 136,
+      "direct_pct": 2.52694165737644
+    },
+    {
+      "region": "11740",
+      "period": "2025",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41111",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 2380,
+      "direct_n": 78,
+      "direct_pct": 3.277310924369748
+    },
+    {
+      "region": "41113",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 3869,
+      "direct_n": 135,
+      "direct_pct": 3.48927371413802
+    },
+    {
+      "region": "41115",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 1911,
+      "direct_n": 73,
+      "direct_pct": 3.8199895342752486
+    },
+    {
+      "region": "41117",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 5726,
+      "direct_n": 120,
+      "direct_pct": 2.0957038071952496
+    },
+    {
+      "region": "41131",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 1630,
+      "direct_n": 52,
+      "direct_pct": 3.1901840490797544
+    },
+    {
+      "region": "41133",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 1711,
+      "direct_n": 57,
+      "direct_pct": 3.331385154880187
+    },
+    {
+      "region": "41135",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 6612,
+      "direct_n": 159,
+      "direct_pct": 2.4047186932849365
+    },
+    {
+      "region": "41150",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 4675,
+      "direct_n": 179,
+      "direct_pct": 3.828877005347594
+    },
+    {
+      "region": "41171",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 2254,
+      "direct_n": 68,
+      "direct_pct": 3.0168589174800355
+    },
+    {
+      "region": "41173",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 5621,
+      "direct_n": 162,
+      "direct_pct": 2.8820494573919233
+    },
+    {
+      "region": "41192",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 3378,
+      "direct_n": 172,
+      "direct_pct": 5.0917702782711665
+    },
+    {
+      "region": "41194",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 1791,
+      "direct_n": 132,
+      "direct_pct": 7.370184254606365
+    },
+    {
+      "region": "41196",
+      "period": "2025",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41210",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 4287,
+      "direct_n": 106,
+      "direct_pct": 2.472591555866573
+    },
+    {
+      "region": "41220",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 6418,
+      "direct_n": 501,
+      "direct_pct": 7.806170146463073
+    },
+    {
+      "region": "41271",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 1549,
+      "direct_n": 85,
+      "direct_pct": 5.487411233053583
+    },
+    {
+      "region": "41273",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 2542,
+      "direct_n": 124,
+      "direct_pct": 4.878048780487805
+    },
+    {
+      "region": "41281",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 4196,
+      "direct_n": 151,
+      "direct_pct": 3.598665395614871
+    },
+    {
+      "region": "41285",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 2054,
+      "direct_n": 129,
+      "direct_pct": 6.280428432327167
+    },
+    {
+      "region": "41287",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 2858,
+      "direct_n": 152,
+      "direct_pct": 5.318404478656403
+    },
+    {
+      "region": "41290",
+      "period": "2025",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41310",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 2525,
+      "direct_n": 52,
+      "direct_pct": 2.0594059405940595
+    },
+    {
+      "region": "41360",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 7108,
+      "direct_n": 327,
+      "direct_pct": 4.60045019696117
+    },
+    {
+      "region": "41410",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 2928,
+      "direct_n": 127,
+      "direct_pct": 4.337431693989071
+    },
+    {
+      "region": "41430",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 2021,
+      "direct_n": 62,
+      "direct_pct": 3.0677882236516574
+    },
+    {
+      "region": "41450",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 4383,
+      "direct_n": 100,
+      "direct_pct": 2.2815423226100844
+    },
+    {
+      "region": "41461",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 2115,
+      "direct_n": 106,
+      "direct_pct": 5.011820330969267
+    },
+    {
+      "region": "41463",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 5795,
+      "direct_n": 185,
+      "direct_pct": 3.1924072476272647
+    },
+    {
+      "region": "41465",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 7316,
+      "direct_n": 164,
+      "direct_pct": 2.241662110442865
+    },
+    {
+      "region": "41480",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 4033,
+      "direct_n": 192,
+      "direct_pct": 4.760724026779073
+    },
+    {
+      "region": "41570",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 4464,
+      "direct_n": 179,
+      "direct_pct": 4.009856630824372
+    },
+    {
+      "region": "41591",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 1298,
+      "direct_n": 68,
+      "direct_pct": 5.238828967642527
+    },
+    {
+      "region": "41593",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 1553,
+      "direct_n": 81,
+      "direct_pct": 5.215711526078557
+    },
+    {
+      "region": "41595",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 2218,
+      "direct_n": 90,
+      "direct_pct": 4.057709648331831
+    },
+    {
+      "region": "41597",
+      "period": "2025",
+      "status": "supported",
+      "reported_n": 7082,
+      "direct_n": 144,
+      "direct_pct": 2.0333239197966675
+    },
+    {
+      "region": "41610",
+      "period": "2025",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11110",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 356,
+      "direct_n": 15,
+      "direct_pct": 4.213483146067416
+    },
+    {
+      "region": "11140",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 737,
+      "direct_n": 24,
+      "direct_pct": 3.2564450474898234
+    },
+    {
+      "region": "11170",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 774,
+      "direct_n": 20,
+      "direct_pct": 2.5839793281653747
+    },
+    {
+      "region": "11200",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 2779,
+      "direct_n": 66,
+      "direct_pct": 2.3749550197912916
+    },
+    {
+      "region": "11215",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1209,
+      "direct_n": 21,
+      "direct_pct": 1.7369727047146402
+    },
+    {
+      "region": "11230",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1928,
+      "direct_n": 123,
+      "direct_pct": 6.3796680497925315
+    },
+    {
+      "region": "11260",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 955,
+      "direct_n": 39,
+      "direct_pct": 4.0837696335078535
+    },
+    {
+      "region": "11290",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 2183,
+      "direct_n": 58,
+      "direct_pct": 2.6568941823179113
+    },
+    {
+      "region": "11305",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 610,
+      "direct_n": 29,
+      "direct_pct": 4.754098360655738
+    },
+    {
+      "region": "11320",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 951,
+      "direct_n": 37,
+      "direct_pct": 3.8906414300736065
+    },
+    {
+      "region": "11350",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 2888,
+      "direct_n": 94,
+      "direct_pct": 3.2548476454293627
+    },
+    {
+      "region": "11380",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1352,
+      "direct_n": 152,
+      "direct_pct": 11.242603550295858
+    },
+    {
+      "region": "11410",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1708,
+      "direct_n": 46,
+      "direct_pct": 2.693208430913349
+    },
+    {
+      "region": "11440",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 2469,
+      "direct_n": 43,
+      "direct_pct": 1.7415957877683272
+    },
+    {
+      "region": "11470",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1989,
+      "direct_n": 50,
+      "direct_pct": 2.513826043237808
+    },
+    {
+      "region": "11500",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 2199,
+      "direct_n": 106,
+      "direct_pct": 4.82037289677126
+    },
+    {
+      "region": "11530",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1762,
+      "direct_n": 113,
+      "direct_pct": 6.41316685584563
+    },
+    {
+      "region": "11545",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 445,
+      "direct_n": 14,
+      "direct_pct": 3.146067415730337
+    },
+    {
+      "region": "11560",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 2583,
+      "direct_n": 107,
+      "direct_pct": 4.142469996128533
+    },
+    {
+      "region": "11590",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 2500,
+      "direct_n": 79,
+      "direct_pct": 3.16
+    },
+    {
+      "region": "11620",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1124,
+      "direct_n": 40,
+      "direct_pct": 3.5587188612099645
+    },
+    {
+      "region": "11650",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1942,
+      "direct_n": 67,
+      "direct_pct": 3.45005149330587
+    },
+    {
+      "region": "11680",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 2571,
+      "direct_n": 72,
+      "direct_pct": 2.8004667444574096
+    },
+    {
+      "region": "11710",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 3111,
+      "direct_n": 79,
+      "direct_pct": 2.539376406300225
+    },
+    {
+      "region": "11740",
+      "period": "2025H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41111",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1336,
+      "direct_n": 42,
+      "direct_pct": 3.143712574850299
+    },
+    {
+      "region": "41113",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1812,
+      "direct_n": 79,
+      "direct_pct": 4.359823399558499
+    },
+    {
+      "region": "41115",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 957,
+      "direct_n": 36,
+      "direct_pct": 3.761755485893417
+    },
+    {
+      "region": "41117",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 2862,
+      "direct_n": 57,
+      "direct_pct": 1.9916142557651992
+    },
+    {
+      "region": "41131",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 770,
+      "direct_n": 21,
+      "direct_pct": 2.727272727272727
+    },
+    {
+      "region": "41133",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 909,
+      "direct_n": 36,
+      "direct_pct": 3.9603960396039604
+    },
+    {
+      "region": "41135",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 4000,
+      "direct_n": 85,
+      "direct_pct": 2.125
+    },
+    {
+      "region": "41150",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 2453,
+      "direct_n": 97,
+      "direct_pct": 3.9543416225030574
+    },
+    {
+      "region": "41171",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1045,
+      "direct_n": 43,
+      "direct_pct": 4.114832535885167
+    },
+    {
+      "region": "41173",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 3035,
+      "direct_n": 91,
+      "direct_pct": 2.9983525535420097
+    },
+    {
+      "region": "41192",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1589,
+      "direct_n": 91,
+      "direct_pct": 5.726872246696035
+    },
+    {
+      "region": "41194",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 868,
+      "direct_n": 62,
+      "direct_pct": 7.142857142857143
+    },
+    {
+      "region": "41196",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 325,
+      "direct_n": 65,
+      "direct_pct": 20.0
+    },
+    {
+      "region": "41210",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 2069,
+      "direct_n": 48,
+      "direct_pct": 2.319961333977767
+    },
+    {
+      "region": "41220",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 3349,
+      "direct_n": 258,
+      "direct_pct": 7.703792176769185
+    },
+    {
+      "region": "41271",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 775,
+      "direct_n": 39,
+      "direct_pct": 5.032258064516129
+    },
+    {
+      "region": "41273",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1338,
+      "direct_n": 66,
+      "direct_pct": 4.932735426008969
+    },
+    {
+      "region": "41281",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 2201,
+      "direct_n": 80,
+      "direct_pct": 3.634711494775102
+    },
+    {
+      "region": "41285",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1020,
+      "direct_n": 63,
+      "direct_pct": 6.176470588235294
+    },
+    {
+      "region": "41287",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1554,
+      "direct_n": 69,
+      "direct_pct": 4.44015444015444
+    },
+    {
+      "region": "41290",
+      "period": "2025H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41310",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 907,
+      "direct_n": 24,
+      "direct_pct": 2.6460859977949283
+    },
+    {
+      "region": "41360",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 3503,
+      "direct_n": 189,
+      "direct_pct": 5.395375392520696
+    },
+    {
+      "region": "41410",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1361,
+      "direct_n": 64,
+      "direct_pct": 4.702424687729611
+    },
+    {
+      "region": "41430",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1144,
+      "direct_n": 36,
+      "direct_pct": 3.1468531468531467
+    },
+    {
+      "region": "41450",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 2149,
+      "direct_n": 46,
+      "direct_pct": 2.1405304792926945
+    },
+    {
+      "region": "41461",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1021,
+      "direct_n": 47,
+      "direct_pct": 4.603330068560235
+    },
+    {
+      "region": "41463",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 2594,
+      "direct_n": 94,
+      "direct_pct": 3.623747108712413
+    },
+    {
+      "region": "41465",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 4044,
+      "direct_n": 89,
+      "direct_pct": 2.2007912957467854
+    },
+    {
+      "region": "41480",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 2137,
+      "direct_n": 120,
+      "direct_pct": 5.615348619560131
+    },
+    {
+      "region": "41570",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 2316,
+      "direct_n": 107,
+      "direct_pct": 4.620034542314335
+    },
+    {
+      "region": "41591",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 665,
+      "direct_n": 37,
+      "direct_pct": 5.56390977443609
+    },
+    {
+      "region": "41593",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 816,
+      "direct_n": 40,
+      "direct_pct": 4.901960784313726
+    },
+    {
+      "region": "41595",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 1055,
+      "direct_n": 50,
+      "direct_pct": 4.739336492890995
+    },
+    {
+      "region": "41597",
+      "period": "2025H1",
+      "status": "supported",
+      "reported_n": 2920,
+      "direct_n": 59,
+      "direct_pct": 2.0205479452054793
+    },
+    {
+      "region": "41610",
+      "period": "2025H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11110",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11140",
+      "period": "2026H1",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "11170",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11200",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11215",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11230",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11260",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11290",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11305",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11320",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11350",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11380",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11410",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11440",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11470",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11500",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11530",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11545",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11560",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11590",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11620",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11650",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11680",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11710",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "11740",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41111",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41113",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41115",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41117",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41131",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41133",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41135",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41150",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41171",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41173",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41192",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41194",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41196",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41210",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41220",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41271",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41273",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41281",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41285",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41287",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41290",
+      "period": "2026H1",
+      "status": "insufficient_count_support"
+    },
+    {
+      "region": "41310",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41360",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41410",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41430",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41450",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41461",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41463",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41465",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41480",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41570",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41591",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41593",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41595",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41597",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    },
+    {
+      "region": "41610",
+      "period": "2026H1",
+      "status": "joint_count_protection"
+    }
+  ],
+  "monthly_rates": [
+    {
+      "geo": "11",
+      "ym": "2021-11",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2021-11",
+      "status": "supported",
+      "reported_n": 3857,
+      "direct_n": 297,
+      "direct_pct": 7.70028519574799
+    },
+    {
+      "geo": "11",
+      "ym": "2021-12",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2021-12",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "11",
+      "ym": "2022-01",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2022-01",
+      "status": "supported",
+      "reported_n": 2747,
+      "direct_n": 219,
+      "direct_pct": 7.97233345467783
+    },
+    {
+      "geo": "11",
+      "ym": "2022-02",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2022-02",
+      "status": "supported",
+      "reported_n": 3038,
+      "direct_n": 245,
+      "direct_pct": 8.064516129032258
+    },
+    {
+      "geo": "11",
+      "ym": "2022-03",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2022-03",
+      "status": "supported",
+      "reported_n": 4607,
+      "direct_n": 272,
+      "direct_pct": 5.904059040590406
+    },
+    {
+      "geo": "11",
+      "ym": "2022-04",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2022-04",
+      "status": "supported",
+      "reported_n": 5081,
+      "direct_n": 332,
+      "direct_pct": 6.534146821491833
+    },
+    {
+      "geo": "11",
+      "ym": "2022-05",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2022-05",
+      "status": "supported",
+      "reported_n": 4604,
+      "direct_n": 478,
+      "direct_pct": 10.382276281494352
+    },
+    {
+      "geo": "11",
+      "ym": "2022-06",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2022-06",
+      "status": "supported",
+      "reported_n": 3158,
+      "direct_n": 253,
+      "direct_pct": 8.011399620012666
+    },
+    {
+      "geo": "11",
+      "ym": "2022-07",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2022-07",
+      "status": "supported",
+      "reported_n": 2224,
+      "direct_n": 224,
+      "direct_pct": 10.071942446043165
+    },
+    {
+      "geo": "11",
+      "ym": "2022-08",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2022-08",
+      "status": "supported",
+      "reported_n": 2127,
+      "direct_n": 237,
+      "direct_pct": 11.142454160789844
+    },
+    {
+      "geo": "11",
+      "ym": "2022-09",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2022-09",
+      "status": "supported",
+      "reported_n": 2054,
+      "direct_n": 236,
+      "direct_pct": 11.489776046738072
+    },
+    {
+      "geo": "11",
+      "ym": "2022-10",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2022-10",
+      "status": "supported",
+      "reported_n": 2156,
+      "direct_n": 243,
+      "direct_pct": 11.270871985157699
+    },
+    {
+      "geo": "11",
+      "ym": "2022-11",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2022-11",
+      "status": "supported",
+      "reported_n": 2510,
+      "direct_n": 362,
+      "direct_pct": 14.422310756972111
+    },
+    {
+      "geo": "11",
+      "ym": "2022-12",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2022-12",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "11",
+      "ym": "2023-01",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2023-01",
+      "status": "supported",
+      "reported_n": 4066,
+      "direct_n": 285,
+      "direct_pct": 7.009345794392523
+    },
+    {
+      "geo": "11",
+      "ym": "2023-02",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2023-02",
+      "status": "supported",
+      "reported_n": 7362,
+      "direct_n": 411,
+      "direct_pct": 5.582722086389568
+    },
+    {
+      "geo": "11",
+      "ym": "2023-03",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2023-03",
+      "status": "supported",
+      "reported_n": 7816,
+      "direct_n": 434,
+      "direct_pct": 5.552712384851587
+    },
+    {
+      "geo": "11",
+      "ym": "2023-04",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2023-04",
+      "status": "supported",
+      "reported_n": 7807,
+      "direct_n": 446,
+      "direct_pct": 5.712821826565903
+    },
+    {
+      "geo": "11",
+      "ym": "2023-05",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2023-05",
+      "status": "supported",
+      "reported_n": 8520,
+      "direct_n": 483,
+      "direct_pct": 5.669014084507042
+    },
+    {
+      "geo": "11",
+      "ym": "2023-06",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2023-06",
+      "status": "supported",
+      "reported_n": 8480,
+      "direct_n": 402,
+      "direct_pct": 4.740566037735849
+    },
+    {
+      "geo": "11",
+      "ym": "2023-07",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2023-07",
+      "status": "supported",
+      "reported_n": 8190,
+      "direct_n": 384,
+      "direct_pct": 4.688644688644689
+    },
+    {
+      "geo": "11",
+      "ym": "2023-08",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2023-08",
+      "status": "supported",
+      "reported_n": 8563,
+      "direct_n": 410,
+      "direct_pct": 4.7880415742146445
+    },
+    {
+      "geo": "11",
+      "ym": "2023-09",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2023-09",
+      "status": "supported",
+      "reported_n": 7706,
+      "direct_n": 345,
+      "direct_pct": 4.477030885024656
+    },
+    {
+      "geo": "11",
+      "ym": "2023-10",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2023-10",
+      "status": "supported",
+      "reported_n": 6054,
+      "direct_n": 346,
+      "direct_pct": 5.715229600264288
+    },
+    {
+      "geo": "11",
+      "ym": "2023-11",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2023-11",
+      "status": "supported",
+      "reported_n": 4947,
+      "direct_n": 314,
+      "direct_pct": 6.347281180513442
+    },
+    {
+      "geo": "11",
+      "ym": "2023-12",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2023-12",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "11",
+      "ym": "2024-01",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2024-01",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "11",
+      "ym": "2024-02",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2024-02",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "11",
+      "ym": "2024-03",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2024-03",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "11",
+      "ym": "2024-04",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2024-04",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "11",
+      "ym": "2024-05",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2024-05",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "11",
+      "ym": "2024-06",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2024-06",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "11",
+      "ym": "2024-07",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2024-07",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "11",
+      "ym": "2024-08",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2024-08",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "11",
+      "ym": "2024-09",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2024-09",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "11",
+      "ym": "2024-10",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2024-10",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "11",
+      "ym": "2024-11",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2024-11",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "11",
+      "ym": "2024-12",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2024-12",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "11",
+      "ym": "2025-01",
+      "status": "supported",
+      "reported_n": 3383,
+      "direct_n": 125,
+      "direct_pct": 3.694945314809341
+    },
+    {
+      "geo": "41",
+      "ym": "2025-01",
+      "status": "supported",
+      "reported_n": 5423,
+      "direct_n": 278,
+      "direct_pct": 5.126313848423382
+    },
+    {
+      "geo": "11",
+      "ym": "2025-02",
+      "status": "supported",
+      "reported_n": 6433,
+      "direct_n": 189,
+      "direct_pct": 2.9379760609358
+    },
+    {
+      "geo": "41",
+      "ym": "2025-02",
+      "status": "supported",
+      "reported_n": 8560,
+      "direct_n": 368,
+      "direct_pct": 4.299065420560748
+    },
+    {
+      "geo": "11",
+      "ym": "2025-03",
+      "status": "supported",
+      "reported_n": 9916,
+      "direct_n": 306,
+      "direct_pct": 3.0859217426381607
+    },
+    {
+      "geo": "41",
+      "ym": "2025-03",
+      "status": "supported",
+      "reported_n": 11927,
+      "direct_n": 447,
+      "direct_pct": 3.747799111260166
+    },
+    {
+      "geo": "11",
+      "ym": "2025-04",
+      "status": "supported",
+      "reported_n": 5283,
+      "direct_n": 298,
+      "direct_pct": 5.640734431194397
+    },
+    {
+      "geo": "41",
+      "ym": "2025-04",
+      "status": "supported",
+      "reported_n": 9806,
+      "direct_n": 477,
+      "direct_pct": 4.8643687538241895
+    },
+    {
+      "geo": "11",
+      "ym": "2025-05",
+      "status": "supported",
+      "reported_n": 7525,
+      "direct_n": 357,
+      "direct_pct": 4.744186046511628
+    },
+    {
+      "geo": "41",
+      "ym": "2025-05",
+      "status": "supported",
+      "reported_n": 11344,
+      "direct_n": 455,
+      "direct_pct": 4.010930888575459
+    },
+    {
+      "geo": "11",
+      "ym": "2025-06",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2025-06",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "11",
+      "ym": "2025-07",
+      "status": "supported",
+      "reported_n": 4220,
+      "direct_n": 187,
+      "direct_pct": 4.431279620853081
+    },
+    {
+      "geo": "41",
+      "ym": "2025-07",
+      "status": "supported",
+      "reported_n": 7651,
+      "direct_n": 434,
+      "direct_pct": 5.672461116193961
+    },
+    {
+      "geo": "11",
+      "ym": "2025-08",
+      "status": "supported",
+      "reported_n": 4296,
+      "direct_n": 281,
+      "direct_pct": 6.54096834264432
+    },
+    {
+      "geo": "41",
+      "ym": "2025-08",
+      "status": "supported",
+      "reported_n": 7695,
+      "direct_n": 305,
+      "direct_pct": 3.96361273554256
+    },
+    {
+      "geo": "11",
+      "ym": "2025-09",
+      "status": "supported",
+      "reported_n": 8671,
+      "direct_n": 270,
+      "direct_pct": 3.1138277015338485
+    },
+    {
+      "geo": "41",
+      "ym": "2025-09",
+      "status": "supported",
+      "reported_n": 12193,
+      "direct_n": 391,
+      "direct_pct": 3.2067579758878044
+    },
+    {
+      "geo": "11",
+      "ym": "2025-10",
+      "status": "supported",
+      "reported_n": 8579,
+      "direct_n": 359,
+      "direct_pct": 4.184636904068073
+    },
+    {
+      "geo": "41",
+      "ym": "2025-10",
+      "status": "supported",
+      "reported_n": 13349,
+      "direct_n": 487,
+      "direct_pct": 3.648213349314555
+    },
+    {
+      "geo": "11",
+      "ym": "2025-11",
+      "status": "supported",
+      "reported_n": 3404,
+      "direct_n": 106,
+      "direct_pct": 3.1139835487661576
+    },
+    {
+      "geo": "41",
+      "ym": "2025-11",
+      "status": "supported",
+      "reported_n": 10371,
+      "direct_n": 329,
+      "direct_pct": 3.1723073956224086
+    },
+    {
+      "geo": "11",
+      "ym": "2025-12",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2025-12",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "11",
+      "ym": "2026-01",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2026-01",
+      "status": "supported",
+      "reported_n": 13007,
+      "direct_n": 387,
+      "direct_pct": 2.9753209810102255
+    },
+    {
+      "geo": "11",
+      "ym": "2026-02",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2026-02",
+      "status": "supported",
+      "reported_n": 10935,
+      "direct_n": 369,
+      "direct_pct": 3.374485596707819
+    },
+    {
+      "geo": "11",
+      "ym": "2026-03",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2026-03",
+      "status": "supported",
+      "reported_n": 13090,
+      "direct_n": 638,
+      "direct_pct": 4.873949579831932
+    },
+    {
+      "geo": "11",
+      "ym": "2026-04",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2026-04",
+      "status": "supported",
+      "reported_n": 14172,
+      "direct_n": 775,
+      "direct_pct": 5.468529494778436
+    },
+    {
+      "geo": "11",
+      "ym": "2026-05",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2026-05",
+      "status": "supported",
+      "reported_n": 14765,
+      "direct_n": 565,
+      "direct_pct": 3.8266169996613613
+    },
+    {
+      "geo": "11",
+      "ym": "2026-06",
+      "status": "joint_count_protection"
+    },
+    {
+      "geo": "41",
+      "ym": "2026-06",
+      "status": "joint_count_protection"
+    }
+  ],
+  "limitations": [
+    "Selected supported contracts, not all direct trades or a causal direct-sale discount",
+    "Floor bands and exact type do not identify the same dwelling, condition, view or parties",
+    "Model prior-event alignment and same-quarter matching are distinct retrospective comparisons",
+    "No exact complex counts, cell weights, small broker-control summaries, individual prices or B arithmetic means",
+    "Linear count/model-gap certificates do not guarantee anonymity against nonlinear or arbitrary external information"
+  ],
+  "coverage_policy": "Shown n always describes the displayed distribution. When coverage_status is not supported, both the exact population denominator and percentage are withheld.",
+  "snapshot_computed_at": "2026-10-03T19:15:55.508656+00:00",
+  "source_reference_end": "2026-09",
+  "analysis_reference_end": "2026-06",
+  "information_cutoff": null
+}
