@@ -1,0 +1,85 @@
+{
+  "schema": "completion_era_limited_v1",
+  "rows": [
+    {
+      "geo": "11",
+      "era": "1990s",
+      "households": 320966,
+      "small": 134137,
+      "mid": 147601,
+      "large": 39228,
+      "84": 119726
+    },
+    {
+      "geo": "11",
+      "era": "2010s",
+      "households": 258026,
+      "small": 97865,
+      "mid": 112649,
+      "large": 47512,
+      "84": 103160
+    },
+    {
+      "geo": "11",
+      "era": "2020plus",
+      "households": 138775,
+      "small": 66290,
+      "mid": 57227,
+      "large": 15258,
+      "84": 48872
+    },
+    {
+      "geo": "41",
+      "era": "1990s",
+      "households": 558926,
+      "small": 266516,
+      "mid": 199815,
+      "large": 92595,
+      "84": 145389
+    },
+    {
+      "geo": "41",
+      "era": "2010s",
+      "households": 658904,
+      "small": 119290,
+      "mid": 401895,
+      "large": 137719,
+      "84": 310974
+    },
+    {
+      "geo": "41",
+      "era": "2020plus",
+      "households": 340005,
+      "small": 110571,
+      "mid": 201599,
+      "large": 27835,
+      "84": 139384
+    }
+  ],
+  "geography": {
+    "11": "서울25구",
+    "41": "수집 경기36지역"
+  },
+  "snapshots": [
+    "20260424",
+    "20260626",
+    "20260828",
+    "20261002"
+  ],
+  "area_rules": {
+    "small": "exclusive area <=60",
+    "mid": "60< exclusive area <=85",
+    "large": "exclusive area >85",
+    "84": "84<= exclusive area <85"
+  },
+  "population": "Current connected measured inventory; approval date from the selected area snapshot",
+  "exclusion": "One complex in Seoul approval-2010plus but not master-build-year-2010plus; fixed before the reassessment",
+  "limits": [
+    "Not original historical supply or a probability sample of all homes",
+    "Missing connections and demolished inventory are outside the measured population",
+    "2020plus is incomplete and ends at each retained snapshot date",
+    "No province-wide region-mix-adjusted or causal interpretation",
+    "No p-value or confidence interval; no new exact complex counts"
+  ],
+  "source_url": "https://www.k-apt.go.kr/cmmn/kaptsystemintro.do"
+}
