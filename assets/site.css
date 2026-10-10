@@ -218,3 +218,8 @@ blockquote p { margin: 0; }
 .high-price-table { min-width: 740px; }
 .high-price-table td, .high-price-table thead th { white-space: nowrap; }
 .high-price-table tbody th { min-width: 85px; }
+
+.downturn-table { min-width: 640px; }
+.downturn-table td, .downturn-table thead th { white-space: nowrap; }
+.downturn-table[data-kind="decomposition"] { min-width: 1060px; }
+.downturn-table tbody th { min-width: 95px; }
