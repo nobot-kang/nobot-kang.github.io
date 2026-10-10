@@ -209,3 +209,8 @@ blockquote p { margin: 0; }
   .ad-placement[data-ad-placement="article_end"] .ad-preview { min-height: 240px; }
 }
 @media print { .site-header, .site-footer, .next-reading, .article-author, .ad-placement { display: none; } body { background: white; font-size: 11pt; } main { margin: 0; } a { color: inherit; } }
+
+/* B087 tables keep decimal numbers intact inside their scroll region. */
+.direct-sale-table { min-width: 780px; }
+.direct-sale-table td, .direct-sale-table thead th { white-space: nowrap; }
+.direct-sale-table tbody th { min-width: 180px; }
