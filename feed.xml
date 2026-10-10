@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-10T23:17:03+09:00</updated>
+  <updated>2026-10-11T01:07:58+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -11,10 +11,19 @@
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
   <entry>
+    <title>59형·84형은 몇 ㎡까지일까? 면적 묶음과 자주 쓰는 용어 정리</title>
+    <id>https://nobot-kang.github.io/posts/apartment-terms-glossary/</id>
+    <published>2026-10-11T01:07:58+09:00</published>
+    <updated>2026-10-11T01:07:58+09:00</updated>
+    <summary>이 블로그의 59형은 전용 17·18평형, 84형은 전용 25·26평형입니다. 1㎡ 폭으로 세면 오래된 단지가 빠지는 이유와 가격·거래·지역 용어의 정의를 한곳에 정리했습니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-terms-glossary/" />
+    <category term="아파트 가격표 읽기" />
+  </entry>
+  <entry>
     <title>하락기에 팔린 아파트는 어떤 집이었나? 2021~2023년 거래 구성 비교</title>
     <id>https://nobot-kang.github.io/posts/apartment-downturn-composition/</id>
     <published>2026-10-10T23:17:03+09:00</published>
-    <updated>2026-10-10T23:17:03+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>서울·수집 경기의 2021~2023년 지역·가격·면적·연식별 신고 구성을 비교합니다. 고정 집단으로 나눈 평균 변화와 2023년 반등, 해제·직거래 포함 기준에 따라 달라지는 결론을 함께 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-downturn-composition/" />
     <category term="거래량과 시장 읽기" />
@@ -23,7 +32,7 @@
     <title>서울·경기 전세가율: 평균보다 지역별 분포를 먼저 보세요</title>
     <id>https://nobot-kang.github.io/posts/seoul-gyeonggi-jeonse-ratios/</id>
     <published>2026-10-10T21:30:44+09:00</published>
-    <updated>2026-10-10T23:13:27+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>서울25구·수집경기36시·구의 KB 전세가율과 가격지수 변화를 비교합니다. 광역 평균 뒤의 지역별 겹침, 전세가격 상승과 비율 하락의 공존, 표본이 부족할 때 답할 수 있는 범위를 정리합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-gyeonggi-jeonse-ratios/" />
     <category term="수도권 가격 지도" />
@@ -32,7 +41,7 @@
     <title>고가 아파트 기준: 상위 1% 거래 문턱은 얼마나 올랐나?</title>
     <id>https://nobot-kang.github.io/posts/high-price-apartment-thresholds/</id>
     <published>2026-10-10T20:26:21+09:00</published>
-    <updated>2026-10-10T20:26:31+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2011~2025년 서울·수집 경기의 상위 1%·5% 거래 문턱과 중앙값을 같은 구간으로 비교합니다. 전체 면적과 84㎡대의 차이, 해제·직거래 표시와 표본 한계를 함께 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/high-price-apartment-thresholds/" />
     <category term="아파트 가격표 읽기" />
@@ -41,7 +50,7 @@
     <title>아파트 직거래 가격 비교: 낮은 실거래가를 시세로 봐도 될까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-direct-sale-comparison/</id>
     <published>2026-10-10T19:30:48+09:00</published>
-    <updated>2026-10-10T19:31:13+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>서울·수집 경기 직거래를 모형 기준가격과 같은 단지의 실제 중개거래로 비교했습니다. 낮은 가격 편차와 반대 사례, 비교 표본의 포함률을 함께 확인해 개별 집의 할인율로 오해하지 않는 방법을 설명합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-direct-sale-comparison/" />
     <category term="아파트 가격표 읽기" />
@@ -50,7 +59,7 @@
     <title>아파트 상승률 순위, 기간과 거래 건수를 바꾸면 얼마나 달라질까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-price-ranking-sensitivity/</id>
     <published>2026-10-10T17:34:50+09:00</published>
-    <updated>2026-10-10T20:18:37+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>같은 50지역에서도 월간·분기·같은 상반기의 중앙값 변화율 순위는 달랐습니다. 시작 가격과 거래 건수, 평균·중앙값, 한 단지 제외 민감도를 함께 확인하는 순위표 읽기입니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-price-ranking-sensitivity/" />
     <category term="아파트 가격표 읽기" />
@@ -59,7 +68,7 @@
     <title>주담대 금리와 전월세 전환율: 서울·경기의 역전 기간은 같았을까?</title>
     <id>https://nobot-kang.github.io/posts/mortgage-rent-conversion-rates/</id>
     <published>2026-10-10T15:51:00+09:00</published>
-    <updated>2026-10-10T15:51:12+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2016년 1월~2026년 6월 KB 공표율을 비교하면 전환율이 주담대 금리보다 낮은 달은 서울 36개월·경기 7개월입니다. 전체 월별 표, 시점 민감도와 개인 계약에 적용할 때의 한계를 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/mortgage-rent-conversion-rates/" />
     <category term="금리와 상환 부담" />
@@ -68,16 +77,16 @@
     <title>2020년 이후 아파트는 소형 비중이 클까? 서울·경기 재고 비교</title>
     <id>https://nobot-kang.github.io/posts/apartment-size-by-completion-era/</id>
     <published>2026-10-10T15:41:36+09:00</published>
-    <updated>2026-10-10T15:44:02+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>서울·수집 경기의 현재 연결 재고를 사용승인 연대로 나눕니다. 한 단지를 제외해도 최근 연대의 소형 비중은 높고 대형 비중은 낮습니다. 세대수 분모,84㎡대 구성,제외 기준과 한계를 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-size-by-completion-era/" />
     <category term="단지 조건 비교" />
   </entry>
   <entry>
-    <title>2010~2025년 한강 남북84㎡ 가격 격차는 커졌을까?</title>
+    <title>2010~2025년 한강 남북 84㎡ 가격 격차는 커졌을까?</title>
     <id>https://nobot-kang.github.io/posts/seoul-north-south-price-gap-2025/</id>
     <published>2026-10-10T14:27:45+09:00</published>
-    <updated>2026-10-10T14:29:32+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2010~2025년 서울 북14구·남11구의84㎡형 신고가격을 비교합니다. 중앙값 비율은 소폭 줄었지만 명목금액 차이는 커졌습니다. 전체64분기와16연간의 분포·건수, 거래 구성과 정제 한계를 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-north-south-price-gap-2025/" />
     <category term="수도권 가격 지도" />
@@ -86,7 +95,7 @@
     <title>물가를 빼면 아파트값은 얼마나 올랐나? 서울·경기 16년 비교</title>
     <id>https://nobot-kang.github.io/posts/apartment-prices-after-inflation/</id>
     <published>2026-10-10T14:18:58+09:00</published>
-    <updated>2026-10-10T14:19:59+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2010년~2026년6월 서울·경기 아파트값을 CPI로 조정합니다. 다섯 시작월의 누적 변화와 명목·실질 고점 회복을 비교하고, 계산식과 자체 지수의 한계까지 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-prices-after-inflation/" />
     <category term="가격의 긴 흐름" />
@@ -95,7 +104,7 @@
     <title>월세 100만원 넘는 아파트 계약, 얼마나 늘었을까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-rent-over-one-million/</id>
     <published>2026-10-10T13:14:14+09:00</published>
-    <updated>2026-10-10T13:15:25+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>서울과 수집 경기의 월세100만원 초과 계약을2022~2025년과 같은 상반기로 비교합니다. 이상·초과의 경계, 신규·갱신의 반례, 보증금과 지역·면적 구성을 함께 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-rent-over-one-million/" />
     <category term="전세와 월세 계약 읽기" />
@@ -104,7 +113,7 @@
     <title>명절에는 아파트 거래가 줄까? 설·추석·연말·선거 주간 비교</title>
     <id>https://nobot-kang.github.io/posts/apartment-holiday-transactions/</id>
     <published>2026-10-10T12:04:42+09:00</published>
-    <updated>2026-10-10T12:05:22+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2022~2025년 서울·수집 경기 매매·전세·월세의 명절 거래량을 비교했습니다. 설·추석 주간의 감소와 전후63일 차이, 연말·선거의 혼합 결과와 모형의 한계를 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-holiday-transactions/" />
     <category term="계절과 계약 달력" />
@@ -113,7 +122,7 @@
     <title>소형 아파트가 더 올랐을까? 서울·경기 면적별 16년 지수 비교</title>
     <id>https://nobot-kang.github.io/posts/apartment-size-price-index/</id>
     <published>2026-10-10T09:49:25+09:00</published>
-    <updated>2026-10-10T09:50:28+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>소형 아파트가 대형보다 더 올랐을까요? 서울·수집 경기의 전용60㎡ 이하·60~85㎡·85㎡ 초과 자체지수로2010~2026년 변화, 하락기 반전과 끝월 민감도를 비교합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-size-price-index/" />
     <category term="첫 집의 예산" />
@@ -122,7 +131,7 @@
     <title>해제·직거래를 빼면 아파트 중위가격은 얼마나 달라질까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-cleaning-price-difference/</id>
     <published>2026-10-10T09:15:53+09:00</published>
-    <updated>2026-10-10T20:18:37+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>서울·경기 실거래의 해제·직거래 포함 규칙을 바꾸면 중위가격은 얼마나 달라질까요? 2024·2025·2026상반기 광역 비교와 공개 가능한 지역·84㎡ 분포로 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-cleaning-price-difference/" />
     <category term="아파트 가격표 읽기" />
@@ -131,7 +140,7 @@
     <title>2022년 거래절벽, 금리·계약·집값은 같은 달에 움직였을까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-rate-cliff-2022/</id>
     <published>2026-10-10T08:53:58+09:00</published>
-    <updated>2026-10-10T08:54:41+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2021~2023년 기준금리·KB 주담대 금리·서울과 수집 경기의 계약·KB 가격지수를 같은 달력에 놓습니다. 거래 감소 확인월과 최저월, 가격 하락월을 구분하고 일정한 반응 시차로 읽을 수 없는 한계를 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-rate-cliff-2022/" />
     <category term="금리와 상환 부담" />
@@ -140,7 +149,7 @@
     <title>6·27 이후 경기 아파트 거래, 건수와 가격대는 어떻게 달라졌을까?</title>
     <id>https://nobot-kang.github.io/posts/gyeonggi-sales-after-june-27/</id>
     <published>2026-10-10T08:37:29+09:00</published>
-    <updated>2026-10-10T08:38:34+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2025년 6·27 이후 서울·수집 경기의 하루 계약과 다섯 가격대 비중을 같은 기준으로 비교합니다. 2026년 1분기 후속 흐름, 61지역 차이와 28·84일 민감도를 통해 정책 효과로 단정할 수 없는 한계를 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/gyeonggi-sales-after-june-27/" />
     <category term="정책 경계와 거래 읽기" />
@@ -149,7 +158,7 @@
     <title>아파트 계약은 토요일과 월말에 몰릴까? 서울·경기 달력 비교</title>
     <id>https://nobot-kang.github.io/posts/apartment-contract-weekday/</id>
     <published>2026-10-10T08:16:04+09:00</published>
-    <updated>2026-10-10T11:54:50+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2010~2025년 서울·수집 경기 매매 계약의 요일과 월말 패턴을 비교했습니다. 요일 수·월 길이·월별 구성과 해제·직거래 제외 조건을 맞추고, 계약하기 좋은 날을 추정할 수 없는 한계를 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-contract-weekday/" />
     <category term="계절과 계약 달력" />
@@ -158,7 +167,7 @@
     <title>전세 계약은 1~2월에 몰릴까? 서울·경기 4년 비교</title>
     <id>https://nobot-kang.github.io/posts/jeonse-contract-season/</id>
     <published>2026-10-10T07:55:20+09:00</published>
-    <updated>2026-10-10T11:54:50+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2022~2025년 서울·수집 경기 전세 계약을 달력일로 보정해 비교했습니다. 신규·갱신·미상, 61개 지역과 매매·월세 비교를 통해 신학기 전세 수요라는 해석의 한계를 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/jeonse-contract-season/" />
     <category term="계절과 계약 달력" />
@@ -167,8 +176,8 @@
     <title>6억 이하 아파트는 얼마나 있을까? 서울·경기 재고와 매물의 차이</title>
     <id>https://nobot-kang.github.io/posts/apartments-under-600-million/</id>
     <published>2026-10-10T07:18:47+09:00</published>
-    <updated>2026-10-10T09:44:02+09:00</updated>
-    <summary>2026년 6월 서울·수집 경기의 6억·9억 원 이하 재고를 모형 가격으로 분류했습니다. 가격 지원 분모와 누락, 과거 비교·가격 민감도를 통해 실제 매물 수와의 차이를 확인합니다.</summary>
+    <updated>2026-10-11T00:54:00+09:00</updated>
+    <summary>2026년 6월 서울·수집 경기의 6억·9억 원 이하 재고를 모형 가격으로 분류했습니다. 가격을 확인한 분모와 누락, 과거 비교·가격 민감도로 실제 매물 수와의 차이를 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartments-under-600-million/" />
     <category term="첫 집의 예산" />
   </entry>
@@ -176,7 +185,7 @@
     <title>아파트 신고가 비율, 무엇을 분모로 셀까? 기준과 해제 읽기</title>
     <id>https://nobot-kang.github.io/posts/apartment-record-high-share/</id>
     <published>2026-10-10T06:56:37+09:00</published>
-    <updated>2026-10-10T06:57:39+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2026년 상반기 서울·수집 경기의 신고가 건수와 판정 가능한 거래를 비교합니다. 면적·과거 해제 처리에 따른 비율 차이, 이후 해제를 비교할 관찰 기간과 한계를 확인해 보세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-record-high-share/" />
     <category term="거래량과 시장 읽기" />
@@ -185,7 +194,7 @@
     <title>아파트 거래량, 평년보다 많으면 회복일까? 서울·경기 기준 비교</title>
     <id>https://nobot-kang.github.io/posts/apartment-volume-baseline/</id>
     <published>2026-10-10T06:37:21+09:00</published>
-    <updated>2026-10-10T06:51:15+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2026년 상반기 서울·수집 경기의 계약 건수를 같은 달 평균과 비교합니다. 3년·4년·5년 분모, 평균·중앙값, 직거래 공시 단절을 나눠 평년 대비 거래량을 읽어 보세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-volume-baseline/" />
     <category term="거래량과 시장 읽기" />
@@ -194,7 +203,7 @@
     <title>강남이 오르면 다음은 어디? 아파트 가격 전파 검증의 한계</title>
     <id>https://nobot-kang.github.io/posts/gangnam-price-propagation/</id>
     <published>2026-10-10T06:21:21+09:00</published>
-    <updated>2026-10-10T06:32:29+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>강남구와 서울→경기 아파트의 선후관계를 검증했습니다. 다중검정 보정과 반복 예측 기준을 함께 확인하고, 인증된 관계가 0개라는 결과를 전파 없음으로 읽으면 안 되는 이유를 설명합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/gangnam-price-propagation/" />
     <category term="집값이 움직이는 순서" />
@@ -203,7 +212,7 @@
     <title>수원·용인·성남 84㎡ 아파트 가격 비교: 10개 구와 연식의 차이</title>
     <id>https://nobot-kang.github.io/posts/suwon-yongin-seongnam-prices/</id>
     <published>2026-10-10T06:01:33+09:00</published>
-    <updated>2026-10-10T06:32:29+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2026년 상반기 수원·용인·성남 10개 구의 84㎡ 실거래 중앙값과 가격 분포를 비교합니다. 서울 대비 비율, 연식 구성과 표본 부족까지 함께 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/suwon-yongin-seongnam-prices/" />
     <category term="경기도 도시 비교" />
@@ -212,7 +221,7 @@
     <title>주택담보대출 금리 1%p 오르면? 3억·30년 월 상환액 비교</title>
     <id>https://nobot-kang.github.io/posts/mortgage-rate-payment/</id>
     <published>2026-10-10T05:45:43+09:00</published>
-    <updated>2026-10-10T15:42:52+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>3억 원·30년 가상 대출의 금리 3~7% 월 상환액과 월150만 원의 역산 원금을 비교합니다. 남은 원금·만기·총이자, 명목금리와 실질 부담의 차이를 계산기와 표로 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/mortgage-rate-payment/" />
     <category term="금리와 상환 부담" />
@@ -221,7 +230,7 @@
     <title>아파트 시세 추정 정확도: 평균 오차 5.68%를 어떻게 읽어야 할까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-model-price-error/</id>
     <published>2026-10-10T05:25:58+09:00</published>
-    <updated>2026-10-10T19:20:29+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>자체 매매 시세 모형의 시간순서 평가에서 평균 오차, ±10% 이내 비중, 80% 구간 포함률을 비교합니다. 근거가 오래된 집과 시기별 차이, 실시간 예측으로 읽을 수 없는 한계를 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-model-price-error/" />
     <category term="아파트 가격표 읽기" />
@@ -230,7 +239,7 @@
     <title>15억·25억 아래로 아파트 거래가 몰렸을까? 대출 경계 전후 비교</title>
     <id>https://nobot-kang.github.io/posts/apartment-price-threshold-bunching/</id>
     <published>2026-10-10T05:07:47+09:00</published>
-    <updated>2026-10-10T08:31:20+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2025년 10·15 대책 전후 84일의 실거래가격을 비교합니다. 15억·25억 아래 초과 비중, 둥근 가격·대조 경계 검사와 심사 시가의 차이를 통해 규제 효과로 단정할 수 없는 이유를 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-price-threshold-bunching/" />
     <category term="정책 경계와 거래 읽기" />
@@ -239,7 +248,7 @@
     <title>59㎡에서 84㎡로, 같은 단지 갈아타기 차액은 얼마일까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-59-to-84/</id>
     <published>2026-10-10T04:49:36+09:00</published>
-    <updated>2026-10-10T09:44:02+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>노원·강서의 같은 단지에서 전용 59㎡대와 84㎡대의 관측 가격 차이를 비교합니다. 양쪽 거래가 충분한 표본의 포함률, 지역 중앙값 차이와 단지별 차액의 차이, 실제 추가 현금과의 구분을 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-59-to-84/" />
     <category term="다음 집으로 가는 비용" />
@@ -248,7 +257,7 @@
     <title>갈아타기 차액이 줄면 필요한 현금도 줄어들까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-upgrade-price-gap/</id>
     <published>2026-10-10T04:29:05+09:00</published>
-    <updated>2026-10-10T06:32:29+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>노원·강서 84㎡ 실거래의 반기별 중앙값 차이를 비교합니다. 표본 부족 구간은 비공개로 남기고, 기존 대출·새 대출·부대비용을 넣은 가상 예시로 가격 차액과 실제 추가 현금을 구분합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-upgrade-price-gap/" />
     <category term="다음 집으로 가는 비용" />
@@ -257,7 +266,7 @@
     <title>아파트 15층은 로열층일까? 층별 실거래가 비교의 기준</title>
     <id>https://nobot-kang.github.io/posts/apartment-floor-price-comparison/</id>
     <published>2026-10-10T04:08:34+09:00</published>
-    <updated>2026-10-10T06:32:29+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>노원·강서의 2026년 상반기 84㎡ 실거래를 층별로 비교합니다. 15층과 상대층의 차이, 건물 총층수 연결률과 가격 분포를 확인하고 내 후보의 층 프리미엄으로 적용하기 어려운 이유를 살펴보세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-floor-price-comparison/" />
     <category term="단지 조건 비교" />
@@ -266,7 +275,7 @@
     <title>1,000세대 대단지 아파트는 얼마나 비쌀까? 연식을 맞춘 비교</title>
     <id>https://nobot-kang.github.io/posts/apartment-size-price-comparison/</id>
     <published>2026-10-10T03:47:20+09:00</published>
-    <updated>2026-10-10T06:32:29+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>노원·강서의 2026년 상반기 84㎡ 실거래를 1,000세대 미만·이상으로 비교합니다. 세대수 확인 표본과 연식 제한에 따라 달라지는 가격 격차, 대단지 효과·환금성으로 해석할 때의 한계를 살펴보세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-size-price-comparison/" />
     <category term="단지 조건 비교" />
@@ -275,7 +284,7 @@
     <title>신축 프리미엄, 연식별 아파트 가격표만으로 알 수 있을까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-age-price-comparison/</id>
     <published>2026-10-10T03:27:14+09:00</published>
-    <updated>2026-10-10T15:33:23+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>노원·강서의 2026년 상반기 84㎡ 실거래를 연식별로 비교합니다. 신축 표본이 부족한 칸과 연식별 중앙값 차이, 비교 분모와 입지 혼입을 확인하고 소멸 연도를 단정할 수 없는 이유를 설명합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-age-price-comparison/" />
     <category term="단지 조건 비교" />
@@ -284,7 +293,7 @@
     <title>2026년 6월, 서울·경기 아파트는 과거 고점을 회복했을까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-peak-recovery/</id>
     <published>2026-10-10T02:26:07+09:00</published>
-    <updated>2026-10-10T14:11:49+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2026년 6월 KB 월간 아파트 지수로 서울·경기의 과거 고점 재도달을 비교합니다. 저점 대비 반등률과 고점까지 필요한 상승률, 회복률의 서로 다른 분모와 명목 회복의 한계를 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-peak-recovery/" />
     <category term="가격의 긴 흐름" />
@@ -293,7 +302,7 @@
     <title>2022년 아파트 하락, 서울·경기 언제부터 얼마나 내렸을까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-downturn-2022/</id>
     <published>2026-10-10T01:42:00+09:00</published>
-    <updated>2026-10-10T08:48:37+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>KB 월간 아파트 지수로 2022년 서울·경기의 첫 하락월, 연간 변화와 정점 대비 낙폭을 비교합니다. 관측을 2024년까지 늘리면 저점월의 순서가 바뀌는 이유와 해석의 한계를 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-downturn-2022/" />
     <category term="가격의 긴 흐름" />
@@ -302,7 +311,7 @@
     <title>서울·경기 아파트 상승장·하락장, 몇 번으로 세야 할까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-market-cycle-count/</id>
     <published>2026-10-10T01:04:47+09:00</published>
-    <updated>2026-10-10T06:32:29+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2010년1월~2026년6월 KB 월간 아파트 지수로 서울·경기의 연속 상승·하락 구간을 비교합니다. 중립 기준에 따라 횟수가 달라지는 이유와 사이클 해석의 한계를 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-market-cycle-count/" />
     <category term="가격의 긴 흐름" />
@@ -311,7 +320,7 @@
     <title>노원·강서 84㎡ 아파트, 같은 구에서도 동별 가격은 다를까?</title>
     <id>https://nobot-kang.github.io/posts/district-neighborhood-price-ranges/</id>
     <published>2026-10-10T00:40:11+09:00</published>
-    <updated>2026-10-10T14:20:08+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2026년 상반기 전용84㎡ 이상85㎡ 미만 노원·강서 거래를 법정동별로 비교합니다. 중앙값과 가운데50% 구간, 표본 부족으로 비워 둔 가격을 함께 보고 단지 후보로 좁히는 기준을 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/district-neighborhood-price-ranges/" />
     <category term="수도권 가격 지도" />
@@ -320,7 +329,7 @@
     <title>서울·경기 84㎡ 아파트 가격, 어디까지 겹칠까?</title>
     <id>https://nobot-kang.github.io/posts/seoul-gyeonggi-price-overlap/</id>
     <published>2026-10-09T23:18:56+09:00</published>
-    <updated>2026-10-10T09:09:41+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2026년 상반기 전용84㎡ 이상85㎡ 미만 거래로 서울25구와 수집 경기36지역의 중앙값·가운데50% 구간을 비교합니다. 과천·광명·하남 사례와61지역 전체 표를 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-gyeonggi-price-overlap/" />
     <category term="수도권 가격 지도" />
@@ -329,7 +338,7 @@
     <title>갱신 전세는 신규보다 얼마나 쌀까? 서울 비교 표본의 한계</title>
     <id>https://nobot-kang.github.io/posts/seoul-renewal-jeonse-comparison/</id>
     <published>2026-10-09T18:32:45+09:00</published>
-    <updated>2026-10-10T06:32:29+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2026년 상반기 서울 아파트 신규·갱신 전세의 중앙값과 같은 단지·전용면적·분기 99묶음의 격차를 비교합니다. 포함 비중 6.0%와 미기재의 의미를 함께 읽습니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-renewal-jeonse-comparison/" />
     <category term="전세와 월세 계약 읽기" />
@@ -338,7 +347,7 @@
     <title>보증금 1억을 올리면 월세는 얼마 줄까? 두 조건의 전환율 계산법</title>
     <id>https://nobot-kang.github.io/posts/deposit-rent-comparison/</id>
     <published>2026-10-09T17:07:20+09:00</published>
-    <updated>2026-10-10T15:42:52+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>보증금 1억원을 더 내면 월세는 얼마나 줄어야 할까요? 같은 집의 두 조건으로 전환율을 계산하고, 추가 자금 비용과 비교하는 계산기·가상 예시·법정 상한의 구분을 제공합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/deposit-rent-comparison/" />
     <category term="전세와 월세 계약 읽기" />
@@ -347,7 +356,7 @@
     <title>서울 아파트 월세 비중, 절반을 넘었다는 말의 분모는?</title>
     <id>https://nobot-kang.github.io/posts/seoul-monthly-rent-share/</id>
     <published>2026-10-09T15:59:18+09:00</published>
-    <updated>2026-10-10T13:08:47+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>서울 아파트 월세 계약 비중을 2022~2025년과 2025·2026년 상반기로 비교합니다. 신규·갱신·미기재의 분모를 확인하고 계약 비중과 가구·매물·임대료를 구분합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-monthly-rent-share/" />
     <category term="전세와 월세 계약 읽기" />
@@ -356,7 +365,7 @@
     <title>이사철이면 아파트 거래가 늘까? 서울의 네 해 달력 비교</title>
     <id>https://nobot-kang.github.io/posts/seoul-contract-calendar/</id>
     <published>2026-10-09T15:11:48+09:00</published>
-    <updated>2026-10-10T08:10:24+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>서울 아파트 2022~2025년 매매계약을 월별로 비교합니다. 연도별 규모와 월 길이를 맞추고, 평균·해별 범위로 이사철과 매수 적기를 구분합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-contract-calendar/" />
     <category term="서울 아파트" />
@@ -365,7 +374,7 @@
     <title>서울 아파트 6억·9억 예산, 거래된 집의 면적과 연식은?</title>
     <id>https://nobot-kang.github.io/posts/seoul-budget-home-profiles/</id>
     <published>2026-10-09T15:11:48+09:00</published>
-    <updated>2026-10-10T07:13:48+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>서울 2025년 7월~2026년 6월 거래를 가격대별로 비교합니다. 전용면적·연식의 중앙값과 분포, 분기 차이를 확인하고 과거 거래를 현재 매물로 오해하지 않는 기준을 정리합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-budget-home-profiles/" />
     <category term="서울 아파트" />
@@ -374,7 +383,7 @@
     <title>최근 월 아파트 거래량, 왜 나중에 늘어날까? 신고 지연과 집계 시점 읽기</title>
     <id>https://nobot-kang.github.io/posts/recent-month-transaction-lag/</id>
     <published>2026-10-09T14:37:49+09:00</published>
-    <updated>2026-10-10T06:51:15+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>최근 월 아파트 거래량은 왜 나중에 달라질까요? 계약일·신고일·조회일, 신고 기한과 통계 확정의 차이를 구분하고 가상 수정 예시와 다섯 가지 확인 질문으로 설명합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/recent-month-transaction-lag/" />
     <category term="아파트 가격표 읽기" />
@@ -383,7 +392,7 @@
     <title>아파트 평당가 계산법: 전용면적·공급면적을 바꾸면 순위도 달라질까?</title>
     <id>https://nobot-kang.github.io/posts/exclusive-supply-area-price/</id>
     <published>2026-10-09T14:29:06+09:00</published>
-    <updated>2026-10-10T06:32:29+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>아파트 평당가를 전용·공급면적으로 계산하면 무엇이 달라질까요? 가상 두 집의 순위 반전, 84㎡ 평 환산, 실제 평형군 중앙값을 잘못 나누는 사례로 비교 기준을 설명합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/exclusive-supply-area-price/" />
     <category term="아파트 가격표 읽기" />
@@ -392,7 +401,7 @@
     <title>실거래가·호가·KB시세 차이: 아파트 가격은 무엇을 봐야 할까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-price-types/</id>
     <published>2026-10-09T14:29:06+09:00</published>
-    <updated>2026-10-10T19:20:29+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>실거래가·호가·KB시세·모형 추정가격은 서로 다른 질문에 답합니다. 실제 중앙값 사례와 가격 확인표로 대상·날짜·근거를 구분하고, 거래가 드물 때의 확인 순서를 정리합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-price-types/" />
     <category term="아파트 가격표 읽기" />
@@ -401,7 +410,7 @@
     <title>모든 동네가 올랐는데, 우리 구는 내렸다?</title>
     <id>https://nobot-kang.github.io/posts/seoul-average-paradox/</id>
     <published>2026-10-08T16:29:27+09:00</published>
-    <updated>2026-10-10T23:13:27+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>가상의 심슨 역설과 실제 노원구 거래로 평균가격의 변화를 분해합니다. 거래 구성·선택 편향·표준화를 이해하고 집값 상승과 하락을 읽는 다섯 질문을 정리합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-average-paradox/" />
     <category term="서울 아파트" />
@@ -410,7 +419,7 @@
     <title>거래 10%가 금액 29%를 차지할 때: 서울의 거래금액 읽기</title>
     <id>https://nobot-kang.github.io/posts/seoul-transaction-value/</id>
     <published>2026-10-08T10:03:06+09:00</published>
-    <updated>2026-10-10T06:32:29+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2025년 서울의 12개월 계약금액과 가격대별 비중을 한눈에 읽습니다. 건수와 금액의 차이, 2026년 1분기 고가 거래의 후속 변화를 함께 살펴봅니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-transaction-value/" />
     <category term="서울 아파트" />
@@ -419,7 +428,7 @@
     <title>서울 거래가 늘었는데, 강남3구는 왜 줄었을까?</title>
     <id>https://nobot-kang.github.io/posts/seoul-trade-geography/</id>
     <published>2026-10-08T10:03:06+09:00</published>
-    <updated>2026-10-10T06:32:29+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>토지거래허가구역 확대 이후 강남3구·마용성·노도강·금관구의 거래가 어떻게 달라졌을까요? 두 가지 지역 비중과 대출한도별 가격 구간, 2026년 1분기까지 살펴봅니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-trade-geography/" />
     <category term="서울 아파트" />
@@ -428,7 +437,7 @@
     <title>대출 규제 뒤, 25억 초과 거래 비중은 왜 커졌을까?</title>
     <id>https://nobot-kang.github.io/posts/seoul-price-band-mix/</id>
     <published>2026-10-08T10:03:06+09:00</published>
-    <updated>2026-10-10T08:31:20+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2025년 토허제 해제 전후부터 대출 규제까지 다섯 시기의 가격대별 거래를 비교합니다. 연말에 높아진 고가 거래 비중이 2026년 1분기에 어떻게 달라졌는지도 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-price-band-mix/" />
     <category term="서울 아파트" />
@@ -437,7 +446,7 @@
     <title>평균과 중앙값, 둘 다 맞는데 왜 다른 이야기를 할까?</title>
     <id>https://nobot-kang.github.io/posts/statistics-mean-median/</id>
     <published>2026-10-08T02:08:39+09:00</published>
-    <updated>2026-10-10T06:32:29+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>같은 거래를 평균과 중앙값으로 요약하면 무엇이 달라질까요? 노원구·강서구 실제 아파트 집계로 기간·건수·대표값을 읽고, 대표값과 시세가 왜 다른지 설명합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/statistics-mean-median/" />
     <category term="통계의 함정: 숫자보다 먼저 묻는 네 가지 질문" />
@@ -446,7 +455,7 @@
     <title>한 거래, 한 세대, 한 평: 가중치가 바꾸는 아파트 가격</title>
     <id>https://nobot-kang.github.io/posts/statistics-household-weights/</id>
     <published>2026-10-08T02:08:39+09:00</published>
-    <updated>2026-10-10T06:32:29+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>세대수 가중 평균과 면적 가중 평당가의 차이를 계산합니다. 프로젝트의 전용면적·재고 변수로 지역 가격 수준과 추정 주택자산 총액을 구분합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/statistics-household-weights/" />
     <category term="통계의 함정: 숫자보다 먼저 묻는 네 가지 질문" />
@@ -455,7 +464,7 @@
     <title>우리 동네 10% 상승? 변화율과 대시보드 용어 읽는 법</title>
     <id>https://nobot-kang.github.io/posts/statistics-change-and-glossary/</id>
     <published>2026-10-08T02:08:39+09:00</published>
-    <updated>2026-10-10T17:26:20+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>동네 10% 상승을 내 집의 상승으로 읽어도 될까요? 평균·중앙값 변화율, 통계 설계와 표준화, 대시보드 용어와 기사 확인 질문을 정리합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/statistics-change-and-glossary/" />
     <category term="통계의 함정: 숫자보다 먼저 묻는 네 가지 질문" />
@@ -464,7 +473,7 @@
     <title>평균의 평균, 중앙값의 중앙값: 묶는 순간 질문이 바뀐다</title>
     <id>https://nobot-kang.github.io/posts/statistics-average-of-averages/</id>
     <published>2026-10-08T02:08:39+09:00</published>
-    <updated>2026-10-10T06:32:29+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>평균의 평균과 중앙값의 중앙값을 실제 평형군 자료로 계산합니다. 거래·단지·지역을 합칠 때 달라지는 분모와 집계 순서를 배웁니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/statistics-average-of-averages/" />
     <category term="통계의 함정: 숫자보다 먼저 묻는 네 가지 질문" />
@@ -473,7 +482,7 @@
     <title>거래가 뜸한 아파트, 마지막 거래가격을 믿어도 될까?</title>
     <id>https://nobot-kang.github.io/posts/thin-trading-evidence/</id>
     <published>2026-10-06T01:30:09+09:00</published>
-    <updated>2026-10-10T06:32:29+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2026년 6월 거래가 있었던 단지·면적군 중 한 건뿐인 묶음의 비중을 살펴봅니다. 마지막 실거래의 시점, 건수, 비교 조건을 함께 읽는 방법입니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/thin-trading-evidence/" />
     <category term="첫 집을 위한 가격 읽기" />
@@ -482,7 +491,7 @@
     <title>첫 집 후보 두 곳, 가격표에서 무엇을 비교할까?</title>
     <id>https://nobot-kang.github.io/posts/first-home-comparison-sheet/</id>
     <published>2026-10-06T01:30:09+09:00</published>
-    <updated>2026-10-10T06:32:29+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>비교 조건, 평균의 의미, 거래 근거를 한 장에 모았습니다. 검증한 지역 사례와 복사용 빈 비교표로 내 후보 두 곳의 미확인 사항을 찾아보세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/first-home-comparison-sheet/" />
     <category term="첫 집을 위한 가격 읽기" />
@@ -491,7 +500,7 @@
     <title>평균 거래가격이 올랐는데, 같은 집도 올랐을까?</title>
     <id>https://nobot-kang.github.io/posts/average-price-and-mix/</id>
     <published>2026-10-06T01:30:09+09:00</published>
-    <updated>2026-10-10T23:13:27+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2026년 5~6월 노원구·강서구 실거래로 평균가격 변화와 면적군 거래 구성 변화를 나눠봅니다. 평균 상승을 같은 집의 상승으로 읽기 전에 확인할 기준입니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/average-price-and-mix/" />
     <category term="첫 집을 위한 가격 읽기" />
@@ -500,7 +509,7 @@
     <title>아파트 가격 비교, 무엇을 같게 맞춰야 할까?</title>
     <id>https://nobot-kang.github.io/posts/compare-apartment-prices/</id>
     <published>2026-10-06T00:57:36+09:00</published>
-    <updated>2026-10-10T06:32:29+09:00</updated>
+    <updated>2026-10-11T00:54:00+09:00</updated>
     <summary>2026년 6월 강서구·노원구 실거래를 비교했습니다. 면적군을 맞추면 가격 차이가 어떻게 달라지는지, 비교 전에 확인할 다섯 가지 조건을 살펴봅니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/compare-apartment-prices/" />
     <category term="첫 집을 위한 가격 읽기" />

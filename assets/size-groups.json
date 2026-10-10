@@ -1,0 +1,156 @@
+{
+  "schema": "size_group_coverage_v1",
+  "period": [
+    "2025-01",
+    "2025-12"
+  ],
+  "unit_type_version": "exclusive_round_half_up_v1",
+  "population": "strict observed apartment sales; land leasehold excluded; Seoul 25 + collected Gyeonggi 36",
+  "snapshot_built_date": "2026-10-04",
+  "all_sales": {
+    "11": 69280,
+    "41": 111135
+  },
+  "groups": [
+    {
+      "key": "84",
+      "group": "p25_26",
+      "label": "전용 25·26평형 (84형 포함)",
+      "pyeong": [
+        25,
+        26
+      ],
+      "bounds_m2": [
+        80.9921,
+        87.6037
+      ],
+      "narrow_m2": [
+        84,
+        85
+      ],
+      "regions": [
+        {
+          "region": "11",
+          "n": 24565,
+          "narrow": 22967,
+          "below": 1437,
+          "above": 161
+        },
+        {
+          "region": "41",
+          "n": 41371,
+          "narrow": 39789,
+          "below": 1305,
+          "above": 277
+        }
+      ],
+      "eras": [
+        {
+          "era": "1979년 이전",
+          "n": 218,
+          "narrow": 33
+        },
+        {
+          "era": "1980년대",
+          "n": 1545,
+          "narrow": 1072
+        },
+        {
+          "era": "1990년대",
+          "n": 11889,
+          "narrow": 11219
+        },
+        {
+          "era": "2000년대",
+          "n": 24255,
+          "narrow": 22952
+        },
+        {
+          "era": "2010년대",
+          "n": 20824,
+          "narrow": 20338
+        },
+        {
+          "era": "2020년대",
+          "n": 7205,
+          "narrow": 7142
+        }
+      ],
+      "complexes": 5899,
+      "complexes_without_narrow": 506,
+      "complexes_both_pyeong": 220,
+      "above_legal_line": 271,
+      "legal_line_m2": 85
+    },
+    {
+      "key": "59",
+      "group": "p17_18",
+      "label": "전용 17·18평형 (59형 포함)",
+      "pyeong": [
+        17,
+        18
+      ],
+      "bounds_m2": [
+        54.5457,
+        61.1573
+      ],
+      "narrow_m2": [
+        59,
+        60
+      ],
+      "regions": [
+        {
+          "region": "11",
+          "n": 19663,
+          "narrow": 17183,
+          "below": 1999,
+          "above": 481
+        },
+        {
+          "region": "41",
+          "n": 28702,
+          "narrow": 24980,
+          "below": 2698,
+          "above": 1024
+        }
+      ],
+      "eras": [
+        {
+          "era": "1979년 이전",
+          "n": 63,
+          "narrow": 13
+        },
+        {
+          "era": "1980년대",
+          "n": 1624,
+          "narrow": 573
+        },
+        {
+          "era": "1990년대",
+          "n": 16274,
+          "narrow": 13279
+        },
+        {
+          "era": "2000년대",
+          "n": 13044,
+          "narrow": 11703
+        },
+        {
+          "era": "2010년대",
+          "n": 10313,
+          "narrow": 9858
+        },
+        {
+          "era": "2020년대",
+          "n": 7047,
+          "narrow": 6737
+        }
+      ],
+      "complexes": 3920,
+      "complexes_without_narrow": 715,
+      "complexes_both_pyeong": 71,
+      "above_legal_line": 697,
+      "legal_line_m2": 60
+    }
+  ]
+}
