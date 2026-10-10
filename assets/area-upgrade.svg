@@ -29,8 +29,8 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 76.07524 229.14776
-L 572.99976 229.14776
+    <path d="M 76.07524 227.93176
+L 572.99976 227.93176
 L 572.99976 31.69224
 L 76.07524 31.69224
 z
@@ -39,14 +39,13 @@ z
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <path d="M 90.908808 229.14776
+      <path d="M 90.908808 227.93176
 L 90.908808 31.69224
-" clip-path="url(#pbc4baaa776)" style="fill: none; stroke: #e0e5e9; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#pc9469562f7)" style="fill: none; stroke: #e0e5e9; stroke-linecap: round"/>
      </g>
-     <g id="line2d_2"/>
      <g id="text_1">
       <!-- 0 -->
-      <g transform="translate(87.168808 242.44876) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(87.168808 241.23276) scale(0.11 -0.11)">
        <defs>
         <path id="AppleGothic-18" d="M 2227 -83
 Q 1414 -83 934 576
@@ -75,15 +74,14 @@ z
      </g>
     </g>
     <g id="xtick_2">
-     <g id="line2d_3">
-      <path d="M 239.244485 229.14776
+     <g id="line2d_2">
+      <path d="M 239.244485 227.93176
 L 239.244485 31.69224
-" clip-path="url(#pbc4baaa776)" style="fill: none; stroke: #e0e5e9; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#pc9469562f7)" style="fill: none; stroke: #e0e5e9; stroke-linecap: round"/>
      </g>
-     <g id="line2d_4"/>
      <g id="text_2">
       <!-- 1 -->
-      <g transform="translate(235.504485 242.44876) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(235.504485 241.23276) scale(0.11 -0.11)">
        <defs>
         <path id="AppleGothic-19" d="M 2342 4774
 L 2752 4774
@@ -103,15 +101,14 @@ z
      </g>
     </g>
     <g id="xtick_3">
-     <g id="line2d_5">
-      <path d="M 387.580163 229.14776
+     <g id="line2d_3">
+      <path d="M 387.580163 227.93176
 L 387.580163 31.69224
-" clip-path="url(#pbc4baaa776)" style="fill: none; stroke: #e0e5e9; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#pc9469562f7)" style="fill: none; stroke: #e0e5e9; stroke-linecap: round"/>
      </g>
-     <g id="line2d_6"/>
      <g id="text_3">
       <!-- 2 -->
-      <g transform="translate(383.840163 242.44876) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(383.840163 241.23276) scale(0.11 -0.11)">
        <defs>
         <path id="AppleGothic-1a" d="M 1101 429
 L 3942 429
@@ -144,15 +141,14 @@ z
      </g>
     </g>
     <g id="xtick_4">
-     <g id="line2d_7">
-      <path d="M 535.915841 229.14776
+     <g id="line2d_4">
+      <path d="M 535.915841 227.93176
 L 535.915841 31.69224
-" clip-path="url(#pbc4baaa776)" style="fill: none; stroke: #e0e5e9; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#pc9469562f7)" style="fill: none; stroke: #e0e5e9; stroke-linecap: round"/>
      </g>
-     <g id="line2d_8"/>
      <g id="text_4">
       <!-- 3 -->
-      <g transform="translate(532.175841 242.44876) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(532.175841 241.23276) scale(0.11 -0.11)">
        <defs>
         <path id="AppleGothic-1b" d="M 550 333
 L 550 870
@@ -197,7 +193,7 @@ z
     </g>
     <g id="text_5">
      <!-- 84㎡대 - 59㎡대 관측 차액 (억 원) -->
-     <g transform="translate(235.7675 259.82476) scale(0.11 -0.11)">
+     <g style="fill: #262626" transform="translate(227.6975 259.49976) scale(0.12 -0.12)">
       <defs>
        <path id="AppleGothic-20" d="M 2957 2605
 Q 3219 2528 3404 2445
@@ -1080,10 +1076,14 @@ z
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
-     <g id="line2d_9"/>
+     <g id="line2d_5">
+      <path d="M 76.07524 69.674083
+L 572.99976 69.674083
+" clip-path="url(#pc9469562f7)" style="fill: none; stroke: #cccccc; stroke-linecap: round"/>
+     </g>
      <g id="text_6">
       <!-- A 지역 전체 -->
-      <g transform="translate(13.549928 68.121937) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(13.549928 67.886583) scale(0.11 -0.11)">
        <defs>
         <path id="AppleGothic-29" d="M 2086 5018
 L 2579 5018
@@ -1446,7 +1446,7 @@ z
        <use xlink:href="#AppleGothic-1170" transform="translate(436.59375 0)"/>
       </g>
       <!-- 중앙값 차이 -->
-      <g transform="translate(14.05524 81.497937) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(14.05524 81.262583) scale(0.11 -0.11)">
        <defs>
         <path id="AppleGothic-10d7" d="M 4762 429
 Q 4762 723 4352 883
@@ -1764,10 +1764,14 @@ z
      </g>
     </g>
     <g id="ytick_2">
-     <g id="line2d_10"/>
+     <g id="line2d_6">
+      <path d="M 76.07524 132.977154
+L 572.99976 132.977154
+" clip-path="url(#pc9469562f7)" style="fill: none; stroke: #cccccc; stroke-linecap: round"/>
+     </g>
      <g id="text_7">
       <!-- B 공통 단지 -->
-      <g transform="translate(14.450553 131.817266) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(14.450553 131.189654) scale(0.11 -0.11)">
        <defs>
         <path id="AppleGothic-2a" d="M 307 5018
 L 2029 5018
@@ -2021,7 +2025,7 @@ z
        <use xlink:href="#AppleGothic-10ee" transform="translate(428.40625 0)"/>
       </g>
       <!-- 중앙값 차이 -->
-      <g transform="translate(14.05524 145.193266) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(14.05524 144.565654) scale(0.11 -0.11)">
        <use xlink:href="#AppleGothic-10d7"/>
        <use xlink:href="#AppleGothic-fb1" transform="translate(100 0)"/>
        <use xlink:href="#AppleGothic-a64" transform="translate(200 0)"/>
@@ -2032,10 +2036,14 @@ z
      </g>
     </g>
     <g id="ytick_3">
-     <g id="line2d_11"/>
+     <g id="line2d_7">
+      <path d="M 76.07524 196.280225
+L 572.99976 196.280225
+" clip-path="url(#pc9469562f7)" style="fill: none; stroke: #cccccc; stroke-linecap: round"/>
+     </g>
      <g id="text_8">
       <!-- C 단지별 차액 -->
-      <g transform="translate(3.00024 195.512595) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(3.00024 194.492725) scale(0.11 -0.11)">
        <defs>
         <path id="AppleGothic-2b" d="M 4109 4621
 L 4109 3974
@@ -2162,7 +2170,7 @@ z
        <use xlink:href="#AppleGothic-fb5" transform="translate(532.5 0)"/>
       </g>
       <!-- 중앙값 -->
-      <g transform="translate(39.57524 208.888595) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(39.57524 207.868725) scale(0.11 -0.11)">
        <use xlink:href="#AppleGothic-10d7"/>
        <use xlink:href="#AppleGothic-fb1" transform="translate(100 0)"/>
        <use xlink:href="#AppleGothic-a64" transform="translate(200 0)"/>
@@ -2184,13 +2192,13 @@ C -1.926654 3.317391 -0.983399 3.708099 0 3.708099
 z
 " style="stroke: #103d68"/>
     </defs>
-    <g clip-path="url(#pbc4baaa776)">
-     <use xlink:href="#m9fb0332089" x="461.748002" y="69.909437" style="fill: #103d68; stroke: #103d68"/>
+    <g clip-path="url(#pc9469562f7)">
+     <use xlink:href="#m9fb0332089" x="461.748002" y="69.674083" style="fill: #103d68; stroke: #103d68"/>
     </g>
    </g>
    <g id="text_9">
     <!-- 2.50 -->
-    <g style="fill: #103d68" transform="translate(448.630502 57.909437) scale(0.11 -0.11)">
+    <g style="fill: #103d68" transform="translate(448.630502 57.674083) scale(0.11 -0.11)">
      <defs>
       <path id="AppleGothic-16" d="M 915 -19
 Q 762 -19 653 109
@@ -2219,13 +2227,13 @@ L -3.708099 -3.708099
 z
 " style="stroke: #103d68"/>
     </defs>
-    <g clip-path="url(#pbc4baaa776)">
-     <use xlink:href="#m4096dd2c3e" x="380.163379" y="133.604766" style="fill: #103d68; stroke: #103d68"/>
+    <g clip-path="url(#pc9469562f7)">
+     <use xlink:href="#m4096dd2c3e" x="380.163379" y="132.977154" style="fill: #103d68; stroke: #103d68"/>
     </g>
    </g>
    <g id="text_10">
     <!-- 1.95 -->
-    <g style="fill: #103d68" transform="translate(367.045879 121.604766) scale(0.11 -0.11)">
+    <g style="fill: #103d68" transform="translate(367.045879 120.977154) scale(0.11 -0.11)">
      <use xlink:href="#AppleGothic-19"/>
      <use xlink:href="#AppleGothic-16" transform="translate(68 0)"/>
      <use xlink:href="#AppleGothic-21" transform="translate(102.5 0)"/>
@@ -2241,13 +2249,13 @@ L -5.244044 -0
 z
 " style="stroke: #15786f"/>
     </defs>
-    <g clip-path="url(#pbc4baaa776)">
-     <use xlink:href="#m366ccb545e" x="313.412324" y="197.300095" style="fill: #15786f; stroke: #15786f"/>
+    <g clip-path="url(#pc9469562f7)">
+     <use xlink:href="#m366ccb545e" x="313.412324" y="196.280225" style="fill: #15786f; stroke: #15786f"/>
     </g>
    </g>
    <g id="text_11">
     <!-- 1.50 -->
-    <g style="fill: #15786f" transform="translate(300.294824 185.300095) scale(0.11 -0.11)">
+    <g style="fill: #15786f" transform="translate(300.294824 184.280225) scale(0.11 -0.11)">
      <use xlink:href="#AppleGothic-19"/>
      <use xlink:href="#AppleGothic-16" transform="translate(68 0)"/>
      <use xlink:href="#AppleGothic-1d" transform="translate(102.5 0)"/>
@@ -2256,7 +2264,7 @@ z
    </g>
    <g id="text_12">
     <!-- 노원구 · 공통 단지 23곳 -->
-    <g transform="translate(76.07524 13.69224) scale(0.12 -0.12)">
+    <g style="fill: #262626" transform="translate(76.07524 13.69224) scale(0.12 -0.12)">
      <defs>
       <path id="AppleGothic-bbf" d="M 6042 256
 Q 6022 256 5916 259
@@ -2465,8 +2473,8 @@ z
   </g>
   <g id="axes_2">
    <g id="patch_3">
-    <path d="M 76.07524 495.54776
-L 572.99976 495.54776
+    <path d="M 76.07524 494.33176
+L 572.99976 494.33176
 L 572.99976 298.09224
 L 76.07524 298.09224
 z
@@ -2474,64 +2482,60 @@ z
    </g>
    <g id="matplotlib.axis_3">
     <g id="xtick_5">
-     <g id="line2d_12">
-      <path d="M 90.908808 495.54776
+     <g id="line2d_8">
+      <path d="M 90.908808 494.33176
 L 90.908808 298.09224
-" clip-path="url(#p7e35d5c706)" style="fill: none; stroke: #e0e5e9; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p802ddbbbef)" style="fill: none; stroke: #e0e5e9; stroke-linecap: round"/>
      </g>
-     <g id="line2d_13"/>
      <g id="text_13">
       <!-- 0 -->
-      <g transform="translate(87.168808 508.84876) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(87.168808 507.63276) scale(0.11 -0.11)">
        <use xlink:href="#AppleGothic-18"/>
       </g>
      </g>
     </g>
     <g id="xtick_6">
-     <g id="line2d_14">
-      <path d="M 239.244485 495.54776
+     <g id="line2d_9">
+      <path d="M 239.244485 494.33176
 L 239.244485 298.09224
-" clip-path="url(#p7e35d5c706)" style="fill: none; stroke: #e0e5e9; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p802ddbbbef)" style="fill: none; stroke: #e0e5e9; stroke-linecap: round"/>
      </g>
-     <g id="line2d_15"/>
      <g id="text_14">
       <!-- 1 -->
-      <g transform="translate(235.504485 508.84876) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(235.504485 507.63276) scale(0.11 -0.11)">
        <use xlink:href="#AppleGothic-19"/>
       </g>
      </g>
     </g>
     <g id="xtick_7">
-     <g id="line2d_16">
-      <path d="M 387.580163 495.54776
+     <g id="line2d_10">
+      <path d="M 387.580163 494.33176
 L 387.580163 298.09224
-" clip-path="url(#p7e35d5c706)" style="fill: none; stroke: #e0e5e9; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p802ddbbbef)" style="fill: none; stroke: #e0e5e9; stroke-linecap: round"/>
      </g>
-     <g id="line2d_17"/>
      <g id="text_15">
       <!-- 2 -->
-      <g transform="translate(383.840163 508.84876) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(383.840163 507.63276) scale(0.11 -0.11)">
        <use xlink:href="#AppleGothic-1a"/>
       </g>
      </g>
     </g>
     <g id="xtick_8">
-     <g id="line2d_18">
-      <path d="M 535.915841 495.54776
+     <g id="line2d_11">
+      <path d="M 535.915841 494.33176
 L 535.915841 298.09224
-" clip-path="url(#p7e35d5c706)" style="fill: none; stroke: #e0e5e9; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p802ddbbbef)" style="fill: none; stroke: #e0e5e9; stroke-linecap: round"/>
      </g>
-     <g id="line2d_19"/>
      <g id="text_16">
       <!-- 3 -->
-      <g transform="translate(532.175841 508.84876) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(532.175841 507.63276) scale(0.11 -0.11)">
        <use xlink:href="#AppleGothic-1b"/>
       </g>
      </g>
     </g>
     <g id="text_17">
      <!-- 84㎡대 - 59㎡대 관측 차액 (억 원) -->
-     <g transform="translate(235.7675 526.22476) scale(0.11 -0.11)">
+     <g style="fill: #262626" transform="translate(227.6975 525.89976) scale(0.12 -0.12)">
       <use xlink:href="#AppleGothic-20"/>
       <use xlink:href="#AppleGothic-1c" transform="translate(68 0)"/>
       <use xlink:href="#AppleGothic-5b3" transform="translate(136 0)"/>
@@ -2560,10 +2564,14 @@ L 535.915841 298.09224
    </g>
    <g id="matplotlib.axis_4">
     <g id="ytick_4">
-     <g id="line2d_20"/>
+     <g id="line2d_12">
+      <path d="M 76.07524 336.074083
+L 572.99976 336.074083
+" clip-path="url(#p802ddbbbef)" style="fill: none; stroke: #cccccc; stroke-linecap: round"/>
+     </g>
      <g id="text_18">
       <!-- A 지역 전체 -->
-      <g transform="translate(13.549928 334.521937) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(13.549928 334.286583) scale(0.11 -0.11)">
        <use xlink:href="#AppleGothic-29"/>
        <use xlink:href="#AppleGothic-3" transform="translate(72.59375 0)"/>
        <use xlink:href="#AppleGothic-10ee" transform="translate(104.59375 0)"/>
@@ -2573,7 +2581,7 @@ L 535.915841 298.09224
        <use xlink:href="#AppleGothic-1170" transform="translate(436.59375 0)"/>
       </g>
       <!-- 중앙값 차이 -->
-      <g transform="translate(14.05524 347.897937) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(14.05524 347.662583) scale(0.11 -0.11)">
        <use xlink:href="#AppleGothic-10d7"/>
        <use xlink:href="#AppleGothic-fb1" transform="translate(100 0)"/>
        <use xlink:href="#AppleGothic-a64" transform="translate(200 0)"/>
@@ -2584,10 +2592,14 @@ L 535.915841 298.09224
      </g>
     </g>
     <g id="ytick_5">
-     <g id="line2d_21"/>
+     <g id="line2d_13">
+      <path d="M 76.07524 399.377154
+L 572.99976 399.377154
+" clip-path="url(#p802ddbbbef)" style="fill: none; stroke: #cccccc; stroke-linecap: round"/>
+     </g>
      <g id="text_19">
       <!-- B 공통 단지 -->
-      <g transform="translate(14.450553 398.217266) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(14.450553 397.589654) scale(0.11 -0.11)">
        <use xlink:href="#AppleGothic-2a"/>
        <use xlink:href="#AppleGothic-3" transform="translate(64.40625 0)"/>
        <use xlink:href="#AppleGothic-ab2" transform="translate(96.40625 0)"/>
@@ -2597,7 +2609,7 @@ L 535.915841 298.09224
        <use xlink:href="#AppleGothic-10ee" transform="translate(428.40625 0)"/>
       </g>
       <!-- 중앙값 차이 -->
-      <g transform="translate(14.05524 411.593266) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(14.05524 410.965654) scale(0.11 -0.11)">
        <use xlink:href="#AppleGothic-10d7"/>
        <use xlink:href="#AppleGothic-fb1" transform="translate(100 0)"/>
        <use xlink:href="#AppleGothic-a64" transform="translate(200 0)"/>
@@ -2608,10 +2620,14 @@ L 535.915841 298.09224
      </g>
     </g>
     <g id="ytick_6">
-     <g id="line2d_22"/>
+     <g id="line2d_14">
+      <path d="M 76.07524 462.680225
+L 572.99976 462.680225
+" clip-path="url(#p802ddbbbef)" style="fill: none; stroke: #cccccc; stroke-linecap: round"/>
+     </g>
      <g id="text_20">
       <!-- C 단지별 차액 -->
-      <g transform="translate(3.00024 461.912595) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(3.00024 460.892725) scale(0.11 -0.11)">
        <use xlink:href="#AppleGothic-2b"/>
        <use xlink:href="#AppleGothic-3" transform="translate(68.5 0)"/>
        <use xlink:href="#AppleGothic-c0e" transform="translate(100.5 0)"/>
@@ -2622,7 +2638,7 @@ L 535.915841 298.09224
        <use xlink:href="#AppleGothic-fb5" transform="translate(532.5 0)"/>
       </g>
       <!-- 중앙값 -->
-      <g transform="translate(39.57524 475.288595) scale(0.11 -0.11)">
+      <g style="fill: #262626" transform="translate(39.57524 474.268725) scale(0.11 -0.11)">
        <use xlink:href="#AppleGothic-10d7"/>
        <use xlink:href="#AppleGothic-fb1" transform="translate(100 0)"/>
        <use xlink:href="#AppleGothic-a64" transform="translate(200 0)"/>
@@ -2631,13 +2647,13 @@ L 535.915841 298.09224
     </g>
    </g>
    <g id="PathCollection_4">
-    <g clip-path="url(#p7e35d5c706)">
-     <use xlink:href="#m9fb0332089" x="304.512184" y="336.309437" style="fill: #103d68; stroke: #103d68"/>
+    <g clip-path="url(#p802ddbbbef)">
+     <use xlink:href="#m9fb0332089" x="304.512184" y="336.074083" style="fill: #103d68; stroke: #103d68"/>
     </g>
    </g>
    <g id="text_21">
     <!-- 1.44 -->
-    <g style="fill: #103d68" transform="translate(291.394684 324.309437) scale(0.11 -0.11)">
+    <g style="fill: #103d68" transform="translate(291.394684 324.074083) scale(0.11 -0.11)">
      <use xlink:href="#AppleGothic-19"/>
      <use xlink:href="#AppleGothic-16" transform="translate(68 0)"/>
      <use xlink:href="#AppleGothic-1c" transform="translate(102.5 0)"/>
@@ -2645,13 +2661,13 @@ L 535.915841 298.09224
     </g>
    </g>
    <g id="PathCollection_5">
-    <g clip-path="url(#p7e35d5c706)">
-     <use xlink:href="#m4096dd2c3e" x="483.998353" y="400.004766" style="fill: #103d68; stroke: #103d68"/>
+    <g clip-path="url(#p802ddbbbef)">
+     <use xlink:href="#m4096dd2c3e" x="483.998353" y="399.377154" style="fill: #103d68; stroke: #103d68"/>
     </g>
    </g>
    <g id="text_22">
     <!-- 2.65 -->
-    <g style="fill: #103d68" transform="translate(470.880853 388.004766) scale(0.11 -0.11)">
+    <g style="fill: #103d68" transform="translate(470.880853 387.377154) scale(0.11 -0.11)">
      <defs>
       <path id="AppleGothic-1e" d="M 3699 4557
 L 3699 4013
@@ -2697,13 +2713,13 @@ z
     </g>
    </g>
    <g id="PathCollection_6">
-    <g clip-path="url(#p7e35d5c706)">
-     <use xlink:href="#m366ccb545e" x="283.745189" y="463.700095" style="fill: #15786f; stroke: #15786f"/>
+    <g clip-path="url(#p802ddbbbef)">
+     <use xlink:href="#m366ccb545e" x="283.745189" y="462.680225" style="fill: #15786f; stroke: #15786f"/>
     </g>
    </g>
    <g id="text_23">
     <!-- 1.30 -->
-    <g style="fill: #15786f" transform="translate(270.627689 451.700095) scale(0.11 -0.11)">
+    <g style="fill: #15786f" transform="translate(270.627689 450.680225) scale(0.11 -0.11)">
      <use xlink:href="#AppleGothic-19"/>
      <use xlink:href="#AppleGothic-16" transform="translate(68 0)"/>
      <use xlink:href="#AppleGothic-1b" transform="translate(102.5 0)"/>
@@ -2712,7 +2728,7 @@ z
    </g>
    <g id="text_24">
     <!-- 강서구 · 공통 단지 19곳 -->
-    <g transform="translate(76.07524 280.09224) scale(0.12 -0.12)">
+    <g style="fill: #262626" transform="translate(76.07524 280.09224) scale(0.12 -0.12)">
      <defs>
       <path id="AppleGothic-a67" d="M 4787 518
 Q 4787 915 4256 1094
@@ -2875,11 +2891,11 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pbc4baaa776">
-   <rect x="76.07524" y="31.69224" width="496.92452" height="197.45552"/>
+  <clipPath id="pc9469562f7">
+   <rect x="76.07524" y="31.69224" width="496.92452" height="196.23952"/>
   </clipPath>
-  <clipPath id="p7e35d5c706">
-   <rect x="76.07524" y="298.09224" width="496.92452" height="197.45552"/>
+  <clipPath id="p802ddbbbef">
+   <rect x="76.07524" y="298.09224" width="496.92452" height="196.23952"/>
   </clipPath>
  </defs>
 </svg>
