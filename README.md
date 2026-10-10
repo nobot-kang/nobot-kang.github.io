@@ -149,3 +149,15 @@ two-dong counts and mean amounts. Never treat those rows as observed Seoul trans
 with minimum 10 trades per dong/period and identical observed dong sets in both periods.
 `seoul-mix-*` figures distinguish the hypothetical reversal, actual dong mean changes,
 and descriptive fixed-composition calculation. No individual transactions are published.
+
+### 사용승인 연대별 면적 구성
+
+`assets/completion-era.json` (`completion_era_limited_v1`) contains six current
+inventory aggregates: Seoul / collected Gyeonggi × 1990s / 2010s / 2020 onward.
+`households` is the measured household denominator; `small`, `mid`, `large` count
+exclusive areas ≤60, (60,85], >85㎡. The separate `84` count covers [84,85)㎡ and
+overlaps `mid`. Ratios are 100 × count / households. One preidentified complex
+is excluded under the recorded population rule. These are surviving connected
+inventory, not transactions, historical original supply, a probability sample
+or a causal estimate. The article explains the restriction and missing coverage.
+`completion-era*.svg` and `.png` visualize only these admitted aggregates.
