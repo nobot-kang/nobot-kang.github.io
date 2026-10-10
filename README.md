@@ -180,3 +180,16 @@ reported contracts, including cancellations; their denominator differs from pric
 coverage. Original labels remain even when all numbers are withheld. The positive
 Seoul2022 B counterexample is retained. These selected comparisons are not market-wide
 discounts, causal effects, contemporary forecasts or valuations of individual homes.
+
+`assets/high-price-thresholds.json` (`high_price_threshold_intervals_v1`) contains
+2011–2025 annual nominal sale-price quantile intervals for Seoul25 and collected
+Gyeonggi36, all exclusive areas and84≤area<85㎡, under two inclusion policies.
+Each supported `median`/`p95`/`p99` has `lo` (inclusive) and `hi` (exclusive), in
+만원, on one fixed5,000만원 grid. These are display precision intervals, not
+confidence intervals or same-home returns. `n` counts contracts in the cohort.
+All120cohort labels remain; six quantiles in Seoul2022 have explicit tail/bin
+support reasons and no price bounds. Missing means neither zero nor no trades.
+The invariant long comparison keeps cancellation/direct-sale labels; strict
+excludes observed labels whose availability changes in2020/2021. Derived changes
+and ratios use only displayed endpoints and outward rounding. Exact quantiles,
+complex/tail/bin counts, Type1 prices and individual transactions are not provided.

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-10T19:31:13+09:00</updated>
+  <updated>2026-10-10T20:22:54+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>고가 아파트 기준: 상위 1% 거래 문턱은 얼마나 올랐나?</title>
+    <id>https://nobot-kang.github.io/posts/high-price-apartment-thresholds/</id>
+    <published>2026-10-10T20:18:37+09:00</published>
+    <updated>2026-10-10T20:22:54+09:00</updated>
+    <summary>2011~2025년 서울·수집 경기의 상위 1%·5% 거래 문턱과 중앙값을 같은 구간으로 비교합니다. 전체 면적과 84㎡대의 차이, 해제·직거래 표시와 표본 한계를 함께 확인합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/high-price-apartment-thresholds/" />
+    <category term="아파트 가격표 읽기" />
+  </entry>
   <entry>
     <title>아파트 직거래 가격 비교: 낮은 실거래가를 시세로 봐도 될까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-direct-sale-comparison/</id>
@@ -23,7 +32,7 @@
     <title>아파트 상승률 순위, 기간과 거래 건수를 바꾸면 얼마나 달라질까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-price-ranking-sensitivity/</id>
     <published>2026-10-10T17:34:50+09:00</published>
-    <updated>2026-10-10T17:35:21+09:00</updated>
+    <updated>2026-10-10T20:18:37+09:00</updated>
     <summary>같은 50지역에서도 월간·분기·같은 상반기의 중앙값 변화율 순위는 달랐습니다. 시작 가격과 거래 건수, 평균·중앙값, 한 단지 제외 민감도를 함께 확인하는 순위표 읽기입니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-price-ranking-sensitivity/" />
     <category term="아파트 가격표 읽기" />
@@ -95,7 +104,7 @@
     <title>해제·직거래를 빼면 아파트 중위가격은 얼마나 달라질까?</title>
     <id>https://nobot-kang.github.io/posts/apartment-cleaning-price-difference/</id>
     <published>2026-10-10T09:15:53+09:00</published>
-    <updated>2026-10-10T19:20:29+09:00</updated>
+    <updated>2026-10-10T20:18:37+09:00</updated>
     <summary>서울·경기 실거래의 해제·직거래 포함 규칙을 바꾸면 중위가격은 얼마나 달라질까요? 2024·2025·2026상반기 광역 비교와 공개 가능한 지역·84㎡ 분포로 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-cleaning-price-difference/" />
     <category term="아파트 가격표 읽기" />

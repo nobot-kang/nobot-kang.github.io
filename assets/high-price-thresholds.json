@@ -1,0 +1,3031 @@
+{
+  "schema": "high_price_threshold_intervals_v1",
+  "years": [
+    2011,
+    2025
+  ],
+  "geography": "Current Seoul25 districts and collected Gyeonggi36 regions; not the whole capital area",
+  "price_unit": "nominal ten-thousand KRW",
+  "width_manwon": 5000,
+  "interval_rule": "lo <= Type7 quantile < hi; fixed grid; not a confidence interval",
+  "quantile_definition": "Type7 linear interpolation; median / 95th / 99th percentiles of contracts",
+  "area_definition": {
+    "all": "all eligible exclusive areas",
+    "84": "84 <= exclusive area < 85 square metres"
+  },
+  "primary_policy": "invariant",
+  "policy_definition": {
+    "invariant": "valid positive non-land prices and areas; keeps cancellation/direct labels",
+    "strict": "also excludes observed cancellation and direct-sale labels; availability changes in 2020/2021"
+  },
+  "support": {
+    "sample_contracts": 40,
+    "sample_complexes": 10,
+    "each_strict_tail_contracts": 40,
+    "each_strict_tail_complexes": 10,
+    "interval_contracts": 10,
+    "interval_complexes": 3
+  },
+  "derived_bounds": "Use only displayed intervals, with outward rounding; do not reconstruct hidden exact changes",
+  "source_url": "https://www.data.go.kr/data/15126469/openapi.do",
+  "rows": [
+    {
+      "geo": "11",
+      "year": 2011,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 54215,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 35000,
+          "hi": 40000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 100000,
+          "hi": 105000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 160000,
+          "hi": 165000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2011,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 54215,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 35000,
+          "hi": 40000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 100000,
+          "hi": 105000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 160000,
+          "hi": 165000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2011,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 15676,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 40000,
+          "hi": 45000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 85000,
+          "hi": 90000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 110000,
+          "hi": 115000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2011,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 15676,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 40000,
+          "hi": 45000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 85000,
+          "hi": 90000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 110000,
+          "hi": 115000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2011,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 107137,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 20000,
+          "hi": 25000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 55000,
+          "hi": 60000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2011,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 107137,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 20000,
+          "hi": 25000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 55000,
+          "hi": 60000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2011,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 32742,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 25000,
+          "hi": 30000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 45000,
+          "hi": 50000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 55000,
+          "hi": 60000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2011,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 32742,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 25000,
+          "hi": 30000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 45000,
+          "hi": 50000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 55000,
+          "hi": 60000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2012,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 40749,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 35000,
+          "hi": 40000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 95000,
+          "hi": 100000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 165000,
+          "hi": 170000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2012,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 40749,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 35000,
+          "hi": 40000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 95000,
+          "hi": 100000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 165000,
+          "hi": 170000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2012,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 11933,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 40000,
+          "hi": 45000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 85000,
+          "hi": 90000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2012,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 11933,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 40000,
+          "hi": 45000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 85000,
+          "hi": 90000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2012,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 77349,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 20000,
+          "hi": 25000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 75000,
+          "hi": 80000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2012,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 77349,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 20000,
+          "hi": 25000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 75000,
+          "hi": 80000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2012,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 25690,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 25000,
+          "hi": 30000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 40000,
+          "hi": 45000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 60000,
+          "hi": 65000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2012,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 25690,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 25000,
+          "hi": 30000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 40000,
+          "hi": 45000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 60000,
+          "hi": 65000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2013,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 67760,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 35000,
+          "hi": 40000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 95000,
+          "hi": 100000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 165000,
+          "hi": 170000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2013,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 67760,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 35000,
+          "hi": 40000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 95000,
+          "hi": 100000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 165000,
+          "hi": 170000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2013,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 21827,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 40000,
+          "hi": 45000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2013,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 21827,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 40000,
+          "hi": 45000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2013,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 126174,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 20000,
+          "hi": 25000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 75000,
+          "hi": 80000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2013,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 126174,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 20000,
+          "hi": 25000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 75000,
+          "hi": 80000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2013,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 43316,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 25000,
+          "hi": 30000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 45000,
+          "hi": 50000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 60000,
+          "hi": 65000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2013,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 43316,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 25000,
+          "hi": 30000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 45000,
+          "hi": 50000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 60000,
+          "hi": 65000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2014,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 85011,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 35000,
+          "hi": 40000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 100000,
+          "hi": 105000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 170000,
+          "hi": 175000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2014,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 85011,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 35000,
+          "hi": 40000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 100000,
+          "hi": 105000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 170000,
+          "hi": 175000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2014,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 26621,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 40000,
+          "hi": 45000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 110000,
+          "hi": 115000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2014,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 26621,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 40000,
+          "hi": 45000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 110000,
+          "hi": 115000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2014,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 149781,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 25000,
+          "hi": 30000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 70000,
+          "hi": 75000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2014,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 149781,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 25000,
+          "hi": 30000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 70000,
+          "hi": 75000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2014,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 50457,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 25000,
+          "hi": 30000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 45000,
+          "hi": 50000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 60000,
+          "hi": 65000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2014,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 50457,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 25000,
+          "hi": 30000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 45000,
+          "hi": 50000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 60000,
+          "hi": 65000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2015,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 119651,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 40000,
+          "hi": 45000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 100000,
+          "hi": 105000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 165000,
+          "hi": 170000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2015,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 119651,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 40000,
+          "hi": 45000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 100000,
+          "hi": 105000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 165000,
+          "hi": 170000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2015,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 38212,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 40000,
+          "hi": 45000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 85000,
+          "hi": 90000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 115000,
+          "hi": 120000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2015,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 38212,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 40000,
+          "hi": 45000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 85000,
+          "hi": 90000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 115000,
+          "hi": 120000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2015,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 174052,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 25000,
+          "hi": 30000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 55000,
+          "hi": 60000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 75000,
+          "hi": 80000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2015,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 174052,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 25000,
+          "hi": 30000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 55000,
+          "hi": 60000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 75000,
+          "hi": 80000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2015,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 59294,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 25000,
+          "hi": 30000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 65000,
+          "hi": 70000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2015,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 59294,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 25000,
+          "hi": 30000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 65000,
+          "hi": 70000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2016,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 109764,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 45000,
+          "hi": 50000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 115000,
+          "hi": 120000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 190000,
+          "hi": 195000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2016,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 109764,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 45000,
+          "hi": 50000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 115000,
+          "hi": 120000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 190000,
+          "hi": 195000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2016,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 35375,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 45000,
+          "hi": 50000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 95000,
+          "hi": 100000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 130000,
+          "hi": 135000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2016,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 35375,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 45000,
+          "hi": 50000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 95000,
+          "hi": 100000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 130000,
+          "hi": 135000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2016,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 151422,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 25000,
+          "hi": 30000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 60000,
+          "hi": 65000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2016,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 151422,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 25000,
+          "hi": 30000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 60000,
+          "hi": 65000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2016,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 51136,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 30000,
+          "hi": 35000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 55000,
+          "hi": 60000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 70000,
+          "hi": 75000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2016,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 51136,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 30000,
+          "hi": 35000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 55000,
+          "hi": 60000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 70000,
+          "hi": 75000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2017,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 104576,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 140000,
+          "hi": 145000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 220000,
+          "hi": 225000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2017,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 104576,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 140000,
+          "hi": 145000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 220000,
+          "hi": 225000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2017,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 33189,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 55000,
+          "hi": 60000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 115000,
+          "hi": 120000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 155000,
+          "hi": 160000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2017,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 33189,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 55000,
+          "hi": 60000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 115000,
+          "hi": 120000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 155000,
+          "hi": 160000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2017,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 135292,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 30000,
+          "hi": 35000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 65000,
+          "hi": 70000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 90000,
+          "hi": 95000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2017,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 135292,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 30000,
+          "hi": 35000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 65000,
+          "hi": 70000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 90000,
+          "hi": 95000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2017,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 45394,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 30000,
+          "hi": 35000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 60000,
+          "hi": 65000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2017,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 45394,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 30000,
+          "hi": 35000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 60000,
+          "hi": 65000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2018,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 81243,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 155000,
+          "hi": 160000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 245000,
+          "hi": 250000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2018,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 81243,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 155000,
+          "hi": 160000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 245000,
+          "hi": 250000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2018,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 25360,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 55000,
+          "hi": 60000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 130000,
+          "hi": 135000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 180000,
+          "hi": 185000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2018,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 25360,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 55000,
+          "hi": 60000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 130000,
+          "hi": 135000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 180000,
+          "hi": 185000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2018,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 134520,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 30000,
+          "hi": 35000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 70000,
+          "hi": 75000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2018,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 134520,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 30000,
+          "hi": 35000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 70000,
+          "hi": 75000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2018,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 46819,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 35000,
+          "hi": 40000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 65000,
+          "hi": 70000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 90000,
+          "hi": 95000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2018,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 46819,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 35000,
+          "hi": 40000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 65000,
+          "hi": 70000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 90000,
+          "hi": 95000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2019,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 74554,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 65000,
+          "hi": 70000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 190000,
+          "hi": 195000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 295000,
+          "hi": 300000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2019,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 74554,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 65000,
+          "hi": 70000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 190000,
+          "hi": 195000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 295000,
+          "hi": 300000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2019,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 22931,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 75000,
+          "hi": 80000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 170000,
+          "hi": 175000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 235000,
+          "hi": 240000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2019,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 22931,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 75000,
+          "hi": 80000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 170000,
+          "hi": 175000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 235000,
+          "hi": 240000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2019,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 124043,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 30000,
+          "hi": 35000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 85000,
+          "hi": 90000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 120000,
+          "hi": 125000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2019,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 124043,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 30000,
+          "hi": 35000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 85000,
+          "hi": 90000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 120000,
+          "hi": 125000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2019,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "unobserved_labels",
+      "n": 43955,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 35000,
+          "hi": 40000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2019,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "unobserved_labels",
+      "n": 43955,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 35000,
+          "hi": 40000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2020,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "cancellation_partial_year",
+      "n": 81837,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 70000,
+          "hi": 75000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 190000,
+          "hi": 195000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 295000,
+          "hi": 300000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2020,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "cancellation_partial_year",
+      "n": 78760,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 70000,
+          "hi": 75000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 190000,
+          "hi": 195000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 290000,
+          "hi": 295000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2020,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "cancellation_partial_year",
+      "n": 24305,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 175000,
+          "hi": 180000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 250000,
+          "hi": 255000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2020,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "cancellation_partial_year",
+      "n": 23466,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 175000,
+          "hi": 180000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 250000,
+          "hi": 255000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2020,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "cancellation_partial_year",
+      "n": 218863,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 35000,
+          "hi": 40000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 85000,
+          "hi": 90000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 130000,
+          "hi": 135000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2020,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "cancellation_partial_year",
+      "n": 209131,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 35000,
+          "hi": 40000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 85000,
+          "hi": 90000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 130000,
+          "hi": 135000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2020,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "cancellation_partial_year",
+      "n": 78681,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 35000,
+          "hi": 40000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 115000,
+          "hi": 120000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2020,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "cancellation_partial_year",
+      "n": 74661,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 35000,
+          "hi": 40000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 115000,
+          "hi": 120000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2021,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "channel_partial_year",
+      "n": 42350,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 240000,
+          "hi": 245000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 380000,
+          "hi": 385000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2021,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "channel_partial_year",
+      "n": 40635,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 235000,
+          "hi": 240000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 375000,
+          "hi": 380000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2021,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "channel_partial_year",
+      "n": 11523,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 100000,
+          "hi": 105000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 220000,
+          "hi": 225000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 300000,
+          "hi": 305000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2021,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "channel_partial_year",
+      "n": 11081,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 100000,
+          "hi": 105000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 220000,
+          "hi": 225000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 300000,
+          "hi": 305000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2021,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "channel_partial_year",
+      "n": 120611,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 40000,
+          "hi": 45000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 100000,
+          "hi": 105000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 155000,
+          "hi": 160000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2021,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "channel_partial_year",
+      "n": 114328,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 40000,
+          "hi": 45000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 155000,
+          "hi": 160000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2021,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "channel_partial_year",
+      "n": 39967,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 140000,
+          "hi": 145000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2021,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "channel_partial_year",
+      "n": 37585,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 140000,
+          "hi": 145000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2022,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "both_labels_available",
+      "n": 12034,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 75000,
+          "hi": 80000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 270000,
+          "hi": 275000
+        },
+        "p99": {
+          "status": "insufficient_interval_support"
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2022,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "both_labels_available",
+      "n": 9675,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 80000,
+          "hi": 85000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 280000,
+          "hi": 285000
+        },
+        "p99": {
+          "status": "insufficient_interval_support"
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2022,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "both_labels_available",
+      "n": 2716,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        },
+        "p95": {
+          "status": "insufficient_interval_support"
+        },
+        "p99": {
+          "status": "insufficient_tail_support"
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2022,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "both_labels_available",
+      "n": 2341,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        },
+        "p95": {
+          "status": "insufficient_interval_support"
+        },
+        "p99": {
+          "status": "insufficient_tail_support"
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2022,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "both_labels_available",
+      "n": 36917,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 40000,
+          "hi": 45000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 100000,
+          "hi": 105000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 155000,
+          "hi": 160000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2022,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "both_labels_available",
+      "n": 31681,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 45000,
+          "hi": 50000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 160000,
+          "hi": 165000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2022,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "both_labels_available",
+      "n": 11670,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 140000,
+          "hi": 145000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2022,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "both_labels_available",
+      "n": 10130,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 145000,
+          "hi": 150000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2023,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "both_labels_available",
+      "n": 34333,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 85000,
+          "hi": 90000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 245000,
+          "hi": 250000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 395000,
+          "hi": 400000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2023,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "both_labels_available",
+      "n": 30827,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 85000,
+          "hi": 90000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 245000,
+          "hi": 250000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 395000,
+          "hi": 400000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2023,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "both_labels_available",
+      "n": 10617,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 100000,
+          "hi": 105000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 230000,
+          "hi": 235000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 310000,
+          "hi": 315000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2023,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "both_labels_available",
+      "n": 9728,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 230000,
+          "hi": 235000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 310000,
+          "hi": 315000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2023,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "both_labels_available",
+      "n": 84304,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 45000,
+          "hi": 50000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 155000,
+          "hi": 160000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2023,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "both_labels_available",
+      "n": 76428,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 45000,
+          "hi": 50000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 155000,
+          "hi": 160000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2023,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "both_labels_available",
+      "n": 30573,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 100000,
+          "hi": 105000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 140000,
+          "hi": 145000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2023,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "both_labels_available",
+      "n": 27933,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 140000,
+          "hi": 145000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2024,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "both_labels_available",
+      "n": 55553,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 95000,
+          "hi": 100000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 285000,
+          "hi": 290000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 460000,
+          "hi": 465000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2024,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "both_labels_available",
+      "n": 51015,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 95000,
+          "hi": 100000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 285000,
+          "hi": 290000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 455000,
+          "hi": 460000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2024,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "both_labels_available",
+      "n": 18084,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 110000,
+          "hi": 115000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 255000,
+          "hi": 260000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 360000,
+          "hi": 365000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2024,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "both_labels_available",
+      "n": 16879,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 110000,
+          "hi": 115000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 260000,
+          "hi": 265000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 360000,
+          "hi": 365000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2024,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "both_labels_available",
+      "n": 102687,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 120000,
+          "hi": 125000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 175000,
+          "hi": 180000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2024,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "both_labels_available",
+      "n": 92853,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 50000,
+          "hi": 55000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 120000,
+          "hi": 125000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 175000,
+          "hi": 180000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2024,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "both_labels_available",
+      "n": 37229,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 55000,
+          "hi": 60000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 115000,
+          "hi": 120000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 155000,
+          "hi": 160000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2024,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "both_labels_available",
+      "n": 33721,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 55000,
+          "hi": 60000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 115000,
+          "hi": 120000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 155000,
+          "hi": 160000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2025,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "both_labels_available",
+      "n": 77865,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 100000,
+          "hi": 105000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 300000,
+          "hi": 305000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 475000,
+          "hi": 480000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2025,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "both_labels_available",
+      "n": 69280,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 105000,
+          "hi": 110000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 300000,
+          "hi": 305000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 470000,
+          "hi": 475000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2025,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "both_labels_available",
+      "n": 25424,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 120000,
+          "hi": 125000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 275000,
+          "hi": 280000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 390000,
+          "hi": 395000
+        }
+      }
+    },
+    {
+      "geo": "11",
+      "year": 2025,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "both_labels_available",
+      "n": 22967,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 120000,
+          "hi": 125000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 280000,
+          "hi": 285000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 390000,
+          "hi": 395000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2025,
+      "area": "all",
+      "policy": "invariant",
+      "epoch_note": "both_labels_available",
+      "n": 124405,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 55000,
+          "hi": 60000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 135000,
+          "hi": 140000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 200000,
+          "hi": 205000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2025,
+      "area": "all",
+      "policy": "strict",
+      "epoch_note": "both_labels_available",
+      "n": 111135,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 55000,
+          "hi": 60000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 135000,
+          "hi": 140000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 200000,
+          "hi": 205000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2025,
+      "area": "84",
+      "policy": "invariant",
+      "epoch_note": "both_labels_available",
+      "n": 44404,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 60000,
+          "hi": 65000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 130000,
+          "hi": 135000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 180000,
+          "hi": 185000
+        }
+      }
+    },
+    {
+      "geo": "41",
+      "year": 2025,
+      "area": "84",
+      "policy": "strict",
+      "epoch_note": "both_labels_available",
+      "n": 39789,
+      "quantiles": {
+        "median": {
+          "status": "supported",
+          "lo": 60000,
+          "hi": 65000
+        },
+        "p95": {
+          "status": "supported",
+          "lo": 130000,
+          "hi": 135000
+        },
+        "p99": {
+          "status": "supported",
+          "lo": 180000,
+          "hi": 185000
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Contracts, not household wealth percentiles or housing-stock shares",
+    "Changing transaction composition, not the appreciation of the same dwelling",
+    "Early missing labels do not prove no cancellations or direct sales",
+    "Local support and incremental count review do not certify arbitrary nonlinear or external-information attacks"
+  ],
+  "snapshot_computed_at": "2026-10-03T19:15:55.508656+00:00",
+  "source_reference_end": "2026-09",
+  "analysis_reference_end": "2025-12",
+  "information_cutoff": null
+}
