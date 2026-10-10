@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-10T20:26:31+09:00</updated>
+  <updated>2026-10-10T21:21:52+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>서울·경기 전세가율: 평균보다 지역별 분포를 먼저 보세요</title>
+    <id>https://nobot-kang.github.io/posts/seoul-gyeonggi-jeonse-ratios/</id>
+    <published>2026-10-10T21:21:52+09:00</published>
+    <updated>2026-10-10T21:21:52+09:00</updated>
+    <summary>서울25구·수집경기36시·구의 KB 전세가율과 가격지수 변화를 비교합니다. 광역 평균 뒤의 지역별 겹침, 전세가격 상승과 비율 하락의 공존, 표본이 부족할 때 답할 수 있는 범위를 정리합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-gyeonggi-jeonse-ratios/" />
+    <category term="수도권 가격 지도" />
+  </entry>
   <entry>
     <title>고가 아파트 기준: 상위 1% 거래 문턱은 얼마나 올랐나?</title>
     <id>https://nobot-kang.github.io/posts/high-price-apartment-thresholds/</id>

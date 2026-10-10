@@ -193,3 +193,12 @@ The invariant long comparison keeps cancellation/direct-sale labels; strict
 excludes observed labels whose availability changes in2020/2021. Derived changes
 and ratios use only displayed endpoints and outward rounding. Exact quantiles,
 complex/tail/bin counts, Type1 prices and individual transactions are not provided.
+
+`assets/published-jeonse.json` and `.csv` contain KB-published apartment monthly
+ratios, sale/jeonse indices and province average prices for18quarter-end months,
+2022.3–2026.6, retained2026-10-03. Rows identify2official provinces and61selected
+cities/districts; Gyeonggi child coverage is not province-wide. Indices are
+2026.1=100, ratios percent, average prices KRW10,000, index changes percent,
+ratio changes percentage points. Null/blank means missing or not calculated;
+no change crosses the2022.11reform. The full historical roster and nulls are
+preserved. No private model or household/transaction support counts are included.
