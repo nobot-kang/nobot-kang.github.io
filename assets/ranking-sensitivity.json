@@ -1,0 +1,6498 @@
+{
+  "schema": "ranking_sensitivity_v1",
+  "snapshot_built_date": "2026-10-04",
+  "reference_end": "2026-09",
+  "information_cutoff": null,
+  "population": "Observed strict sale contracts, excluding land leasehold, 84<=exclusive area<85 square metres; current Seoul25 and collected Gyeonggi36 master regions",
+  "price_unit": "만원",
+  "comparisons": {
+    "month": {
+      "start": "2026-05",
+      "end": "2026-06"
+    },
+    "quarter": {
+      "start": "2026Q1",
+      "end": "2026Q2"
+    },
+    "year_half": {
+      "start": "2025H1",
+      "end": "2026H1"
+    }
+  },
+  "support": {
+    "minimum_contracts_per_endpoint": 40,
+    "minimum_complexes_per_endpoint": 10
+  },
+  "rank_rule": "Descending competition rank with inclusive tie interval; exact unrounded values",
+  "common_regions": [
+    "11200",
+    "11230",
+    "11260",
+    "11290",
+    "11305",
+    "11320",
+    "11380",
+    "11410",
+    "11440",
+    "11470",
+    "11530",
+    "11560",
+    "11590",
+    "11620",
+    "11650",
+    "11680",
+    "11710",
+    "11740",
+    "41111",
+    "41113",
+    "41115",
+    "41117",
+    "41133",
+    "41135",
+    "41150",
+    "41171",
+    "41173",
+    "41192",
+    "41194",
+    "41210",
+    "41220",
+    "41273",
+    "41281",
+    "41285",
+    "41287",
+    "41310",
+    "41360",
+    "41410",
+    "41430",
+    "41450",
+    "41461",
+    "41463",
+    "41465",
+    "41480",
+    "41570",
+    "41591",
+    "41593",
+    "41595",
+    "41597",
+    "41610"
+  ],
+  "pools": {
+    "month": {
+      "visible": 50,
+      "support100": 18
+    },
+    "quarter": {
+      "visible": 59,
+      "support100": 51
+    },
+    "year_half": {
+      "visible": 60,
+      "support100": 58
+    }
+  },
+  "rows": [
+    {
+      "comparison": "month",
+      "region": "11110",
+      "status": "insufficient_support"
+    },
+    {
+      "comparison": "month",
+      "region": "11140",
+      "status": "insufficient_support"
+    },
+    {
+      "comparison": "month",
+      "region": "11170",
+      "status": "insufficient_support"
+    },
+    {
+      "comparison": "month",
+      "region": "11200",
+      "status": "supported",
+      "start_n": 74,
+      "end_n": 41,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 192383.1081081081,
+          "end": 188602.43902439025,
+          "change_pct": -1.9651772553717908,
+          "difference_manwon": -3780.6690837178644,
+          "rank": [
+            41,
+            41
+          ],
+          "common_rank": [
+            41,
+            41
+          ]
+        },
+        "median": {
+          "start": 188500.0,
+          "end": 187000.0,
+          "change_pct": -0.7957559681697612,
+          "difference_manwon": -1500.0,
+          "rank": [
+            35,
+            35
+          ],
+          "common_rank": [
+            35,
+            35
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "11215",
+      "status": "insufficient_support"
+    },
+    {
+      "comparison": "month",
+      "region": "11230",
+      "status": "supported",
+      "start_n": 114,
+      "end_n": 85,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 116615.78947368421,
+          "end": 124786.4705882353,
+          "change_pct": 7.006496419933682,
+          "difference_manwon": 8170.681114551084,
+          "rank": [
+            11,
+            11
+          ],
+          "common_rank": [
+            11,
+            11
+          ]
+        },
+        "median": {
+          "start": 114500.0,
+          "end": 119000.0,
+          "change_pct": 3.930131004366812,
+          "difference_manwon": 4500.0,
+          "rank": [
+            19,
+            19
+          ],
+          "common_rank": [
+            19,
+            19
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "11260",
+      "status": "supported",
+      "start_n": 107,
+      "end_n": 69,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 78448.1214953271,
+          "end": 80918.11594202899,
+          "change_pct": 3.1485705452475523,
+          "difference_manwon": 2469.9944467018827,
+          "rank": [
+            24,
+            24
+          ],
+          "common_rank": [
+            24,
+            24
+          ]
+        },
+        "median": {
+          "start": 75000.0,
+          "end": 75000.0,
+          "change_pct": 0.0,
+          "difference_manwon": 0.0,
+          "rank": [
+            32,
+            32
+          ],
+          "common_rank": [
+            32,
+            32
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "11290",
+      "status": "supported",
+      "start_n": 154,
+      "end_n": 128,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 104114.28571428571,
+          "end": 105709.140625,
+          "change_pct": 1.531831006448957,
+          "difference_manwon": 1594.8549107142858,
+          "rank": [
+            28,
+            28
+          ],
+          "common_rank": [
+            28,
+            28
+          ]
+        },
+        "median": {
+          "start": 102000.0,
+          "end": 99900.0,
+          "change_pct": -2.0588235294117645,
+          "difference_manwon": -2100.0,
+          "rank": [
+            39,
+            39
+          ],
+          "common_rank": [
+            39,
+            39
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "11305",
+      "status": "supported",
+      "start_n": 88,
+      "end_n": 44,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 76225.0,
+          "end": 81792.04545454546,
+          "change_pct": 7.30343778884284,
+          "difference_manwon": 5567.045454545455,
+          "rank": [
+            9,
+            9
+          ],
+          "common_rank": [
+            9,
+            9
+          ]
+        },
+        "median": {
+          "start": 74250.0,
+          "end": 80250.0,
+          "change_pct": 8.080808080808081,
+          "difference_manwon": 6000.0,
+          "rank": [
+            6,
+            6
+          ],
+          "common_rank": [
+            6,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "11320",
+      "status": "supported",
+      "start_n": 101,
+      "end_n": 90,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 69623.76237623762,
+          "end": 69223.33333333333,
+          "change_pct": -0.5751327265832386,
+          "difference_manwon": -400.42904290429044,
+          "rank": [
+            34,
+            34
+          ],
+          "common_rank": [
+            34,
+            34
+          ]
+        },
+        "median": {
+          "start": 65500.0,
+          "end": 62400.0,
+          "change_pct": -4.732824427480916,
+          "difference_manwon": -3100.0,
+          "rank": [
+            45,
+            45
+          ],
+          "common_rank": [
+            45,
+            45
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "11350",
+      "status": "withheld_joint_disclosure"
+    },
+    {
+      "comparison": "month",
+      "region": "11380",
+      "status": "supported",
+      "start_n": 133,
+      "end_n": 94,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 101989.0977443609,
+          "end": 99037.76595744681,
+          "change_pct": -2.893771836585618,
+          "difference_manwon": -2951.3317869140938,
+          "rank": [
+            42,
+            42
+          ],
+          "common_rank": [
+            42,
+            42
+          ]
+        },
+        "median": {
+          "start": 96000.0,
+          "end": 94000.0,
+          "change_pct": -2.0833333333333335,
+          "difference_manwon": -2000.0,
+          "rank": [
+            40,
+            40
+          ],
+          "common_rank": [
+            40,
+            40
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "11410",
+      "status": "supported",
+      "start_n": 100,
+      "end_n": 77,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 118123.0,
+          "end": 125885.71428571429,
+          "change_pct": 6.571721244562267,
+          "difference_manwon": 7762.714285714285,
+          "rank": [
+            12,
+            12
+          ],
+          "common_rank": [
+            12,
+            12
+          ]
+        },
+        "median": {
+          "start": 109250.0,
+          "end": 126500.0,
+          "change_pct": 15.789473684210526,
+          "difference_manwon": 17250.0,
+          "rank": [
+            1,
+            1
+          ],
+          "common_rank": [
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "11440",
+      "status": "supported",
+      "start_n": 89,
+      "end_n": 49,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 163202.80898876404,
+          "end": 166734.693877551,
+          "change_pct": 2.1641079039455344,
+          "difference_manwon": 3531.8848887869754,
+          "rank": [
+            26,
+            26
+          ],
+          "common_rank": [
+            26,
+            26
+          ]
+        },
+        "median": {
+          "start": 155000.0,
+          "end": 149000.0,
+          "change_pct": -3.870967741935484,
+          "difference_manwon": -6000.0,
+          "rank": [
+            42,
+            42
+          ],
+          "common_rank": [
+            42,
+            42
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "11470",
+      "status": "supported",
+      "start_n": 88,
+      "end_n": 69,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 123725.0,
+          "end": 129545.65217391304,
+          "change_pct": 4.704507717852531,
+          "difference_manwon": 5820.652173913043,
+          "rank": [
+            15,
+            15
+          ],
+          "common_rank": [
+            15,
+            15
+          ]
+        },
+        "median": {
+          "start": 125650.0,
+          "end": 130500.0,
+          "change_pct": 3.8599283724631914,
+          "difference_manwon": 4850.0,
+          "rank": [
+            20,
+            20
+          ],
+          "common_rank": [
+            20,
+            20
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "11500",
+      "status": "withheld_joint_disclosure"
+    },
+    {
+      "comparison": "month",
+      "region": "11530",
+      "status": "supported",
+      "start_n": 147,
+      "end_n": 91,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 84236.73469387754,
+          "end": 90325.82417582418,
+          "change_pct": 7.228544059874615,
+          "difference_manwon": 6089.089481946625,
+          "rank": [
+            10,
+            10
+          ],
+          "common_rank": [
+            10,
+            10
+          ]
+        },
+        "median": {
+          "start": 78900.0,
+          "end": 78800.0,
+          "change_pct": -0.1267427122940431,
+          "difference_manwon": -100.0,
+          "rank": [
+            33,
+            33
+          ],
+          "common_rank": [
+            33,
+            33
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "11545",
+      "status": "insufficient_support"
+    },
+    {
+      "comparison": "month",
+      "region": "11560",
+      "status": "supported",
+      "start_n": 85,
+      "end_n": 68,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 139841.17647058822,
+          "end": 138114.70588235295,
+          "change_pct": -1.2345938669919656,
+          "difference_manwon": -1726.4705882352941,
+          "rank": [
+            36,
+            36
+          ],
+          "common_rank": [
+            36,
+            36
+          ]
+        },
+        "median": {
+          "start": 144500.0,
+          "end": 133500.0,
+          "change_pct": -7.612456747404845,
+          "difference_manwon": -11000.0,
+          "rank": [
+            47,
+            47
+          ],
+          "common_rank": [
+            47,
+            47
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "11590",
+      "status": "supported",
+      "start_n": 112,
+      "end_n": 60,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 163338.39285714287,
+          "end": 166322.5,
+          "change_pct": 1.8269477804076768,
+          "difference_manwon": 2984.1071428571427,
+          "rank": [
+            27,
+            27
+          ],
+          "common_rank": [
+            27,
+            27
+          ]
+        },
+        "median": {
+          "start": 160500.0,
+          "end": 162650.0,
+          "change_pct": 1.3395638629283488,
+          "difference_manwon": 2150.0,
+          "rank": [
+            29,
+            29
+          ],
+          "common_rank": [
+            29,
+            29
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "11620",
+      "status": "supported",
+      "start_n": 87,
+      "end_n": 47,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 96501.72413793103,
+          "end": 105763.82978723405,
+          "change_pct": 9.597865459962739,
+          "difference_manwon": 9262.105649303008,
+          "rank": [
+            1,
+            1
+          ],
+          "common_rank": [
+            1,
+            1
+          ]
+        },
+        "median": {
+          "start": 96000.0,
+          "end": 108000.0,
+          "change_pct": 12.5,
+          "difference_manwon": 12000.0,
+          "rank": [
+            2,
+            2
+          ],
+          "common_rank": [
+            2,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "11650",
+      "status": "supported",
+      "start_n": 83,
+      "end_n": 40,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 389349.3975903614,
+          "end": 302125.0,
+          "change_pct": -22.402602426042826,
+          "difference_manwon": -87224.39759036145,
+          "rank": [
+            50,
+            50
+          ],
+          "common_rank": [
+            50,
+            50
+          ]
+        },
+        "median": {
+          "start": 383000.0,
+          "end": 259000.0,
+          "change_pct": -32.37597911227154,
+          "difference_manwon": -124000.0,
+          "rank": [
+            50,
+            50
+          ],
+          "common_rank": [
+            50,
+            50
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "11680",
+      "status": "supported",
+      "start_n": 88,
+      "end_n": 42,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 302010.2272727273,
+          "end": 289169.04761904763,
+          "change_pct": -4.251902251668966,
+          "difference_manwon": -12841.179653679654,
+          "rank": [
+            46,
+            46
+          ],
+          "common_rank": [
+            46,
+            46
+          ]
+        },
+        "median": {
+          "start": 308750.0,
+          "end": 315800.0,
+          "change_pct": 2.283400809716599,
+          "difference_manwon": 7050.0,
+          "rank": [
+            26,
+            26
+          ],
+          "common_rank": [
+            26,
+            26
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "11710",
+      "status": "supported",
+      "start_n": 163,
+      "end_n": 80,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 234028.8343558282,
+          "end": 224682.5,
+          "change_pct": -3.9936678664209486,
+          "difference_manwon": -9346.334355828221,
+          "rank": [
+            45,
+            45
+          ],
+          "common_rank": [
+            45,
+            45
+          ]
+        },
+        "median": {
+          "start": 248500.0,
+          "end": 209000.0,
+          "change_pct": -15.895372233400403,
+          "difference_manwon": -39500.0,
+          "rank": [
+            48,
+            48
+          ],
+          "common_rank": [
+            48,
+            48
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "11740",
+      "status": "supported",
+      "start_n": 186,
+      "end_n": 87,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 165662.36559139786,
+          "end": 159944.8275862069,
+          "change_pct": -3.4513197881606494,
+          "difference_manwon": -5717.538005190953,
+          "rank": [
+            44,
+            44
+          ],
+          "common_rank": [
+            44,
+            44
+          ]
+        },
+        "median": {
+          "start": 165500.0,
+          "end": 158000.0,
+          "change_pct": -4.531722054380665,
+          "difference_manwon": -7500.0,
+          "rank": [
+            44,
+            44
+          ],
+          "common_rank": [
+            44,
+            44
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41111",
+      "status": "supported",
+      "start_n": 128,
+      "end_n": 83,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 65938.671875,
+          "end": 69790.36144578313,
+          "change_pct": 5.841321126523118,
+          "difference_manwon": 3851.6895707831327,
+          "rank": [
+            13,
+            13
+          ],
+          "common_rank": [
+            13,
+            13
+          ]
+        },
+        "median": {
+          "start": 58300.0,
+          "end": 58000.0,
+          "change_pct": -0.5145797598627787,
+          "difference_manwon": -300.0,
+          "rank": [
+            34,
+            34
+          ],
+          "common_rank": [
+            34,
+            34
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41113",
+      "status": "supported",
+      "start_n": 160,
+      "end_n": 213,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 55024.375,
+          "end": 56996.19718309859,
+          "change_pct": 3.583543080859331,
+          "difference_manwon": 1971.8221830985915,
+          "rank": [
+            22,
+            22
+          ],
+          "common_rank": [
+            22,
+            22
+          ]
+        },
+        "median": {
+          "start": 59200.0,
+          "end": 60000.0,
+          "change_pct": 1.3513513513513513,
+          "difference_manwon": 800.0,
+          "rank": [
+            28,
+            28
+          ],
+          "common_rank": [
+            28,
+            28
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41115",
+      "status": "supported",
+      "start_n": 66,
+      "end_n": 71,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 72072.72727272728,
+          "end": 77882.39436619719,
+          "change_pct": 8.060839811827575,
+          "difference_manwon": 5809.6670934699105,
+          "rank": [
+            5,
+            5
+          ],
+          "common_rank": [
+            5,
+            5
+          ]
+        },
+        "median": {
+          "start": 72250.0,
+          "end": 74000.0,
+          "change_pct": 2.422145328719723,
+          "difference_manwon": 1750.0,
+          "rank": [
+            25,
+            25
+          ],
+          "common_rank": [
+            25,
+            25
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41117",
+      "status": "supported",
+      "start_n": 185,
+      "end_n": 155,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 85860.0,
+          "end": 93632.90322580645,
+          "change_pct": 9.052997001871013,
+          "difference_manwon": 7772.903225806452,
+          "rank": [
+            3,
+            3
+          ],
+          "common_rank": [
+            3,
+            3
+          ]
+        },
+        "median": {
+          "start": 77000.0,
+          "end": 85000.0,
+          "change_pct": 10.38961038961039,
+          "difference_manwon": 8000.0,
+          "rank": [
+            5,
+            5
+          ],
+          "common_rank": [
+            5,
+            5
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41131",
+      "status": "insufficient_support"
+    },
+    {
+      "comparison": "month",
+      "region": "41133",
+      "status": "supported",
+      "start_n": 43,
+      "end_n": 44,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 90220.93023255814,
+          "end": 92486.36363636363,
+          "change_pct": 2.5109843114740653,
+          "difference_manwon": 2265.4334038054967,
+          "rank": [
+            25,
+            25
+          ],
+          "common_rank": [
+            25,
+            25
+          ]
+        },
+        "median": {
+          "start": 86700.0,
+          "end": 89850.0,
+          "change_pct": 3.633217993079585,
+          "difference_manwon": 3150.0,
+          "rank": [
+            21,
+            21
+          ],
+          "common_rank": [
+            21,
+            21
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41135",
+      "status": "supported",
+      "start_n": 100,
+      "end_n": 67,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 176301.0,
+          "end": 183241.79104477612,
+          "change_pct": 3.9368982846246587,
+          "difference_manwon": 6940.79104477612,
+          "rank": [
+            19,
+            19
+          ],
+          "common_rank": [
+            19,
+            19
+          ]
+        },
+        "median": {
+          "start": 178000.0,
+          "end": 185000.0,
+          "change_pct": 3.932584269662921,
+          "difference_manwon": 7000.0,
+          "rank": [
+            18,
+            18
+          ],
+          "common_rank": [
+            18,
+            18
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41150",
+      "status": "supported",
+      "start_n": 143,
+      "end_n": 164,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 44549.3006993007,
+          "end": 44052.439024390245,
+          "change_pct": -1.1153074618705625,
+          "difference_manwon": -496.8616749104554,
+          "rank": [
+            35,
+            35
+          ],
+          "common_rank": [
+            35,
+            35
+          ]
+        },
+        "median": {
+          "start": 42500.0,
+          "end": 43000.0,
+          "change_pct": 1.1764705882352942,
+          "difference_manwon": 500.0,
+          "rank": [
+            30,
+            30
+          ],
+          "common_rank": [
+            30,
+            30
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41171",
+      "status": "supported",
+      "start_n": 74,
+      "end_n": 78,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 66694.45945945945,
+          "end": 71756.41025641025,
+          "change_pct": 7.5897620851515075,
+          "difference_manwon": 5061.950796950797,
+          "rank": [
+            7,
+            7
+          ],
+          "common_rank": [
+            7,
+            7
+          ]
+        },
+        "median": {
+          "start": 63900.0,
+          "end": 68000.0,
+          "change_pct": 6.416275430359938,
+          "difference_manwon": 4100.0,
+          "rank": [
+            9,
+            9
+          ],
+          "common_rank": [
+            9,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41173",
+      "status": "supported",
+      "start_n": 164,
+      "end_n": 137,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 90370.48780487805,
+          "end": 97319.70802919708,
+          "change_pct": 7.689700911345445,
+          "difference_manwon": 6949.220224319031,
+          "rank": [
+            6,
+            6
+          ],
+          "common_rank": [
+            6,
+            6
+          ]
+        },
+        "median": {
+          "start": 88900.0,
+          "end": 96000.0,
+          "change_pct": 7.986501687289089,
+          "difference_manwon": 7100.0,
+          "rank": [
+            8,
+            8
+          ],
+          "common_rank": [
+            8,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41192",
+      "status": "supported",
+      "start_n": 116,
+      "end_n": 124,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 71386.63793103448,
+          "end": 74672.17741935483,
+          "change_pct": 4.602457243461254,
+          "difference_manwon": 3285.5394883203558,
+          "rank": [
+            16,
+            16
+          ],
+          "common_rank": [
+            16,
+            16
+          ]
+        },
+        "median": {
+          "start": 69450.0,
+          "end": 70000.0,
+          "change_pct": 0.7919366450683946,
+          "difference_manwon": 550.0,
+          "rank": [
+            31,
+            31
+          ],
+          "common_rank": [
+            31,
+            31
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41194",
+      "status": "supported",
+      "start_n": 78,
+      "end_n": 71,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 66885.2564102564,
+          "end": 62695.07042253521,
+          "change_pct": -6.2647378699121825,
+          "difference_manwon": -4190.185987721199,
+          "rank": [
+            48,
+            48
+          ],
+          "common_rank": [
+            48,
+            48
+          ]
+        },
+        "median": {
+          "start": 65400.0,
+          "end": 61000.0,
+          "change_pct": -6.72782874617737,
+          "difference_manwon": -4400.0,
+          "rank": [
+            46,
+            46
+          ],
+          "common_rank": [
+            46,
+            46
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41196",
+      "status": "insufficient_support"
+    },
+    {
+      "comparison": "month",
+      "region": "41210",
+      "status": "supported",
+      "start_n": 111,
+      "end_n": 66,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 94204.95495495496,
+          "end": 97849.84848484848,
+          "change_pct": 3.869110209368894,
+          "difference_manwon": 3644.89352989353,
+          "rank": [
+            21,
+            21
+          ],
+          "common_rank": [
+            21,
+            21
+          ]
+        },
+        "median": {
+          "start": 84500.0,
+          "end": 88400.0,
+          "change_pct": 4.615384615384615,
+          "difference_manwon": 3900.0,
+          "rank": [
+            17,
+            17
+          ],
+          "common_rank": [
+            17,
+            17
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41220",
+      "status": "supported",
+      "start_n": 212,
+      "end_n": 260,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 39172.82075471698,
+          "end": 42853.846153846156,
+          "change_pct": 9.396886229302043,
+          "difference_manwon": 3681.025399129173,
+          "rank": [
+            2,
+            2
+          ],
+          "common_rank": [
+            2,
+            2
+          ]
+        },
+        "median": {
+          "start": 35750.0,
+          "end": 39650.0,
+          "change_pct": 10.909090909090908,
+          "difference_manwon": 3900.0,
+          "rank": [
+            4,
+            4
+          ],
+          "common_rank": [
+            4,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41271",
+      "status": "insufficient_support"
+    },
+    {
+      "comparison": "month",
+      "region": "41273",
+      "status": "supported",
+      "start_n": 74,
+      "end_n": 58,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 56516.21621621621,
+          "end": 54652.58620689655,
+          "change_pct": -3.2975137652349282,
+          "difference_manwon": -1863.6300093196644,
+          "rank": [
+            43,
+            43
+          ],
+          "common_rank": [
+            43,
+            43
+          ]
+        },
+        "median": {
+          "start": 51150.0,
+          "end": 54250.0,
+          "change_pct": 6.0606060606060606,
+          "difference_manwon": 3100.0,
+          "rank": [
+            10,
+            10
+          ],
+          "common_rank": [
+            10,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41281",
+      "status": "supported",
+      "start_n": 218,
+      "end_n": 218,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 74053.21100917431,
+          "end": 73783.02752293578,
+          "change_pct": -0.36485046705815305,
+          "difference_manwon": -270.1834862385321,
+          "rank": [
+            33,
+            33
+          ],
+          "common_rank": [
+            33,
+            33
+          ]
+        },
+        "median": {
+          "start": 73250.0,
+          "end": 74750.0,
+          "change_pct": 2.04778156996587,
+          "difference_manwon": 1500.0,
+          "rank": [
+            27,
+            27
+          ],
+          "common_rank": [
+            27,
+            27
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41285",
+      "status": "supported",
+      "start_n": 66,
+      "end_n": 64,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 69253.0303030303,
+          "end": 68078.125,
+          "change_pct": -1.6965399172993196,
+          "difference_manwon": -1174.905303030303,
+          "rank": [
+            39,
+            39
+          ],
+          "common_rank": [
+            39,
+            39
+          ]
+        },
+        "median": {
+          "start": 61100.0,
+          "end": 62900.0,
+          "change_pct": 2.9459901800327333,
+          "difference_manwon": 1800.0,
+          "rank": [
+            22,
+            22
+          ],
+          "common_rank": [
+            22,
+            22
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41287",
+      "status": "supported",
+      "start_n": 76,
+      "end_n": 70,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 47980.26315789474,
+          "end": 45438.57142857143,
+          "change_pct": -5.297369297369297,
+          "difference_manwon": -2541.691729323308,
+          "rank": [
+            47,
+            47
+          ],
+          "common_rank": [
+            47,
+            47
+          ]
+        },
+        "median": {
+          "start": 39950.0,
+          "end": 42250.0,
+          "change_pct": 5.7571964956195245,
+          "difference_manwon": 2300.0,
+          "rank": [
+            12,
+            12
+          ],
+          "common_rank": [
+            12,
+            12
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41290",
+      "status": "insufficient_support"
+    },
+    {
+      "comparison": "month",
+      "region": "41310",
+      "status": "supported",
+      "start_n": 114,
+      "end_n": 147,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 78132.45614035087,
+          "end": 81206.12244897959,
+          "change_pct": 3.933917427486763,
+          "difference_manwon": 3073.6663086287144,
+          "rank": [
+            20,
+            20
+          ],
+          "common_rank": [
+            20,
+            20
+          ]
+        },
+        "median": {
+          "start": 74350.0,
+          "end": 78500.0,
+          "change_pct": 5.581708137188971,
+          "difference_manwon": 4150.0,
+          "rank": [
+            13,
+            13
+          ],
+          "common_rank": [
+            13,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41360",
+      "status": "supported",
+      "start_n": 426,
+      "end_n": 465,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 61982.27699530516,
+          "end": 62300.967741935485,
+          "change_pct": 0.5141643096694539,
+          "difference_manwon": 318.69074663031955,
+          "rank": [
+            31,
+            31
+          ],
+          "common_rank": [
+            31,
+            31
+          ]
+        },
+        "median": {
+          "start": 56400.0,
+          "end": 58000.0,
+          "change_pct": 2.8368794326241136,
+          "difference_manwon": 1600.0,
+          "rank": [
+            23,
+            23
+          ],
+          "common_rank": [
+            23,
+            23
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41410",
+      "status": "supported",
+      "start_n": 58,
+      "end_n": 55,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 61832.75862068965,
+          "end": 60636.36363636364,
+          "change_pct": -1.9348885785045615,
+          "difference_manwon": -1196.3949843260189,
+          "rank": [
+            40,
+            40
+          ],
+          "common_rank": [
+            40,
+            40
+          ]
+        },
+        "median": {
+          "start": 53100.0,
+          "end": 56000.0,
+          "change_pct": 5.4613935969868175,
+          "difference_manwon": 2900.0,
+          "rank": [
+            14,
+            14
+          ],
+          "common_rank": [
+            14,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41430",
+      "status": "supported",
+      "start_n": 122,
+      "end_n": 78,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 81159.83606557376,
+          "end": 85078.20512820513,
+          "change_pct": 4.8279657187398435,
+          "difference_manwon": 3918.369062631358,
+          "rank": [
+            14,
+            14
+          ],
+          "common_rank": [
+            14,
+            14
+          ]
+        },
+        "median": {
+          "start": 78850.0,
+          "end": 82650.0,
+          "change_pct": 4.819277108433735,
+          "difference_manwon": 3800.0,
+          "rank": [
+            16,
+            16
+          ],
+          "common_rank": [
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41450",
+      "status": "supported",
+      "start_n": 119,
+      "end_n": 109,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 107649.57983193277,
+          "end": 116448.62385321101,
+          "change_pct": 8.173783896802652,
+          "difference_manwon": 8799.044021278236,
+          "rank": [
+            4,
+            4
+          ],
+          "common_rank": [
+            4,
+            4
+          ]
+        },
+        "median": {
+          "start": 111000.0,
+          "end": 119900.0,
+          "change_pct": 8.018018018018019,
+          "difference_manwon": 8900.0,
+          "rank": [
+            7,
+            7
+          ],
+          "common_rank": [
+            7,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41461",
+      "status": "supported",
+      "start_n": 68,
+      "end_n": 81,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 44174.26470588235,
+          "end": 44736.41975308642,
+          "change_pct": 1.272584956301964,
+          "difference_manwon": 562.1550472040668,
+          "rank": [
+            29,
+            29
+          ],
+          "common_rank": [
+            29,
+            29
+          ]
+        },
+        "median": {
+          "start": 43250.0,
+          "end": 42800.0,
+          "change_pct": -1.0404624277456647,
+          "difference_manwon": -450.0,
+          "rank": [
+            36,
+            36
+          ],
+          "common_rank": [
+            36,
+            36
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41463",
+      "status": "supported",
+      "start_n": 345,
+      "end_n": 513,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 67137.97101449275,
+          "end": 70101.26705653021,
+          "change_pct": 4.413740834374915,
+          "difference_manwon": 2963.2960420374607,
+          "rank": [
+            18,
+            18
+          ],
+          "common_rank": [
+            18,
+            18
+          ]
+        },
+        "median": {
+          "start": 62000.0,
+          "end": 65000.0,
+          "change_pct": 4.838709677419355,
+          "difference_manwon": 3000.0,
+          "rank": [
+            15,
+            15
+          ],
+          "common_rank": [
+            15,
+            15
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41465",
+      "status": "supported",
+      "start_n": 182,
+      "end_n": 155,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 104839.83516483517,
+          "end": 108229.03225806452,
+          "change_pct": 3.2327379072092803,
+          "difference_manwon": 3389.197093229351,
+          "rank": [
+            23,
+            23
+          ],
+          "common_rank": [
+            23,
+            23
+          ]
+        },
+        "median": {
+          "start": 104250.0,
+          "end": 102500.0,
+          "change_pct": -1.6786570743405276,
+          "difference_manwon": -1750.0,
+          "rank": [
+            38,
+            38
+          ],
+          "common_rank": [
+            38,
+            38
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41480",
+      "status": "supported",
+      "start_n": 211,
+      "end_n": 178,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 43580.04739336493,
+          "end": 45530.151685393255,
+          "change_pct": 4.474764046092417,
+          "difference_manwon": 1950.1042920283296,
+          "rank": [
+            17,
+            17
+          ],
+          "common_rank": [
+            17,
+            17
+          ]
+        },
+        "median": {
+          "start": 39000.0,
+          "end": 41250.0,
+          "change_pct": 5.769230769230769,
+          "difference_manwon": 2250.0,
+          "rank": [
+            11,
+            11
+          ],
+          "common_rank": [
+            11,
+            11
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41570",
+      "status": "supported",
+      "start_n": 169,
+      "end_n": 177,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 47837.27810650888,
+          "end": 48123.44632768362,
+          "change_pct": 0.5982117555634989,
+          "difference_manwon": 286.1682211747401,
+          "rank": [
+            30,
+            30
+          ],
+          "common_rank": [
+            30,
+            30
+          ]
+        },
+        "median": {
+          "start": 46000.0,
+          "end": 45000.0,
+          "change_pct": -2.1739130434782608,
+          "difference_manwon": -1000.0,
+          "rank": [
+            41,
+            41
+          ],
+          "common_rank": [
+            41,
+            41
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41591",
+      "status": "supported",
+      "start_n": 47,
+      "end_n": 63,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 41151.063829787236,
+          "end": 40563.49206349206,
+          "change_pct": -1.4278410121437886,
+          "difference_manwon": -587.5717662951705,
+          "rank": [
+            38,
+            38
+          ],
+          "common_rank": [
+            38,
+            38
+          ]
+        },
+        "median": {
+          "start": 40500.0,
+          "end": 38700.0,
+          "change_pct": -4.444444444444445,
+          "difference_manwon": -1800.0,
+          "rank": [
+            43,
+            43
+          ],
+          "common_rank": [
+            43,
+            43
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41593",
+      "status": "supported",
+      "start_n": 67,
+      "end_n": 82,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 40632.835820895525,
+          "end": 36793.90243902439,
+          "change_pct": -9.447859851063983,
+          "difference_manwon": -3838.933381871132,
+          "rank": [
+            49,
+            49
+          ],
+          "common_rank": [
+            49,
+            49
+          ]
+        },
+        "median": {
+          "start": 41500.0,
+          "end": 33250.0,
+          "change_pct": -19.879518072289155,
+          "difference_manwon": -8250.0,
+          "rank": [
+            49,
+            49
+          ],
+          "common_rank": [
+            49,
+            49
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41595",
+      "status": "supported",
+      "start_n": 133,
+      "end_n": 192,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 52172.48120300752,
+          "end": 56093.229166666664,
+          "change_pct": 7.514973168332147,
+          "difference_manwon": 3920.747963659148,
+          "rank": [
+            8,
+            8
+          ],
+          "common_rank": [
+            8,
+            8
+          ]
+        },
+        "median": {
+          "start": 44500.0,
+          "end": 49500.0,
+          "change_pct": 11.235955056179776,
+          "difference_manwon": 5000.0,
+          "rank": [
+            3,
+            3
+          ],
+          "common_rank": [
+            3,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41597",
+      "status": "supported",
+      "start_n": 500,
+      "end_n": 663,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 84463.0,
+          "end": 84434.67571644043,
+          "change_pct": -0.03353454596637306,
+          "difference_manwon": -28.324283559577676,
+          "rank": [
+            32,
+            32
+          ],
+          "common_rank": [
+            32,
+            32
+          ]
+        },
+        "median": {
+          "start": 76000.0,
+          "end": 78000.0,
+          "change_pct": 2.6315789473684212,
+          "difference_manwon": 2000.0,
+          "rank": [
+            24,
+            24
+          ],
+          "common_rank": [
+            24,
+            24
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "month",
+      "region": "41610",
+      "status": "supported",
+      "start_n": 142,
+      "end_n": 185,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 47096.126760563384,
+          "end": 46491.89189189189,
+          "change_pct": -1.2829820841603754,
+          "difference_manwon": -604.2348686714884,
+          "rank": [
+            37,
+            37
+          ],
+          "common_rank": [
+            37,
+            37
+          ]
+        },
+        "median": {
+          "start": 46125.0,
+          "end": 45500.0,
+          "change_pct": -1.3550135501355014,
+          "difference_manwon": -625.0,
+          "rank": [
+            37,
+            37
+          ],
+          "common_rank": [
+            37,
+            37
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11110",
+      "status": "supported",
+      "start_n": 42,
+      "end_n": 46,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 130713.80952380953,
+          "end": 157886.08695652173,
+          "change_pct": 20.78761037697611,
+          "difference_manwon": 27172.277432712217,
+          "rank": [
+            1,
+            1
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 122740.0,
+          "end": 120000.0,
+          "change_pct": -2.2323610884797134,
+          "difference_manwon": -2740.0,
+          "rank": [
+            51,
+            51
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11140",
+      "status": "supported",
+      "start_n": 59,
+      "end_n": 74,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 141437.28813559323,
+          "end": 156612.43243243243,
+          "change_pct": 10.729238729670136,
+          "difference_manwon": 15175.144296839213,
+          "rank": [
+            4,
+            4
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 124500.0,
+          "end": 165000.0,
+          "change_pct": 32.53012048192771,
+          "difference_manwon": 40500.0,
+          "rank": [
+            3,
+            3
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11170",
+      "status": "supported",
+      "start_n": 48,
+      "end_n": 78,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 215308.33333333334,
+          "end": 213812.8205128205,
+          "change_pct": -0.6945912391591069,
+          "difference_manwon": -1495.5128205128206,
+          "rank": [
+            54,
+            54
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 191000.0,
+          "end": 202500.0,
+          "change_pct": 6.020942408376963,
+          "difference_manwon": 11500.0,
+          "rank": [
+            18,
+            18
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11200",
+      "status": "supported",
+      "start_n": 121,
+      "end_n": 192,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 181943.80165289255,
+          "end": 189959.63541666666,
+          "change_pct": 4.405664656313214,
+          "difference_manwon": 8015.833763774105,
+          "rank": [
+            25,
+            25
+          ],
+          "common_rank": [
+            21,
+            21
+          ]
+        },
+        "median": {
+          "start": 170000.0,
+          "end": 185000.0,
+          "change_pct": 8.823529411764707,
+          "difference_manwon": 15000.0,
+          "rank": [
+            12,
+            12
+          ],
+          "common_rank": [
+            9,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11215",
+      "status": "supported",
+      "start_n": 54,
+      "end_n": 104,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 179394.44444444444,
+          "end": 177731.73076923078,
+          "change_pct": -0.926847919043887,
+          "difference_manwon": -1662.7136752136753,
+          "rank": [
+            55,
+            55
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 190500.0,
+          "end": 185000.0,
+          "change_pct": -2.8871391076115485,
+          "difference_manwon": -5500.0,
+          "rank": [
+            54,
+            54
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11230",
+      "status": "supported",
+      "start_n": 264,
+      "end_n": 303,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 114631.70454545454,
+          "end": 116554.78547854786,
+          "change_pct": 1.6776169740464395,
+          "difference_manwon": 1923.0809330933093,
+          "rank": [
+            41,
+            41
+          ],
+          "common_rank": [
+            34,
+            34
+          ]
+        },
+        "median": {
+          "start": 103500.0,
+          "end": 110000.0,
+          "change_pct": 6.280193236714976,
+          "difference_manwon": 6500.0,
+          "rank": [
+            17,
+            17
+          ],
+          "common_rank": [
+            14,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11260",
+      "status": "supported",
+      "start_n": 224,
+      "end_n": 291,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 79167.1875,
+          "end": 78707.90034364261,
+          "change_pct": -0.5801483807384067,
+          "difference_manwon": -459.2871563573883,
+          "rank": [
+            53,
+            53
+          ],
+          "common_rank": [
+            46,
+            46
+          ]
+        },
+        "median": {
+          "start": 74800.0,
+          "end": 75000.0,
+          "change_pct": 0.26737967914438504,
+          "difference_manwon": 200.0,
+          "rank": [
+            47,
+            47
+          ],
+          "common_rank": [
+            40,
+            40
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11290",
+      "status": "supported",
+      "start_n": 404,
+      "end_n": 435,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 98501.95544554456,
+          "end": 102717.5172413793,
+          "change_pct": 4.279673207264673,
+          "difference_manwon": 4215.561795834756,
+          "rank": [
+            28,
+            28
+          ],
+          "common_rank": [
+            24,
+            24
+          ]
+        },
+        "median": {
+          "start": 94350.0,
+          "end": 100000.0,
+          "change_pct": 5.988341282458929,
+          "difference_manwon": 5650.0,
+          "rank": [
+            19,
+            19
+          ],
+          "common_rank": [
+            15,
+            15
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11305",
+      "status": "supported",
+      "start_n": 186,
+      "end_n": 216,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 77641.66666666667,
+          "end": 78918.51851851853,
+          "change_pct": 1.6445446197512312,
+          "difference_manwon": 1276.851851851852,
+          "rank": [
+            42,
+            42
+          ],
+          "common_rank": [
+            35,
+            35
+          ]
+        },
+        "median": {
+          "start": 74000.0,
+          "end": 76500.0,
+          "change_pct": 3.3783783783783785,
+          "difference_manwon": 2500.0,
+          "rank": [
+            29,
+            29
+          ],
+          "common_rank": [
+            25,
+            25
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11320",
+      "status": "supported",
+      "start_n": 174,
+      "end_n": 282,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 68404.88505747127,
+          "end": 68637.23404255319,
+          "change_pct": 0.3396672399737476,
+          "difference_manwon": 232.3489850819271,
+          "rank": [
+            50,
+            50
+          ],
+          "common_rank": [
+            43,
+            43
+          ]
+        },
+        "median": {
+          "start": 63750.0,
+          "end": 62000.0,
+          "change_pct": -2.7450980392156863,
+          "difference_manwon": -1750.0,
+          "rank": [
+            53,
+            53
+          ],
+          "common_rank": [
+            45,
+            45
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11350",
+      "status": "supported",
+      "start_n": 367,
+      "end_n": 435,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 84784.1961852861,
+          "end": 86994.4827586207,
+          "change_pct": 2.6069558629821286,
+          "difference_manwon": 2210.286573334586,
+          "rank": [
+            35,
+            35
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 83700.0,
+          "end": 86000.0,
+          "change_pct": 2.7479091995221028,
+          "difference_manwon": 2300.0,
+          "rank": [
+            31,
+            31
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11380",
+      "status": "supported",
+      "start_n": 336,
+      "end_n": 348,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 96948.51190476191,
+          "end": 97745.11494252873,
+          "change_pct": 0.8216763951460955,
+          "difference_manwon": 796.6030377668309,
+          "rank": [
+            47,
+            47
+          ],
+          "common_rank": [
+            40,
+            40
+          ]
+        },
+        "median": {
+          "start": 93600.0,
+          "end": 91500.0,
+          "change_pct": -2.2435897435897436,
+          "difference_manwon": -2100.0,
+          "rank": [
+            52,
+            52
+          ],
+          "common_rank": [
+            44,
+            44
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11410",
+      "status": "supported",
+      "start_n": 257,
+      "end_n": 281,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 115116.8093385214,
+          "end": 118012.45551601423,
+          "change_pct": 2.515398223883771,
+          "difference_manwon": 2895.646177492834,
+          "rank": [
+            36,
+            36
+          ],
+          "common_rank": [
+            30,
+            30
+          ]
+        },
+        "median": {
+          "start": 109200.0,
+          "end": 110500.0,
+          "change_pct": 1.1904761904761905,
+          "difference_manwon": 1300.0,
+          "rank": [
+            44,
+            44
+          ],
+          "common_rank": [
+            37,
+            37
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11440",
+      "status": "supported",
+      "start_n": 130,
+      "end_n": 222,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 154220.76923076922,
+          "end": 169069.5945945946,
+          "change_pct": 9.628291596449133,
+          "difference_manwon": 14848.825363825365,
+          "rank": [
+            6,
+            6
+          ],
+          "common_rank": [
+            3,
+            3
+          ]
+        },
+        "median": {
+          "start": 134000.0,
+          "end": 158750.0,
+          "change_pct": 18.470149253731343,
+          "difference_manwon": 24750.0,
+          "rank": [
+            7,
+            7
+          ],
+          "common_rank": [
+            6,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11470",
+      "status": "supported",
+      "start_n": 205,
+      "end_n": 250,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 116020.9756097561,
+          "end": 122083.2,
+          "change_pct": 5.2251106822567825,
+          "difference_manwon": 6062.224390243902,
+          "rank": [
+            18,
+            18
+          ],
+          "common_rank": [
+            14,
+            14
+          ]
+        },
+        "median": {
+          "start": 115000.0,
+          "end": 121750.0,
+          "change_pct": 5.869565217391305,
+          "difference_manwon": 6750.0,
+          "rank": [
+            21,
+            21
+          ],
+          "common_rank": [
+            17,
+            17
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11500",
+      "status": "supported",
+      "start_n": 336,
+      "end_n": 390,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 108090.32440476191,
+          "end": 109951.28205128205,
+          "change_pct": 1.7216690363066043,
+          "difference_manwon": 1860.9576465201465,
+          "rank": [
+            40,
+            40
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 102250.0,
+          "end": 105000.0,
+          "change_pct": 2.6894865525672373,
+          "difference_manwon": 2750.0,
+          "rank": [
+            33,
+            33
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11530",
+      "status": "supported",
+      "start_n": 357,
+      "end_n": 376,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 85493.13725490196,
+          "end": 84486.48936170213,
+          "change_pct": -1.177460467029609,
+          "difference_manwon": -1006.6478931998331,
+          "rank": [
+            56,
+            56
+          ],
+          "common_rank": [
+            47,
+            47
+          ]
+        },
+        "median": {
+          "start": 80000.0,
+          "end": 77250.0,
+          "change_pct": -3.4375,
+          "difference_manwon": -2750.0,
+          "rank": [
+            55,
+            55
+          ],
+          "common_rank": [
+            46,
+            46
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11545",
+      "status": "supported",
+      "start_n": 91,
+      "end_n": 125,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 78439.56043956045,
+          "end": 80584.08,
+          "change_pct": 2.733977024376576,
+          "difference_manwon": 2144.5195604395603,
+          "rank": [
+            33,
+            33
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 72000.0,
+          "end": 73000.0,
+          "change_pct": 1.3888888888888888,
+          "difference_manwon": 1000.0,
+          "rank": [
+            43,
+            43
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11560",
+      "status": "supported",
+      "start_n": 249,
+      "end_n": 265,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 127371.68674698795,
+          "end": 136035.4716981132,
+          "change_pct": 6.801970808736373,
+          "difference_manwon": 8663.784951125255,
+          "rank": [
+            14,
+            14
+          ],
+          "common_rank": [
+            10,
+            10
+          ]
+        },
+        "median": {
+          "start": 123000.0,
+          "end": 133000.0,
+          "change_pct": 8.130081300813009,
+          "difference_manwon": 10000.0,
+          "rank": [
+            14,
+            14
+          ],
+          "common_rank": [
+            11,
+            11
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11590",
+      "status": "supported",
+      "start_n": 235,
+      "end_n": 296,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 152037.44680851063,
+          "end": 161038.04054054053,
+          "change_pct": 5.919984793855453,
+          "difference_manwon": 9000.593732029902,
+          "rank": [
+            16,
+            16
+          ],
+          "common_rank": [
+            12,
+            12
+          ]
+        },
+        "median": {
+          "start": 148000.0,
+          "end": 158000.0,
+          "change_pct": 6.756756756756757,
+          "difference_manwon": 10000.0,
+          "rank": [
+            15,
+            15
+          ],
+          "common_rank": [
+            12,
+            12
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11620",
+      "status": "supported",
+      "start_n": 177,
+      "end_n": 217,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 98959.88700564971,
+          "end": 100995.16129032258,
+          "change_pct": 2.056665934305955,
+          "difference_manwon": 2035.2742846728631,
+          "rank": [
+            39,
+            39
+          ],
+          "common_rank": [
+            33,
+            33
+          ]
+        },
+        "median": {
+          "start": 104500.0,
+          "end": 104000.0,
+          "change_pct": -0.4784688995215311,
+          "difference_manwon": -500.0,
+          "rank": [
+            49,
+            49
+          ],
+          "common_rank": [
+            42,
+            42
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11650",
+      "status": "supported",
+      "start_n": 76,
+      "end_n": 190,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 293684.2105263158,
+          "end": 350728.94736842107,
+          "change_pct": 19.42383512544803,
+          "difference_manwon": 57044.73684210526,
+          "rank": [
+            2,
+            2
+          ],
+          "common_rank": [
+            1,
+            1
+          ]
+        },
+        "median": {
+          "start": 236500.0,
+          "end": 325000.0,
+          "change_pct": 37.420718816067655,
+          "difference_manwon": 88500.0,
+          "rank": [
+            1,
+            1
+          ],
+          "common_rank": [
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11680",
+      "status": "supported",
+      "start_n": 72,
+      "end_n": 218,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 285426.3888888889,
+          "end": 306800.45871559635,
+          "change_pct": 7.488470113051798,
+          "difference_manwon": 21374.06982670744,
+          "rank": [
+            11,
+            11
+          ],
+          "common_rank": [
+            8,
+            8
+          ]
+        },
+        "median": {
+          "start": 265000.0,
+          "end": 320000.0,
+          "change_pct": 20.754716981132077,
+          "difference_manwon": 55000.0,
+          "rank": [
+            5,
+            5
+          ],
+          "common_rank": [
+            4,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11710",
+      "status": "supported",
+      "start_n": 231,
+      "end_n": 422,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 221353.4632034632,
+          "end": 239357.81990521328,
+          "change_pct": 8.133758759039997,
+          "difference_manwon": 18004.356701750068,
+          "rank": [
+            9,
+            9
+          ],
+          "common_rank": [
+            6,
+            6
+          ]
+        },
+        "median": {
+          "start": 200000.0,
+          "end": 269250.0,
+          "change_pct": 34.625,
+          "difference_manwon": 69250.0,
+          "rank": [
+            2,
+            2
+          ],
+          "common_rank": [
+            2,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "11740",
+      "status": "supported",
+      "start_n": 241,
+      "end_n": 386,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 138725.51867219916,
+          "end": 161967.2279792746,
+          "change_pct": 16.753737545573234,
+          "difference_manwon": 23241.70930707544,
+          "rank": [
+            3,
+            3
+          ],
+          "common_rank": [
+            2,
+            2
+          ]
+        },
+        "median": {
+          "start": 132000.0,
+          "end": 161000.0,
+          "change_pct": 21.96969696969697,
+          "difference_manwon": 29000.0,
+          "rank": [
+            4,
+            4
+          ],
+          "common_rank": [
+            3,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41111",
+      "status": "supported",
+      "start_n": 214,
+      "end_n": 306,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 69105.60747663552,
+          "end": 66450.35947712418,
+          "change_pct": -3.842304693449176,
+          "difference_manwon": -2655.247999511331,
+          "rank": [
+            58,
+            58
+          ],
+          "common_rank": [
+            49,
+            49
+          ]
+        },
+        "median": {
+          "start": 61900.0,
+          "end": 58000.0,
+          "change_pct": -6.30048465266559,
+          "difference_manwon": -3900.0,
+          "rank": [
+            59,
+            59
+          ],
+          "common_rank": [
+            50,
+            50
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41113",
+      "status": "supported",
+      "start_n": 472,
+      "end_n": 530,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 53218.72881355932,
+          "end": 55525.07547169811,
+          "change_pct": 4.333712415827507,
+          "difference_manwon": 2306.346658138791,
+          "rank": [
+            26,
+            26
+          ],
+          "common_rank": [
+            22,
+            22
+          ]
+        },
+        "median": {
+          "start": 53500.0,
+          "end": 58000.0,
+          "change_pct": 8.411214953271028,
+          "difference_manwon": 4500.0,
+          "rank": [
+            13,
+            13
+          ],
+          "common_rank": [
+            10,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41115",
+      "status": "supported",
+      "start_n": 172,
+      "end_n": 217,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 72031.1046511628,
+          "end": 72806.91244239631,
+          "change_pct": 1.077045527748961,
+          "difference_manwon": 775.8077912335227,
+          "rank": [
+            45,
+            45
+          ],
+          "common_rank": [
+            38,
+            38
+          ]
+        },
+        "median": {
+          "start": 68400.0,
+          "end": 71500.0,
+          "change_pct": 4.5321637426900585,
+          "difference_manwon": 3100.0,
+          "rank": [
+            27,
+            27
+          ],
+          "common_rank": [
+            23,
+            23
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41117",
+      "status": "supported",
+      "start_n": 451,
+      "end_n": 544,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 81264.0798226164,
+          "end": 85991.94852941176,
+          "change_pct": 5.817907145586795,
+          "difference_manwon": 4727.868706795357,
+          "rank": [
+            17,
+            17
+          ],
+          "common_rank": [
+            13,
+            13
+          ]
+        },
+        "median": {
+          "start": 75500.0,
+          "end": 76250.0,
+          "change_pct": 0.9933774834437086,
+          "difference_manwon": 750.0,
+          "rank": [
+            45,
+            45
+          ],
+          "common_rank": [
+            38,
+            38
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41131",
+      "status": "supported",
+      "start_n": 101,
+      "end_n": 108,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 103206.93069306931,
+          "end": 113167.31481481482,
+          "change_pct": 9.650886868602887,
+          "difference_manwon": 9960.384121745508,
+          "rank": [
+            5,
+            5
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 89000.0,
+          "end": 104750.0,
+          "change_pct": 17.696629213483146,
+          "difference_manwon": 15750.0,
+          "rank": [
+            8,
+            8
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41133",
+      "status": "supported",
+      "start_n": 102,
+      "end_n": 119,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 90387.25490196078,
+          "end": 91836.13445378152,
+          "change_pct": 1.6029688625816398,
+          "difference_manwon": 1448.8795518207282,
+          "rank": [
+            43,
+            43
+          ],
+          "common_rank": [
+            36,
+            36
+          ]
+        },
+        "median": {
+          "start": 88350.0,
+          "end": 88600.0,
+          "change_pct": 0.2829654782116582,
+          "difference_manwon": 250.0,
+          "rank": [
+            46,
+            46
+          ],
+          "common_rank": [
+            39,
+            39
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41135",
+      "status": "supported",
+      "start_n": 148,
+      "end_n": 262,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 171624.32432432432,
+          "end": 178102.90076335878,
+          "change_pct": 3.774859108427817,
+          "difference_manwon": 6478.576439034454,
+          "rank": [
+            30,
+            30
+          ],
+          "common_rank": [
+            26,
+            26
+          ]
+        },
+        "median": {
+          "start": 174750.0,
+          "end": 179500.0,
+          "change_pct": 2.7181688125894135,
+          "difference_manwon": 4750.0,
+          "rank": [
+            32,
+            32
+          ],
+          "common_rank": [
+            27,
+            27
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41150",
+      "status": "supported",
+      "start_n": 389,
+      "end_n": 425,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 43179.511568123395,
+          "end": 43528.870588235295,
+          "change_pct": 0.809085159661254,
+          "difference_manwon": 349.3590201119008,
+          "rank": [
+            48,
+            48
+          ],
+          "common_rank": [
+            41,
+            41
+          ]
+        },
+        "median": {
+          "start": 40800.0,
+          "end": 41500.0,
+          "change_pct": 1.7156862745098038,
+          "difference_manwon": 700.0,
+          "rank": [
+            40,
+            40
+          ],
+          "common_rank": [
+            34,
+            34
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41171",
+      "status": "supported",
+      "start_n": 217,
+      "end_n": 240,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 67579.4470046083,
+          "end": 69190.58333333333,
+          "change_pct": 2.3840626109520753,
+          "difference_manwon": 1611.1363287250383,
+          "rank": [
+            37,
+            37
+          ],
+          "common_rank": [
+            31,
+            31
+          ]
+        },
+        "median": {
+          "start": 64000.0,
+          "end": 65000.0,
+          "change_pct": 1.5625,
+          "difference_manwon": 1000.0,
+          "rank": [
+            41,
+            41
+          ],
+          "common_rank": [
+            35,
+            35
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41173",
+      "status": "supported",
+      "start_n": 327,
+      "end_n": 476,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 92069.7247706422,
+          "end": 92276.6806722689,
+          "change_pct": 0.2247817098859154,
+          "difference_manwon": 206.95590162670572,
+          "rank": [
+            51,
+            51
+          ],
+          "common_rank": [
+            44,
+            44
+          ]
+        },
+        "median": {
+          "start": 88700.0,
+          "end": 90000.0,
+          "change_pct": 1.4656144306651635,
+          "difference_manwon": 1300.0,
+          "rank": [
+            42,
+            42
+          ],
+          "common_rank": [
+            36,
+            36
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41192",
+      "status": "supported",
+      "start_n": 269,
+      "end_n": 363,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 68658.9219330855,
+          "end": 71618.73278236914,
+          "change_pct": 4.310890363481464,
+          "difference_manwon": 2959.810849283644,
+          "rank": [
+            27,
+            27
+          ],
+          "common_rank": [
+            23,
+            23
+          ]
+        },
+        "median": {
+          "start": 67500.0,
+          "end": 69000.0,
+          "change_pct": 2.2222222222222223,
+          "difference_manwon": 1500.0,
+          "rank": [
+            36,
+            36
+          ],
+          "common_rank": [
+            30,
+            30
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41194",
+      "status": "supported",
+      "start_n": 162,
+      "end_n": 207,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 62698.765432098764,
+          "end": 63242.51207729468,
+          "change_pct": 0.8672366057746144,
+          "difference_manwon": 543.7466451959206,
+          "rank": [
+            46,
+            46
+          ],
+          "common_rank": [
+            39,
+            39
+          ]
+        },
+        "median": {
+          "start": 60000.0,
+          "end": 61700.0,
+          "change_pct": 2.8333333333333335,
+          "difference_manwon": 1700.0,
+          "rank": [
+            30,
+            30
+          ],
+          "common_rank": [
+            26,
+            26
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41196",
+      "status": "insufficient_support"
+    },
+    {
+      "comparison": "quarter",
+      "region": "41210",
+      "status": "supported",
+      "start_n": 288,
+      "end_n": 298,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 91288.02083333333,
+          "end": 95491.5100671141,
+          "change_pct": 4.604644941810239,
+          "difference_manwon": 4203.4892337807605,
+          "rank": [
+            22,
+            22
+          ],
+          "common_rank": [
+            18,
+            18
+          ]
+        },
+        "median": {
+          "start": 82000.0,
+          "end": 85750.0,
+          "change_pct": 4.573170731707317,
+          "difference_manwon": 3750.0,
+          "rank": [
+            26,
+            26
+          ],
+          "common_rank": [
+            22,
+            22
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41220",
+      "status": "supported",
+      "start_n": 719,
+      "end_n": 710,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 37060.9123783032,
+          "end": 40122.560563380284,
+          "change_pct": 8.26112469608137,
+          "difference_manwon": 3061.648185077083,
+          "rank": [
+            8,
+            8
+          ],
+          "common_rank": [
+            5,
+            5
+          ]
+        },
+        "median": {
+          "start": 34000.0,
+          "end": 36000.0,
+          "change_pct": 5.882352941176471,
+          "difference_manwon": 2000.0,
+          "rank": [
+            20,
+            20
+          ],
+          "common_rank": [
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41271",
+      "status": "supported",
+      "start_n": 127,
+      "end_n": 99,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 50027.55905511811,
+          "end": 53605.0505050505,
+          "change_pct": 7.151041380993376,
+          "difference_manwon": 3577.491449932395,
+          "rank": [
+            12,
+            12
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 47000.0,
+          "end": 53500.0,
+          "change_pct": 13.829787234042554,
+          "difference_manwon": 6500.0,
+          "rank": [
+            10,
+            10
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41273",
+      "status": "supported",
+      "start_n": 182,
+      "end_n": 186,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 56084.34065934066,
+          "end": 56844.62365591398,
+          "change_pct": 1.3556065519095954,
+          "difference_manwon": 760.2829965733191,
+          "rank": [
+            44,
+            44
+          ],
+          "common_rank": [
+            37,
+            37
+          ]
+        },
+        "median": {
+          "start": 53000.0,
+          "end": 54150.0,
+          "change_pct": 2.169811320754717,
+          "difference_manwon": 1150.0,
+          "rank": [
+            38,
+            38
+          ],
+          "common_rank": [
+            32,
+            32
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41281",
+      "status": "supported",
+      "start_n": 472,
+      "end_n": 638,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 71015.78389830509,
+          "end": 73599.05956112852,
+          "change_pct": 3.637607755654298,
+          "difference_manwon": 2583.275662823442,
+          "rank": [
+            31,
+            31
+          ],
+          "common_rank": [
+            27,
+            27
+          ]
+        },
+        "median": {
+          "start": 70000.0,
+          "end": 73350.0,
+          "change_pct": 4.785714285714286,
+          "difference_manwon": 3350.0,
+          "rank": [
+            24,
+            24
+          ],
+          "common_rank": [
+            20,
+            20
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41285",
+      "status": "supported",
+      "start_n": 176,
+      "end_n": 178,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 64128.125,
+          "end": 67431.46067415731,
+          "change_pct": 5.1511496307701234,
+          "difference_manwon": 3303.3356741573034,
+          "rank": [
+            20,
+            20
+          ],
+          "common_rank": [
+            16,
+            16
+          ]
+        },
+        "median": {
+          "start": 59850.0,
+          "end": 61350.0,
+          "change_pct": 2.506265664160401,
+          "difference_manwon": 1500.0,
+          "rank": [
+            35,
+            35
+          ],
+          "common_rank": [
+            29,
+            29
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41287",
+      "status": "supported",
+      "start_n": 172,
+      "end_n": 208,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 45684.01162790698,
+          "end": 44929.807692307695,
+          "change_pct": -1.6509144199993244,
+          "difference_manwon": -754.2039355992845,
+          "rank": [
+            57,
+            57
+          ],
+          "common_rank": [
+            48,
+            48
+          ]
+        },
+        "median": {
+          "start": 41000.0,
+          "end": 39500.0,
+          "change_pct": -3.658536585365854,
+          "difference_manwon": -1500.0,
+          "rank": [
+            56,
+            56
+          ],
+          "common_rank": [
+            47,
+            47
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41290",
+      "status": "insufficient_support"
+    },
+    {
+      "comparison": "quarter",
+      "region": "41310",
+      "status": "supported",
+      "start_n": 426,
+      "end_n": 378,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 75881.57276995305,
+          "end": 78936.50793650794,
+          "change_pct": 4.02592494467188,
+          "difference_manwon": 3054.9351665548847,
+          "rank": [
+            29,
+            29
+          ],
+          "common_rank": [
+            25,
+            25
+          ]
+        },
+        "median": {
+          "start": 73375.0,
+          "end": 75000.0,
+          "change_pct": 2.2146507666098807,
+          "difference_manwon": 1625.0,
+          "rank": [
+            37,
+            37
+          ],
+          "common_rank": [
+            31,
+            31
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41360",
+      "status": "supported",
+      "start_n": 1057,
+      "end_n": 1236,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 61460.91769157994,
+          "end": 61237.3786407767,
+          "change_pct": -0.3637092630555836,
+          "difference_manwon": -223.5390508032442,
+          "rank": [
+            52,
+            52
+          ],
+          "common_rank": [
+            45,
+            45
+          ]
+        },
+        "median": {
+          "start": 59700.0,
+          "end": 56000.0,
+          "change_pct": -6.197654941373535,
+          "difference_manwon": -3700.0,
+          "rank": [
+            58,
+            58
+          ],
+          "common_rank": [
+            49,
+            49
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41410",
+      "status": "supported",
+      "start_n": 181,
+      "end_n": 175,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 66343.37016574586,
+          "end": 61698.857142857145,
+          "change_pct": -7.000719154431425,
+          "difference_manwon": -4644.513022888714,
+          "rank": [
+            59,
+            59
+          ],
+          "common_rank": [
+            50,
+            50
+          ]
+        },
+        "median": {
+          "start": 56800.0,
+          "end": 54700.0,
+          "change_pct": -3.6971830985915495,
+          "difference_manwon": -2100.0,
+          "rank": [
+            57,
+            57
+          ],
+          "common_rank": [
+            48,
+            48
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41430",
+      "status": "supported",
+      "start_n": 233,
+      "end_n": 349,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 79931.11587982833,
+          "end": 84075.35816618911,
+          "change_pct": 5.184767209545037,
+          "difference_manwon": 4144.242286360785,
+          "rank": [
+            19,
+            19
+          ],
+          "common_rank": [
+            15,
+            15
+          ]
+        },
+        "median": {
+          "start": 78000.0,
+          "end": 81500.0,
+          "change_pct": 4.487179487179487,
+          "difference_manwon": 3500.0,
+          "rank": [
+            28,
+            28
+          ],
+          "common_rank": [
+            24,
+            24
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41450",
+      "status": "supported",
+      "start_n": 301,
+      "end_n": 335,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 105572.59136212624,
+          "end": 110384.17910447762,
+          "change_pct": 4.557610720993919,
+          "difference_manwon": 4811.587742351366,
+          "rank": [
+            23,
+            23
+          ],
+          "common_rank": [
+            19,
+            19
+          ]
+        },
+        "median": {
+          "start": 109000.0,
+          "end": 116000.0,
+          "change_pct": 6.422018348623853,
+          "difference_manwon": 7000.0,
+          "rank": [
+            16,
+            16
+          ],
+          "common_rank": [
+            13,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41461",
+      "status": "supported",
+      "start_n": 254,
+      "end_n": 214,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 41307.67716535433,
+          "end": 43842.990654205605,
+          "change_pct": 6.137632669836252,
+          "difference_manwon": 2535.313488851277,
+          "rank": [
+            15,
+            15
+          ],
+          "common_rank": [
+            11,
+            11
+          ]
+        },
+        "median": {
+          "start": 39000.0,
+          "end": 42775.0,
+          "change_pct": 9.679487179487179,
+          "difference_manwon": 3775.0,
+          "rank": [
+            11,
+            11
+          ],
+          "common_rank": [
+            8,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41463",
+      "status": "supported",
+      "start_n": 1082,
+      "end_n": 1208,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 63515.9426987061,
+          "end": 67855.42218543046,
+          "change_pct": 6.832110651823427,
+          "difference_manwon": 4339.479486724364,
+          "rank": [
+            13,
+            13
+          ],
+          "common_rank": [
+            9,
+            9
+          ]
+        },
+        "median": {
+          "start": 60000.0,
+          "end": 62800.0,
+          "change_pct": 4.666666666666667,
+          "difference_manwon": 2800.0,
+          "rank": [
+            25,
+            25
+          ],
+          "common_rank": [
+            21,
+            21
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41465",
+      "status": "supported",
+      "start_n": 526,
+      "end_n": 539,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 96419.65779467681,
+          "end": 103870.59369202226,
+          "change_pct": 7.727610808588468,
+          "difference_manwon": 7450.935897345457,
+          "rank": [
+            10,
+            10
+          ],
+          "common_rank": [
+            7,
+            7
+          ]
+        },
+        "median": {
+          "start": 89500.0,
+          "end": 102000.0,
+          "change_pct": 13.966480446927374,
+          "difference_manwon": 12500.0,
+          "rank": [
+            9,
+            9
+          ],
+          "common_rank": [
+            7,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41480",
+      "status": "supported",
+      "start_n": 500,
+      "end_n": 575,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 42781.366,
+          "end": 43932.41217391304,
+          "change_pct": 2.6905316064780247,
+          "difference_manwon": 1151.0461739130435,
+          "rank": [
+            34,
+            34
+          ],
+          "common_rank": [
+            29,
+            29
+          ]
+        },
+        "median": {
+          "start": 39850.0,
+          "end": 39900.0,
+          "change_pct": 0.12547051442910917,
+          "difference_manwon": 50.0,
+          "rank": [
+            48,
+            48
+          ],
+          "common_rank": [
+            41,
+            41
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41570",
+      "status": "supported",
+      "start_n": 475,
+      "end_n": 506,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 47983.094736842104,
+          "end": 48285.671936758896,
+          "change_pct": 0.6305912563085785,
+          "difference_manwon": 302.577199916788,
+          "rank": [
+            49,
+            49
+          ],
+          "common_rank": [
+            42,
+            42
+          ]
+        },
+        "median": {
+          "start": 46000.0,
+          "end": 45650.0,
+          "change_pct": -0.7608695652173914,
+          "difference_manwon": -350.0,
+          "rank": [
+            50,
+            50
+          ],
+          "common_rank": [
+            43,
+            43
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41591",
+      "status": "supported",
+      "start_n": 161,
+      "end_n": 172,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 40159.93788819876,
+          "end": 41329.651162790695,
+          "change_pct": 2.9126371605660957,
+          "difference_manwon": 1169.7132745919398,
+          "rank": [
+            32,
+            32
+          ],
+          "common_rank": [
+            28,
+            28
+          ]
+        },
+        "median": {
+          "start": 39500.0,
+          "end": 40250.0,
+          "change_pct": 1.8987341772151898,
+          "difference_manwon": 750.0,
+          "rank": [
+            39,
+            39
+          ],
+          "common_rank": [
+            33,
+            33
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41593",
+      "status": "supported",
+      "start_n": 200,
+      "end_n": 235,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 37644.25,
+          "end": 38431.914893617024,
+          "change_pct": 2.0923909856539082,
+          "difference_manwon": 787.6648936170212,
+          "rank": [
+            38,
+            38
+          ],
+          "common_rank": [
+            32,
+            32
+          ]
+        },
+        "median": {
+          "start": 33900.0,
+          "end": 35800.0,
+          "change_pct": 5.6047197640118,
+          "difference_manwon": 1900.0,
+          "rank": [
+            22,
+            22
+          ],
+          "common_rank": [
+            18,
+            18
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41595",
+      "status": "supported",
+      "start_n": 348,
+      "end_n": 455,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 50503.59195402299,
+          "end": 53000.63736263736,
+          "change_pct": 4.944292696819688,
+          "difference_manwon": 2497.045408614374,
+          "rank": [
+            21,
+            21
+          ],
+          "common_rank": [
+            17,
+            17
+          ]
+        },
+        "median": {
+          "start": 42650.0,
+          "end": 45000.0,
+          "change_pct": 5.509964830011723,
+          "difference_manwon": 2350.0,
+          "rank": [
+            23,
+            23
+          ],
+          "common_rank": [
+            19,
+            19
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41597",
+      "status": "supported",
+      "start_n": 1008,
+      "end_n": 1508,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 80332.5,
+          "end": 83878.97214854111,
+          "change_pct": 4.414741416663386,
+          "difference_manwon": 3546.472148541114,
+          "rank": [
+            24,
+            24
+          ],
+          "common_rank": [
+            20,
+            20
+          ]
+        },
+        "median": {
+          "start": 74600.0,
+          "end": 76500.0,
+          "change_pct": 2.546916890080429,
+          "difference_manwon": 1900.0,
+          "rank": [
+            34,
+            34
+          ],
+          "common_rank": [
+            28,
+            28
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "quarter",
+      "region": "41610",
+      "status": "supported",
+      "start_n": 372,
+      "end_n": 469,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 42882.17741935484,
+          "end": 46941.25799573561,
+          "change_pct": 9.465658743692213,
+          "difference_manwon": 4059.080576380769,
+          "rank": [
+            7,
+            7
+          ],
+          "common_rank": [
+            4,
+            4
+          ]
+        },
+        "median": {
+          "start": 37500.0,
+          "end": 45000.0,
+          "change_pct": 20.0,
+          "difference_manwon": 7500.0,
+          "rank": [
+            6,
+            6
+          ],
+          "common_rank": [
+            5,
+            5
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11110",
+      "status": "supported",
+      "start_n": 107,
+      "end_n": 88,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 164315.79439252336,
+          "end": 144917.5,
+          "change_pct": -11.805495913669768,
+          "difference_manwon": -19398.294392523363,
+          "rank": [
+            60,
+            60
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 137000.0,
+          "end": 122250.0,
+          "change_pct": -10.766423357664234,
+          "difference_manwon": -14750.0,
+          "rank": [
+            59,
+            59
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11140",
+      "status": "supported",
+      "start_n": 173,
+      "end_n": 133,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 132864.16184971097,
+          "end": 149880.6015037594,
+          "change_pct": 12.80739622871104,
+          "difference_manwon": 17016.439654048416,
+          "rank": [
+            19,
+            19
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 132000.0,
+          "end": 161000.0,
+          "change_pct": 21.96969696969697,
+          "difference_manwon": 29000.0,
+          "rank": [
+            5,
+            5
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11170",
+      "status": "supported",
+      "start_n": 155,
+      "end_n": 126,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 180455.48387096773,
+          "end": 214382.53968253967,
+          "change_pct": 18.800789581895458,
+          "difference_manwon": 33927.05581157194,
+          "rank": [
+            2,
+            2
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 170000.0,
+          "end": 195750.0,
+          "change_pct": 15.147058823529411,
+          "difference_manwon": 25750.0,
+          "rank": [
+            12,
+            12
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11200",
+      "status": "supported",
+      "start_n": 898,
+      "end_n": 313,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 169739.81069042315,
+          "end": 186860.8626198083,
+          "change_pct": 10.086644882979787,
+          "difference_manwon": 17121.051929385143,
+          "rank": [
+            24,
+            24
+          ],
+          "common_rank": [
+            19,
+            19
+          ]
+        },
+        "median": {
+          "start": 163900.0,
+          "end": 180000.0,
+          "change_pct": 9.823062843197071,
+          "difference_manwon": 16100.0,
+          "rank": [
+            23,
+            23
+          ],
+          "common_rank": [
+            18,
+            18
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11215",
+      "status": "supported",
+      "start_n": 414,
+      "end_n": 158,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 150844.44444444444,
+          "end": 178300.0,
+          "change_pct": 18.20123747790218,
+          "difference_manwon": 27455.555555555555,
+          "rank": [
+            3,
+            3
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 150000.0,
+          "end": 186000.0,
+          "change_pct": 24.0,
+          "difference_manwon": 36000.0,
+          "rank": [
+            3,
+            3
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11230",
+      "status": "supported",
+      "start_n": 539,
+      "end_n": 567,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 103523.09833024119,
+          "end": 115659.38271604938,
+          "change_pct": 11.72326232653234,
+          "difference_manwon": 12136.284385808196,
+          "rank": [
+            21,
+            21
+          ],
+          "common_rank": [
+            16,
+            16
+          ]
+        },
+        "median": {
+          "start": 92300.0,
+          "end": 107000.0,
+          "change_pct": 15.926327193932828,
+          "difference_manwon": 14700.0,
+          "rank": [
+            10,
+            10
+          ],
+          "common_rank": [
+            7,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11260",
+      "status": "supported",
+      "start_n": 294,
+      "end_n": 515,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 77009.08163265306,
+          "end": 78907.66796116505,
+          "change_pct": 2.465405752491089,
+          "difference_manwon": 1898.5863285119874,
+          "rank": [
+            48,
+            48
+          ],
+          "common_rank": [
+            40,
+            40
+          ]
+        },
+        "median": {
+          "start": 71500.0,
+          "end": 75000.0,
+          "change_pct": 4.895104895104895,
+          "difference_manwon": 3500.0,
+          "rank": [
+            37,
+            38
+          ],
+          "common_rank": [
+            30,
+            31
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11290",
+      "status": "supported",
+      "start_n": 687,
+      "end_n": 839,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 92331.22270742359,
+          "end": 100687.61620977354,
+          "change_pct": 9.050452552577418,
+          "difference_manwon": 8356.39350234996,
+          "rank": [
+            28,
+            28
+          ],
+          "common_rank": [
+            23,
+            23
+          ]
+        },
+        "median": {
+          "start": 89000.0,
+          "end": 97500.0,
+          "change_pct": 9.55056179775281,
+          "difference_manwon": 8500.0,
+          "rank": [
+            26,
+            26
+          ],
+          "common_rank": [
+            21,
+            21
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11305",
+      "status": "supported",
+      "start_n": 191,
+      "end_n": 402,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 72543.03664921466,
+          "end": 78327.73631840796,
+          "change_pct": 7.974162561136631,
+          "difference_manwon": 5784.699669193301,
+          "rank": [
+            32,
+            32
+          ],
+          "common_rank": [
+            27,
+            27
+          ]
+        },
+        "median": {
+          "start": 72000.0,
+          "end": 75000.0,
+          "change_pct": 4.166666666666667,
+          "difference_manwon": 3000.0,
+          "rank": [
+            43,
+            43
+          ],
+          "common_rank": [
+            35,
+            35
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11320",
+      "status": "supported",
+      "start_n": 251,
+      "end_n": 456,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 64430.0796812749,
+          "end": 68548.57456140351,
+          "change_pct": 6.392192746776243,
+          "difference_manwon": 4118.494880128608,
+          "rank": [
+            34,
+            34
+          ],
+          "common_rank": [
+            29,
+            29
+          ]
+        },
+        "median": {
+          "start": 57800.0,
+          "end": 62500.0,
+          "change_pct": 8.131487889273357,
+          "difference_manwon": 4700.0,
+          "rank": [
+            28,
+            28
+          ],
+          "common_rank": [
+            22,
+            22
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11350",
+      "status": "supported",
+      "start_n": 469,
+      "end_n": 802,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 82174.41364605544,
+          "end": 85983.04239401496,
+          "change_pct": 4.634810981875924,
+          "difference_manwon": 3808.6287479595253,
+          "rank": [
+            41,
+            41
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 81000.0,
+          "end": 85000.0,
+          "change_pct": 4.938271604938271,
+          "difference_manwon": 4000.0,
+          "rank": [
+            36,
+            36
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11380",
+      "status": "supported",
+      "start_n": 425,
+      "end_n": 684,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 93418.0,
+          "end": 97353.80116959065,
+          "change_pct": 4.213107933792891,
+          "difference_manwon": 3935.8011695906434,
+          "rank": [
+            44,
+            44
+          ],
+          "common_rank": [
+            38,
+            38
+          ]
+        },
+        "median": {
+          "start": 89800.0,
+          "end": 92875.0,
+          "change_pct": 3.4242761692650334,
+          "difference_manwon": 3075.0,
+          "rank": [
+            46,
+            46
+          ],
+          "common_rank": [
+            38,
+            38
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11410",
+      "status": "supported",
+      "start_n": 604,
+      "end_n": 538,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 116184.2715231788,
+          "end": 116629.21933085502,
+          "change_pct": 0.3829673344274,
+          "difference_manwon": 444.94780767621063,
+          "rank": [
+            54,
+            54
+          ],
+          "common_rank": [
+            45,
+            45
+          ]
+        },
+        "median": {
+          "start": 119000.0,
+          "end": 109900.0,
+          "change_pct": -7.647058823529412,
+          "difference_manwon": -9100.0,
+          "rank": [
+            57,
+            57
+          ],
+          "common_rank": [
+            49,
+            49
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11440",
+      "status": "supported",
+      "start_n": 844,
+      "end_n": 352,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 163785.48578199052,
+          "end": 163585.6534090909,
+          "change_pct": -0.12200859676027859,
+          "difference_manwon": -199.83237289961224,
+          "rank": [
+            56,
+            56
+          ],
+          "common_rank": [
+            47,
+            47
+          ]
+        },
+        "median": {
+          "start": 162500.0,
+          "end": 153000.0,
+          "change_pct": -5.846153846153846,
+          "difference_manwon": -9500.0,
+          "rank": [
+            56,
+            56
+          ],
+          "common_rank": [
+            48,
+            48
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11470",
+      "status": "supported",
+      "start_n": 500,
+      "end_n": 455,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 122906.6,
+          "end": 119351.86813186813,
+          "change_pct": -2.892222116738945,
+          "difference_manwon": -3554.731868131868,
+          "rank": [
+            59,
+            59
+          ],
+          "common_rank": [
+            50,
+            50
+          ]
+        },
+        "median": {
+          "start": 125000.0,
+          "end": 119000.0,
+          "change_pct": -4.8,
+          "difference_manwon": -6000.0,
+          "rank": [
+            55,
+            55
+          ],
+          "common_rank": [
+            47,
+            47
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11500",
+      "status": "supported",
+      "start_n": 555,
+      "end_n": 726,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 105164.32432432432,
+          "end": 109090.01239669422,
+          "change_pct": 3.732908567227761,
+          "difference_manwon": 3925.6880723698905,
+          "rank": [
+            46,
+            46
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 100000.0,
+          "end": 104400.0,
+          "change_pct": 4.4,
+          "difference_manwon": 4400.0,
+          "rank": [
+            41,
+            41
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11530",
+      "status": "supported",
+      "start_n": 486,
+      "end_n": 733,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 84720.06172839506,
+          "end": 84976.76671214188,
+          "change_pct": 0.30300377326186817,
+          "difference_manwon": 256.704983746821,
+          "rank": [
+            55,
+            55
+          ],
+          "common_rank": [
+            46,
+            46
+          ]
+        },
+        "median": {
+          "start": 81000.0,
+          "end": 78500.0,
+          "change_pct": -3.0864197530864197,
+          "difference_manwon": -2500.0,
+          "rank": [
+            54,
+            54
+          ],
+          "common_rank": [
+            46,
+            46
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11545",
+      "status": "supported",
+      "start_n": 115,
+      "end_n": 216,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 70586.08695652174,
+          "end": 79680.60185185185,
+          "change_pct": 12.884288232229075,
+          "difference_manwon": 9094.514895330112,
+          "rank": [
+            17,
+            17
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 64500.0,
+          "end": 72000.0,
+          "change_pct": 11.627906976744185,
+          "difference_manwon": 7500.0,
+          "rank": [
+            21,
+            21
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11560",
+      "status": "supported",
+      "start_n": 696,
+      "end_n": 514,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 124393.3908045977,
+          "end": 131838.4241245136,
+          "change_pct": 5.985071450951027,
+          "difference_manwon": 7445.033319915918,
+          "rank": [
+            36,
+            36
+          ],
+          "common_rank": [
+            31,
+            31
+          ]
+        },
+        "median": {
+          "start": 122000.0,
+          "end": 129000.0,
+          "change_pct": 5.737704918032787,
+          "difference_manwon": 7000.0,
+          "rank": [
+            34,
+            34
+          ],
+          "common_rank": [
+            28,
+            28
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11590",
+      "status": "supported",
+      "start_n": 1021,
+      "end_n": 531,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 139162.0959843291,
+          "end": 157054.72693032015,
+          "change_pct": 12.85740259905681,
+          "difference_manwon": 17892.630945991063,
+          "rank": [
+            18,
+            18
+          ],
+          "common_rank": [
+            14,
+            14
+          ]
+        },
+        "median": {
+          "start": 133000.0,
+          "end": 152000.0,
+          "change_pct": 14.285714285714286,
+          "difference_manwon": 19000.0,
+          "rank": [
+            14,
+            15
+          ],
+          "common_rank": [
+            10,
+            11
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11620",
+      "status": "supported",
+      "start_n": 345,
+      "end_n": 394,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 91655.50724637682,
+          "end": 100080.83756345177,
+          "change_pct": 9.192388510192902,
+          "difference_manwon": 8425.330317074966,
+          "rank": [
+            27,
+            27
+          ],
+          "common_rank": [
+            22,
+            22
+          ]
+        },
+        "median": {
+          "start": 91000.0,
+          "end": 104000.0,
+          "change_pct": 14.285714285714286,
+          "difference_manwon": 13000.0,
+          "rank": [
+            14,
+            15
+          ],
+          "common_rank": [
+            10,
+            11
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11650",
+      "status": "supported",
+      "start_n": 588,
+      "end_n": 266,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 286224.06462585035,
+          "end": 334430.45112781954,
+          "change_pct": 16.842185008092937,
+          "difference_manwon": 48206.38650196921,
+          "rank": [
+            5,
+            5
+          ],
+          "common_rank": [
+            3,
+            3
+          ]
+        },
+        "median": {
+          "start": 274000.0,
+          "end": 309750.0,
+          "change_pct": 13.047445255474452,
+          "difference_manwon": 35750.0,
+          "rank": [
+            18,
+            18
+          ],
+          "common_rank": [
+            14,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11680",
+      "status": "supported",
+      "start_n": 554,
+      "end_n": 290,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 259057.58122743684,
+          "end": 301493.7931034483,
+          "change_pct": 16.38099594497296,
+          "difference_manwon": 42436.21187601145,
+          "rank": [
+            7,
+            7
+          ],
+          "common_rank": [
+            5,
+            5
+          ]
+        },
+        "median": {
+          "start": 250000.0,
+          "end": 315000.0,
+          "change_pct": 26.0,
+          "difference_manwon": 65000.0,
+          "rank": [
+            1,
+            1
+          ],
+          "common_rank": [
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11710",
+      "status": "supported",
+      "start_n": 991,
+      "end_n": 653,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 203754.7931382442,
+          "end": 232988.7442572741,
+          "change_pct": 14.347613947513459,
+          "difference_manwon": 29233.95111902992,
+          "rank": [
+            13,
+            13
+          ],
+          "common_rank": [
+            10,
+            10
+          ]
+        },
+        "median": {
+          "start": 197500.0,
+          "end": 238000.0,
+          "change_pct": 20.50632911392405,
+          "difference_manwon": 40500.0,
+          "rank": [
+            6,
+            6
+          ],
+          "common_rank": [
+            4,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "11740",
+      "status": "supported",
+      "start_n": 878,
+      "end_n": 627,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 138259.2824601367,
+          "end": 153033.81180223284,
+          "change_pct": 10.686103008205627,
+          "difference_manwon": 14774.52934209618,
+          "rank": [
+            23,
+            23
+          ],
+          "common_rank": [
+            18,
+            18
+          ]
+        },
+        "median": {
+          "start": 143000.0,
+          "end": 150000.0,
+          "change_pct": 4.895104895104895,
+          "difference_manwon": 7000.0,
+          "rank": [
+            37,
+            38
+          ],
+          "common_rank": [
+            30,
+            31
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41111",
+      "status": "supported",
+      "start_n": 360,
+      "end_n": 520,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 60559.166666666664,
+          "end": 67543.09615384616,
+          "change_pct": 11.532406853649166,
+          "difference_manwon": 6983.929487179487,
+          "rank": [
+            22,
+            22
+          ],
+          "common_rank": [
+            17,
+            17
+          ]
+        },
+        "median": {
+          "start": 53600.0,
+          "end": 59700.0,
+          "change_pct": 11.380597014925373,
+          "difference_manwon": 6100.0,
+          "rank": [
+            22,
+            22
+          ],
+          "common_rank": [
+            17,
+            17
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41113",
+      "status": "supported",
+      "start_n": 553,
+      "end_n": 1002,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 51795.35262206148,
+          "end": 54438.65269461078,
+          "change_pct": 5.103353754219679,
+          "difference_manwon": 2643.3000725492957,
+          "rank": [
+            38,
+            38
+          ],
+          "common_rank": [
+            33,
+            33
+          ]
+        },
+        "median": {
+          "start": 53000.0,
+          "end": 56000.0,
+          "change_pct": 5.660377358490566,
+          "difference_manwon": 3000.0,
+          "rank": [
+            35,
+            35
+          ],
+          "common_rank": [
+            29,
+            29
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41115",
+      "status": "supported",
+      "start_n": 224,
+      "end_n": 389,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 63787.72321428572,
+          "end": 72463.88174807197,
+          "change_pct": 13.601611872303318,
+          "difference_manwon": 8676.158533786265,
+          "rank": [
+            16,
+            16
+          ],
+          "common_rank": [
+            13,
+            13
+          ]
+        },
+        "median": {
+          "start": 62600.0,
+          "end": 70000.0,
+          "change_pct": 11.821086261980831,
+          "difference_manwon": 7400.0,
+          "rank": [
+            20,
+            20
+          ],
+          "common_rank": [
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41117",
+      "status": "supported",
+      "start_n": 820,
+      "end_n": 995,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 85907.06097560975,
+          "end": 83848.9648241206,
+          "change_pct": -2.3957240861417386,
+          "difference_manwon": -2058.0961514891533,
+          "rank": [
+            57,
+            57
+          ],
+          "common_rank": [
+            48,
+            48
+          ]
+        },
+        "median": {
+          "start": 77000.0,
+          "end": 76000.0,
+          "change_pct": -1.2987012987012987,
+          "difference_manwon": -1000.0,
+          "rank": [
+            52,
+            52
+          ],
+          "common_rank": [
+            44,
+            44
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41131",
+      "status": "supported",
+      "start_n": 166,
+      "end_n": 209,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 106058.43373493975,
+          "end": 108353.92344497607,
+          "change_pct": 2.164363199793412,
+          "difference_manwon": 2295.4897100363173,
+          "rank": [
+            50,
+            50
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 107000.0,
+          "end": 95000.0,
+          "change_pct": -11.214953271028037,
+          "difference_manwon": -12000.0,
+          "rank": [
+            60,
+            60
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41133",
+      "status": "supported",
+      "start_n": 148,
+      "end_n": 221,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 86939.18918918919,
+          "end": 91167.42081447964,
+          "change_pct": 4.863435770132793,
+          "difference_manwon": 4228.231625290448,
+          "rank": [
+            40,
+            40
+          ],
+          "common_rank": [
+            35,
+            35
+          ]
+        },
+        "median": {
+          "start": 82750.0,
+          "end": 88600.0,
+          "change_pct": 7.069486404833837,
+          "difference_manwon": 5850.0,
+          "rank": [
+            32,
+            32
+          ],
+          "common_rank": [
+            26,
+            26
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41135",
+      "status": "supported",
+      "start_n": 685,
+      "end_n": 410,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 147679.7080291971,
+          "end": 175764.29268292684,
+          "change_pct": 19.0172265563914,
+          "difference_manwon": 28084.584653729748,
+          "rank": [
+            1,
+            1
+          ],
+          "common_rank": [
+            1,
+            1
+          ]
+        },
+        "median": {
+          "start": 144000.0,
+          "end": 177000.0,
+          "change_pct": 22.916666666666668,
+          "difference_manwon": 33000.0,
+          "rank": [
+            4,
+            4
+          ],
+          "common_rank": [
+            3,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41150",
+      "status": "supported",
+      "start_n": 699,
+      "end_n": 814,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 41251.92417739628,
+          "end": 43361.91646191646,
+          "change_pct": 5.114894217895266,
+          "difference_manwon": 2109.9922845201813,
+          "rank": [
+            37,
+            37
+          ],
+          "common_rank": [
+            32,
+            32
+          ]
+        },
+        "median": {
+          "start": 39500.0,
+          "end": 41000.0,
+          "change_pct": 3.7974683544303796,
+          "difference_manwon": 1500.0,
+          "rank": [
+            44,
+            44
+          ],
+          "common_rank": [
+            36,
+            36
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41171",
+      "status": "supported",
+      "start_n": 263,
+      "end_n": 457,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 65407.49049429658,
+          "end": 68425.5579868709,
+          "change_pct": 4.614253611881791,
+          "difference_manwon": 3018.067492574319,
+          "rank": [
+            42,
+            42
+          ],
+          "common_rank": [
+            36,
+            36
+          ]
+        },
+        "median": {
+          "start": 61300.0,
+          "end": 64000.0,
+          "change_pct": 4.404567699836868,
+          "difference_manwon": 2700.0,
+          "rank": [
+            40,
+            40
+          ],
+          "common_rank": [
+            33,
+            33
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41173",
+      "status": "supported",
+      "start_n": 781,
+      "end_n": 803,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 82196.69654289373,
+          "end": 92192.40348692403,
+          "change_pct": 12.16071614120663,
+          "difference_manwon": 9995.70694403031,
+          "rank": [
+            20,
+            20
+          ],
+          "common_rank": [
+            15,
+            15
+          ]
+        },
+        "median": {
+          "start": 79500.0,
+          "end": 90000.0,
+          "change_pct": 13.20754716981132,
+          "difference_manwon": 10500.0,
+          "rank": [
+            17,
+            17
+          ],
+          "common_rank": [
+            13,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41192",
+      "status": "supported",
+      "start_n": 366,
+      "end_n": 632,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 69524.59016393442,
+          "end": 70358.93987341772,
+          "change_pct": 1.2000785729422545,
+          "difference_manwon": 834.3497094832953,
+          "rank": [
+            53,
+            53
+          ],
+          "common_rank": [
+            44,
+            44
+          ]
+        },
+        "median": {
+          "start": 68000.0,
+          "end": 68000.0,
+          "change_pct": 0.0,
+          "difference_manwon": 0.0,
+          "rank": [
+            50,
+            50
+          ],
+          "common_rank": [
+            42,
+            42
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41194",
+      "status": "supported",
+      "start_n": 241,
+      "end_n": 369,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 60329.25311203319,
+          "end": 63003.79403794038,
+          "change_pct": 4.433240572265139,
+          "difference_manwon": 2674.5409259071844,
+          "rank": [
+            43,
+            43
+          ],
+          "common_rank": [
+            37,
+            37
+          ]
+        },
+        "median": {
+          "start": 58900.0,
+          "end": 61000.0,
+          "change_pct": 3.565365025466893,
+          "difference_manwon": 2100.0,
+          "rank": [
+            45,
+            45
+          ],
+          "common_rank": [
+            37,
+            37
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41196",
+      "status": "insufficient_support"
+    },
+    {
+      "comparison": "year_half",
+      "region": "41210",
+      "status": "supported",
+      "start_n": 441,
+      "end_n": 586,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 91622.43764172336,
+          "end": 93425.63139931741,
+          "change_pct": 1.9680700535879492,
+          "difference_manwon": 1803.19375759405,
+          "rank": [
+            51,
+            51
+          ],
+          "common_rank": [
+            42,
+            42
+          ]
+        },
+        "median": {
+          "start": 92500.0,
+          "end": 84150.0,
+          "change_pct": -9.027027027027026,
+          "difference_manwon": -8350.0,
+          "rank": [
+            58,
+            58
+          ],
+          "common_rank": [
+            50,
+            50
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41220",
+      "status": "supported",
+      "start_n": 1124,
+      "end_n": 1429,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 37730.844306049825,
+          "end": 38582.09517144856,
+          "change_pct": 2.256114012434788,
+          "difference_manwon": 851.2508653987434,
+          "rank": [
+            49,
+            49
+          ],
+          "common_rank": [
+            41,
+            41
+          ]
+        },
+        "median": {
+          "start": 35300.0,
+          "end": 35000.0,
+          "change_pct": -0.8498583569405099,
+          "difference_manwon": -300.0,
+          "rank": [
+            51,
+            51
+          ],
+          "common_rank": [
+            43,
+            43
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41271",
+      "status": "supported",
+      "start_n": 184,
+      "end_n": 226,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 50110.59782608696,
+          "end": 51594.69026548672,
+          "change_pct": 2.961633873438183,
+          "difference_manwon": 1484.092439399769,
+          "rank": [
+            47,
+            47
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 45500.0,
+          "end": 49400.0,
+          "change_pct": 8.571428571428571,
+          "difference_manwon": 3900.0,
+          "rank": [
+            27,
+            27
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41273",
+      "status": "supported",
+      "start_n": 284,
+      "end_n": 368,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 54435.17605633803,
+          "end": 56468.614130434784,
+          "change_pct": 3.7355221777775367,
+          "difference_manwon": 2033.4380740967545,
+          "rank": [
+            45,
+            45
+          ],
+          "common_rank": [
+            39,
+            39
+          ]
+        },
+        "median": {
+          "start": 50000.0,
+          "end": 53775.0,
+          "change_pct": 7.55,
+          "difference_manwon": 3775.0,
+          "rank": [
+            29,
+            29
+          ],
+          "common_rank": [
+            23,
+            23
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41281",
+      "status": "supported",
+      "start_n": 707,
+      "end_n": 1110,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 63613.974540311174,
+          "end": 72500.58558558559,
+          "change_pct": 13.9695894015286,
+          "difference_manwon": 8886.611045274412,
+          "rank": [
+            15,
+            15
+          ],
+          "common_rank": [
+            12,
+            12
+          ]
+        },
+        "median": {
+          "start": 62200.0,
+          "end": 72650.0,
+          "change_pct": 16.80064308681672,
+          "difference_manwon": 10450.0,
+          "rank": [
+            9,
+            9
+          ],
+          "common_rank": [
+            6,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41285",
+      "status": "supported",
+      "start_n": 281,
+      "end_n": 354,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 57374.775800711745,
+          "end": 65789.12429378531,
+          "change_pct": 14.665588450054013,
+          "difference_manwon": 8414.348493073567,
+          "rank": [
+            12,
+            12
+          ],
+          "common_rank": [
+            9,
+            9
+          ]
+        },
+        "median": {
+          "start": 51500.0,
+          "end": 60650.0,
+          "change_pct": 17.766990291262136,
+          "difference_manwon": 9150.0,
+          "rank": [
+            7,
+            7
+          ],
+          "common_rank": [
+            5,
+            5
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41287",
+      "status": "supported",
+      "start_n": 401,
+      "end_n": 380,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 42448.97755610973,
+          "end": 45271.18421052631,
+          "change_pct": 6.648467918187554,
+          "difference_manwon": 2822.20665441659,
+          "rank": [
+            33,
+            33
+          ],
+          "common_rank": [
+            28,
+            28
+          ]
+        },
+        "median": {
+          "start": 39500.0,
+          "end": 40000.0,
+          "change_pct": 1.2658227848101267,
+          "difference_manwon": 500.0,
+          "rank": [
+            49,
+            49
+          ],
+          "common_rank": [
+            41,
+            41
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41290",
+      "status": "supported",
+      "start_n": 217,
+      "end_n": 68,
+      "supported100": false,
+      "statistics": {
+        "mean": {
+          "start": 198891.70506912444,
+          "end": 228879.41176470587,
+          "change_pct": 15.077404402138988,
+          "difference_manwon": 29987.70669558146,
+          "rank": [
+            11,
+            11
+          ],
+          "common_rank": null
+        },
+        "median": {
+          "start": 199000.0,
+          "end": 233500.0,
+          "change_pct": 17.33668341708543,
+          "difference_manwon": 34500.0,
+          "rank": [
+            8,
+            8
+          ],
+          "common_rank": null
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41310",
+      "status": "supported",
+      "start_n": 252,
+      "end_n": 804,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 72832.93650793651,
+          "end": 77317.84825870646,
+          "change_pct": 6.157807121069799,
+          "difference_manwon": 4484.911750769959,
+          "rank": [
+            35,
+            35
+          ],
+          "common_rank": [
+            30,
+            30
+          ]
+        },
+        "median": {
+          "start": 71500.0,
+          "end": 74500.0,
+          "change_pct": 4.195804195804196,
+          "difference_manwon": 3000.0,
+          "rank": [
+            42,
+            42
+          ],
+          "common_rank": [
+            34,
+            34
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41360",
+      "status": "supported",
+      "start_n": 1450,
+      "end_n": 2293,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 52394.29655172414,
+          "end": 61340.4230266027,
+          "change_pct": 17.074618925452825,
+          "difference_manwon": 8946.126474878565,
+          "rank": [
+            4,
+            4
+          ],
+          "common_rank": [
+            2,
+            2
+          ]
+        },
+        "median": {
+          "start": 45850.0,
+          "end": 57500.0,
+          "change_pct": 25.408942202835334,
+          "difference_manwon": 11650.0,
+          "rank": [
+            2,
+            2
+          ],
+          "common_rank": [
+            2,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41410",
+      "status": "supported",
+      "start_n": 234,
+      "end_n": 356,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 58321.581196581195,
+          "end": 64060.252808988764,
+          "change_pct": 9.839705122302082,
+          "difference_manwon": 5738.671612407567,
+          "rank": [
+            26,
+            26
+          ],
+          "common_rank": [
+            21,
+            21
+          ]
+        },
+        "median": {
+          "start": 53500.0,
+          "end": 56000.0,
+          "change_pct": 4.672897196261682,
+          "difference_manwon": 2500.0,
+          "rank": [
+            39,
+            39
+          ],
+          "common_rank": [
+            32,
+            32
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41430",
+      "status": "supported",
+      "start_n": 464,
+      "end_n": 582,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 78419.61206896552,
+          "end": 82416.23711340207,
+          "change_pct": 5.096461126231718,
+          "difference_manwon": 3996.6250444365446,
+          "rank": [
+            39,
+            39
+          ],
+          "common_rank": [
+            34,
+            34
+          ]
+        },
+        "median": {
+          "start": 78000.0,
+          "end": 79000.0,
+          "change_pct": 1.2820512820512822,
+          "difference_manwon": 1000.0,
+          "rank": [
+            48,
+            48
+          ],
+          "common_rank": [
+            40,
+            40
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41450",
+      "status": "supported",
+      "start_n": 764,
+      "end_n": 636,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 93450.25523560209,
+          "end": 108106.99685534592,
+          "change_pct": 15.684003840109346,
+          "difference_manwon": 14656.741619743818,
+          "rank": [
+            9,
+            9
+          ],
+          "common_rank": [
+            7,
+            7
+          ]
+        },
+        "median": {
+          "start": 96000.0,
+          "end": 111250.0,
+          "change_pct": 15.885416666666666,
+          "difference_manwon": 15250.0,
+          "rank": [
+            11,
+            11
+          ],
+          "common_rank": [
+            8,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41461",
+      "status": "supported",
+      "start_n": 333,
+      "end_n": 468,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 36615.138138138136,
+          "end": 42466.98717948718,
+          "change_pct": 15.9820482426469,
+          "difference_manwon": 5851.849041349042,
+          "rank": [
+            8,
+            8
+          ],
+          "common_rank": [
+            6,
+            6
+          ]
+        },
+        "median": {
+          "start": 35400.0,
+          "end": 40000.0,
+          "change_pct": 12.994350282485875,
+          "difference_manwon": 4600.0,
+          "rank": [
+            19,
+            19
+          ],
+          "common_rank": [
+            15,
+            15
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41463",
+      "status": "supported",
+      "start_n": 1098,
+      "end_n": 2290,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 57684.553734061934,
+          "end": 65805.06550218341,
+          "change_pct": 14.077445767473149,
+          "difference_manwon": 8120.511768121475,
+          "rank": [
+            14,
+            14
+          ],
+          "common_rank": [
+            11,
+            11
+          ]
+        },
+        "median": {
+          "start": 56000.0,
+          "end": 61500.0,
+          "change_pct": 9.821428571428571,
+          "difference_manwon": 5500.0,
+          "rank": [
+            24,
+            24
+          ],
+          "common_rank": [
+            19,
+            19
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41465",
+      "status": "supported",
+      "start_n": 1382,
+      "end_n": 1065,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 86973.20549927642,
+          "end": 100190.60093896714,
+          "change_pct": 15.197088992886078,
+          "difference_manwon": 13217.395439690725,
+          "rank": [
+            10,
+            10
+          ],
+          "common_rank": [
+            8,
+            8
+          ]
+        },
+        "median": {
+          "start": 82000.0,
+          "end": 93500.0,
+          "change_pct": 14.024390243902438,
+          "difference_manwon": 11500.0,
+          "rank": [
+            16,
+            16
+          ],
+          "common_rank": [
+            12,
+            12
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41480",
+      "status": "supported",
+      "start_n": 939,
+      "end_n": 1075,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 39432.98189563365,
+          "end": 43397.04186046511,
+          "change_pct": 10.05265078690485,
+          "difference_manwon": 3964.0599648314633,
+          "rank": [
+            25,
+            25
+          ],
+          "common_rank": [
+            20,
+            20
+          ]
+        },
+        "median": {
+          "start": 37700.0,
+          "end": 39900.0,
+          "change_pct": 5.835543766578249,
+          "difference_manwon": 2200.0,
+          "rank": [
+            33,
+            33
+          ],
+          "common_rank": [
+            27,
+            27
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41570",
+      "status": "supported",
+      "start_n": 896,
+      "end_n": 981,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 47539.78794642857,
+          "end": 48139.164118246685,
+          "change_pct": 1.260788484150451,
+          "difference_manwon": 599.3761718181156,
+          "rank": [
+            52,
+            52
+          ],
+          "common_rank": [
+            43,
+            43
+          ]
+        },
+        "median": {
+          "start": 45000.0,
+          "end": 45900.0,
+          "change_pct": 2.0,
+          "difference_manwon": 900.0,
+          "rank": [
+            47,
+            47
+          ],
+          "common_rank": [
+            39,
+            39
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41591",
+      "status": "supported",
+      "start_n": 318,
+      "end_n": 333,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 41815.72327044025,
+          "end": 40764.11411411411,
+          "change_pct": -2.5148654000910833,
+          "difference_manwon": -1051.6091563261375,
+          "rank": [
+            58,
+            58
+          ],
+          "common_rank": [
+            49,
+            49
+          ]
+        },
+        "median": {
+          "start": 40950.0,
+          "end": 39800.0,
+          "change_pct": -2.808302808302808,
+          "difference_manwon": -1150.0,
+          "rank": [
+            53,
+            53
+          ],
+          "common_rank": [
+            45,
+            45
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41593",
+      "status": "supported",
+      "start_n": 360,
+      "end_n": 435,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 35114.444444444445,
+          "end": 38069.77011494253,
+          "change_pct": 8.416267770301161,
+          "difference_manwon": 2955.3256704980845,
+          "rank": [
+            30,
+            30
+          ],
+          "common_rank": [
+            25,
+            25
+          ]
+        },
+        "median": {
+          "start": 32800.0,
+          "end": 35200.0,
+          "change_pct": 7.317073170731708,
+          "difference_manwon": 2400.0,
+          "rank": [
+            31,
+            31
+          ],
+          "common_rank": [
+            25,
+            25
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41595",
+      "status": "supported",
+      "start_n": 508,
+      "end_n": 803,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 44474.4094488189,
+          "end": 51918.48069738481,
+          "change_pct": 16.737875422792378,
+          "difference_manwon": 7444.07124856591,
+          "rank": [
+            6,
+            6
+          ],
+          "common_rank": [
+            4,
+            4
+          ]
+        },
+        "median": {
+          "start": 38800.0,
+          "end": 44500.0,
+          "change_pct": 14.690721649484535,
+          "difference_manwon": 5700.0,
+          "rank": [
+            13,
+            13
+          ],
+          "common_rank": [
+            9,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41597",
+      "status": "supported",
+      "start_n": 936,
+      "end_n": 2516,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 76176.07905982906,
+          "end": 82458.1279809221,
+          "change_pct": 8.246747533643845,
+          "difference_manwon": 6282.048921093039,
+          "rank": [
+            31,
+            31
+          ],
+          "common_rank": [
+            26,
+            26
+          ]
+        },
+        "median": {
+          "start": 70500.0,
+          "end": 75725.0,
+          "change_pct": 7.411347517730497,
+          "difference_manwon": 5225.0,
+          "rank": [
+            30,
+            30
+          ],
+          "common_rank": [
+            24,
+            24
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "year_half",
+      "region": "41610",
+      "status": "supported",
+      "start_n": 632,
+      "end_n": 841,
+      "supported100": true,
+      "statistics": {
+        "mean": {
+          "start": 41589.462025316454,
+          "end": 45145.80261593341,
+          "change_pct": 8.55106177726495,
+          "difference_manwon": 3556.340590616957,
+          "rank": [
+            29,
+            29
+          ],
+          "common_rank": [
+            24,
+            24
+          ]
+        },
+        "median": {
+          "start": 37400.0,
+          "end": 41000.0,
+          "change_pct": 9.62566844919786,
+          "difference_manwon": 3600.0,
+          "rank": [
+            25,
+            25
+          ],
+          "common_rank": [
+            20,
+            20
+          ]
+        }
+      }
+    }
+  ],
+  "influence": {
+    "month": {
+      "status": "supported",
+      "wide": 31,
+      "narrow": 19
+    },
+    "quarter": {
+      "status": "supported",
+      "wide": 36,
+      "narrow": 23
+    },
+    "year_half": {
+      "status": "supported",
+      "wide": 28,
+      "narrow": 32
+    }
+  },
+  "influence_definition": "Number of visible regions whose supported one-complex deletion rank interval spans at least ten positions; other regions fixed; original rank included; both anonymous groups require ten regions",
+  "limitations": [
+    "Retrospective snapshot, not the information available at the contract date",
+    "Changing transaction composition and true market movement are not separated",
+    "Not a same-home index, confidence interval, forecast or investment ranking",
+    "Named deletion statistics, precise complex counts and concentration shares are withheld",
+    "Median support review and exact linear sum/count certificates are not a general privacy guarantee"
+  ]
+}
