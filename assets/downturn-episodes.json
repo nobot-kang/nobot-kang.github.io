@@ -1,0 +1,7137 @@
+{
+  "schema": "b027_public_v1",
+  "snapshot": "2026-10-04",
+  "names": {
+    "11110": "종로구",
+    "11140": "중구",
+    "11170": "용산구",
+    "11200": "성동구",
+    "11215": "광진구",
+    "11230": "동대문구",
+    "11260": "중랑구",
+    "11290": "성북구",
+    "11305": "강북구",
+    "11320": "도봉구",
+    "11350": "노원구",
+    "11380": "은평구",
+    "11410": "서대문구",
+    "11440": "마포구",
+    "11470": "양천구",
+    "11500": "강서구",
+    "11530": "구로구",
+    "11545": "금천구",
+    "11560": "영등포구",
+    "11590": "동작구",
+    "11620": "관악구",
+    "11650": "서초구",
+    "11680": "강남구",
+    "11710": "송파구",
+    "11740": "강동구",
+    "41111": "수원시 장안구",
+    "41113": "수원시 권선구",
+    "41115": "수원시 팔달구",
+    "41117": "수원시 영통구",
+    "41131": "성남시 수정구",
+    "41133": "성남시 중원구",
+    "41135": "성남시 분당구",
+    "41150": "의정부시",
+    "41171": "안양시 만안구",
+    "41173": "안양시 동안구",
+    "41192": "부천시 원미구",
+    "41194": "부천시 소사구",
+    "41196": "부천시 오정구",
+    "41210": "광명시",
+    "41220": "평택시",
+    "41271": "안산시 상록구",
+    "41273": "안산시 단원구",
+    "41281": "고양시 덕양구",
+    "41285": "고양시 일산동구",
+    "41287": "고양시 일산서구",
+    "41290": "과천시",
+    "41310": "구리시",
+    "41360": "남양주시",
+    "41410": "군포시",
+    "41430": "의왕시",
+    "41450": "하남시",
+    "41461": "용인시 처인구",
+    "41463": "용인시 기흥구",
+    "41465": "용인시 수지구",
+    "41480": "파주시",
+    "41570": "김포시",
+    "41591": "화성시 만세구",
+    "41593": "화성시 효행구",
+    "41595": "화성시 병점구",
+    "41597": "화성시 동탄구",
+    "41610": "광주시",
+    "11": "서울",
+    "41": "수집 경기36지역"
+  },
+  "episodes": {
+    "2010_2013": "2010.1~2013.12",
+    "2022_2023": "2022.1~2023.12",
+    "2010_2011": "2010.1~2011.12"
+  },
+  "scopes": {
+    "all": "모든 면적",
+    "p25_26": "84형 · 전용25·26평형"
+  },
+  "prices": [
+    {
+      "region": "11110",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11110",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -4.0,
+      "drawdown_pct": -6.1,
+      "peak": "2022-09",
+      "trough": "2023-12",
+      "duration_months": 15
+    },
+    {
+      "region": "11110",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11110",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11110",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -6.1,
+      "drawdown_pct": -8.9,
+      "peak": "2022-06",
+      "trough": "2023-11",
+      "duration_months": 17
+    },
+    {
+      "region": "11110",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11140",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11140",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -1.2,
+      "drawdown_pct": -5.3,
+      "peak": "2022-11",
+      "trough": "2023-07",
+      "duration_months": 8
+    },
+    {
+      "region": "11140",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11140",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11140",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -8.8,
+      "drawdown_pct": -12.1,
+      "peak": "2022-09",
+      "trough": "2023-08",
+      "duration_months": 11
+    },
+    {
+      "region": "11140",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11170",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11170",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": 0.8,
+      "drawdown_pct": -4.8,
+      "peak": "2022-09",
+      "trough": "2023-06",
+      "duration_months": 9
+    },
+    {
+      "region": "11170",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11170",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11170",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -1.8,
+      "drawdown_pct": -8.2,
+      "peak": "2022-09",
+      "trough": "2023-07",
+      "duration_months": 10
+    },
+    {
+      "region": "11170",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11200",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11200",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -9.2,
+      "drawdown_pct": -11.1,
+      "peak": "2022-07",
+      "trough": "2023-08",
+      "duration_months": 13
+    },
+    {
+      "region": "11200",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11200",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11200",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -9.6,
+      "drawdown_pct": -12.5,
+      "peak": "2022-07",
+      "trough": "2023-07",
+      "duration_months": 12
+    },
+    {
+      "region": "11200",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11215",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -10.5,
+      "drawdown_pct": -10.7,
+      "peak": "2010-02",
+      "trough": "2013-09",
+      "duration_months": 43
+    },
+    {
+      "region": "11215",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -7.1,
+      "drawdown_pct": -9.1,
+      "peak": "2022-07",
+      "trough": "2023-07",
+      "duration_months": 12
+    },
+    {
+      "region": "11215",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -3.9,
+      "drawdown_pct": -4.9,
+      "peak": "2010-02",
+      "trough": "2010-10",
+      "duration_months": 8
+    },
+    {
+      "region": "11215",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11215",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -7.4,
+      "drawdown_pct": -10.3,
+      "peak": "2022-08",
+      "trough": "2023-07",
+      "duration_months": 11
+    },
+    {
+      "region": "11215",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11230",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -10.8,
+      "drawdown_pct": -12.1,
+      "peak": "2010-01",
+      "trough": "2013-09",
+      "duration_months": 44
+    },
+    {
+      "region": "11230",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -13.2,
+      "drawdown_pct": -13.5,
+      "peak": "2022-04",
+      "trough": "2023-08",
+      "duration_months": 16
+    },
+    {
+      "region": "11230",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -4.5,
+      "drawdown_pct": -5.6,
+      "peak": "2010-01",
+      "trough": "2010-12",
+      "duration_months": 11
+    },
+    {
+      "region": "11230",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11230",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -15.2,
+      "drawdown_pct": -15.7,
+      "peak": "2022-04",
+      "trough": "2023-08",
+      "duration_months": 16
+    },
+    {
+      "region": "11230",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11260",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11260",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -12.1,
+      "drawdown_pct": -12.2,
+      "peak": "2022-03",
+      "trough": "2023-12",
+      "duration_months": 21
+    },
+    {
+      "region": "11260",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11260",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11260",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -12.4,
+      "drawdown_pct": -13.0,
+      "peak": "2022-05",
+      "trough": "2023-12",
+      "duration_months": 19
+    },
+    {
+      "region": "11260",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11290",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -2.3,
+      "drawdown_pct": -8.6,
+      "peak": "2010-03",
+      "trough": "2013-02",
+      "duration_months": 35
+    },
+    {
+      "region": "11290",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -14.5,
+      "drawdown_pct": -14.8,
+      "peak": "2022-01",
+      "trough": "2023-08",
+      "duration_months": 19
+    },
+    {
+      "region": "11290",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": 1.8,
+      "drawdown_pct": -5.0,
+      "peak": "2010-03",
+      "trough": "2010-10",
+      "duration_months": 7
+    },
+    {
+      "region": "11290",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -1.9,
+      "drawdown_pct": -11.0,
+      "peak": "2010-02",
+      "trough": "2013-02",
+      "duration_months": 36
+    },
+    {
+      "region": "11290",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -16.7,
+      "drawdown_pct": -17.1,
+      "peak": "2022-01",
+      "trough": "2023-08",
+      "duration_months": 19
+    },
+    {
+      "region": "11290",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": 2.6,
+      "drawdown_pct": -5.8,
+      "peak": "2010-02",
+      "trough": "2010-09",
+      "duration_months": 7
+    },
+    {
+      "region": "11305",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11305",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -15.6,
+      "drawdown_pct": -15.6,
+      "peak": "2022-01",
+      "trough": "2023-12",
+      "duration_months": 23
+    },
+    {
+      "region": "11305",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11305",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11305",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -16.6,
+      "drawdown_pct": -16.6,
+      "peak": "2022-01",
+      "trough": "2023-12",
+      "duration_months": 23
+    },
+    {
+      "region": "11305",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11320",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11320",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -17.9,
+      "drawdown_pct": -17.9,
+      "peak": "2022-01",
+      "trough": "2023-12",
+      "duration_months": 23
+    },
+    {
+      "region": "11320",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11320",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11320",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -16.3,
+      "drawdown_pct": -16.6,
+      "peak": "2022-03",
+      "trough": "2023-12",
+      "duration_months": 21
+    },
+    {
+      "region": "11320",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11350",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -13.0,
+      "drawdown_pct": -14.1,
+      "peak": "2010-02",
+      "trough": "2013-04",
+      "duration_months": 38
+    },
+    {
+      "region": "11350",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -17.7,
+      "drawdown_pct": -17.7,
+      "peak": "2022-01",
+      "trough": "2023-12",
+      "duration_months": 23
+    },
+    {
+      "region": "11350",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -6.0,
+      "drawdown_pct": -6.8,
+      "peak": "2010-02",
+      "trough": "2010-11",
+      "duration_months": 9
+    },
+    {
+      "region": "11350",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11350",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -13.3,
+      "drawdown_pct": -14.0,
+      "peak": "2022-05",
+      "trough": "2023-12",
+      "duration_months": 19
+    },
+    {
+      "region": "11350",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11380",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11380",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -10.6,
+      "drawdown_pct": -11.1,
+      "peak": "2022-01",
+      "trough": "2023-09",
+      "duration_months": 20
+    },
+    {
+      "region": "11380",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11380",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11380",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -12.9,
+      "drawdown_pct": -13.3,
+      "peak": "2022-01",
+      "trough": "2023-09",
+      "duration_months": 20
+    },
+    {
+      "region": "11380",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11410",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11410",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -13.8,
+      "drawdown_pct": -15.0,
+      "peak": "2022-02",
+      "trough": "2023-06",
+      "duration_months": 16
+    },
+    {
+      "region": "11410",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11410",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11410",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -15.3,
+      "drawdown_pct": -16.7,
+      "peak": "2022-02",
+      "trough": "2023-06",
+      "duration_months": 16
+    },
+    {
+      "region": "11410",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11440",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11440",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -8.0,
+      "drawdown_pct": -10.4,
+      "peak": "2022-02",
+      "trough": "2023-06",
+      "duration_months": 16
+    },
+    {
+      "region": "11440",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11440",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11440",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -12.0,
+      "drawdown_pct": -14.6,
+      "peak": "2022-02",
+      "trough": "2023-05",
+      "duration_months": 15
+    },
+    {
+      "region": "11440",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11470",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -9.6,
+      "drawdown_pct": -15.1,
+      "peak": "2010-02",
+      "trough": "2013-04",
+      "duration_months": 38
+    },
+    {
+      "region": "11470",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -7.1,
+      "drawdown_pct": -9.4,
+      "peak": "2022-07",
+      "trough": "2023-07",
+      "duration_months": 12
+    },
+    {
+      "region": "11470",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -2.8,
+      "drawdown_pct": -7.2,
+      "peak": "2010-02",
+      "trough": "2011-12",
+      "duration_months": 22
+    },
+    {
+      "region": "11470",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11470",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -9.0,
+      "drawdown_pct": -10.1,
+      "peak": "2022-07",
+      "trough": "2023-08",
+      "duration_months": 13
+    },
+    {
+      "region": "11470",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11500",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11500",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -11.6,
+      "drawdown_pct": -12.6,
+      "peak": "2022-04",
+      "trough": "2023-06",
+      "duration_months": 14
+    },
+    {
+      "region": "11500",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11500",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11500",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -11.6,
+      "drawdown_pct": -12.3,
+      "peak": "2022-04",
+      "trough": "2023-05",
+      "duration_months": 13
+    },
+    {
+      "region": "11500",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11530",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -5.2,
+      "drawdown_pct": -8.6,
+      "peak": "2010-02",
+      "trough": "2013-08",
+      "duration_months": 42
+    },
+    {
+      "region": "11530",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -11.9,
+      "drawdown_pct": -12.2,
+      "peak": "2022-05",
+      "trough": "2023-12",
+      "duration_months": 19
+    },
+    {
+      "region": "11530",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -1.3,
+      "drawdown_pct": -4.0,
+      "peak": "2010-02",
+      "trough": "2010-11",
+      "duration_months": 9
+    },
+    {
+      "region": "11530",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11530",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -11.8,
+      "drawdown_pct": -12.8,
+      "peak": "2022-06",
+      "trough": "2023-08",
+      "duration_months": 14
+    },
+    {
+      "region": "11530",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11545",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11545",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -14.1,
+      "drawdown_pct": -14.6,
+      "peak": "2022-03",
+      "trough": "2023-12",
+      "duration_months": 21
+    },
+    {
+      "region": "11545",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11545",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11545",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -13.1,
+      "drawdown_pct": -16.2,
+      "peak": "2022-01",
+      "trough": "2023-06",
+      "duration_months": 17
+    },
+    {
+      "region": "11545",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11560",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -9.9,
+      "drawdown_pct": -12.3,
+      "peak": "2010-03",
+      "trough": "2013-08",
+      "duration_months": 41
+    },
+    {
+      "region": "11560",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -8.3,
+      "drawdown_pct": -8.7,
+      "peak": "2022-07",
+      "trough": "2023-07",
+      "duration_months": 12
+    },
+    {
+      "region": "11560",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -3.1,
+      "drawdown_pct": -5.2,
+      "peak": "2010-03",
+      "trough": "2011-12",
+      "duration_months": 21
+    },
+    {
+      "region": "11560",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11560",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -12.4,
+      "drawdown_pct": -12.4,
+      "peak": "2022-01",
+      "trough": "2023-12",
+      "duration_months": 23
+    },
+    {
+      "region": "11560",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11590",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -7.9,
+      "drawdown_pct": -10.1,
+      "peak": "2010-02",
+      "trough": "2013-07",
+      "duration_months": 41
+    },
+    {
+      "region": "11590",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -10.5,
+      "drawdown_pct": -11.7,
+      "peak": "2022-05",
+      "trough": "2023-07",
+      "duration_months": 14
+    },
+    {
+      "region": "11590",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -2.4,
+      "drawdown_pct": -4.4,
+      "peak": "2010-02",
+      "trough": "2010-11",
+      "duration_months": 9
+    },
+    {
+      "region": "11590",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11590",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -13.9,
+      "drawdown_pct": -14.5,
+      "peak": "2022-05",
+      "trough": "2023-07",
+      "duration_months": 14
+    },
+    {
+      "region": "11590",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11620",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11620",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -13.0,
+      "drawdown_pct": -13.1,
+      "peak": "2022-02",
+      "trough": "2023-12",
+      "duration_months": 22
+    },
+    {
+      "region": "11620",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11620",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11620",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -13.4,
+      "drawdown_pct": -14.4,
+      "peak": "2022-01",
+      "trough": "2023-06",
+      "duration_months": 17
+    },
+    {
+      "region": "11620",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11650",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11650",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -2.6,
+      "drawdown_pct": -7.5,
+      "peak": "2022-08",
+      "trough": "2023-06",
+      "duration_months": 10
+    },
+    {
+      "region": "11650",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11650",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11650",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -6.7,
+      "drawdown_pct": -12.2,
+      "peak": "2022-08",
+      "trough": "2023-05",
+      "duration_months": 9
+    },
+    {
+      "region": "11650",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11680",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11680",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -2.5,
+      "drawdown_pct": -7.5,
+      "peak": "2022-07",
+      "trough": "2023-05",
+      "duration_months": 10
+    },
+    {
+      "region": "11680",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11680",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11680",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -3.4,
+      "drawdown_pct": -8.9,
+      "peak": "2022-09",
+      "trough": "2023-05",
+      "duration_months": 8
+    },
+    {
+      "region": "11680",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11710",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -12.3,
+      "drawdown_pct": -15.4,
+      "peak": "2010-02",
+      "trough": "2013-01",
+      "duration_months": 35
+    },
+    {
+      "region": "11710",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -9.7,
+      "drawdown_pct": -13.5,
+      "peak": "2022-01",
+      "trough": "2023-05",
+      "duration_months": 16
+    },
+    {
+      "region": "11710",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -7.2,
+      "drawdown_pct": -8.0,
+      "peak": "2010-02",
+      "trough": "2010-09",
+      "duration_months": 7
+    },
+    {
+      "region": "11710",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11710",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -10.3,
+      "drawdown_pct": -15.9,
+      "peak": "2022-01",
+      "trough": "2023-02",
+      "duration_months": 13
+    },
+    {
+      "region": "11710",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11740",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -2.2,
+      "drawdown_pct": -8.7,
+      "peak": "2010-03",
+      "trough": "2013-01",
+      "duration_months": 34
+    },
+    {
+      "region": "11740",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -13.1,
+      "drawdown_pct": -14.7,
+      "peak": "2022-01",
+      "trough": "2023-07",
+      "duration_months": 18
+    },
+    {
+      "region": "11740",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": 0.9,
+      "drawdown_pct": -4.6,
+      "peak": "2010-03",
+      "trough": "2010-10",
+      "duration_months": 7
+    },
+    {
+      "region": "11740",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -7.0,
+      "drawdown_pct": -11.5,
+      "peak": "2010-03",
+      "trough": "2013-08",
+      "duration_months": 41
+    },
+    {
+      "region": "11740",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -14.5,
+      "drawdown_pct": -17.0,
+      "peak": "2022-04",
+      "trough": "2023-07",
+      "duration_months": 15
+    },
+    {
+      "region": "11740",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -1.7,
+      "drawdown_pct": -5.2,
+      "peak": "2010-03",
+      "trough": "2010-10",
+      "duration_months": 7
+    },
+    {
+      "region": "41111",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -4.2,
+      "drawdown_pct": -8.0,
+      "peak": "2011-10",
+      "trough": "2013-07",
+      "duration_months": 21
+    },
+    {
+      "region": "41111",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -16.8,
+      "drawdown_pct": -16.9,
+      "peak": "2022-02",
+      "trough": "2023-10",
+      "duration_months": 20
+    },
+    {
+      "region": "41111",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": 0.9,
+      "drawdown_pct": -5.1,
+      "peak": "2010-02",
+      "trough": "2010-09",
+      "duration_months": 7
+    },
+    {
+      "region": "41111",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41111",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -16.7,
+      "drawdown_pct": -17.3,
+      "peak": "2022-02",
+      "trough": "2023-12",
+      "duration_months": 22
+    },
+    {
+      "region": "41111",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41113",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -0.2,
+      "drawdown_pct": -4.0,
+      "peak": "2011-10",
+      "trough": "2013-08",
+      "duration_months": 22
+    },
+    {
+      "region": "41113",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -16.9,
+      "drawdown_pct": -16.9,
+      "peak": "2022-01",
+      "trough": "2023-12",
+      "duration_months": 23
+    },
+    {
+      "region": "41113",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": 1.9,
+      "drawdown_pct": -3.8,
+      "peak": "2010-01",
+      "trough": "2010-10",
+      "duration_months": 9
+    },
+    {
+      "region": "41113",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -2.2,
+      "drawdown_pct": -5.8,
+      "peak": "2011-10",
+      "trough": "2013-08",
+      "duration_months": 22
+    },
+    {
+      "region": "41113",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -17.7,
+      "drawdown_pct": -18.5,
+      "peak": "2022-01",
+      "trough": "2023-05",
+      "duration_months": 16
+    },
+    {
+      "region": "41113",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": 0.4,
+      "drawdown_pct": -3.8,
+      "peak": "2010-01",
+      "trough": "2010-10",
+      "duration_months": 9
+    },
+    {
+      "region": "41115",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41115",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -10.4,
+      "drawdown_pct": -11.9,
+      "peak": "2022-04",
+      "trough": "2023-05",
+      "duration_months": 13
+    },
+    {
+      "region": "41115",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41115",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41115",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -14.9,
+      "drawdown_pct": -15.5,
+      "peak": "2022-02",
+      "trough": "2023-11",
+      "duration_months": 21
+    },
+    {
+      "region": "41115",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41117",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41117",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -17.8,
+      "drawdown_pct": -21.7,
+      "peak": "2022-01",
+      "trough": "2023-05",
+      "duration_months": 16
+    },
+    {
+      "region": "41117",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41117",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41117",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -17.0,
+      "drawdown_pct": -21.8,
+      "peak": "2022-01",
+      "trough": "2023-02",
+      "duration_months": 13
+    },
+    {
+      "region": "41117",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41131",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41131",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -16.0,
+      "drawdown_pct": -17.8,
+      "peak": "2022-02",
+      "trough": "2023-07",
+      "duration_months": 17
+    },
+    {
+      "region": "41131",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41131",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41131",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -15.9,
+      "drawdown_pct": -19.2,
+      "peak": "2022-02",
+      "trough": "2023-07",
+      "duration_months": 17
+    },
+    {
+      "region": "41131",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41133",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41133",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -18.1,
+      "drawdown_pct": -18.7,
+      "peak": "2022-01",
+      "trough": "2023-06",
+      "duration_months": 17
+    },
+    {
+      "region": "41133",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41133",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41133",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -18.5,
+      "drawdown_pct": -20.3,
+      "peak": "2022-01",
+      "trough": "2023-06",
+      "duration_months": 17
+    },
+    {
+      "region": "41133",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41135",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41135",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -7.2,
+      "drawdown_pct": -10.8,
+      "peak": "2022-07",
+      "trough": "2023-05",
+      "duration_months": 10
+    },
+    {
+      "region": "41135",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41135",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41135",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -7.5,
+      "drawdown_pct": -12.4,
+      "peak": "2022-01",
+      "trough": "2023-04",
+      "duration_months": 15
+    },
+    {
+      "region": "41135",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41150",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41150",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -18.2,
+      "drawdown_pct": -18.6,
+      "peak": "2022-05",
+      "trough": "2023-12",
+      "duration_months": 19
+    },
+    {
+      "region": "41150",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41150",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41150",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -19.2,
+      "drawdown_pct": -19.5,
+      "peak": "2022-02",
+      "trough": "2023-08",
+      "duration_months": 18
+    },
+    {
+      "region": "41150",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41171",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41171",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -14.0,
+      "drawdown_pct": -14.2,
+      "peak": "2022-01",
+      "trough": "2023-07",
+      "duration_months": 18
+    },
+    {
+      "region": "41171",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41171",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41171",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -14.2,
+      "drawdown_pct": -14.8,
+      "peak": "2022-01",
+      "trough": "2023-07",
+      "duration_months": 18
+    },
+    {
+      "region": "41171",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41173",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41173",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -17.3,
+      "drawdown_pct": -18.3,
+      "peak": "2022-01",
+      "trough": "2023-06",
+      "duration_months": 17
+    },
+    {
+      "region": "41173",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41173",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41173",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -18.3,
+      "drawdown_pct": -19.7,
+      "peak": "2022-01",
+      "trough": "2023-06",
+      "duration_months": 17
+    },
+    {
+      "region": "41173",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41192",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -4.5,
+      "drawdown_pct": -9.4,
+      "peak": "2010-03",
+      "trough": "2013-03",
+      "duration_months": 36
+    },
+    {
+      "region": "41192",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -14.6,
+      "drawdown_pct": -15.8,
+      "peak": "2022-01",
+      "trough": "2023-05",
+      "duration_months": 16
+    },
+    {
+      "region": "41192",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -0.4,
+      "drawdown_pct": -4.6,
+      "peak": "2010-03",
+      "trough": "2010-10",
+      "duration_months": 7
+    },
+    {
+      "region": "41192",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41192",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -14.8,
+      "drawdown_pct": -17.8,
+      "peak": "2022-02",
+      "trough": "2023-04",
+      "duration_months": 14
+    },
+    {
+      "region": "41192",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41194",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41194",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -15.2,
+      "drawdown_pct": -16.9,
+      "peak": "2022-05",
+      "trough": "2023-06",
+      "duration_months": 13
+    },
+    {
+      "region": "41194",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41194",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41194",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -17.6,
+      "drawdown_pct": -20.4,
+      "peak": "2022-05",
+      "trough": "2023-03",
+      "duration_months": 10
+    },
+    {
+      "region": "41194",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41196",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41196",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -8.0,
+      "drawdown_pct": -10.8,
+      "peak": "2022-06",
+      "trough": "2023-11",
+      "duration_months": 17
+    },
+    {
+      "region": "41196",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41196",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41196",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41196",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41210",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -1.9,
+      "drawdown_pct": -6.3,
+      "peak": "2010-01",
+      "trough": "2013-02",
+      "duration_months": 37
+    },
+    {
+      "region": "41210",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -19.3,
+      "drawdown_pct": -19.9,
+      "peak": "2022-01",
+      "trough": "2023-05",
+      "duration_months": 16
+    },
+    {
+      "region": "41210",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -1.4,
+      "drawdown_pct": -5.8,
+      "peak": "2010-01",
+      "trough": "2010-08",
+      "duration_months": 7
+    },
+    {
+      "region": "41210",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41210",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -16.0,
+      "drawdown_pct": -19.2,
+      "peak": "2022-01",
+      "trough": "2023-03",
+      "duration_months": 14
+    },
+    {
+      "region": "41210",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41220",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": 16.2,
+      "drawdown_pct": -1.1,
+      "peak": "2010-03",
+      "trough": "2010-08",
+      "duration_months": 5
+    },
+    {
+      "region": "41220",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -7.7,
+      "drawdown_pct": -10.5,
+      "peak": "2022-07",
+      "trough": "2023-06",
+      "duration_months": 11
+    },
+    {
+      "region": "41220",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": 12.6,
+      "drawdown_pct": -1.1,
+      "peak": "2010-03",
+      "trough": "2010-08",
+      "duration_months": 5
+    },
+    {
+      "region": "41220",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": 11.1,
+      "drawdown_pct": -2.1,
+      "peak": "2010-02",
+      "trough": "2010-08",
+      "duration_months": 6
+    },
+    {
+      "region": "41220",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -10.1,
+      "drawdown_pct": -12.8,
+      "peak": "2022-03",
+      "trough": "2023-04",
+      "duration_months": 13
+    },
+    {
+      "region": "41220",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": 9.2,
+      "drawdown_pct": -2.1,
+      "peak": "2010-02",
+      "trough": "2010-08",
+      "duration_months": 6
+    },
+    {
+      "region": "41271",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": 2.0,
+      "drawdown_pct": -4.8,
+      "peak": "2010-02",
+      "trough": "2010-11",
+      "duration_months": 9
+    },
+    {
+      "region": "41271",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -10.7,
+      "drawdown_pct": -14.7,
+      "peak": "2022-06",
+      "trough": "2023-05",
+      "duration_months": 11
+    },
+    {
+      "region": "41271",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": 3.8,
+      "drawdown_pct": -4.8,
+      "peak": "2010-02",
+      "trough": "2010-11",
+      "duration_months": 9
+    },
+    {
+      "region": "41271",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41271",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41271",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41273",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": 0.5,
+      "drawdown_pct": -4.6,
+      "peak": "2010-01",
+      "trough": "2010-11",
+      "duration_months": 10
+    },
+    {
+      "region": "41273",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -12.8,
+      "drawdown_pct": -16.7,
+      "peak": "2022-05",
+      "trough": "2023-04",
+      "duration_months": 11
+    },
+    {
+      "region": "41273",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": 0.0,
+      "drawdown_pct": -4.6,
+      "peak": "2010-01",
+      "trough": "2010-11",
+      "duration_months": 10
+    },
+    {
+      "region": "41273",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41273",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -13.8,
+      "drawdown_pct": -17.8,
+      "peak": "2022-06",
+      "trough": "2023-04",
+      "duration_months": 10
+    },
+    {
+      "region": "41273",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41281",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -14.7,
+      "drawdown_pct": -16.6,
+      "peak": "2010-01",
+      "trough": "2013-08",
+      "duration_months": 43
+    },
+    {
+      "region": "41281",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -18.2,
+      "drawdown_pct": -19.7,
+      "peak": "2022-01",
+      "trough": "2023-06",
+      "duration_months": 17
+    },
+    {
+      "region": "41281",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -9.2,
+      "drawdown_pct": -9.6,
+      "peak": "2010-01",
+      "trough": "2010-10",
+      "duration_months": 9
+    },
+    {
+      "region": "41281",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -16.8,
+      "drawdown_pct": -19.2,
+      "peak": "2010-01",
+      "trough": "2013-02",
+      "duration_months": 37
+    },
+    {
+      "region": "41281",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -18.2,
+      "drawdown_pct": -19.3,
+      "peak": "2022-01",
+      "trough": "2023-06",
+      "duration_months": 17
+    },
+    {
+      "region": "41281",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -10.3,
+      "drawdown_pct": -10.7,
+      "peak": "2010-01",
+      "trough": "2010-10",
+      "duration_months": 9
+    },
+    {
+      "region": "41285",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41285",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -17.4,
+      "drawdown_pct": -17.4,
+      "peak": "2022-01",
+      "trough": "2023-12",
+      "duration_months": 23
+    },
+    {
+      "region": "41285",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41285",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41285",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -19.4,
+      "drawdown_pct": -20.8,
+      "peak": "2022-01",
+      "trough": "2023-05",
+      "duration_months": 16
+    },
+    {
+      "region": "41285",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41287",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41287",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -18.2,
+      "drawdown_pct": -18.7,
+      "peak": "2022-06",
+      "trough": "2023-12",
+      "duration_months": 18
+    },
+    {
+      "region": "41287",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41287",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -16.3,
+      "drawdown_pct": -21.6,
+      "peak": "2010-02",
+      "trough": "2013-02",
+      "duration_months": 36
+    },
+    {
+      "region": "41287",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -20.3,
+      "drawdown_pct": -21.1,
+      "peak": "2022-01",
+      "trough": "2023-07",
+      "duration_months": 18
+    },
+    {
+      "region": "41287",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -8.9,
+      "drawdown_pct": -10.2,
+      "peak": "2010-02",
+      "trough": "2010-11",
+      "duration_months": 9
+    },
+    {
+      "region": "41290",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41290",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41290",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41290",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41290",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41290",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41310",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -7.2,
+      "drawdown_pct": -9.7,
+      "peak": "2010-01",
+      "trough": "2013-03",
+      "duration_months": 38
+    },
+    {
+      "region": "41310",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -12.4,
+      "drawdown_pct": -12.4,
+      "peak": "2022-01",
+      "trough": "2023-12",
+      "duration_months": 23
+    },
+    {
+      "region": "41310",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -3.2,
+      "drawdown_pct": -5.7,
+      "peak": "2010-01",
+      "trough": "2010-11",
+      "duration_months": 10
+    },
+    {
+      "region": "41310",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41310",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -13.1,
+      "drawdown_pct": -13.2,
+      "peak": "2022-02",
+      "trough": "2023-12",
+      "duration_months": 22
+    },
+    {
+      "region": "41310",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41360",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41360",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -17.6,
+      "drawdown_pct": -17.6,
+      "peak": "2022-05",
+      "trough": "2023-12",
+      "duration_months": 19
+    },
+    {
+      "region": "41360",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41360",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41360",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -18.6,
+      "drawdown_pct": -18.6,
+      "peak": "2022-01",
+      "trough": "2023-12",
+      "duration_months": 23
+    },
+    {
+      "region": "41360",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41410",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41410",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -18.9,
+      "drawdown_pct": -19.9,
+      "peak": "2022-04",
+      "trough": "2023-06",
+      "duration_months": 14
+    },
+    {
+      "region": "41410",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41410",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41410",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -17.2,
+      "drawdown_pct": -19.4,
+      "peak": "2022-03",
+      "trough": "2023-06",
+      "duration_months": 15
+    },
+    {
+      "region": "41410",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41430",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41430",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -18.1,
+      "drawdown_pct": -18.5,
+      "peak": "2022-01",
+      "trough": "2023-07",
+      "duration_months": 18
+    },
+    {
+      "region": "41430",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41430",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41430",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -20.1,
+      "drawdown_pct": -22.0,
+      "peak": "2022-01",
+      "trough": "2023-06",
+      "duration_months": 17
+    },
+    {
+      "region": "41430",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41450",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41450",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -13.4,
+      "drawdown_pct": -17.9,
+      "peak": "2022-01",
+      "trough": "2023-04",
+      "duration_months": 15
+    },
+    {
+      "region": "41450",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41450",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41450",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -16.3,
+      "drawdown_pct": -20.1,
+      "peak": "2022-01",
+      "trough": "2023-05",
+      "duration_months": 16
+    },
+    {
+      "region": "41450",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41461",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41461",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -9.7,
+      "drawdown_pct": -12.8,
+      "peak": "2022-05",
+      "trough": "2023-04",
+      "duration_months": 11
+    },
+    {
+      "region": "41461",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41461",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41461",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -8.7,
+      "drawdown_pct": -13.2,
+      "peak": "2022-05",
+      "trough": "2023-04",
+      "duration_months": 11
+    },
+    {
+      "region": "41461",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41463",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -13.5,
+      "drawdown_pct": -15.6,
+      "peak": "2010-03",
+      "trough": "2013-03",
+      "duration_months": 36
+    },
+    {
+      "region": "41463",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -16.0,
+      "drawdown_pct": -16.9,
+      "peak": "2022-01",
+      "trough": "2023-07",
+      "duration_months": 18
+    },
+    {
+      "region": "41463",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -5.0,
+      "drawdown_pct": -7.2,
+      "peak": "2010-03",
+      "trough": "2010-11",
+      "duration_months": 8
+    },
+    {
+      "region": "41463",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41463",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -16.8,
+      "drawdown_pct": -18.9,
+      "peak": "2022-01",
+      "trough": "2023-05",
+      "duration_months": 16
+    },
+    {
+      "region": "41463",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41465",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -13.2,
+      "drawdown_pct": -15.5,
+      "peak": "2010-01",
+      "trough": "2013-08",
+      "duration_months": 43
+    },
+    {
+      "region": "41465",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -13.9,
+      "drawdown_pct": -16.2,
+      "peak": "2022-01",
+      "trough": "2023-05",
+      "duration_months": 16
+    },
+    {
+      "region": "41465",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -5.6,
+      "drawdown_pct": -9.6,
+      "peak": "2010-01",
+      "trough": "2010-10",
+      "duration_months": 9
+    },
+    {
+      "region": "41465",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41465",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -14.6,
+      "drawdown_pct": -19.9,
+      "peak": "2022-01",
+      "trough": "2023-04",
+      "duration_months": 15
+    },
+    {
+      "region": "41465",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41480",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41480",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -16.5,
+      "drawdown_pct": -16.8,
+      "peak": "2022-02",
+      "trough": "2023-12",
+      "duration_months": 22
+    },
+    {
+      "region": "41480",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41480",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -25.0,
+      "drawdown_pct": -29.9,
+      "peak": "2010-01",
+      "trough": "2013-03",
+      "duration_months": 38
+    },
+    {
+      "region": "41480",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -18.8,
+      "drawdown_pct": -19.8,
+      "peak": "2022-01",
+      "trough": "2023-06",
+      "duration_months": 17
+    },
+    {
+      "region": "41480",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -20.4,
+      "drawdown_pct": -20.8,
+      "peak": "2010-01",
+      "trough": "2010-11",
+      "duration_months": 10
+    },
+    {
+      "region": "41570",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41570",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -20.2,
+      "drawdown_pct": -21.3,
+      "peak": "2022-01",
+      "trough": "2023-08",
+      "duration_months": 19
+    },
+    {
+      "region": "41570",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41570",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41570",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -21.6,
+      "drawdown_pct": -23.5,
+      "peak": "2022-01",
+      "trough": "2023-04",
+      "duration_months": 15
+    },
+    {
+      "region": "41570",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41591",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41591",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -14.6,
+      "drawdown_pct": -17.6,
+      "peak": "2022-06",
+      "trough": "2023-05",
+      "duration_months": 11
+    },
+    {
+      "region": "41591",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41591",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41591",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -17.4,
+      "drawdown_pct": -20.1,
+      "peak": "2022-03",
+      "trough": "2023-05",
+      "duration_months": 14
+    },
+    {
+      "region": "41591",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41593",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41593",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -18.1,
+      "drawdown_pct": -18.7,
+      "peak": "2022-02",
+      "trough": "2023-08",
+      "duration_months": 18
+    },
+    {
+      "region": "41593",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41593",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41593",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -19.6,
+      "drawdown_pct": -20.2,
+      "peak": "2022-01",
+      "trough": "2023-08",
+      "duration_months": 19
+    },
+    {
+      "region": "41593",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41595",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41595",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -20.2,
+      "drawdown_pct": -23.2,
+      "peak": "2022-01",
+      "trough": "2023-05",
+      "duration_months": 16
+    },
+    {
+      "region": "41595",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41595",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41595",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -21.4,
+      "drawdown_pct": -25.3,
+      "peak": "2022-01",
+      "trough": "2023-05",
+      "duration_months": 16
+    },
+    {
+      "region": "41595",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41597",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41597",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -15.4,
+      "drawdown_pct": -25.1,
+      "peak": "2022-01",
+      "trough": "2023-02",
+      "duration_months": 13
+    },
+    {
+      "region": "41597",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41597",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41597",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -15.0,
+      "drawdown_pct": -26.3,
+      "peak": "2022-01",
+      "trough": "2023-02",
+      "duration_months": 13
+    },
+    {
+      "region": "41597",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41610",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41610",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -14.9,
+      "drawdown_pct": -15.6,
+      "peak": "2022-06",
+      "trough": "2023-12",
+      "duration_months": 18
+    },
+    {
+      "region": "41610",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41610",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "41610",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -17.0,
+      "drawdown_pct": -17.4,
+      "peak": "2022-04",
+      "trough": "2023-12",
+      "duration_months": 20
+    },
+    {
+      "region": "41610",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": false,
+      "change_pct": null,
+      "drawdown_pct": null,
+      "peak": null,
+      "trough": null,
+      "duration_months": null
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -8.9,
+      "drawdown_pct": -11.3,
+      "peak": "2010-03",
+      "trough": "2013-08",
+      "duration_months": 41
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -11.1,
+      "drawdown_pct": -11.4,
+      "peak": "2022-01",
+      "trough": "2023-07",
+      "duration_months": 18
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -3.3,
+      "drawdown_pct": -5.1,
+      "peak": "2010-03",
+      "trough": "2010-11",
+      "duration_months": 8
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -9.4,
+      "drawdown_pct": -11.7,
+      "peak": "2010-02",
+      "trough": "2013-03",
+      "duration_months": 37
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -12.2,
+      "drawdown_pct": -12.6,
+      "peak": "2022-01",
+      "trough": "2023-07",
+      "duration_months": 18
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -4.4,
+      "drawdown_pct": -5.0,
+      "peak": "2010-02",
+      "trough": "2010-11",
+      "duration_months": 9
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -7.7,
+      "drawdown_pct": -9.3,
+      "peak": "2010-01",
+      "trough": "2013-03",
+      "duration_months": 38
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -15.5,
+      "drawdown_pct": -16.3,
+      "peak": "2022-01",
+      "trough": "2023-06",
+      "duration_months": 17
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -2.7,
+      "drawdown_pct": -5.4,
+      "peak": "2010-01",
+      "trough": "2010-11",
+      "duration_months": 10
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "months": 48,
+      "supported": true,
+      "change_pct": -8.6,
+      "drawdown_pct": -11.3,
+      "peak": "2010-01",
+      "trough": "2013-03",
+      "duration_months": 38
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "months": 24,
+      "supported": true,
+      "change_pct": -16.7,
+      "drawdown_pct": -18.1,
+      "peak": "2022-01",
+      "trough": "2023-05",
+      "duration_months": 16
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2011",
+      "months": 24,
+      "supported": true,
+      "change_pct": -4.3,
+      "drawdown_pct": -6.6,
+      "peak": "2010-01",
+      "trough": "2010-10",
+      "duration_months": 9
+    }
+  ],
+  "monthly": [
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-01",
+      "drawdown_pct": 0.0
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-02",
+      "drawdown_pct": 0.0
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-03",
+      "drawdown_pct": 0.0
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-04",
+      "drawdown_pct": -0.5
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-05",
+      "drawdown_pct": -1.3
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-06",
+      "drawdown_pct": -2.4
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-07",
+      "drawdown_pct": -3.2
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-08",
+      "drawdown_pct": -3.9
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-09",
+      "drawdown_pct": -4.7
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-10",
+      "drawdown_pct": -5.0
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-11",
+      "drawdown_pct": -5.1
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-12",
+      "drawdown_pct": -4.7
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-01",
+      "drawdown_pct": -4.3
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-02",
+      "drawdown_pct": -3.4
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-03",
+      "drawdown_pct": -2.8
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-04",
+      "drawdown_pct": -2.8
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-05",
+      "drawdown_pct": -2.9
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-06",
+      "drawdown_pct": -3.3
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-07",
+      "drawdown_pct": -3.5
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-08",
+      "drawdown_pct": -3.6
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-09",
+      "drawdown_pct": -3.7
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-10",
+      "drawdown_pct": -3.8
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-11",
+      "drawdown_pct": -4.2
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-12",
+      "drawdown_pct": -4.7
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-01",
+      "drawdown_pct": -5.1
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-02",
+      "drawdown_pct": -5.4
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-03",
+      "drawdown_pct": -5.8
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-04",
+      "drawdown_pct": -6.2
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-05",
+      "drawdown_pct": -6.8
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-06",
+      "drawdown_pct": -7.2
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-07",
+      "drawdown_pct": -7.7
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-08",
+      "drawdown_pct": -8.4
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-09",
+      "drawdown_pct": -9.0
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-10",
+      "drawdown_pct": -9.6
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-11",
+      "drawdown_pct": -10.1
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-12",
+      "drawdown_pct": -10.4
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-01",
+      "drawdown_pct": -11.0
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-02",
+      "drawdown_pct": -11.2
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-03",
+      "drawdown_pct": -11.3
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-04",
+      "drawdown_pct": -11.2
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-05",
+      "drawdown_pct": -11.0
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-06",
+      "drawdown_pct": -11.0
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-07",
+      "drawdown_pct": -11.2
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-08",
+      "drawdown_pct": -11.3
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-09",
+      "drawdown_pct": -11.1
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-10",
+      "drawdown_pct": -10.5
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-11",
+      "drawdown_pct": -10.3
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-12",
+      "drawdown_pct": -10.2
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-01",
+      "drawdown_pct": 0.0
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-02",
+      "drawdown_pct": -0.1
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-03",
+      "drawdown_pct": -0.2
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-04",
+      "drawdown_pct": -0.2
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-05",
+      "drawdown_pct": -0.0
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-06",
+      "drawdown_pct": -0.0
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-07",
+      "drawdown_pct": -0.1
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-08",
+      "drawdown_pct": -0.6
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-09",
+      "drawdown_pct": -1.1
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-10",
+      "drawdown_pct": -1.6
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-11",
+      "drawdown_pct": -2.7
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-12",
+      "drawdown_pct": -3.7
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-01",
+      "drawdown_pct": -4.7
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-02",
+      "drawdown_pct": -7.0
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-03",
+      "drawdown_pct": -8.8
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-04",
+      "drawdown_pct": -10.0
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-05",
+      "drawdown_pct": -10.9
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-06",
+      "drawdown_pct": -11.1
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-07",
+      "drawdown_pct": -11.4
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-08",
+      "drawdown_pct": -11.2
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-09",
+      "drawdown_pct": -11.0
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-10",
+      "drawdown_pct": -10.8
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-11",
+      "drawdown_pct": -10.8
+    },
+    {
+      "region": "11",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-12",
+      "drawdown_pct": -11.1
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-01",
+      "drawdown_pct": 0.0
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-02",
+      "drawdown_pct": 0.0
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-03",
+      "drawdown_pct": -0.2
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-04",
+      "drawdown_pct": -0.8
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-05",
+      "drawdown_pct": -1.6
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-06",
+      "drawdown_pct": -2.6
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-07",
+      "drawdown_pct": -3.2
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-08",
+      "drawdown_pct": -3.9
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-09",
+      "drawdown_pct": -4.6
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-10",
+      "drawdown_pct": -5.0
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-11",
+      "drawdown_pct": -5.0
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-12",
+      "drawdown_pct": -4.6
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-01",
+      "drawdown_pct": -4.3
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-02",
+      "drawdown_pct": -3.4
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-03",
+      "drawdown_pct": -2.9
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-04",
+      "drawdown_pct": -2.9
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-05",
+      "drawdown_pct": -3.1
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-06",
+      "drawdown_pct": -3.4
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-07",
+      "drawdown_pct": -3.8
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-08",
+      "drawdown_pct": -3.7
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-09",
+      "drawdown_pct": -4.0
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-10",
+      "drawdown_pct": -4.0
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-11",
+      "drawdown_pct": -4.5
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-12",
+      "drawdown_pct": -5.0
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-01",
+      "drawdown_pct": -5.3
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-02",
+      "drawdown_pct": -5.6
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-03",
+      "drawdown_pct": -6.0
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-04",
+      "drawdown_pct": -6.5
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-05",
+      "drawdown_pct": -7.2
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-06",
+      "drawdown_pct": -7.3
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-07",
+      "drawdown_pct": -8.0
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-08",
+      "drawdown_pct": -8.7
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-09",
+      "drawdown_pct": -9.3
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-10",
+      "drawdown_pct": -10.0
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-11",
+      "drawdown_pct": -10.6
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-12",
+      "drawdown_pct": -10.9
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-01",
+      "drawdown_pct": -11.5
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-02",
+      "drawdown_pct": -11.6
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-03",
+      "drawdown_pct": -11.7
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-04",
+      "drawdown_pct": -11.6
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-05",
+      "drawdown_pct": -11.4
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-06",
+      "drawdown_pct": -11.2
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-07",
+      "drawdown_pct": -11.5
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-08",
+      "drawdown_pct": -11.4
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-09",
+      "drawdown_pct": -11.1
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-10",
+      "drawdown_pct": -10.4
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-11",
+      "drawdown_pct": -10.1
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-12",
+      "drawdown_pct": -10.1
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-01",
+      "drawdown_pct": 0.0
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-02",
+      "drawdown_pct": -0.2
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-03",
+      "drawdown_pct": -0.3
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-04",
+      "drawdown_pct": -0.2
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-05",
+      "drawdown_pct": -0.2
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-06",
+      "drawdown_pct": -0.3
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-07",
+      "drawdown_pct": -0.5
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-08",
+      "drawdown_pct": -1.1
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-09",
+      "drawdown_pct": -1.7
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-10",
+      "drawdown_pct": -2.1
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-11",
+      "drawdown_pct": -3.5
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-12",
+      "drawdown_pct": -4.9
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-01",
+      "drawdown_pct": -5.8
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-02",
+      "drawdown_pct": -8.3
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-03",
+      "drawdown_pct": -10.1
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-04",
+      "drawdown_pct": -11.3
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-05",
+      "drawdown_pct": -12.3
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-06",
+      "drawdown_pct": -12.5
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-07",
+      "drawdown_pct": -12.6
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-08",
+      "drawdown_pct": -12.4
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-09",
+      "drawdown_pct": -12.1
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-10",
+      "drawdown_pct": -11.9
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-11",
+      "drawdown_pct": -11.9
+    },
+    {
+      "region": "11",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-12",
+      "drawdown_pct": -12.2
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-01",
+      "drawdown_pct": 0.0
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-02",
+      "drawdown_pct": -0.1
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-03",
+      "drawdown_pct": -0.2
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-04",
+      "drawdown_pct": -0.7
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-05",
+      "drawdown_pct": -1.6
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-06",
+      "drawdown_pct": -2.7
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-07",
+      "drawdown_pct": -3.6
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-08",
+      "drawdown_pct": -4.4
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-09",
+      "drawdown_pct": -5.2
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-10",
+      "drawdown_pct": -5.3
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-11",
+      "drawdown_pct": -5.4
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2010-12",
+      "drawdown_pct": -5.0
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-01",
+      "drawdown_pct": -4.4
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-02",
+      "drawdown_pct": -3.3
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-03",
+      "drawdown_pct": -2.1
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-04",
+      "drawdown_pct": -1.8
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-05",
+      "drawdown_pct": -1.9
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-06",
+      "drawdown_pct": -2.0
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-07",
+      "drawdown_pct": -2.2
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-08",
+      "drawdown_pct": -2.2
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-09",
+      "drawdown_pct": -2.0
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-10",
+      "drawdown_pct": -2.0
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-11",
+      "drawdown_pct": -2.2
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2011-12",
+      "drawdown_pct": -2.7
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-01",
+      "drawdown_pct": -3.1
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-02",
+      "drawdown_pct": -3.4
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-03",
+      "drawdown_pct": -3.8
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-04",
+      "drawdown_pct": -4.3
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-05",
+      "drawdown_pct": -5.1
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-06",
+      "drawdown_pct": -5.5
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-07",
+      "drawdown_pct": -6.0
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-08",
+      "drawdown_pct": -6.7
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-09",
+      "drawdown_pct": -7.2
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-10",
+      "drawdown_pct": -7.7
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-11",
+      "drawdown_pct": -8.0
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2012-12",
+      "drawdown_pct": -8.5
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-01",
+      "drawdown_pct": -8.9
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-02",
+      "drawdown_pct": -9.1
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-03",
+      "drawdown_pct": -9.3
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-04",
+      "drawdown_pct": -9.3
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-05",
+      "drawdown_pct": -9.2
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-06",
+      "drawdown_pct": -9.1
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-07",
+      "drawdown_pct": -9.2
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-08",
+      "drawdown_pct": -9.3
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-09",
+      "drawdown_pct": -8.9
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-10",
+      "drawdown_pct": -8.1
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-11",
+      "drawdown_pct": -7.8
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2010_2013",
+      "month": "2013-12",
+      "drawdown_pct": -7.7
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-01",
+      "drawdown_pct": 0.0
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-02",
+      "drawdown_pct": -0.3
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-03",
+      "drawdown_pct": -0.4
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-04",
+      "drawdown_pct": -0.4
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-05",
+      "drawdown_pct": -0.4
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-06",
+      "drawdown_pct": -0.8
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-07",
+      "drawdown_pct": -1.3
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-08",
+      "drawdown_pct": -2.2
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-09",
+      "drawdown_pct": -3.2
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-10",
+      "drawdown_pct": -4.4
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-11",
+      "drawdown_pct": -6.2
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2022-12",
+      "drawdown_pct": -8.2
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-01",
+      "drawdown_pct": -9.9
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-02",
+      "drawdown_pct": -13.1
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-03",
+      "drawdown_pct": -14.8
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-04",
+      "drawdown_pct": -15.8
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-05",
+      "drawdown_pct": -16.2
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-06",
+      "drawdown_pct": -16.3
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-07",
+      "drawdown_pct": -16.2
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-08",
+      "drawdown_pct": -15.9
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-09",
+      "drawdown_pct": -15.5
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-10",
+      "drawdown_pct": -15.3
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-11",
+      "drawdown_pct": -15.3
+    },
+    {
+      "region": "41",
+      "scope": "all",
+      "episode": "2022_2023",
+      "month": "2023-12",
+      "drawdown_pct": -15.5
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-01",
+      "drawdown_pct": 0.0
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-02",
+      "drawdown_pct": -0.5
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-03",
+      "drawdown_pct": -0.7
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-04",
+      "drawdown_pct": -1.5
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-05",
+      "drawdown_pct": -2.4
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-06",
+      "drawdown_pct": -3.4
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-07",
+      "drawdown_pct": -4.4
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-08",
+      "drawdown_pct": -5.3
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-09",
+      "drawdown_pct": -6.4
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-10",
+      "drawdown_pct": -6.6
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-11",
+      "drawdown_pct": -6.5
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2010-12",
+      "drawdown_pct": -6.0
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-01",
+      "drawdown_pct": -5.4
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-02",
+      "drawdown_pct": -4.1
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-03",
+      "drawdown_pct": -2.9
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-04",
+      "drawdown_pct": -2.7
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-05",
+      "drawdown_pct": -2.9
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-06",
+      "drawdown_pct": -3.2
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-07",
+      "drawdown_pct": -3.5
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-08",
+      "drawdown_pct": -3.6
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-09",
+      "drawdown_pct": -3.5
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-10",
+      "drawdown_pct": -3.5
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-11",
+      "drawdown_pct": -3.8
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2011-12",
+      "drawdown_pct": -4.3
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-01",
+      "drawdown_pct": -4.8
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-02",
+      "drawdown_pct": -5.3
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-03",
+      "drawdown_pct": -5.6
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-04",
+      "drawdown_pct": -6.2
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-05",
+      "drawdown_pct": -7.1
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-06",
+      "drawdown_pct": -7.6
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-07",
+      "drawdown_pct": -8.1
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-08",
+      "drawdown_pct": -8.9
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-09",
+      "drawdown_pct": -9.4
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-10",
+      "drawdown_pct": -9.9
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-11",
+      "drawdown_pct": -10.2
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2012-12",
+      "drawdown_pct": -10.5
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-01",
+      "drawdown_pct": -11.0
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-02",
+      "drawdown_pct": -11.3
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-03",
+      "drawdown_pct": -11.3
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-04",
+      "drawdown_pct": -11.1
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-05",
+      "drawdown_pct": -10.8
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-06",
+      "drawdown_pct": -10.7
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-07",
+      "drawdown_pct": -10.8
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-08",
+      "drawdown_pct": -10.9
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-09",
+      "drawdown_pct": -10.3
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-10",
+      "drawdown_pct": -9.3
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-11",
+      "drawdown_pct": -8.8
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2010_2013",
+      "month": "2013-12",
+      "drawdown_pct": -8.6
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-01",
+      "drawdown_pct": 0.0
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-02",
+      "drawdown_pct": -0.4
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-03",
+      "drawdown_pct": -0.8
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-04",
+      "drawdown_pct": -1.0
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-05",
+      "drawdown_pct": -1.2
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-06",
+      "drawdown_pct": -1.8
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-07",
+      "drawdown_pct": -2.5
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-08",
+      "drawdown_pct": -3.7
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-09",
+      "drawdown_pct": -4.8
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-10",
+      "drawdown_pct": -6.1
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-11",
+      "drawdown_pct": -8.2
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2022-12",
+      "drawdown_pct": -10.3
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-01",
+      "drawdown_pct": -12.4
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-02",
+      "drawdown_pct": -15.7
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-03",
+      "drawdown_pct": -17.2
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-04",
+      "drawdown_pct": -17.9
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-05",
+      "drawdown_pct": -18.1
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-06",
+      "drawdown_pct": -18.0
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-07",
+      "drawdown_pct": -17.7
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-08",
+      "drawdown_pct": -17.3
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-09",
+      "drawdown_pct": -16.8
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-10",
+      "drawdown_pct": -16.5
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-11",
+      "drawdown_pct": -16.4
+    },
+    {
+      "region": "41",
+      "scope": "p25_26",
+      "episode": "2022_2023",
+      "month": "2023-12",
+      "drawdown_pct": -16.7
+    }
+  ],
+  "volume": [
+    {
+      "region": "11",
+      "year": 2010,
+      "policy": "invariant",
+      "n": 44094,
+      "monthly_mean": 3674
+    },
+    {
+      "region": "11",
+      "year": 2011,
+      "policy": "invariant",
+      "n": 54215,
+      "monthly_mean": 4518
+    },
+    {
+      "region": "11",
+      "year": 2012,
+      "policy": "invariant",
+      "n": 40749,
+      "monthly_mean": 3396
+    },
+    {
+      "region": "11",
+      "year": 2013,
+      "policy": "invariant",
+      "n": 67760,
+      "monthly_mean": 5647
+    },
+    {
+      "region": "11",
+      "year": 2022,
+      "policy": "invariant",
+      "n": 12034,
+      "monthly_mean": 1003
+    },
+    {
+      "region": "11",
+      "year": 2022,
+      "policy": "strict",
+      "n": 9675,
+      "monthly_mean": 806
+    },
+    {
+      "region": "11",
+      "year": 2023,
+      "policy": "invariant",
+      "n": 34333,
+      "monthly_mean": 2861
+    },
+    {
+      "region": "11",
+      "year": 2023,
+      "policy": "strict",
+      "n": 30827,
+      "monthly_mean": 2569
+    },
+    {
+      "region": "41",
+      "year": 2010,
+      "policy": "invariant",
+      "n": 80748,
+      "monthly_mean": 6729
+    },
+    {
+      "region": "41",
+      "year": 2011,
+      "policy": "invariant",
+      "n": 107137,
+      "monthly_mean": 8928
+    },
+    {
+      "region": "41",
+      "year": 2012,
+      "policy": "invariant",
+      "n": 77349,
+      "monthly_mean": 6446
+    },
+    {
+      "region": "41",
+      "year": 2013,
+      "policy": "invariant",
+      "n": 126174,
+      "monthly_mean": 10514
+    },
+    {
+      "region": "41",
+      "year": 2022,
+      "policy": "invariant",
+      "n": 36917,
+      "monthly_mean": 3076
+    },
+    {
+      "region": "41",
+      "year": 2022,
+      "policy": "strict",
+      "n": 31681,
+      "monthly_mean": 2640
+    },
+    {
+      "region": "41",
+      "year": 2023,
+      "policy": "invariant",
+      "n": 84304,
+      "monthly_mean": 7025
+    },
+    {
+      "region": "41",
+      "year": 2023,
+      "policy": "strict",
+      "n": 76428,
+      "monthly_mean": 6369
+    }
+  ],
+  "episode_volume": [
+    {
+      "region": "11",
+      "episode": "2010_2013",
+      "policy": "invariant",
+      "n": 206818,
+      "months": 48,
+      "monthly_mean": 4309
+    },
+    {
+      "region": "11",
+      "episode": "2022_2023",
+      "policy": "invariant",
+      "n": 46367,
+      "months": 24,
+      "monthly_mean": 1932
+    },
+    {
+      "region": "11",
+      "episode": "2022_2023",
+      "policy": "strict",
+      "n": 40502,
+      "months": 24,
+      "monthly_mean": 1688
+    },
+    {
+      "region": "11",
+      "episode": "2010_2011",
+      "policy": "invariant",
+      "n": 98309,
+      "months": 24,
+      "monthly_mean": 4096
+    },
+    {
+      "region": "41",
+      "episode": "2010_2013",
+      "policy": "invariant",
+      "n": 391408,
+      "months": 48,
+      "monthly_mean": 8154
+    },
+    {
+      "region": "41",
+      "episode": "2022_2023",
+      "policy": "invariant",
+      "n": 121221,
+      "months": 24,
+      "monthly_mean": 5051
+    },
+    {
+      "region": "41",
+      "episode": "2022_2023",
+      "policy": "strict",
+      "n": 108109,
+      "months": 24,
+      "monthly_mean": 4505
+    },
+    {
+      "region": "41",
+      "episode": "2010_2011",
+      "policy": "invariant",
+      "n": 187885,
+      "months": 24,
+      "monthly_mean": 7829
+    }
+  ],
+  "rates": [
+    {
+      "month": "2010-01",
+      "rate_pct": 2.0
+    },
+    {
+      "month": "2010-02",
+      "rate_pct": 2.0
+    },
+    {
+      "month": "2010-03",
+      "rate_pct": 2.0
+    },
+    {
+      "month": "2010-04",
+      "rate_pct": 2.0
+    },
+    {
+      "month": "2010-05",
+      "rate_pct": 2.0
+    },
+    {
+      "month": "2010-06",
+      "rate_pct": 2.0
+    },
+    {
+      "month": "2010-07",
+      "rate_pct": 2.25
+    },
+    {
+      "month": "2010-08",
+      "rate_pct": 2.25
+    },
+    {
+      "month": "2010-09",
+      "rate_pct": 2.25
+    },
+    {
+      "month": "2010-10",
+      "rate_pct": 2.25
+    },
+    {
+      "month": "2010-11",
+      "rate_pct": 2.5
+    },
+    {
+      "month": "2010-12",
+      "rate_pct": 2.5
+    },
+    {
+      "month": "2011-01",
+      "rate_pct": 2.75
+    },
+    {
+      "month": "2011-02",
+      "rate_pct": 2.75
+    },
+    {
+      "month": "2011-03",
+      "rate_pct": 3.0
+    },
+    {
+      "month": "2011-04",
+      "rate_pct": 3.0
+    },
+    {
+      "month": "2011-05",
+      "rate_pct": 3.0
+    },
+    {
+      "month": "2011-06",
+      "rate_pct": 3.25
+    },
+    {
+      "month": "2011-07",
+      "rate_pct": 3.25
+    },
+    {
+      "month": "2011-08",
+      "rate_pct": 3.25
+    },
+    {
+      "month": "2011-09",
+      "rate_pct": 3.25
+    },
+    {
+      "month": "2011-10",
+      "rate_pct": 3.25
+    },
+    {
+      "month": "2011-11",
+      "rate_pct": 3.25
+    },
+    {
+      "month": "2011-12",
+      "rate_pct": 3.25
+    },
+    {
+      "month": "2012-01",
+      "rate_pct": 3.25
+    },
+    {
+      "month": "2012-02",
+      "rate_pct": 3.25
+    },
+    {
+      "month": "2012-03",
+      "rate_pct": 3.25
+    },
+    {
+      "month": "2012-04",
+      "rate_pct": 3.25
+    },
+    {
+      "month": "2012-05",
+      "rate_pct": 3.25
+    },
+    {
+      "month": "2012-06",
+      "rate_pct": 3.25
+    },
+    {
+      "month": "2012-07",
+      "rate_pct": 3.0
+    },
+    {
+      "month": "2012-08",
+      "rate_pct": 3.0
+    },
+    {
+      "month": "2012-09",
+      "rate_pct": 3.0
+    },
+    {
+      "month": "2012-10",
+      "rate_pct": 2.75
+    },
+    {
+      "month": "2012-11",
+      "rate_pct": 2.75
+    },
+    {
+      "month": "2012-12",
+      "rate_pct": 2.75
+    },
+    {
+      "month": "2013-01",
+      "rate_pct": 2.75
+    },
+    {
+      "month": "2013-02",
+      "rate_pct": 2.75
+    },
+    {
+      "month": "2013-03",
+      "rate_pct": 2.75
+    },
+    {
+      "month": "2013-04",
+      "rate_pct": 2.75
+    },
+    {
+      "month": "2013-05",
+      "rate_pct": 2.5
+    },
+    {
+      "month": "2013-06",
+      "rate_pct": 2.5
+    },
+    {
+      "month": "2013-07",
+      "rate_pct": 2.5
+    },
+    {
+      "month": "2013-08",
+      "rate_pct": 2.5
+    },
+    {
+      "month": "2013-09",
+      "rate_pct": 2.5
+    },
+    {
+      "month": "2013-10",
+      "rate_pct": 2.5
+    },
+    {
+      "month": "2013-11",
+      "rate_pct": 2.5
+    },
+    {
+      "month": "2013-12",
+      "rate_pct": 2.5
+    },
+    {
+      "month": "2022-01",
+      "rate_pct": 1.25
+    },
+    {
+      "month": "2022-02",
+      "rate_pct": 1.25
+    },
+    {
+      "month": "2022-03",
+      "rate_pct": 1.25
+    },
+    {
+      "month": "2022-04",
+      "rate_pct": 1.5
+    },
+    {
+      "month": "2022-05",
+      "rate_pct": 1.75
+    },
+    {
+      "month": "2022-06",
+      "rate_pct": 1.75
+    },
+    {
+      "month": "2022-07",
+      "rate_pct": 2.25
+    },
+    {
+      "month": "2022-08",
+      "rate_pct": 2.5
+    },
+    {
+      "month": "2022-09",
+      "rate_pct": 2.5
+    },
+    {
+      "month": "2022-10",
+      "rate_pct": 3.0
+    },
+    {
+      "month": "2022-11",
+      "rate_pct": 3.25
+    },
+    {
+      "month": "2022-12",
+      "rate_pct": 3.25
+    },
+    {
+      "month": "2023-01",
+      "rate_pct": 3.5
+    },
+    {
+      "month": "2023-02",
+      "rate_pct": 3.5
+    },
+    {
+      "month": "2023-03",
+      "rate_pct": 3.5
+    },
+    {
+      "month": "2023-04",
+      "rate_pct": 3.5
+    },
+    {
+      "month": "2023-05",
+      "rate_pct": 3.5
+    },
+    {
+      "month": "2023-06",
+      "rate_pct": 3.5
+    },
+    {
+      "month": "2023-07",
+      "rate_pct": 3.5
+    },
+    {
+      "month": "2023-08",
+      "rate_pct": 3.5
+    },
+    {
+      "month": "2023-09",
+      "rate_pct": 3.5
+    },
+    {
+      "month": "2023-10",
+      "rate_pct": 3.5
+    },
+    {
+      "month": "2023-11",
+      "rate_pct": 3.5
+    },
+    {
+      "month": "2023-12",
+      "rate_pct": 3.5
+    }
+  ],
+  "rate_summary": [
+    {
+      "episode": "2010_2013",
+      "start": 2.0,
+      "end": 2.5,
+      "minimum": 2.0,
+      "maximum": 3.25
+    },
+    {
+      "episode": "2022_2023",
+      "start": 1.25,
+      "end": 3.5,
+      "minimum": 1.25,
+      "maximum": 3.5
+    },
+    {
+      "episode": "2010_2011",
+      "start": 2.0,
+      "end": 3.25,
+      "minimum": 2.0,
+      "maximum": 3.25
+    }
+  ],
+  "definition": "Current measured stock and current-vintage modeled sale prices; fixed 2026-01 common-base monthly chain. Drawdown only from a preceding within-window peak; no cross-gap filling.",
+  "support": "Every within-window link:100 households,10 complexes,20% coverage of built measured stock and maximum20% complex contribution at both endpoints; index must connect to current base.",
+  "volume_definition": "Merged valid amount/area observed sale contracts, excluding land leasehold; invariant includes disclosed cancellation/direct deals; strict separately2022-2023.",
+  "precision": "Change/drawdown0.1 percent; dates/month durations exact. Province annual/episode counts exact, monthly averages whole contracts. No native price, identity, weight, small subgroup or household count.",
+  "sources": {
+    "sales": "https://www.data.go.kr/data/15126468/openapi.do",
+    "bok": "https://www.bok.or.kr/portal/singl/baseRate/list.do?dataSeCd=01&menuNo=200643",
+    "policy2013": "https://www.korea.kr/news/issueQAView.do?newsId=148758222",
+    "policy2023": "https://www.korea.kr/news/policyNewsView.do?newsId=148910119"
+  }
+}
