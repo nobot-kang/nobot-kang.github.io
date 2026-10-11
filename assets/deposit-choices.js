@@ -26,7 +26,7 @@ if(root){
    root.querySelector('[data-map-panels]').replaceChildren(map('11','서울 25구'),map('41','수집 경기 36지역'));
    const cohort=d.cohorts.find(r=>r.region===region.value&&r.scope===area.value);
    const phrase=s=>{const r=get(region.value,s);return d.dates[s]+': '+states[r.state]+' · '+(r.share_pct===null?'비율 미제시':r.share_pct+'%');};
-   root.querySelector('[data-selection]').textContent=d.regions[region.value]+' · '+d.scopes[area.value]+' · '+budget.value+'억 원. '+phrase('prior')+' / '+phrase('current')+'. 알려진 재고 포함률 '+cohort.known_stock_coverage_pct+'%'+(cohort.limited_representation?' · 대표 범위 제한':'')+'.';
+   root.querySelector('[data-selection]').textContent=d.regions[region.value]+' · '+area.selectedOptions[0].textContent+' · '+budget.value+'억 원. '+phrase('prior')+' / '+phrase('current')+'. 알려진 재고 포함률 '+cohort.known_stock_coverage_pct+'%'+(cohort.limited_representation?' · 대표 범위 제한':'')+'.';
   }
   [area,budget,side,region].forEach(el=>el.addEventListener('change',render));render();root.dataset.ready='true';
  }).catch(()=>{root.querySelector('[data-selection]').textContent='대화형 지도를 불러오지 못했습니다. 아래 전체 지역 표를 이용해 주세요.';});
