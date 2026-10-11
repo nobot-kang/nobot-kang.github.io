@@ -1,0 +1,5098 @@
+{
+  "schema": "rank_standard_v1",
+  "periods": [
+    "2015H1",
+    "2026H1"
+  ],
+  "areas": {
+    "59": "p17_18",
+    "84": "p25_26"
+  },
+  "definition": "Strict eligible observed sale contracts; land leasehold excluded; current canonical regions; transaction-weighted median",
+  "price_bins": "억원: lower inclusive, upper exclusive, fixed 0.5 bins; not confidence intervals",
+  "support": "40 contracts and 10 complexes per period; 10 values in each released bin and on both sides of each quantile; no 1-9 contract selection difference",
+  "rank_rule": "Conservative possible ranks from released half-open price intervals; identical peers in both periods",
+  "fixed_definition": "Same complex/exact area with >=3 contracts per period; average cell medians then equally weight complexes; bin also requires ten complex means inside and on either side",
+  "cutoff": "2026-10-04 retained data; historical availability unknown; not a real-time backtest",
+  "rows": [
+    {
+      "region": "11110",
+      "label": "서울 종로구",
+      "area": "59",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2015H1",
+        "2026H1"
+      ]
+    },
+    {
+      "region": "11110",
+      "label": "서울 종로구",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2015H1",
+        "2026H1"
+      ]
+    },
+    {
+      "region": "11140",
+      "label": "서울 중구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.5,
+            4.0
+          ],
+          "median": [
+            4.0,
+            4.5
+          ],
+          "p75": [
+            4.0,
+            4.5
+          ],
+          "rank": [
+            1,
+            1
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            10.0,
+            10.5
+          ],
+          "median": [
+            14.5,
+            15.0
+          ],
+          "p75": [
+            15.0,
+            15.5
+          ],
+          "rank": [
+            1,
+            1
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          0,
+          0
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11140",
+      "label": "서울 중구",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "11170",
+      "label": "서울 용산구",
+      "area": "59",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "11170",
+      "label": "서울 용산구",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "11200",
+      "label": "서울 성동구",
+      "area": "59",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "11200",
+      "label": "서울 성동구",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "11215",
+      "label": "서울 광진구",
+      "area": "59",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "11215",
+      "label": "서울 광진구",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "11230",
+      "label": "서울 동대문구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            5,
+            13
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            7.5,
+            8.0
+          ],
+          "median": [
+            9.5,
+            10.0
+          ],
+          "p75": [
+            11.5,
+            12.0
+          ],
+          "rank": [
+            6,
+            7
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -2,
+          7
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11230",
+      "label": "서울 동대문구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.5,
+            4.0
+          ],
+          "median": [
+            3.5,
+            4.0
+          ],
+          "p75": [
+            4.0,
+            4.5
+          ],
+          "rank": [
+            12,
+            20
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            8.5,
+            9.0
+          ],
+          "median": [
+            10.5,
+            11.0
+          ],
+          "p75": [
+            13.0,
+            13.5
+          ],
+          "rank": [
+            8,
+            9
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          3,
+          12
+        ]
+      },
+      "fixed": {
+        "2015H1": {
+          "price": [
+            3.5,
+            4.0
+          ],
+          "rank": [
+            2,
+            2
+          ]
+        },
+        "2026H1": {
+          "price": [
+            9.5,
+            10.0
+          ],
+          "rank": [
+            1,
+            1
+          ]
+        },
+        "peer_regions": 9,
+        "change": [
+          1,
+          1
+        ],
+        "observed_change": [
+          1,
+          1
+        ]
+      },
+      "missing_periods": []
+    },
+    {
+      "region": "11260",
+      "label": "서울 중랑구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.5,
+            3.0
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            14,
+            23
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            5.0,
+            5.5
+          ],
+          "median": [
+            6.0,
+            6.5
+          ],
+          "p75": [
+            7.0,
+            7.5
+          ],
+          "rank": [
+            20,
+            26
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -12,
+          3
+        ]
+      },
+      "fixed": {
+        "2015H1": {
+          "price": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            1,
+            2
+          ]
+        },
+        "2026H1": {
+          "price": [
+            5.5,
+            6.0
+          ],
+          "rank": [
+            1,
+            2
+          ]
+        },
+        "peer_regions": 6,
+        "change": [
+          -1,
+          1
+        ],
+        "observed_change": [
+          -1,
+          1
+        ]
+      },
+      "missing_periods": []
+    },
+    {
+      "region": "11260",
+      "label": "서울 중랑구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.5,
+            4.0
+          ],
+          "rank": [
+            21,
+            29
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            6.5,
+            7.0
+          ],
+          "median": [
+            7.5,
+            8.0
+          ],
+          "p75": [
+            8.5,
+            9.0
+          ],
+          "rank": [
+            19,
+            21
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          0,
+          10
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11290",
+      "label": "서울 성북구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.5,
+            4.0
+          ],
+          "rank": [
+            5,
+            13
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            7.0,
+            7.5
+          ],
+          "median": [
+            8.5,
+            9.0
+          ],
+          "p75": [
+            10.0,
+            10.5
+          ],
+          "rank": [
+            12,
+            13
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -8,
+          1
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11290",
+      "label": "서울 성북구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.5,
+            4.0
+          ],
+          "median": [
+            4.0,
+            4.5
+          ],
+          "p75": [
+            4.0,
+            4.5
+          ],
+          "rank": [
+            6,
+            11
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            8.0,
+            8.5
+          ],
+          "median": [
+            9.5,
+            10.0
+          ],
+          "p75": [
+            11.0,
+            11.5
+          ],
+          "rank": [
+            11,
+            12
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -6,
+          0
+        ]
+      },
+      "fixed": {
+        "2015H1": {
+          "price": [
+            4.0,
+            4.5
+          ],
+          "rank": [
+            1,
+            1
+          ]
+        },
+        "2026H1": {
+          "price": [
+            9.0,
+            9.5
+          ],
+          "rank": [
+            2,
+            2
+          ]
+        },
+        "peer_regions": 9,
+        "change": [
+          -1,
+          -1
+        ],
+        "observed_change": [
+          -1,
+          -1
+        ]
+      },
+      "missing_periods": []
+    },
+    {
+      "region": "11305",
+      "label": "서울 강북구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.5,
+            3.0
+          ],
+          "p75": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            14,
+            23
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            5.5,
+            6.0
+          ],
+          "median": [
+            6.5,
+            7.0
+          ],
+          "p75": [
+            8.0,
+            8.5
+          ],
+          "rank": [
+            18,
+            19
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -5,
+          5
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11305",
+      "label": "서울 강북구",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "11320",
+      "label": "서울 도봉구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            24,
+            35
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            4.0,
+            4.5
+          ],
+          "median": [
+            6.0,
+            6.5
+          ],
+          "p75": [
+            7.0,
+            7.5
+          ],
+          "rank": [
+            20,
+            26
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -2,
+          15
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11320",
+      "label": "서울 도봉구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.5,
+            4.0
+          ],
+          "rank": [
+            21,
+            29
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            5.0,
+            5.5
+          ],
+          "median": [
+            6.0,
+            6.5
+          ],
+          "p75": [
+            8.0,
+            8.5
+          ],
+          "rank": [
+            28,
+            30
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -9,
+          1
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11350",
+      "label": "서울 노원구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.5,
+            3.0
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            14,
+            23
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            5.0,
+            5.5
+          ],
+          "median": [
+            6.0,
+            6.5
+          ],
+          "p75": [
+            7.0,
+            7.5
+          ],
+          "rank": [
+            20,
+            26
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -12,
+          3
+        ]
+      },
+      "fixed": {
+        "2015H1": {
+          "price": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            1,
+            2
+          ]
+        },
+        "2026H1": {
+          "price": [
+            5.5,
+            6.0
+          ],
+          "rank": [
+            1,
+            2
+          ]
+        },
+        "peer_regions": 6,
+        "change": [
+          -1,
+          1
+        ],
+        "observed_change": [
+          -1,
+          1
+        ]
+      },
+      "missing_periods": []
+    },
+    {
+      "region": "11350",
+      "label": "서울 노원구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            3.5,
+            4.0
+          ],
+          "p75": [
+            4.0,
+            4.5
+          ],
+          "rank": [
+            12,
+            20
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            6.5,
+            7.0
+          ],
+          "median": [
+            8.0,
+            8.5
+          ],
+          "p75": [
+            9.5,
+            10.0
+          ],
+          "rank": [
+            17,
+            18
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -6,
+          3
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11380",
+      "label": "서울 은평구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.5,
+            4.0
+          ],
+          "rank": [
+            5,
+            13
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            7.0,
+            7.5
+          ],
+          "median": [
+            8.5,
+            9.0
+          ],
+          "p75": [
+            11.0,
+            11.5
+          ],
+          "rank": [
+            12,
+            13
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -8,
+          1
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11380",
+      "label": "서울 은평구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            3.5,
+            4.0
+          ],
+          "p75": [
+            4.5,
+            5.0
+          ],
+          "rank": [
+            12,
+            20
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            7.5,
+            8.0
+          ],
+          "median": [
+            9.0,
+            9.5
+          ],
+          "p75": [
+            11.5,
+            12.0
+          ],
+          "rank": [
+            13,
+            14
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -2,
+          7
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11410",
+      "label": "서울 서대문구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            5,
+            13
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            7.0,
+            7.5
+          ],
+          "median": [
+            9.0,
+            9.5
+          ],
+          "p75": [
+            12.0,
+            12.5
+          ],
+          "rank": [
+            8,
+            11
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -6,
+          5
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11410",
+      "label": "서울 서대문구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            3.5,
+            4.0
+          ],
+          "p75": [
+            4.5,
+            5.0
+          ],
+          "rank": [
+            12,
+            20
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            8.5,
+            9.0
+          ],
+          "median": [
+            10.5,
+            11.0
+          ],
+          "p75": [
+            14.0,
+            14.5
+          ],
+          "rank": [
+            8,
+            9
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          3,
+          12
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11440",
+      "label": "서울 마포구",
+      "area": "59",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "11440",
+      "label": "서울 마포구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            4.5,
+            5.0
+          ],
+          "median": [
+            5.0,
+            5.5
+          ],
+          "p75": [
+            6.0,
+            6.5
+          ],
+          "rank": [
+            3,
+            4
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            11.5,
+            12.0
+          ],
+          "median": [
+            15.0,
+            15.5
+          ],
+          "p75": [
+            20.0,
+            20.5
+          ],
+          "rank": [
+            3,
+            4
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -1,
+          1
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11470",
+      "label": "서울 양천구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.5,
+            3.0
+          ],
+          "p75": [
+            3.5,
+            4.0
+          ],
+          "rank": [
+            14,
+            23
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            6.5,
+            7.0
+          ],
+          "median": [
+            8.0,
+            8.5
+          ],
+          "p75": [
+            12.0,
+            12.5
+          ],
+          "rank": [
+            14,
+            15
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -1,
+          9
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11470",
+      "label": "서울 양천구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            3.5,
+            4.0
+          ],
+          "p75": [
+            5.0,
+            5.5
+          ],
+          "rank": [
+            12,
+            20
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            7.5,
+            8.0
+          ],
+          "median": [
+            11.0,
+            11.5
+          ],
+          "p75": [
+            14.0,
+            14.5
+          ],
+          "rank": [
+            7,
+            7
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          5,
+          13
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11500",
+      "label": "서울 강서구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            5,
+            13
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            7.0,
+            7.5
+          ],
+          "median": [
+            9.0,
+            9.5
+          ],
+          "p75": [
+            10.5,
+            11.0
+          ],
+          "rank": [
+            8,
+            11
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -6,
+          5
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11500",
+      "label": "서울 강서구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.5,
+            4.0
+          ],
+          "median": [
+            4.0,
+            4.5
+          ],
+          "p75": [
+            4.5,
+            5.0
+          ],
+          "rank": [
+            6,
+            11
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            8.0,
+            8.5
+          ],
+          "median": [
+            10.0,
+            10.5
+          ],
+          "p75": [
+            12.5,
+            13.0
+          ],
+          "rank": [
+            10,
+            10
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -4,
+          1
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11530",
+      "label": "서울 구로구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.5,
+            3.0
+          ],
+          "p75": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            14,
+            23
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            5.5,
+            6.0
+          ],
+          "median": [
+            6.0,
+            6.5
+          ],
+          "p75": [
+            8.0,
+            8.5
+          ],
+          "rank": [
+            20,
+            26
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -12,
+          3
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11530",
+      "label": "서울 구로구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            3.5,
+            4.0
+          ],
+          "p75": [
+            4.0,
+            4.5
+          ],
+          "rank": [
+            12,
+            20
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            6.5,
+            7.0
+          ],
+          "median": [
+            7.5,
+            8.0
+          ],
+          "p75": [
+            9.0,
+            9.5
+          ],
+          "rank": [
+            19,
+            21
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -9,
+          1
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11545",
+      "label": "서울 금천구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            24,
+            35
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            4.5,
+            5.0
+          ],
+          "median": [
+            5.5,
+            6.0
+          ],
+          "p75": [
+            8.0,
+            8.5
+          ],
+          "rank": [
+            27,
+            28
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -4,
+          8
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11545",
+      "label": "서울 금천구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            21,
+            29
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            5.5,
+            6.0
+          ],
+          "median": [
+            7.0,
+            7.5
+          ],
+          "p75": [
+            9.0,
+            9.5
+          ],
+          "rank": [
+            22,
+            25
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -4,
+          7
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11560",
+      "label": "서울 영등포구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.5,
+            4.0
+          ],
+          "rank": [
+            5,
+            13
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            9.5,
+            10.0
+          ],
+          "median": [
+            11.5,
+            12.0
+          ],
+          "p75": [
+            14.5,
+            15.0
+          ],
+          "rank": [
+            5,
+            5
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          0,
+          8
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11560",
+      "label": "서울 영등포구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.5,
+            4.0
+          ],
+          "median": [
+            4.0,
+            4.5
+          ],
+          "p75": [
+            4.5,
+            5.0
+          ],
+          "rank": [
+            6,
+            11
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            9.5,
+            10.0
+          ],
+          "median": [
+            12.5,
+            13.0
+          ],
+          "p75": [
+            15.5,
+            16.0
+          ],
+          "rank": [
+            6,
+            6
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          0,
+          5
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11590",
+      "label": "서울 동작구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            3.5,
+            4.0
+          ],
+          "p75": [
+            4.0,
+            4.5
+          ],
+          "rank": [
+            2,
+            4
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            10.0,
+            10.5
+          ],
+          "median": [
+            13.0,
+            13.5
+          ],
+          "p75": [
+            15.0,
+            15.5
+          ],
+          "rank": [
+            4,
+            4
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -2,
+          0
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11590",
+      "label": "서울 동작구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            4.0,
+            4.5
+          ],
+          "median": [
+            5.0,
+            5.5
+          ],
+          "p75": [
+            5.5,
+            6.0
+          ],
+          "rank": [
+            3,
+            4
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            13.0,
+            13.5
+          ],
+          "median": [
+            15.0,
+            15.5
+          ],
+          "p75": [
+            17.5,
+            18.0
+          ],
+          "rank": [
+            3,
+            4
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -1,
+          1
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11620",
+      "label": "서울 관악구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            5,
+            13
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            6.0,
+            6.5
+          ],
+          "median": [
+            9.0,
+            9.5
+          ],
+          "p75": [
+            11.0,
+            11.5
+          ],
+          "rank": [
+            8,
+            11
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -6,
+          5
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11620",
+      "label": "서울 관악구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.5,
+            4.0
+          ],
+          "median": [
+            4.0,
+            4.5
+          ],
+          "p75": [
+            4.5,
+            5.0
+          ],
+          "rank": [
+            6,
+            11
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            7.0,
+            7.5
+          ],
+          "median": [
+            9.5,
+            10.0
+          ],
+          "p75": [
+            11.5,
+            12.0
+          ],
+          "rank": [
+            11,
+            12
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -6,
+          0
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11650",
+      "label": "서울 서초구",
+      "area": "59",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "11650",
+      "label": "서울 서초구",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "11680",
+      "label": "서울 강남구",
+      "area": "59",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "11680",
+      "label": "서울 강남구",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "11710",
+      "label": "서울 송파구",
+      "area": "59",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "11710",
+      "label": "서울 송파구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            5.0,
+            5.5
+          ],
+          "median": [
+            6.0,
+            6.5
+          ],
+          "p75": [
+            8.5,
+            9.0
+          ],
+          "rank": [
+            1,
+            1
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            16.0,
+            16.5
+          ],
+          "median": [
+            24.5,
+            25.0
+          ],
+          "p75": [
+            31.0,
+            31.5
+          ],
+          "rank": [
+            1,
+            1
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          0,
+          0
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11740",
+      "label": "서울 강동구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            3.5,
+            4.0
+          ],
+          "p75": [
+            4.0,
+            4.5
+          ],
+          "rank": [
+            2,
+            4
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            10.5,
+            11.0
+          ],
+          "median": [
+            14.0,
+            14.5
+          ],
+          "p75": [
+            16.0,
+            16.5
+          ],
+          "rank": [
+            2,
+            3
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -1,
+          2
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "11740",
+      "label": "서울 강동구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            4.0,
+            4.5
+          ],
+          "median": [
+            4.5,
+            5.0
+          ],
+          "p75": [
+            5.0,
+            5.5
+          ],
+          "rank": [
+            5,
+            5
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            10.0,
+            10.5
+          ],
+          "median": [
+            14.5,
+            15.0
+          ],
+          "p75": [
+            18.0,
+            18.5
+          ],
+          "rank": [
+            5,
+            5
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          0,
+          0
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41111",
+      "label": "경기 수원시 장안구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            24,
+            35
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            3.5,
+            4.0
+          ],
+          "median": [
+            4.5,
+            5.0
+          ],
+          "p75": [
+            5.5,
+            6.0
+          ],
+          "rank": [
+            29,
+            32
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -8,
+          6
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41111",
+      "label": "경기 수원시 장안구",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2015H1"
+      ]
+    },
+    {
+      "region": "41113",
+      "label": "경기 수원시 권선구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.5,
+            2.0
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.0,
+            2.5
+          ],
+          "rank": [
+            24,
+            35
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            4.0,
+            4.5
+          ],
+          "p75": [
+            5.0,
+            5.5
+          ],
+          "rank": [
+            33,
+            34
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -10,
+          2
+        ]
+      },
+      "fixed": {
+        "2015H1": {
+          "price": [
+            2.0,
+            2.5
+          ],
+          "rank": [
+            3,
+            4
+          ]
+        },
+        "2026H1": {
+          "price": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            3,
+            4
+          ]
+        },
+        "peer_regions": 6,
+        "change": [
+          -1,
+          1
+        ],
+        "observed_change": [
+          0,
+          0
+        ]
+      },
+      "missing_periods": []
+    },
+    {
+      "region": "41113",
+      "label": "경기 수원시 권선구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.5,
+            3.0
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            30,
+            34
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            4.0,
+            4.5
+          ],
+          "median": [
+            5.5,
+            6.0
+          ],
+          "p75": [
+            6.0,
+            6.5
+          ],
+          "rank": [
+            31,
+            32
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -2,
+          3
+        ]
+      },
+      "fixed": {
+        "2015H1": {
+          "price": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            3,
+            5
+          ]
+        },
+        "2026H1": {
+          "price": [
+            4.0,
+            4.5
+          ],
+          "rank": [
+            5,
+            6
+          ]
+        },
+        "peer_regions": 9,
+        "change": [
+          -3,
+          0
+        ],
+        "observed_change": [
+          -3,
+          0
+        ]
+      },
+      "missing_periods": []
+    },
+    {
+      "region": "41115",
+      "label": "경기 수원시 팔달구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.5,
+            2.0
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            24,
+            35
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            5.5,
+            6.0
+          ],
+          "median": [
+            6.5,
+            7.0
+          ],
+          "p75": [
+            7.0,
+            7.5
+          ],
+          "rank": [
+            18,
+            19
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          5,
+          17
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41115",
+      "label": "경기 수원시 팔달구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            21,
+            29
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            5.5,
+            6.0
+          ],
+          "median": [
+            6.5,
+            7.0
+          ],
+          "p75": [
+            8.5,
+            9.0
+          ],
+          "rank": [
+            26,
+            27
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -6,
+          3
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41117",
+      "label": "경기 수원시 영통구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            24,
+            35
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            4.0,
+            4.5
+          ],
+          "median": [
+            4.5,
+            5.0
+          ],
+          "p75": [
+            5.5,
+            6.0
+          ],
+          "rank": [
+            29,
+            32
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -8,
+          6
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41117",
+      "label": "경기 수원시 영통구",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41131",
+      "label": "경기 성남시 수정구",
+      "area": "59",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41131",
+      "label": "경기 성남시 수정구",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41133",
+      "label": "경기 성남시 중원구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.5,
+            3.0
+          ],
+          "p75": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            14,
+            23
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            6.5,
+            7.0
+          ],
+          "median": [
+            9.5,
+            10.0
+          ],
+          "p75": [
+            10.5,
+            11.0
+          ],
+          "rank": [
+            6,
+            7
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          7,
+          17
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41133",
+      "label": "경기 성남시 중원구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            3.5,
+            4.0
+          ],
+          "p75": [
+            4.0,
+            4.5
+          ],
+          "rank": [
+            12,
+            20
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            7.0,
+            7.5
+          ],
+          "median": [
+            8.5,
+            9.0
+          ],
+          "p75": [
+            10.0,
+            10.5
+          ],
+          "rank": [
+            15,
+            16
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -4,
+          5
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41135",
+      "label": "경기 성남시 분당구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            3.5,
+            4.0
+          ],
+          "p75": [
+            3.5,
+            4.0
+          ],
+          "rank": [
+            2,
+            4
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            10.5,
+            11.0
+          ],
+          "median": [
+            14.0,
+            14.5
+          ],
+          "p75": [
+            15.0,
+            15.5
+          ],
+          "rank": [
+            2,
+            3
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -1,
+          2
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41135",
+      "label": "경기 성남시 분당구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            5.0,
+            5.5
+          ],
+          "median": [
+            5.5,
+            6.0
+          ],
+          "p75": [
+            6.0,
+            6.5
+          ],
+          "rank": [
+            2,
+            2
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            14.5,
+            15.0
+          ],
+          "median": [
+            17.5,
+            18.0
+          ],
+          "p75": [
+            19.5,
+            20.0
+          ],
+          "rank": [
+            2,
+            2
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          0,
+          0
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41150",
+      "label": "경기 의정부시",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.5,
+            2.0
+          ],
+          "median": [
+            1.5,
+            2.0
+          ],
+          "p75": [
+            1.5,
+            2.0
+          ],
+          "rank": [
+            36,
+            42
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            4.0,
+            4.5
+          ],
+          "rank": [
+            39,
+            43
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -7,
+          3
+        ]
+      },
+      "fixed": {
+        "2015H1": {
+          "price": [
+            1.5,
+            2.0
+          ],
+          "rank": [
+            5,
+            6
+          ]
+        },
+        "2026H1": {
+          "price": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            5,
+            5
+          ]
+        },
+        "peer_regions": 6,
+        "change": [
+          0,
+          1
+        ],
+        "observed_change": [
+          -1,
+          1
+        ]
+      },
+      "missing_periods": []
+    },
+    {
+      "region": "41150",
+      "label": "경기 의정부시",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            35,
+            41
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            4.0,
+            4.5
+          ],
+          "p75": [
+            5.0,
+            5.5
+          ],
+          "rank": [
+            35,
+            38
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -3,
+          6
+        ]
+      },
+      "fixed": {
+        "2015H1": {
+          "price": [
+            2.0,
+            2.5
+          ],
+          "rank": [
+            6,
+            9
+          ]
+        },
+        "2026H1": {
+          "price": [
+            3.5,
+            4.0
+          ],
+          "rank": [
+            7,
+            8
+          ]
+        },
+        "peer_regions": 9,
+        "change": [
+          -2,
+          2
+        ],
+        "observed_change": [
+          -2,
+          2
+        ]
+      },
+      "missing_periods": []
+    },
+    {
+      "region": "41171",
+      "label": "경기 안양시 만안구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.5,
+            3.0
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            14,
+            23
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            4.0,
+            4.5
+          ],
+          "median": [
+            6.0,
+            6.5
+          ],
+          "p75": [
+            7.0,
+            7.5
+          ],
+          "rank": [
+            20,
+            26
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -12,
+          3
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41171",
+      "label": "경기 안양시 만안구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.5,
+            4.0
+          ],
+          "rank": [
+            21,
+            29
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            5.0,
+            5.5
+          ],
+          "median": [
+            6.0,
+            6.5
+          ],
+          "p75": [
+            8.0,
+            8.5
+          ],
+          "rank": [
+            28,
+            30
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -9,
+          1
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41173",
+      "label": "경기 안양시 동안구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            5,
+            13
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            6.5,
+            7.0
+          ],
+          "median": [
+            8.0,
+            8.5
+          ],
+          "p75": [
+            9.5,
+            10.0
+          ],
+          "rank": [
+            14,
+            15
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -10,
+          -1
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41173",
+      "label": "경기 안양시 동안구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.5,
+            4.0
+          ],
+          "median": [
+            3.5,
+            4.0
+          ],
+          "p75": [
+            4.0,
+            4.5
+          ],
+          "rank": [
+            12,
+            20
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            7.0,
+            7.5
+          ],
+          "median": [
+            8.5,
+            9.0
+          ],
+          "p75": [
+            11.0,
+            11.5
+          ],
+          "rank": [
+            15,
+            16
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -4,
+          5
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41192",
+      "label": "경기 부천시 원미구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            24,
+            35
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            4.0,
+            4.5
+          ],
+          "median": [
+            4.5,
+            5.0
+          ],
+          "p75": [
+            5.5,
+            6.0
+          ],
+          "rank": [
+            29,
+            32
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -8,
+          6
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41192",
+      "label": "경기 부천시 원미구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.5,
+            4.0
+          ],
+          "rank": [
+            21,
+            29
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            5.5,
+            6.0
+          ],
+          "median": [
+            6.5,
+            7.0
+          ],
+          "p75": [
+            7.5,
+            8.0
+          ],
+          "rank": [
+            26,
+            27
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -6,
+          3
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41194",
+      "label": "경기 부천시 소사구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.5,
+            2.0
+          ],
+          "median": [
+            1.5,
+            2.0
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            36,
+            42
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            4.0,
+            4.5
+          ],
+          "median": [
+            5.5,
+            6.0
+          ],
+          "p75": [
+            6.0,
+            6.5
+          ],
+          "rank": [
+            27,
+            28
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          8,
+          15
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41194",
+      "label": "경기 부천시 소사구",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41196",
+      "label": "경기 부천시 오정구",
+      "area": "59",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41196",
+      "label": "경기 부천시 오정구",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41210",
+      "label": "경기 광명시",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.5,
+            3.0
+          ],
+          "p75": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            14,
+            23
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            6.5,
+            7.0
+          ],
+          "median": [
+            7.5,
+            8.0
+          ],
+          "p75": [
+            10.5,
+            11.0
+          ],
+          "rank": [
+            16,
+            16
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -2,
+          7
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41210",
+      "label": "경기 광명시",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.5,
+            4.0
+          ],
+          "median": [
+            4.0,
+            4.5
+          ],
+          "p75": [
+            4.5,
+            5.0
+          ],
+          "rank": [
+            6,
+            11
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            7.0,
+            7.5
+          ],
+          "median": [
+            8.0,
+            8.5
+          ],
+          "p75": [
+            12.0,
+            12.5
+          ],
+          "rank": [
+            17,
+            18
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -12,
+          -6
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41220",
+      "label": "경기 평택시",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.0,
+            1.5
+          ],
+          "median": [
+            1.0,
+            1.5
+          ],
+          "p75": [
+            1.5,
+            2.0
+          ],
+          "rank": [
+            43,
+            44
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            1.5,
+            2.0
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            44,
+            44
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -1,
+          0
+        ]
+      },
+      "fixed": {
+        "2015H1": {
+          "price": [
+            1.5,
+            2.0
+          ],
+          "rank": [
+            5,
+            6
+          ]
+        },
+        "2026H1": {
+          "price": [
+            1.5,
+            2.0
+          ],
+          "rank": [
+            6,
+            6
+          ]
+        },
+        "peer_regions": 6,
+        "change": [
+          -1,
+          0
+        ],
+        "observed_change": [
+          0,
+          0
+        ]
+      },
+      "missing_periods": []
+    },
+    {
+      "region": "41220",
+      "label": "경기 평택시",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.5,
+            2.0
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            35,
+            41
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.5,
+            4.0
+          ],
+          "p75": [
+            5.0,
+            5.5
+          ],
+          "rank": [
+            39,
+            40
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -5,
+          2
+        ]
+      },
+      "fixed": {
+        "2015H1": {
+          "price": [
+            2.0,
+            2.5
+          ],
+          "rank": [
+            6,
+            9
+          ]
+        },
+        "2026H1": {
+          "price": [
+            2.0,
+            2.5
+          ],
+          "rank": [
+            9,
+            9
+          ]
+        },
+        "peer_regions": 9,
+        "change": [
+          -3,
+          0
+        ],
+        "observed_change": [
+          -3,
+          0
+        ]
+      },
+      "missing_periods": []
+    },
+    {
+      "region": "41271",
+      "label": "경기 안산시 상록구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.5,
+            2.0
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            24,
+            35
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            4.0,
+            4.5
+          ],
+          "rank": [
+            39,
+            43
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -19,
+          -4
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41271",
+      "label": "경기 안산시 상록구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            2.5,
+            3.0
+          ],
+          "p75": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            30,
+            34
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            3.5,
+            4.0
+          ],
+          "median": [
+            4.5,
+            5.0
+          ],
+          "p75": [
+            6.0,
+            6.5
+          ],
+          "rank": [
+            34,
+            34
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -4,
+          0
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41273",
+      "label": "경기 안산시 단원구",
+      "area": "59",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41273",
+      "label": "경기 안산시 단원구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            21,
+            29
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            4.0,
+            4.5
+          ],
+          "median": [
+            5.0,
+            5.5
+          ],
+          "p75": [
+            6.0,
+            6.5
+          ],
+          "rank": [
+            33,
+            33
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -12,
+          -4
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41281",
+      "label": "경기 고양시 덕양구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.5,
+            2.0
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.0,
+            2.5
+          ],
+          "rank": [
+            24,
+            35
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            3.5,
+            4.0
+          ],
+          "p75": [
+            6.0,
+            6.5
+          ],
+          "rank": [
+            35,
+            38
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -14,
+          0
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41281",
+      "label": "경기 고양시 덕양구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.5,
+            3.0
+          ],
+          "p75": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            30,
+            34
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            5.0,
+            5.5
+          ],
+          "median": [
+            7.0,
+            7.5
+          ],
+          "p75": [
+            8.5,
+            9.0
+          ],
+          "rank": [
+            22,
+            25
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          5,
+          12
+        ]
+      },
+      "fixed": {
+        "2015H1": {
+          "price": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            3,
+            5
+          ]
+        },
+        "2026H1": {
+          "price": [
+            5.0,
+            5.5
+          ],
+          "rank": [
+            3,
+            4
+          ]
+        },
+        "peer_regions": 9,
+        "change": [
+          -1,
+          2
+        ],
+        "observed_change": [
+          0,
+          2
+        ]
+      },
+      "missing_periods": []
+    },
+    {
+      "region": "41285",
+      "label": "경기 고양시 일산동구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.5,
+            2.0
+          ],
+          "median": [
+            1.5,
+            2.0
+          ],
+          "p75": [
+            2.0,
+            2.5
+          ],
+          "rank": [
+            36,
+            42
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.5,
+            4.0
+          ],
+          "p75": [
+            5.0,
+            5.5
+          ],
+          "rank": [
+            35,
+            38
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -2,
+          7
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41285",
+      "label": "경기 고양시 일산동구",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41287",
+      "label": "경기 고양시 일산서구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.5,
+            2.0
+          ],
+          "median": [
+            1.5,
+            2.0
+          ],
+          "p75": [
+            2.0,
+            2.5
+          ],
+          "rank": [
+            36,
+            42
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.5,
+            4.0
+          ],
+          "rank": [
+            39,
+            43
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -7,
+          3
+        ]
+      },
+      "fixed": {
+        "2015H1": {
+          "price": [
+            2.0,
+            2.5
+          ],
+          "rank": [
+            3,
+            4
+          ]
+        },
+        "2026H1": {
+          "price": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            3,
+            4
+          ]
+        },
+        "peer_regions": 6,
+        "change": [
+          -1,
+          1
+        ],
+        "observed_change": [
+          -1,
+          1
+        ]
+      },
+      "missing_periods": []
+    },
+    {
+      "region": "41287",
+      "label": "경기 고양시 일산서구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.5,
+            3.0
+          ],
+          "p75": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            30,
+            34
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            4.0,
+            4.5
+          ],
+          "p75": [
+            4.5,
+            5.0
+          ],
+          "rank": [
+            35,
+            38
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -8,
+          -1
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41290",
+      "label": "경기 과천시",
+      "area": "59",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2015H1",
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41290",
+      "label": "경기 과천시",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2015H1",
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41310",
+      "label": "경기 구리시",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            24,
+            35
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            5.5,
+            6.0
+          ],
+          "median": [
+            6.0,
+            6.5
+          ],
+          "p75": [
+            7.0,
+            7.5
+          ],
+          "rank": [
+            20,
+            26
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -2,
+          15
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41310",
+      "label": "경기 구리시",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.5,
+            4.0
+          ],
+          "rank": [
+            21,
+            29
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            6.5,
+            7.0
+          ],
+          "median": [
+            7.0,
+            7.5
+          ],
+          "p75": [
+            8.0,
+            8.5
+          ],
+          "rank": [
+            22,
+            25
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -4,
+          7
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41360",
+      "label": "경기 남양주시",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.0,
+            1.5
+          ],
+          "median": [
+            1.5,
+            2.0
+          ],
+          "p75": [
+            2.0,
+            2.5
+          ],
+          "rank": [
+            36,
+            42
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            4.5,
+            5.0
+          ],
+          "rank": [
+            39,
+            43
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -7,
+          3
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41360",
+      "label": "경기 남양주시",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.5,
+            2.0
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            35,
+            41
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            4.0,
+            4.5
+          ],
+          "median": [
+            5.5,
+            6.0
+          ],
+          "p75": [
+            8.5,
+            9.0
+          ],
+          "rank": [
+            31,
+            32
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          3,
+          10
+        ]
+      },
+      "fixed": {
+        "2015H1": {
+          "price": [
+            2.0,
+            2.5
+          ],
+          "rank": [
+            6,
+            9
+          ]
+        },
+        "2026H1": {
+          "price": [
+            4.0,
+            4.5
+          ],
+          "rank": [
+            5,
+            6
+          ]
+        },
+        "peer_regions": 9,
+        "change": [
+          0,
+          4
+        ],
+        "observed_change": [
+          0,
+          4
+        ]
+      },
+      "missing_periods": []
+    },
+    {
+      "region": "41410",
+      "label": "경기 군포시",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            24,
+            35
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            3.5,
+            4.0
+          ],
+          "median": [
+            4.0,
+            4.5
+          ],
+          "p75": [
+            4.5,
+            5.0
+          ],
+          "rank": [
+            33,
+            34
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -10,
+          2
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41410",
+      "label": "경기 군포시",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41430",
+      "label": "경기 의왕시",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.5,
+            4.0
+          ],
+          "rank": [
+            5,
+            13
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            4.5,
+            5.0
+          ],
+          "median": [
+            6.0,
+            6.5
+          ],
+          "p75": [
+            8.5,
+            9.0
+          ],
+          "rank": [
+            20,
+            26
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -21,
+          -7
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41430",
+      "label": "경기 의왕시",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.5,
+            4.0
+          ],
+          "p75": [
+            4.5,
+            5.0
+          ],
+          "rank": [
+            12,
+            20
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            5.5,
+            6.0
+          ],
+          "median": [
+            7.5,
+            8.0
+          ],
+          "p75": [
+            10.0,
+            10.5
+          ],
+          "rank": [
+            19,
+            21
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -9,
+          1
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41450",
+      "label": "경기 하남시",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.5,
+            3.0
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            14,
+            23
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            6.5,
+            7.0
+          ],
+          "median": [
+            9.0,
+            9.5
+          ],
+          "p75": [
+            10.5,
+            11.0
+          ],
+          "rank": [
+            8,
+            11
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          3,
+          15
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41450",
+      "label": "경기 하남시",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41461",
+      "label": "경기 용인시 처인구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.0,
+            1.5
+          ],
+          "median": [
+            1.0,
+            1.5
+          ],
+          "p75": [
+            1.5,
+            2.0
+          ],
+          "rank": [
+            43,
+            44
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            3.5,
+            4.0
+          ],
+          "p75": [
+            4.5,
+            5.0
+          ],
+          "rank": [
+            35,
+            38
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          5,
+          9
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41461",
+      "label": "경기 용인시 처인구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.5,
+            2.0
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.0,
+            2.5
+          ],
+          "rank": [
+            35,
+            41
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            4.0,
+            4.5
+          ],
+          "p75": [
+            5.0,
+            5.5
+          ],
+          "rank": [
+            35,
+            38
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -3,
+          6
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41463",
+      "label": "경기 용인시 기흥구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.5,
+            2.0
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            24,
+            35
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            4.5,
+            5.0
+          ],
+          "p75": [
+            6.0,
+            6.5
+          ],
+          "rank": [
+            29,
+            32
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -8,
+          6
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41463",
+      "label": "경기 용인시 기흥구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            2.5,
+            3.0
+          ],
+          "p75": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            30,
+            34
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            4.5,
+            5.0
+          ],
+          "median": [
+            6.0,
+            6.5
+          ],
+          "p75": [
+            8.0,
+            8.5
+          ],
+          "rank": [
+            28,
+            30
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          0,
+          6
+        ]
+      },
+      "fixed": {
+        "2015H1": {
+          "price": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            3,
+            5
+          ]
+        },
+        "2026H1": {
+          "price": [
+            5.0,
+            5.5
+          ],
+          "rank": [
+            3,
+            4
+          ]
+        },
+        "peer_regions": 9,
+        "change": [
+          -1,
+          2
+        ],
+        "observed_change": [
+          -1,
+          1
+        ]
+      },
+      "missing_periods": []
+    },
+    {
+      "region": "41465",
+      "label": "경기 용인시 수지구",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            2.5,
+            3.0
+          ],
+          "p75": [
+            3.0,
+            3.5
+          ],
+          "rank": [
+            14,
+            23
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            6.5,
+            7.0
+          ],
+          "median": [
+            7.0,
+            7.5
+          ],
+          "p75": [
+            9.0,
+            9.5
+          ],
+          "rank": [
+            17,
+            17
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -3,
+          6
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41465",
+      "label": "경기 용인시 수지구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.5,
+            4.0
+          ],
+          "median": [
+            4.0,
+            4.5
+          ],
+          "p75": [
+            4.0,
+            4.5
+          ],
+          "rank": [
+            6,
+            11
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            7.5,
+            8.0
+          ],
+          "median": [
+            9.0,
+            9.5
+          ],
+          "p75": [
+            11.5,
+            12.0
+          ],
+          "rank": [
+            13,
+            14
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -8,
+          -2
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41480",
+      "label": "경기 파주시",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.0,
+            1.5
+          ],
+          "median": [
+            1.5,
+            2.0
+          ],
+          "p75": [
+            1.5,
+            2.0
+          ],
+          "rank": [
+            36,
+            42
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            4.5,
+            5.0
+          ],
+          "rank": [
+            39,
+            43
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -7,
+          3
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41480",
+      "label": "경기 파주시",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2015H1",
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41570",
+      "label": "경기 김포시",
+      "area": "59",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.5,
+            2.0
+          ],
+          "median": [
+            1.5,
+            2.0
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            36,
+            42
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            3.5,
+            4.0
+          ],
+          "p75": [
+            4.0,
+            4.5
+          ],
+          "rank": [
+            35,
+            38
+          ]
+        },
+        "peer_regions": 44,
+        "change": [
+          -2,
+          7
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41570",
+      "label": "경기 김포시",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2015H1",
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41591",
+      "label": "경기 화성시 만세구",
+      "area": "59",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2015H1",
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41591",
+      "label": "경기 화성시 만세구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.5,
+            2.0
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.5,
+            3.0
+          ],
+          "rank": [
+            35,
+            41
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            3.5,
+            4.0
+          ],
+          "p75": [
+            5.0,
+            5.5
+          ],
+          "rank": [
+            39,
+            40
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -5,
+          2
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41593",
+      "label": "경기 화성시 효행구",
+      "area": "59",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2015H1",
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41593",
+      "label": "경기 화성시 효행구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            1.5,
+            2.0
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.0,
+            2.5
+          ],
+          "rank": [
+            35,
+            41
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            2.5,
+            3.0
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            4.0,
+            4.5
+          ],
+          "rank": [
+            41,
+            41
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -6,
+          0
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41595",
+      "label": "경기 화성시 병점구",
+      "area": "59",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2015H1"
+      ]
+    },
+    {
+      "region": "41595",
+      "label": "경기 화성시 병점구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            2.0,
+            2.5
+          ],
+          "median": [
+            2.0,
+            2.5
+          ],
+          "p75": [
+            2.0,
+            2.5
+          ],
+          "rank": [
+            35,
+            41
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            3.5,
+            4.0
+          ],
+          "median": [
+            4.0,
+            4.5
+          ],
+          "p75": [
+            7.0,
+            7.5
+          ],
+          "rank": [
+            35,
+            38
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -3,
+          6
+        ]
+      },
+      "fixed": {
+        "2015H1": {
+          "price": [
+            2.0,
+            2.5
+          ],
+          "rank": [
+            6,
+            9
+          ]
+        },
+        "2026H1": {
+          "price": [
+            3.5,
+            4.0
+          ],
+          "rank": [
+            7,
+            8
+          ]
+        },
+        "peer_regions": 9,
+        "change": [
+          -2,
+          2
+        ],
+        "observed_change": [
+          -2,
+          2
+        ]
+      },
+      "missing_periods": []
+    },
+    {
+      "region": "41597",
+      "label": "경기 화성시 동탄구",
+      "area": "59",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2015H1"
+      ]
+    },
+    {
+      "region": "41597",
+      "label": "경기 화성시 동탄구",
+      "area": "84",
+      "observed": {
+        "2015H1": {
+          "p25": [
+            3.0,
+            3.5
+          ],
+          "median": [
+            3.0,
+            3.5
+          ],
+          "p75": [
+            3.5,
+            4.0
+          ],
+          "rank": [
+            21,
+            29
+          ]
+        },
+        "2026H1": {
+          "p25": [
+            6.0,
+            6.5
+          ],
+          "median": [
+            7.0,
+            7.5
+          ],
+          "p75": [
+            9.0,
+            9.5
+          ],
+          "rank": [
+            22,
+            25
+          ]
+        },
+        "peer_regions": 41,
+        "change": [
+          -4,
+          7
+        ]
+      },
+      "fixed": null,
+      "missing_periods": []
+    },
+    {
+      "region": "41610",
+      "label": "경기 광주시",
+      "area": "59",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2015H1",
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41610",
+      "label": "경기 광주시",
+      "area": "84",
+      "observed": null,
+      "fixed": null,
+      "missing_periods": [
+        "2015H1"
+      ]
+    }
+  ]
+}
