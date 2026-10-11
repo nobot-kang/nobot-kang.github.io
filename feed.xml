@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-11T20:16:38+09:00</updated>
+  <updated>2026-10-11T20:29:01+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>매매와 전세는 같이 움직일까? 서울·경기 15년 지수 비교</title>
+    <id>https://nobot-kang.github.io/posts/sale-jeonse-price-history/</id>
+    <published>2026-10-11T20:29:01+09:00</published>
+    <updated>2026-10-11T20:29:01+09:00</updated>
+    <summary>서울·수집 경기의 같은 주택을 2011~2026년 매매·전세 모형가격으로 비교했습니다. 두 지수가 엇갈린 구간과 전세가율의 차이, 제한된 표본의 한계를 확인하세요.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/sale-jeonse-price-history/" />
+    <category term="가격의 긴 흐름" />
+  </entry>
   <entry>
     <title>서울 아파트 총액은 얼마일까? 재고가치·강남3구 비중의 2011~2026년 비교</title>
     <id>https://nobot-kang.github.io/posts/apartment-stock-value/</id>
@@ -104,7 +113,7 @@
     <title>같은 면적으로 본 전세가율: 서울·경기 지역 지도와 18분기 흐름</title>
     <id>https://nobot-kang.github.io/posts/modeled-regional-jeonse-ratio/</id>
     <published>2026-10-11T15:00:34+09:00</published>
-    <updated>2026-10-11T16:59:08+09:00</updated>
+    <updated>2026-10-11T20:29:01+09:00</updated>
     <summary>서울 25구·수집 경기 36지역의 같은 주택 모형 전세가율을 두 면적군으로 비교합니다. 2026년 2분기 지역 지도와 18분기 흐름, 모형 범위·고정 표본·전체 후보의 차이를 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/modeled-regional-jeonse-ratio/" />
     <category term="전세와 월세 계약 읽기" />
