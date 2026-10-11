@@ -26,7 +26,7 @@ if (root) {
       codes.forEach(code=>{
         const p=locations.points[code],r=get(code,'2026Q2');
         const x=24+(p.longitude-minX)/(maxX-minX)*312,y=330-(p.latitude-minY)/(maxY-minY)*285;
-        const group=node('g');group.append(node('title',{},data.regions[code]+': '+(r.status==='supported'?fmt(r.ratio)+'%':'지원 부족')));
+        const group=node('g');group.append(node('title',{},data.regions[code]+': '+(r.status==='supported'?fmt(r.ratio)+'%':'표본 부족')));
         if(r.status==='supported')group.append(node('circle',{cx:x,cy:y,r:8,fill:color(r),stroke:'#456579','stroke-width':1.5}));
         else group.append(node('path',{d:`M${x-5} ${y-5}l10 10m0-10l-10 10`,stroke:'#67737d','stroke-width':2}));
         svg.append(group);
@@ -34,7 +34,7 @@ if (root) {
       });
       selected.forEach(({x,y,code,r})=>{
         svg.append(node('circle',{cx:x,cy:y,r:13,fill:'none',stroke:'#bd5a08','stroke-width':3}));
-        svg.append(node('text',{x:180,y:353,'text-anchor':'middle','font-size':16,'font-weight':700,fill:'#173249',stroke:'#f5f8fb','stroke-width':4,'paint-order':'stroke'},data.regions[code]+' '+(r.status==='supported'?fmt(r.ratio)+'%':'지원 부족')));
+        svg.append(node('text',{x:180,y:353,'text-anchor':'middle','font-size':16,'font-weight':700,fill:'#173249',stroke:'#f5f8fb','stroke-width':4,'paint-order':'stroke'},data.regions[code]+' '+(r.status==='supported'?fmt(r.ratio)+'%':'표본 부족')));
       });
       return svg;
     }
@@ -58,13 +58,13 @@ if (root) {
       const tbody=root.querySelector('[data-history-rows]');tbody.replaceChildren();
       data.periods.forEach(period=>{
         const tr=document.createElement('tr'),th=document.createElement('th');th.scope='row';th.textContent=period;tr.append(th);
-        ['normal','all','normal_fixed'].forEach(mode=>{const r=get(region.value,period,mode),td=document.createElement('td');td.textContent=r.status==='supported'?fmt(r.ratio)+'%'+(r.lower!==null?' ('+fmt(r.lower)+'~'+fmt(r.upper)+')':' (범위 없음)'):(r.status==='withheld_direct_contrast'?'비교 보호로 비공개':'표본 지원 부족');tr.append(td);});tbody.append(tr);
+        ['normal','all','normal_fixed'].forEach(mode=>{const r=get(region.value,period,mode),td=document.createElement('td');td.textContent=r.status==='supported'?fmt(r.ratio)+'%'+(r.lower!==null?' ('+fmt(r.lower)+'~'+fmt(r.upper)+')':' (범위 없음)'):(r.status==='withheld_direct_contrast'?'비교 보호로 비공개':'표본 부족');tr.append(td);});tbody.append(tr);
       });
     }
     function render(){
       root.querySelector('[data-map-panels]').replaceChildren(map('11','서울 25구'),map('41','수집 경기 36지역'));
       const r=get(region.value,'2026Q2');
-      const text=data.regions[region.value]+' · '+area.selectedOptions[0].textContent+' · 2026년 2분기 말: '+(r.status==='supported'?fmt(r.ratio)+'%, 모형 범위 '+fmt(r.lower)+'~'+fmt(r.upper)+'%.':'표본 지원 부족.');
+      const text=data.regions[region.value]+' · '+area.selectedOptions[0].textContent+' · 2026년 2분기 말: '+(r.status==='supported'?fmt(r.ratio)+'%, 모형 범위 '+fmt(r.lower)+'~'+fmt(r.upper)+'%.':'표본 부족.');
       root.querySelector('[data-selection]').textContent=text;history();
     }
     region.addEventListener('change',render);area.addEventListener('change',render);render();root.dataset.ready='true';
