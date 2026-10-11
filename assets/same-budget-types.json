@@ -1,0 +1,823 @@
+{
+  "schema": "b058_current_choices_v2",
+  "reference_date": "2026-06-25",
+  "snapshot": "2026-10-04",
+  "kinds": {
+    "old_small": "서울 구축 59형",
+    "new_outer": "경기 외곽 신축 84형"
+  },
+  "rows": [
+    {
+      "kind": "old_small",
+      "radius": 30,
+      "budget": 60000,
+      "supported": true,
+      "pair_supported": true,
+      "sale_eok": 4.88,
+      "pair_sale_eok": 5.03,
+      "jeonse_eok": 3.12,
+      "ratio": 62.3,
+      "ratio_lower": 55.2,
+      "ratio_upper": 70.4,
+      "price_coverage": [
+        90,
+        100
+      ],
+      "budget_share": [
+        10,
+        20
+      ],
+      "pair_coverage": [
+        50,
+        60
+      ]
+    },
+    {
+      "kind": "old_small",
+      "radius": 30,
+      "budget": 90000,
+      "supported": true,
+      "pair_supported": true,
+      "sale_eok": 6.59,
+      "pair_sale_eok": 6.88,
+      "jeonse_eok": 3.55,
+      "ratio": 53.0,
+      "ratio_lower": 47.6,
+      "ratio_upper": 59.2,
+      "price_coverage": [
+        90,
+        100
+      ],
+      "budget_share": [
+        60,
+        70
+      ],
+      "pair_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "kind": "new_outer",
+      "radius": 25,
+      "budget": 60000,
+      "supported": false,
+      "pair_supported": false,
+      "sale_eok": null,
+      "pair_sale_eok": null,
+      "jeonse_eok": null,
+      "ratio": null,
+      "ratio_lower": null,
+      "ratio_upper": null,
+      "price_coverage": null,
+      "budget_share": null,
+      "pair_coverage": null
+    },
+    {
+      "kind": "new_outer",
+      "radius": 25,
+      "budget": 90000,
+      "supported": false,
+      "pair_supported": false,
+      "sale_eok": null,
+      "pair_sale_eok": null,
+      "jeonse_eok": null,
+      "ratio": null,
+      "ratio_lower": null,
+      "ratio_upper": null,
+      "price_coverage": null,
+      "budget_share": null,
+      "pair_coverage": null
+    },
+    {
+      "kind": "new_outer",
+      "radius": 30,
+      "budget": 60000,
+      "supported": true,
+      "pair_supported": true,
+      "sale_eok": 4.56,
+      "pair_sale_eok": 4.47,
+      "jeonse_eok": 3.04,
+      "ratio": 68.5,
+      "ratio_lower": 61.7,
+      "ratio_upper": 76.1,
+      "price_coverage": [
+        80,
+        90
+      ],
+      "budget_share": [
+        40,
+        50
+      ],
+      "pair_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "kind": "new_outer",
+      "radius": 30,
+      "budget": 90000,
+      "supported": true,
+      "pair_supported": true,
+      "sale_eok": 5.65,
+      "pair_sale_eok": 5.66,
+      "jeonse_eok": 3.65,
+      "ratio": 65.4,
+      "ratio_lower": 59.2,
+      "ratio_upper": 72.2,
+      "price_coverage": [
+        80,
+        90
+      ],
+      "budget_share": [
+        70,
+        80
+      ],
+      "pair_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "kind": "new_outer",
+      "radius": 35,
+      "budget": 60000,
+      "supported": false,
+      "pair_supported": false,
+      "sale_eok": null,
+      "pair_sale_eok": null,
+      "jeonse_eok": null,
+      "ratio": null,
+      "ratio_lower": null,
+      "ratio_upper": null,
+      "price_coverage": null,
+      "budget_share": null,
+      "pair_coverage": null
+    },
+    {
+      "kind": "new_outer",
+      "radius": 35,
+      "budget": 90000,
+      "supported": false,
+      "pair_supported": false,
+      "sale_eok": null,
+      "pair_sale_eok": null,
+      "jeonse_eok": null,
+      "ratio": null,
+      "ratio_lower": null,
+      "ratio_upper": null,
+      "price_coverage": null,
+      "budget_share": null,
+      "pair_coverage": null
+    }
+  ],
+  "history": [
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2022Q1",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2022Q2",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2022Q3",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2022Q4",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2023Q1",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2023Q2",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2023Q3",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2023Q4",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2024Q1",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2024Q2",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2024Q3",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2024Q4",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2025Q1",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2025Q2",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2025Q3",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2025Q4",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2026Q1",
+      "supported": true,
+      "index": 98.1
+    },
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2026Q2",
+      "supported": true,
+      "index": 100.0
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2022Q1",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2022Q2",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2022Q3",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2022Q4",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2023Q1",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2023Q2",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2023Q3",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2023Q4",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2024Q1",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2024Q2",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2024Q3",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2024Q4",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2025Q1",
+      "supported": true,
+      "index": 86.6
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2025Q2",
+      "supported": true,
+      "index": 87.4
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2025Q3",
+      "supported": true,
+      "index": 89.3
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2025Q4",
+      "supported": true,
+      "index": 90.2
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2026Q1",
+      "supported": true,
+      "index": 95.6
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2026Q2",
+      "supported": true,
+      "index": 100.0
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2022Q1",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2022Q2",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2022Q3",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2022Q4",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2023Q1",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2023Q2",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2023Q3",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2023Q4",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2024Q1",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2024Q2",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2024Q3",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2024Q4",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2025Q1",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2025Q2",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2025Q3",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2025Q4",
+      "supported": true,
+      "index": 100.1
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2026Q1",
+      "supported": true,
+      "index": 100.1
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2026Q2",
+      "supported": true,
+      "index": 100.0
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2022Q1",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2022Q2",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2022Q3",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2022Q4",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2023Q1",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2023Q2",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2023Q3",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2023Q4",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2024Q1",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2024Q2",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2024Q3",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2024Q4",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2025Q1",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2025Q2",
+      "supported": false,
+      "index": null
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2025Q3",
+      "supported": true,
+      "index": 98.9
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2025Q4",
+      "supported": true,
+      "index": 98.5
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2026Q1",
+      "supported": true,
+      "index": 99.5
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2026Q2",
+      "supported": true,
+      "index": 100.0
+    }
+  ],
+  "trading": [
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2025",
+      "supported": true,
+      "annual_rate": 3.2,
+      "exposure_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "kind": "old_small",
+      "budget": 60000,
+      "period": "2026H1",
+      "supported": true,
+      "annual_rate": 6.8,
+      "exposure_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2025",
+      "supported": true,
+      "annual_rate": 4.3,
+      "exposure_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "kind": "old_small",
+      "budget": 90000,
+      "period": "2026H1",
+      "supported": true,
+      "annual_rate": 7.1,
+      "exposure_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2025",
+      "supported": true,
+      "annual_rate": 2.7,
+      "exposure_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "kind": "new_outer",
+      "budget": 60000,
+      "period": "2026H1",
+      "supported": true,
+      "annual_rate": 3.6,
+      "exposure_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2025",
+      "supported": true,
+      "annual_rate": 2.9,
+      "exposure_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "kind": "new_outer",
+      "budget": 90000,
+      "period": "2026H1",
+      "supported": true,
+      "annual_rate": 4.8,
+      "exposure_coverage": [
+        90,
+        100
+      ]
+    }
+  ],
+  "common_changes": [
+    {
+      "budget": 60000,
+      "kind": "old_small",
+      "start": "2026Q1",
+      "end": "2026Q2",
+      "quarters": 2,
+      "change_pct": 1.9
+    },
+    {
+      "budget": 60000,
+      "kind": "new_outer",
+      "start": "2026Q1",
+      "end": "2026Q2",
+      "quarters": 2,
+      "change_pct": -0.1
+    },
+    {
+      "budget": 90000,
+      "kind": "old_small",
+      "start": "2025Q3",
+      "end": "2026Q2",
+      "quarters": 4,
+      "change_pct": 12.0
+    },
+    {
+      "budget": 90000,
+      "kind": "new_outer",
+      "start": "2025Q3",
+      "end": "2026Q2",
+      "quarters": 4,
+      "change_pct": 1.1
+    }
+  ],
+  "definitions": {
+    "budgets": "Inclusive illustrative purchase-price ceilings, not equal realized prices, household financing or disjoint bands.",
+    "types": "Seoul age>=30 UnitTypes17/18 versus collected Gyeonggi age0-4 UnitTypes25/26, legal-locality reference distance>=30km. 25/35km are sensitivity only.",
+    "weights": "Current measured area households; matched sale/jeonse means and household mean native ratio use their own covered subset.",
+    "history": "Retrospective current-budget cohort, chained household-weighted native relatives;2026Q2=100, unavailable dates remain null.",
+    "trading": "Strict observed contracts divided by current measured eligible stock built before window-start year, per100households annualized using365.25days; not sale probability.",
+    "uncertainty": "Ratio lower/upper are weighted native uncalibrated envelopes, not confidence intervals.",
+    "precision": "Prices0.01eok; ratios,index,annualized frequency0.1; coverage10percentage-point closed intervals. Exact contract/household/complex counts and identifiers withheld."
+  },
+  "sources": {
+    "sale": "https://www.data.go.kr/data/15126469/openapi.do",
+    "rent": "https://www.data.go.kr/data/15126474/openapi.do"
+  },
+  "limitations": [
+    "Not current listings, historical inventory, matched individual homes or causal effects of age/area/location.",
+    "No commute, repair cost, redevelopment-status, debt or personal suitability inputs.",
+    "Only already-valid links shown; removal of a blanket four-quarter article gate does not relax price quality."
+  ]
+}
