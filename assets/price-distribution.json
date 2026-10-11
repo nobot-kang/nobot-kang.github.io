@@ -1,0 +1,4500 @@
+{
+  "schema": "b025_public_v1",
+  "period": [
+    "2010Q1",
+    "2026Q2"
+  ],
+  "geography": "Current Seoul 25 districts",
+  "groups": {
+    "all": "All exclusive areas",
+    "p25_26": "Native exclusive area UnitTypes 25 and 26, not 84 <= sqm < 85"
+  },
+  "observed": "Whole-quarter invariant eligible sale contracts, includes cancellation/direct deals, excludes land leasehold; each contract one vote",
+  "stock": "Supported native structural model prices at final completed Thursday; qualified within-complex area transfers retained; current measured exact-area households, known pre-construction stock excluded",
+  "quantile": "Inverse weighted empirical CDF: smallest price with cumulative mass at least q of total; P90/P10 is not top-decile mean over bottom-decile mean",
+  "precision": "Price/gap: 0.1 KRW hundred-million; ratios: 0.1; composition/known-stock coverage/transfer shares: whole percent. Each rounded independently.",
+  "support": "At least 40 contracts or 100 households and 10 complexes; each <=P10 / >=P90 tail at least 10 mass and 10 complexes; stock maximum complex share 20%",
+  "snapshot_built_date": "2026-10-04",
+  "information_cutoff": null,
+  "sources": [
+    "https://www.data.go.kr/data/15126468/openapi.do",
+    "https://www.k-apt.go.kr/"
+  ],
+  "limitations": [
+    "Not household wealth inequality or same-home appreciation",
+    "Historical stock is current measured weights, not historical inventory",
+    "Unknown-area stock is outside coverage denominator",
+    "Full-history fixed stock fails tail support in every period; no fixed-path price values released",
+    "Unknown/future age remains in composition denominator but small category value is not shown"
+  ],
+  "rows": [
+    {
+      "period": "2010Q1",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.2,
+      "p50_eok": 3.9,
+      "p90_eok": 9.2,
+      "ratio": 4.2,
+      "gap_eok": 7.0
+    },
+    {
+      "period": "2010Q1",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.1,
+      "p50_eok": 4.4,
+      "p90_eok": 7.6,
+      "ratio": 2.5,
+      "gap_eok": 4.5
+    },
+    {
+      "period": "2010Q1",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.2,
+      "p50_eok": 4.3,
+      "p90_eok": 10.0,
+      "ratio": 4.4,
+      "gap_eok": 7.7,
+      "known_stock_coverage_pct": 42.0,
+      "transferred_pct": 14.0
+    },
+    {
+      "period": "2010Q1",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.5,
+      "p50_eok": 5.0,
+      "p90_eok": 9.8,
+      "ratio": 2.8,
+      "gap_eok": 6.4,
+      "known_stock_coverage_pct": 42.0,
+      "transferred_pct": 6.0
+    },
+    {
+      "period": "2010Q1",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2010Q1",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2010Q2",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.0,
+      "p50_eok": 3.6,
+      "p90_eok": 8.3,
+      "ratio": 4.2,
+      "gap_eok": 6.3
+    },
+    {
+      "period": "2010Q2",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.0,
+      "p50_eok": 4.1,
+      "p90_eok": 7.4,
+      "ratio": 2.5,
+      "gap_eok": 4.5
+    },
+    {
+      "period": "2010Q2",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.2,
+      "p50_eok": 4.1,
+      "p90_eok": 9.1,
+      "ratio": 4.2,
+      "gap_eok": 6.9,
+      "known_stock_coverage_pct": 54.0,
+      "transferred_pct": 11.0
+    },
+    {
+      "period": "2010Q2",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.3,
+      "p50_eok": 4.7,
+      "p90_eok": 8.4,
+      "ratio": 2.5,
+      "gap_eok": 5.1,
+      "known_stock_coverage_pct": 56.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2010Q2",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2010Q2",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2010Q3",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.0,
+      "p50_eok": 3.8,
+      "p90_eok": 9.0,
+      "ratio": 4.5,
+      "gap_eok": 7.0
+    },
+    {
+      "period": "2010Q3",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.9,
+      "p50_eok": 4.2,
+      "p90_eok": 7.7,
+      "ratio": 2.6,
+      "gap_eok": 4.7
+    },
+    {
+      "period": "2010Q3",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.1,
+      "p50_eok": 4.1,
+      "p90_eok": 9.0,
+      "ratio": 4.2,
+      "gap_eok": 6.9,
+      "known_stock_coverage_pct": 61.0,
+      "transferred_pct": 8.0
+    },
+    {
+      "period": "2010Q3",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.2,
+      "p50_eok": 4.6,
+      "p90_eok": 8.5,
+      "ratio": 2.6,
+      "gap_eok": 5.2,
+      "known_stock_coverage_pct": 63.0,
+      "transferred_pct": 3.0
+    },
+    {
+      "period": "2010Q3",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2010Q3",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2010Q4",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.1,
+      "p50_eok": 4.1,
+      "p90_eok": 9.5,
+      "ratio": 4.5,
+      "gap_eok": 7.4
+    },
+    {
+      "period": "2010Q4",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.1,
+      "p50_eok": 4.5,
+      "p90_eok": 8.0,
+      "ratio": 2.6,
+      "gap_eok": 4.9
+    },
+    {
+      "period": "2010Q4",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.2,
+      "p50_eok": 4.2,
+      "p90_eok": 9.6,
+      "ratio": 4.4,
+      "gap_eok": 7.4,
+      "known_stock_coverage_pct": 74.0,
+      "transferred_pct": 6.0
+    },
+    {
+      "period": "2010Q4",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.2,
+      "p50_eok": 4.6,
+      "p90_eok": 8.2,
+      "ratio": 2.5,
+      "gap_eok": 5.0,
+      "known_stock_coverage_pct": 77.0,
+      "transferred_pct": 2.0
+    },
+    {
+      "period": "2010Q4",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2010Q4",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2011Q1",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.2,
+      "p50_eok": 3.8,
+      "p90_eok": 7.9,
+      "ratio": 3.6,
+      "gap_eok": 5.7
+    },
+    {
+      "period": "2011Q1",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.1,
+      "p50_eok": 4.3,
+      "p90_eok": 7.2,
+      "ratio": 2.3,
+      "gap_eok": 4.1
+    },
+    {
+      "period": "2011Q1",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.3,
+      "p50_eok": 4.2,
+      "p90_eok": 9.5,
+      "ratio": 4.1,
+      "gap_eok": 7.2,
+      "known_stock_coverage_pct": 80.0,
+      "transferred_pct": 6.0
+    },
+    {
+      "period": "2011Q1",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.3,
+      "p50_eok": 4.6,
+      "p90_eok": 8.2,
+      "ratio": 2.5,
+      "gap_eok": 4.9,
+      "known_stock_coverage_pct": 83.0,
+      "transferred_pct": 1.0
+    },
+    {
+      "period": "2011Q1",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2011Q1",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2011Q2",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.1,
+      "p50_eok": 3.7,
+      "p90_eok": 8.1,
+      "ratio": 3.9,
+      "gap_eok": 6.0
+    },
+    {
+      "period": "2011Q2",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.0,
+      "p50_eok": 4.2,
+      "p90_eok": 7.1,
+      "ratio": 2.4,
+      "gap_eok": 4.1
+    },
+    {
+      "period": "2011Q2",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.3,
+      "p50_eok": 4.2,
+      "p90_eok": 9.1,
+      "ratio": 4.0,
+      "gap_eok": 6.8,
+      "known_stock_coverage_pct": 81.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2011Q2",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.3,
+      "p50_eok": 4.6,
+      "p90_eok": 8.0,
+      "ratio": 2.4,
+      "gap_eok": 4.7,
+      "known_stock_coverage_pct": 85.0,
+      "transferred_pct": 1.0
+    },
+    {
+      "period": "2011Q2",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2011Q2",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2011Q3",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.1,
+      "p50_eok": 3.6,
+      "p90_eok": 7.9,
+      "ratio": 3.9,
+      "gap_eok": 5.9
+    },
+    {
+      "period": "2011Q3",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.0,
+      "p50_eok": 4.2,
+      "p90_eok": 7.5,
+      "ratio": 2.5,
+      "gap_eok": 4.5
+    },
+    {
+      "period": "2011Q3",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.3,
+      "p50_eok": 4.1,
+      "p90_eok": 9.1,
+      "ratio": 4.0,
+      "gap_eok": 6.8,
+      "known_stock_coverage_pct": 80.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2011Q3",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.2,
+      "p50_eok": 4.6,
+      "p90_eok": 8.0,
+      "ratio": 2.5,
+      "gap_eok": 4.7,
+      "known_stock_coverage_pct": 84.0,
+      "transferred_pct": 1.0
+    },
+    {
+      "period": "2011Q3",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2011Q3",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2011Q4",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.1,
+      "p50_eok": 3.8,
+      "p90_eok": 8.4,
+      "ratio": 4.1,
+      "gap_eok": 6.3
+    },
+    {
+      "period": "2011Q4",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.0,
+      "p50_eok": 4.2,
+      "p90_eok": 7.5,
+      "ratio": 2.5,
+      "gap_eok": 4.5
+    },
+    {
+      "period": "2011Q4",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.2,
+      "p50_eok": 4.1,
+      "p90_eok": 8.9,
+      "ratio": 4.0,
+      "gap_eok": 6.7,
+      "known_stock_coverage_pct": 82.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2011Q4",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.2,
+      "p50_eok": 4.4,
+      "p90_eok": 7.9,
+      "ratio": 2.5,
+      "gap_eok": 4.7,
+      "known_stock_coverage_pct": 85.0,
+      "transferred_pct": 1.0
+    },
+    {
+      "period": "2011Q4",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2011Q4",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2012Q1",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.0,
+      "p50_eok": 3.5,
+      "p90_eok": 7.5,
+      "ratio": 3.8,
+      "gap_eok": 5.5
+    },
+    {
+      "period": "2012Q1",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.0,
+      "p50_eok": 4.1,
+      "p90_eok": 6.7,
+      "ratio": 2.3,
+      "gap_eok": 3.8
+    },
+    {
+      "period": "2012Q1",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.2,
+      "p50_eok": 4.0,
+      "p90_eok": 8.5,
+      "ratio": 3.8,
+      "gap_eok": 6.3,
+      "known_stock_coverage_pct": 79.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2012Q1",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.2,
+      "p50_eok": 4.4,
+      "p90_eok": 7.5,
+      "ratio": 2.4,
+      "gap_eok": 4.3,
+      "known_stock_coverage_pct": 83.0,
+      "transferred_pct": 1.0
+    },
+    {
+      "period": "2012Q1",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2012Q1",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2012Q2",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.0,
+      "p50_eok": 3.6,
+      "p90_eok": 8.2,
+      "ratio": 4.2,
+      "gap_eok": 6.3
+    },
+    {
+      "period": "2012Q2",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.9,
+      "p50_eok": 4.1,
+      "p90_eok": 7.5,
+      "ratio": 2.6,
+      "gap_eok": 4.6
+    },
+    {
+      "period": "2012Q2",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.2,
+      "p50_eok": 4.0,
+      "p90_eok": 8.6,
+      "ratio": 3.9,
+      "gap_eok": 6.4,
+      "known_stock_coverage_pct": 78.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2012Q2",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.1,
+      "p50_eok": 4.4,
+      "p90_eok": 7.4,
+      "ratio": 2.4,
+      "gap_eok": 4.3,
+      "known_stock_coverage_pct": 82.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2012Q2",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2012Q2",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2012Q3",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 1.9,
+      "p50_eok": 3.5,
+      "p90_eok": 7.9,
+      "ratio": 4.2,
+      "gap_eok": 6.0
+    },
+    {
+      "period": "2012Q3",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.8,
+      "p50_eok": 4.0,
+      "p90_eok": 7.3,
+      "ratio": 2.6,
+      "gap_eok": 4.5
+    },
+    {
+      "period": "2012Q3",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.1,
+      "p50_eok": 3.9,
+      "p90_eok": 8.5,
+      "ratio": 4.0,
+      "gap_eok": 6.4,
+      "known_stock_coverage_pct": 76.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2012Q3",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.1,
+      "p50_eok": 4.3,
+      "p90_eok": 7.2,
+      "ratio": 2.3,
+      "gap_eok": 4.1,
+      "known_stock_coverage_pct": 79.0,
+      "transferred_pct": 1.0
+    },
+    {
+      "period": "2012Q3",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2012Q3",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2012Q4",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.0,
+      "p50_eok": 3.7,
+      "p90_eok": 8.2,
+      "ratio": 4.2,
+      "gap_eok": 6.2
+    },
+    {
+      "period": "2012Q4",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.9,
+      "p50_eok": 4.1,
+      "p90_eok": 7.4,
+      "ratio": 2.6,
+      "gap_eok": 4.5
+    },
+    {
+      "period": "2012Q4",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.1,
+      "p50_eok": 3.8,
+      "p90_eok": 8.1,
+      "ratio": 3.8,
+      "gap_eok": 6.0,
+      "known_stock_coverage_pct": 79.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2012Q4",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.0,
+      "p50_eok": 4.2,
+      "p90_eok": 6.9,
+      "ratio": 2.3,
+      "gap_eok": 3.9,
+      "known_stock_coverage_pct": 83.0,
+      "transferred_pct": 1.0
+    },
+    {
+      "period": "2012Q4",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2012Q4",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2013Q1",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.0,
+      "p50_eok": 3.7,
+      "p90_eok": 8.3,
+      "ratio": 4.1,
+      "gap_eok": 6.3
+    },
+    {
+      "period": "2013Q1",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.9,
+      "p50_eok": 4.1,
+      "p90_eok": 7.3,
+      "ratio": 2.5,
+      "gap_eok": 4.4
+    },
+    {
+      "period": "2013Q1",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.2,
+      "p50_eok": 3.9,
+      "p90_eok": 8.4,
+      "ratio": 3.9,
+      "gap_eok": 6.3,
+      "known_stock_coverage_pct": 82.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2013Q1",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.0,
+      "p50_eok": 4.1,
+      "p90_eok": 7.1,
+      "ratio": 2.3,
+      "gap_eok": 4.1,
+      "known_stock_coverage_pct": 86.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2013Q1",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2013Q1",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2013Q2",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.0,
+      "p50_eok": 3.6,
+      "p90_eok": 7.8,
+      "ratio": 3.9,
+      "gap_eok": 5.8
+    },
+    {
+      "period": "2013Q2",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.9,
+      "p50_eok": 4.0,
+      "p90_eok": 6.7,
+      "ratio": 2.3,
+      "gap_eok": 3.8
+    },
+    {
+      "period": "2013Q2",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.2,
+      "p50_eok": 3.9,
+      "p90_eok": 8.4,
+      "ratio": 3.9,
+      "gap_eok": 6.2,
+      "known_stock_coverage_pct": 85.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2013Q2",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.0,
+      "p50_eok": 4.2,
+      "p90_eok": 7.1,
+      "ratio": 2.4,
+      "gap_eok": 4.1,
+      "known_stock_coverage_pct": 89.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2013Q2",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2013Q2",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2013Q3",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.0,
+      "p50_eok": 3.5,
+      "p90_eok": 6.9,
+      "ratio": 3.5,
+      "gap_eok": 4.9
+    },
+    {
+      "period": "2013Q3",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.9,
+      "p50_eok": 4.0,
+      "p90_eok": 6.2,
+      "ratio": 2.1,
+      "gap_eok": 3.3
+    },
+    {
+      "period": "2013Q3",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.2,
+      "p50_eok": 3.9,
+      "p90_eok": 8.2,
+      "ratio": 3.7,
+      "gap_eok": 6.0,
+      "known_stock_coverage_pct": 86.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2013Q3",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.0,
+      "p50_eok": 4.2,
+      "p90_eok": 7.1,
+      "ratio": 2.3,
+      "gap_eok": 4.1,
+      "known_stock_coverage_pct": 90.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2013Q3",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2013Q3",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2013Q4",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.1,
+      "p50_eok": 3.8,
+      "p90_eok": 7.8,
+      "ratio": 3.7,
+      "gap_eok": 5.7
+    },
+    {
+      "period": "2013Q4",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.0,
+      "p50_eok": 4.1,
+      "p90_eok": 6.9,
+      "ratio": 2.3,
+      "gap_eok": 3.9
+    },
+    {
+      "period": "2013Q4",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.2,
+      "p50_eok": 3.9,
+      "p90_eok": 8.3,
+      "ratio": 3.8,
+      "gap_eok": 6.1,
+      "known_stock_coverage_pct": 88.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2013Q4",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.1,
+      "p50_eok": 4.2,
+      "p90_eok": 7.2,
+      "ratio": 2.3,
+      "gap_eok": 4.1,
+      "known_stock_coverage_pct": 92.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2013Q4",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2013Q4",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2014Q1",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.1,
+      "p50_eok": 3.8,
+      "p90_eok": 8.0,
+      "ratio": 3.8,
+      "gap_eok": 5.9
+    },
+    {
+      "period": "2014Q1",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.0,
+      "p50_eok": 4.2,
+      "p90_eok": 6.8,
+      "ratio": 2.3,
+      "gap_eok": 3.8
+    },
+    {
+      "period": "2014Q1",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.3,
+      "p50_eok": 4.0,
+      "p90_eok": 8.6,
+      "ratio": 3.8,
+      "gap_eok": 6.4,
+      "known_stock_coverage_pct": 89.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2014Q1",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.1,
+      "p50_eok": 4.3,
+      "p90_eok": 7.3,
+      "ratio": 2.3,
+      "gap_eok": 4.2,
+      "known_stock_coverage_pct": 93.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2014Q1",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2014Q1",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2014Q2",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.0,
+      "p50_eok": 3.7,
+      "p90_eok": 7.6,
+      "ratio": 3.7,
+      "gap_eok": 5.6
+    },
+    {
+      "period": "2014Q2",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.0,
+      "p50_eok": 4.1,
+      "p90_eok": 6.6,
+      "ratio": 2.2,
+      "gap_eok": 3.6
+    },
+    {
+      "period": "2014Q2",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.3,
+      "p50_eok": 4.0,
+      "p90_eok": 8.5,
+      "ratio": 3.8,
+      "gap_eok": 6.3,
+      "known_stock_coverage_pct": 89.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2014Q2",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.1,
+      "p50_eok": 4.3,
+      "p90_eok": 7.4,
+      "ratio": 2.4,
+      "gap_eok": 4.3,
+      "known_stock_coverage_pct": 92.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2014Q2",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2014Q2",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2014Q3",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.1,
+      "p50_eok": 3.8,
+      "p90_eok": 8.1,
+      "ratio": 3.9,
+      "gap_eok": 6.0
+    },
+    {
+      "period": "2014Q3",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.0,
+      "p50_eok": 4.2,
+      "p90_eok": 7.0,
+      "ratio": 2.3,
+      "gap_eok": 4.0
+    },
+    {
+      "period": "2014Q3",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.3,
+      "p50_eok": 4.1,
+      "p90_eok": 8.8,
+      "ratio": 3.9,
+      "gap_eok": 6.5,
+      "known_stock_coverage_pct": 89.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2014Q3",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.1,
+      "p50_eok": 4.4,
+      "p90_eok": 7.5,
+      "ratio": 2.4,
+      "gap_eok": 4.3,
+      "known_stock_coverage_pct": 93.0,
+      "transferred_pct": 1.0
+    },
+    {
+      "period": "2014Q3",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2014Q3",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2014Q4",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.1,
+      "p50_eok": 3.8,
+      "p90_eok": 7.9,
+      "ratio": 3.8,
+      "gap_eok": 5.8
+    },
+    {
+      "period": "2014Q4",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.1,
+      "p50_eok": 4.3,
+      "p90_eok": 6.8,
+      "ratio": 2.2,
+      "gap_eok": 3.8
+    },
+    {
+      "period": "2014Q4",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.3,
+      "p50_eok": 4.1,
+      "p90_eok": 8.9,
+      "ratio": 3.9,
+      "gap_eok": 6.6,
+      "known_stock_coverage_pct": 91.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2014Q4",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.2,
+      "p50_eok": 4.4,
+      "p90_eok": 7.7,
+      "ratio": 2.4,
+      "gap_eok": 4.5,
+      "known_stock_coverage_pct": 94.0,
+      "transferred_pct": 1.0
+    },
+    {
+      "period": "2014Q4",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2014Q4",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2015Q1",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.2,
+      "p50_eok": 3.9,
+      "p90_eok": 7.7,
+      "ratio": 3.5,
+      "gap_eok": 5.5
+    },
+    {
+      "period": "2015Q1",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.1,
+      "p50_eok": 4.3,
+      "p90_eok": 7.0,
+      "ratio": 2.3,
+      "gap_eok": 3.9
+    },
+    {
+      "period": "2015Q1",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.4,
+      "p50_eok": 4.2,
+      "p90_eok": 9.0,
+      "ratio": 3.8,
+      "gap_eok": 6.6,
+      "known_stock_coverage_pct": 91.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2015Q1",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.2,
+      "p50_eok": 4.5,
+      "p90_eok": 7.8,
+      "ratio": 2.4,
+      "gap_eok": 4.5,
+      "known_stock_coverage_pct": 95.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2015Q1",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2015Q1",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2015Q2",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.2,
+      "p50_eok": 4.0,
+      "p90_eok": 8.0,
+      "ratio": 3.6,
+      "gap_eok": 5.8
+    },
+    {
+      "period": "2015Q2",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.1,
+      "p50_eok": 4.4,
+      "p90_eok": 7.1,
+      "ratio": 2.3,
+      "gap_eok": 4.0
+    },
+    {
+      "period": "2015Q2",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.4,
+      "p50_eok": 4.3,
+      "p90_eok": 9.1,
+      "ratio": 3.7,
+      "gap_eok": 6.7,
+      "known_stock_coverage_pct": 93.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2015Q2",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.3,
+      "p50_eok": 4.6,
+      "p90_eok": 7.9,
+      "ratio": 2.4,
+      "gap_eok": 4.6,
+      "known_stock_coverage_pct": 96.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2015Q2",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2015Q2",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2015Q3",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.2,
+      "p50_eok": 4.0,
+      "p90_eok": 8.1,
+      "ratio": 3.7,
+      "gap_eok": 5.9
+    },
+    {
+      "period": "2015Q3",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.2,
+      "p50_eok": 4.5,
+      "p90_eok": 7.3,
+      "ratio": 2.3,
+      "gap_eok": 4.1
+    },
+    {
+      "period": "2015Q3",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.5,
+      "p50_eok": 4.5,
+      "p90_eok": 9.3,
+      "ratio": 3.7,
+      "gap_eok": 6.8,
+      "known_stock_coverage_pct": 93.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2015Q3",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.4,
+      "p50_eok": 4.8,
+      "p90_eok": 8.2,
+      "ratio": 2.4,
+      "gap_eok": 4.8,
+      "known_stock_coverage_pct": 96.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2015Q3",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2015Q3",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2015Q4",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.3,
+      "p50_eok": 4.3,
+      "p90_eok": 9.0,
+      "ratio": 3.9,
+      "gap_eok": 6.7
+    },
+    {
+      "period": "2015Q4",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.3,
+      "p50_eok": 4.7,
+      "p90_eok": 7.9,
+      "ratio": 2.4,
+      "gap_eok": 4.6
+    },
+    {
+      "period": "2015Q4",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.6,
+      "p50_eok": 4.5,
+      "p90_eok": 9.6,
+      "ratio": 3.7,
+      "gap_eok": 7.0,
+      "known_stock_coverage_pct": 93.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2015Q4",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.4,
+      "p50_eok": 4.8,
+      "p90_eok": 8.3,
+      "ratio": 2.4,
+      "gap_eok": 4.8,
+      "known_stock_coverage_pct": 96.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2015Q4",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2015Q4",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2016Q1",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.2,
+      "p50_eok": 4.1,
+      "p90_eok": 8.2,
+      "ratio": 3.7,
+      "gap_eok": 6.0
+    },
+    {
+      "period": "2016Q1",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.2,
+      "p50_eok": 4.5,
+      "p90_eok": 7.3,
+      "ratio": 2.3,
+      "gap_eok": 4.0
+    },
+    {
+      "period": "2016Q1",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.6,
+      "p50_eok": 4.5,
+      "p90_eok": 9.3,
+      "ratio": 3.6,
+      "gap_eok": 6.8,
+      "known_stock_coverage_pct": 89.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2016Q1",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.5,
+      "p50_eok": 4.8,
+      "p90_eok": 8.4,
+      "ratio": 2.4,
+      "gap_eok": 4.9,
+      "known_stock_coverage_pct": 93.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2016Q1",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2016Q1",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2016Q2",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.4,
+      "p50_eok": 4.5,
+      "p90_eok": 9.5,
+      "ratio": 3.9,
+      "gap_eok": 7.1
+    },
+    {
+      "period": "2016Q2",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.4,
+      "p50_eok": 4.9,
+      "p90_eok": 8.7,
+      "ratio": 2.5,
+      "gap_eok": 5.2
+    },
+    {
+      "period": "2016Q2",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.6,
+      "p50_eok": 4.7,
+      "p90_eok": 9.9,
+      "ratio": 3.8,
+      "gap_eok": 7.3,
+      "known_stock_coverage_pct": 92.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2016Q2",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.5,
+      "p50_eok": 4.9,
+      "p90_eok": 8.6,
+      "ratio": 2.4,
+      "gap_eok": 5.1,
+      "known_stock_coverage_pct": 95.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2016Q2",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2016Q2",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2016Q3",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.6,
+      "p50_eok": 4.6,
+      "p90_eok": 9.3,
+      "ratio": 3.6,
+      "gap_eok": 6.8
+    },
+    {
+      "period": "2016Q3",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.5,
+      "p50_eok": 5.0,
+      "p90_eok": 8.1,
+      "ratio": 2.3,
+      "gap_eok": 4.6
+    },
+    {
+      "period": "2016Q3",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.8,
+      "p50_eok": 4.8,
+      "p90_eok": 10.7,
+      "ratio": 3.9,
+      "gap_eok": 8.0,
+      "known_stock_coverage_pct": 93.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2016Q3",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.6,
+      "p50_eok": 5.1,
+      "p90_eok": 9.0,
+      "ratio": 2.5,
+      "gap_eok": 5.4,
+      "known_stock_coverage_pct": 96.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2016Q3",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2016Q3",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2016Q4",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.6,
+      "p50_eok": 4.7,
+      "p90_eok": 9.0,
+      "ratio": 3.5,
+      "gap_eok": 6.5
+    },
+    {
+      "period": "2016Q4",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.5,
+      "p50_eok": 5.0,
+      "p90_eok": 8.0,
+      "ratio": 2.3,
+      "gap_eok": 4.5
+    },
+    {
+      "period": "2016Q4",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.8,
+      "p50_eok": 5.0,
+      "p90_eok": 10.7,
+      "ratio": 3.8,
+      "gap_eok": 7.9,
+      "known_stock_coverage_pct": 93.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2016Q4",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.7,
+      "p50_eok": 5.2,
+      "p90_eok": 9.1,
+      "ratio": 2.5,
+      "gap_eok": 5.4,
+      "known_stock_coverage_pct": 96.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2016Q4",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2016Q4",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2017Q1",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.5,
+      "p50_eok": 4.6,
+      "p90_eok": 9.6,
+      "ratio": 3.9,
+      "gap_eok": 7.2
+    },
+    {
+      "period": "2017Q1",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.5,
+      "p50_eok": 5.0,
+      "p90_eok": 8.5,
+      "ratio": 2.4,
+      "gap_eok": 5.0
+    },
+    {
+      "period": "2017Q1",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.8,
+      "p50_eok": 5.0,
+      "p90_eok": 10.8,
+      "ratio": 3.8,
+      "gap_eok": 8.0,
+      "known_stock_coverage_pct": 89.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2017Q1",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.7,
+      "p50_eok": 5.3,
+      "p90_eok": 9.1,
+      "ratio": 2.5,
+      "gap_eok": 5.4,
+      "known_stock_coverage_pct": 93.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2017Q1",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2017Q1",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2017Q2",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.7,
+      "p50_eok": 5.0,
+      "p90_eok": 10.6,
+      "ratio": 3.9,
+      "gap_eok": 7.9
+    },
+    {
+      "period": "2017Q2",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.7,
+      "p50_eok": 5.4,
+      "p90_eok": 9.2,
+      "ratio": 2.5,
+      "gap_eok": 5.5
+    },
+    {
+      "period": "2017Q2",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 2.9,
+      "p50_eok": 5.1,
+      "p90_eok": 11.6,
+      "ratio": 4.0,
+      "gap_eok": 8.7,
+      "known_stock_coverage_pct": 93.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2017Q2",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.8,
+      "p50_eok": 5.4,
+      "p90_eok": 9.7,
+      "ratio": 2.6,
+      "gap_eok": 5.9,
+      "known_stock_coverage_pct": 95.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2017Q2",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2017Q2",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2017Q3",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.8,
+      "p50_eok": 5.1,
+      "p90_eok": 11.1,
+      "ratio": 4.0,
+      "gap_eok": 8.3
+    },
+    {
+      "period": "2017Q3",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.7,
+      "p50_eok": 5.5,
+      "p90_eok": 9.0,
+      "ratio": 2.4,
+      "gap_eok": 5.3
+    },
+    {
+      "period": "2017Q3",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.0,
+      "p50_eok": 5.4,
+      "p90_eok": 12.1,
+      "ratio": 4.0,
+      "gap_eok": 9.0,
+      "known_stock_coverage_pct": 93.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2017Q3",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.9,
+      "p50_eok": 5.7,
+      "p90_eok": 10.2,
+      "ratio": 2.7,
+      "gap_eok": 6.4,
+      "known_stock_coverage_pct": 96.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2017Q3",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2017Q3",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2017Q4",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.0,
+      "p50_eok": 5.7,
+      "p90_eok": 13.0,
+      "ratio": 4.4,
+      "gap_eok": 10.0
+    },
+    {
+      "period": "2017Q4",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 4.0,
+      "p50_eok": 6.0,
+      "p90_eok": 11.5,
+      "ratio": 2.9,
+      "gap_eok": 7.5
+    },
+    {
+      "period": "2017Q4",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.0,
+      "p50_eok": 5.5,
+      "p90_eok": 13.0,
+      "ratio": 4.3,
+      "gap_eok": 9.9,
+      "known_stock_coverage_pct": 92.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2017Q4",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.9,
+      "p50_eok": 5.8,
+      "p90_eok": 11.5,
+      "ratio": 2.9,
+      "gap_eok": 7.5,
+      "known_stock_coverage_pct": 95.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2017Q4",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2017Q4",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2018Q1",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.9,
+      "p50_eok": 5.3,
+      "p90_eok": 11.5,
+      "ratio": 4.0,
+      "gap_eok": 8.7
+    },
+    {
+      "period": "2018Q1",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.9,
+      "p50_eok": 5.6,
+      "p90_eok": 9.5,
+      "ratio": 2.4,
+      "gap_eok": 5.6
+    },
+    {
+      "period": "2018Q1",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.1,
+      "p50_eok": 5.9,
+      "p90_eok": 14.0,
+      "ratio": 4.5,
+      "gap_eok": 10.9,
+      "known_stock_coverage_pct": 91.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2018Q1",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 4.0,
+      "p50_eok": 6.2,
+      "p90_eok": 12.4,
+      "ratio": 3.1,
+      "gap_eok": 8.4,
+      "known_stock_coverage_pct": 93.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2018Q1",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2018Q1",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2018Q2",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.7,
+      "p50_eok": 5.0,
+      "p90_eok": 10.0,
+      "ratio": 3.7,
+      "gap_eok": 7.2
+    },
+    {
+      "period": "2018Q2",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.7,
+      "p50_eok": 5.4,
+      "p90_eok": 9.0,
+      "ratio": 2.4,
+      "gap_eok": 5.3
+    },
+    {
+      "period": "2018Q2",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.2,
+      "p50_eok": 6.0,
+      "p90_eok": 13.7,
+      "ratio": 4.3,
+      "gap_eok": 10.6,
+      "known_stock_coverage_pct": 90.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2018Q2",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 4.0,
+      "p50_eok": 6.4,
+      "p90_eok": 12.2,
+      "ratio": 3.0,
+      "gap_eok": 8.1,
+      "known_stock_coverage_pct": 92.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2018Q2",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2018Q2",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2018Q3",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.9,
+      "p50_eok": 5.7,
+      "p90_eok": 13.2,
+      "ratio": 4.5,
+      "gap_eok": 10.3
+    },
+    {
+      "period": "2018Q3",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.8,
+      "p50_eok": 6.3,
+      "p90_eok": 12.1,
+      "ratio": 3.1,
+      "gap_eok": 8.2
+    },
+    {
+      "period": "2018Q3",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.4,
+      "p50_eok": 6.6,
+      "p90_eok": 15.3,
+      "ratio": 4.5,
+      "gap_eok": 11.9,
+      "known_stock_coverage_pct": 90.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2018Q3",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 4.3,
+      "p50_eok": 7.1,
+      "p90_eok": 13.7,
+      "ratio": 3.2,
+      "gap_eok": 9.4,
+      "known_stock_coverage_pct": 92.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2018Q3",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2018Q3",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2018Q4",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.5,
+      "p50_eok": 4.9,
+      "p90_eok": 12.0,
+      "ratio": 4.9,
+      "gap_eok": 9.5
+    },
+    {
+      "period": "2018Q4",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.8,
+      "p50_eok": 5.8,
+      "p90_eok": 10.5,
+      "ratio": 2.8,
+      "gap_eok": 6.8
+    },
+    {
+      "period": "2018Q4",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.5,
+      "p50_eok": 6.8,
+      "p90_eok": 15.1,
+      "ratio": 4.3,
+      "gap_eok": 11.5,
+      "known_stock_coverage_pct": 87.0,
+      "transferred_pct": 3.0
+    },
+    {
+      "period": "2018Q4",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 4.4,
+      "p50_eok": 7.3,
+      "p90_eok": 13.9,
+      "ratio": 3.2,
+      "gap_eok": 9.5,
+      "known_stock_coverage_pct": 91.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2018Q4",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2018Q4",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2019Q1",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.3,
+      "p50_eok": 4.9,
+      "p90_eok": 13.3,
+      "ratio": 5.8,
+      "gap_eok": 11.0
+    },
+    {
+      "period": "2019Q1",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.7,
+      "p50_eok": 6.0,
+      "p90_eok": 12.7,
+      "ratio": 3.4,
+      "gap_eok": 9.0
+    },
+    {
+      "period": "2019Q1",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.4,
+      "p50_eok": 6.5,
+      "p90_eok": 14.3,
+      "ratio": 4.2,
+      "gap_eok": 10.9,
+      "known_stock_coverage_pct": 62.0,
+      "transferred_pct": 3.0
+    },
+    {
+      "period": "2019Q1",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 4.4,
+      "p50_eok": 7.1,
+      "p90_eok": 13.7,
+      "ratio": 3.1,
+      "gap_eok": 9.3,
+      "known_stock_coverage_pct": 66.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2019Q1",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2019Q1",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2019Q2",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.0,
+      "p50_eok": 6.7,
+      "p90_eok": 16.5,
+      "ratio": 5.5,
+      "gap_eok": 13.5
+    },
+    {
+      "period": "2019Q2",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 4.3,
+      "p50_eok": 7.7,
+      "p90_eok": 15.5,
+      "ratio": 3.6,
+      "gap_eok": 11.2
+    },
+    {
+      "period": "2019Q2",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.5,
+      "p50_eok": 6.9,
+      "p90_eok": 15.8,
+      "ratio": 4.5,
+      "gap_eok": 12.3,
+      "known_stock_coverage_pct": 73.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2019Q2",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 4.7,
+      "p50_eok": 7.4,
+      "p90_eok": 15.0,
+      "ratio": 3.2,
+      "gap_eok": 10.3,
+      "known_stock_coverage_pct": 75.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2019Q2",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2019Q2",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2019Q3",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.3,
+      "p50_eok": 6.9,
+      "p90_eok": 16.0,
+      "ratio": 4.8,
+      "gap_eok": 12.7
+    },
+    {
+      "period": "2019Q3",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 4.6,
+      "p50_eok": 7.8,
+      "p90_eok": 14.8,
+      "ratio": 3.2,
+      "gap_eok": 10.2
+    },
+    {
+      "period": "2019Q3",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.7,
+      "p50_eok": 7.2,
+      "p90_eok": 16.7,
+      "ratio": 4.5,
+      "gap_eok": 13.0,
+      "known_stock_coverage_pct": 85.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2019Q3",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 4.8,
+      "p50_eok": 7.6,
+      "p90_eok": 15.6,
+      "ratio": 3.2,
+      "gap_eok": 10.8,
+      "known_stock_coverage_pct": 88.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2019Q3",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2019Q3",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2019Q4",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.4,
+      "p50_eok": 6.9,
+      "p90_eok": 15.0,
+      "ratio": 4.4,
+      "gap_eok": 11.6
+    },
+    {
+      "period": "2019Q4",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 4.8,
+      "p50_eok": 7.6,
+      "p90_eok": 14.0,
+      "ratio": 2.9,
+      "gap_eok": 9.2
+    },
+    {
+      "period": "2019Q4",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 3.8,
+      "p50_eok": 7.6,
+      "p90_eok": 17.6,
+      "ratio": 4.6,
+      "gap_eok": 13.8,
+      "known_stock_coverage_pct": 91.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2019Q4",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.0,
+      "p50_eok": 8.1,
+      "p90_eok": 16.6,
+      "ratio": 3.3,
+      "gap_eok": 11.6,
+      "known_stock_coverage_pct": 93.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2019Q4",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2019Q4",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2020Q1",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.0,
+      "p50_eok": 5.9,
+      "p90_eok": 11.3,
+      "ratio": 3.8,
+      "gap_eok": 8.3
+    },
+    {
+      "period": "2020Q1",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 4.4,
+      "p50_eok": 6.7,
+      "p90_eok": 11.7,
+      "ratio": 2.7,
+      "gap_eok": 7.3
+    },
+    {
+      "period": "2020Q1",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 4.0,
+      "p50_eok": 8.0,
+      "p90_eok": 17.4,
+      "ratio": 4.3,
+      "gap_eok": 13.4,
+      "known_stock_coverage_pct": 89.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2020Q1",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.2,
+      "p50_eok": 8.5,
+      "p90_eok": 17.2,
+      "ratio": 3.3,
+      "gap_eok": 12.0,
+      "known_stock_coverage_pct": 92.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2020Q1",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2020Q1",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2020Q2",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.4,
+      "p50_eok": 7.0,
+      "p90_eok": 15.2,
+      "ratio": 4.5,
+      "gap_eok": 11.9
+    },
+    {
+      "period": "2020Q2",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 4.7,
+      "p50_eok": 7.9,
+      "p90_eok": 15.0,
+      "ratio": 3.2,
+      "gap_eok": 10.3
+    },
+    {
+      "period": "2020Q2",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 4.2,
+      "p50_eok": 8.2,
+      "p90_eok": 17.6,
+      "ratio": 4.2,
+      "gap_eok": 13.4,
+      "known_stock_coverage_pct": 87.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2020Q2",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.4,
+      "p50_eok": 8.7,
+      "p90_eok": 16.4,
+      "ratio": 3.0,
+      "gap_eok": 11.0,
+      "known_stock_coverage_pct": 91.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2020Q2",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2020Q2",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2020Q3",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.7,
+      "p50_eok": 7.8,
+      "p90_eok": 15.1,
+      "ratio": 4.1,
+      "gap_eok": 11.4
+    },
+    {
+      "period": "2020Q3",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 5.4,
+      "p50_eok": 8.7,
+      "p90_eok": 15.0,
+      "ratio": 2.8,
+      "gap_eok": 9.6
+    },
+    {
+      "period": "2020Q3",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 4.7,
+      "p50_eok": 8.9,
+      "p90_eok": 18.6,
+      "ratio": 3.9,
+      "gap_eok": 13.9,
+      "known_stock_coverage_pct": 89.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2020Q3",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.9,
+      "p50_eok": 9.5,
+      "p90_eok": 17.4,
+      "ratio": 2.9,
+      "gap_eok": 11.5,
+      "known_stock_coverage_pct": 93.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2020Q3",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2020Q3",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2020Q4",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.7,
+      "p50_eok": 8.4,
+      "p90_eok": 18.0,
+      "ratio": 4.9,
+      "gap_eok": 14.3
+    },
+    {
+      "period": "2020Q4",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.0,
+      "p50_eok": 9.5,
+      "p90_eok": 16.8,
+      "ratio": 2.8,
+      "gap_eok": 10.8
+    },
+    {
+      "period": "2020Q4",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.2,
+      "p50_eok": 9.5,
+      "p90_eok": 20.0,
+      "ratio": 3.9,
+      "gap_eok": 14.8,
+      "known_stock_coverage_pct": 87.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2020Q4",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 6.5,
+      "p50_eok": 10.3,
+      "p90_eok": 19.1,
+      "ratio": 2.9,
+      "gap_eok": 12.6,
+      "known_stock_coverage_pct": 91.0,
+      "transferred_pct": 1.0
+    },
+    {
+      "period": "2020Q4",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2020Q4",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2021Q1",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.7,
+      "p50_eok": 8.2,
+      "p90_eok": 18.0,
+      "ratio": 4.9,
+      "gap_eok": 14.3
+    },
+    {
+      "period": "2021Q1",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.0,
+      "p50_eok": 9.6,
+      "p90_eok": 17.0,
+      "ratio": 2.8,
+      "gap_eok": 11.0
+    },
+    {
+      "period": "2021Q1",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.5,
+      "p50_eok": 10.1,
+      "p90_eok": 20.8,
+      "ratio": 3.8,
+      "gap_eok": 15.3,
+      "known_stock_coverage_pct": 83.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2021Q1",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 7.0,
+      "p50_eok": 10.9,
+      "p90_eok": 20.0,
+      "ratio": 2.9,
+      "gap_eok": 13.0,
+      "known_stock_coverage_pct": 86.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2021Q1",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2021Q1",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2021Q2",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.5,
+      "p50_eok": 8.1,
+      "p90_eok": 18.5,
+      "ratio": 5.3,
+      "gap_eok": 15.0
+    },
+    {
+      "period": "2021Q2",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.3,
+      "p50_eok": 9.8,
+      "p90_eok": 18.0,
+      "ratio": 2.9,
+      "gap_eok": 11.7
+    },
+    {
+      "period": "2021Q2",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.8,
+      "p50_eok": 10.5,
+      "p90_eok": 22.0,
+      "ratio": 3.8,
+      "gap_eok": 16.2,
+      "known_stock_coverage_pct": 80.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2021Q2",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 7.2,
+      "p50_eok": 11.5,
+      "p90_eok": 21.3,
+      "ratio": 2.9,
+      "gap_eok": 14.1,
+      "known_stock_coverage_pct": 85.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2021Q2",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2021Q2",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2021Q3",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 4.3,
+      "p50_eok": 9.0,
+      "p90_eok": 18.5,
+      "ratio": 4.3,
+      "gap_eok": 14.2
+    },
+    {
+      "period": "2021Q3",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.8,
+      "p50_eok": 10.6,
+      "p90_eok": 18.5,
+      "ratio": 2.7,
+      "gap_eok": 11.8
+    },
+    {
+      "period": "2021Q3",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 6.1,
+      "p50_eok": 11.1,
+      "p90_eok": 23.2,
+      "ratio": 3.8,
+      "gap_eok": 17.1,
+      "known_stock_coverage_pct": 79.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2021Q3",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 7.6,
+      "p50_eok": 12.1,
+      "p90_eok": 22.7,
+      "ratio": 3.0,
+      "gap_eok": 15.1,
+      "known_stock_coverage_pct": 85.0,
+      "transferred_pct": 1.0
+    },
+    {
+      "period": "2021Q3",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2021Q3",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2021Q4",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.3,
+      "p50_eok": 8.7,
+      "p90_eok": 20.0,
+      "ratio": 8.9,
+      "gap_eok": 17.8
+    },
+    {
+      "period": "2021Q4",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.7,
+      "p50_eok": 11.0,
+      "p90_eok": 20.4,
+      "ratio": 3.0,
+      "gap_eok": 13.7
+    },
+    {
+      "period": "2021Q4",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 6.3,
+      "p50_eok": 11.3,
+      "p90_eok": 23.3,
+      "ratio": 3.7,
+      "gap_eok": 17.0,
+      "known_stock_coverage_pct": 71.0,
+      "transferred_pct": 3.0
+    },
+    {
+      "period": "2021Q4",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 7.8,
+      "p50_eok": 12.5,
+      "p90_eok": 23.1,
+      "ratio": 3.0,
+      "gap_eok": 15.4,
+      "known_stock_coverage_pct": 78.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2021Q4",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2021Q4",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2022Q1",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 1.8,
+      "p50_eok": 7.2,
+      "p90_eok": 19.5,
+      "ratio": 10.8,
+      "gap_eok": 17.7
+    },
+    {
+      "period": "2022Q1",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.5,
+      "p50_eok": 10.8,
+      "p90_eok": 20.5,
+      "ratio": 3.2,
+      "gap_eok": 14.0
+    },
+    {
+      "period": "2022Q1",
+      "group": "all",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 2.1,
+      "p50_eok": 8.0,
+      "p90_eok": 20.5,
+      "ratio": 10.0,
+      "gap_eok": 18.5
+    },
+    {
+      "period": "2022Q1",
+      "group": "p25_26",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 6.7,
+      "p50_eok": 11.0,
+      "p90_eok": 21.0,
+      "ratio": 3.1,
+      "gap_eok": 14.3
+    },
+    {
+      "period": "2022Q1",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 6.1,
+      "p50_eok": 11.2,
+      "p90_eok": 24.1,
+      "ratio": 4.0,
+      "gap_eok": 18.0,
+      "known_stock_coverage_pct": 51.0,
+      "transferred_pct": 3.0
+    },
+    {
+      "period": "2022Q1",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 8.1,
+      "p50_eok": 12.8,
+      "p90_eok": 23.5,
+      "ratio": 2.9,
+      "gap_eok": 15.5,
+      "known_stock_coverage_pct": 56.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2022Q1",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2022Q1",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2022Q2",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 2.1,
+      "p50_eok": 8.5,
+      "p90_eok": 22.3,
+      "ratio": 10.6,
+      "gap_eok": 20.2
+    },
+    {
+      "period": "2022Q2",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.5,
+      "p50_eok": 10.7,
+      "p90_eok": 22.1,
+      "ratio": 3.4,
+      "gap_eok": 15.6
+    },
+    {
+      "period": "2022Q2",
+      "group": "all",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 2.5,
+      "p50_eok": 8.7,
+      "p90_eok": 22.5,
+      "ratio": 9.0,
+      "gap_eok": 20.0
+    },
+    {
+      "period": "2022Q2",
+      "group": "p25_26",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 6.8,
+      "p50_eok": 10.8,
+      "p90_eok": 22.0,
+      "ratio": 3.2,
+      "gap_eok": 15.2
+    },
+    {
+      "period": "2022Q2",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 6.0,
+      "p50_eok": 11.1,
+      "p90_eok": 24.0,
+      "ratio": 4.0,
+      "gap_eok": 18.1,
+      "known_stock_coverage_pct": 48.0,
+      "transferred_pct": 3.0
+    },
+    {
+      "period": "2022Q2",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 7.9,
+      "p50_eok": 12.7,
+      "p90_eok": 23.1,
+      "ratio": 2.9,
+      "gap_eok": 15.2,
+      "known_stock_coverage_pct": 53.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2022Q2",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2022Q2",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2022Q3",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 1.3,
+      "p50_eok": 6.8,
+      "p90_eok": 19.5,
+      "ratio": 14.5,
+      "gap_eok": 18.2
+    },
+    {
+      "period": "2022Q3",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.0,
+      "p50_eok": 10.0,
+      "p90_eok": 20.7,
+      "ratio": 3.5,
+      "gap_eok": 14.7
+    },
+    {
+      "period": "2022Q3",
+      "group": "all",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 1.4,
+      "p50_eok": 7.2,
+      "p90_eok": 20.5,
+      "ratio": 15.2,
+      "gap_eok": 19.2
+    },
+    {
+      "period": "2022Q3",
+      "group": "p25_26",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 6.2,
+      "p50_eok": 10.3,
+      "p90_eok": 20.9,
+      "ratio": 3.4,
+      "gap_eok": 14.8
+    },
+    {
+      "period": "2022Q3",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.8,
+      "p50_eok": 10.7,
+      "p90_eok": 22.9,
+      "ratio": 3.9,
+      "gap_eok": 17.0,
+      "known_stock_coverage_pct": 43.0,
+      "transferred_pct": 3.0
+    },
+    {
+      "period": "2022Q3",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 7.8,
+      "p50_eok": 12.4,
+      "p90_eok": 21.8,
+      "ratio": 2.8,
+      "gap_eok": 14.0,
+      "known_stock_coverage_pct": 48.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2022Q3",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2022Q3",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2022Q4",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 1.7,
+      "p50_eok": 7.2,
+      "p90_eok": 17.9,
+      "ratio": 10.5,
+      "gap_eok": 16.2
+    },
+    {
+      "period": "2022Q4",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.0,
+      "p50_eok": 9.9,
+      "p90_eok": 19.0,
+      "ratio": 3.2,
+      "gap_eok": 13.0
+    },
+    {
+      "period": "2022Q4",
+      "group": "all",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 1.9,
+      "p50_eok": 8.0,
+      "p90_eok": 18.6,
+      "ratio": 9.8,
+      "gap_eok": 16.7
+    },
+    {
+      "period": "2022Q4",
+      "group": "p25_26",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 6.1,
+      "p50_eok": 10.0,
+      "p90_eok": 19.5,
+      "ratio": 3.2,
+      "gap_eok": 13.4
+    },
+    {
+      "period": "2022Q4",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.2,
+      "p50_eok": 9.8,
+      "p90_eok": 20.6,
+      "ratio": 3.9,
+      "gap_eok": 15.4,
+      "known_stock_coverage_pct": 32.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2022Q4",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 7.0,
+      "p50_eok": 10.9,
+      "p90_eok": 20.5,
+      "ratio": 2.9,
+      "gap_eok": 13.4,
+      "known_stock_coverage_pct": 36.0,
+      "transferred_pct": 1.0
+    },
+    {
+      "period": "2022Q4",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2022Q4",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2023Q1",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.9,
+      "p50_eok": 8.3,
+      "p90_eok": 18.0,
+      "ratio": 4.6,
+      "gap_eok": 14.1
+    },
+    {
+      "period": "2023Q1",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.0,
+      "p50_eok": 10.0,
+      "p90_eok": 18.5,
+      "ratio": 3.1,
+      "gap_eok": 12.5
+    },
+    {
+      "period": "2023Q1",
+      "group": "all",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 4.0,
+      "p50_eok": 8.5,
+      "p90_eok": 18.0,
+      "ratio": 4.5,
+      "gap_eok": 14.0
+    },
+    {
+      "period": "2023Q1",
+      "group": "p25_26",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 6.1,
+      "p50_eok": 10.1,
+      "p90_eok": 18.8,
+      "ratio": 3.1,
+      "gap_eok": 12.7
+    },
+    {
+      "period": "2023Q1",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.0,
+      "p50_eok": 9.2,
+      "p90_eok": 20.2,
+      "ratio": 4.0,
+      "gap_eok": 15.2,
+      "known_stock_coverage_pct": 50.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2023Q1",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 6.5,
+      "p50_eok": 10.6,
+      "p90_eok": 20.2,
+      "ratio": 3.1,
+      "gap_eok": 13.7,
+      "known_stock_coverage_pct": 55.0,
+      "transferred_pct": 1.0
+    },
+    {
+      "period": "2023Q1",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2023Q1",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2023Q2",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 4.4,
+      "p50_eok": 9.0,
+      "p90_eok": 19.8,
+      "ratio": 4.5,
+      "gap_eok": 15.4
+    },
+    {
+      "period": "2023Q2",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.3,
+      "p50_eok": 10.6,
+      "p90_eok": 19.5,
+      "ratio": 3.1,
+      "gap_eok": 13.2
+    },
+    {
+      "period": "2023Q2",
+      "group": "all",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 4.7,
+      "p50_eok": 9.2,
+      "p90_eok": 20.0,
+      "ratio": 4.3,
+      "gap_eok": 15.3
+    },
+    {
+      "period": "2023Q2",
+      "group": "p25_26",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 6.5,
+      "p50_eok": 10.8,
+      "p90_eok": 19.5,
+      "ratio": 3.0,
+      "gap_eok": 13.1
+    },
+    {
+      "period": "2023Q2",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.1,
+      "p50_eok": 9.3,
+      "p90_eok": 21.4,
+      "ratio": 4.2,
+      "gap_eok": 16.2,
+      "known_stock_coverage_pct": 67.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2023Q2",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 6.6,
+      "p50_eok": 10.6,
+      "p90_eok": 20.6,
+      "ratio": 3.1,
+      "gap_eok": 14.0,
+      "known_stock_coverage_pct": 72.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2023Q2",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2023Q2",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2023Q3",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 4.5,
+      "p50_eok": 9.1,
+      "p90_eok": 20.6,
+      "ratio": 4.6,
+      "gap_eok": 16.1
+    },
+    {
+      "period": "2023Q3",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.4,
+      "p50_eok": 10.6,
+      "p90_eok": 20.0,
+      "ratio": 3.1,
+      "gap_eok": 13.6
+    },
+    {
+      "period": "2023Q3",
+      "group": "all",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 4.8,
+      "p50_eok": 9.3,
+      "p90_eok": 20.8,
+      "ratio": 4.3,
+      "gap_eok": 16.0
+    },
+    {
+      "period": "2023Q3",
+      "group": "p25_26",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 6.5,
+      "p50_eok": 10.7,
+      "p90_eok": 20.3,
+      "ratio": 3.1,
+      "gap_eok": 13.8
+    },
+    {
+      "period": "2023Q3",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.1,
+      "p50_eok": 9.8,
+      "p90_eok": 22.5,
+      "ratio": 4.4,
+      "gap_eok": 17.4,
+      "known_stock_coverage_pct": 74.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2023Q3",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 6.7,
+      "p50_eok": 10.8,
+      "p90_eok": 21.8,
+      "ratio": 3.2,
+      "gap_eok": 15.1,
+      "known_stock_coverage_pct": 79.0,
+      "transferred_pct": 1.0
+    },
+    {
+      "period": "2023Q3",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2023Q3",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2023Q4",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 3.5,
+      "p50_eok": 8.2,
+      "p90_eok": 19.9,
+      "ratio": 5.7,
+      "gap_eok": 16.4
+    },
+    {
+      "period": "2023Q4",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.0,
+      "p50_eok": 9.8,
+      "p90_eok": 18.7,
+      "ratio": 3.1,
+      "gap_eok": 12.7
+    },
+    {
+      "period": "2023Q4",
+      "group": "all",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 4.0,
+      "p50_eok": 8.5,
+      "p90_eok": 20.1,
+      "ratio": 5.1,
+      "gap_eok": 16.2
+    },
+    {
+      "period": "2023Q4",
+      "group": "p25_26",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 6.0,
+      "p50_eok": 9.9,
+      "p90_eok": 19.0,
+      "ratio": 3.2,
+      "gap_eok": 13.0
+    },
+    {
+      "period": "2023Q4",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.2,
+      "p50_eok": 9.7,
+      "p90_eok": 22.8,
+      "ratio": 4.4,
+      "gap_eok": 17.7,
+      "known_stock_coverage_pct": 72.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2023Q4",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 6.7,
+      "p50_eok": 10.7,
+      "p90_eok": 20.1,
+      "ratio": 3.0,
+      "gap_eok": 13.3,
+      "known_stock_coverage_pct": 78.0,
+      "transferred_pct": 1.0
+    },
+    {
+      "period": "2023Q4",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2023Q4",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2024Q1",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 4.2,
+      "p50_eok": 8.9,
+      "p90_eok": 20.0,
+      "ratio": 4.8,
+      "gap_eok": 15.8
+    },
+    {
+      "period": "2024Q1",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.0,
+      "p50_eok": 10.3,
+      "p90_eok": 19.6,
+      "ratio": 3.2,
+      "gap_eok": 13.6
+    },
+    {
+      "period": "2024Q1",
+      "group": "all",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 4.3,
+      "p50_eok": 9.0,
+      "p90_eok": 20.2,
+      "ratio": 4.7,
+      "gap_eok": 15.9
+    },
+    {
+      "period": "2024Q1",
+      "group": "p25_26",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 6.2,
+      "p50_eok": 10.5,
+      "p90_eok": 19.7,
+      "ratio": 3.2,
+      "gap_eok": 13.5
+    },
+    {
+      "period": "2024Q1",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.0,
+      "p50_eok": 9.6,
+      "p90_eok": 22.3,
+      "ratio": 4.4,
+      "gap_eok": 17.3,
+      "known_stock_coverage_pct": 68.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2024Q1",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 6.6,
+      "p50_eok": 10.6,
+      "p90_eok": 21.3,
+      "ratio": 3.2,
+      "gap_eok": 14.7,
+      "known_stock_coverage_pct": 75.0,
+      "transferred_pct": 1.0
+    },
+    {
+      "period": "2024Q1",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2024Q1",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2024Q2",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 4.9,
+      "p50_eok": 10.0,
+      "p90_eok": 21.5,
+      "ratio": 4.4,
+      "gap_eok": 16.6
+    },
+    {
+      "period": "2024Q2",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.6,
+      "p50_eok": 11.6,
+      "p90_eok": 21.5,
+      "ratio": 3.3,
+      "gap_eok": 14.9
+    },
+    {
+      "period": "2024Q2",
+      "group": "all",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 5.0,
+      "p50_eok": 10.2,
+      "p90_eok": 21.8,
+      "ratio": 4.4,
+      "gap_eok": 16.8
+    },
+    {
+      "period": "2024Q2",
+      "group": "p25_26",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 6.7,
+      "p50_eok": 11.8,
+      "p90_eok": 21.8,
+      "ratio": 3.3,
+      "gap_eok": 15.1
+    },
+    {
+      "period": "2024Q2",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.1,
+      "p50_eok": 9.8,
+      "p90_eok": 22.9,
+      "ratio": 4.5,
+      "gap_eok": 17.8,
+      "known_stock_coverage_pct": 77.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2024Q2",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 6.6,
+      "p50_eok": 10.8,
+      "p90_eok": 21.8,
+      "ratio": 3.3,
+      "gap_eok": 15.2,
+      "known_stock_coverage_pct": 82.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2024Q2",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2024Q2",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2024Q3",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 5.0,
+      "p50_eok": 10.0,
+      "p90_eok": 23.0,
+      "ratio": 4.6,
+      "gap_eok": 18.1
+    },
+    {
+      "period": "2024Q3",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.8,
+      "p50_eok": 11.4,
+      "p90_eok": 21.8,
+      "ratio": 3.2,
+      "gap_eok": 15.0
+    },
+    {
+      "period": "2024Q3",
+      "group": "all",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 5.0,
+      "p50_eok": 10.0,
+      "p90_eok": 23.0,
+      "ratio": 4.6,
+      "gap_eok": 18.0
+    },
+    {
+      "period": "2024Q3",
+      "group": "p25_26",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 6.9,
+      "p50_eok": 11.5,
+      "p90_eok": 21.8,
+      "ratio": 3.2,
+      "gap_eok": 14.9
+    },
+    {
+      "period": "2024Q3",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.3,
+      "p50_eok": 10.3,
+      "p90_eok": 24.9,
+      "ratio": 4.7,
+      "gap_eok": 19.7,
+      "known_stock_coverage_pct": 82.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2024Q3",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 6.9,
+      "p50_eok": 11.2,
+      "p90_eok": 23.2,
+      "ratio": 3.4,
+      "gap_eok": 16.3,
+      "known_stock_coverage_pct": 88.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2024Q3",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2024Q3",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2024Q4",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 4.1,
+      "p50_eok": 9.3,
+      "p90_eok": 24.0,
+      "ratio": 5.9,
+      "gap_eok": 19.9
+    },
+    {
+      "period": "2024Q4",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.5,
+      "p50_eok": 11.0,
+      "p90_eok": 22.8,
+      "ratio": 3.5,
+      "gap_eok": 16.3
+    },
+    {
+      "period": "2024Q4",
+      "group": "all",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 4.4,
+      "p50_eok": 9.6,
+      "p90_eok": 24.7,
+      "ratio": 5.6,
+      "gap_eok": 20.2
+    },
+    {
+      "period": "2024Q4",
+      "group": "p25_26",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 6.5,
+      "p50_eok": 11.2,
+      "p90_eok": 22.9,
+      "ratio": 3.5,
+      "gap_eok": 16.4
+    },
+    {
+      "period": "2024Q4",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.2,
+      "p50_eok": 10.4,
+      "p90_eok": 25.2,
+      "ratio": 4.8,
+      "gap_eok": 20.0,
+      "known_stock_coverage_pct": 81.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2024Q4",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 6.9,
+      "p50_eok": 11.2,
+      "p90_eok": 23.6,
+      "ratio": 3.4,
+      "gap_eok": 16.7,
+      "known_stock_coverage_pct": 87.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2024Q4",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2024Q4",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2025Q1",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 5.1,
+      "p50_eok": 11.4,
+      "p90_eok": 27.0,
+      "ratio": 5.3,
+      "gap_eok": 21.9
+    },
+    {
+      "period": "2025Q1",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 7.1,
+      "p50_eok": 13.0,
+      "p90_eok": 26.0,
+      "ratio": 3.7,
+      "gap_eok": 18.9
+    },
+    {
+      "period": "2025Q1",
+      "group": "all",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 5.1,
+      "p50_eok": 11.5,
+      "p90_eok": 27.1,
+      "ratio": 5.3,
+      "gap_eok": 22.0
+    },
+    {
+      "period": "2025Q1",
+      "group": "p25_26",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 7.2,
+      "p50_eok": 13.2,
+      "p90_eok": 26.1,
+      "ratio": 3.6,
+      "gap_eok": 18.9
+    },
+    {
+      "period": "2025Q1",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.2,
+      "p50_eok": 10.7,
+      "p90_eok": 27.4,
+      "ratio": 5.3,
+      "gap_eok": 22.2,
+      "known_stock_coverage_pct": 80.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2025Q1",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 6.9,
+      "p50_eok": 11.8,
+      "p90_eok": 25.1,
+      "ratio": 3.6,
+      "gap_eok": 18.2,
+      "known_stock_coverage_pct": 84.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2025Q1",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2025Q1",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2025Q2",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 5.0,
+      "p50_eok": 10.4,
+      "p90_eok": 21.6,
+      "ratio": 4.4,
+      "gap_eok": 16.7
+    },
+    {
+      "period": "2025Q2",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 7.0,
+      "p50_eok": 12.2,
+      "p90_eok": 20.9,
+      "ratio": 3.0,
+      "gap_eok": 13.9
+    },
+    {
+      "period": "2025Q2",
+      "group": "all",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 5.1,
+      "p50_eok": 10.5,
+      "p90_eok": 21.5,
+      "ratio": 4.2,
+      "gap_eok": 16.4
+    },
+    {
+      "period": "2025Q2",
+      "group": "p25_26",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 7.0,
+      "p50_eok": 12.2,
+      "p90_eok": 20.9,
+      "ratio": 3.0,
+      "gap_eok": 13.9
+    },
+    {
+      "period": "2025Q2",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.3,
+      "p50_eok": 10.9,
+      "p90_eok": 28.2,
+      "ratio": 5.3,
+      "gap_eok": 22.9,
+      "known_stock_coverage_pct": 85.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2025Q2",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 6.9,
+      "p50_eok": 11.9,
+      "p90_eok": 27.2,
+      "ratio": 4.0,
+      "gap_eok": 20.3,
+      "known_stock_coverage_pct": 89.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2025Q2",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2025Q2",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2025Q3",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 4.7,
+      "p50_eok": 10.0,
+      "p90_eok": 20.0,
+      "ratio": 4.3,
+      "gap_eok": 15.3
+    },
+    {
+      "period": "2025Q3",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.8,
+      "p50_eok": 11.7,
+      "p90_eok": 20.5,
+      "ratio": 3.0,
+      "gap_eok": 13.7
+    },
+    {
+      "period": "2025Q3",
+      "group": "all",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 5.0,
+      "p50_eok": 10.2,
+      "p90_eok": 20.0,
+      "ratio": 4.0,
+      "gap_eok": 15.1
+    },
+    {
+      "period": "2025Q3",
+      "group": "p25_26",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 6.9,
+      "p50_eok": 11.8,
+      "p90_eok": 20.5,
+      "ratio": 3.0,
+      "gap_eok": 13.6
+    },
+    {
+      "period": "2025Q3",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.4,
+      "p50_eok": 11.0,
+      "p90_eok": 29.0,
+      "ratio": 5.4,
+      "gap_eok": 23.6,
+      "known_stock_coverage_pct": 84.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2025Q3",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 6.9,
+      "p50_eok": 12.1,
+      "p90_eok": 29.0,
+      "ratio": 4.2,
+      "gap_eok": 22.0,
+      "known_stock_coverage_pct": 90.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2025Q3",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2025Q3",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2025Q4",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 5.0,
+      "p50_eok": 10.0,
+      "p90_eok": 22.0,
+      "ratio": 4.4,
+      "gap_eok": 17.0
+    },
+    {
+      "period": "2025Q4",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 7.0,
+      "p50_eok": 11.7,
+      "p90_eok": 21.2,
+      "ratio": 3.1,
+      "gap_eok": 14.3
+    },
+    {
+      "period": "2025Q4",
+      "group": "all",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 5.2,
+      "p50_eok": 10.3,
+      "p90_eok": 22.0,
+      "ratio": 4.2,
+      "gap_eok": 16.8
+    },
+    {
+      "period": "2025Q4",
+      "group": "p25_26",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 7.0,
+      "p50_eok": 11.8,
+      "p90_eok": 21.2,
+      "ratio": 3.0,
+      "gap_eok": 14.2
+    },
+    {
+      "period": "2025Q4",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.5,
+      "p50_eok": 11.6,
+      "p90_eok": 30.2,
+      "ratio": 5.5,
+      "gap_eok": 24.7,
+      "known_stock_coverage_pct": 84.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2025Q4",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 7.0,
+      "p50_eok": 12.7,
+      "p90_eok": 29.9,
+      "ratio": 4.3,
+      "gap_eok": 22.9,
+      "known_stock_coverage_pct": 89.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2025Q4",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2025Q4",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2026Q1",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 4.6,
+      "p50_eok": 9.0,
+      "p90_eok": 19.3,
+      "ratio": 4.2,
+      "gap_eok": 14.7
+    },
+    {
+      "period": "2026Q1",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.4,
+      "p50_eok": 10.0,
+      "p90_eok": 19.1,
+      "ratio": 3.0,
+      "gap_eok": 12.7
+    },
+    {
+      "period": "2026Q1",
+      "group": "all",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 4.7,
+      "p50_eok": 9.0,
+      "p90_eok": 19.2,
+      "ratio": 4.1,
+      "gap_eok": 14.5
+    },
+    {
+      "period": "2026Q1",
+      "group": "p25_26",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 6.5,
+      "p50_eok": 10.1,
+      "p90_eok": 19.2,
+      "ratio": 2.9,
+      "gap_eok": 12.7
+    },
+    {
+      "period": "2026Q1",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.7,
+      "p50_eok": 12.1,
+      "p90_eok": 29.3,
+      "ratio": 5.1,
+      "gap_eok": 23.6,
+      "known_stock_coverage_pct": 83.0,
+      "transferred_pct": 4.0
+    },
+    {
+      "period": "2026Q1",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 7.1,
+      "p50_eok": 13.2,
+      "p90_eok": 29.3,
+      "ratio": 4.1,
+      "gap_eok": 22.2,
+      "known_stock_coverage_pct": 89.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2026Q1",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2026Q1",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2026Q2",
+      "group": "all",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 4.7,
+      "p50_eok": 9.6,
+      "p90_eok": 24.0,
+      "ratio": 5.1,
+      "gap_eok": 19.3
+    },
+    {
+      "period": "2026Q2",
+      "group": "p25_26",
+      "basis": "observed_invariant",
+      "status": "supported",
+      "p10_eok": 6.3,
+      "p50_eok": 11.2,
+      "p90_eok": 24.8,
+      "ratio": 3.9,
+      "gap_eok": 18.5
+    },
+    {
+      "period": "2026Q2",
+      "group": "all",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 4.8,
+      "p50_eok": 9.8,
+      "p90_eok": 24.3,
+      "ratio": 5.1,
+      "gap_eok": 19.5
+    },
+    {
+      "period": "2026Q2",
+      "group": "p25_26",
+      "basis": "observed_strict",
+      "status": "supported",
+      "p10_eok": 6.4,
+      "p50_eok": 11.3,
+      "p90_eok": 25.0,
+      "ratio": 3.9,
+      "gap_eok": 18.6
+    },
+    {
+      "period": "2026Q2",
+      "group": "all",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 5.9,
+      "p50_eok": 12.7,
+      "p90_eok": 29.6,
+      "ratio": 5.0,
+      "gap_eok": 23.7,
+      "known_stock_coverage_pct": 86.0,
+      "transferred_pct": 5.0
+    },
+    {
+      "period": "2026Q2",
+      "group": "p25_26",
+      "basis": "stock_changing",
+      "status": "supported",
+      "p10_eok": 7.2,
+      "p50_eok": 13.6,
+      "p90_eok": 29.1,
+      "ratio": 4.0,
+      "gap_eok": 21.9,
+      "known_stock_coverage_pct": 92.0,
+      "transferred_pct": 0.0
+    },
+    {
+      "period": "2026Q2",
+      "group": "all",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    },
+    {
+      "period": "2026Q2",
+      "group": "p25_26",
+      "basis": "stock_fixed",
+      "status": "insufficient_tail_support"
+    }
+  ],
+  "episodes": [
+    {
+      "basis": "observed_invariant",
+      "start": "2021Q3",
+      "end": "2022Q3",
+      "ratio_change": 10.2,
+      "start_composition": {
+        "area": {
+          "le18": 45.0,
+          "26to34": 33.0,
+          "ge35": 11.0,
+          "19to25": 11.0
+        },
+        "age": {
+          "6to19": 40.0,
+          "20plus": 48.0,
+          "0to5": 12.0
+        },
+        "gangnam3": {
+          "rest": 86.0,
+          "three": 14.0
+        }
+      },
+      "end_composition": {
+        "area": {
+          "ge35": 10.0,
+          "le18": 55.0,
+          "26to34": 25.0,
+          "19to25": 9.0
+        },
+        "age": {
+          "20plus": 38.0,
+          "6to19": 48.0,
+          "0to5": 14.0
+        },
+        "gangnam3": {
+          "rest": 82.0,
+          "three": 18.0
+        }
+      },
+      "paired_start": {
+        "status": "insufficient_tail_support"
+      },
+      "paired_end": {
+        "status": "insufficient_tail_support"
+      },
+      "paired_mass_share": [
+        3.0,
+        12.0
+      ]
+    },
+    {
+      "basis": "stock_changing",
+      "start": "2024Q1",
+      "end": "2025Q1",
+      "ratio_change": 0.8,
+      "start_composition": {
+        "area": {
+          "ge35": 10.0,
+          "le18": 37.0,
+          "26to34": 45.0,
+          "19to25": 9.0
+        },
+        "age": {
+          "6to19": 31.0,
+          "20plus": 58.0,
+          "0to5": 11.0
+        },
+        "gangnam3": {
+          "rest": 80.0,
+          "three": 20.0
+        }
+      },
+      "end_composition": {
+        "area": {
+          "ge35": 12.0,
+          "le18": 36.0,
+          "26to34": 43.0,
+          "19to25": 9.0
+        },
+        "age": {
+          "20plus": 61.0,
+          "6to19": 31.0,
+          "0to5": 8.0
+        },
+        "gangnam3": {
+          "rest": 78.0,
+          "three": 22.0
+        }
+      },
+      "paired_start": {
+        "status": "supported",
+        "p10_eok": 5.1,
+        "p50_eok": 9.8,
+        "p90_eok": 22.4,
+        "ratio": 4.4,
+        "gap_eok": 17.4
+      },
+      "paired_end": {
+        "status": "supported",
+        "p10_eok": 5.2,
+        "p50_eok": 10.7,
+        "p90_eok": 27.3,
+        "ratio": 5.3,
+        "gap_eok": 22.2
+      },
+      "paired_mass_share": [
+        92.0,
+        78.0
+      ]
+    }
+  ]
+}
