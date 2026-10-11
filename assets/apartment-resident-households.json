@@ -1,0 +1,1304 @@
+{
+  "schema_version": 1,
+  "family": "apartment-resident-households",
+  "years": [
+    2010,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "definition": "아파트 거주 일반가구 / 일반가구; 소유·주택재고 아님",
+  "geographical_basis": "각 연도의 행정구역; 고정 경계 재추계 아님",
+  "period_start": "2010-11",
+  "period_end": "2024-10",
+  "timeline": [
+    {
+      "code": "0000000000",
+      "region": "전국",
+      "year": 2010,
+      "general": 17339422,
+      "apartment": 8169349
+    },
+    {
+      "code": "0000000000",
+      "region": "전국",
+      "year": 2015,
+      "general": 19111030,
+      "apartment": 9196769
+    },
+    {
+      "code": "0000000000",
+      "region": "전국",
+      "year": 2016,
+      "general": 19367696,
+      "apartment": 9421580
+    },
+    {
+      "code": "0000000000",
+      "region": "전국",
+      "year": 2017,
+      "general": 19673875,
+      "apartment": 9670608
+    },
+    {
+      "code": "0000000000",
+      "region": "전국",
+      "year": 2018,
+      "general": 19979188,
+      "apartment": 10012852
+    },
+    {
+      "code": "0000000000",
+      "region": "전국",
+      "year": 2019,
+      "general": 20343188,
+      "apartment": 10405363
+    },
+    {
+      "code": "0000000000",
+      "region": "전국",
+      "year": 2020,
+      "general": 20926710,
+      "apartment": 10780401
+    },
+    {
+      "code": "0000000000",
+      "region": "전국",
+      "year": 2021,
+      "general": 21448463,
+      "apartment": 11137845
+    },
+    {
+      "code": "0000000000",
+      "region": "전국",
+      "year": 2022,
+      "general": 21773507,
+      "apartment": 11403769
+    },
+    {
+      "code": "0000000000",
+      "region": "전국",
+      "year": 2023,
+      "general": 22073158,
+      "apartment": 11720272
+    },
+    {
+      "code": "0000000000",
+      "region": "전국",
+      "year": 2024,
+      "general": 22294419,
+      "apartment": 12018912
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2010,
+      "general": 3504297,
+      "apartment": 1439259
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2015,
+      "general": 3784490,
+      "apartment": 1586400
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2016,
+      "general": 3784705,
+      "apartment": 1589491
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2017,
+      "general": 3813260,
+      "apartment": 1611373
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2018,
+      "general": 3839766,
+      "apartment": 1620339
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2019,
+      "general": 3896389,
+      "apartment": 1668670
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2020,
+      "general": 3982290,
+      "apartment": 1712861
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2021,
+      "general": 4046799,
+      "apartment": 1758041
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2022,
+      "general": 4098818,
+      "apartment": 1788220
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2023,
+      "general": 4141659,
+      "apartment": 1822125
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2024,
+      "general": 4159502,
+      "apartment": 1845921
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2010,
+      "general": 3831134,
+      "apartment": 2088788
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2015,
+      "general": 4384742,
+      "apartment": 2410360
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2016,
+      "general": 4484424,
+      "apartment": 2478029
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2017,
+      "general": 4602950,
+      "apartment": 2557195
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2018,
+      "general": 4751497,
+      "apartment": 2702508
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2019,
+      "general": 4907660,
+      "apartment": 2844334
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2020,
+      "general": 5098431,
+      "apartment": 2975034
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2021,
+      "general": 5290662,
+      "apartment": 3091469
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2022,
+      "general": 5406963,
+      "apartment": 3175678
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2023,
+      "general": 5500024,
+      "apartment": 3286735
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2024,
+      "general": 5592072,
+      "apartment": 3389648
+    }
+  ],
+  "regions": [
+    {
+      "code": "1111000000",
+      "region": "종로구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 57807,
+          "apartment": 10603
+        },
+        "2015": {
+          "general": 61580,
+          "apartment": 12219
+        },
+        "2024": {
+          "general": 64643,
+          "apartment": 15344
+        }
+      }
+    },
+    {
+      "code": "1114000000",
+      "region": "중구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 45656,
+          "apartment": 16919
+        },
+        "2015": {
+          "general": 51205,
+          "apartment": 21469
+        },
+        "2024": {
+          "general": 59849,
+          "apartment": 26538
+        }
+      }
+    },
+    {
+      "code": "1117000000",
+      "region": "용산구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 86470,
+          "apartment": 27759
+        },
+        "2015": {
+          "general": 90313,
+          "apartment": 31127
+        },
+        "2024": {
+          "general": 93491,
+          "apartment": 36200
+        }
+      }
+    },
+    {
+      "code": "1120000000",
+      "region": "성동구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 107114,
+          "apartment": 46480
+        },
+        "2015": {
+          "general": 114719,
+          "apartment": 55674
+        },
+        "2024": {
+          "general": 122894,
+          "apartment": 66411
+        }
+      }
+    },
+    {
+      "code": "1121500000",
+      "region": "광진구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 133468,
+          "apartment": 27968
+        },
+        "2015": {
+          "general": 147718,
+          "apartment": 29601
+        },
+        "2024": {
+          "general": 158609,
+          "apartment": 34665
+        }
+      }
+    },
+    {
+      "code": "1123000000",
+      "region": "동대문구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 128042,
+          "apartment": 46055
+        },
+        "2015": {
+          "general": 146677,
+          "apartment": 56158
+        },
+        "2024": {
+          "general": 160767,
+          "apartment": 70059
+        }
+      }
+    },
+    {
+      "code": "1126000000",
+      "region": "중랑구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 144951,
+          "apartment": 43272
+        },
+        "2015": {
+          "general": 157537,
+          "apartment": 49300
+        },
+        "2024": {
+          "general": 173326,
+          "apartment": 59262
+        }
+      }
+    },
+    {
+      "code": "1129000000",
+      "region": "성북구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 162896,
+          "apartment": 62668
+        },
+        "2015": {
+          "general": 174257,
+          "apartment": 69061
+        },
+        "2024": {
+          "general": 184228,
+          "apartment": 82621
+        }
+      }
+    },
+    {
+      "code": "1130500000",
+      "region": "강북구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 117072,
+          "apartment": 29640
+        },
+        "2015": {
+          "general": 125666,
+          "apartment": 32161
+        },
+        "2024": {
+          "general": 130929,
+          "apartment": 36201
+        }
+      }
+    },
+    {
+      "code": "1132000000",
+      "region": "도봉구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 118947,
+          "apartment": 62554
+        },
+        "2015": {
+          "general": 124981,
+          "apartment": 63236
+        },
+        "2024": {
+          "general": 129841,
+          "apartment": 63703
+        }
+      }
+    },
+    {
+      "code": "1135000000",
+      "region": "노원구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 197168,
+          "apartment": 157156
+        },
+        "2015": {
+          "general": 204836,
+          "apartment": 157304
+        },
+        "2024": {
+          "general": 205666,
+          "apartment": 161162
+        }
+      }
+    },
+    {
+      "code": "1138000000",
+      "region": "은평구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 154923,
+          "apartment": 35508
+        },
+        "2015": {
+          "general": 179752,
+          "apartment": 49826
+        },
+        "2024": {
+          "general": 198916,
+          "apartment": 70686
+        }
+      }
+    },
+    {
+      "code": "1141000000",
+      "region": "서대문구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 112701,
+          "apartment": 34812
+        },
+        "2015": {
+          "general": 121034,
+          "apartment": 40007
+        },
+        "2024": {
+          "general": 137979,
+          "apartment": 58108
+        }
+      }
+    },
+    {
+      "code": "1144000000",
+      "region": "마포구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 141402,
+          "apartment": 50143
+        },
+        "2015": {
+          "general": 154981,
+          "apartment": 61286
+        },
+        "2024": {
+          "general": 167967,
+          "apartment": 74536
+        }
+      }
+    },
+    {
+      "code": "1147000000",
+      "region": "양천구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 154239,
+          "apartment": 77567
+        },
+        "2015": {
+          "general": 163823,
+          "apartment": 82793
+        },
+        "2024": {
+          "general": 169044,
+          "apartment": 90703
+        }
+      }
+    },
+    {
+      "code": "1150000000",
+      "region": "강서구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 193629,
+          "apartment": 91413
+        },
+        "2015": {
+          "general": 217636,
+          "apartment": 104484
+        },
+        "2024": {
+          "general": 256036,
+          "apartment": 114894
+        }
+      }
+    },
+    {
+      "code": "1153000000",
+      "region": "구로구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 142678,
+          "apartment": 62371
+        },
+        "2015": {
+          "general": 156528,
+          "apartment": 72996
+        },
+        "2024": {
+          "general": 171388,
+          "apartment": 82608
+        }
+      }
+    },
+    {
+      "code": "1154500000",
+      "region": "금천구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 86533,
+          "apartment": 24395
+        },
+        "2015": {
+          "general": 93443,
+          "apartment": 27119
+        },
+        "2024": {
+          "general": 112676,
+          "apartment": 32363
+        }
+      }
+    },
+    {
+      "code": "1156000000",
+      "region": "영등포구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 138637,
+          "apartment": 58744
+        },
+        "2015": {
+          "general": 147745,
+          "apartment": 63344
+        },
+        "2024": {
+          "general": 176587,
+          "apartment": 79050
+        }
+      }
+    },
+    {
+      "code": "1159000000",
+      "region": "동작구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 145744,
+          "apartment": 47906
+        },
+        "2015": {
+          "general": 161000,
+          "apartment": 56609
+        },
+        "2024": {
+          "general": 173615,
+          "apartment": 68430
+        }
+      }
+    },
+    {
+      "code": "1162000000",
+      "region": "관악구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 217359,
+          "apartment": 48954
+        },
+        "2015": {
+          "general": 228636,
+          "apartment": 52924
+        },
+        "2024": {
+          "general": 264148,
+          "apartment": 57389
+        }
+      }
+    },
+    {
+      "code": "1165000000",
+      "region": "서초구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 136840,
+          "apartment": 78174
+        },
+        "2015": {
+          "general": 154031,
+          "apartment": 87587
+        },
+        "2024": {
+          "general": 158384,
+          "apartment": 92026
+        }
+      }
+    },
+    {
+      "code": "1168000000",
+      "region": "강남구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 200965,
+          "apartment": 114978
+        },
+        "2015": {
+          "general": 211357,
+          "apartment": 126293
+        },
+        "2024": {
+          "general": 226333,
+          "apartment": 140834
+        }
+      }
+    },
+    {
+      "code": "1171000000",
+      "region": "송파구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 219426,
+          "apartment": 108232
+        },
+        "2015": {
+          "general": 230941,
+          "apartment": 109990
+        },
+        "2024": {
+          "general": 267817,
+          "apartment": 134304
+        }
+      }
+    },
+    {
+      "code": "1174000000",
+      "region": "강동구",
+      "group": "서울 25구",
+      "observations": {
+        "2010": {
+          "general": 159630,
+          "apartment": 74988
+        },
+        "2015": {
+          "general": 164094,
+          "apartment": 73832
+        },
+        "2024": {
+          "general": 194369,
+          "apartment": 97824
+        }
+      }
+    },
+    {
+      "code": "4111000000",
+      "region": "수원시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 374008,
+          "apartment": 185095
+        },
+        "2015": {
+          "general": 427554,
+          "apartment": 233256
+        },
+        "2024": {
+          "general": 508564,
+          "apartment": 296879
+        }
+      }
+    },
+    {
+      "code": "4113000000",
+      "region": "성남시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 335614,
+          "apartment": 146330
+        },
+        "2015": {
+          "general": 355499,
+          "apartment": 159427
+        },
+        "2024": {
+          "general": 383004,
+          "apartment": 198211
+        }
+      }
+    },
+    {
+      "code": "4115000000",
+      "region": "의정부시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 142331,
+          "apartment": 84365
+        },
+        "2015": {
+          "general": 154558,
+          "apartment": 91708
+        },
+        "2024": {
+          "general": 194238,
+          "apartment": 129086
+        }
+      }
+    },
+    {
+      "code": "4117000000",
+      "region": "안양시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 199484,
+          "apartment": 115578
+        },
+        "2015": {
+          "general": 205482,
+          "apartment": 121823
+        },
+        "2024": {
+          "general": 220099,
+          "apartment": 142016
+        }
+      }
+    },
+    {
+      "code": "4119000000",
+      "region": "부천시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 291513,
+          "apartment": 125880
+        },
+        "2015": {
+          "general": 301530,
+          "apartment": 135249
+        },
+        "2024": {
+          "general": 322370,
+          "apartment": 158910
+        }
+      }
+    },
+    {
+      "code": "4121000000",
+      "region": "광명시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 110306,
+          "apartment": 61836
+        },
+        "2015": {
+          "general": 117670,
+          "apartment": 68637
+        },
+        "2024": {
+          "general": 107268,
+          "apartment": 75884
+        }
+      }
+    },
+    {
+      "code": "4122000000",
+      "region": "평택시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 131814,
+          "apartment": 69372
+        },
+        "2015": {
+          "general": 164197,
+          "apartment": 82777
+        },
+        "2024": {
+          "general": 260328,
+          "apartment": 159958
+        }
+      }
+    },
+    {
+      "code": "4127000000",
+      "region": "안산시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 249009,
+          "apartment": 92918
+        },
+        "2015": {
+          "general": 258519,
+          "apartment": 92376
+        },
+        "2024": {
+          "general": 267949,
+          "apartment": 114762
+        }
+      }
+    },
+    {
+      "code": "4128000000",
+      "region": "고양시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 303568,
+          "apartment": 193709
+        },
+        "2015": {
+          "general": 351477,
+          "apartment": 227943
+        },
+        "2024": {
+          "general": 430075,
+          "apartment": 273733
+        }
+      }
+    },
+    {
+      "code": "4129000000",
+      "region": "과천시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 21662,
+          "apartment": 12901
+        },
+        "2015": {
+          "general": 22541,
+          "apartment": 12443
+        },
+        "2024": {
+          "general": 29182,
+          "apartment": 19827
+        }
+      }
+    },
+    {
+      "code": "4131000000",
+      "region": "구리시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 61934,
+          "apartment": 34208
+        },
+        "2015": {
+          "general": 63952,
+          "apartment": 35819
+        },
+        "2024": {
+          "general": 75031,
+          "apartment": 47588
+        }
+      }
+    },
+    {
+      "code": "4136000000",
+      "region": "남양주시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 170933,
+          "apartment": 120560
+        },
+        "2015": {
+          "general": 214763,
+          "apartment": 147834
+        },
+        "2024": {
+          "general": 280404,
+          "apartment": 199087
+        }
+      }
+    },
+    {
+      "code": "4141000000",
+      "region": "군포시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 92647,
+          "apartment": 64386
+        },
+        "2015": {
+          "general": 98130,
+          "apartment": 68705
+        },
+        "2024": {
+          "general": 105395,
+          "apartment": 72184
+        }
+      }
+    },
+    {
+      "code": "4143000000",
+      "region": "의왕시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 46414,
+          "apartment": 30365
+        },
+        "2015": {
+          "general": 53407,
+          "apartment": 35506
+        },
+        "2024": {
+          "general": 59181,
+          "apartment": 45696
+        }
+      }
+    },
+    {
+      "code": "4145000000",
+      "region": "하남시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 46100,
+          "apartment": 23820
+        },
+        "2015": {
+          "general": 55689,
+          "apartment": 30146
+        },
+        "2024": {
+          "general": 131561,
+          "apartment": 89023
+        }
+      }
+    },
+    {
+      "code": "4146000000",
+      "region": "용인시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 269746,
+          "apartment": 198259
+        },
+        "2015": {
+          "general": 324312,
+          "apartment": 225561
+        },
+        "2024": {
+          "general": 413755,
+          "apartment": 284159
+        }
+      }
+    },
+    {
+      "code": "4148000000",
+      "region": "파주시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 104692,
+          "apartment": 65858
+        },
+        "2015": {
+          "general": 142665,
+          "apartment": 90710
+        },
+        "2024": {
+          "general": 201200,
+          "apartment": 131392
+        }
+      }
+    },
+    {
+      "code": "4157000000",
+      "region": "김포시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 71246,
+          "apartment": 46809
+        },
+        "2015": {
+          "general": 118224,
+          "apartment": 86697
+        },
+        "2024": {
+          "general": 190489,
+          "apartment": 138725
+        }
+      }
+    },
+    {
+      "code": "4159000000",
+      "region": "화성시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 158423,
+          "apartment": 106559
+        },
+        "2015": {
+          "general": 201983,
+          "apartment": 127303
+        },
+        "2024": {
+          "general": 388620,
+          "apartment": 277626
+        }
+      }
+    },
+    {
+      "code": "4161000000",
+      "region": "광주시",
+      "group": "수집 경기 20시",
+      "observations": {
+        "2010": {
+          "general": 72951,
+          "apartment": 29766
+        },
+        "2015": {
+          "general": 107862,
+          "apartment": 32411
+        },
+        "2024": {
+          "general": 158681,
+          "apartment": 59206
+        }
+      }
+    }
+  ],
+  "movein_period": [
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "recorded_units": 507823,
+      "observed_months": 168,
+      "expected_months": 168
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "recorded_units": 1255828,
+      "observed_months": 168,
+      "expected_months": 168
+    }
+  ],
+  "movein_annual": [
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2015,
+      "recorded_units": 28605,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2016,
+      "recorded_units": 33153,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2017,
+      "recorded_units": 35362,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2018,
+      "recorded_units": 43386,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2019,
+      "recorded_units": 51785,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2020,
+      "recorded_units": 53382,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2021,
+      "recorded_units": 36593,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2022,
+      "recorded_units": 30379,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2023,
+      "recorded_units": 34362,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "1100000000",
+      "region": "서울",
+      "year": 2024,
+      "recorded_units": 26520,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2015,
+      "recorded_units": 68859,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2016,
+      "recorded_units": 80503,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2017,
+      "recorded_units": 122554,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2018,
+      "recorded_units": 170397,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2019,
+      "recorded_units": 130870,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2020,
+      "recorded_units": 99267,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2021,
+      "recorded_units": 93567,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2022,
+      "recorded_units": 92299,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2023,
+      "recorded_units": 99974,
+      "observed_months": 12,
+      "expected_months": 12
+    },
+    {
+      "code": "4100000000",
+      "region": "경기",
+      "year": 2024,
+      "recorded_units": 108190,
+      "observed_months": 12,
+      "expected_months": 12
+    }
+  ],
+  "sources": [
+    {
+      "name": "KB 부동산 데이터허브 가구",
+      "url": "https://data.kbland.kr/publicdata/household"
+    },
+    {
+      "name": "KB 부동산 데이터허브 공급",
+      "url": "https://data.kbland.kr/publicdata/housing-supply"
+    },
+    {
+      "name": "2024 인구주택총조사 표31·이용자 유의사항",
+      "url": "https://www.kostat.go.kr/boardDownload.es?bid=203&list_no=437767&seq=3"
+    }
+  ],
+  "source_snapshot": "2026-10-03 KB raw retrieval; historical observations through 2024"
+}
