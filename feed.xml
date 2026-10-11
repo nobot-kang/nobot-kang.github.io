@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-11T17:06:04+09:00</updated>
+  <updated>2026-10-11T17:19:58+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>노원·도봉·강북, 금천·관악·구로 집값: 서울과 비교한 2010~2026년</title>
+    <id>https://nobot-kang.github.io/posts/seoul-six-district-price-history/</id>
+    <published>2026-10-11T17:19:58+09:00</published>
+    <updated>2026-10-11T17:19:58+09:00</updated>
+    <summary>서울 여섯 구의 2010~2026년 가격 수준과 자체 지수를 비교합니다. 두 면적군의 서울 대비 격차, 상승·하락과 비교 고점 회복, 구성 변화와 자료 한계를 확인하세요.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-six-district-price-history/" />
+    <category term="수도권 가격 지도" />
+  </entry>
   <entry>
     <title>같은 보증금 전세, 2년 뒤에도 같은 면적을 고를 수 있을까?</title>
     <id>https://nobot-kang.github.io/posts/same-deposit-two-years/</id>
@@ -41,7 +50,7 @@
     <title>2015·2026 아파트 지역 가격 순위, 신축 거래와 함께 비교하기</title>
     <id>https://nobot-kang.github.io/posts/regional-price-ranks-2015-2026/</id>
     <published>2026-10-11T15:36:55+09:00</published>
-    <updated>2026-10-11T15:36:55+09:00</updated>
+    <updated>2026-10-11T17:19:58+09:00</updated>
     <summary>2015년과 2026년 상반기 서울·수집 경기의 84㎡대·59㎡대 가격 순위 변화를 비교합니다. 지역별 중앙값·가격 범위, 신축 거래 비중 변화와 같은 단지 비교를 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/regional-price-ranks-2015-2026/" />
     <category term="수도권 가격 지도" />
