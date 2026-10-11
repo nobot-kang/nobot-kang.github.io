@@ -1,0 +1,1972 @@
+{
+  "schema": "area-variety-v1",
+  "snapshot": "2026-10-02",
+  "scopes": {
+    "11": "서울",
+    "41": "수집 경기"
+  },
+  "eras": [
+    "all",
+    "pre1980",
+    "1980s",
+    "1990s",
+    "2000s",
+    "2010s",
+    "2020_2026",
+    "unknown"
+  ],
+  "sizes": [
+    "all",
+    "under300",
+    "300to999",
+    "atleast1000",
+    "unknown"
+  ],
+  "population": "현재 단지 중 면적·세대수·연결·승인일·아파트 유형 조건을 통과한 단지",
+  "source_url": "https://www.reb.or.kr/reb/ad/bs/beffatinfosport/view/selectBeffatinfoList.do?mi=9624",
+  "measures": {
+    "area": "양의 세대수가 있는 서로 다른 숫자 전용㎡ 값의 개수",
+    "unit": "전용㎡를 3.3058로 나눈 뒤 반올림한 정수 평형의 개수"
+  },
+  "denominator": {
+    "distribution": "각 적격 단지에 같은 가중치를 부여한 단지별 가짓수 분포",
+    "single": "두 단위가 함께 알려진 동일 적격 단지 수",
+    "complex_coverage": "유형 미상·미연결을 포함한 보유 전체 단지 수",
+    "household_coverage": "보유 전체 단지 중 세대수가 알려진 단지의 세대수 합"
+  },
+  "precision": {
+    "quartile_step": 0.5,
+    "share_pp": 5,
+    "coverage_band_pp": 10
+  },
+  "limits": [
+    "정확 전용㎡ 값의 가짓수는 A/B형 설계도나 공급면적·분양 평형의 종류 수가 아니다.",
+    "같은 숫자 면적의 다른 구조는 구분하지 못하며 소수 면적 차이는 각각 센다.",
+    "현재 남은 연결 단지의 비교이며 준공 당시 공급이나 전국 전수를 복원한 결과가 아니다.",
+    "수집 경기는 경기도 전체가 아니다. 2026년은 10월2일 보유 자료까지다.",
+    "분포는40단지 이상을 요구하며 반올림된 사분위 사이 범위는 신뢰구간이 아니다.",
+    "한 가지 비율은 정확 면적 하나·여러 면적이지만 정수 평형 하나·정수 평형 여럿을 함께 점검한다.",
+    "작은 집단과 역산 우려가 있는 비율은 함께 보류한다. 보류는0%를 뜻하지 않는다.",
+    "반올림된0%·100%는 원래의0·전수를 뜻하지 않는다.",
+    "전체·연대·규모 행은 겹치므로 함께 더하지 않는다.",
+    "가용률은 하한 포함·상한 제외10%포인트 구간이며90~100%는100%를 포함한다.",
+    "집단 크기와 반올림, 명명된 분할 검토는 일반적인 재식별 불가능성이나 차등 개인정보보호 보증이 아니다."
+  ],
+  "rows": [
+    {
+      "scope": "11",
+      "era": "all",
+      "size": "all",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        3.0,
+        4.0,
+        7.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "single_status": "supported",
+      "one_area_pct": 5.0,
+      "one_unit_pct": 10.0,
+      "complex_coverage_pct_band": [
+        20,
+        30
+      ],
+      "known_household_coverage_pct_band": [
+        70.0,
+        80.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "all",
+      "size": "under300",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        3.0,
+        4.0,
+        5.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        10,
+        20
+      ],
+      "known_household_coverage_pct_band": [
+        50.0,
+        60.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "all",
+      "size": "300to999",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        3.0,
+        5.0,
+        7.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "single_status": "supported",
+      "one_area_pct": 5.0,
+      "one_unit_pct": 5.0,
+      "complex_coverage_pct_band": [
+        90,
+        100
+      ],
+      "known_household_coverage_pct_band": [
+        90,
+        100
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "all",
+      "size": "atleast1000",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        4.0,
+        7.0,
+        12.0
+      ],
+      "unit_quartiles": [
+        3.0,
+        4.0,
+        6.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        80,
+        90
+      ],
+      "known_household_coverage_pct_band": [
+        80.0,
+        90.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "all",
+      "size": "unknown",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "11",
+      "era": "pre1980",
+      "size": "all",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        4.0,
+        8.0,
+        13.5
+      ],
+      "unit_quartiles": [
+        3.0,
+        5.0,
+        7.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        10,
+        20
+      ],
+      "known_household_coverage_pct_band": [
+        60.0,
+        70.0
+      ],
+      "unknown_household_complex_pct_band": [
+        20,
+        30
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "pre1980",
+      "size": "under300",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "11",
+      "era": "pre1980",
+      "size": "300to999",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "11",
+      "era": "pre1980",
+      "size": "atleast1000",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "11",
+      "era": "pre1980",
+      "size": "unknown",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "11",
+      "era": "1980s",
+      "size": "all",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        3.0,
+        4.0,
+        6.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        5.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        50,
+        60
+      ],
+      "known_household_coverage_pct_band": [
+        80.0,
+        90.0
+      ],
+      "unknown_household_complex_pct_band": [
+        20,
+        30
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "1980s",
+      "size": "under300",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        3.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        40,
+        50
+      ],
+      "known_household_coverage_pct_band": [
+        60.0,
+        70.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "1980s",
+      "size": "300to999",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        3.0,
+        4.0,
+        6.0
+      ],
+      "unit_quartiles": [
+        3.0,
+        3.0,
+        4.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        90,
+        100
+      ],
+      "known_household_coverage_pct_band": [
+        90,
+        100
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "1980s",
+      "size": "atleast1000",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        5.0,
+        8.0,
+        13.0
+      ],
+      "unit_quartiles": [
+        4.0,
+        6.0,
+        9.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        90,
+        100
+      ],
+      "known_household_coverage_pct_band": [
+        90,
+        100
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "1980s",
+      "size": "unknown",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "11",
+      "era": "1990s",
+      "size": "all",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        3.0
+      ],
+      "single_status": "supported",
+      "one_area_pct": 10.0,
+      "one_unit_pct": 15.0,
+      "complex_coverage_pct_band": [
+        40,
+        50
+      ],
+      "known_household_coverage_pct_band": [
+        80.0,
+        90.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "1990s",
+      "size": "under300",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        3.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        30,
+        40
+      ],
+      "known_household_coverage_pct_band": [
+        70.0,
+        80.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "1990s",
+      "size": "300to999",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        3.0
+      ],
+      "single_status": "supported",
+      "one_area_pct": 10.0,
+      "one_unit_pct": 15.0,
+      "complex_coverage_pct_band": [
+        90,
+        100
+      ],
+      "known_household_coverage_pct_band": [
+        90,
+        100
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "1990s",
+      "size": "atleast1000",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        3.0,
+        4.0,
+        5.0
+      ],
+      "unit_quartiles": [
+        3.0,
+        3.0,
+        4.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        70,
+        80
+      ],
+      "known_household_coverage_pct_band": [
+        70.0,
+        80.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "1990s",
+      "size": "unknown",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "11",
+      "era": "2000s",
+      "size": "all",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        3.0,
+        4.0,
+        6.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "single_status": "supported",
+      "one_area_pct": 5.0,
+      "one_unit_pct": 10.0,
+      "complex_coverage_pct_band": [
+        20,
+        30
+      ],
+      "known_household_coverage_pct_band": [
+        70.0,
+        80.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "2000s",
+      "size": "under300",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        3.0,
+        4.0,
+        5.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        10,
+        20
+      ],
+      "known_household_coverage_pct_band": [
+        50.0,
+        60.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "2000s",
+      "size": "300to999",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        3.0,
+        4.0,
+        6.0
+      ],
+      "unit_quartiles": [
+        3.0,
+        3.0,
+        4.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        90,
+        100
+      ],
+      "known_household_coverage_pct_band": [
+        90,
+        100
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "2000s",
+      "size": "atleast1000",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        4.0,
+        5.0,
+        7.0
+      ],
+      "unit_quartiles": [
+        3.0,
+        4.0,
+        5.0
+      ],
+      "single_status": "supported",
+      "one_area_pct": 0.0,
+      "one_unit_pct": 0.0,
+      "complex_coverage_pct_band": [
+        80,
+        90
+      ],
+      "known_household_coverage_pct_band": [
+        80.0,
+        90.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "2000s",
+      "size": "unknown",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "11",
+      "era": "2010s",
+      "size": "all",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        5.0,
+        7.0,
+        11.0
+      ],
+      "unit_quartiles": [
+        3.0,
+        4.0,
+        5.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        30,
+        40
+      ],
+      "known_household_coverage_pct_band": [
+        80.0,
+        90.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "2010s",
+      "size": "under300",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        3.0,
+        5.0,
+        8.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        4.5
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        10,
+        20
+      ],
+      "known_household_coverage_pct_band": [
+        40.0,
+        50.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "2010s",
+      "size": "300to999",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        6.0,
+        9.0,
+        11.0
+      ],
+      "unit_quartiles": [
+        3.0,
+        4.0,
+        5.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        90,
+        100
+      ],
+      "known_household_coverage_pct_band": [
+        90,
+        100
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "2010s",
+      "size": "atleast1000",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        9.0,
+        12.0,
+        16.5
+      ],
+      "unit_quartiles": [
+        4.0,
+        5.0,
+        6.5
+      ],
+      "single_status": "supported",
+      "one_area_pct": 0.0,
+      "one_unit_pct": 0.0,
+      "complex_coverage_pct_band": [
+        90,
+        100
+      ],
+      "known_household_coverage_pct_band": [
+        90,
+        100
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "2010s",
+      "size": "unknown",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "11",
+      "era": "2020_2026",
+      "size": "all",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        5.0,
+        7.0,
+        12.0
+      ],
+      "unit_quartiles": [
+        3.0,
+        4.0,
+        6.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        30,
+        40
+      ],
+      "known_household_coverage_pct_band": [
+        70.0,
+        80.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "2020_2026",
+      "size": "under300",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        4.0,
+        6.0,
+        8.5
+      ],
+      "unit_quartiles": [
+        3.0,
+        3.5,
+        5.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        10,
+        20
+      ],
+      "known_household_coverage_pct_band": [
+        40.0,
+        50.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "2020_2026",
+      "size": "300to999",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        6.0,
+        7.0,
+        10.0
+      ],
+      "unit_quartiles": [
+        3.0,
+        4.0,
+        6.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        80,
+        90
+      ],
+      "known_household_coverage_pct_band": [
+        70.0,
+        80.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "2020_2026",
+      "size": "atleast1000",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "11",
+      "era": "2020_2026",
+      "size": "unknown",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "11",
+      "era": "unknown",
+      "size": "all",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "11",
+      "era": "unknown",
+      "size": "under300",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "11",
+      "era": "unknown",
+      "size": "300to999",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "11",
+      "era": "unknown",
+      "size": "atleast1000",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "11",
+      "era": "unknown",
+      "size": "unknown",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "all",
+      "size": "all",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        2.0,
+        3.0,
+        5.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "single_status": "supported",
+      "one_area_pct": 10.0,
+      "one_unit_pct": 20.0,
+      "complex_coverage_pct_band": [
+        50,
+        60
+      ],
+      "known_household_coverage_pct_band": [
+        90,
+        100
+      ],
+      "unknown_household_complex_pct_band": [
+        10,
+        20
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "all",
+      "size": "under300",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "single_status": "supported",
+      "one_area_pct": 15.0,
+      "one_unit_pct": 25.0,
+      "complex_coverage_pct_band": [
+        20,
+        30
+      ],
+      "known_household_coverage_pct_band": [
+        60.0,
+        70.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "all",
+      "size": "300to999",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        2.0,
+        3.0,
+        5.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "single_status": "supported",
+      "one_area_pct": 10.0,
+      "one_unit_pct": 20.0,
+      "complex_coverage_pct_band": [
+        90,
+        100
+      ],
+      "known_household_coverage_pct_band": [
+        90,
+        100
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "all",
+      "size": "atleast1000",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        4.0,
+        5.0,
+        8.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        5.0
+      ],
+      "single_status": "supported",
+      "one_area_pct": 0.0,
+      "one_unit_pct": 10.0,
+      "complex_coverage_pct_band": [
+        90,
+        100
+      ],
+      "known_household_coverage_pct_band": [
+        90,
+        100
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "all",
+      "size": "unknown",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "pre1980",
+      "size": "all",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "pre1980",
+      "size": "under300",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "pre1980",
+      "size": "300to999",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "pre1980",
+      "size": "atleast1000",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "pre1980",
+      "size": "unknown",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "1980s",
+      "size": "all",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        2.0,
+        4.0,
+        5.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        10,
+        20
+      ],
+      "known_household_coverage_pct_band": [
+        60.0,
+        70.0
+      ],
+      "unknown_household_complex_pct_band": [
+        20,
+        30
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "1980s",
+      "size": "under300",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "1980s",
+      "size": "300to999",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "1980s",
+      "size": "atleast1000",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "1980s",
+      "size": "unknown",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "1990s",
+      "size": "all",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "single_status": "supported",
+      "one_area_pct": 10.0,
+      "one_unit_pct": 15.0,
+      "complex_coverage_pct_band": [
+        50,
+        60
+      ],
+      "known_household_coverage_pct_band": [
+        80.0,
+        90.0
+      ],
+      "unknown_household_complex_pct_band": [
+        10,
+        20
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "1990s",
+      "size": "under300",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        40,
+        50
+      ],
+      "known_household_coverage_pct_band": [
+        70.0,
+        80.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "1990s",
+      "size": "300to999",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        2.0,
+        3.0,
+        3.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "single_status": "supported",
+      "one_area_pct": 10.0,
+      "one_unit_pct": 15.0,
+      "complex_coverage_pct_band": [
+        90,
+        100
+      ],
+      "known_household_coverage_pct_band": [
+        90,
+        100
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "1990s",
+      "size": "atleast1000",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        3.0,
+        4.0,
+        6.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        80,
+        90
+      ],
+      "known_household_coverage_pct_band": [
+        80.0,
+        90.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "1990s",
+      "size": "unknown",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "2000s",
+      "size": "all",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "single_status": "supported",
+      "one_area_pct": 15.0,
+      "one_unit_pct": 25.0,
+      "complex_coverage_pct_band": [
+        50,
+        60
+      ],
+      "known_household_coverage_pct_band": [
+        90,
+        100
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "2000s",
+      "size": "under300",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "unit_quartiles": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        30,
+        40
+      ],
+      "known_household_coverage_pct_band": [
+        60.0,
+        70.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "2000s",
+      "size": "300to999",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "single_status": "supported",
+      "one_area_pct": 15.0,
+      "one_unit_pct": 20.0,
+      "complex_coverage_pct_band": [
+        90,
+        100
+      ],
+      "known_household_coverage_pct_band": [
+        90,
+        100
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "2000s",
+      "size": "atleast1000",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        3.0,
+        5.0,
+        6.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        4.0,
+        5.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        90,
+        100
+      ],
+      "known_household_coverage_pct_band": [
+        90,
+        100
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "2000s",
+      "size": "unknown",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "2010s",
+      "size": "all",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        3.0,
+        5.0,
+        7.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "single_status": "supported",
+      "one_area_pct": 0.0,
+      "one_unit_pct": 15.0,
+      "complex_coverage_pct_band": [
+        60,
+        70
+      ],
+      "known_household_coverage_pct_band": [
+        90,
+        100
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "2010s",
+      "size": "under300",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        2.0,
+        4.0,
+        6.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "single_status": "supported",
+      "one_area_pct": 5.0,
+      "one_unit_pct": 20.0,
+      "complex_coverage_pct_band": [
+        30,
+        40
+      ],
+      "known_household_coverage_pct_band": [
+        60.0,
+        70.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "2010s",
+      "size": "300to999",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        3.0,
+        5.0,
+        7.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        90,
+        100
+      ],
+      "known_household_coverage_pct_band": [
+        90,
+        100
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "2010s",
+      "size": "atleast1000",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        4.0,
+        6.0,
+        9.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        90,
+        100
+      ],
+      "known_household_coverage_pct_band": [
+        90,
+        100
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "2010s",
+      "size": "unknown",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "2020_2026",
+      "size": "all",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        3.0,
+        5.0,
+        7.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        50,
+        60
+      ],
+      "known_household_coverage_pct_band": [
+        80.0,
+        90.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "2020_2026",
+      "size": "under300",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        3.0,
+        4.0,
+        6.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        20,
+        30
+      ],
+      "known_household_coverage_pct_band": [
+        60.0,
+        70.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "2020_2026",
+      "size": "300to999",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        3.0,
+        4.0,
+        6.0
+      ],
+      "unit_quartiles": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        90,
+        100
+      ],
+      "known_household_coverage_pct_band": [
+        90,
+        100
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "2020_2026",
+      "size": "atleast1000",
+      "distribution_status": "supported",
+      "area_quartiles": [
+        5.0,
+        7.0,
+        10.5
+      ],
+      "unit_quartiles": [
+        3.0,
+        4.0,
+        6.0
+      ],
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": [
+        80,
+        90
+      ],
+      "known_household_coverage_pct_band": [
+        80.0,
+        90.0
+      ],
+      "unknown_household_complex_pct_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "2020_2026",
+      "size": "unknown",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "unknown",
+      "size": "all",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "unknown",
+      "size": "under300",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "unknown",
+      "size": "300to999",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "unknown",
+      "size": "atleast1000",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    },
+    {
+      "scope": "41",
+      "era": "unknown",
+      "size": "unknown",
+      "distribution_status": "withheld",
+      "area_quartiles": null,
+      "unit_quartiles": null,
+      "single_status": "withheld",
+      "one_area_pct": null,
+      "one_unit_pct": null,
+      "complex_coverage_pct_band": null,
+      "known_household_coverage_pct_band": null,
+      "unknown_household_complex_pct_band": null
+    }
+  ],
+  "sensitivity": [
+    {
+      "scope": "11",
+      "variant": "no_household_conflict",
+      "compared_groups": 6,
+      "median_change_upper": 0,
+      "quartile_change_upper": 1
+    },
+    {
+      "scope": "11",
+      "variant": "canonical_bridge",
+      "compared_groups": 7,
+      "median_change_upper": 0,
+      "quartile_change_upper": 0
+    },
+    {
+      "scope": "41",
+      "variant": "no_household_conflict",
+      "compared_groups": 6,
+      "median_change_upper": 0,
+      "quartile_change_upper": 1
+    },
+    {
+      "scope": "41",
+      "variant": "canonical_bridge",
+      "compared_groups": 6,
+      "median_change_upper": 0,
+      "quartile_change_upper": 0
+    }
+  ]
+}
