@@ -217,3 +217,18 @@ calendar rows remain; 53 insufficient rows have null costs/ratios, never zero.
 not contracts or pooled annual medians. Income method changes in 2017/2019 and
 rental reporting changes in June 2021 limit historical comparisons. No individual
 terms, IDs, exact contract counts or unrounded cost medians are supplied.
+
+`assets/parking-era.json` describes current, connected apartment parking by canonical
+construction-year group, using the selected K-apt snapshot of 2026-10-02. The 441
+rows cover Seoul, collected Gyeonggi and their 61 regions, including unknown-year
+and insufficient groups. Quartiles are equal-complex linear quantiles: parking per
+household rounds to 0.05 spaces and underground shares to 5 percentage points.
+`weighted_parking` separately weights by households and is withheld when a single
+complex exceeds 20% of the observed household denominator. Ratios need at least ten
+complexes; province threshold shares also suppress small nonzero parts/complements.
+Coverage uses 10-percentage-point bands, lower-inclusive and upper-exclusive except
+90–100 includes 100. Household coverage is conditional on known household counts;
+unknown-household complex coverage is a separate field. Null does not mean zero.
+There are no exact parking sums, household/complex counts, or complex IDs. Rounded
+100% does not prove every space is underground. Current surviving complexes cannot
+reconstruct original historical provision, parking availability, or price effects.
