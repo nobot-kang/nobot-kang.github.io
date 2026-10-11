@@ -1,0 +1,8844 @@
+{
+  "schema": "b003_public_v1",
+  "periods": [
+    "2015H1",
+    "2026H1"
+  ],
+  "areas": {
+    "84": "84 <= exclusive area_m2 < 85",
+    "59": "59 <= exclusive area_m2 < 60"
+  },
+  "population": "Strict eligible observed sales, land leasehold excluded, current master geography; Seoul and collected Gyeonggi only",
+  "price_unit": "억원, rounded half up to 0.1",
+  "rank_rule": "Descending unrounded median; ties retained as intervals; common eligible regions in both periods",
+  "support": "At least 40 contracts and 10 complexes per period",
+  "peers": {
+    "59": 57,
+    "84": 60
+  },
+  "new_build": "Contract year minus current master build year: 0 to 5; unknown/future years excluded only from age denominator",
+  "share_band": "Change in new-build trade share, lower inclusive / upper exclusive, 5 percentage-point bands",
+  "fixed_definition": "Same complex and exact reported area cells, at least 3 trades in each period; equal cell medians within each complex then equal complex means within region; ranks on same fixed-eligible peers",
+  "removal_definition": "Remove highest contract-count complex separately each period; rank focal median against other regions original medians; null if support lost",
+  "information_cutoff": "Unknown historical availability cutoff; current retained vintage, not a real-time backtest",
+  "future_year_exclusion_rank_unchanged": true,
+  "limitations": [
+    "Ranks are not investment returns or same-home price changes",
+    "Fixed comparison changes the housing set and the statistic/weights; not a causal supply effect",
+    "2015 cancellation/direct-sale non-disclosure is not confirmation of 2026 disclosure status"
+  ],
+  "rows": [
+    {
+      "region": "11110",
+      "label": "서울 종로구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 5.2,
+        "p25_eok": 4.8,
+        "p75_eok": 5.7,
+        "rank": [
+          9,
+          9
+        ]
+      },
+      "end": {
+        "median_eok": 12.2,
+        "p25_eok": 10.8,
+        "p75_eok": 15.5,
+        "rank": [
+          13,
+          13
+        ]
+      },
+      "rank_change": [
+        -4,
+        -4
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": false,
+        "peer_regions": 56
+      },
+      "largest_removed": {
+        "start_rank": [
+          11,
+          11
+        ],
+        "end_rank": [
+          12,
+          12
+        ],
+        "rank_change": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "region": "11140",
+      "label": "서울 중구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 5.4,
+        "p25_eok": 5.2,
+        "p75_eok": 5.7,
+        "rank": [
+          7,
+          7
+        ]
+      },
+      "end": {
+        "median_eok": 16.1,
+        "p25_eok": 11.9,
+        "p75_eok": 17.3,
+        "rank": [
+          8,
+          8
+        ]
+      },
+      "rank_change": [
+        -1,
+        -1
+      ],
+      "new_share_change_pp_band": [
+        -25,
+        -20
+      ],
+      "fixed": {
+        "supported": false,
+        "peer_regions": 56
+      },
+      "largest_removed": {
+        "start_rank": [
+          7,
+          7
+        ],
+        "end_rank": [
+          12,
+          12
+        ],
+        "rank_change": [
+          -5,
+          -5
+        ]
+      }
+    },
+    {
+      "region": "11170",
+      "label": "서울 용산구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 6.3,
+        "p25_eok": 5.3,
+        "p75_eok": 7.5,
+        "rank": [
+          3,
+          3
+        ]
+      },
+      "end": {
+        "median_eok": 19.6,
+        "p25_eok": 17.5,
+        "p75_eok": 25.3,
+        "rank": [
+          4,
+          4
+        ]
+      },
+      "rank_change": [
+        -1,
+        -1
+      ],
+      "new_share_change_pp_band": [
+        -15,
+        -10
+      ],
+      "fixed": {
+        "supported": false,
+        "peer_regions": 56
+      },
+      "largest_removed": {
+        "start_rank": [
+          3,
+          3
+        ],
+        "end_rank": [
+          4,
+          4
+        ],
+        "rank_change": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "region": "11200",
+      "label": "서울 성동구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 5.1,
+        "p25_eok": 4.5,
+        "p75_eok": 5.8,
+        "rank": [
+          10,
+          10
+        ]
+      },
+      "end": {
+        "median_eok": 18.0,
+        "p25_eok": 15.0,
+        "p75_eok": 21.7,
+        "rank": [
+          6,
+          6
+        ]
+      },
+      "rank_change": [
+        4,
+        4
+      ],
+      "new_share_change_pp_band": [
+        -15,
+        -10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            7,
+            7
+          ],
+          "end_rank": [
+            5,
+            5
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            8,
+            8
+          ],
+          "end_rank": [
+            5,
+            5
+          ],
+          "rank_change": [
+            3,
+            3
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          9,
+          9
+        ],
+        "end_rank": [
+          6,
+          6
+        ],
+        "rank_change": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "region": "11215",
+      "label": "서울 광진구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 5.8,
+        "p25_eok": 5.1,
+        "p75_eok": 6.3,
+        "rank": [
+          5,
+          5
+        ]
+      },
+      "end": {
+        "median_eok": 18.6,
+        "p25_eok": 15.1,
+        "p75_eok": 21.0,
+        "rank": [
+          5,
+          5
+        ]
+      },
+      "rank_change": [
+        0,
+        0
+      ],
+      "new_share_change_pp_band": [
+        5,
+        10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            4,
+            4
+          ],
+          "end_rank": [
+            4,
+            4
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            5,
+            5
+          ],
+          "end_rank": [
+            6,
+            6
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          5,
+          5
+        ],
+        "end_rank": [
+          5,
+          6
+        ],
+        "rank_change": [
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "region": "11230",
+      "label": "서울 동대문구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.9,
+        "p25_eok": 3.6,
+        "p75_eok": 4.4,
+        "rank": [
+          24,
+          24
+        ]
+      },
+      "end": {
+        "median_eok": 10.7,
+        "p25_eok": 8.8,
+        "p75_eok": 14.0,
+        "rank": [
+          17,
+          17
+        ]
+      },
+      "rank_change": [
+        7,
+        7
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            21,
+            21
+          ],
+          "end_rank": [
+            14,
+            14
+          ],
+          "rank_change": [
+            7,
+            7
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            17,
+            17
+          ],
+          "end_rank": [
+            13,
+            13
+          ],
+          "rank_change": [
+            4,
+            4
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          25,
+          25
+        ],
+        "end_rank": [
+          18,
+          18
+        ],
+        "rank_change": [
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "region": "11260",
+      "label": "서울 중랑구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.4,
+        "p25_eok": 3.1,
+        "p75_eok": 3.8,
+        "rank": [
+          31,
+          32
+        ]
+      },
+      "end": {
+        "median_eok": 7.5,
+        "p25_eok": 6.7,
+        "p75_eok": 8.5,
+        "rank": [
+          32,
+          33
+        ]
+      },
+      "rank_change": [
+        -2,
+        0
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            28,
+            29
+          ],
+          "end_rank": [
+            29,
+            30
+          ],
+          "rank_change": [
+            -2,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            29,
+            29
+          ],
+          "end_rank": [
+            27,
+            27
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          29,
+          29
+        ],
+        "end_rank": [
+          32,
+          32
+        ],
+        "rank_change": [
+          -3,
+          -3
+        ]
+      }
+    },
+    {
+      "region": "11290",
+      "label": "서울 성북구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 4.1,
+        "p25_eok": 3.6,
+        "p75_eok": 4.5,
+        "rank": [
+          16,
+          17
+        ]
+      },
+      "end": {
+        "median_eok": 9.8,
+        "p25_eok": 8.5,
+        "p75_eok": 11.5,
+        "rank": [
+          20,
+          20
+        ]
+      },
+      "rank_change": [
+        -4,
+        -3
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            13,
+            14
+          ],
+          "end_rank": [
+            17,
+            17
+          ],
+          "rank_change": [
+            -4,
+            -3
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            15,
+            15
+          ],
+          "end_rank": [
+            16,
+            16
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          16,
+          16
+        ],
+        "end_rank": [
+          20,
+          20
+        ],
+        "rank_change": [
+          -4,
+          -4
+        ]
+      }
+    },
+    {
+      "region": "11305",
+      "label": "서울 강북구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.6,
+        "p25_eok": 3.3,
+        "p75_eok": 4.2,
+        "rank": [
+          28,
+          28
+        ]
+      },
+      "end": {
+        "median_eok": 7.5,
+        "p25_eok": 6.8,
+        "p75_eok": 9.0,
+        "rank": [
+          32,
+          33
+        ]
+      },
+      "rank_change": [
+        -5,
+        -4
+      ],
+      "new_share_change_pp_band": [
+        -25,
+        -20
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            25,
+            25
+          ],
+          "end_rank": [
+            29,
+            30
+          ],
+          "rank_change": [
+            -5,
+            -4
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            28,
+            28
+          ],
+          "end_rank": [
+            29,
+            29
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          28,
+          28
+        ],
+        "end_rank": [
+          30,
+          30
+        ],
+        "rank_change": [
+          -2,
+          -2
+        ]
+      }
+    },
+    {
+      "region": "11320",
+      "label": "서울 도봉구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.1,
+        "p25_eok": 2.8,
+        "p75_eok": 3.8,
+        "rank": [
+          42,
+          42
+        ]
+      },
+      "end": {
+        "median_eok": 6.3,
+        "p25_eok": 5.5,
+        "p75_eok": 8.3,
+        "rank": [
+          40,
+          40
+        ]
+      },
+      "rank_change": [
+        2,
+        2
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            38,
+            38
+          ],
+          "end_rank": [
+            37,
+            37
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            35,
+            35
+          ],
+          "end_rank": [
+            31,
+            31
+          ],
+          "rank_change": [
+            4,
+            4
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          39,
+          39
+        ],
+        "end_rank": [
+          39,
+          39
+        ],
+        "rank_change": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "region": "11350",
+      "label": "서울 노원구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.8,
+        "p25_eok": 3.3,
+        "p75_eok": 4.2,
+        "rank": [
+          26,
+          26
+        ]
+      },
+      "end": {
+        "median_eok": 8.5,
+        "p25_eok": 6.9,
+        "p75_eok": 9.8,
+        "rank": [
+          26,
+          26
+        ]
+      },
+      "rank_change": [
+        0,
+        0
+      ],
+      "new_share_change_pp_band": [
+        0,
+        5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            23,
+            23
+          ],
+          "end_rank": [
+            23,
+            23
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            23,
+            23
+          ],
+          "end_rank": [
+            23,
+            23
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          26,
+          26
+        ],
+        "end_rank": [
+          27,
+          27
+        ],
+        "rank_change": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "region": "11380",
+      "label": "서울 은평구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.9,
+        "p25_eok": 3.2,
+        "p75_eok": 4.6,
+        "rank": [
+          23,
+          23
+        ]
+      },
+      "end": {
+        "median_eok": 9.3,
+        "p25_eok": 7.8,
+        "p75_eok": 11.7,
+        "rank": [
+          23,
+          23
+        ]
+      },
+      "rank_change": [
+        0,
+        0
+      ],
+      "new_share_change_pp_band": [
+        -20,
+        -15
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            20,
+            20
+          ],
+          "end_rank": [
+            20,
+            20
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            18,
+            18
+          ],
+          "end_rank": [
+            22,
+            22
+          ],
+          "rank_change": [
+            -4,
+            -4
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          23,
+          24
+        ],
+        "end_rank": [
+          23,
+          23
+        ],
+        "rank_change": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "region": "11410",
+      "label": "서울 서대문구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 4.0,
+        "p25_eok": 3.5,
+        "p75_eok": 4.7,
+        "rank": [
+          21,
+          21
+        ]
+      },
+      "end": {
+        "median_eok": 11.0,
+        "p25_eok": 8.8,
+        "p75_eok": 14.4,
+        "rank": [
+          16,
+          16
+        ]
+      },
+      "rank_change": [
+        5,
+        5
+      ],
+      "new_share_change_pp_band": [
+        -15,
+        -10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            18,
+            18
+          ],
+          "end_rank": [
+            13,
+            13
+          ],
+          "rank_change": [
+            5,
+            5
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            13,
+            13
+          ],
+          "end_rank": [
+            14,
+            14
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          23,
+          23
+        ],
+        "end_rank": [
+          17,
+          17
+        ],
+        "rank_change": [
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "region": "11440",
+      "label": "서울 마포구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 5.3,
+        "p25_eok": 4.7,
+        "p75_eok": 6.0,
+        "rank": [
+          8,
+          8
+        ]
+      },
+      "end": {
+        "median_eok": 15.3,
+        "p25_eok": 11.7,
+        "p75_eok": 20.6,
+        "rank": [
+          9,
+          9
+        ]
+      },
+      "rank_change": [
+        -1,
+        -1
+      ],
+      "new_share_change_pp_band": [
+        -15,
+        -10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            6,
+            6
+          ],
+          "end_rank": [
+            7,
+            7
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            6,
+            6
+          ],
+          "end_rank": [
+            7,
+            7
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          8,
+          8
+        ],
+        "end_rank": [
+          9,
+          9
+        ],
+        "rank_change": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "region": "11470",
+      "label": "서울 양천구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 4.1,
+        "p25_eok": 3.4,
+        "p75_eok": 5.1,
+        "rank": [
+          16,
+          17
+        ]
+      },
+      "end": {
+        "median_eok": 11.9,
+        "p25_eok": 8.0,
+        "p75_eok": 14.4,
+        "rank": [
+          14,
+          14
+        ]
+      },
+      "rank_change": [
+        2,
+        3
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            13,
+            14
+          ],
+          "end_rank": [
+            11,
+            11
+          ],
+          "rank_change": [
+            2,
+            3
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            11,
+            11
+          ],
+          "end_rank": [
+            11,
+            11
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          22,
+          22
+        ],
+        "end_rank": [
+          14,
+          14
+        ],
+        "rank_change": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "region": "11500",
+      "label": "서울 강서구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 4.0,
+        "p25_eok": 3.6,
+        "p75_eok": 4.6,
+        "rank": [
+          19,
+          19
+        ]
+      },
+      "end": {
+        "median_eok": 10.4,
+        "p25_eok": 8.6,
+        "p75_eok": 12.8,
+        "rank": [
+          18,
+          18
+        ]
+      },
+      "rank_change": [
+        1,
+        1
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            16,
+            16
+          ],
+          "end_rank": [
+            15,
+            15
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            16,
+            16
+          ],
+          "end_rank": [
+            12,
+            12
+          ],
+          "rank_change": [
+            4,
+            4
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          19,
+          19
+        ],
+        "end_rank": [
+          19,
+          19
+        ],
+        "rank_change": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "region": "11530",
+      "label": "서울 구로구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.8,
+        "p25_eok": 3.3,
+        "p75_eok": 4.3,
+        "rank": [
+          25,
+          25
+        ]
+      },
+      "end": {
+        "median_eok": 7.9,
+        "p25_eok": 6.8,
+        "p75_eok": 9.3,
+        "rank": [
+          29,
+          29
+        ]
+      },
+      "rank_change": [
+        -4,
+        -4
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            22,
+            22
+          ],
+          "end_rank": [
+            26,
+            26
+          ],
+          "rank_change": [
+            -4,
+            -4
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            22,
+            22
+          ],
+          "end_rank": [
+            19,
+            19
+          ],
+          "rank_change": [
+            3,
+            3
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          25,
+          25
+        ],
+        "end_rank": [
+          29,
+          29
+        ],
+        "rank_change": [
+          -4,
+          -4
+        ]
+      }
+    },
+    {
+      "region": "11545",
+      "label": "서울 금천구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.3,
+        "p25_eok": 3.0,
+        "p75_eok": 3.5,
+        "rank": [
+          37,
+          37
+        ]
+      },
+      "end": {
+        "median_eok": 7.2,
+        "p25_eok": 5.7,
+        "p75_eok": 9.7,
+        "rank": [
+          36,
+          36
+        ]
+      },
+      "rank_change": [
+        1,
+        1
+      ],
+      "new_share_change_pp_band": [
+        -15,
+        -10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            34,
+            34
+          ],
+          "end_rank": [
+            33,
+            33
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            34,
+            34
+          ],
+          "end_rank": [
+            33,
+            33
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          36,
+          37
+        ],
+        "end_rank": [
+          29,
+          30
+        ],
+        "rank_change": [
+          6,
+          8
+        ]
+      }
+    },
+    {
+      "region": "11560",
+      "label": "서울 영등포구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 4.3,
+        "p25_eok": 3.9,
+        "p75_eok": 4.8,
+        "rank": [
+          13,
+          13
+        ]
+      },
+      "end": {
+        "median_eok": 12.9,
+        "p25_eok": 9.8,
+        "p75_eok": 15.7,
+        "rank": [
+          12,
+          12
+        ]
+      },
+      "rank_change": [
+        1,
+        1
+      ],
+      "new_share_change_pp_band": [
+        0,
+        5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            10,
+            10
+          ],
+          "end_rank": [
+            10,
+            10
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            10,
+            10
+          ],
+          "end_rank": [
+            10,
+            10
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          13,
+          13
+        ],
+        "end_rank": [
+          12,
+          12
+        ],
+        "rank_change": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "region": "11590",
+      "label": "서울 동작구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 5.1,
+        "p25_eok": 4.5,
+        "p75_eok": 5.8,
+        "rank": [
+          11,
+          11
+        ]
+      },
+      "end": {
+        "median_eok": 15.2,
+        "p25_eok": 13.2,
+        "p75_eok": 17.8,
+        "rank": [
+          10,
+          10
+        ]
+      },
+      "rank_change": [
+        1,
+        1
+      ],
+      "new_share_change_pp_band": [
+        -15,
+        -10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            8,
+            8
+          ],
+          "end_rank": [
+            8,
+            8
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            7,
+            7
+          ],
+          "end_rank": [
+            8,
+            8
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          11,
+          11
+        ],
+        "end_rank": [
+          10,
+          11
+        ],
+        "rank_change": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "region": "11620",
+      "label": "서울 관악구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 4.1,
+        "p25_eok": 3.8,
+        "p75_eok": 4.6,
+        "rank": [
+          15,
+          15
+        ]
+      },
+      "end": {
+        "median_eok": 10.4,
+        "p25_eok": 7.5,
+        "p75_eok": 12.0,
+        "rank": [
+          19,
+          19
+        ]
+      },
+      "rank_change": [
+        -4,
+        -4
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            12,
+            12
+          ],
+          "end_rank": [
+            16,
+            16
+          ],
+          "rank_change": [
+            -4,
+            -4
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            12,
+            12
+          ],
+          "end_rank": [
+            15,
+            15
+          ],
+          "rank_change": [
+            -3,
+            -3
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          15,
+          15
+        ],
+        "end_rank": [
+          17,
+          18
+        ],
+        "rank_change": [
+          -3,
+          -2
+        ]
+      }
+    },
+    {
+      "region": "11650",
+      "label": "서울 서초구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 8.1,
+        "p25_eok": 6.5,
+        "p75_eok": 9.1,
+        "rank": [
+          2,
+          2
+        ]
+      },
+      "end": {
+        "median_eok": 31.0,
+        "p25_eok": 21.4,
+        "p75_eok": 45.9,
+        "rank": [
+          2,
+          2
+        ]
+      },
+      "rank_change": [
+        0,
+        0
+      ],
+      "new_share_change_pp_band": [
+        0,
+        5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            2,
+            2
+          ],
+          "end_rank": [
+            2,
+            2
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            2,
+            2
+          ],
+          "end_rank": [
+            2,
+            2
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          2,
+          2
+        ],
+        "end_rank": [
+          2,
+          2
+        ],
+        "rank_change": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "region": "11680",
+      "label": "서울 강남구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 8.1,
+        "p25_eok": 7.1,
+        "p75_eok": 10.2,
+        "rank": [
+          1,
+          1
+        ]
+      },
+      "end": {
+        "median_eok": 31.5,
+        "p25_eok": 24.3,
+        "p75_eok": 36.0,
+        "rank": [
+          1,
+          1
+        ]
+      },
+      "rank_change": [
+        0,
+        0
+      ],
+      "new_share_change_pp_band": [
+        0,
+        5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            1,
+            1
+          ],
+          "end_rank": [
+            1,
+            1
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            1,
+            1
+          ],
+          "end_rank": [
+            1,
+            1
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          2,
+          2
+        ],
+        "end_rank": [
+          2,
+          2
+        ],
+        "rank_change": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "region": "11710",
+      "label": "서울 송파구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 6.0,
+        "p25_eok": 5.2,
+        "p75_eok": 8.7,
+        "rank": [
+          4,
+          4
+        ]
+      },
+      "end": {
+        "median_eok": 23.8,
+        "p25_eok": 16.4,
+        "p75_eok": 30.5,
+        "rank": [
+          3,
+          3
+        ]
+      },
+      "rank_change": [
+        1,
+        1
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            3,
+            3
+          ],
+          "end_rank": [
+            3,
+            3
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            3,
+            3
+          ],
+          "end_rank": [
+            3,
+            3
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          4,
+          4
+        ],
+        "end_rank": [
+          3,
+          3
+        ],
+        "rank_change": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "region": "11740",
+      "label": "서울 강동구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 4.6,
+        "p25_eok": 4.1,
+        "p75_eok": 5.3,
+        "rank": [
+          12,
+          12
+        ]
+      },
+      "end": {
+        "median_eok": 15.0,
+        "p25_eok": 11.8,
+        "p75_eok": 18.6,
+        "rank": [
+          11,
+          11
+        ]
+      },
+      "rank_change": [
+        1,
+        1
+      ],
+      "new_share_change_pp_band": [
+        0,
+        5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            9,
+            9
+          ],
+          "end_rank": [
+            9,
+            9
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            9,
+            9
+          ],
+          "end_rank": [
+            9,
+            9
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          12,
+          12
+        ],
+        "end_rank": [
+          11,
+          11
+        ],
+        "rank_change": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "region": "41111",
+      "label": "경기 수원시 장안구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.0,
+        "p25_eok": 2.7,
+        "p75_eok": 3.4,
+        "rank": [
+          45,
+          45
+        ]
+      },
+      "end": {
+        "median_eok": 6.0,
+        "p25_eok": 4.9,
+        "p75_eok": 7.7,
+        "rank": [
+          45,
+          45
+        ]
+      },
+      "rank_change": [
+        0,
+        0
+      ],
+      "new_share_change_pp_band": [
+        5,
+        10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            41,
+            41
+          ],
+          "end_rank": [
+            41,
+            41
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            40,
+            40
+          ],
+          "end_rank": [
+            40,
+            40
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          46,
+          47
+        ],
+        "end_rank": [
+          45,
+          45
+        ],
+        "rank_change": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "region": "41113",
+      "label": "경기 수원시 권선구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.6,
+        "p25_eok": 2.3,
+        "p75_eok": 3.0,
+        "rank": [
+          51,
+          51
+        ]
+      },
+      "end": {
+        "median_eok": 5.6,
+        "p25_eok": 4.3,
+        "p75_eok": 6.4,
+        "rank": [
+          47,
+          48
+        ]
+      },
+      "rank_change": [
+        3,
+        4
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            47,
+            47
+          ],
+          "end_rank": [
+            43,
+            44
+          ],
+          "rank_change": [
+            3,
+            4
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            46,
+            46
+          ],
+          "end_rank": [
+            44,
+            44
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          51,
+          52
+        ],
+        "end_rank": [
+          48,
+          48
+        ],
+        "rank_change": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "region": "41115",
+      "label": "경기 수원시 팔달구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.2,
+        "p25_eok": 2.8,
+        "p75_eok": 3.4,
+        "rank": [
+          40,
+          40
+        ]
+      },
+      "end": {
+        "median_eok": 7.0,
+        "p25_eok": 6.0,
+        "p75_eok": 8.7,
+        "rank": [
+          37,
+          37
+        ]
+      },
+      "rank_change": [
+        3,
+        3
+      ],
+      "new_share_change_pp_band": [
+        25,
+        30
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            36,
+            36
+          ],
+          "end_rank": [
+            34,
+            34
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            38,
+            38
+          ],
+          "end_rank": [
+            35,
+            35
+          ],
+          "rank_change": [
+            3,
+            3
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          41,
+          41
+        ],
+        "end_rank": [
+          30,
+          31
+        ],
+        "rank_change": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "region": "41117",
+      "label": "경기 수원시 영통구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.4,
+        "p25_eok": 3.0,
+        "p75_eok": 4.3,
+        "rank": [
+          31,
+          32
+        ]
+      },
+      "end": {
+        "median_eok": 7.6,
+        "p25_eok": 5.7,
+        "p75_eok": 9.5,
+        "rank": [
+          30,
+          30
+        ]
+      },
+      "rank_change": [
+        1,
+        2
+      ],
+      "new_share_change_pp_band": [
+        -20,
+        -15
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            28,
+            29
+          ],
+          "end_rank": [
+            27,
+            27
+          ],
+          "rank_change": [
+            1,
+            2
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            26,
+            26
+          ],
+          "end_rank": [
+            32,
+            32
+          ],
+          "rank_change": [
+            -6,
+            -6
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          35,
+          35
+        ],
+        "end_rank": [
+          30,
+          30
+        ],
+        "rank_change": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "region": "41131",
+      "label": "경기 성남시 수정구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.4,
+        "p25_eok": 3.1,
+        "p75_eok": 3.7,
+        "rank": [
+          33,
+          35
+        ]
+      },
+      "end": {
+        "median_eok": 9.5,
+        "p25_eok": 7.8,
+        "p75_eok": 14.2,
+        "rank": [
+          21,
+          21
+        ]
+      },
+      "rank_change": [
+        12,
+        14
+      ],
+      "new_share_change_pp_band": [
+        0,
+        5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            30,
+            32
+          ],
+          "end_rank": [
+            18,
+            18
+          ],
+          "rank_change": [
+            12,
+            14
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            25,
+            25
+          ],
+          "end_rank": [
+            24,
+            24
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          29,
+          31
+        ],
+        "end_rank": [
+          24,
+          24
+        ],
+        "rank_change": [
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "region": "41133",
+      "label": "경기 성남시 중원구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 4.0,
+        "p25_eok": 3.1,
+        "p75_eok": 4.4,
+        "rank": [
+          20,
+          20
+        ]
+      },
+      "end": {
+        "median_eok": 8.9,
+        "p25_eok": 7.9,
+        "p75_eok": 10.6,
+        "rank": [
+          25,
+          25
+        ]
+      },
+      "rank_change": [
+        -5,
+        -5
+      ],
+      "new_share_change_pp_band": [
+        -30,
+        -25
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            17,
+            17
+          ],
+          "end_rank": [
+            22,
+            22
+          ],
+          "rank_change": [
+            -5,
+            -5
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            20,
+            20
+          ],
+          "end_rank": [
+            20,
+            20
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          14,
+          14
+        ],
+        "end_rank": [
+          24,
+          25
+        ],
+        "rank_change": [
+          -11,
+          -10
+        ]
+      }
+    },
+    {
+      "region": "41135",
+      "label": "경기 성남시 분당구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 5.6,
+        "p25_eok": 5.1,
+        "p75_eok": 6.3,
+        "rank": [
+          6,
+          6
+        ]
+      },
+      "end": {
+        "median_eok": 17.7,
+        "p25_eok": 15.0,
+        "p75_eok": 19.5,
+        "rank": [
+          7,
+          7
+        ]
+      },
+      "rank_change": [
+        -1,
+        -1
+      ],
+      "new_share_change_pp_band": [
+        20,
+        25
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            5,
+            5
+          ],
+          "end_rank": [
+            6,
+            6
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            4,
+            4
+          ],
+          "end_rank": [
+            4,
+            4
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          6,
+          6
+        ],
+        "end_rank": [
+          7,
+          7
+        ],
+        "rank_change": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "region": "41150",
+      "label": "경기 의정부시",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.4,
+        "p25_eok": 2.1,
+        "p75_eok": 2.6,
+        "rank": [
+          54,
+          54
+        ]
+      },
+      "end": {
+        "median_eok": 4.1,
+        "p25_eok": 3.4,
+        "p75_eok": 5.2,
+        "rank": [
+          53,
+          54
+        ]
+      },
+      "rank_change": [
+        0,
+        1
+      ],
+      "new_share_change_pp_band": [
+        5,
+        10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            50,
+            50
+          ],
+          "end_rank": [
+            49,
+            50
+          ],
+          "rank_change": [
+            0,
+            1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            50,
+            50
+          ],
+          "end_rank": [
+            50,
+            50
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          54,
+          54
+        ],
+        "end_rank": [
+          54,
+          54
+        ],
+        "rank_change": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "region": "41171",
+      "label": "경기 안양시 만안구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.1,
+        "p25_eok": 2.7,
+        "p75_eok": 3.5,
+        "rank": [
+          41,
+          41
+        ]
+      },
+      "end": {
+        "median_eok": 6.4,
+        "p25_eok": 5.3,
+        "p75_eok": 8.4,
+        "rank": [
+          39,
+          39
+        ]
+      },
+      "rank_change": [
+        2,
+        2
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            37,
+            37
+          ],
+          "end_rank": [
+            36,
+            36
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            37,
+            37
+          ],
+          "end_rank": [
+            36,
+            36
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          42,
+          42
+        ],
+        "end_rank": [
+          42,
+          42
+        ],
+        "rank_change": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "region": "41173",
+      "label": "경기 안양시 동안구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.9,
+        "p25_eok": 3.5,
+        "p75_eok": 4.3,
+        "rank": [
+          22,
+          22
+        ]
+      },
+      "end": {
+        "median_eok": 9.0,
+        "p25_eok": 7.1,
+        "p75_eok": 11.3,
+        "rank": [
+          24,
+          24
+        ]
+      },
+      "rank_change": [
+        -2,
+        -2
+      ],
+      "new_share_change_pp_band": [
+        5,
+        10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            19,
+            19
+          ],
+          "end_rank": [
+            21,
+            21
+          ],
+          "rank_change": [
+            -2,
+            -2
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            19,
+            19
+          ],
+          "end_rank": [
+            18,
+            18
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          23,
+          23
+        ],
+        "end_rank": [
+          24,
+          24
+        ],
+        "rank_change": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "region": "41192",
+      "label": "경기 부천시 원미구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.5,
+        "p25_eok": 3.1,
+        "p75_eok": 4.0,
+        "rank": [
+          29,
+          30
+        ]
+      },
+      "end": {
+        "median_eok": 6.8,
+        "p25_eok": 6.0,
+        "p75_eok": 7.7,
+        "rank": [
+          38,
+          38
+        ]
+      },
+      "rank_change": [
+        -9,
+        -8
+      ],
+      "new_share_change_pp_band": [
+        0,
+        5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            26,
+            27
+          ],
+          "end_rank": [
+            35,
+            35
+          ],
+          "rank_change": [
+            -9,
+            -8
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            30,
+            30
+          ],
+          "end_rank": [
+            34,
+            34
+          ],
+          "rank_change": [
+            -4,
+            -4
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          35,
+          35
+        ],
+        "end_rank": [
+          38,
+          38
+        ],
+        "rank_change": [
+          -3,
+          -3
+        ]
+      }
+    },
+    {
+      "region": "41194",
+      "label": "경기 부천시 소사구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.3,
+        "p25_eok": 2.8,
+        "p75_eok": 3.6,
+        "rank": [
+          38,
+          38
+        ]
+      },
+      "end": {
+        "median_eok": 6.1,
+        "p25_eok": 5.5,
+        "p75_eok": 7.3,
+        "rank": [
+          43,
+          43
+        ]
+      },
+      "rank_change": [
+        -5,
+        -5
+      ],
+      "new_share_change_pp_band": [
+        -15,
+        -10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            35,
+            35
+          ],
+          "end_rank": [
+            39,
+            39
+          ],
+          "rank_change": [
+            -4,
+            -4
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            36,
+            36
+          ],
+          "end_rank": [
+            39,
+            39
+          ],
+          "rank_change": [
+            -3,
+            -3
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          38,
+          38
+        ],
+        "end_rank": [
+          40,
+          40
+        ],
+        "rank_change": [
+          -2,
+          -2
+        ]
+      }
+    },
+    {
+      "region": "41196",
+      "label": "경기 부천시 오정구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.2,
+        "p25_eok": 2.9,
+        "p75_eok": 3.8,
+        "rank": [
+          39,
+          39
+        ]
+      },
+      "end": {
+        "median_eok": 6.2,
+        "p25_eok": 5.5,
+        "p75_eok": 7.5,
+        "rank": [
+          41,
+          41
+        ]
+      },
+      "rank_change": [
+        -2,
+        -2
+      ],
+      "new_share_change_pp_band": [
+        -20,
+        -15
+      ],
+      "fixed": {
+        "supported": false,
+        "peer_regions": 56
+      },
+      "largest_removed": {
+        "start_rank": [
+          43,
+          43
+        ],
+        "end_rank": null,
+        "rank_change": null
+      }
+    },
+    {
+      "region": "41210",
+      "label": "경기 광명시",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 4.1,
+        "p25_eok": 3.7,
+        "p75_eok": 4.9,
+        "rank": [
+          14,
+          14
+        ]
+      },
+      "end": {
+        "median_eok": 8.4,
+        "p25_eok": 7.2,
+        "p75_eok": 12.0,
+        "rank": [
+          27,
+          27
+        ]
+      },
+      "rank_change": [
+        -13,
+        -13
+      ],
+      "new_share_change_pp_band": [
+        -25,
+        -20
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            11,
+            11
+          ],
+          "end_rank": [
+            24,
+            24
+          ],
+          "rank_change": [
+            -13,
+            -13
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            21,
+            21
+          ],
+          "end_rank": [
+            21,
+            21
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          18,
+          19
+        ],
+        "end_rank": [
+          27,
+          27
+        ],
+        "rank_change": [
+          -9,
+          -8
+        ]
+      }
+    },
+    {
+      "region": "41220",
+      "label": "경기 평택시",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.2,
+        "p25_eok": 1.9,
+        "p75_eok": 2.5,
+        "rank": [
+          57,
+          58
+        ]
+      },
+      "end": {
+        "median_eok": 3.5,
+        "p25_eok": 2.5,
+        "p75_eok": 5.0,
+        "rank": [
+          60,
+          60
+        ]
+      },
+      "rank_change": [
+        -3,
+        -2
+      ],
+      "new_share_change_pp_band": [
+        10,
+        15
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            53,
+            54
+          ],
+          "end_rank": [
+            56,
+            56
+          ],
+          "rank_change": [
+            -3,
+            -2
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            53,
+            53
+          ],
+          "end_rank": [
+            56,
+            56
+          ],
+          "rank_change": [
+            -3,
+            -3
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          58,
+          58
+        ],
+        "end_rank": [
+          60,
+          60
+        ],
+        "rank_change": [
+          -2,
+          -2
+        ]
+      }
+    },
+    {
+      "region": "41271",
+      "label": "경기 안산시 상록구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.8,
+        "p25_eok": 2.5,
+        "p75_eok": 3.1,
+        "rank": [
+          49,
+          49
+        ]
+      },
+      "end": {
+        "median_eok": 4.9,
+        "p25_eok": 4.0,
+        "p75_eok": 6.4,
+        "rank": [
+          50,
+          50
+        ]
+      },
+      "rank_change": [
+        -1,
+        -1
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            45,
+            45
+          ],
+          "end_rank": [
+            46,
+            46
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            45,
+            45
+          ],
+          "end_rank": [
+            46,
+            46
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          49,
+          49
+        ],
+        "end_rank": [
+          52,
+          52
+        ],
+        "rank_change": [
+          -3,
+          -3
+        ]
+      }
+    },
+    {
+      "region": "41273",
+      "label": "경기 안산시 단원구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.1,
+        "p25_eok": 2.8,
+        "p75_eok": 3.4,
+        "rank": [
+          43,
+          43
+        ]
+      },
+      "end": {
+        "median_eok": 5.4,
+        "p25_eok": 4.4,
+        "p75_eok": 6.3,
+        "rank": [
+          49,
+          49
+        ]
+      },
+      "rank_change": [
+        -6,
+        -6
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            39,
+            39
+          ],
+          "end_rank": [
+            45,
+            45
+          ],
+          "rank_change": [
+            -6,
+            -6
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            39,
+            39
+          ],
+          "end_rank": [
+            42,
+            42
+          ],
+          "rank_change": [
+            -3,
+            -3
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          43,
+          43
+        ],
+        "end_rank": [
+          49,
+          49
+        ],
+        "rank_change": [
+          -6,
+          -6
+        ]
+      }
+    },
+    {
+      "region": "41281",
+      "label": "경기 고양시 덕양구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.9,
+        "p25_eok": 2.5,
+        "p75_eok": 3.4,
+        "rank": [
+          48,
+          48
+        ]
+      },
+      "end": {
+        "median_eok": 7.3,
+        "p25_eok": 5.5,
+        "p75_eok": 8.7,
+        "rank": [
+          35,
+          35
+        ]
+      },
+      "rank_change": [
+        13,
+        13
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            44,
+            44
+          ],
+          "end_rank": [
+            32,
+            32
+          ],
+          "rank_change": [
+            12,
+            12
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            42,
+            42
+          ],
+          "end_rank": [
+            41,
+            41
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          47,
+          48
+        ],
+        "end_rank": [
+          36,
+          36
+        ],
+        "rank_change": [
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "region": "41285",
+      "label": "경기 고양시 일산동구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.0,
+        "p25_eok": 2.7,
+        "p75_eok": 3.4,
+        "rank": [
+          44,
+          44
+        ]
+      },
+      "end": {
+        "median_eok": 6.1,
+        "p25_eok": 4.3,
+        "p75_eok": 7.8,
+        "rank": [
+          44,
+          44
+        ]
+      },
+      "rank_change": [
+        0,
+        0
+      ],
+      "new_share_change_pp_band": [
+        0,
+        5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            40,
+            40
+          ],
+          "end_rank": [
+            40,
+            40
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            43,
+            43
+          ],
+          "end_rank": [
+            43,
+            43
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          44,
+          44
+        ],
+        "end_rank": [
+          45,
+          46
+        ],
+        "rank_change": [
+          -2,
+          -1
+        ]
+      }
+    },
+    {
+      "region": "41287",
+      "label": "경기 고양시 일산서구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.7,
+        "p25_eok": 2.4,
+        "p75_eok": 3.1,
+        "rank": [
+          50,
+          50
+        ]
+      },
+      "end": {
+        "median_eok": 4.0,
+        "p25_eok": 3.3,
+        "p75_eok": 4.9,
+        "rank": [
+          55,
+          56
+        ]
+      },
+      "rank_change": [
+        -6,
+        -5
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            46,
+            46
+          ],
+          "end_rank": [
+            51,
+            52
+          ],
+          "rank_change": [
+            -6,
+            -5
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            44,
+            44
+          ],
+          "end_rank": [
+            45,
+            45
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          50,
+          50
+        ],
+        "end_rank": [
+          58,
+          58
+        ],
+        "rank_change": [
+          -8,
+          -8
+        ]
+      }
+    },
+    {
+      "region": "41290",
+      "label": "경기 과천시",
+      "area": "84",
+      "status": "insufficient_support",
+      "missing_periods": [
+        "2015H1"
+      ]
+    },
+    {
+      "region": "41310",
+      "label": "경기 구리시",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.4,
+        "p25_eok": 2.9,
+        "p75_eok": 3.9,
+        "rank": [
+          33,
+          35
+        ]
+      },
+      "end": {
+        "median_eok": 7.5,
+        "p25_eok": 6.7,
+        "p75_eok": 8.4,
+        "rank": [
+          34,
+          34
+        ]
+      },
+      "rank_change": [
+        -1,
+        1
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            30,
+            32
+          ],
+          "end_rank": [
+            31,
+            31
+          ],
+          "rank_change": [
+            -1,
+            1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            31,
+            31
+          ],
+          "end_rank": [
+            26,
+            26
+          ],
+          "rank_change": [
+            5,
+            5
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          29,
+          29
+        ],
+        "end_rank": [
+          34,
+          34
+        ],
+        "rank_change": [
+          -5,
+          -5
+        ]
+      }
+    },
+    {
+      "region": "41360",
+      "label": "경기 남양주시",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.5,
+        "p25_eok": 2.0,
+        "p75_eok": 2.8,
+        "rank": [
+          52,
+          52
+        ]
+      },
+      "end": {
+        "median_eok": 5.8,
+        "p25_eok": 4.1,
+        "p75_eok": 8.6,
+        "rank": [
+          46,
+          46
+        ]
+      },
+      "rank_change": [
+        6,
+        6
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            48,
+            48
+          ],
+          "end_rank": [
+            42,
+            42
+          ],
+          "rank_change": [
+            6,
+            6
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            48,
+            48
+          ],
+          "end_rank": [
+            47,
+            47
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          52,
+          52
+        ],
+        "end_rank": [
+          46,
+          48
+        ],
+        "rank_change": [
+          4,
+          6
+        ]
+      }
+    },
+    {
+      "region": "41410",
+      "label": "경기 군포시",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.3,
+        "p25_eok": 3.1,
+        "p75_eok": 3.6,
+        "rank": [
+          36,
+          36
+        ]
+      },
+      "end": {
+        "median_eok": 5.6,
+        "p25_eok": 5.0,
+        "p75_eok": 7.4,
+        "rank": [
+          47,
+          48
+        ]
+      },
+      "rank_change": [
+        -12,
+        -11
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            33,
+            33
+          ],
+          "end_rank": [
+            43,
+            44
+          ],
+          "rank_change": [
+            -11,
+            -10
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            32,
+            32
+          ],
+          "end_rank": [
+            37,
+            37
+          ],
+          "rank_change": [
+            -5,
+            -5
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          36,
+          36
+        ],
+        "end_rank": [
+          48,
+          48
+        ],
+        "rank_change": [
+          -12,
+          -12
+        ]
+      }
+    },
+    {
+      "region": "41430",
+      "label": "경기 의왕시",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.7,
+        "p25_eok": 3.0,
+        "p75_eok": 4.7,
+        "rank": [
+          27,
+          27
+        ]
+      },
+      "end": {
+        "median_eok": 7.9,
+        "p25_eok": 5.8,
+        "p75_eok": 10.2,
+        "rank": [
+          28,
+          28
+        ]
+      },
+      "rank_change": [
+        -1,
+        -1
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            24,
+            24
+          ],
+          "end_rank": [
+            25,
+            25
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            24,
+            24
+          ],
+          "end_rank": [
+            30,
+            30
+          ],
+          "rank_change": [
+            -6,
+            -6
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          26,
+          26
+        ],
+        "end_rank": [
+          29,
+          29
+        ],
+        "rank_change": [
+          -3,
+          -3
+        ]
+      }
+    },
+    {
+      "region": "41450",
+      "label": "경기 하남시",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.5,
+        "p25_eok": 3.1,
+        "p75_eok": 3.9,
+        "rank": [
+          29,
+          30
+        ]
+      },
+      "end": {
+        "median_eok": 11.1,
+        "p25_eok": 8.7,
+        "p75_eok": 12.5,
+        "rank": [
+          15,
+          15
+        ]
+      },
+      "rank_change": [
+        14,
+        15
+      ],
+      "new_share_change_pp_band": [
+        5,
+        10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            26,
+            27
+          ],
+          "end_rank": [
+            12,
+            12
+          ],
+          "rank_change": [
+            14,
+            15
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            27,
+            27
+          ],
+          "end_rank": [
+            25,
+            25
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          29,
+          30
+        ],
+        "end_rank": [
+          15,
+          15
+        ],
+        "rank_change": [
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "region": "41461",
+      "label": "경기 용인시 처인구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.0,
+        "p25_eok": 1.9,
+        "p75_eok": 2.5,
+        "rank": [
+          60,
+          60
+        ]
+      },
+      "end": {
+        "median_eok": 4.0,
+        "p25_eok": 3.2,
+        "p75_eok": 5.3,
+        "rank": [
+          55,
+          56
+        ]
+      },
+      "rank_change": [
+        4,
+        5
+      ],
+      "new_share_change_pp_band": [
+        0,
+        5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            56,
+            56
+          ],
+          "end_rank": [
+            51,
+            52
+          ],
+          "rank_change": [
+            4,
+            5
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            55,
+            55
+          ],
+          "end_rank": [
+            52,
+            52
+          ],
+          "rank_change": [
+            3,
+            3
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          59,
+          59
+        ],
+        "end_rank": [
+          58,
+          58
+        ],
+        "rank_change": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "region": "41463",
+      "label": "경기 용인시 기흥구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.0,
+        "p25_eok": 2.6,
+        "p75_eok": 3.4,
+        "rank": [
+          46,
+          46
+        ]
+      },
+      "end": {
+        "median_eok": 6.2,
+        "p25_eok": 4.8,
+        "p75_eok": 8.2,
+        "rank": [
+          42,
+          42
+        ]
+      },
+      "rank_change": [
+        4,
+        4
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            42,
+            42
+          ],
+          "end_rank": [
+            38,
+            38
+          ],
+          "rank_change": [
+            4,
+            4
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            41,
+            41
+          ],
+          "end_rank": [
+            38,
+            38
+          ],
+          "rank_change": [
+            3,
+            3
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          46,
+          46
+        ],
+        "end_rank": [
+          44,
+          44
+        ],
+        "rank_change": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "region": "41465",
+      "label": "경기 용인시 수지구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 4.0,
+        "p25_eok": 3.6,
+        "p75_eok": 4.4,
+        "rank": [
+          18,
+          18
+        ]
+      },
+      "end": {
+        "median_eok": 9.4,
+        "p25_eok": 8.0,
+        "p75_eok": 11.5,
+        "rank": [
+          22,
+          22
+        ]
+      },
+      "rank_change": [
+        -4,
+        -4
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            15,
+            15
+          ],
+          "end_rank": [
+            19,
+            19
+          ],
+          "rank_change": [
+            -4,
+            -4
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            14,
+            14
+          ],
+          "end_rank": [
+            17,
+            17
+          ],
+          "rank_change": [
+            -3,
+            -3
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          18,
+          19
+        ],
+        "end_rank": [
+          20,
+          20
+        ],
+        "rank_change": [
+          -2,
+          -1
+        ]
+      }
+    },
+    {
+      "region": "41480",
+      "label": "경기 파주시",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.2,
+        "p25_eok": 1.9,
+        "p75_eok": 2.6,
+        "rank": [
+          57,
+          58
+        ]
+      },
+      "end": {
+        "median_eok": 4.0,
+        "p25_eok": 2.9,
+        "p75_eok": 5.8,
+        "rank": [
+          57,
+          57
+        ]
+      },
+      "rank_change": [
+        0,
+        1
+      ],
+      "new_share_change_pp_band": [
+        -15,
+        -10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            53,
+            54
+          ],
+          "end_rank": [
+            53,
+            53
+          ],
+          "rank_change": [
+            0,
+            1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            52,
+            52
+          ],
+          "end_rank": [
+            54,
+            54
+          ],
+          "rank_change": [
+            -2,
+            -2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          57,
+          58
+        ],
+        "end_rank": [
+          58,
+          58
+        ],
+        "rank_change": [
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "region": "41570",
+      "label": "경기 김포시",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.9,
+        "p25_eok": 2.3,
+        "p75_eok": 3.2,
+        "rank": [
+          47,
+          47
+        ]
+      },
+      "end": {
+        "median_eok": 4.6,
+        "p25_eok": 4.0,
+        "p75_eok": 5.9,
+        "rank": [
+          51,
+          51
+        ]
+      },
+      "rank_change": [
+        -4,
+        -4
+      ],
+      "new_share_change_pp_band": [
+        -55,
+        -50
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            43,
+            43
+          ],
+          "end_rank": [
+            47,
+            47
+          ],
+          "rank_change": [
+            -4,
+            -4
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            47,
+            47
+          ],
+          "end_rank": [
+            48,
+            48
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          48,
+          48
+        ],
+        "end_rank": [
+          51,
+          51
+        ],
+        "rank_change": [
+          -3,
+          -3
+        ]
+      }
+    },
+    {
+      "region": "41591",
+      "label": "경기 화성시 만세구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.4,
+        "p25_eok": 2.2,
+        "p75_eok": 2.5,
+        "rank": [
+          53,
+          53
+        ]
+      },
+      "end": {
+        "median_eok": 4.0,
+        "p25_eok": 3.2,
+        "p75_eok": 5.1,
+        "rank": [
+          58,
+          58
+        ]
+      },
+      "rank_change": [
+        -5,
+        -5
+      ],
+      "new_share_change_pp_band": [
+        -15,
+        -10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            49,
+            49
+          ],
+          "end_rank": [
+            54,
+            54
+          ],
+          "rank_change": [
+            -5,
+            -5
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            54,
+            54
+          ],
+          "end_rank": [
+            53,
+            53
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          53,
+          53
+        ],
+        "end_rank": [
+          58,
+          58
+        ],
+        "rank_change": [
+          -5,
+          -5
+        ]
+      }
+    },
+    {
+      "region": "41593",
+      "label": "경기 화성시 효행구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.1,
+        "p25_eok": 1.9,
+        "p75_eok": 2.3,
+        "rank": [
+          59,
+          59
+        ]
+      },
+      "end": {
+        "median_eok": 3.5,
+        "p25_eok": 2.8,
+        "p75_eok": 4.5,
+        "rank": [
+          59,
+          59
+        ]
+      },
+      "rank_change": [
+        0,
+        0
+      ],
+      "new_share_change_pp_band": [
+        25,
+        30
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            55,
+            55
+          ],
+          "end_rank": [
+            55,
+            55
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            56,
+            56
+          ],
+          "end_rank": [
+            55,
+            55
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          59,
+          59
+        ],
+        "end_rank": [
+          60,
+          60
+        ],
+        "rank_change": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "region": "41595",
+      "label": "경기 화성시 병점구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.3,
+        "p25_eok": 2.1,
+        "p75_eok": 2.5,
+        "rank": [
+          56,
+          56
+        ]
+      },
+      "end": {
+        "median_eok": 4.5,
+        "p25_eok": 3.7,
+        "p75_eok": 7.1,
+        "rank": [
+          52,
+          52
+        ]
+      },
+      "rank_change": [
+        4,
+        4
+      ],
+      "new_share_change_pp_band": [
+        25,
+        30
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            52,
+            52
+          ],
+          "end_rank": [
+            48,
+            48
+          ],
+          "rank_change": [
+            4,
+            4
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            51,
+            51
+          ],
+          "end_rank": [
+            49,
+            49
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          56,
+          56
+        ],
+        "end_rank": [
+          52,
+          52
+        ],
+        "rank_change": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "region": "41597",
+      "label": "경기 화성시 동탄구",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.4,
+        "p25_eok": 3.2,
+        "p75_eok": 3.6,
+        "rank": [
+          33,
+          35
+        ]
+      },
+      "end": {
+        "median_eok": 7.6,
+        "p25_eok": 6.5,
+        "p75_eok": 9.4,
+        "rank": [
+          31,
+          31
+        ]
+      },
+      "rank_change": [
+        2,
+        4
+      ],
+      "new_share_change_pp_band": [
+        0,
+        5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            30,
+            32
+          ],
+          "end_rank": [
+            28,
+            28
+          ],
+          "rank_change": [
+            2,
+            4
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            33,
+            33
+          ],
+          "end_rank": [
+            28,
+            28
+          ],
+          "rank_change": [
+            5,
+            5
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          35,
+          35
+        ],
+        "end_rank": [
+          30,
+          30
+        ],
+        "rank_change": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "region": "41610",
+      "label": "경기 광주시",
+      "area": "84",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.3,
+        "p25_eok": 2.0,
+        "p75_eok": 2.6,
+        "rank": [
+          55,
+          55
+        ]
+      },
+      "end": {
+        "median_eok": 4.1,
+        "p25_eok": 3.2,
+        "p75_eok": 5.9,
+        "rank": [
+          53,
+          54
+        ]
+      },
+      "rank_change": [
+        1,
+        2
+      ],
+      "new_share_change_pp_band": [
+        0,
+        5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 56,
+        "observed": {
+          "start_rank": [
+            51,
+            51
+          ],
+          "end_rank": [
+            49,
+            50
+          ],
+          "rank_change": [
+            1,
+            2
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            49,
+            49
+          ],
+          "end_rank": [
+            51,
+            51
+          ],
+          "rank_change": [
+            -2,
+            -2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          55,
+          55
+        ],
+        "end_rank": [
+          58,
+          58
+        ],
+        "rank_change": [
+          -3,
+          -3
+        ]
+      }
+    },
+    {
+      "region": "11110",
+      "label": "서울 종로구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.8,
+        "p25_eok": 3.0,
+        "p75_eok": 3.9,
+        "rank": [
+          10,
+          10
+        ]
+      },
+      "end": {
+        "median_eok": 9.2,
+        "p25_eok": 8.8,
+        "p75_eok": 10.5,
+        "rank": [
+          19,
+          19
+        ]
+      },
+      "rank_change": [
+        -9,
+        -9
+      ],
+      "new_share_change_pp_band": [
+        0,
+        5
+      ],
+      "fixed": {
+        "supported": false,
+        "peer_regions": 49
+      },
+      "largest_removed": {
+        "start_rank": [
+          12,
+          12
+        ],
+        "end_rank": null,
+        "rank_change": null
+      }
+    },
+    {
+      "region": "11140",
+      "label": "서울 중구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 4.2,
+        "p25_eok": 3.9,
+        "p75_eok": 4.5,
+        "rank": [
+          7,
+          7
+        ]
+      },
+      "end": {
+        "median_eok": 14.5,
+        "p25_eok": 10.1,
+        "p75_eok": 15.0,
+        "rank": [
+          9,
+          9
+        ]
+      },
+      "rank_change": [
+        -2,
+        -2
+      ],
+      "new_share_change_pp_band": [
+        -15,
+        -10
+      ],
+      "fixed": {
+        "supported": false,
+        "peer_regions": 49
+      },
+      "largest_removed": {
+        "start_rank": [
+          8,
+          8
+        ],
+        "end_rank": [
+          8,
+          8
+        ],
+        "rank_change": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "region": "11170",
+      "label": "서울 용산구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 5.1,
+        "p25_eok": 4.2,
+        "p75_eok": 5.7,
+        "rank": [
+          3,
+          3
+        ]
+      },
+      "end": {
+        "median_eok": 17.0,
+        "p25_eok": 14.7,
+        "p75_eok": 22.9,
+        "rank": [
+          4,
+          4
+        ]
+      },
+      "rank_change": [
+        -1,
+        -1
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            2,
+            2
+          ],
+          "end_rank": [
+            3,
+            3
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            3,
+            3
+          ],
+          "end_rank": [
+            3,
+            3
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          4,
+          4
+        ],
+        "end_rank": [
+          3,
+          3
+        ],
+        "rank_change": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "region": "11200",
+      "label": "서울 성동구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 4.1,
+        "p25_eok": 3.5,
+        "p75_eok": 4.6,
+        "rank": [
+          8,
+          8
+        ]
+      },
+      "end": {
+        "median_eok": 16.5,
+        "p25_eok": 14.9,
+        "p75_eok": 19.4,
+        "rank": [
+          5,
+          5
+        ]
+      },
+      "rank_change": [
+        3,
+        3
+      ],
+      "new_share_change_pp_band": [
+        -15,
+        -10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            6,
+            6
+          ],
+          "end_rank": [
+            4,
+            4
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            6,
+            6
+          ],
+          "end_rank": [
+            4,
+            4
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          8,
+          8
+        ],
+        "end_rank": [
+          5,
+          5
+        ],
+        "rank_change": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "region": "11215",
+      "label": "서울 광진구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 4.2,
+        "p25_eok": 3.7,
+        "p75_eok": 4.5,
+        "rank": [
+          6,
+          6
+        ]
+      },
+      "end": {
+        "median_eok": 15.2,
+        "p25_eok": 13.0,
+        "p75_eok": 16.9,
+        "rank": [
+          7,
+          7
+        ]
+      },
+      "rank_change": [
+        -1,
+        -1
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            5,
+            5
+          ],
+          "end_rank": [
+            6,
+            6
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            4,
+            4
+          ],
+          "end_rank": [
+            6,
+            6
+          ],
+          "rank_change": [
+            -2,
+            -2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          7,
+          8
+        ],
+        "end_rank": [
+          7,
+          8
+        ],
+        "rank_change": [
+          -1,
+          1
+        ]
+      }
+    },
+    {
+      "region": "11230",
+      "label": "서울 동대문구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.1,
+        "p25_eok": 2.8,
+        "p75_eok": 3.5,
+        "rank": [
+          20,
+          20
+        ]
+      },
+      "end": {
+        "median_eok": 9.9,
+        "p25_eok": 7.9,
+        "p75_eok": 13.5,
+        "rank": [
+          15,
+          15
+        ]
+      },
+      "rank_change": [
+        5,
+        5
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            17,
+            17
+          ],
+          "end_rank": [
+            12,
+            12
+          ],
+          "rank_change": [
+            5,
+            5
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            14,
+            14
+          ],
+          "end_rank": [
+            12,
+            12
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          20,
+          20
+        ],
+        "end_rank": [
+          15,
+          15
+        ],
+        "rank_change": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "region": "11260",
+      "label": "서울 중랑구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.6,
+        "p25_eok": 2.4,
+        "p75_eok": 2.8,
+        "rank": [
+          33,
+          34
+        ]
+      },
+      "end": {
+        "median_eok": 6.0,
+        "p25_eok": 5.4,
+        "p75_eok": 7.3,
+        "rank": [
+          36,
+          36
+        ]
+      },
+      "rank_change": [
+        -3,
+        -2
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            27,
+            28
+          ],
+          "end_rank": [
+            31,
+            31
+          ],
+          "rank_change": [
+            -4,
+            -3
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            29,
+            29
+          ],
+          "end_rank": [
+            28,
+            28
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          34,
+          34
+        ],
+        "end_rank": [
+          36,
+          36
+        ],
+        "rank_change": [
+          -2,
+          -2
+        ]
+      }
+    },
+    {
+      "region": "11290",
+      "label": "서울 성북구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.3,
+        "p25_eok": 2.7,
+        "p75_eok": 3.6,
+        "rank": [
+          14,
+          15
+        ]
+      },
+      "end": {
+        "median_eok": 8.9,
+        "p25_eok": 7.4,
+        "p75_eok": 10.5,
+        "rank": [
+          21,
+          21
+        ]
+      },
+      "rank_change": [
+        -7,
+        -6
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            11,
+            12
+          ],
+          "end_rank": [
+            16,
+            16
+          ],
+          "rank_change": [
+            -5,
+            -4
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            15,
+            15
+          ],
+          "end_rank": [
+            15,
+            15
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          13,
+          13
+        ],
+        "end_rank": [
+          20,
+          21
+        ],
+        "rank_change": [
+          -8,
+          -7
+        ]
+      }
+    },
+    {
+      "region": "11305",
+      "label": "서울 강북구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.8,
+        "p25_eok": 2.5,
+        "p75_eok": 3.4,
+        "rank": [
+          27,
+          27
+        ]
+      },
+      "end": {
+        "median_eok": 6.8,
+        "p25_eok": 5.9,
+        "p75_eok": 8.3,
+        "rank": [
+          27,
+          28
+        ]
+      },
+      "rank_change": [
+        -1,
+        0
+      ],
+      "new_share_change_pp_band": [
+        -20,
+        -15
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            22,
+            22
+          ],
+          "end_rank": [
+            22,
+            23
+          ],
+          "rank_change": [
+            -1,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            23,
+            23
+          ],
+          "end_rank": [
+            23,
+            23
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          28,
+          29
+        ],
+        "end_rank": [
+          27,
+          27
+        ],
+        "rank_change": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "region": "11320",
+      "label": "서울 도봉구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.7,
+        "p25_eok": 2.2,
+        "p75_eok": 3.0,
+        "rank": [
+          31,
+          31
+        ]
+      },
+      "end": {
+        "median_eok": 6.1,
+        "p25_eok": 5.0,
+        "p75_eok": 7.5,
+        "rank": [
+          34,
+          34
+        ]
+      },
+      "rank_change": [
+        -3,
+        -3
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            25,
+            25
+          ],
+          "end_rank": [
+            29,
+            29
+          ],
+          "rank_change": [
+            -4,
+            -4
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            27,
+            27
+          ],
+          "end_rank": [
+            25,
+            25
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          35,
+          35
+        ],
+        "end_rank": [
+          36,
+          36
+        ],
+        "rank_change": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "region": "11350",
+      "label": "서울 노원구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.6,
+        "p25_eok": 2.4,
+        "p75_eok": 2.8,
+        "rank": [
+          33,
+          34
+        ]
+      },
+      "end": {
+        "median_eok": 6.0,
+        "p25_eok": 5.3,
+        "p75_eok": 7.5,
+        "rank": [
+          35,
+          35
+        ]
+      },
+      "rank_change": [
+        -2,
+        -1
+      ],
+      "new_share_change_pp_band": [
+        5,
+        10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            27,
+            28
+          ],
+          "end_rank": [
+            30,
+            30
+          ],
+          "rank_change": [
+            -3,
+            -2
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            30,
+            30
+          ],
+          "end_rank": [
+            27,
+            27
+          ],
+          "rank_change": [
+            3,
+            3
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          33,
+          34
+        ],
+        "end_rank": [
+          32,
+          32
+        ],
+        "rank_change": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "region": "11380",
+      "label": "서울 은평구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.1,
+        "p25_eok": 2.6,
+        "p75_eok": 3.8,
+        "rank": [
+          18,
+          18
+        ]
+      },
+      "end": {
+        "median_eok": 8.8,
+        "p25_eok": 7.5,
+        "p75_eok": 11.0,
+        "rank": [
+          22,
+          22
+        ]
+      },
+      "rank_change": [
+        -4,
+        -4
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            15,
+            15
+          ],
+          "end_rank": [
+            17,
+            17
+          ],
+          "rank_change": [
+            -2,
+            -2
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            12,
+            12
+          ],
+          "end_rank": [
+            18,
+            18
+          ],
+          "rank_change": [
+            -6,
+            -6
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          23,
+          23
+        ],
+        "end_rank": [
+          22,
+          22
+        ],
+        "rank_change": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "region": "11410",
+      "label": "서울 서대문구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.2,
+        "p25_eok": 2.9,
+        "p75_eok": 3.6,
+        "rank": [
+          16,
+          16
+        ]
+      },
+      "end": {
+        "median_eok": 9.8,
+        "p25_eok": 7.8,
+        "p75_eok": 12.8,
+        "rank": [
+          16,
+          16
+        ]
+      },
+      "rank_change": [
+        0,
+        0
+      ],
+      "new_share_change_pp_band": [
+        5,
+        10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            13,
+            13
+          ],
+          "end_rank": [
+            13,
+            13
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            10,
+            10
+          ],
+          "end_rank": [
+            11,
+            11
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          16,
+          16
+        ],
+        "end_rank": [
+          15,
+          15
+        ],
+        "rank_change": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "region": "11440",
+      "label": "서울 마포구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 4.2,
+        "p25_eok": 3.7,
+        "p75_eok": 4.7,
+        "rank": [
+          5,
+          5
+        ]
+      },
+      "end": {
+        "median_eok": 16.1,
+        "p25_eok": 12.0,
+        "p75_eok": 20.0,
+        "rank": [
+          6,
+          6
+        ]
+      },
+      "rank_change": [
+        -1,
+        -1
+      ],
+      "new_share_change_pp_band": [
+        0,
+        5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            4,
+            4
+          ],
+          "end_rank": [
+            5,
+            5
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            5,
+            5
+          ],
+          "end_rank": [
+            5,
+            5
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          6,
+          6
+        ],
+        "end_rank": [
+          6,
+          6
+        ],
+        "rank_change": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "region": "11470",
+      "label": "서울 양천구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.8,
+        "p25_eok": 2.5,
+        "p75_eok": 3.3,
+        "rank": [
+          28,
+          28
+        ]
+      },
+      "end": {
+        "median_eok": 8.1,
+        "p25_eok": 6.8,
+        "p75_eok": 12.0,
+        "rank": [
+          24,
+          24
+        ]
+      },
+      "rank_change": [
+        4,
+        4
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            23,
+            23
+          ],
+          "end_rank": [
+            19,
+            19
+          ],
+          "rank_change": [
+            4,
+            4
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            13,
+            13
+          ],
+          "end_rank": [
+            13,
+            13
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          28,
+          28
+        ],
+        "end_rank": [
+          24,
+          24
+        ],
+        "rank_change": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "region": "11500",
+      "label": "서울 강서구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.0,
+        "p25_eok": 2.8,
+        "p75_eok": 3.4,
+        "rank": [
+          22,
+          23
+        ]
+      },
+      "end": {
+        "median_eok": 9.0,
+        "p25_eok": 7.2,
+        "p75_eok": 11.4,
+        "rank": [
+          20,
+          20
+        ]
+      },
+      "rank_change": [
+        2,
+        3
+      ],
+      "new_share_change_pp_band": [
+        0,
+        5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            19,
+            20
+          ],
+          "end_rank": [
+            15,
+            15
+          ],
+          "rank_change": [
+            4,
+            5
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            18,
+            18
+          ],
+          "end_rank": [
+            14,
+            14
+          ],
+          "rank_change": [
+            4,
+            4
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          23,
+          23
+        ],
+        "end_rank": [
+          20,
+          20
+        ],
+        "rank_change": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "region": "11530",
+      "label": "서울 구로구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.7,
+        "p25_eok": 2.4,
+        "p75_eok": 3.3,
+        "rank": [
+          29,
+          29
+        ]
+      },
+      "end": {
+        "median_eok": 6.5,
+        "p25_eok": 5.7,
+        "p75_eok": 8.5,
+        "rank": [
+          29,
+          29
+        ]
+      },
+      "rank_change": [
+        0,
+        0
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            24,
+            24
+          ],
+          "end_rank": [
+            24,
+            24
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            24,
+            24
+          ],
+          "end_rank": [
+            22,
+            22
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          30,
+          30
+        ],
+        "end_rank": [
+          29,
+          29
+        ],
+        "rank_change": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "region": "11545",
+      "label": "서울 금천구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.5,
+        "p25_eok": 2.3,
+        "p75_eok": 2.6,
+        "rank": [
+          36,
+          37
+        ]
+      },
+      "end": {
+        "median_eok": 6.2,
+        "p25_eok": 4.6,
+        "p75_eok": 8.2,
+        "rank": [
+          31,
+          31
+        ]
+      },
+      "rank_change": [
+        5,
+        6
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            29,
+            30
+          ],
+          "end_rank": [
+            26,
+            26
+          ],
+          "rank_change": [
+            3,
+            4
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            31,
+            31
+          ],
+          "end_rank": [
+            29,
+            29
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          37,
+          37
+        ],
+        "end_rank": [
+          37,
+          37
+        ],
+        "rank_change": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "region": "11560",
+      "label": "서울 영등포구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.3,
+        "p25_eok": 3.0,
+        "p75_eok": 3.6,
+        "rank": [
+          14,
+          15
+        ]
+      },
+      "end": {
+        "median_eok": 12.0,
+        "p25_eok": 9.6,
+        "p75_eok": 14.8,
+        "rank": [
+          13,
+          13
+        ]
+      },
+      "rank_change": [
+        1,
+        2
+      ],
+      "new_share_change_pp_band": [
+        5,
+        10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            11,
+            12
+          ],
+          "end_rank": [
+            10,
+            10
+          ],
+          "rank_change": [
+            1,
+            2
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            11,
+            11
+          ],
+          "end_rank": [
+            10,
+            10
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          13,
+          13
+        ],
+        "end_rank": [
+          13,
+          13
+        ],
+        "rank_change": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "region": "11590",
+      "label": "서울 동작구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.8,
+        "p25_eok": 3.4,
+        "p75_eok": 4.2,
+        "rank": [
+          9,
+          9
+        ]
+      },
+      "end": {
+        "median_eok": 14.3,
+        "p25_eok": 10.9,
+        "p75_eok": 15.8,
+        "rank": [
+          11,
+          11
+        ]
+      },
+      "rank_change": [
+        -2,
+        -2
+      ],
+      "new_share_change_pp_band": [
+        5,
+        10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            7,
+            7
+          ],
+          "end_rank": [
+            9,
+            9
+          ],
+          "rank_change": [
+            -2,
+            -2
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            8,
+            8
+          ],
+          "end_rank": [
+            8,
+            8
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          9,
+          9
+        ],
+        "end_rank": [
+          11,
+          11
+        ],
+        "rank_change": [
+          -2,
+          -2
+        ]
+      }
+    },
+    {
+      "region": "11620",
+      "label": "서울 관악구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.2,
+        "p25_eok": 2.9,
+        "p75_eok": 3.5,
+        "rank": [
+          17,
+          17
+        ]
+      },
+      "end": {
+        "median_eok": 9.6,
+        "p25_eok": 6.5,
+        "p75_eok": 11.2,
+        "rank": [
+          17,
+          17
+        ]
+      },
+      "rank_change": [
+        0,
+        0
+      ],
+      "new_share_change_pp_band": [
+        5,
+        10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            14,
+            14
+          ],
+          "end_rank": [
+            14,
+            14
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            19,
+            19
+          ],
+          "end_rank": [
+            17,
+            17
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          17,
+          18
+        ],
+        "end_rank": [
+          17,
+          17
+        ],
+        "rank_change": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "region": "11650",
+      "label": "서울 서초구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 6.5,
+        "p25_eok": 5.6,
+        "p75_eok": 8.1,
+        "rank": [
+          2,
+          2
+        ]
+      },
+      "end": {
+        "median_eok": 29.2,
+        "p25_eok": 19.5,
+        "p75_eok": 35.0,
+        "rank": [
+          1,
+          1
+        ]
+      },
+      "rank_change": [
+        1,
+        1
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": false,
+        "peer_regions": 49
+      },
+      "largest_removed": {
+        "start_rank": [
+          2,
+          2
+        ],
+        "end_rank": [
+          1,
+          1
+        ],
+        "rank_change": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "region": "11680",
+      "label": "서울 강남구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 6.9,
+        "p25_eok": 5.8,
+        "p75_eok": 7.5,
+        "rank": [
+          1,
+          1
+        ]
+      },
+      "end": {
+        "median_eok": 25.0,
+        "p25_eok": 19.9,
+        "p75_eok": 27.9,
+        "rank": [
+          2,
+          2
+        ]
+      },
+      "rank_change": [
+        -1,
+        -1
+      ],
+      "new_share_change_pp_band": [
+        10,
+        15
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            1,
+            1
+          ],
+          "end_rank": [
+            1,
+            1
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            1,
+            1
+          ],
+          "end_rank": [
+            1,
+            1
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          2,
+          2
+        ],
+        "end_rank": [
+          2,
+          2
+        ],
+        "rank_change": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "region": "11710",
+      "label": "서울 송파구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 4.6,
+        "p25_eok": 3.8,
+        "p75_eok": 7.3,
+        "rank": [
+          4,
+          4
+        ]
+      },
+      "end": {
+        "median_eok": 17.3,
+        "p25_eok": 12.9,
+        "p75_eok": 25.2,
+        "rank": [
+          3,
+          3
+        ]
+      },
+      "rank_change": [
+        1,
+        1
+      ],
+      "new_share_change_pp_band": [
+        5,
+        10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            3,
+            3
+          ],
+          "end_rank": [
+            2,
+            2
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            2,
+            2
+          ],
+          "end_rank": [
+            2,
+            2
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          4,
+          4
+        ],
+        "end_rank": [
+          4,
+          4
+        ],
+        "rank_change": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "region": "11740",
+      "label": "서울 강동구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.7,
+        "p25_eok": 3.3,
+        "p75_eok": 4.1,
+        "rank": [
+          12,
+          12
+        ]
+      },
+      "end": {
+        "median_eok": 14.5,
+        "p25_eok": 11.0,
+        "p75_eok": 16.6,
+        "rank": [
+          10,
+          10
+        ]
+      },
+      "rank_change": [
+        2,
+        2
+      ],
+      "new_share_change_pp_band": [
+        5,
+        10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            9,
+            9
+          ],
+          "end_rank": [
+            8,
+            8
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            9,
+            9
+          ],
+          "end_rank": [
+            9,
+            9
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          12,
+          12
+        ],
+        "end_rank": [
+          11,
+          11
+        ],
+        "rank_change": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "region": "41111",
+      "label": "경기 수원시 장안구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.4,
+        "p25_eok": 2.3,
+        "p75_eok": 2.6,
+        "rank": [
+          41,
+          41
+        ]
+      },
+      "end": {
+        "median_eok": 4.7,
+        "p25_eok": 4.0,
+        "p75_eok": 6.0,
+        "rank": [
+          41,
+          41
+        ]
+      },
+      "rank_change": [
+        0,
+        0
+      ],
+      "new_share_change_pp_band": [
+        0,
+        5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            34,
+            34
+          ],
+          "end_rank": [
+            35,
+            35
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            35,
+            35
+          ],
+          "end_rank": [
+            35,
+            35
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          41,
+          41
+        ],
+        "end_rank": [
+          43,
+          43
+        ],
+        "rank_change": [
+          -2,
+          -2
+        ]
+      }
+    },
+    {
+      "region": "41113",
+      "label": "경기 수원시 권선구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.0,
+        "p25_eok": 1.8,
+        "p75_eok": 2.4,
+        "rank": [
+          45,
+          45
+        ]
+      },
+      "end": {
+        "median_eok": 4.4,
+        "p25_eok": 3.4,
+        "p75_eok": 5.3,
+        "rank": [
+          44,
+          44
+        ]
+      },
+      "rank_change": [
+        1,
+        1
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            38,
+            38
+          ],
+          "end_rank": [
+            38,
+            38
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            40,
+            40
+          ],
+          "end_rank": [
+            38,
+            38
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          45,
+          45
+        ],
+        "end_rank": [
+          44,
+          44
+        ],
+        "rank_change": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "region": "41115",
+      "label": "경기 수원시 팔달구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.4,
+        "p25_eok": 2.1,
+        "p75_eok": 2.6,
+        "rank": [
+          42,
+          42
+        ]
+      },
+      "end": {
+        "median_eok": 6.8,
+        "p25_eok": 5.8,
+        "p75_eok": 7.5,
+        "rank": [
+          27,
+          28
+        ]
+      },
+      "rank_change": [
+        14,
+        15
+      ],
+      "new_share_change_pp_band": [
+        55,
+        60
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            35,
+            35
+          ],
+          "end_rank": [
+            22,
+            23
+          ],
+          "rank_change": [
+            12,
+            13
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            36,
+            36
+          ],
+          "end_rank": [
+            33,
+            33
+          ],
+          "rank_change": [
+            3,
+            3
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          43,
+          43
+        ],
+        "end_rank": [
+          28,
+          28
+        ],
+        "rank_change": [
+          15,
+          15
+        ]
+      }
+    },
+    {
+      "region": "41117",
+      "label": "경기 수원시 영통구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.4,
+        "p25_eok": 2.2,
+        "p75_eok": 2.6,
+        "rank": [
+          43,
+          43
+        ]
+      },
+      "end": {
+        "median_eok": 4.9,
+        "p25_eok": 4.3,
+        "p75_eok": 5.9,
+        "rank": [
+          40,
+          40
+        ]
+      },
+      "rank_change": [
+        3,
+        3
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            36,
+            36
+          ],
+          "end_rank": [
+            34,
+            34
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            33,
+            33
+          ],
+          "end_rank": [
+            31,
+            31
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          41,
+          42
+        ],
+        "end_rank": [
+          40,
+          40
+        ],
+        "rank_change": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "region": "41131",
+      "label": "경기 성남시 수정구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.9,
+        "p25_eok": 2.5,
+        "p75_eok": 3.3,
+        "rank": [
+          24,
+          24
+        ]
+      },
+      "end": {
+        "median_eok": 12.2,
+        "p25_eok": 7.8,
+        "p75_eok": 12.8,
+        "rank": [
+          12,
+          12
+        ]
+      },
+      "rank_change": [
+        12,
+        12
+      ],
+      "new_share_change_pp_band": [
+        25,
+        30
+      ],
+      "fixed": {
+        "supported": false,
+        "peer_regions": 49
+      },
+      "largest_removed": {
+        "start_rank": null,
+        "end_rank": [
+          13,
+          13
+        ],
+        "rank_change": null
+      }
+    },
+    {
+      "region": "41133",
+      "label": "경기 성남시 중원구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.1,
+        "p25_eok": 2.3,
+        "p75_eok": 3.3,
+        "rank": [
+          19,
+          19
+        ]
+      },
+      "end": {
+        "median_eok": 10.1,
+        "p25_eok": 7.5,
+        "p75_eok": 11.0,
+        "rank": [
+          14,
+          14
+        ]
+      },
+      "rank_change": [
+        5,
+        5
+      ],
+      "new_share_change_pp_band": [
+        45,
+        50
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            16,
+            16
+          ],
+          "end_rank": [
+            11,
+            11
+          ],
+          "rank_change": [
+            5,
+            5
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            22,
+            22
+          ],
+          "end_rank": [
+            21,
+            21
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          20,
+          20
+        ],
+        "end_rank": [
+          14,
+          14
+        ],
+        "rank_change": [
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "region": "41135",
+      "label": "경기 성남시 분당구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.8,
+        "p25_eok": 3.5,
+        "p75_eok": 4.0,
+        "rank": [
+          11,
+          11
+        ]
+      },
+      "end": {
+        "median_eok": 14.6,
+        "p25_eok": 13.3,
+        "p75_eok": 16.0,
+        "rank": [
+          8,
+          8
+        ]
+      },
+      "rank_change": [
+        3,
+        3
+      ],
+      "new_share_change_pp_band": [
+        0,
+        5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            8,
+            8
+          ],
+          "end_rank": [
+            7,
+            7
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            7,
+            7
+          ],
+          "end_rank": [
+            7,
+            7
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          11,
+          11
+        ],
+        "end_rank": [
+          10,
+          10
+        ],
+        "rank_change": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "region": "41150",
+      "label": "경기 의정부시",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 1.7,
+        "p25_eok": 1.6,
+        "p75_eok": 1.9,
+        "rank": [
+          52,
+          52
+        ]
+      },
+      "end": {
+        "median_eok": 3.1,
+        "p25_eok": 2.5,
+        "p75_eok": 4.2,
+        "rank": [
+          54,
+          54
+        ]
+      },
+      "rank_change": [
+        -2,
+        -2
+      ],
+      "new_share_change_pp_band": [
+        25,
+        30
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            45,
+            45
+          ],
+          "end_rank": [
+            47,
+            47
+          ],
+          "rank_change": [
+            -2,
+            -2
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            44,
+            44
+          ],
+          "end_rank": [
+            45,
+            45
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          51,
+          52
+        ],
+        "end_rank": [
+          55,
+          55
+        ],
+        "rank_change": [
+          -4,
+          -3
+        ]
+      }
+    },
+    {
+      "region": "41171",
+      "label": "경기 안양시 만안구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.5,
+        "p25_eok": 2.3,
+        "p75_eok": 2.8,
+        "rank": [
+          36,
+          37
+        ]
+      },
+      "end": {
+        "median_eok": 6.2,
+        "p25_eok": 4.6,
+        "p75_eok": 7.5,
+        "rank": [
+          33,
+          33
+        ]
+      },
+      "rank_change": [
+        3,
+        4
+      ],
+      "new_share_change_pp_band": [
+        15,
+        20
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            29,
+            30
+          ],
+          "end_rank": [
+            28,
+            28
+          ],
+          "rank_change": [
+            1,
+            2
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            26,
+            26
+          ],
+          "end_rank": [
+            32,
+            32
+          ],
+          "rank_change": [
+            -6,
+            -6
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          35,
+          35
+        ],
+        "end_rank": [
+          37,
+          37
+        ],
+        "rank_change": [
+          -2,
+          -2
+        ]
+      }
+    },
+    {
+      "region": "41173",
+      "label": "경기 안양시 동안구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.0,
+        "p25_eok": 2.8,
+        "p75_eok": 3.4,
+        "rank": [
+          21,
+          21
+        ]
+      },
+      "end": {
+        "median_eok": 8.4,
+        "p25_eok": 6.9,
+        "p75_eok": 9.8,
+        "rank": [
+          23,
+          23
+        ]
+      },
+      "rank_change": [
+        -2,
+        -2
+      ],
+      "new_share_change_pp_band": [
+        30,
+        35
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            18,
+            18
+          ],
+          "end_rank": [
+            18,
+            18
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            20,
+            20
+          ],
+          "end_rank": [
+            19,
+            19
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          21,
+          23
+        ],
+        "end_rank": [
+          25,
+          25
+        ],
+        "rank_change": [
+          -4,
+          -2
+        ]
+      }
+    },
+    {
+      "region": "41192",
+      "label": "경기 부천시 원미구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.4,
+        "p25_eok": 2.2,
+        "p75_eok": 2.9,
+        "rank": [
+          40,
+          40
+        ]
+      },
+      "end": {
+        "median_eok": 5.1,
+        "p25_eok": 4.2,
+        "p75_eok": 5.9,
+        "rank": [
+          39,
+          39
+        ]
+      },
+      "rank_change": [
+        1,
+        1
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            33,
+            33
+          ],
+          "end_rank": [
+            33,
+            33
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            28,
+            28
+          ],
+          "end_rank": [
+            30,
+            30
+          ],
+          "rank_change": [
+            -2,
+            -2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          42,
+          42
+        ],
+        "end_rank": [
+          39,
+          39
+        ],
+        "rank_change": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "region": "41194",
+      "label": "경기 부천시 소사구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.8,
+        "p25_eok": 2.3,
+        "p75_eok": 3.2,
+        "rank": [
+          26,
+          26
+        ]
+      },
+      "end": {
+        "median_eok": 5.8,
+        "p25_eok": 5.2,
+        "p75_eok": 6.2,
+        "rank": [
+          37,
+          37
+        ]
+      },
+      "rank_change": [
+        -11,
+        -11
+      ],
+      "new_share_change_pp_band": [
+        5,
+        10
+      ],
+      "fixed": {
+        "supported": false,
+        "peer_regions": 49
+      },
+      "largest_removed": {
+        "start_rank": [
+          39,
+          40
+        ],
+        "end_rank": [
+          37,
+          37
+        ],
+        "rank_change": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "region": "41196",
+      "label": "경기 부천시 오정구",
+      "area": "59",
+      "status": "insufficient_support",
+      "missing_periods": [
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41210",
+      "label": "경기 광명시",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.9,
+        "p25_eok": 2.6,
+        "p75_eok": 3.8,
+        "rank": [
+          25,
+          25
+        ]
+      },
+      "end": {
+        "median_eok": 8.1,
+        "p25_eok": 6.7,
+        "p75_eok": 11.0,
+        "rank": [
+          25,
+          25
+        ]
+      },
+      "rank_change": [
+        0,
+        0
+      ],
+      "new_share_change_pp_band": [
+        10,
+        15
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            21,
+            21
+          ],
+          "end_rank": [
+            20,
+            20
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            17,
+            17
+          ],
+          "end_rank": [
+            20,
+            20
+          ],
+          "rank_change": [
+            -3,
+            -3
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          25,
+          25
+        ],
+        "end_rank": [
+          25,
+          25
+        ],
+        "rank_change": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "region": "41220",
+      "label": "경기 평택시",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 1.5,
+        "p25_eok": 1.3,
+        "p75_eok": 1.7,
+        "rank": [
+          55,
+          55
+        ]
+      },
+      "end": {
+        "median_eok": 2.5,
+        "p25_eok": 1.5,
+        "p75_eok": 3.4,
+        "rank": [
+          56,
+          56
+        ]
+      },
+      "rank_change": [
+        -1,
+        -1
+      ],
+      "new_share_change_pp_band": [
+        20,
+        25
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            48,
+            48
+          ],
+          "end_rank": [
+            49,
+            49
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            48,
+            48
+          ],
+          "end_rank": [
+            49,
+            49
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          55,
+          55
+        ],
+        "end_rank": [
+          56,
+          56
+        ],
+        "rank_change": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "region": "41271",
+      "label": "경기 안산시 상록구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.5,
+        "p25_eok": 2.3,
+        "p75_eok": 2.7,
+        "rank": [
+          35,
+          35
+        ]
+      },
+      "end": {
+        "median_eok": 3.7,
+        "p25_eok": 3.2,
+        "p75_eok": 4.1,
+        "rank": [
+          47,
+          47
+        ]
+      },
+      "rank_change": [
+        -12,
+        -12
+      ],
+      "new_share_change_pp_band": [
+        0,
+        5
+      ],
+      "fixed": {
+        "supported": false,
+        "peer_regions": 49
+      },
+      "largest_removed": {
+        "start_rank": [
+          40,
+          40
+        ],
+        "end_rank": [
+          48,
+          48
+        ],
+        "rank_change": [
+          -8,
+          -8
+        ]
+      }
+    },
+    {
+      "region": "41273",
+      "label": "경기 안산시 단원구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.6,
+        "p25_eok": 2.4,
+        "p75_eok": 2.7,
+        "rank": [
+          32,
+          32
+        ]
+      },
+      "end": {
+        "median_eok": 5.2,
+        "p25_eok": 4.0,
+        "p75_eok": 6.1,
+        "rank": [
+          38,
+          38
+        ]
+      },
+      "rank_change": [
+        -6,
+        -6
+      ],
+      "new_share_change_pp_band": [
+        15,
+        20
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            26,
+            26
+          ],
+          "end_rank": [
+            32,
+            32
+          ],
+          "rank_change": [
+            -6,
+            -6
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            34,
+            34
+          ],
+          "end_rank": [
+            39,
+            39
+          ],
+          "rank_change": [
+            -5,
+            -5
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          32,
+          34
+        ],
+        "end_rank": [
+          38,
+          38
+        ],
+        "rank_change": [
+          -6,
+          -4
+        ]
+      }
+    },
+    {
+      "region": "41281",
+      "label": "경기 고양시 덕양구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.0,
+        "p25_eok": 1.9,
+        "p75_eok": 2.2,
+        "rank": [
+          46,
+          46
+        ]
+      },
+      "end": {
+        "median_eok": 4.0,
+        "p25_eok": 3.4,
+        "p75_eok": 6.2,
+        "rank": [
+          46,
+          46
+        ]
+      },
+      "rank_change": [
+        0,
+        0
+      ],
+      "new_share_change_pp_band": [
+        5,
+        10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            39,
+            39
+          ],
+          "end_rank": [
+            40,
+            40
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            37,
+            37
+          ],
+          "end_rank": [
+            37,
+            37
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          46,
+          46
+        ],
+        "end_rank": [
+          46,
+          46
+        ],
+        "rank_change": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "region": "41285",
+      "label": "경기 고양시 일산동구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 1.9,
+        "p25_eok": 1.8,
+        "p75_eok": 2.3,
+        "rank": [
+          49,
+          49
+        ]
+      },
+      "end": {
+        "median_eok": 3.5,
+        "p25_eok": 2.7,
+        "p75_eok": 5.4,
+        "rank": [
+          50,
+          50
+        ]
+      },
+      "rank_change": [
+        -1,
+        -1
+      ],
+      "new_share_change_pp_band": [
+        0,
+        5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            42,
+            42
+          ],
+          "end_rank": [
+            43,
+            43
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            41,
+            41
+          ],
+          "end_rank": [
+            42,
+            42
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          50,
+          50
+        ],
+        "end_rank": [
+          52,
+          52
+        ],
+        "rank_change": [
+          -2,
+          -2
+        ]
+      }
+    },
+    {
+      "region": "41287",
+      "label": "경기 고양시 일산서구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 1.9,
+        "p25_eok": 1.8,
+        "p75_eok": 2.2,
+        "rank": [
+          48,
+          48
+        ]
+      },
+      "end": {
+        "median_eok": 3.0,
+        "p25_eok": 2.6,
+        "p75_eok": 3.6,
+        "rank": [
+          55,
+          55
+        ]
+      },
+      "rank_change": [
+        -7,
+        -7
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            41,
+            41
+          ],
+          "end_rank": [
+            48,
+            48
+          ],
+          "rank_change": [
+            -7,
+            -7
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            39,
+            39
+          ],
+          "end_rank": [
+            40,
+            40
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          48,
+          48
+        ],
+        "end_rank": [
+          55,
+          55
+        ],
+        "rank_change": [
+          -7,
+          -7
+        ]
+      }
+    },
+    {
+      "region": "41290",
+      "label": "경기 과천시",
+      "area": "59",
+      "status": "insufficient_support",
+      "missing_periods": [
+        "2015H1",
+        "2026H1"
+      ]
+    },
+    {
+      "region": "41310",
+      "label": "경기 구리시",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.5,
+        "p25_eok": 2.3,
+        "p75_eok": 2.7,
+        "rank": [
+          38,
+          38
+        ]
+      },
+      "end": {
+        "median_eok": 6.2,
+        "p25_eok": 5.6,
+        "p75_eok": 7.1,
+        "rank": [
+          32,
+          32
+        ]
+      },
+      "rank_change": [
+        6,
+        6
+      ],
+      "new_share_change_pp_band": [
+        10,
+        15
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            31,
+            31
+          ],
+          "end_rank": [
+            27,
+            27
+          ],
+          "rank_change": [
+            4,
+            4
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            32,
+            32
+          ],
+          "end_rank": [
+            26,
+            26
+          ],
+          "rank_change": [
+            6,
+            6
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          38,
+          38
+        ],
+        "end_rank": [
+          32,
+          32
+        ],
+        "rank_change": [
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "region": "41360",
+      "label": "경기 남양주시",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 1.7,
+        "p25_eok": 1.5,
+        "p75_eok": 2.1,
+        "rank": [
+          53,
+          53
+        ]
+      },
+      "end": {
+        "median_eok": 3.5,
+        "p25_eok": 2.4,
+        "p75_eok": 4.8,
+        "rank": [
+          51,
+          51
+        ]
+      },
+      "rank_change": [
+        2,
+        2
+      ],
+      "new_share_change_pp_band": [
+        15,
+        20
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            46,
+            46
+          ],
+          "end_rank": [
+            44,
+            44
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            46,
+            46
+          ],
+          "end_rank": [
+            44,
+            44
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          53,
+          53
+        ],
+        "end_rank": [
+          51,
+          51
+        ],
+        "rank_change": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "region": "41410",
+      "label": "경기 군포시",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.5,
+        "p25_eok": 2.3,
+        "p75_eok": 2.8,
+        "rank": [
+          39,
+          39
+        ]
+      },
+      "end": {
+        "median_eok": 4.2,
+        "p25_eok": 3.5,
+        "p75_eok": 4.6,
+        "rank": [
+          45,
+          45
+        ]
+      },
+      "rank_change": [
+        -6,
+        -6
+      ],
+      "new_share_change_pp_band": [
+        -10,
+        -5
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            32,
+            32
+          ],
+          "end_rank": [
+            39,
+            39
+          ],
+          "rank_change": [
+            -7,
+            -7
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            25,
+            25
+          ],
+          "end_rank": [
+            34,
+            34
+          ],
+          "rank_change": [
+            -9,
+            -9
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          36,
+          36
+        ],
+        "end_rank": [
+          45,
+          45
+        ],
+        "rank_change": [
+          -9,
+          -9
+        ]
+      }
+    },
+    {
+      "region": "41430",
+      "label": "경기 의왕시",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.3,
+        "p25_eok": 2.4,
+        "p75_eok": 4.1,
+        "rank": [
+          13,
+          13
+        ]
+      },
+      "end": {
+        "median_eok": 6.4,
+        "p25_eok": 4.7,
+        "p75_eok": 9.1,
+        "rank": [
+          30,
+          30
+        ]
+      },
+      "rank_change": [
+        -17,
+        -17
+      ],
+      "new_share_change_pp_band": [
+        -20,
+        -15
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            10,
+            10
+          ],
+          "end_rank": [
+            25,
+            25
+          ],
+          "rank_change": [
+            -15,
+            -15
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            16,
+            16
+          ],
+          "end_rank": [
+            24,
+            24
+          ],
+          "rank_change": [
+            -8,
+            -8
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          32,
+          32
+        ],
+        "end_rank": [
+          33,
+          33
+        ],
+        "rank_change": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "region": "41450",
+      "label": "경기 하남시",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.7,
+        "p25_eok": 2.2,
+        "p75_eok": 3.0,
+        "rank": [
+          30,
+          30
+        ]
+      },
+      "end": {
+        "median_eok": 9.3,
+        "p25_eok": 6.9,
+        "p75_eok": 10.6,
+        "rank": [
+          18,
+          18
+        ]
+      },
+      "rank_change": [
+        12,
+        12
+      ],
+      "new_share_change_pp_band": [
+        10,
+        15
+      ],
+      "fixed": {
+        "supported": false,
+        "peer_regions": 49
+      },
+      "largest_removed": {
+        "start_rank": [
+          39,
+          39
+        ],
+        "end_rank": [
+          23,
+          23
+        ],
+        "rank_change": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "region": "41461",
+      "label": "경기 용인시 처인구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 1.5,
+        "p25_eok": 1.3,
+        "p75_eok": 1.6,
+        "rank": [
+          56,
+          56
+        ]
+      },
+      "end": {
+        "median_eok": 3.6,
+        "p25_eok": 2.4,
+        "p75_eok": 4.7,
+        "rank": [
+          49,
+          49
+        ]
+      },
+      "rank_change": [
+        7,
+        7
+      ],
+      "new_share_change_pp_band": [
+        20,
+        25
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            49,
+            49
+          ],
+          "end_rank": [
+            42,
+            42
+          ],
+          "rank_change": [
+            7,
+            7
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            49,
+            49
+          ],
+          "end_rank": [
+            48,
+            48
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          55,
+          55
+        ],
+        "end_rank": [
+          51,
+          51
+        ],
+        "rank_change": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "region": "41463",
+      "label": "경기 용인시 기흥구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.2,
+        "p25_eok": 1.9,
+        "p75_eok": 2.5,
+        "rank": [
+          44,
+          44
+        ]
+      },
+      "end": {
+        "median_eok": 4.7,
+        "p25_eok": 3.5,
+        "p75_eok": 6.1,
+        "rank": [
+          42,
+          42
+        ]
+      },
+      "rank_change": [
+        2,
+        2
+      ],
+      "new_share_change_pp_band": [
+        5,
+        10
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            37,
+            37
+          ],
+          "end_rank": [
+            36,
+            36
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            38,
+            38
+          ],
+          "end_rank": [
+            36,
+            36
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          44,
+          44
+        ],
+        "end_rank": [
+          43,
+          43
+        ],
+        "rank_change": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "region": "41465",
+      "label": "경기 용인시 수지구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 3.0,
+        "p25_eok": 2.7,
+        "p75_eok": 3.4,
+        "rank": [
+          22,
+          23
+        ]
+      },
+      "end": {
+        "median_eok": 7.5,
+        "p25_eok": 6.6,
+        "p75_eok": 8.9,
+        "rank": [
+          26,
+          26
+        ]
+      },
+      "rank_change": [
+        -4,
+        -3
+      ],
+      "new_share_change_pp_band": [
+        -5,
+        0
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            19,
+            20
+          ],
+          "end_rank": [
+            21,
+            21
+          ],
+          "rank_change": [
+            -2,
+            -1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            21,
+            21
+          ],
+          "end_rank": [
+            16,
+            16
+          ],
+          "rank_change": [
+            5,
+            5
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          21,
+          21
+        ],
+        "end_rank": [
+          26,
+          26
+        ],
+        "rank_change": [
+          -5,
+          -5
+        ]
+      }
+    },
+    {
+      "region": "41480",
+      "label": "경기 파주시",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 1.6,
+        "p25_eok": 1.2,
+        "p75_eok": 1.8,
+        "rank": [
+          54,
+          54
+        ]
+      },
+      "end": {
+        "median_eok": 3.1,
+        "p25_eok": 2.1,
+        "p75_eok": 4.3,
+        "rank": [
+          53,
+          53
+        ]
+      },
+      "rank_change": [
+        1,
+        1
+      ],
+      "new_share_change_pp_band": [
+        10,
+        15
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            47,
+            47
+          ],
+          "end_rank": [
+            46,
+            46
+          ],
+          "rank_change": [
+            1,
+            1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            47,
+            47
+          ],
+          "end_rank": [
+            47,
+            47
+          ],
+          "rank_change": [
+            0,
+            0
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          55,
+          56
+        ],
+        "end_rank": [
+          52,
+          52
+        ],
+        "rank_change": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "region": "41570",
+      "label": "경기 김포시",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 2.0,
+        "p25_eok": 1.6,
+        "p75_eok": 2.6,
+        "rank": [
+          47,
+          47
+        ]
+      },
+      "end": {
+        "median_eok": 3.7,
+        "p25_eok": 3.0,
+        "p75_eok": 4.4,
+        "rank": [
+          48,
+          48
+        ]
+      },
+      "rank_change": [
+        -1,
+        -1
+      ],
+      "new_share_change_pp_band": [
+        -35,
+        -30
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            40,
+            40
+          ],
+          "end_rank": [
+            41,
+            41
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            43,
+            43
+          ],
+          "end_rank": [
+            41,
+            41
+          ],
+          "rank_change": [
+            2,
+            2
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          50,
+          50
+        ],
+        "end_rank": [
+          48,
+          48
+        ],
+        "rank_change": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "region": "41591",
+      "label": "경기 화성시 만세구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 1.4,
+        "p25_eok": 1.3,
+        "p75_eok": 1.6,
+        "rank": [
+          57,
+          57
+        ]
+      },
+      "end": {
+        "median_eok": 2.1,
+        "p25_eok": 1.7,
+        "p75_eok": 3.0,
+        "rank": [
+          57,
+          57
+        ]
+      },
+      "rank_change": [
+        0,
+        0
+      ],
+      "new_share_change_pp_band": [
+        20,
+        25
+      ],
+      "fixed": {
+        "supported": false,
+        "peer_regions": 49
+      },
+      "largest_removed": {
+        "start_rank": null,
+        "end_rank": [
+          57,
+          57
+        ],
+        "rank_change": null
+      }
+    },
+    {
+      "region": "41593",
+      "label": "경기 화성시 효행구",
+      "area": "59",
+      "status": "insufficient_support",
+      "missing_periods": [
+        "2015H1"
+      ]
+    },
+    {
+      "region": "41595",
+      "label": "경기 화성시 병점구",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 1.8,
+        "p25_eok": 1.7,
+        "p75_eok": 2.0,
+        "rank": [
+          50,
+          50
+        ]
+      },
+      "end": {
+        "median_eok": 3.4,
+        "p25_eok": 2.7,
+        "p75_eok": 6.0,
+        "rank": [
+          52,
+          52
+        ]
+      },
+      "rank_change": [
+        -2,
+        -2
+      ],
+      "new_share_change_pp_band": [
+        25,
+        30
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            43,
+            43
+          ],
+          "end_rank": [
+            45,
+            45
+          ],
+          "rank_change": [
+            -2,
+            -2
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            42,
+            42
+          ],
+          "end_rank": [
+            43,
+            43
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          48,
+          48
+        ],
+        "end_rank": [
+          52,
+          52
+        ],
+        "rank_change": [
+          -4,
+          -4
+        ]
+      }
+    },
+    {
+      "region": "41597",
+      "label": "경기 화성시 동탄구",
+      "area": "59",
+      "status": "insufficient_support",
+      "missing_periods": [
+        "2015H1"
+      ]
+    },
+    {
+      "region": "41610",
+      "label": "경기 광주시",
+      "area": "59",
+      "status": "supported",
+      "start": {
+        "median_eok": 1.8,
+        "p25_eok": 1.7,
+        "p75_eok": 1.9,
+        "rank": [
+          51,
+          51
+        ]
+      },
+      "end": {
+        "median_eok": 4.6,
+        "p25_eok": 2.8,
+        "p75_eok": 5.0,
+        "rank": [
+          43,
+          43
+        ]
+      },
+      "rank_change": [
+        8,
+        8
+      ],
+      "new_share_change_pp_band": [
+        10,
+        15
+      ],
+      "fixed": {
+        "supported": true,
+        "peer_regions": 49,
+        "observed": {
+          "start_rank": [
+            44,
+            44
+          ],
+          "end_rank": [
+            37,
+            37
+          ],
+          "rank_change": [
+            7,
+            7
+          ]
+        },
+        "paired": {
+          "start_rank": [
+            45,
+            45
+          ],
+          "end_rank": [
+            46,
+            46
+          ],
+          "rank_change": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "largest_removed": {
+        "start_rank": [
+          51,
+          51
+        ],
+        "end_rank": [
+          43,
+          43
+        ],
+        "rank_change": [
+          8,
+          8
+        ]
+      }
+    }
+  ]
+}
