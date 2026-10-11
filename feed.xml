@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-12T05:23:57+09:00</updated>
+  <updated>2026-10-12T05:57:33+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>세대당 주차 1대, 어느 준공 연대부터 흔해졌을까?</title>
+    <id>https://nobot-kang.github.io/posts/apartment-parking-by-completion-era/</id>
+    <published>2026-10-12T05:57:33+09:00</published>
+    <updated>2026-10-12T05:57:33+09:00</updated>
+    <summary>서울·수집 경기의 준공 연대별 세대당 주차와 지하 주차 비율을 비교합니다. 중위·분포·지역 차이, 누락 단지와 신축·구축 비교의 한계를 확인합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-parking-by-completion-era/" />
+    <category term="아파트의 진화" />
+  </entry>
   <entry>
     <title>서울·경기 아파트 월세는 기준소득의 몇 %일까? 보증금 비용까지 비교</title>
     <id>https://nobot-kang.github.io/posts/apartment-rent-income-ratio/</id>
@@ -275,7 +284,7 @@
     <title>2020년 이후 아파트는 소형 비중이 클까? 서울·경기 재고 비교</title>
     <id>https://nobot-kang.github.io/posts/apartment-size-by-completion-era/</id>
     <published>2026-10-10T15:41:36+09:00</published>
-    <updated>2026-10-12T01:31:00+09:00</updated>
+    <updated>2026-10-12T05:57:33+09:00</updated>
     <summary>서울·수집 경기의 현재 연결 재고를 사용승인 연대로 나눕니다. 한 단지를 제외해도 최근 연대의 소형 비중은 높고 대형 비중은 낮습니다. 세대수 분모, 84㎡대 구성, 제외 기준과 한계를 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-size-by-completion-era/" />
     <category term="단지 조건 비교" />
