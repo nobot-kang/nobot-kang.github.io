@@ -202,3 +202,18 @@ cities/districts; Gyeonggi child coverage is not province-wide. Indices are
 ratio changes percentage points. Null/blank means missing or not calculated;
 no change crosses the2022.11reform. The full historical roster and nulls are
 preserved. No private model or household/transaction support counts are included.
+
+`assets/rent-income.json` compares monthly apartment rental contract costs with
+one common KB HAI income series for 2011.1–2026.6. `scope` 11 means Seoul's 25
+districts; 41 means the 36 collected Gyeonggi regions, not a province-wide tenant
+survey. `p17_18`/`p25_26` are the standard 59형/84형 area groups. Each supported
+row has four `costs_manwon` medians (KRW 10,000/month), rounded to 5만원, for
+hypothetical annual deposit opportunity-cost rates `rates_pct` [0,2,4,6]. The
+contract's rent and deposit are paired before taking each median. `ratios_pct`
+uses the rounded public cost divided by that month's common `income_won`, rounded
+to 0.1 percentage point. These are not actual tenants' income burdens. All 744
+calendar rows remain; 53 insufficient rows have null costs/ratios, never zero.
+`sensitivity` counts comparable calendar-month pairs and their ratio changes,
+not contracts or pooled annual medians. Income method changes in 2017/2019 and
+rental reporting changes in June 2021 limit historical comparisons. No individual
+terms, IDs, exact contract counts or unrounded cost medians are supplied.
