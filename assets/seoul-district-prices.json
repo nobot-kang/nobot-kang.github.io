@@ -1,0 +1,7116 @@
+{
+  "schema": "b001_public_v1",
+  "snapshot": "2026-10-04",
+  "periods": {
+    "2025Q3": [
+      "2025-07",
+      "2025-09"
+    ],
+    "2025Q4": [
+      "2025-10",
+      "2025-12"
+    ],
+    "2026Q1": [
+      "2026-01",
+      "2026-03"
+    ],
+    "2026Q2": [
+      "2026-04",
+      "2026-06"
+    ],
+    "four_quarters": [
+      "2025-07",
+      "2026-06"
+    ]
+  },
+  "names": {
+    "11110": "종로구",
+    "11140": "중구",
+    "11170": "용산구",
+    "11200": "성동구",
+    "11215": "광진구",
+    "11230": "동대문구",
+    "11260": "중랑구",
+    "11290": "성북구",
+    "11305": "강북구",
+    "11320": "도봉구",
+    "11350": "노원구",
+    "11380": "은평구",
+    "11410": "서대문구",
+    "11440": "마포구",
+    "11470": "양천구",
+    "11500": "강서구",
+    "11530": "구로구",
+    "11545": "금천구",
+    "11560": "영등포구",
+    "11590": "동작구",
+    "11620": "관악구",
+    "11650": "서초구",
+    "11680": "강남구",
+    "11710": "송파구",
+    "11740": "강동구"
+  },
+  "areas": {
+    "p25_26": "84형 · 전용 25·26평형",
+    "exact84": "84㎡대 · 84≤전용면적<85㎡"
+  },
+  "population": "Strict eligible reported sales, land leasehold excluded; one contract one vote; current master geography",
+  "support": "District:40 contracts and10 complexes; dong:40 contracts and2 complexes, unique legal-dong name. No exact counts or individual IDs/prices.",
+  "precision": "Prices0.1 hundred-million KRW, ratios0.1, coverage whole percent; independently rounded.",
+  "source_url": "https://www.data.go.kr/data/15126468/openapi.do",
+  "districts": [
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11110",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11140",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 12.4,
+      "median_eok": 13.9,
+      "p75_eok": 15.2
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11170",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 15.4,
+      "median_eok": 17.8,
+      "p75_eok": 22.5
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11200",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 13.3,
+      "median_eok": 16.3,
+      "p75_eok": 19.5
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11215",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 13.4,
+      "median_eok": 16.5,
+      "p75_eok": 19.1
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11230",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.3,
+      "median_eok": 10.5,
+      "p75_eok": 14.5
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11260",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 6.5,
+      "median_eok": 7.3,
+      "p75_eok": 8.4
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11290",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 8.0,
+      "median_eok": 9.1,
+      "p75_eok": 10.8
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11305",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 6.5,
+      "median_eok": 7.2,
+      "p75_eok": 8.7
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11320",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 5.3,
+      "median_eok": 5.9,
+      "p75_eok": 8.1
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11350",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.7,
+      "median_eok": 8.2,
+      "p75_eok": 9.6
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11380",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.1,
+      "median_eok": 9.0,
+      "p75_eok": 11.5
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11410",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.0,
+      "median_eok": 12.4,
+      "p75_eok": 13.5
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11440",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 12.3,
+      "median_eok": 14.3,
+      "p75_eok": 19.9
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11470",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.7,
+      "median_eok": 11.6,
+      "p75_eok": 15.5
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11500",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.6,
+      "median_eok": 10.5,
+      "p75_eok": 13.5
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11530",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.0,
+      "median_eok": 8.4,
+      "p75_eok": 9.7
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11545",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 5.7,
+      "median_eok": 6.9,
+      "p75_eok": 10.8
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11560",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.8,
+      "median_eok": 12.0,
+      "p75_eok": 15.0
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11590",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 11.1,
+      "median_eok": 14.0,
+      "p75_eok": 16.4
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11620",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 7.6,
+      "median_eok": 9.4,
+      "p75_eok": 10.6
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11650",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 16.3,
+      "median_eok": 23.5,
+      "p75_eok": 35.2
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11680",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 19.6,
+      "median_eok": 26.4,
+      "p75_eok": 36.1
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11710",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 13.6,
+      "median_eok": 17.7,
+      "p75_eok": 28.7
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "region": "11740",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 10.4,
+      "median_eok": 14.3,
+      "p75_eok": 17.4
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11110",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 11.0,
+      "median_eok": 12.5,
+      "p75_eok": 14.3
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11140",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 11.5,
+      "median_eok": 14.0,
+      "p75_eok": 16.2
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11170",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 16.1,
+      "median_eok": 19.4,
+      "p75_eok": 25.0
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11200",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 12.7,
+      "median_eok": 16.3,
+      "p75_eok": 20.7
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11215",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 15.9,
+      "median_eok": 18.4,
+      "p75_eok": 21.0
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11230",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.4,
+      "median_eok": 10.0,
+      "p75_eok": 14.9
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11260",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 6.6,
+      "median_eok": 7.3,
+      "p75_eok": 8.4
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11290",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 8.5,
+      "median_eok": 9.6,
+      "p75_eok": 11.5
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11305",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 6.6,
+      "median_eok": 7.1,
+      "p75_eok": 8.5
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11320",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 5.5,
+      "median_eok": 6.0,
+      "p75_eok": 8.0
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11350",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.1,
+      "median_eok": 8.4,
+      "p75_eok": 9.6
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11380",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.2,
+      "median_eok": 10.0,
+      "p75_eok": 12.7
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11410",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.4,
+      "median_eok": 12.8,
+      "p75_eok": 14.0
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11440",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 12.0,
+      "median_eok": 14.7,
+      "p75_eok": 19.5
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11470",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.5,
+      "median_eok": 12.0,
+      "p75_eok": 14.1
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11500",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.0,
+      "median_eok": 10.8,
+      "p75_eok": 13.8
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11530",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 6.9,
+      "median_eok": 8.4,
+      "p75_eok": 10.0
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11545",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 6.0,
+      "median_eok": 7.2,
+      "p75_eok": 11.0
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11560",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 10.2,
+      "median_eok": 12.9,
+      "p75_eok": 15.4
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11590",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 12.4,
+      "median_eok": 14.4,
+      "p75_eok": 17.3
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11620",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 8.2,
+      "median_eok": 9.6,
+      "p75_eok": 10.5
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11650",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 17.0,
+      "median_eok": 20.2,
+      "p75_eok": 32.8
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11680",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 19.0,
+      "median_eok": 25.0,
+      "p75_eok": 34.1
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11710",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 13.8,
+      "median_eok": 18.1,
+      "p75_eok": 29.3
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "region": "11740",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 10.6,
+      "median_eok": 13.5,
+      "p75_eok": 16.9
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11110",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 10.9,
+      "median_eok": 12.3,
+      "p75_eok": 15.2
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11140",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 11.5,
+      "median_eok": 12.4,
+      "p75_eok": 16.8
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11170",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 17.2,
+      "median_eok": 18.5,
+      "p75_eok": 24.0
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11200",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 14.5,
+      "median_eok": 17.0,
+      "p75_eok": 20.1
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11215",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 14.7,
+      "median_eok": 19.0,
+      "p75_eok": 21.8
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11230",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.7,
+      "median_eok": 10.4,
+      "p75_eok": 13.2
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11260",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.6,
+      "median_eok": 7.5,
+      "p75_eok": 8.5
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11290",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 8.2,
+      "median_eok": 9.4,
+      "p75_eok": 11.3
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11305",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 6.9,
+      "median_eok": 7.4,
+      "p75_eok": 8.8
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11320",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 5.4,
+      "median_eok": 6.3,
+      "p75_eok": 8.1
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11350",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.8,
+      "median_eok": 8.3,
+      "p75_eok": 9.5
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11380",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.5,
+      "median_eok": 9.3,
+      "p75_eok": 11.5
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11410",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.0,
+      "median_eok": 10.7,
+      "p75_eok": 14.0
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11440",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 11.0,
+      "median_eok": 13.4,
+      "p75_eok": 18.9
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11470",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.5,
+      "median_eok": 11.0,
+      "p75_eok": 13.4
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11500",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.5,
+      "median_eok": 10.0,
+      "p75_eok": 12.4
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11530",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.9,
+      "median_eok": 8.0,
+      "p75_eok": 9.3
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11545",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 5.7,
+      "median_eok": 7.1,
+      "p75_eok": 9.4
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11560",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.0,
+      "median_eok": 12.2,
+      "p75_eok": 15.1
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11590",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 12.2,
+      "median_eok": 14.8,
+      "p75_eok": 17.3
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11620",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.4,
+      "median_eok": 10.0,
+      "p75_eok": 11.6
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11650",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 19.6,
+      "median_eok": 23.0,
+      "p75_eok": 35.4
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11680",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 23.3,
+      "median_eok": 27.3,
+      "p75_eok": 36.5
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11710",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 15.2,
+      "median_eok": 20.1,
+      "p75_eok": 30.4
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "region": "11740",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.7,
+      "median_eok": 13.0,
+      "p75_eok": 17.2
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11110",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 10.6,
+      "median_eok": 12.0,
+      "p75_eok": 24.1
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11140",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 12.4,
+      "median_eok": 16.5,
+      "p75_eok": 17.7
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11170",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 17.3,
+      "median_eok": 20.4,
+      "p75_eok": 25.7
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11200",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 15.3,
+      "median_eok": 18.5,
+      "p75_eok": 22.0
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11215",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 14.9,
+      "median_eok": 18.0,
+      "p75_eok": 20.9
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11230",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.9,
+      "median_eok": 10.9,
+      "p75_eok": 13.4
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11260",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.7,
+      "median_eok": 7.5,
+      "p75_eok": 8.5
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11290",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.5,
+      "median_eok": 10.0,
+      "p75_eok": 11.5
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11305",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 6.5,
+      "median_eok": 7.7,
+      "p75_eok": 9.3
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11320",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 5.4,
+      "median_eok": 6.1,
+      "p75_eok": 8.4
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11350",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.9,
+      "median_eok": 8.5,
+      "p75_eok": 10.0
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11380",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.7,
+      "median_eok": 9.1,
+      "p75_eok": 11.8
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11410",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.8,
+      "median_eok": 11.0,
+      "p75_eok": 14.7
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11440",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 12.0,
+      "median_eok": 15.9,
+      "p75_eok": 20.7
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11470",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.9,
+      "median_eok": 12.0,
+      "p75_eok": 14.8
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11500",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.3,
+      "median_eok": 10.4,
+      "p75_eok": 12.8
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11530",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.8,
+      "median_eok": 7.8,
+      "p75_eok": 9.4
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11545",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 5.7,
+      "median_eok": 7.2,
+      "p75_eok": 9.7
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11560",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 10.0,
+      "median_eok": 13.4,
+      "p75_eok": 15.8
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11590",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 13.4,
+      "median_eok": 15.6,
+      "p75_eok": 18.4
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11620",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.3,
+      "median_eok": 9.2,
+      "p75_eok": 12.0
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11650",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 21.5,
+      "median_eok": 31.0,
+      "p75_eok": 46.1
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11680",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 24.5,
+      "median_eok": 32.0,
+      "p75_eok": 36.0
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11710",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 17.6,
+      "median_eok": 27.5,
+      "p75_eok": 31.0
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "region": "11740",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 11.5,
+      "median_eok": 15.6,
+      "p75_eok": 19.0
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11110",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 11.0,
+      "median_eok": 12.8,
+      "p75_eok": 15.4
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11140",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 11.8,
+      "median_eok": 14.5,
+      "p75_eok": 17.0
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11170",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 16.3,
+      "median_eok": 19.3,
+      "p75_eok": 24.2
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11200",
+      "status": "supported",
+      "count_band": "500~999",
+      "p25_eok": 13.8,
+      "median_eok": 17.0,
+      "p75_eok": 20.5
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11215",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 14.5,
+      "median_eok": 17.5,
+      "p75_eok": 20.2
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11230",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 8.5,
+      "median_eok": 10.5,
+      "p75_eok": 14.3
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11260",
+      "status": "supported",
+      "count_band": "500~999",
+      "p25_eok": 6.7,
+      "median_eok": 7.4,
+      "p75_eok": 8.5
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11290",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 8.3,
+      "median_eok": 9.5,
+      "p75_eok": 11.3
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11305",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 6.7,
+      "median_eok": 7.4,
+      "p75_eok": 8.8
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11320",
+      "status": "supported",
+      "count_band": "500~999",
+      "p25_eok": 5.4,
+      "median_eok": 6.1,
+      "p75_eok": 8.1
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11350",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 6.9,
+      "median_eok": 8.3,
+      "p75_eok": 9.7
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11380",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 7.7,
+      "median_eok": 9.3,
+      "p75_eok": 11.9
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11410",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 8.9,
+      "median_eok": 11.9,
+      "p75_eok": 14.0
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11440",
+      "status": "supported",
+      "count_band": "500~999",
+      "p25_eok": 12.0,
+      "median_eok": 14.7,
+      "p75_eok": 20.0
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11470",
+      "status": "supported",
+      "count_band": "500~999",
+      "p25_eok": 8.1,
+      "median_eok": 11.7,
+      "p75_eok": 14.4
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11500",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 8.6,
+      "median_eok": 10.4,
+      "p75_eok": 13.0
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11530",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 6.9,
+      "median_eok": 8.1,
+      "p75_eok": 9.5
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11545",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 5.7,
+      "median_eok": 7.2,
+      "p75_eok": 9.7
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11560",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 9.9,
+      "median_eok": 12.7,
+      "p75_eok": 15.4
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11590",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 12.0,
+      "median_eok": 14.8,
+      "p75_eok": 17.2
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11620",
+      "status": "supported",
+      "count_band": "500~999",
+      "p25_eok": 7.5,
+      "median_eok": 9.6,
+      "p75_eok": 11.5
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11650",
+      "status": "supported",
+      "count_band": "500~999",
+      "p25_eok": 18.3,
+      "median_eok": 26.5,
+      "p75_eok": 37.9
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11680",
+      "status": "supported",
+      "count_band": "500~999",
+      "p25_eok": 21.2,
+      "median_eok": 29.0,
+      "p75_eok": 35.5
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11710",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 14.8,
+      "median_eok": 20.1,
+      "p75_eok": 30.0
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "region": "11740",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 10.4,
+      "median_eok": 14.4,
+      "p75_eok": 17.5
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11110",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11140",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 12.9,
+      "median_eok": 14.0,
+      "p75_eok": 15.2
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11170",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 15.2,
+      "median_eok": 17.3,
+      "p75_eok": 21.4
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11200",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 13.3,
+      "median_eok": 16.4,
+      "p75_eok": 19.5
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11215",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 14.3,
+      "median_eok": 16.9,
+      "p75_eok": 19.3
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11230",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.4,
+      "median_eok": 10.8,
+      "p75_eok": 14.5
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11260",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 6.5,
+      "median_eok": 7.3,
+      "p75_eok": 8.4
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11290",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 8.1,
+      "median_eok": 9.1,
+      "p75_eok": 10.9
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11305",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 6.5,
+      "median_eok": 7.2,
+      "p75_eok": 8.7
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11320",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 5.4,
+      "median_eok": 6.3,
+      "p75_eok": 8.2
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11350",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 6.7,
+      "median_eok": 8.4,
+      "p75_eok": 9.7
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11380",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.8,
+      "median_eok": 9.2,
+      "p75_eok": 11.9
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11410",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.1,
+      "median_eok": 12.5,
+      "p75_eok": 13.6
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11440",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 12.3,
+      "median_eok": 14.3,
+      "p75_eok": 20.0
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11470",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.8,
+      "median_eok": 11.6,
+      "p75_eok": 15.4
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11500",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.9,
+      "median_eok": 10.6,
+      "p75_eok": 13.6
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11530",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 7.0,
+      "median_eok": 8.4,
+      "p75_eok": 9.8
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11545",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 5.7,
+      "median_eok": 6.9,
+      "p75_eok": 11.2
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11560",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.8,
+      "median_eok": 12.1,
+      "p75_eok": 15.1
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11590",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 11.1,
+      "median_eok": 14.0,
+      "p75_eok": 16.4
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11620",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 8.4,
+      "median_eok": 9.5,
+      "p75_eok": 10.7
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11650",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 16.8,
+      "median_eok": 26.0,
+      "p75_eok": 37.4
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11680",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 18.9,
+      "median_eok": 26.0,
+      "p75_eok": 35.8
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11710",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 13.7,
+      "median_eok": 17.4,
+      "p75_eok": 27.0
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "region": "11740",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 10.5,
+      "median_eok": 14.5,
+      "p75_eok": 17.8
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11110",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 11.0,
+      "median_eok": 12.5,
+      "p75_eok": 14.3
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11140",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 11.6,
+      "median_eok": 14.3,
+      "p75_eok": 16.2
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11170",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 16.0,
+      "median_eok": 18.9,
+      "p75_eok": 23.9
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11200",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 12.9,
+      "median_eok": 16.6,
+      "p75_eok": 21.0
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11215",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 16.3,
+      "median_eok": 18.7,
+      "p75_eok": 21.1
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11230",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.5,
+      "median_eok": 10.0,
+      "p75_eok": 15.0
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11260",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 6.7,
+      "median_eok": 7.5,
+      "p75_eok": 8.5
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11290",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 8.5,
+      "median_eok": 9.7,
+      "p75_eok": 11.5
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11305",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 6.6,
+      "median_eok": 7.1,
+      "p75_eok": 8.5
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11320",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 5.5,
+      "median_eok": 6.0,
+      "p75_eok": 8.0
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11350",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.3,
+      "median_eok": 8.4,
+      "p75_eok": 9.7
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11380",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.2,
+      "median_eok": 10.0,
+      "p75_eok": 12.7
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11410",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.5,
+      "median_eok": 12.9,
+      "p75_eok": 14.0
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11440",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 12.0,
+      "median_eok": 14.7,
+      "p75_eok": 19.8
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11470",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.9,
+      "median_eok": 12.0,
+      "p75_eok": 14.0
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11500",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.1,
+      "median_eok": 10.9,
+      "p75_eok": 14.0
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11530",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 7.0,
+      "median_eok": 8.4,
+      "p75_eok": 10.0
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11545",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 6.4,
+      "median_eok": 7.2,
+      "p75_eok": 11.1
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11560",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 10.2,
+      "median_eok": 12.9,
+      "p75_eok": 15.4
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11590",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 12.5,
+      "median_eok": 14.4,
+      "p75_eok": 17.4
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11620",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 8.5,
+      "median_eok": 9.7,
+      "p75_eok": 10.6
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11650",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 17.2,
+      "median_eok": 20.9,
+      "p75_eok": 34.0
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11680",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 19.0,
+      "median_eok": 23.8,
+      "p75_eok": 34.0
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11710",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 13.7,
+      "median_eok": 17.9,
+      "p75_eok": 28.6
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "region": "11740",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 10.8,
+      "median_eok": 13.5,
+      "p75_eok": 17.0
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11110",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 10.9,
+      "median_eok": 12.3,
+      "p75_eok": 15.2
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11140",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 11.5,
+      "median_eok": 12.5,
+      "p75_eok": 16.8
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11170",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 17.6,
+      "median_eok": 19.1,
+      "p75_eok": 26.5
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11200",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 14.5,
+      "median_eok": 17.0,
+      "p75_eok": 20.0
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11215",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 15.4,
+      "median_eok": 19.1,
+      "p75_eok": 21.9
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11230",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.7,
+      "median_eok": 10.4,
+      "p75_eok": 14.0
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11260",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.7,
+      "median_eok": 7.5,
+      "p75_eok": 8.5
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11290",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 8.2,
+      "median_eok": 9.4,
+      "p75_eok": 11.4
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11305",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 6.9,
+      "median_eok": 7.4,
+      "p75_eok": 8.8
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11320",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 5.6,
+      "median_eok": 6.4,
+      "p75_eok": 8.1
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11350",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.8,
+      "median_eok": 8.4,
+      "p75_eok": 9.7
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11380",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.8,
+      "median_eok": 9.4,
+      "p75_eok": 11.5
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11410",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.5,
+      "median_eok": 10.9,
+      "p75_eok": 14.0
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11440",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 11.1,
+      "median_eok": 13.4,
+      "p75_eok": 20.0
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11470",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.8,
+      "median_eok": 11.5,
+      "p75_eok": 13.9
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11500",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.6,
+      "median_eok": 10.2,
+      "p75_eok": 12.5
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11530",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.8,
+      "median_eok": 8.0,
+      "p75_eok": 9.3
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11545",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 5.7,
+      "median_eok": 7.2,
+      "p75_eok": 9.4
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11560",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.7,
+      "median_eok": 12.3,
+      "p75_eok": 15.3
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11590",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 12.3,
+      "median_eok": 14.8,
+      "p75_eok": 17.3
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11620",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 7.6,
+      "median_eok": 10.5,
+      "p75_eok": 11.8
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11650",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 19.8,
+      "median_eok": 23.7,
+      "p75_eok": 35.9
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11680",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 23.2,
+      "median_eok": 26.5,
+      "p75_eok": 36.1
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11710",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 15.5,
+      "median_eok": 20.0,
+      "p75_eok": 30.3
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "region": "11740",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 10.8,
+      "median_eok": 13.2,
+      "p75_eok": 17.2
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11110",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 10.8,
+      "median_eok": 12.0,
+      "p75_eok": 24.3
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11140",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 12.4,
+      "median_eok": 16.5,
+      "p75_eok": 17.6
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11170",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 17.5,
+      "median_eok": 20.3,
+      "p75_eok": 24.7
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11200",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 15.3,
+      "median_eok": 18.5,
+      "p75_eok": 22.4
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11215",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 15.0,
+      "median_eok": 18.5,
+      "p75_eok": 21.0
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11230",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.0,
+      "median_eok": 11.0,
+      "p75_eok": 14.0
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11260",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.8,
+      "median_eok": 7.5,
+      "p75_eok": 8.5
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11290",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.6,
+      "median_eok": 10.0,
+      "p75_eok": 11.5
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11305",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 6.6,
+      "median_eok": 7.7,
+      "p75_eok": 9.3
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11320",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 5.4,
+      "median_eok": 6.2,
+      "p75_eok": 8.5
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11350",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.0,
+      "median_eok": 8.6,
+      "p75_eok": 10.1
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11380",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.8,
+      "median_eok": 9.2,
+      "p75_eok": 11.8
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11410",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.9,
+      "median_eok": 11.1,
+      "p75_eok": 14.8
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11440",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 12.3,
+      "median_eok": 15.9,
+      "p75_eok": 21.2
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11470",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.1,
+      "median_eok": 12.2,
+      "p75_eok": 14.8
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11500",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.5,
+      "median_eok": 10.5,
+      "p75_eok": 12.8
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11530",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.8,
+      "median_eok": 7.7,
+      "p75_eok": 9.3
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11545",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 5.7,
+      "median_eok": 7.3,
+      "p75_eok": 9.8
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11560",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.9,
+      "median_eok": 13.3,
+      "p75_eok": 16.0
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11590",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 13.4,
+      "median_eok": 15.8,
+      "p75_eok": 18.4
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11620",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.4,
+      "median_eok": 10.4,
+      "p75_eok": 12.3
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11650",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 22.3,
+      "median_eok": 32.5,
+      "p75_eok": 47.0
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11680",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 24.9,
+      "median_eok": 32.0,
+      "p75_eok": 36.0
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11710",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 17.4,
+      "median_eok": 26.9,
+      "p75_eok": 30.8
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "region": "11740",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 12.3,
+      "median_eok": 16.1,
+      "p75_eok": 19.3
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11110",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 11.0,
+      "median_eok": 12.8,
+      "p75_eok": 15.4
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11140",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 11.9,
+      "median_eok": 14.8,
+      "p75_eok": 17.0
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11170",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 16.2,
+      "median_eok": 18.8,
+      "p75_eok": 23.8
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11200",
+      "status": "supported",
+      "count_band": "500~999",
+      "p25_eok": 13.9,
+      "median_eok": 17.0,
+      "p75_eok": 20.5
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11215",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 15.3,
+      "median_eok": 17.9,
+      "p75_eok": 20.5
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11230",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 8.6,
+      "median_eok": 10.5,
+      "p75_eok": 14.7
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11260",
+      "status": "supported",
+      "count_band": "500~999",
+      "p25_eok": 6.7,
+      "median_eok": 7.4,
+      "p75_eok": 8.5
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11290",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 8.3,
+      "median_eok": 9.6,
+      "p75_eok": 11.3
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11305",
+      "status": "supported",
+      "count_band": null,
+      "p25_eok": 6.7,
+      "median_eok": 7.4,
+      "p75_eok": 8.8
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11320",
+      "status": "supported",
+      "count_band": "500~999",
+      "p25_eok": 5.5,
+      "median_eok": 6.2,
+      "p75_eok": 8.2
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11350",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 6.9,
+      "median_eok": 8.5,
+      "p75_eok": 9.8
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11380",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 7.8,
+      "median_eok": 9.4,
+      "p75_eok": 12.0
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11410",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 9.0,
+      "median_eok": 12.0,
+      "p75_eok": 14.0
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11440",
+      "status": "supported",
+      "count_band": "500~999",
+      "p25_eok": 12.0,
+      "median_eok": 14.7,
+      "p75_eok": 20.3
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11470",
+      "status": "supported",
+      "count_band": "500~999",
+      "p25_eok": 8.5,
+      "median_eok": 11.8,
+      "p75_eok": 14.5
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11500",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 8.9,
+      "median_eok": 10.6,
+      "p75_eok": 13.3
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11530",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 6.9,
+      "median_eok": 8.0,
+      "p75_eok": 9.5
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11545",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 5.7,
+      "median_eok": 7.2,
+      "p75_eok": 10.0
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11560",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 9.9,
+      "median_eok": 12.7,
+      "p75_eok": 15.5
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11590",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 12.2,
+      "median_eok": 14.8,
+      "p75_eok": 17.2
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11620",
+      "status": "supported",
+      "count_band": "500~999",
+      "p25_eok": 7.8,
+      "median_eok": 9.8,
+      "p75_eok": 11.7
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11650",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 19.0,
+      "median_eok": 28.1,
+      "p75_eok": 39.7
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11680",
+      "status": "supported",
+      "count_band": "500~999",
+      "p25_eok": 20.7,
+      "median_eok": 29.0,
+      "p75_eok": 35.3
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11710",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 14.8,
+      "median_eok": 19.8,
+      "p75_eok": 29.5
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "region": "11740",
+      "status": "supported",
+      "count_band": "1000 이상",
+      "p25_eok": 10.8,
+      "median_eok": 14.7,
+      "p75_eok": 17.9
+    }
+  ],
+  "neighborhoods": [
+    {
+      "region": "11110",
+      "dong": "10200",
+      "label": "신교동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11110",
+      "dong": "13300",
+      "label": "익선동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11110",
+      "dong": "15700",
+      "label": "인의동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11110",
+      "dong": "16700",
+      "label": "충신동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11110",
+      "dong": "17000",
+      "label": "명륜1가",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11110",
+      "dong": "17100",
+      "label": "명륜2가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11110",
+      "dong": "17400",
+      "label": "창신동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11110",
+      "dong": "17500",
+      "label": "숭인동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11110",
+      "dong": "17700",
+      "label": "평동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11110",
+      "dong": "17900",
+      "label": "홍파동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11110",
+      "dong": "18000",
+      "label": "교북동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11110",
+      "dong": "18300",
+      "label": "평창동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11110",
+      "dong": "18700",
+      "label": "무악동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 13.4,
+      "median_eok": 14.2,
+      "p75_eok": 15.4
+    },
+    {
+      "region": "11140",
+      "dong": "13200",
+      "label": "충무로4가",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11140",
+      "dong": "16200",
+      "label": "신당동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 13.5,
+      "median_eok": 15.5,
+      "p75_eok": 17.0
+    },
+    {
+      "region": "11140",
+      "dong": "16300",
+      "label": "흥인동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11140",
+      "dong": "16500",
+      "label": "황학동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 11.2,
+      "median_eok": 11.5,
+      "p75_eok": 11.9
+    },
+    {
+      "region": "11140",
+      "dong": "16800",
+      "label": "순화동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11140",
+      "dong": "17100",
+      "label": "중림동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11140",
+      "dong": "17300",
+      "label": "만리동1가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11140",
+      "dong": "17400",
+      "label": "만리동2가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11170",
+      "dong": "10200",
+      "label": "동 정보 확인 유보",
+      "status": "conflicting_names",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11170",
+      "dong": "10900",
+      "label": "청파동1가",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11170",
+      "dong": "11200",
+      "label": "원효로1가",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11170",
+      "dong": "11400",
+      "label": "신창동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11170",
+      "dong": "11500",
+      "label": "산천동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11170",
+      "dong": "11800",
+      "label": "원효로4가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11170",
+      "dong": "11900",
+      "label": "효창동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11170",
+      "dong": "12000",
+      "label": "도원동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11170",
+      "dong": "12100",
+      "label": "용문동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11170",
+      "dong": "12200",
+      "label": "문배동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 13.2,
+      "median_eok": 14.8,
+      "p75_eok": 16.1
+    },
+    {
+      "region": "11170",
+      "dong": "12300",
+      "label": "신계동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11170",
+      "dong": "12500",
+      "label": "한강로2가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11170",
+      "dong": "12800",
+      "label": "한강로3가",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11170",
+      "dong": "12900",
+      "label": "이촌동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 23.0,
+      "median_eok": 26.8,
+      "p75_eok": 28.5
+    },
+    {
+      "region": "11170",
+      "dong": "13000",
+      "label": "이태원동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11170",
+      "dong": "13100",
+      "label": "한남동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11170",
+      "dong": "13300",
+      "label": "서빙고동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11170",
+      "dong": "13600",
+      "label": "보광동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11200",
+      "dong": "10100",
+      "label": "상왕십리동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11200",
+      "dong": "10200",
+      "label": "하왕십리동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 12.9,
+      "median_eok": 15.8,
+      "p75_eok": 20.5
+    },
+    {
+      "region": "11200",
+      "dong": "10300",
+      "label": "홍익동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11200",
+      "dong": "10400",
+      "label": "도선동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11200",
+      "dong": "10500",
+      "label": "마장동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 11.0,
+      "median_eok": 13.4,
+      "p75_eok": 14.5
+    },
+    {
+      "region": "11200",
+      "dong": "10600",
+      "label": "사근동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11200",
+      "dong": "10700",
+      "label": "행당동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 16.4,
+      "median_eok": 17.8,
+      "p75_eok": 19.5
+    },
+    {
+      "region": "11200",
+      "dong": "10800",
+      "label": "응봉동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 12.4,
+      "median_eok": 16.3,
+      "p75_eok": 18.0
+    },
+    {
+      "region": "11200",
+      "dong": "10900",
+      "label": "금호동1가",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 15.0,
+      "median_eok": 17.0,
+      "p75_eok": 20.8
+    },
+    {
+      "region": "11200",
+      "dong": "11000",
+      "label": "금호동2가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11200",
+      "dong": "11100",
+      "label": "금호동3가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11200",
+      "dong": "11200",
+      "label": "금호동4가",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 16.0,
+      "median_eok": 18.3,
+      "p75_eok": 20.1
+    },
+    {
+      "region": "11200",
+      "dong": "11300",
+      "label": "옥수동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 18.9,
+      "median_eok": 23.0,
+      "p75_eok": 25.1
+    },
+    {
+      "region": "11200",
+      "dong": "11400",
+      "label": "성수동1가",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 15.4,
+      "median_eok": 18.5,
+      "p75_eok": 21.0
+    },
+    {
+      "region": "11200",
+      "dong": "11500",
+      "label": "성수동2가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11200",
+      "dong": "11800",
+      "label": "송정동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11200",
+      "dong": "12200",
+      "label": "용답동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11215",
+      "dong": "10100",
+      "label": "중곡동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11215",
+      "dong": "10300",
+      "label": "구의동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 16.8,
+      "median_eok": 19.0,
+      "p75_eok": 20.8
+    },
+    {
+      "region": "11215",
+      "dong": "10400",
+      "label": "광장동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 18.0,
+      "median_eok": 19.6,
+      "p75_eok": 22.1
+    },
+    {
+      "region": "11215",
+      "dong": "10500",
+      "label": "자양동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 13.4,
+      "median_eok": 16.0,
+      "p75_eok": 17.9
+    },
+    {
+      "region": "11215",
+      "dong": "10700",
+      "label": "화양동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11215",
+      "dong": "10900",
+      "label": "군자동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11230",
+      "dong": "10200",
+      "label": "용두동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 12.4,
+      "median_eok": 15.0,
+      "p75_eok": 16.3
+    },
+    {
+      "region": "11230",
+      "dong": "10300",
+      "label": "제기동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 9.0,
+      "median_eok": 9.5,
+      "p75_eok": 10.6
+    },
+    {
+      "region": "11230",
+      "dong": "10400",
+      "label": "전농동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 11.2,
+      "median_eok": 15.8,
+      "p75_eok": 17.5
+    },
+    {
+      "region": "11230",
+      "dong": "10500",
+      "label": "답십리동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.9,
+      "median_eok": 11.9,
+      "p75_eok": 15.0
+    },
+    {
+      "region": "11230",
+      "dong": "10600",
+      "label": "장안동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.5,
+      "median_eok": 10.2,
+      "p75_eok": 11.5
+    },
+    {
+      "region": "11230",
+      "dong": "10700",
+      "label": "청량리동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11230",
+      "dong": "10800",
+      "label": "회기동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11230",
+      "dong": "10900",
+      "label": "휘경동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 7.6,
+      "median_eok": 8.4,
+      "p75_eok": 9.5
+    },
+    {
+      "region": "11230",
+      "dong": "11000",
+      "label": "이문동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 8.2,
+      "median_eok": 8.7,
+      "p75_eok": 9.6
+    },
+    {
+      "region": "11260",
+      "dong": "10100",
+      "label": "면목동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.0,
+      "median_eok": 7.7,
+      "p75_eok": 10.7
+    },
+    {
+      "region": "11260",
+      "dong": "10200",
+      "label": "상봉동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 7.3,
+      "median_eok": 7.8,
+      "p75_eok": 8.5
+    },
+    {
+      "region": "11260",
+      "dong": "10300",
+      "label": "중화동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 6.7,
+      "median_eok": 7.9,
+      "p75_eok": 8.5
+    },
+    {
+      "region": "11260",
+      "dong": "10400",
+      "label": "묵동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 6.8,
+      "median_eok": 7.7,
+      "p75_eok": 9.0
+    },
+    {
+      "region": "11260",
+      "dong": "10500",
+      "label": "망우동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 6.4,
+      "median_eok": 7.2,
+      "p75_eok": 8.4
+    },
+    {
+      "region": "11260",
+      "dong": "10600",
+      "label": "신내동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.3,
+      "median_eok": 6.8,
+      "p75_eok": 7.6
+    },
+    {
+      "region": "11290",
+      "dong": "10300",
+      "label": "돈암동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.0,
+      "median_eok": 9.0,
+      "p75_eok": 9.8
+    },
+    {
+      "region": "11290",
+      "dong": "10700",
+      "label": "동소문동4가",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11290",
+      "dong": "10800",
+      "label": "동소문동5가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11290",
+      "dong": "11000",
+      "label": "동소문동7가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11290",
+      "dong": "11200",
+      "label": "삼선동2가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11290",
+      "dong": "11300",
+      "label": "삼선동3가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11290",
+      "dong": "11400",
+      "label": "삼선동4가",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11290",
+      "dong": "11600",
+      "label": "동선동1가",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11290",
+      "dong": "12100",
+      "label": "안암동1가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11290",
+      "dong": "12600",
+      "label": "보문동4가",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11290",
+      "dong": "12800",
+      "label": "보문동6가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11290",
+      "dong": "13000",
+      "label": "보문동1가",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11290",
+      "dong": "13200",
+      "label": "보문동3가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11290",
+      "dong": "13300",
+      "label": "정릉동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.8,
+      "median_eok": 7.3,
+      "p75_eok": 8.1
+    },
+    {
+      "region": "11290",
+      "dong": "13400",
+      "label": "길음동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 10.2,
+      "median_eok": 11.6,
+      "p75_eok": 13.6
+    },
+    {
+      "region": "11290",
+      "dong": "13500",
+      "label": "종암동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 9.4,
+      "median_eok": 10.3,
+      "p75_eok": 11.1
+    },
+    {
+      "region": "11290",
+      "dong": "13600",
+      "label": "하월곡동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 8.3,
+      "median_eok": 8.9,
+      "p75_eok": 9.8
+    },
+    {
+      "region": "11290",
+      "dong": "13700",
+      "label": "상월곡동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11290",
+      "dong": "13800",
+      "label": "장위동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 10.6,
+      "median_eok": 11.4,
+      "p75_eok": 12.6
+    },
+    {
+      "region": "11290",
+      "dong": "13900",
+      "label": "석관동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 8.5,
+      "median_eok": 9.5,
+      "p75_eok": 10.4
+    },
+    {
+      "region": "11305",
+      "dong": "10100",
+      "label": "미아동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.1,
+      "median_eok": 7.8,
+      "p75_eok": 9.2
+    },
+    {
+      "region": "11305",
+      "dong": "10200",
+      "label": "번동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 5.6,
+      "median_eok": 6.0,
+      "p75_eok": 6.6
+    },
+    {
+      "region": "11305",
+      "dong": "10300",
+      "label": "수유동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 5.7,
+      "median_eok": 6.5,
+      "p75_eok": 6.9
+    },
+    {
+      "region": "11305",
+      "dong": "10400",
+      "label": "우이동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11305",
+      "dong": "10800",
+      "label": "도봉동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11320",
+      "dong": "10500",
+      "label": "쌍문동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 5.1,
+      "median_eok": 5.4,
+      "p75_eok": 5.8
+    },
+    {
+      "region": "11320",
+      "dong": "10600",
+      "label": "방학동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 5.0,
+      "median_eok": 5.4,
+      "p75_eok": 7.0
+    },
+    {
+      "region": "11320",
+      "dong": "10700",
+      "label": "창동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.9,
+      "median_eok": 8.6,
+      "p75_eok": 9.4
+    },
+    {
+      "region": "11320",
+      "dong": "10800",
+      "label": "도봉동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 5.5,
+      "median_eok": 5.9,
+      "p75_eok": 6.1
+    },
+    {
+      "region": "11350",
+      "dong": "10200",
+      "label": "월계동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.3,
+      "median_eok": 9.3,
+      "p75_eok": 10.5
+    },
+    {
+      "region": "11350",
+      "dong": "10300",
+      "label": "공릉동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.0,
+      "median_eok": 7.9,
+      "p75_eok": 8.5
+    },
+    {
+      "region": "11350",
+      "dong": "10400",
+      "label": "하계동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 8.5,
+      "median_eok": 8.9,
+      "p75_eok": 9.4
+    },
+    {
+      "region": "11350",
+      "dong": "10500",
+      "label": "상계동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.0,
+      "median_eok": 6.9,
+      "p75_eok": 8.6
+    },
+    {
+      "region": "11350",
+      "dong": "10600",
+      "label": "중계동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.4,
+      "median_eok": 8.7,
+      "p75_eok": 11.3
+    },
+    {
+      "region": "11380",
+      "dong": "10100",
+      "label": "수색동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 11.7,
+      "median_eok": 12.9,
+      "p75_eok": 14.2
+    },
+    {
+      "region": "11380",
+      "dong": "10200",
+      "label": "녹번동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 10.3,
+      "median_eok": 11.8,
+      "p75_eok": 12.7
+    },
+    {
+      "region": "11380",
+      "dong": "10300",
+      "label": "불광동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 8.7,
+      "median_eok": 9.5,
+      "p75_eok": 10.7
+    },
+    {
+      "region": "11380",
+      "dong": "10400",
+      "label": "갈현동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11380",
+      "dong": "10500",
+      "label": "구산동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 5.3,
+      "median_eok": 6.1,
+      "p75_eok": 6.5
+    },
+    {
+      "region": "11380",
+      "dong": "10600",
+      "label": "대조동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11380",
+      "dong": "10700",
+      "label": "응암동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.5,
+      "median_eok": 9.4,
+      "p75_eok": 11.5
+    },
+    {
+      "region": "11380",
+      "dong": "10800",
+      "label": "역촌동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11380",
+      "dong": "10900",
+      "label": "신사동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 5.6,
+      "median_eok": 6.0,
+      "p75_eok": 6.5
+    },
+    {
+      "region": "11380",
+      "dong": "11000",
+      "label": "증산동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 10.7,
+      "median_eok": 16.4,
+      "p75_eok": 17.0
+    },
+    {
+      "region": "11380",
+      "dong": "11400",
+      "label": "진관동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 8.4,
+      "median_eok": 9.0,
+      "p75_eok": 10.1
+    },
+    {
+      "region": "11410",
+      "dong": "10100",
+      "label": "충정로2가",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11410",
+      "dong": "10200",
+      "label": "충정로3가",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11410",
+      "dong": "10300",
+      "label": "합동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11410",
+      "dong": "10500",
+      "label": "동 정보 확인 유보",
+      "status": "conflicting_names",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11410",
+      "dong": "10600",
+      "label": "천연동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11410",
+      "dong": "10800",
+      "label": "영천동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11410",
+      "dong": "10900",
+      "label": "현저동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11410",
+      "dong": "11000",
+      "label": "북아현동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 18.6,
+      "median_eok": 19.8,
+      "p75_eok": 21.0
+    },
+    {
+      "region": "11410",
+      "dong": "11100",
+      "label": "홍제동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.4,
+      "median_eok": 9.6,
+      "p75_eok": 12.5
+    },
+    {
+      "region": "11410",
+      "dong": "11200",
+      "label": "대현동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11410",
+      "dong": "11600",
+      "label": "창천동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11410",
+      "dong": "11700",
+      "label": "연희동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 8.8,
+      "median_eok": 9.7,
+      "p75_eok": 11.4
+    },
+    {
+      "region": "11410",
+      "dong": "11800",
+      "label": "홍은동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 6.5,
+      "median_eok": 7.5,
+      "p75_eok": 9.4
+    },
+    {
+      "region": "11410",
+      "dong": "11900",
+      "label": "북가좌동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 8.6,
+      "median_eok": 10.2,
+      "p75_eok": 13.5
+    },
+    {
+      "region": "11410",
+      "dong": "12000",
+      "label": "남가좌동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 12.8,
+      "median_eok": 13.8,
+      "p75_eok": 14.7
+    },
+    {
+      "region": "11440",
+      "dong": "10100",
+      "label": "아현동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 22.0,
+      "median_eok": 24.0,
+      "p75_eok": 25.0
+    },
+    {
+      "region": "11440",
+      "dong": "10200",
+      "label": "공덕동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 16.2,
+      "median_eok": 19.4,
+      "p75_eok": 21.0
+    },
+    {
+      "region": "11440",
+      "dong": "10300",
+      "label": "신공덕동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11440",
+      "dong": "10400",
+      "label": "도화동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 12.3,
+      "median_eok": 14.0,
+      "p75_eok": 16.9
+    },
+    {
+      "region": "11440",
+      "dong": "10500",
+      "label": "용강동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11440",
+      "dong": "10600",
+      "label": "토정동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11440",
+      "dong": "10700",
+      "label": "마포동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11440",
+      "dong": "10800",
+      "label": "대흥동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11440",
+      "dong": "10900",
+      "label": "염리동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 21.6,
+      "median_eok": 24.1,
+      "p75_eok": 27.3
+    },
+    {
+      "region": "11440",
+      "dong": "11100",
+      "label": "신수동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 13.2,
+      "median_eok": 14.8,
+      "p75_eok": 16.9
+    },
+    {
+      "region": "11440",
+      "dong": "11200",
+      "label": "현석동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11440",
+      "dong": "11400",
+      "label": "창전동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 12.8,
+      "median_eok": 14.0,
+      "p75_eok": 16.3
+    },
+    {
+      "region": "11440",
+      "dong": "11500",
+      "label": "상수동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11440",
+      "dong": "11600",
+      "label": "하중동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11440",
+      "dong": "11700",
+      "label": "신정동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11440",
+      "dong": "12000",
+      "label": "서교동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11440",
+      "dong": "12200",
+      "label": "합정동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11440",
+      "dong": "12300",
+      "label": "망원동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 8.5,
+      "median_eok": 9.6,
+      "p75_eok": 12.7
+    },
+    {
+      "region": "11440",
+      "dong": "12400",
+      "label": "연남동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11440",
+      "dong": "12500",
+      "label": "성산동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 9.0,
+      "median_eok": 10.7,
+      "p75_eok": 11.5
+    },
+    {
+      "region": "11440",
+      "dong": "12600",
+      "label": "중동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 9.7,
+      "median_eok": 10.6,
+      "p75_eok": 12.0
+    },
+    {
+      "region": "11440",
+      "dong": "12700",
+      "label": "상암동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 10.8,
+      "median_eok": 12.3,
+      "p75_eok": 13.8
+    },
+    {
+      "region": "11470",
+      "dong": "10100",
+      "label": "신정동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.4,
+      "median_eok": 11.9,
+      "p75_eok": 15.8
+    },
+    {
+      "region": "11470",
+      "dong": "10200",
+      "label": "목동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 11.1,
+      "median_eok": 14.0,
+      "p75_eok": 17.1
+    },
+    {
+      "region": "11470",
+      "dong": "10300",
+      "label": "신월동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.7,
+      "median_eok": 8.8,
+      "p75_eok": 12.0
+    },
+    {
+      "region": "11500",
+      "dong": "10100",
+      "label": "염창동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.3,
+      "median_eok": 10.5,
+      "p75_eok": 11.6
+    },
+    {
+      "region": "11500",
+      "dong": "10200",
+      "label": "등촌동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 8.5,
+      "median_eok": 9.1,
+      "p75_eok": 10.5
+    },
+    {
+      "region": "11500",
+      "dong": "10300",
+      "label": "화곡동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 8.5,
+      "median_eok": 12.3,
+      "p75_eok": 14.2
+    },
+    {
+      "region": "11500",
+      "dong": "10400",
+      "label": "가양동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 10.1,
+      "median_eok": 11.4,
+      "p75_eok": 12.7
+    },
+    {
+      "region": "11500",
+      "dong": "10500",
+      "label": "마곡동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 9.6,
+      "median_eok": 14.3,
+      "p75_eok": 16.1
+    },
+    {
+      "region": "11500",
+      "dong": "10600",
+      "label": "내발산동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 8.3,
+      "median_eok": 11.3,
+      "p75_eok": 12.9
+    },
+    {
+      "region": "11500",
+      "dong": "10800",
+      "label": "공항동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11500",
+      "dong": "10900",
+      "label": "방화동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 7.1,
+      "median_eok": 7.7,
+      "p75_eok": 8.1
+    },
+    {
+      "region": "11530",
+      "dong": "10100",
+      "label": "신도림동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 10.8,
+      "median_eok": 12.7,
+      "p75_eok": 14.2
+    },
+    {
+      "region": "11530",
+      "dong": "10200",
+      "label": "구로동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.9,
+      "median_eok": 7.7,
+      "p75_eok": 9.5
+    },
+    {
+      "region": "11530",
+      "dong": "10300",
+      "label": "가리봉동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11530",
+      "dong": "10600",
+      "label": "고척동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.6,
+      "median_eok": 8.1,
+      "p75_eok": 9.3
+    },
+    {
+      "region": "11530",
+      "dong": "10700",
+      "label": "개봉동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.6,
+      "median_eok": 8.1,
+      "p75_eok": 9.0
+    },
+    {
+      "region": "11530",
+      "dong": "10800",
+      "label": "오류동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 5.9,
+      "median_eok": 6.6,
+      "p75_eok": 7.5
+    },
+    {
+      "region": "11530",
+      "dong": "11000",
+      "label": "온수동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11530",
+      "dong": "11100",
+      "label": "천왕동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 7.4,
+      "median_eok": 7.7,
+      "p75_eok": 8.1
+    },
+    {
+      "region": "11530",
+      "dong": "11200",
+      "label": "항동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 7.0,
+      "median_eok": 8.0,
+      "p75_eok": 8.4
+    },
+    {
+      "region": "11545",
+      "dong": "10100",
+      "label": "가산동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11545",
+      "dong": "10200",
+      "label": "독산동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 6.9,
+      "median_eok": 9.9,
+      "p75_eok": 11.8
+    },
+    {
+      "region": "11545",
+      "dong": "10300",
+      "label": "시흥동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 5.4,
+      "median_eok": 5.8,
+      "p75_eok": 7.5
+    },
+    {
+      "region": "11560",
+      "dong": "10100",
+      "label": "영등포동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "10200",
+      "label": "영등포동1가",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "10600",
+      "label": "영등포동5가",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "10800",
+      "label": "영등포동7가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "10900",
+      "label": "영등포동8가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "11000",
+      "label": "여의도동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "11100",
+      "label": "당산동1가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "11200",
+      "label": "당산동2가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "11300",
+      "label": "당산동3가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "11400",
+      "label": "당산동4가",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 13.8,
+      "median_eok": 14.9,
+      "p75_eok": 17.0
+    },
+    {
+      "region": "11560",
+      "dong": "11500",
+      "label": "당산동5가",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 17.4,
+      "median_eok": 19.3,
+      "p75_eok": 21.2
+    },
+    {
+      "region": "11560",
+      "dong": "11700",
+      "label": "당산동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "11800",
+      "label": "도림동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "12100",
+      "label": "문래동3가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "12200",
+      "label": "문래동4가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "12300",
+      "label": "문래동5가",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 8.2,
+      "median_eok": 8.9,
+      "p75_eok": 11.0
+    },
+    {
+      "region": "11560",
+      "dong": "12400",
+      "label": "문래동6가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "12500",
+      "label": "양평동1가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "12600",
+      "label": "양평동2가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "12700",
+      "label": "양평동3가",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 10.7,
+      "median_eok": 11.6,
+      "p75_eok": 13.5
+    },
+    {
+      "region": "11560",
+      "dong": "12800",
+      "label": "양평동4가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "12900",
+      "label": "양평동5가",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "13000",
+      "label": "양평동6가",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11560",
+      "dong": "13200",
+      "label": "신길동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 10.8,
+      "median_eok": 13.4,
+      "p75_eok": 17.3
+    },
+    {
+      "region": "11560",
+      "dong": "13300",
+      "label": "대림동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.9,
+      "median_eok": 8.7,
+      "p75_eok": 11.0
+    },
+    {
+      "region": "11590",
+      "dong": "10100",
+      "label": "동 정보 확인 유보",
+      "status": "conflicting_names",
+      "count_band": "40~99",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11590",
+      "dong": "10200",
+      "label": "상도동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 12.5,
+      "median_eok": 15.5,
+      "p75_eok": 17.8
+    },
+    {
+      "region": "11590",
+      "dong": "10400",
+      "label": "본동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 12.8,
+      "median_eok": 14.7,
+      "p75_eok": 15.3
+    },
+    {
+      "region": "11590",
+      "dong": "10500",
+      "label": "흑석동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 20.0,
+      "median_eok": 22.4,
+      "p75_eok": 23.7
+    },
+    {
+      "region": "11590",
+      "dong": "10600",
+      "label": "동작동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11590",
+      "dong": "10700",
+      "label": "사당동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 11.9,
+      "median_eok": 15.0,
+      "p75_eok": 16.9
+    },
+    {
+      "region": "11590",
+      "dong": "10800",
+      "label": "대방동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 13.0,
+      "median_eok": 14.2,
+      "p75_eok": 15.4
+    },
+    {
+      "region": "11590",
+      "dong": "10900",
+      "label": "신대방동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 10.5,
+      "median_eok": 12.0,
+      "p75_eok": 13.1
+    },
+    {
+      "region": "11620",
+      "dong": "10100",
+      "label": "봉천동",
+      "status": "supported",
+      "count_band": "500~999",
+      "p25_eok": 9.5,
+      "median_eok": 10.7,
+      "p75_eok": 12.2
+    },
+    {
+      "region": "11620",
+      "dong": "10200",
+      "label": "신림동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 6.4,
+      "median_eok": 7.1,
+      "p75_eok": 7.7
+    },
+    {
+      "region": "11620",
+      "dong": "10300",
+      "label": "남현동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11650",
+      "dong": "10100",
+      "label": "방배동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 16.5,
+      "median_eok": 21.8,
+      "p75_eok": 27.0
+    },
+    {
+      "region": "11650",
+      "dong": "10200",
+      "label": "양재동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11650",
+      "dong": "10300",
+      "label": "우면동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11650",
+      "dong": "10600",
+      "label": "잠원동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 29.5,
+      "median_eok": 34.0,
+      "p75_eok": 43.0
+    },
+    {
+      "region": "11650",
+      "dong": "10700",
+      "label": "반포동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 39.9,
+      "median_eok": 48.9,
+      "p75_eok": 55.3
+    },
+    {
+      "region": "11650",
+      "dong": "10800",
+      "label": "서초동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 17.0,
+      "median_eok": 21.9,
+      "p75_eok": 30.5
+    },
+    {
+      "region": "11650",
+      "dong": "10900",
+      "label": "내곡동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11650",
+      "dong": "11100",
+      "label": "신원동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11680",
+      "dong": "10100",
+      "label": "역삼동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11680",
+      "dong": "10300",
+      "label": "개포동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 33.1,
+      "median_eok": 35.5,
+      "p75_eok": 37.9
+    },
+    {
+      "region": "11680",
+      "dong": "10400",
+      "label": "청담동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 22.9,
+      "median_eok": 25.5,
+      "p75_eok": 30.2
+    },
+    {
+      "region": "11680",
+      "dong": "10500",
+      "label": "삼성동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 26.4,
+      "median_eok": 32.0,
+      "p75_eok": 34.4
+    },
+    {
+      "region": "11680",
+      "dong": "10600",
+      "label": "대치동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 32.0,
+      "median_eok": 37.3,
+      "p75_eok": 40.0
+    },
+    {
+      "region": "11680",
+      "dong": "10700",
+      "label": "신사동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11680",
+      "dong": "10800",
+      "label": "논현동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 19.6,
+      "median_eok": 22.5,
+      "p75_eok": 26.4
+    },
+    {
+      "region": "11680",
+      "dong": "11000",
+      "label": "압구정동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11680",
+      "dong": "11100",
+      "label": "세곡동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11680",
+      "dong": "11200",
+      "label": "자곡동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11680",
+      "dong": "11300",
+      "label": "율현동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11680",
+      "dong": "11400",
+      "label": "일원동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 25.1,
+      "median_eok": 29.0,
+      "p75_eok": 32.4
+    },
+    {
+      "region": "11680",
+      "dong": "11500",
+      "label": "수서동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11680",
+      "dong": "11800",
+      "label": "도곡동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 23.6,
+      "median_eok": 27.0,
+      "p75_eok": 35.4
+    },
+    {
+      "region": "11710",
+      "dong": "10100",
+      "label": "잠실동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 31.5,
+      "median_eok": 33.0,
+      "p75_eok": 34.8
+    },
+    {
+      "region": "11710",
+      "dong": "10200",
+      "label": "신천동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 28.5,
+      "median_eok": 29.5,
+      "p75_eok": 30.6
+    },
+    {
+      "region": "11710",
+      "dong": "10300",
+      "label": "풍납동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 11.7,
+      "median_eok": 13.7,
+      "p75_eok": 15.1
+    },
+    {
+      "region": "11710",
+      "dong": "10400",
+      "label": "송파동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 14.7,
+      "median_eok": 21.5,
+      "p75_eok": 22.2
+    },
+    {
+      "region": "11710",
+      "dong": "10500",
+      "label": "석촌동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11710",
+      "dong": "10600",
+      "label": "삼전동",
+      "status": "insufficient",
+      "count_band": null,
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11710",
+      "dong": "10700",
+      "label": "가락동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 15.2,
+      "median_eok": 19.7,
+      "p75_eok": 27.8
+    },
+    {
+      "region": "11710",
+      "dong": "10800",
+      "label": "문정동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 15.1,
+      "median_eok": 18.4,
+      "p75_eok": 24.4
+    },
+    {
+      "region": "11710",
+      "dong": "10900",
+      "label": "장지동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 15.5,
+      "median_eok": 17.2,
+      "p75_eok": 18.2
+    },
+    {
+      "region": "11710",
+      "dong": "11100",
+      "label": "방이동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 17.6,
+      "median_eok": 21.0,
+      "p75_eok": 28.0
+    },
+    {
+      "region": "11710",
+      "dong": "11200",
+      "label": "오금동",
+      "status": "supported",
+      "count_band": "40~99",
+      "p25_eok": 12.5,
+      "median_eok": 15.0,
+      "p75_eok": 17.1
+    },
+    {
+      "region": "11710",
+      "dong": "11300",
+      "label": "거여동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 10.9,
+      "median_eok": 12.6,
+      "p75_eok": 17.8
+    },
+    {
+      "region": "11710",
+      "dong": "11400",
+      "label": "마천동",
+      "status": "insufficient",
+      "count_band": "10~39",
+      "p25_eok": null,
+      "median_eok": null,
+      "p75_eok": null
+    },
+    {
+      "region": "11740",
+      "dong": "10100",
+      "label": "명일동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 10.8,
+      "median_eok": 15.6,
+      "p75_eok": 17.9
+    },
+    {
+      "region": "11740",
+      "dong": "10200",
+      "label": "고덕동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 16.3,
+      "median_eok": 19.5,
+      "p75_eok": 21.6
+    },
+    {
+      "region": "11740",
+      "dong": "10300",
+      "label": "상일동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 15.9,
+      "median_eok": 17.8,
+      "p75_eok": 19.3
+    },
+    {
+      "region": "11740",
+      "dong": "10500",
+      "label": "길동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 7.2,
+      "median_eok": 8.4,
+      "p75_eok": 11.0
+    },
+    {
+      "region": "11740",
+      "dong": "10600",
+      "label": "둔촌동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 11.7,
+      "median_eok": 14.3,
+      "p75_eok": 23.5
+    },
+    {
+      "region": "11740",
+      "dong": "10700",
+      "label": "암사동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 12.4,
+      "median_eok": 15.6,
+      "p75_eok": 17.0
+    },
+    {
+      "region": "11740",
+      "dong": "10800",
+      "label": "성내동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 8.3,
+      "median_eok": 10.4,
+      "p75_eok": 12.6
+    },
+    {
+      "region": "11740",
+      "dong": "10900",
+      "label": "천호동",
+      "status": "supported",
+      "count_band": "200~499",
+      "p25_eok": 7.6,
+      "median_eok": 10.0,
+      "p75_eok": 13.4
+    },
+    {
+      "region": "11740",
+      "dong": "11000",
+      "label": "강일동",
+      "status": "supported",
+      "count_band": "100~199",
+      "p25_eok": 11.0,
+      "median_eok": 12.0,
+      "p75_eok": 13.0
+    }
+  ],
+  "between": [
+    {
+      "area": "p25_26",
+      "period": "2025Q3",
+      "supported_districts": 24,
+      "minimum_eok": 5.9,
+      "maximum_eok": 26.4,
+      "gap_eok": 20.5,
+      "ratio": 4.5,
+      "low_regions": [
+        "11320"
+      ],
+      "high_regions": [
+        "11680"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "period": "2025Q4",
+      "supported_districts": 25,
+      "minimum_eok": 6.0,
+      "maximum_eok": 25.0,
+      "gap_eok": 19.0,
+      "ratio": 4.2,
+      "low_regions": [
+        "11320"
+      ],
+      "high_regions": [
+        "11680"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q1",
+      "supported_districts": 25,
+      "minimum_eok": 6.3,
+      "maximum_eok": 27.3,
+      "gap_eok": 21.0,
+      "ratio": 4.4,
+      "low_regions": [
+        "11320"
+      ],
+      "high_regions": [
+        "11680"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "period": "2026Q2",
+      "supported_districts": 25,
+      "minimum_eok": 6.1,
+      "maximum_eok": 32.0,
+      "gap_eok": 25.9,
+      "ratio": 5.2,
+      "low_regions": [
+        "11320"
+      ],
+      "high_regions": [
+        "11680"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "period": "four_quarters",
+      "supported_districts": 25,
+      "minimum_eok": 6.1,
+      "maximum_eok": 29.0,
+      "gap_eok": 22.9,
+      "ratio": 4.8,
+      "low_regions": [
+        "11320"
+      ],
+      "high_regions": [
+        "11680"
+      ]
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q3",
+      "supported_districts": 24,
+      "minimum_eok": 6.3,
+      "maximum_eok": 26.0,
+      "gap_eok": 19.7,
+      "ratio": 4.1,
+      "low_regions": [
+        "11320"
+      ],
+      "high_regions": [
+        "11650",
+        "11680"
+      ]
+    },
+    {
+      "area": "exact84",
+      "period": "2025Q4",
+      "supported_districts": 25,
+      "minimum_eok": 6.0,
+      "maximum_eok": 23.8,
+      "gap_eok": 17.8,
+      "ratio": 4.0,
+      "low_regions": [
+        "11320"
+      ],
+      "high_regions": [
+        "11680"
+      ]
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q1",
+      "supported_districts": 25,
+      "minimum_eok": 6.4,
+      "maximum_eok": 26.5,
+      "gap_eok": 20.1,
+      "ratio": 4.2,
+      "low_regions": [
+        "11320"
+      ],
+      "high_regions": [
+        "11680"
+      ]
+    },
+    {
+      "area": "exact84",
+      "period": "2026Q2",
+      "supported_districts": 25,
+      "minimum_eok": 6.2,
+      "maximum_eok": 32.5,
+      "gap_eok": 26.3,
+      "ratio": 5.2,
+      "low_regions": [
+        "11320"
+      ],
+      "high_regions": [
+        "11650"
+      ]
+    },
+    {
+      "area": "exact84",
+      "period": "four_quarters",
+      "supported_districts": 25,
+      "minimum_eok": 6.2,
+      "maximum_eok": 29.0,
+      "gap_eok": 22.8,
+      "ratio": 4.7,
+      "low_regions": [
+        "11320"
+      ],
+      "high_regions": [
+        "11680"
+      ]
+    }
+  ],
+  "within": [
+    {
+      "area": "p25_26",
+      "region": "11110",
+      "observed_dongs": 13,
+      "supported_dongs": 1,
+      "coverage_pct": 39,
+      "status": "insufficient",
+      "minimum_eok": null,
+      "maximum_eok": null,
+      "gap_eok": null,
+      "larger_than_between": null,
+      "low_dongs": [],
+      "high_dongs": []
+    },
+    {
+      "area": "p25_26",
+      "region": "11140",
+      "observed_dongs": 8,
+      "supported_dongs": 2,
+      "coverage_pct": 79,
+      "status": "supported",
+      "minimum_eok": 11.5,
+      "maximum_eok": 15.5,
+      "gap_eok": 4.0,
+      "larger_than_between": false,
+      "low_dongs": [
+        "황학동"
+      ],
+      "high_dongs": [
+        "신당동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11170",
+      "observed_dongs": 18,
+      "supported_dongs": 2,
+      "coverage_pct": 41,
+      "status": "supported",
+      "minimum_eok": 14.8,
+      "maximum_eok": 26.8,
+      "gap_eok": 12.0,
+      "larger_than_between": false,
+      "low_dongs": [
+        "문배동"
+      ],
+      "high_dongs": [
+        "이촌동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11200",
+      "observed_dongs": 17,
+      "supported_dongs": 8,
+      "coverage_pct": 81,
+      "status": "supported",
+      "minimum_eok": 13.4,
+      "maximum_eok": 23.0,
+      "gap_eok": 9.6,
+      "larger_than_between": false,
+      "low_dongs": [
+        "마장동"
+      ],
+      "high_dongs": [
+        "옥수동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11215",
+      "observed_dongs": 6,
+      "supported_dongs": 3,
+      "coverage_pct": 93,
+      "status": "supported",
+      "minimum_eok": 16.0,
+      "maximum_eok": 19.6,
+      "gap_eok": 3.6,
+      "larger_than_between": false,
+      "low_dongs": [
+        "자양동"
+      ],
+      "high_dongs": [
+        "광장동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11230",
+      "observed_dongs": 9,
+      "supported_dongs": 7,
+      "coverage_pct": 95,
+      "status": "supported",
+      "minimum_eok": 8.4,
+      "maximum_eok": 15.8,
+      "gap_eok": 7.4,
+      "larger_than_between": false,
+      "low_dongs": [
+        "휘경동"
+      ],
+      "high_dongs": [
+        "전농동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11260",
+      "observed_dongs": 6,
+      "supported_dongs": 6,
+      "coverage_pct": 100,
+      "status": "supported",
+      "minimum_eok": 6.8,
+      "maximum_eok": 7.9,
+      "gap_eok": 1.1,
+      "larger_than_between": false,
+      "low_dongs": [
+        "신내동"
+      ],
+      "high_dongs": [
+        "중화동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11290",
+      "observed_dongs": 20,
+      "supported_dongs": 7,
+      "coverage_pct": 88,
+      "status": "supported",
+      "minimum_eok": 7.3,
+      "maximum_eok": 11.6,
+      "gap_eok": 4.3,
+      "larger_than_between": false,
+      "low_dongs": [
+        "정릉동"
+      ],
+      "high_dongs": [
+        "길음동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11305",
+      "observed_dongs": 5,
+      "supported_dongs": 3,
+      "coverage_pct": 98,
+      "status": "supported",
+      "minimum_eok": 6.0,
+      "maximum_eok": 7.8,
+      "gap_eok": 1.8,
+      "larger_than_between": false,
+      "low_dongs": [
+        "번동"
+      ],
+      "high_dongs": [
+        "미아동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11320",
+      "observed_dongs": 4,
+      "supported_dongs": 4,
+      "coverage_pct": 100,
+      "status": "supported",
+      "minimum_eok": 5.4,
+      "maximum_eok": 8.6,
+      "gap_eok": 3.2,
+      "larger_than_between": false,
+      "low_dongs": [
+        "방학동"
+      ],
+      "high_dongs": [
+        "창동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11350",
+      "observed_dongs": 5,
+      "supported_dongs": 5,
+      "coverage_pct": 100,
+      "status": "supported",
+      "minimum_eok": 6.9,
+      "maximum_eok": 9.3,
+      "gap_eok": 2.4,
+      "larger_than_between": false,
+      "low_dongs": [
+        "상계동"
+      ],
+      "high_dongs": [
+        "월계동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11380",
+      "observed_dongs": 11,
+      "supported_dongs": 8,
+      "coverage_pct": 97,
+      "status": "supported",
+      "minimum_eok": 6.0,
+      "maximum_eok": 16.4,
+      "gap_eok": 10.4,
+      "larger_than_between": false,
+      "low_dongs": [
+        "신사동"
+      ],
+      "high_dongs": [
+        "증산동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11410",
+      "observed_dongs": 15,
+      "supported_dongs": 6,
+      "coverage_pct": 92,
+      "status": "supported",
+      "minimum_eok": 7.5,
+      "maximum_eok": 19.8,
+      "gap_eok": 12.4,
+      "larger_than_between": false,
+      "low_dongs": [
+        "홍은동"
+      ],
+      "high_dongs": [
+        "북아현동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11440",
+      "observed_dongs": 22,
+      "supported_dongs": 10,
+      "coverage_pct": 79,
+      "status": "supported",
+      "minimum_eok": 9.6,
+      "maximum_eok": 24.1,
+      "gap_eok": 14.5,
+      "larger_than_between": false,
+      "low_dongs": [
+        "망원동"
+      ],
+      "high_dongs": [
+        "염리동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11470",
+      "observed_dongs": 3,
+      "supported_dongs": 3,
+      "coverage_pct": 100,
+      "status": "supported",
+      "minimum_eok": 8.8,
+      "maximum_eok": 14.0,
+      "gap_eok": 5.3,
+      "larger_than_between": false,
+      "low_dongs": [
+        "신월동"
+      ],
+      "high_dongs": [
+        "목동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11500",
+      "observed_dongs": 8,
+      "supported_dongs": 7,
+      "coverage_pct": 99,
+      "status": "supported",
+      "minimum_eok": 7.7,
+      "maximum_eok": 14.3,
+      "gap_eok": 6.7,
+      "larger_than_between": false,
+      "low_dongs": [
+        "방화동"
+      ],
+      "high_dongs": [
+        "마곡동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11530",
+      "observed_dongs": 9,
+      "supported_dongs": 7,
+      "coverage_pct": 97,
+      "status": "supported",
+      "minimum_eok": 6.6,
+      "maximum_eok": 12.7,
+      "gap_eok": 6.1,
+      "larger_than_between": false,
+      "low_dongs": [
+        "오류동"
+      ],
+      "high_dongs": [
+        "신도림동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11545",
+      "observed_dongs": 3,
+      "supported_dongs": 2,
+      "coverage_pct": 90,
+      "status": "supported",
+      "minimum_eok": 5.8,
+      "maximum_eok": 9.9,
+      "gap_eok": 4.1,
+      "larger_than_between": false,
+      "low_dongs": [
+        "시흥동"
+      ],
+      "high_dongs": [
+        "독산동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11560",
+      "observed_dongs": 25,
+      "supported_dongs": 6,
+      "coverage_pct": 70,
+      "status": "supported",
+      "minimum_eok": 8.7,
+      "maximum_eok": 19.3,
+      "gap_eok": 10.6,
+      "larger_than_between": false,
+      "low_dongs": [
+        "대림동"
+      ],
+      "high_dongs": [
+        "당산동5가"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11590",
+      "observed_dongs": 8,
+      "supported_dongs": 6,
+      "coverage_pct": 91,
+      "status": "supported",
+      "minimum_eok": 12.0,
+      "maximum_eok": 22.4,
+      "gap_eok": 10.4,
+      "larger_than_between": false,
+      "low_dongs": [
+        "신대방동"
+      ],
+      "high_dongs": [
+        "흑석동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11620",
+      "observed_dongs": 3,
+      "supported_dongs": 2,
+      "coverage_pct": 96,
+      "status": "supported",
+      "minimum_eok": 7.1,
+      "maximum_eok": 10.7,
+      "gap_eok": 3.6,
+      "larger_than_between": false,
+      "low_dongs": [
+        "신림동"
+      ],
+      "high_dongs": [
+        "봉천동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11650",
+      "observed_dongs": 8,
+      "supported_dongs": 4,
+      "coverage_pct": 85,
+      "status": "supported",
+      "minimum_eok": 21.8,
+      "maximum_eok": 48.9,
+      "gap_eok": 27.1,
+      "larger_than_between": true,
+      "low_dongs": [
+        "방배동"
+      ],
+      "high_dongs": [
+        "반포동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11680",
+      "observed_dongs": 14,
+      "supported_dongs": 7,
+      "coverage_pct": 74,
+      "status": "supported",
+      "minimum_eok": 22.5,
+      "maximum_eok": 37.3,
+      "gap_eok": 14.8,
+      "larger_than_between": false,
+      "low_dongs": [
+        "논현동"
+      ],
+      "high_dongs": [
+        "대치동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11710",
+      "observed_dongs": 13,
+      "supported_dongs": 10,
+      "coverage_pct": 96,
+      "status": "supported",
+      "minimum_eok": 12.6,
+      "maximum_eok": 33.0,
+      "gap_eok": 20.4,
+      "larger_than_between": false,
+      "low_dongs": [
+        "거여동"
+      ],
+      "high_dongs": [
+        "잠실동"
+      ]
+    },
+    {
+      "area": "p25_26",
+      "region": "11740",
+      "observed_dongs": 9,
+      "supported_dongs": 9,
+      "coverage_pct": 100,
+      "status": "supported",
+      "minimum_eok": 8.4,
+      "maximum_eok": 19.5,
+      "gap_eok": 11.0,
+      "larger_than_between": false,
+      "low_dongs": [
+        "길동"
+      ],
+      "high_dongs": [
+        "고덕동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11110",
+      "observed_dongs": 13,
+      "supported_dongs": 1,
+      "coverage_pct": 40,
+      "status": "insufficient",
+      "minimum_eok": null,
+      "maximum_eok": null,
+      "gap_eok": null,
+      "larger_than_between": null,
+      "low_dongs": [],
+      "high_dongs": []
+    },
+    {
+      "area": "exact84",
+      "region": "11140",
+      "observed_dongs": 7,
+      "supported_dongs": 2,
+      "coverage_pct": 80,
+      "status": "supported",
+      "minimum_eok": 11.5,
+      "maximum_eok": 15.8,
+      "gap_eok": 4.3,
+      "larger_than_between": false,
+      "low_dongs": [
+        "황학동"
+      ],
+      "high_dongs": [
+        "신당동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11170",
+      "observed_dongs": 17,
+      "supported_dongs": 2,
+      "coverage_pct": 40,
+      "status": "supported",
+      "minimum_eok": 14.9,
+      "maximum_eok": 26.3,
+      "gap_eok": 11.4,
+      "larger_than_between": false,
+      "low_dongs": [
+        "문배동"
+      ],
+      "high_dongs": [
+        "이촌동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11200",
+      "observed_dongs": 17,
+      "supported_dongs": 8,
+      "coverage_pct": 82,
+      "status": "supported",
+      "minimum_eok": 13.4,
+      "maximum_eok": 23.0,
+      "gap_eok": 9.6,
+      "larger_than_between": false,
+      "low_dongs": [
+        "마장동"
+      ],
+      "high_dongs": [
+        "옥수동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11215",
+      "observed_dongs": 6,
+      "supported_dongs": 3,
+      "coverage_pct": 93,
+      "status": "supported",
+      "minimum_eok": 16.4,
+      "maximum_eok": 19.6,
+      "gap_eok": 3.2,
+      "larger_than_between": false,
+      "low_dongs": [
+        "자양동"
+      ],
+      "high_dongs": [
+        "광장동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11230",
+      "observed_dongs": 9,
+      "supported_dongs": 7,
+      "coverage_pct": 95,
+      "status": "supported",
+      "minimum_eok": 8.5,
+      "maximum_eok": 15.8,
+      "gap_eok": 7.3,
+      "larger_than_between": false,
+      "low_dongs": [
+        "휘경동"
+      ],
+      "high_dongs": [
+        "전농동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11260",
+      "observed_dongs": 6,
+      "supported_dongs": 6,
+      "coverage_pct": 100,
+      "status": "supported",
+      "minimum_eok": 6.8,
+      "maximum_eok": 7.9,
+      "gap_eok": 1.1,
+      "larger_than_between": false,
+      "low_dongs": [
+        "신내동"
+      ],
+      "high_dongs": [
+        "중화동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11290",
+      "observed_dongs": 19,
+      "supported_dongs": 7,
+      "coverage_pct": 88,
+      "status": "supported",
+      "minimum_eok": 7.3,
+      "maximum_eok": 11.6,
+      "gap_eok": 4.3,
+      "larger_than_between": false,
+      "low_dongs": [
+        "정릉동"
+      ],
+      "high_dongs": [
+        "길음동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11305",
+      "observed_dongs": 5,
+      "supported_dongs": 3,
+      "coverage_pct": 98,
+      "status": "supported",
+      "minimum_eok": 6.0,
+      "maximum_eok": 7.8,
+      "gap_eok": 1.8,
+      "larger_than_between": false,
+      "low_dongs": [
+        "번동"
+      ],
+      "high_dongs": [
+        "미아동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11320",
+      "observed_dongs": 4,
+      "supported_dongs": 4,
+      "coverage_pct": 100,
+      "status": "supported",
+      "minimum_eok": 5.5,
+      "maximum_eok": 8.6,
+      "gap_eok": 3.1,
+      "larger_than_between": false,
+      "low_dongs": [
+        "방학동"
+      ],
+      "high_dongs": [
+        "창동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11350",
+      "observed_dongs": 5,
+      "supported_dongs": 5,
+      "coverage_pct": 100,
+      "status": "supported",
+      "minimum_eok": 6.9,
+      "maximum_eok": 9.3,
+      "gap_eok": 2.5,
+      "larger_than_between": false,
+      "low_dongs": [
+        "상계동"
+      ],
+      "high_dongs": [
+        "월계동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11380",
+      "observed_dongs": 11,
+      "supported_dongs": 8,
+      "coverage_pct": 97,
+      "status": "supported",
+      "minimum_eok": 6.0,
+      "maximum_eok": 16.4,
+      "gap_eok": 10.4,
+      "larger_than_between": false,
+      "low_dongs": [
+        "신사동"
+      ],
+      "high_dongs": [
+        "증산동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11410",
+      "observed_dongs": 13,
+      "supported_dongs": 6,
+      "coverage_pct": 93,
+      "status": "supported",
+      "minimum_eok": 7.8,
+      "maximum_eok": 19.9,
+      "gap_eok": 12.1,
+      "larger_than_between": false,
+      "low_dongs": [
+        "홍은동"
+      ],
+      "high_dongs": [
+        "북아현동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11440",
+      "observed_dongs": 22,
+      "supported_dongs": 10,
+      "coverage_pct": 79,
+      "status": "supported",
+      "minimum_eok": 10.0,
+      "maximum_eok": 24.5,
+      "gap_eok": 14.5,
+      "larger_than_between": false,
+      "low_dongs": [
+        "망원동"
+      ],
+      "high_dongs": [
+        "염리동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11470",
+      "observed_dongs": 3,
+      "supported_dongs": 3,
+      "coverage_pct": 100,
+      "status": "supported",
+      "minimum_eok": 10.6,
+      "maximum_eok": 14.1,
+      "gap_eok": 3.5,
+      "larger_than_between": false,
+      "low_dongs": [
+        "신월동"
+      ],
+      "high_dongs": [
+        "목동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11500",
+      "observed_dongs": 8,
+      "supported_dongs": 7,
+      "coverage_pct": 99,
+      "status": "supported",
+      "minimum_eok": 7.7,
+      "maximum_eok": 14.3,
+      "gap_eok": 6.6,
+      "larger_than_between": false,
+      "low_dongs": [
+        "방화동"
+      ],
+      "high_dongs": [
+        "마곡동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11530",
+      "observed_dongs": 9,
+      "supported_dongs": 7,
+      "coverage_pct": 97,
+      "status": "supported",
+      "minimum_eok": 6.7,
+      "maximum_eok": 13.0,
+      "gap_eok": 6.3,
+      "larger_than_between": false,
+      "low_dongs": [
+        "오류동"
+      ],
+      "high_dongs": [
+        "신도림동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11545",
+      "observed_dongs": 3,
+      "supported_dongs": 2,
+      "coverage_pct": 90,
+      "status": "supported",
+      "minimum_eok": 5.8,
+      "maximum_eok": 10.7,
+      "gap_eok": 5.0,
+      "larger_than_between": false,
+      "low_dongs": [
+        "시흥동"
+      ],
+      "high_dongs": [
+        "독산동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11560",
+      "observed_dongs": 23,
+      "supported_dongs": 6,
+      "coverage_pct": 72,
+      "status": "supported",
+      "minimum_eok": 8.8,
+      "maximum_eok": 19.3,
+      "gap_eok": 10.5,
+      "larger_than_between": false,
+      "low_dongs": [
+        "대림동"
+      ],
+      "high_dongs": [
+        "당산동5가"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11590",
+      "observed_dongs": 8,
+      "supported_dongs": 6,
+      "coverage_pct": 90,
+      "status": "supported",
+      "minimum_eok": 12.0,
+      "maximum_eok": 22.5,
+      "gap_eok": 10.5,
+      "larger_than_between": false,
+      "low_dongs": [
+        "신대방동"
+      ],
+      "high_dongs": [
+        "흑석동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11620",
+      "observed_dongs": 3,
+      "supported_dongs": 2,
+      "coverage_pct": 96,
+      "status": "supported",
+      "minimum_eok": 7.2,
+      "maximum_eok": 10.8,
+      "gap_eok": 3.6,
+      "larger_than_between": false,
+      "low_dongs": [
+        "신림동"
+      ],
+      "high_dongs": [
+        "봉천동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11650",
+      "observed_dongs": 8,
+      "supported_dongs": 4,
+      "coverage_pct": 84,
+      "status": "supported",
+      "minimum_eok": 22.4,
+      "maximum_eok": 50.0,
+      "gap_eok": 27.6,
+      "larger_than_between": true,
+      "low_dongs": [
+        "방배동"
+      ],
+      "high_dongs": [
+        "반포동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11680",
+      "observed_dongs": 14,
+      "supported_dongs": 5,
+      "coverage_pct": 61,
+      "status": "supported",
+      "minimum_eok": 22.5,
+      "maximum_eok": 38.0,
+      "gap_eok": 15.5,
+      "larger_than_between": false,
+      "low_dongs": [
+        "논현동"
+      ],
+      "high_dongs": [
+        "대치동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11710",
+      "observed_dongs": 13,
+      "supported_dongs": 10,
+      "coverage_pct": 96,
+      "status": "supported",
+      "minimum_eok": 13.0,
+      "maximum_eok": 32.8,
+      "gap_eok": 19.8,
+      "larger_than_between": false,
+      "low_dongs": [
+        "거여동"
+      ],
+      "high_dongs": [
+        "잠실동"
+      ]
+    },
+    {
+      "area": "exact84",
+      "region": "11740",
+      "observed_dongs": 9,
+      "supported_dongs": 9,
+      "coverage_pct": 100,
+      "status": "supported",
+      "minimum_eok": 9.0,
+      "maximum_eok": 19.5,
+      "gap_eok": 10.5,
+      "larger_than_between": false,
+      "low_dongs": [
+        "길동"
+      ],
+      "high_dongs": [
+        "고덕동"
+      ]
+    }
+  ],
+  "largest_complex_deleted": [
+    {
+      "region": "11110",
+      "period": "2025Q3",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11140",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11170",
+      "period": "2025Q3",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11200",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11215",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11230",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11260",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11290",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11305",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11320",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11350",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11380",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11410",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11440",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11470",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11500",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11530",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11545",
+      "period": "2025Q3",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11560",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11590",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11620",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11650",
+      "period": "2025Q3",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11680",
+      "period": "2025Q3",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11710",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11740",
+      "period": "2025Q3",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11110",
+      "period": "2025Q4",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11140",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "1~2억 미만"
+    },
+    {
+      "region": "11170",
+      "period": "2025Q4",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11200",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11215",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11230",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11260",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11290",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11305",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11320",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11350",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11380",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11410",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11440",
+      "period": "2025Q4",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11470",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11500",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11530",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11545",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11560",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11590",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11620",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11650",
+      "period": "2025Q4",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11680",
+      "period": "2025Q4",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11710",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11740",
+      "period": "2025Q4",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11110",
+      "period": "2026Q1",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11140",
+      "period": "2026Q1",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "2억 이상"
+    },
+    {
+      "region": "11170",
+      "period": "2026Q1",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11200",
+      "period": "2026Q1",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11215",
+      "period": "2026Q1",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11230",
+      "period": "2026Q1",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11260",
+      "period": "2026Q1",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11290",
+      "period": "2026Q1",
+      "status": "supported",
+      "direction": "같음",
+      "magnitude": "0"
+    },
+    {
+      "region": "11305",
+      "period": "2026Q1",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11320",
+      "period": "2026Q1",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11350",
+      "period": "2026Q1",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11380",
+      "period": "2026Q1",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11410",
+      "period": "2026Q1",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11440",
+      "period": "2026Q1",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11470",
+      "period": "2026Q1",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11500",
+      "period": "2026Q1",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11530",
+      "period": "2026Q1",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11545",
+      "period": "2026Q1",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11560",
+      "period": "2026Q1",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11590",
+      "period": "2026Q1",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11620",
+      "period": "2026Q1",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11650",
+      "period": "2026Q1",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11680",
+      "period": "2026Q1",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11710",
+      "period": "2026Q1",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11740",
+      "period": "2026Q1",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11110",
+      "period": "2026Q2",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11140",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "2억 이상"
+    },
+    {
+      "region": "11170",
+      "period": "2026Q2",
+      "status": "insufficient",
+      "direction": null,
+      "magnitude": null
+    },
+    {
+      "region": "11200",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11215",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11230",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11260",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11290",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11305",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "같음",
+      "magnitude": "0"
+    },
+    {
+      "region": "11320",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11350",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11380",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11410",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11440",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11470",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11500",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11530",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11545",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11560",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11590",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11620",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "1~2억 미만"
+    },
+    {
+      "region": "11650",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11680",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11710",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "2억 이상"
+    },
+    {
+      "region": "11740",
+      "period": "2026Q2",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11110",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11140",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "1~2억 미만"
+    },
+    {
+      "region": "11170",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11200",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11215",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11230",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11260",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11290",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11305",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11320",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11350",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11380",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11410",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11440",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11470",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11500",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11530",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11545",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11560",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11590",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11620",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "높아짐",
+      "magnitude": "0.5억 미만"
+    },
+    {
+      "region": "11650",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "1~2억 미만"
+    },
+    {
+      "region": "11680",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "1~2억 미만"
+    },
+    {
+      "region": "11710",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5~1억 미만"
+    },
+    {
+      "region": "11740",
+      "period": "four_quarters",
+      "status": "supported",
+      "direction": "낮아짐",
+      "magnitude": "0.5억 미만"
+    }
+  ],
+  "limitations": [
+    "Observed composition, not same-home price or causal location premium.",
+    "Dong range uses only sufficient, unambiguous neighborhoods; missing neighborhoods remain in district totals.",
+    "Both area selectors independently qualified; their quantile difference is not the price of added contracts.",
+    "Removed-complex comparison releases only direction and a wide magnitude interval.",
+    "Retained October source vintage; not information available at each quarter end."
+  ]
+}
