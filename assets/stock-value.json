@@ -1,0 +1,7382 @@
+{
+  "schema": "b007_public_v1",
+  "snapshot": "2026-10-04",
+  "periods": [
+    "2011Q1",
+    "2011Q2",
+    "2011Q3",
+    "2011Q4",
+    "2012Q1",
+    "2012Q2",
+    "2012Q3",
+    "2012Q4",
+    "2013Q1",
+    "2013Q2",
+    "2013Q3",
+    "2013Q4",
+    "2014Q1",
+    "2014Q2",
+    "2014Q3",
+    "2014Q4",
+    "2015Q1",
+    "2015Q2",
+    "2015Q3",
+    "2015Q4",
+    "2016Q1",
+    "2016Q2",
+    "2016Q3",
+    "2016Q4",
+    "2017Q1",
+    "2017Q2",
+    "2017Q3",
+    "2017Q4",
+    "2018Q1",
+    "2018Q2",
+    "2018Q3",
+    "2018Q4",
+    "2019Q1",
+    "2019Q2",
+    "2019Q3",
+    "2019Q4",
+    "2020Q1",
+    "2020Q2",
+    "2020Q3",
+    "2020Q4",
+    "2021Q1",
+    "2021Q2",
+    "2021Q3",
+    "2021Q4",
+    "2022Q1",
+    "2022Q2",
+    "2022Q3",
+    "2022Q4",
+    "2023Q1",
+    "2023Q2",
+    "2023Q3",
+    "2023Q4",
+    "2024Q1",
+    "2024Q2",
+    "2024Q3",
+    "2024Q4",
+    "2025Q1",
+    "2025Q2",
+    "2025Q3",
+    "2025Q4",
+    "2026Q1",
+    "2026Q2"
+  ],
+  "names": {
+    "seoul": "서울",
+    "gyeonggi": "수집 경기36지역",
+    "gangnam3": "강남·서초·송파",
+    "rest_seoul": "서울 나머지22구"
+  },
+  "modes": {
+    "all": "가격 확인 재고",
+    "normal": "정상 조건 재고"
+  },
+  "rows": [
+    {
+      "period": "2011Q1",
+      "date": "2011-03-31",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 506.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q1",
+      "date": "2011-03-31",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 385.4,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q1",
+      "date": "2011-03-31",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 411.8,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2011Q1",
+      "date": "2011-03-31",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 358.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q1",
+      "date": "2011-03-31",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 168.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q1",
+      "date": "2011-03-31",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 121.5,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q1",
+      "date": "2011-03-31",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 337.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q1",
+      "date": "2011-03-31",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 263.9,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q2",
+      "date": "2011-06-30",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 497.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q2",
+      "date": "2011-06-30",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 387.5,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q2",
+      "date": "2011-06-30",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 414.9,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2011Q2",
+      "date": "2011-06-30",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 364.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q2",
+      "date": "2011-06-30",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 160.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q2",
+      "date": "2011-06-30",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 118.9,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q2",
+      "date": "2011-06-30",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 336.3,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q2",
+      "date": "2011-06-30",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 268.6,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q3",
+      "date": "2011-09-29",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 503.3,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q3",
+      "date": "2011-09-29",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 382.4,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q3",
+      "date": "2011-09-29",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 418.1,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2011Q3",
+      "date": "2011-09-29",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 364.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q3",
+      "date": "2011-09-29",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 166.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q3",
+      "date": "2011-09-29",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 118.0,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q3",
+      "date": "2011-09-29",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 337.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q3",
+      "date": "2011-09-29",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 264.4,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q4",
+      "date": "2011-12-29",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 501.7,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q4",
+      "date": "2011-12-29",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 382.1,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q4",
+      "date": "2011-12-29",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 422.6,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2011Q4",
+      "date": "2011-12-29",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 368.2,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2011Q4",
+      "date": "2011-12-29",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 163.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q4",
+      "date": "2011-12-29",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 118.9,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q4",
+      "date": "2011-12-29",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 338.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2011Q4",
+      "date": "2011-12-29",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 263.2,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q1",
+      "date": "2012-03-29",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 497.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q1",
+      "date": "2012-03-29",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 368.9,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q1",
+      "date": "2012-03-29",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 421.2,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2012Q1",
+      "date": "2012-03-29",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 362.3,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q1",
+      "date": "2012-03-29",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 159.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q1",
+      "date": "2012-03-29",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 110.4,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q1",
+      "date": "2012-03-29",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 337.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q1",
+      "date": "2012-03-29",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 258.4,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q2",
+      "date": "2012-06-28",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 488.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q2",
+      "date": "2012-06-28",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 358.9,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q2",
+      "date": "2012-06-28",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 416.4,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2012Q2",
+      "date": "2012-06-28",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 354.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q2",
+      "date": "2012-06-28",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 154.3,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q2",
+      "date": "2012-06-28",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 106.9,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q2",
+      "date": "2012-06-28",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 333.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q2",
+      "date": "2012-06-28",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 252.0,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q3",
+      "date": "2012-09-27",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 481.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q3",
+      "date": "2012-09-27",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 341.3,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q3",
+      "date": "2012-09-27",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 412.8,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2012Q3",
+      "date": "2012-09-27",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 344.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q3",
+      "date": "2012-09-27",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 152.3,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q3",
+      "date": "2012-09-27",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 102.4,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q3",
+      "date": "2012-09-27",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 329.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q3",
+      "date": "2012-09-27",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 239.0,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q4",
+      "date": "2012-12-27",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 479.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q4",
+      "date": "2012-12-27",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 350.0,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q4",
+      "date": "2012-12-27",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 416.1,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2012Q4",
+      "date": "2012-12-27",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 353.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q4",
+      "date": "2012-12-27",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 149.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q4",
+      "date": "2012-12-27",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 104.9,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q4",
+      "date": "2012-12-27",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 330.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2012Q4",
+      "date": "2012-12-27",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 245.1,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q1",
+      "date": "2013-03-28",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 483.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q1",
+      "date": "2013-03-28",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 375.9,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q1",
+      "date": "2013-03-28",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 418.3,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2013Q1",
+      "date": "2013-03-28",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 365.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q1",
+      "date": "2013-03-28",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 152.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q1",
+      "date": "2013-03-28",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 115.4,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q1",
+      "date": "2013-03-28",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 330.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q1",
+      "date": "2013-03-28",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 260.4,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q2",
+      "date": "2013-06-27",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 484.7,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q2",
+      "date": "2013-06-27",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 394.3,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q2",
+      "date": "2013-06-27",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 423.9,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2013Q2",
+      "date": "2013-06-27",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 384.9,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2013Q2",
+      "date": "2013-06-27",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 152.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q2",
+      "date": "2013-06-27",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 120.0,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q2",
+      "date": "2013-06-27",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 332.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q2",
+      "date": "2013-06-27",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 274.3,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q3",
+      "date": "2013-09-26",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 487.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q3",
+      "date": "2013-09-26",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 395.8,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q3",
+      "date": "2013-09-26",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 430.0,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2013Q3",
+      "date": "2013-09-26",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 395.7,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2013Q3",
+      "date": "2013-09-26",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 151.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q3",
+      "date": "2013-09-26",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 116.6,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q3",
+      "date": "2013-09-26",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 335.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q3",
+      "date": "2013-09-26",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 279.2,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q4",
+      "date": "2013-12-26",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 495.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q4",
+      "date": "2013-12-26",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 406.6,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q4",
+      "date": "2013-12-26",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 438.4,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2013Q4",
+      "date": "2013-12-26",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 406.1,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2013Q4",
+      "date": "2013-12-26",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 155.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q4",
+      "date": "2013-12-26",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 118.7,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q4",
+      "date": "2013-12-26",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 340.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2013Q4",
+      "date": "2013-12-26",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 287.9,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q1",
+      "date": "2014-03-27",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 508.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q1",
+      "date": "2014-03-27",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 438.4,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q1",
+      "date": "2014-03-27",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 447.7,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2014Q1",
+      "date": "2014-03-27",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 423.7,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2014Q1",
+      "date": "2014-03-27",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 160.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q1",
+      "date": "2014-03-27",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 130.7,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q1",
+      "date": "2014-03-27",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 348.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q1",
+      "date": "2014-03-27",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 307.7,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q2",
+      "date": "2014-06-26",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 514.7,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q2",
+      "date": "2014-06-26",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 439.6,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q2",
+      "date": "2014-06-26",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 449.7,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2014Q2",
+      "date": "2014-06-26",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 424.1,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2014Q2",
+      "date": "2014-06-26",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 164.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q2",
+      "date": "2014-06-26",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 131.8,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q2",
+      "date": "2014-06-26",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 350.3,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q2",
+      "date": "2014-06-26",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 307.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q3",
+      "date": "2014-09-25",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 529.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q3",
+      "date": "2014-09-25",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 448.7,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q3",
+      "date": "2014-09-25",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 458.7,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2014Q3",
+      "date": "2014-09-25",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 433.4,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2014Q3",
+      "date": "2014-09-25",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 171.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q3",
+      "date": "2014-09-25",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 135.3,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q3",
+      "date": "2014-09-25",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 358.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q3",
+      "date": "2014-09-25",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 313.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q4",
+      "date": "2014-12-25",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 537.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q4",
+      "date": "2014-12-25",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 463.6,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q4",
+      "date": "2014-12-25",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 467.7,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2014Q4",
+      "date": "2014-12-25",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 445.8,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2014Q4",
+      "date": "2014-12-25",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 173.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q4",
+      "date": "2014-12-25",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 142.2,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q4",
+      "date": "2014-12-25",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 363.7,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2014Q4",
+      "date": "2014-12-25",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 321.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q1",
+      "date": "2015-03-26",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 550.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q1",
+      "date": "2015-03-26",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 482.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q1",
+      "date": "2015-03-26",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 481.2,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2015Q1",
+      "date": "2015-03-26",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 460.7,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2015Q1",
+      "date": "2015-03-26",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 177.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q1",
+      "date": "2015-03-26",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 146.2,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q1",
+      "date": "2015-03-26",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 373.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q1",
+      "date": "2015-03-26",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 335.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q2",
+      "date": "2015-06-25",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 565.3,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q2",
+      "date": "2015-06-25",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 500.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q2",
+      "date": "2015-06-25",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 493.0,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2015Q2",
+      "date": "2015-06-25",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 476.3,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2015Q2",
+      "date": "2015-06-25",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 181.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q2",
+      "date": "2015-06-25",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 149.8,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q2",
+      "date": "2015-06-25",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 383.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q2",
+      "date": "2015-06-25",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 350.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q3",
+      "date": "2015-09-24",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 581.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q3",
+      "date": "2015-09-24",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 518.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q3",
+      "date": "2015-09-24",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 507.3,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2015Q3",
+      "date": "2015-09-24",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 487.8,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2015Q3",
+      "date": "2015-09-24",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 185.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q3",
+      "date": "2015-09-24",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 153.5,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q3",
+      "date": "2015-09-24",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 396.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q3",
+      "date": "2015-09-24",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 364.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q4",
+      "date": "2015-12-31",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 593.7,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q4",
+      "date": "2015-12-31",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 524.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q4",
+      "date": "2015-12-31",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 516.8,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2015Q4",
+      "date": "2015-12-31",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 492.7,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2015Q4",
+      "date": "2015-12-31",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 190.3,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q4",
+      "date": "2015-12-31",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 156.5,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q4",
+      "date": "2015-12-31",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 403.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2015Q4",
+      "date": "2015-12-31",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 368.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q1",
+      "date": "2016-03-31",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 596.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q1",
+      "date": "2016-03-31",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 517.9,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q1",
+      "date": "2016-03-31",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 521.2,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2016Q1",
+      "date": "2016-03-31",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 486.3,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2016Q1",
+      "date": "2016-03-31",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 189.7,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q1",
+      "date": "2016-03-31",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 153.7,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q1",
+      "date": "2016-03-31",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 407.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q1",
+      "date": "2016-03-31",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 364.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q2",
+      "date": "2016-06-30",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 623.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q2",
+      "date": "2016-06-30",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 547.7,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q2",
+      "date": "2016-06-30",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 531.4,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2016Q2",
+      "date": "2016-06-30",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 499.5,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2016Q2",
+      "date": "2016-06-30",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 203.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q2",
+      "date": "2016-06-30",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 164.2,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q2",
+      "date": "2016-06-30",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 419.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q2",
+      "date": "2016-06-30",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 383.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q3",
+      "date": "2016-09-29",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 650.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q3",
+      "date": "2016-09-29",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": false,
+      "value_trillion": null,
+      "coverage_pct": null,
+      "below80": null
+    },
+    {
+      "period": "2016Q3",
+      "date": "2016-09-29",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 549.8,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2016Q3",
+      "date": "2016-09-29",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 522.8,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2016Q3",
+      "date": "2016-09-29",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 215.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q3",
+      "date": "2016-09-29",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": false,
+      "value_trillion": null,
+      "coverage_pct": null,
+      "below80": null
+    },
+    {
+      "period": "2016Q3",
+      "date": "2016-09-29",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 435.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q3",
+      "date": "2016-09-29",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": false,
+      "value_trillion": null,
+      "coverage_pct": null,
+      "below80": null
+    },
+    {
+      "period": "2016Q4",
+      "date": "2016-12-29",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 667.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q4",
+      "date": "2016-12-29",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": false,
+      "value_trillion": null,
+      "coverage_pct": null,
+      "below80": null
+    },
+    {
+      "period": "2016Q4",
+      "date": "2016-12-29",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 558.9,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2016Q4",
+      "date": "2016-12-29",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 533.2,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2016Q4",
+      "date": "2016-12-29",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 219.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q4",
+      "date": "2016-12-29",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": false,
+      "value_trillion": null,
+      "coverage_pct": null,
+      "below80": null
+    },
+    {
+      "period": "2016Q4",
+      "date": "2016-12-29",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 447.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2016Q4",
+      "date": "2016-12-29",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": false,
+      "value_trillion": null,
+      "coverage_pct": null,
+      "below80": null
+    },
+    {
+      "period": "2017Q1",
+      "date": "2017-03-30",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 672.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q1",
+      "date": "2017-03-30",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 580.8,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q1",
+      "date": "2017-03-30",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 562.7,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2017Q1",
+      "date": "2017-03-30",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 529.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q1",
+      "date": "2017-03-30",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 220.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q1",
+      "date": "2017-03-30",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 178.4,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q1",
+      "date": "2017-03-30",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 452.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q1",
+      "date": "2017-03-30",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 402.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q2",
+      "date": "2017-06-29",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 707.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q2",
+      "date": "2017-06-29",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 628.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q2",
+      "date": "2017-06-29",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 575.0,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2017Q2",
+      "date": "2017-06-29",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 541.7,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2017Q2",
+      "date": "2017-06-29",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 236.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q2",
+      "date": "2017-06-29",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 198.2,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q2",
+      "date": "2017-06-29",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 470.7,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q2",
+      "date": "2017-06-29",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 430.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q3",
+      "date": "2017-09-28",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 741.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q3",
+      "date": "2017-09-28",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 659.7,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q3",
+      "date": "2017-09-28",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 591.2,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2017Q3",
+      "date": "2017-09-28",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 560.9,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2017Q3",
+      "date": "2017-09-28",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 251.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q3",
+      "date": "2017-09-28",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 210.4,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q3",
+      "date": "2017-09-28",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 490.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q3",
+      "date": "2017-09-28",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 449.3,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q4",
+      "date": "2017-12-28",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 771.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q4",
+      "date": "2017-12-28",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": false,
+      "value_trillion": null,
+      "coverage_pct": null,
+      "below80": null
+    },
+    {
+      "period": "2017Q4",
+      "date": "2017-12-28",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 601.8,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2017Q4",
+      "date": "2017-12-28",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 567.6,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2017Q4",
+      "date": "2017-12-28",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 264.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2017Q4",
+      "date": "2017-12-28",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": false,
+      "value_trillion": null,
+      "coverage_pct": null,
+      "below80": null
+    },
+    {
+      "period": "2017Q4",
+      "date": "2017-12-28",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 507.4,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2017Q4",
+      "date": "2017-12-28",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": false,
+      "value_trillion": null,
+      "coverage_pct": null,
+      "below80": null
+    },
+    {
+      "period": "2018Q1",
+      "date": "2018-03-29",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 827.3,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q1",
+      "date": "2018-03-29",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": false,
+      "value_trillion": null,
+      "coverage_pct": null,
+      "below80": null
+    },
+    {
+      "period": "2018Q1",
+      "date": "2018-03-29",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 628.8,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2018Q1",
+      "date": "2018-03-29",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 589.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q1",
+      "date": "2018-03-29",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 286.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q1",
+      "date": "2018-03-29",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": false,
+      "value_trillion": null,
+      "coverage_pct": null,
+      "below80": null
+    },
+    {
+      "period": "2018Q1",
+      "date": "2018-03-29",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 540.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q1",
+      "date": "2018-03-29",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": false,
+      "value_trillion": null,
+      "coverage_pct": null,
+      "below80": null
+    },
+    {
+      "period": "2018Q2",
+      "date": "2018-06-28",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 845.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q2",
+      "date": "2018-06-28",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 734.8,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q2",
+      "date": "2018-06-28",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 640.4,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2018Q2",
+      "date": "2018-06-28",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 597.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q2",
+      "date": "2018-06-28",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 289.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q2",
+      "date": "2018-06-28",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 232.5,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q2",
+      "date": "2018-06-28",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 555.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q2",
+      "date": "2018-06-28",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 502.3,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q3",
+      "date": "2018-09-27",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 924.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q3",
+      "date": "2018-09-27",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 808.4,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q3",
+      "date": "2018-09-27",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 681.3,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2018Q3",
+      "date": "2018-09-27",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 631.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q3",
+      "date": "2018-09-27",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 318.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q3",
+      "date": "2018-09-27",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 259.5,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q3",
+      "date": "2018-09-27",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 605.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q3",
+      "date": "2018-09-27",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 548.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q4",
+      "date": "2018-12-27",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 925.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q4",
+      "date": "2018-12-27",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 803.8,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q4",
+      "date": "2018-12-27",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 698.1,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2018Q4",
+      "date": "2018-12-27",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 646.7,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2018Q4",
+      "date": "2018-12-27",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 311.3,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q4",
+      "date": "2018-12-27",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 255.2,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q4",
+      "date": "2018-12-27",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 613.7,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2018Q4",
+      "date": "2018-12-27",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 548.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q1",
+      "date": "2019-03-28",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 913.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q1",
+      "date": "2019-03-28",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 557.0,
+      "coverage_pct": [
+        40,
+        50
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q1",
+      "date": "2019-03-28",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 696.1,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2019Q1",
+      "date": "2019-03-28",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 591.7,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q1",
+      "date": "2019-03-28",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 303.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q1",
+      "date": "2019-03-28",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 166.8,
+      "coverage_pct": [
+        40,
+        50
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q1",
+      "date": "2019-03-28",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 609.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q1",
+      "date": "2019-03-28",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 390.2,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q2",
+      "date": "2019-06-27",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 949.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q2",
+      "date": "2019-06-27",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 702.2,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q2",
+      "date": "2019-06-27",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 711.2,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2019Q2",
+      "date": "2019-06-27",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 611.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q2",
+      "date": "2019-06-27",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 325.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q2",
+      "date": "2019-06-27",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 237.9,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q2",
+      "date": "2019-06-27",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 624.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q2",
+      "date": "2019-06-27",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 464.3,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q3",
+      "date": "2019-09-26",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1029.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q3",
+      "date": "2019-09-26",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 862.6,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q3",
+      "date": "2019-09-26",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 742.0,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2019Q3",
+      "date": "2019-09-26",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 672.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q3",
+      "date": "2019-09-26",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 363.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q3",
+      "date": "2019-09-26",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 290.3,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q3",
+      "date": "2019-09-26",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 666.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q3",
+      "date": "2019-09-26",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 572.3,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q4",
+      "date": "2019-12-26",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1115.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q4",
+      "date": "2019-12-26",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 974.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q4",
+      "date": "2019-12-26",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 784.6,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2019Q4",
+      "date": "2019-12-26",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 738.9,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2019Q4",
+      "date": "2019-12-26",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 396.2,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2019Q4",
+      "date": "2019-12-26",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 325.3,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q4",
+      "date": "2019-12-26",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 719.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2019Q4",
+      "date": "2019-12-26",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 649.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q1",
+      "date": "2020-03-26",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1153.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q1",
+      "date": "2020-03-26",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 997.4,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q1",
+      "date": "2020-03-26",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 846.7,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2020Q1",
+      "date": "2020-03-26",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 801.7,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2020Q1",
+      "date": "2020-03-26",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 395.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q1",
+      "date": "2020-03-26",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 323.1,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q1",
+      "date": "2020-03-26",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 757.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q1",
+      "date": "2020-03-26",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 674.2,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q2",
+      "date": "2020-06-25",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1190.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q2",
+      "date": "2020-06-25",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 988.4,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q2",
+      "date": "2020-06-25",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 902.8,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2020Q2",
+      "date": "2020-06-25",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 843.1,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2020Q2",
+      "date": "2020-06-25",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 400.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q2",
+      "date": "2020-06-25",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 304.9,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q2",
+      "date": "2020-06-25",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 790.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q2",
+      "date": "2020-06-25",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 683.5,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q3",
+      "date": "2020-09-24",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1278.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q3",
+      "date": "2020-09-24",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1099.7,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q3",
+      "date": "2020-09-24",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 973.7,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2020Q3",
+      "date": "2020-09-24",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 915.3,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2020Q3",
+      "date": "2020-09-24",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 424.3,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q3",
+      "date": "2020-09-24",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 338.7,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q3",
+      "date": "2020-09-24",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 854.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q3",
+      "date": "2020-09-24",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 761.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q4",
+      "date": "2020-12-31",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1361.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q4",
+      "date": "2020-12-31",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1141.7,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q4",
+      "date": "2020-12-31",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1067.4,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2020Q4",
+      "date": "2020-12-31",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1010.1,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2020Q4",
+      "date": "2020-12-31",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 450.8,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2020Q4",
+      "date": "2020-12-31",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 347.0,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q4",
+      "date": "2020-12-31",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 911.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2020Q4",
+      "date": "2020-12-31",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 794.8,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q1",
+      "date": "2021-03-25",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1424.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q1",
+      "date": "2021-03-25",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1176.1,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q1",
+      "date": "2021-03-25",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1165.5,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2021Q1",
+      "date": "2021-03-25",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1101.5,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2021Q1",
+      "date": "2021-03-25",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 466.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q1",
+      "date": "2021-03-25",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 351.3,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q1",
+      "date": "2021-03-25",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 957.3,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q1",
+      "date": "2021-03-25",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 824.9,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q2",
+      "date": "2021-06-24",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1489.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q2",
+      "date": "2021-06-24",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1184.6,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q2",
+      "date": "2021-06-24",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1255.4,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2021Q2",
+      "date": "2021-06-24",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1148.0,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2021Q2",
+      "date": "2021-06-24",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 486.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q2",
+      "date": "2021-06-24",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 355.4,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q2",
+      "date": "2021-06-24",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1002.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q2",
+      "date": "2021-06-24",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 829.3,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q3",
+      "date": "2021-09-30",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1570.3,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q3",
+      "date": "2021-09-30",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1232.8,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q3",
+      "date": "2021-09-30",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1358.9,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2021Q3",
+      "date": "2021-09-30",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1240.4,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2021Q3",
+      "date": "2021-09-30",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 517.7,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q3",
+      "date": "2021-09-30",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 378.7,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q3",
+      "date": "2021-09-30",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1052.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q3",
+      "date": "2021-09-30",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 854.1,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q4",
+      "date": "2021-12-30",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1587.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q4",
+      "date": "2021-12-30",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1130.0,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q4",
+      "date": "2021-12-30",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1379.8,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2021Q4",
+      "date": "2021-12-30",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1184.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q4",
+      "date": "2021-12-30",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 529.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q4",
+      "date": "2021-12-30",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 343.9,
+      "coverage_pct": [
+        40,
+        50
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q4",
+      "date": "2021-12-30",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1058.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2021Q4",
+      "date": "2021-12-30",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 786.0,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q1",
+      "date": "2022-03-31",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1576.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q1",
+      "date": "2022-03-31",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 827.7,
+      "coverage_pct": [
+        30,
+        40
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q1",
+      "date": "2022-03-31",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1373.8,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2022Q1",
+      "date": "2022-03-31",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 996.2,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q1",
+      "date": "2022-03-31",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 524.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q1",
+      "date": "2022-03-31",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 271.1,
+      "coverage_pct": [
+        30,
+        40
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q1",
+      "date": "2022-03-31",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1053.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q1",
+      "date": "2022-03-31",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 556.6,
+      "coverage_pct": [
+        40,
+        50
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q2",
+      "date": "2022-06-30",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1596.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q2",
+      "date": "2022-06-30",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 792.6,
+      "coverage_pct": [
+        30,
+        40
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q2",
+      "date": "2022-06-30",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1367.7,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2022Q2",
+      "date": "2022-06-30",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 951.6,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q2",
+      "date": "2022-06-30",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 533.7,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q2",
+      "date": "2022-06-30",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 267.5,
+      "coverage_pct": [
+        30,
+        40
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q2",
+      "date": "2022-06-30",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1063.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q2",
+      "date": "2022-06-30",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 525.1,
+      "coverage_pct": [
+        30,
+        40
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q3",
+      "date": "2022-09-29",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1573.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q3",
+      "date": "2022-09-29",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 682.0,
+      "coverage_pct": [
+        30,
+        40
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q3",
+      "date": "2022-09-29",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1333.1,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2022Q3",
+      "date": "2022-09-29",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 840.1,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q3",
+      "date": "2022-09-29",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 523.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q3",
+      "date": "2022-09-29",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 240.6,
+      "coverage_pct": [
+        30,
+        40
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q3",
+      "date": "2022-09-29",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1049.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q3",
+      "date": "2022-09-29",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 441.3,
+      "coverage_pct": [
+        30,
+        40
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q4",
+      "date": "2022-12-29",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1525.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q4",
+      "date": "2022-12-29",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 446.8,
+      "coverage_pct": [
+        20,
+        30
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q4",
+      "date": "2022-12-29",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1265.3,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2022Q4",
+      "date": "2022-12-29",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 640.2,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q4",
+      "date": "2022-12-29",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 506.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q4",
+      "date": "2022-12-29",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 157.5,
+      "coverage_pct": [
+        20,
+        30
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q4",
+      "date": "2022-12-29",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1018.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2022Q4",
+      "date": "2022-12-29",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 289.3,
+      "coverage_pct": [
+        20,
+        30
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q1",
+      "date": "2023-03-30",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1468.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q1",
+      "date": "2023-03-30",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 686.2,
+      "coverage_pct": [
+        30,
+        40
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q1",
+      "date": "2023-03-30",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1203.9,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2023Q1",
+      "date": "2023-03-30",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 841.0,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q1",
+      "date": "2023-03-30",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 492.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q1",
+      "date": "2023-03-30",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 241.6,
+      "coverage_pct": [
+        30,
+        40
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q1",
+      "date": "2023-03-30",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 975.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q1",
+      "date": "2023-03-30",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 444.6,
+      "coverage_pct": [
+        30,
+        40
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q2",
+      "date": "2023-06-29",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1493.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q2",
+      "date": "2023-06-29",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 948.8,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q2",
+      "date": "2023-06-29",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1223.7,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2023Q2",
+      "date": "2023-06-29",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1011.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q2",
+      "date": "2023-06-29",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 521.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q2",
+      "date": "2023-06-29",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 329.8,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q2",
+      "date": "2023-06-29",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 972.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q2",
+      "date": "2023-06-29",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 619.0,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q3",
+      "date": "2023-09-28",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1532.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q3",
+      "date": "2023-09-28",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1102.1,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q3",
+      "date": "2023-09-28",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1259.9,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2023Q3",
+      "date": "2023-09-28",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1095.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q3",
+      "date": "2023-09-28",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 544.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q3",
+      "date": "2023-09-28",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 380.1,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q3",
+      "date": "2023-09-28",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 987.7,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q3",
+      "date": "2023-09-28",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 722.0,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q4",
+      "date": "2023-12-28",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1523.3,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q4",
+      "date": "2023-12-28",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1074.2,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q4",
+      "date": "2023-12-28",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1254.2,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2023Q4",
+      "date": "2023-12-28",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1066.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q4",
+      "date": "2023-12-28",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 541.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q4",
+      "date": "2023-12-28",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 371.5,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q4",
+      "date": "2023-12-28",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 981.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2023Q4",
+      "date": "2023-12-28",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 702.7,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q1",
+      "date": "2024-03-28",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1526.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q1",
+      "date": "2024-03-28",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1010.7,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q1",
+      "date": "2024-03-28",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1257.6,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2024Q1",
+      "date": "2024-03-28",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1044.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q1",
+      "date": "2024-03-28",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 547.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q1",
+      "date": "2024-03-28",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 342.8,
+      "coverage_pct": [
+        40,
+        50
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q1",
+      "date": "2024-03-28",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 978.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q1",
+      "date": "2024-03-28",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 667.9,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q2",
+      "date": "2024-06-27",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1569.7,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q2",
+      "date": "2024-06-27",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1190.8,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q2",
+      "date": "2024-06-27",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1283.0,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2024Q2",
+      "date": "2024-06-27",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1134.4,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q2",
+      "date": "2024-06-27",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 565.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q2",
+      "date": "2024-06-27",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 413.6,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q2",
+      "date": "2024-06-27",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1003.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q2",
+      "date": "2024-06-27",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 777.2,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q3",
+      "date": "2024-09-26",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1652.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q3",
+      "date": "2024-09-26",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1346.5,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q3",
+      "date": "2024-09-26",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1322.2,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2024Q3",
+      "date": "2024-09-26",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1203.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q3",
+      "date": "2024-09-26",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 605.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q3",
+      "date": "2024-09-26",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 481.9,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q3",
+      "date": "2024-09-26",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1046.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q3",
+      "date": "2024-09-26",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 864.6,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q4",
+      "date": "2024-12-26",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1670.7,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q4",
+      "date": "2024-12-26",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1341.0,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q4",
+      "date": "2024-12-26",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1328.8,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2024Q4",
+      "date": "2024-12-26",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1193.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q4",
+      "date": "2024-12-26",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 616.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q4",
+      "date": "2024-12-26",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 483.2,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q4",
+      "date": "2024-12-26",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1054.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2024Q4",
+      "date": "2024-12-26",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 857.8,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q1",
+      "date": "2025-03-27",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1735.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q1",
+      "date": "2025-03-27",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1398.2,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q1",
+      "date": "2025-03-27",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1340.6,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2025Q1",
+      "date": "2025-03-27",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1180.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q1",
+      "date": "2025-03-27",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 662.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q1",
+      "date": "2025-03-27",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 535.1,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q1",
+      "date": "2025-03-27",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1073.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q1",
+      "date": "2025-03-27",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 863.1,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q2",
+      "date": "2025-06-26",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1814.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q2",
+      "date": "2025-06-26",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1531.2,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q2",
+      "date": "2025-06-26",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1366.2,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2025Q2",
+      "date": "2025-06-26",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1246.4,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2025Q2",
+      "date": "2025-06-26",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 692.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q2",
+      "date": "2025-06-26",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 566.2,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q2",
+      "date": "2025-06-26",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1122.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q2",
+      "date": "2025-06-26",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 965.0,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q3",
+      "date": "2025-09-25",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1880.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q3",
+      "date": "2025-09-25",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1539.5,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q3",
+      "date": "2025-09-25",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1391.7,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2025Q3",
+      "date": "2025-09-25",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1275.7,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2025Q3",
+      "date": "2025-09-25",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 712.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q3",
+      "date": "2025-09-25",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 539.4,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q3",
+      "date": "2025-09-25",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1168.8,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q3",
+      "date": "2025-09-25",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1000.1,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q4",
+      "date": "2025-12-25",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1972.9,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q4",
+      "date": "2025-12-25",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1585.1,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q4",
+      "date": "2025-12-25",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1432.5,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2025Q4",
+      "date": "2025-12-25",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1309.0,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2025Q4",
+      "date": "2025-12-25",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 749.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q4",
+      "date": "2025-12-25",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 559.5,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q4",
+      "date": "2025-12-25",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1223.2,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2025Q4",
+      "date": "2025-12-25",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1025.6,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2026Q1",
+      "date": "2026-03-26",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 2039.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2026Q1",
+      "date": "2026-03-26",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1617.1,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2026Q1",
+      "date": "2026-03-26",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1479.3,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2026Q1",
+      "date": "2026-03-26",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1364.6,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2026Q1",
+      "date": "2026-03-26",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 759.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2026Q1",
+      "date": "2026-03-26",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 543.3,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2026Q1",
+      "date": "2026-03-26",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1280.0,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2026Q1",
+      "date": "2026-03-26",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1073.9,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2026Q2",
+      "date": "2026-06-25",
+      "group": "seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 2111.6,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2026Q2",
+      "date": "2026-06-25",
+      "group": "seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1711.9,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    },
+    {
+      "period": "2026Q2",
+      "date": "2026-06-25",
+      "group": "gyeonggi",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1529.6,
+      "coverage_pct": [
+        90,
+        100
+      ],
+      "below80": false
+    },
+    {
+      "period": "2026Q2",
+      "date": "2026-06-25",
+      "group": "gyeonggi",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1426.2,
+      "coverage_pct": [
+        80,
+        90
+      ],
+      "below80": false
+    },
+    {
+      "period": "2026Q2",
+      "date": "2026-06-25",
+      "group": "gangnam3",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 765.5,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2026Q2",
+      "date": "2026-06-25",
+      "group": "gangnam3",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 577.9,
+      "coverage_pct": [
+        50,
+        60
+      ],
+      "below80": true
+    },
+    {
+      "period": "2026Q2",
+      "date": "2026-06-25",
+      "group": "rest_seoul",
+      "mode": "all",
+      "supported": true,
+      "value_trillion": 1346.1,
+      "coverage_pct": [
+        70,
+        80
+      ],
+      "below80": true
+    },
+    {
+      "period": "2026Q2",
+      "date": "2026-06-25",
+      "group": "rest_seoul",
+      "mode": "normal",
+      "supported": true,
+      "value_trillion": 1133.9,
+      "coverage_pct": [
+        60,
+        70
+      ],
+      "below80": true
+    }
+  ],
+  "shares": [
+    {
+      "period": "2011Q1",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 33.3
+    },
+    {
+      "period": "2011Q1",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 31.5
+    },
+    {
+      "period": "2011Q2",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 32.4
+    },
+    {
+      "period": "2011Q2",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 30.7
+    },
+    {
+      "period": "2011Q3",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 33.0
+    },
+    {
+      "period": "2011Q3",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 30.9
+    },
+    {
+      "period": "2011Q4",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 32.5
+    },
+    {
+      "period": "2011Q4",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 31.1
+    },
+    {
+      "period": "2012Q1",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 32.0
+    },
+    {
+      "period": "2012Q1",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 29.9
+    },
+    {
+      "period": "2012Q2",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 31.6
+    },
+    {
+      "period": "2012Q2",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 29.8
+    },
+    {
+      "period": "2012Q3",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 31.6
+    },
+    {
+      "period": "2012Q3",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 30.0
+    },
+    {
+      "period": "2012Q4",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 31.2
+    },
+    {
+      "period": "2012Q4",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 30.0
+    },
+    {
+      "period": "2013Q1",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 31.6
+    },
+    {
+      "period": "2013Q1",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 30.7
+    },
+    {
+      "period": "2013Q2",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 31.4
+    },
+    {
+      "period": "2013Q2",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 30.4
+    },
+    {
+      "period": "2013Q3",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 31.1
+    },
+    {
+      "period": "2013Q3",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 29.5
+    },
+    {
+      "period": "2013Q4",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 31.4
+    },
+    {
+      "period": "2013Q4",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 29.2
+    },
+    {
+      "period": "2014Q1",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 31.6
+    },
+    {
+      "period": "2014Q1",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 29.8
+    },
+    {
+      "period": "2014Q2",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 31.9
+    },
+    {
+      "period": "2014Q2",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 30.0
+    },
+    {
+      "period": "2014Q3",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 32.3
+    },
+    {
+      "period": "2014Q3",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 30.2
+    },
+    {
+      "period": "2014Q4",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 32.3
+    },
+    {
+      "period": "2014Q4",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 30.7
+    },
+    {
+      "period": "2015Q1",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 32.2
+    },
+    {
+      "period": "2015Q1",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 30.3
+    },
+    {
+      "period": "2015Q2",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 32.2
+    },
+    {
+      "period": "2015Q2",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 29.9
+    },
+    {
+      "period": "2015Q3",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 31.9
+    },
+    {
+      "period": "2015Q3",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 29.6
+    },
+    {
+      "period": "2015Q4",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 32.1
+    },
+    {
+      "period": "2015Q4",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 29.8
+    },
+    {
+      "period": "2016Q1",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 31.8
+    },
+    {
+      "period": "2016Q1",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 29.7
+    },
+    {
+      "period": "2016Q2",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 32.7
+    },
+    {
+      "period": "2016Q2",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 30.0
+    },
+    {
+      "period": "2016Q3",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 33.0
+    },
+    {
+      "period": "2016Q3",
+      "mode": "normal",
+      "supported": false,
+      "share_pct": null
+    },
+    {
+      "period": "2016Q4",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 32.9
+    },
+    {
+      "period": "2016Q4",
+      "mode": "normal",
+      "supported": false,
+      "share_pct": null
+    },
+    {
+      "period": "2017Q1",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 32.8
+    },
+    {
+      "period": "2017Q1",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 30.7
+    },
+    {
+      "period": "2017Q2",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 33.4
+    },
+    {
+      "period": "2017Q2",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 31.5
+    },
+    {
+      "period": "2017Q3",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 33.8
+    },
+    {
+      "period": "2017Q3",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 31.9
+    },
+    {
+      "period": "2017Q4",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 34.3
+    },
+    {
+      "period": "2017Q4",
+      "mode": "normal",
+      "supported": false,
+      "share_pct": null
+    },
+    {
+      "period": "2018Q1",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 34.7
+    },
+    {
+      "period": "2018Q1",
+      "mode": "normal",
+      "supported": false,
+      "share_pct": null
+    },
+    {
+      "period": "2018Q2",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 34.3
+    },
+    {
+      "period": "2018Q2",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 31.6
+    },
+    {
+      "period": "2018Q3",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 34.4
+    },
+    {
+      "period": "2018Q3",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 32.1
+    },
+    {
+      "period": "2018Q4",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 33.7
+    },
+    {
+      "period": "2018Q4",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 31.8
+    },
+    {
+      "period": "2019Q1",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 33.3
+    },
+    {
+      "period": "2019Q1",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 29.9
+    },
+    {
+      "period": "2019Q2",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 34.3
+    },
+    {
+      "period": "2019Q2",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 33.9
+    },
+    {
+      "period": "2019Q3",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 35.3
+    },
+    {
+      "period": "2019Q3",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 33.7
+    },
+    {
+      "period": "2019Q4",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 35.5
+    },
+    {
+      "period": "2019Q4",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 33.4
+    },
+    {
+      "period": "2020Q1",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 34.3
+    },
+    {
+      "period": "2020Q1",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 32.4
+    },
+    {
+      "period": "2020Q2",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 33.6
+    },
+    {
+      "period": "2020Q2",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 30.8
+    },
+    {
+      "period": "2020Q3",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 33.2
+    },
+    {
+      "period": "2020Q3",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 30.8
+    },
+    {
+      "period": "2020Q4",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 33.1
+    },
+    {
+      "period": "2020Q4",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 30.4
+    },
+    {
+      "period": "2021Q1",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 32.8
+    },
+    {
+      "period": "2021Q1",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 29.9
+    },
+    {
+      "period": "2021Q2",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 32.7
+    },
+    {
+      "period": "2021Q2",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 30.0
+    },
+    {
+      "period": "2021Q3",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 33.0
+    },
+    {
+      "period": "2021Q3",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 30.7
+    },
+    {
+      "period": "2021Q4",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 33.3
+    },
+    {
+      "period": "2021Q4",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 30.4
+    },
+    {
+      "period": "2022Q1",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 33.2
+    },
+    {
+      "period": "2022Q1",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 32.8
+    },
+    {
+      "period": "2022Q2",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 33.4
+    },
+    {
+      "period": "2022Q2",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 33.8
+    },
+    {
+      "period": "2022Q3",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 33.3
+    },
+    {
+      "period": "2022Q3",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 35.3
+    },
+    {
+      "period": "2022Q4",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 33.2
+    },
+    {
+      "period": "2022Q4",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 35.3
+    },
+    {
+      "period": "2023Q1",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 33.6
+    },
+    {
+      "period": "2023Q1",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 35.2
+    },
+    {
+      "period": "2023Q2",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 34.9
+    },
+    {
+      "period": "2023Q2",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 34.8
+    },
+    {
+      "period": "2023Q3",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 35.6
+    },
+    {
+      "period": "2023Q3",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 34.5
+    },
+    {
+      "period": "2023Q4",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 35.6
+    },
+    {
+      "period": "2023Q4",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 34.6
+    },
+    {
+      "period": "2024Q1",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 35.9
+    },
+    {
+      "period": "2024Q1",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 33.9
+    },
+    {
+      "period": "2024Q2",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 36.1
+    },
+    {
+      "period": "2024Q2",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 34.7
+    },
+    {
+      "period": "2024Q3",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 36.6
+    },
+    {
+      "period": "2024Q3",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 35.8
+    },
+    {
+      "period": "2024Q4",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 36.9
+    },
+    {
+      "period": "2024Q4",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 36.0
+    },
+    {
+      "period": "2025Q1",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 38.2
+    },
+    {
+      "period": "2025Q1",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 38.3
+    },
+    {
+      "period": "2025Q2",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 38.2
+    },
+    {
+      "period": "2025Q2",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 37.0
+    },
+    {
+      "period": "2025Q3",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 37.9
+    },
+    {
+      "period": "2025Q3",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 35.0
+    },
+    {
+      "period": "2025Q4",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 38.0
+    },
+    {
+      "period": "2025Q4",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 35.3
+    },
+    {
+      "period": "2026Q1",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 37.2
+    },
+    {
+      "period": "2026Q1",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 33.6
+    },
+    {
+      "period": "2026Q2",
+      "mode": "all",
+      "supported": true,
+      "share_pct": 36.3
+    },
+    {
+      "period": "2026Q2",
+      "mode": "normal",
+      "supported": true,
+      "share_pct": 33.8
+    }
+  ],
+  "pairs": [
+    {
+      "group": "seoul",
+      "mode": "all",
+      "start": "2011Q1",
+      "end": "2026Q2",
+      "supported": true,
+      "change_pct": 178.3,
+      "first_coverage_pct": [
+        70,
+        80
+      ],
+      "last_coverage_pct": [
+        50,
+        60
+      ]
+    },
+    {
+      "group": "seoul",
+      "mode": "normal",
+      "start": "2011Q1",
+      "end": "2026Q2",
+      "supported": true,
+      "change_pct": 187.0,
+      "first_coverage_pct": [
+        50,
+        60
+      ],
+      "last_coverage_pct": [
+        40,
+        50
+      ]
+    },
+    {
+      "group": "gyeonggi",
+      "mode": "all",
+      "start": "2011Q1",
+      "end": "2026Q2",
+      "supported": true,
+      "change_pct": 91.2,
+      "first_coverage_pct": [
+        80,
+        90
+      ],
+      "last_coverage_pct": [
+        50,
+        60
+      ]
+    },
+    {
+      "group": "gyeonggi",
+      "mode": "normal",
+      "start": "2011Q1",
+      "end": "2026Q2",
+      "supported": true,
+      "change_pct": 95.9,
+      "first_coverage_pct": [
+        70,
+        80
+      ],
+      "last_coverage_pct": [
+        40,
+        50
+      ]
+    },
+    {
+      "group": "gangnam3",
+      "mode": "all",
+      "start": "2011Q1",
+      "end": "2026Q2",
+      "supported": true,
+      "change_pct": 205.3,
+      "first_coverage_pct": [
+        70,
+        80
+      ],
+      "last_coverage_pct": [
+        50,
+        60
+      ]
+    },
+    {
+      "group": "gangnam3",
+      "mode": "normal",
+      "start": "2011Q1",
+      "end": "2026Q2",
+      "supported": true,
+      "change_pct": 216.9,
+      "first_coverage_pct": [
+        50,
+        60
+      ],
+      "last_coverage_pct": [
+        30,
+        40
+      ]
+    },
+    {
+      "group": "rest_seoul",
+      "mode": "all",
+      "start": "2011Q1",
+      "end": "2026Q2",
+      "supported": true,
+      "change_pct": 165.0,
+      "first_coverage_pct": [
+        70,
+        80
+      ],
+      "last_coverage_pct": [
+        50,
+        60
+      ]
+    },
+    {
+      "group": "rest_seoul",
+      "mode": "normal",
+      "start": "2011Q1",
+      "end": "2026Q2",
+      "supported": true,
+      "change_pct": 173.9,
+      "first_coverage_pct": [
+        50,
+        60
+      ],
+      "last_coverage_pct": [
+        40,
+        50
+      ]
+    }
+  ],
+  "definition": "Current measured exact-area stock at historical native sale prices. Sum(reference price/unit_type*exact area/3.3058*households). Known future construction excluded, unknown year retained.",
+  "coverage": "Priced measured households divided by all known positive complex households, including unmapped area stock. Unknown household totals are outside the denominator. Closed10percentage-point ranges; below80 flag is exact.",
+  "support": "100households,10complexes,20% coverage and maximum20% complex value contribution; direct all-minus-normal complement checked; related Seoul normal rows withheld together where concentration exceeds20%.",
+  "precision": "Amounts0.1trillion KRW; shares/changes0.1percent; no exact households, complex counts, IDs, native prices, pair numerators or denominators.",
+  "limitations": [
+    "Not the full current or historical apartment wealth, not net equity or realized sale proceeds.",
+    "Surviving current stock and retrospective model; historical entry/removal and information vintages are not reconstructed.",
+    "Common-endpoint growth uses the same priced exact-area homes at both endpoints, with present-day weights; normal conditions change that cohort.",
+    "No aggregate confidence interval or causal decomposition."
+  ],
+  "sources": {
+    "sale": "https://www.data.go.kr/data/15126468/openapi.do",
+    "transaction_faq": "https://rt.molit.go.kr/pt/bbs/faqList.do?mobileAt=&qnaProcessSttusCode=1"
+  }
+}
