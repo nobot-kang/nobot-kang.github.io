@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-12T03:55:41+09:00</updated>
+  <updated>2026-10-12T04:10:00+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>중간 소득으로 살 수 있는 아파트 비율은? 서울·경기 KB HOI 16년</title>
+    <id>https://nobot-kang.github.io/posts/housing-opportunity-seoul-gyeonggi/</id>
+    <published>2026-10-12T04:10:00+09:00</published>
+    <updated>2026-10-12T04:10:00+09:00</updated>
+    <summary>서울·경기 KB 주택구입잠재력지수를 2010~2026년 분기로 비교합니다. 2019년 소득조사 변경, 구간별 최고·최저와 소득·금리 가정, 실제 매물·개인 구매력과의 차이를 확인합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/housing-opportunity-seoul-gyeonggi/" />
+    <category term="소득과 부담" />
+  </entry>
   <entry>
     <title>집값이 오르면 서울을 더 떠날까? 16년 순이동과 매매·전세 지수</title>
     <id>https://nobot-kang.github.io/posts/seoul-migration-house-prices/</id>
