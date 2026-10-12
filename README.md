@@ -232,3 +232,26 @@ unknown-household complex coverage is a separate field. Null does not mean zero.
 There are no exact parking sums, household/complex counts, or complex IDs. Rounded
 100% does not prove every space is underground. Current surviving complexes cannot
 reconstruct original historical provision, parking availability, or price effects.
+
+`assets/contract-duration.json` (`contract_duration_v1`) contains 56 reported-period
+comparisons for Seoul25 and collected Gyeonggi36 apartment rentals. Main contracts
+are June2021–June2026; July–September2026 is separately provisional. Periods are
+positive start/end-month differences, not exact days, statutory protection or actual
+occupancy. Two-digit years mean2000+YY;23 months are never corrected to24. Seven bins
+uniformly combine36+ months. `eligible_n` is the cleaned cohort; `valid_n` excludes
+missing/incomplete/reversed/same-month/conflicting periods. Coverage divides by the
+former; period shares divide by the latter. Percentages round to0.1point; hypothetical
+omission bounds use all eligible contracts and outward rounding, not confidence limits.
+
+Area, lifecycle and year rows overlap: never sum different dimensions. Unknown
+lifecycle is neither new nor unused renewal rights. `standardized` compares complete
+2022–2025 years with common year/area/lifecycle groups having at least30 valid periods
+in both regions, weighted by pooled valid counts. Common-sample unadjusted shares are
+possible bounds from already published full counts and excluded sample sizes, not
+exact common-sample shares. Excluded eligible/valid counts remain explicit. Exact
+common24 counts, fine group denominators, weights and individual identifiers are absent.
+Conflict, same-month, start-lag±12months and over60-month exclusions are separate
+sensitivities. The main distribution retains long reported periods. The current files
+contain some period values for2011 contracts; June2021 is a reporting-policy study
+boundary, not a verified first publication date. These data do not identify legal
+expiry dates, household moves, causal regional differences or every rental contract.

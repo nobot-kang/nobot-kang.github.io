@@ -1,0 +1,1748 @@
+{
+  "schema": "contract_duration_v1",
+  "period": [
+    "2021-06",
+    "2026-06"
+  ],
+  "recent_provisional": [
+    "2026-07",
+    "2026-09"
+  ],
+  "scopes": {
+    "11": "서울25구",
+    "41": "경기 수집36지역"
+  },
+  "unit": "신고된 시작월과 끝월의 차이(개월)",
+  "area_groups": {
+    "p17_18": "59형(전용17·18평형)",
+    "p25_26": "84형(전용25·26평형)",
+    "other": "기타 면적"
+  },
+  "duration_bins": [
+    "m01_11",
+    "m12",
+    "m13_22",
+    "m23",
+    "m24",
+    "m25_35",
+    "m36_plus"
+  ],
+  "rows": [
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "all",
+      "value": "all",
+      "eligible_n": 676229,
+      "valid_n": 607802,
+      "bins": {
+        "m01_11": 7185,
+        "m12": 12050,
+        "m13_22": 8708,
+        "m23": 17214,
+        "m24": 549903,
+        "m25_35": 9309,
+        "m36_plus": 3433
+      },
+      "coverage_pct": 89.9,
+      "m24_pct": 90.5,
+      "m23_24_pct": 93.3,
+      "omitted_assignment_m24_bounds_pct": [
+        81.3,
+        91.5
+      ],
+      "same_month_n": 145,
+      "m24_including_same_month_pct": 90.5,
+      "conflict_included": {
+        "eligible_n": 676229,
+        "valid_n": 614221,
+        "bins": {
+          "m01_11": 7325,
+          "m12": 12219,
+          "m13_22": 8866,
+          "m23": 17576,
+          "m24": 554941,
+          "m25_35": 9666,
+          "m36_plus": 3628
+        },
+        "coverage_pct": 90.8,
+        "m24_pct": 90.3,
+        "m23_24_pct": 93.2,
+        "omitted_assignment_m24_bounds_pct": [
+          82.0,
+          91.3
+        ],
+        "same_month_n": 173,
+        "m24_including_same_month_pct": 90.3
+      },
+      "start_aligned": {
+        "eligible_n": 676229,
+        "valid_n": 607333,
+        "m24_n": 549597,
+        "m24_pct": 90.5
+      }
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "p17_18",
+      "eligible_n": 182330,
+      "valid_n": 158620,
+      "bins": {
+        "m01_11": 1900,
+        "m12": 3009,
+        "m13_22": 2080,
+        "m23": 6349,
+        "m24": 142518,
+        "m25_35": 2189,
+        "m36_plus": 575
+      },
+      "coverage_pct": 87.0,
+      "m24_pct": 89.8,
+      "m23_24_pct": 93.9,
+      "omitted_assignment_m24_bounds_pct": [
+        78.1,
+        91.2
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "p25_26",
+      "eligible_n": 226024,
+      "valid_n": 207378,
+      "bins": {
+        "m01_11": 2589,
+        "m12": 3731,
+        "m13_22": 3485,
+        "m23": 4953,
+        "m24": 187822,
+        "m25_35": 3456,
+        "m36_plus": 1342
+      },
+      "coverage_pct": 91.8,
+      "m24_pct": 90.6,
+      "m23_24_pct": 93.0,
+      "omitted_assignment_m24_bounds_pct": [
+        83.0,
+        91.4
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "other",
+      "eligible_n": 267875,
+      "valid_n": 241804,
+      "bins": {
+        "m01_11": 2696,
+        "m12": 5310,
+        "m13_22": 3143,
+        "m23": 5912,
+        "m24": 219563,
+        "m25_35": 3664,
+        "m36_plus": 1516
+      },
+      "coverage_pct": 90.3,
+      "m24_pct": 90.8,
+      "m23_24_pct": 93.2,
+      "omitted_assignment_m24_bounds_pct": [
+        81.9,
+        91.7
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "lifecycle",
+      "value": "new",
+      "eligible_n": 362918,
+      "valid_n": 335756,
+      "bins": {
+        "m01_11": 2869,
+        "m12": 2619,
+        "m13_22": 3090,
+        "m23": 4097,
+        "m24": 316230,
+        "m25_35": 4637,
+        "m36_plus": 2214
+      },
+      "coverage_pct": 92.5,
+      "m24_pct": 94.2,
+      "m23_24_pct": 95.4,
+      "omitted_assignment_m24_bounds_pct": [
+        87.1,
+        94.7
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "lifecycle",
+      "value": "renewal",
+      "eligible_n": 264875,
+      "valid_n": 258634,
+      "bins": {
+        "m01_11": 4049,
+        "m12": 9034,
+        "m13_22": 5399,
+        "m23": 9282,
+        "m24": 225283,
+        "m25_35": 4460,
+        "m36_plus": 1127
+      },
+      "coverage_pct": 97.6,
+      "m24_pct": 87.1,
+      "m23_24_pct": 90.7,
+      "omitted_assignment_m24_bounds_pct": [
+        85.0,
+        87.5
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "lifecycle",
+      "value": "unknown",
+      "eligible_n": 48436,
+      "valid_n": 13412,
+      "bins": {
+        "m01_11": 267,
+        "m12": 397,
+        "m13_22": 219,
+        "m23": 3835,
+        "m24": 8390,
+        "m25_35": 212,
+        "m36_plus": 92
+      },
+      "coverage_pct": 27.7,
+      "m24_pct": 62.6,
+      "m23_24_pct": 91.1,
+      "omitted_assignment_m24_bounds_pct": [
+        17.3,
+        89.7
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2021",
+      "eligible_n": 73283,
+      "valid_n": 63957,
+      "bins": {
+        "m01_11": 967,
+        "m12": 1224,
+        "m13_22": 1104,
+        "m23": 961,
+        "m24": 57845,
+        "m25_35": 1266,
+        "m36_plus": 590
+      },
+      "coverage_pct": 87.3,
+      "m24_pct": 90.4,
+      "m23_24_pct": 91.9,
+      "omitted_assignment_m24_bounds_pct": [
+        78.9,
+        91.7
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2022",
+      "eligible_n": 129352,
+      "valid_n": 108888,
+      "bins": {
+        "m01_11": 1216,
+        "m12": 2561,
+        "m13_22": 1578,
+        "m23": 1641,
+        "m24": 99569,
+        "m25_35": 1619,
+        "m36_plus": 704
+      },
+      "coverage_pct": 84.2,
+      "m24_pct": 91.4,
+      "m23_24_pct": 92.9,
+      "omitted_assignment_m24_bounds_pct": [
+        76.9,
+        92.8
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2023",
+      "eligible_n": 147723,
+      "valid_n": 127900,
+      "bins": {
+        "m01_11": 1157,
+        "m12": 2467,
+        "m13_22": 2073,
+        "m23": 1984,
+        "m24": 118103,
+        "m25_35": 1528,
+        "m36_plus": 588
+      },
+      "coverage_pct": 86.6,
+      "m24_pct": 92.3,
+      "m23_24_pct": 93.9,
+      "omitted_assignment_m24_bounds_pct": [
+        79.9,
+        93.4
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2024",
+      "eligible_n": 130855,
+      "valid_n": 118375,
+      "bins": {
+        "m01_11": 1434,
+        "m12": 2428,
+        "m13_22": 1539,
+        "m23": 1637,
+        "m24": 108906,
+        "m25_35": 1794,
+        "m36_plus": 637
+      },
+      "coverage_pct": 90.5,
+      "m24_pct": 92.0,
+      "m23_24_pct": 93.4,
+      "omitted_assignment_m24_bounds_pct": [
+        83.2,
+        92.8
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2025",
+      "eligible_n": 138495,
+      "valid_n": 133622,
+      "bins": {
+        "m01_11": 1818,
+        "m12": 2370,
+        "m13_22": 1741,
+        "m23": 7023,
+        "m24": 117807,
+        "m25_35": 2190,
+        "m36_plus": 673
+      },
+      "coverage_pct": 96.5,
+      "m24_pct": 88.2,
+      "m23_24_pct": 93.4,
+      "omitted_assignment_m24_bounds_pct": [
+        85.0,
+        88.6
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2026",
+      "eligible_n": 56521,
+      "valid_n": 55060,
+      "bins": {
+        "m01_11": 593,
+        "m12": 1000,
+        "m13_22": 673,
+        "m23": 3968,
+        "m24": 47673,
+        "m25_35": 912,
+        "m36_plus": 241
+      },
+      "coverage_pct": 97.4,
+      "m24_pct": 86.6,
+      "m23_24_pct": 93.8,
+      "omitted_assignment_m24_bounds_pct": [
+        84.3,
+        87.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2026-07",
+      "end": "2026-09",
+      "dimension": "recent",
+      "value": "provisional",
+      "eligible_n": 21591,
+      "valid_n": 21156,
+      "bins": {
+        "m01_11": 240,
+        "m12": 313,
+        "m13_22": 287,
+        "m23": 2252,
+        "m24": 17166,
+        "m25_35": 823,
+        "m36_plus": 75
+      },
+      "coverage_pct": 98.0,
+      "m24_pct": 81.1,
+      "m23_24_pct": 91.8,
+      "omitted_assignment_m24_bounds_pct": [
+        79.5,
+        81.6
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "all",
+      "value": "all",
+      "eligible_n": 537783,
+      "valid_n": 442455,
+      "bins": {
+        "m01_11": 9794,
+        "m12": 41734,
+        "m13_22": 6684,
+        "m23": 28163,
+        "m24": 337837,
+        "m25_35": 16625,
+        "m36_plus": 1618
+      },
+      "coverage_pct": 82.3,
+      "m24_pct": 76.4,
+      "m23_24_pct": 82.7,
+      "omitted_assignment_m24_bounds_pct": [
+        62.8,
+        80.6
+      ],
+      "same_month_n": 76,
+      "m24_including_same_month_pct": 76.3,
+      "conflict_included": {
+        "eligible_n": 537783,
+        "valid_n": 446449,
+        "bins": {
+          "m01_11": 9890,
+          "m12": 42002,
+          "m13_22": 6766,
+          "m23": 28448,
+          "m24": 340817,
+          "m25_35": 16846,
+          "m36_plus": 1680
+        },
+        "coverage_pct": 83.0,
+        "m24_pct": 76.3,
+        "m23_24_pct": 82.7,
+        "omitted_assignment_m24_bounds_pct": [
+          63.3,
+          80.4
+        ],
+        "same_month_n": 88,
+        "m24_including_same_month_pct": 76.3
+      },
+      "start_aligned": {
+        "eligible_n": 537783,
+        "valid_n": 441644,
+        "m24_n": 337637,
+        "m24_pct": 76.5
+      }
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "p17_18",
+      "eligible_n": 107431,
+      "valid_n": 89794,
+      "bins": {
+        "m01_11": 1427,
+        "m12": 3427,
+        "m13_22": 1419,
+        "m23": 5507,
+        "m24": 75247,
+        "m25_35": 2450,
+        "m36_plus": 317
+      },
+      "coverage_pct": 83.6,
+      "m24_pct": 83.8,
+      "m23_24_pct": 89.9,
+      "omitted_assignment_m24_bounds_pct": [
+        70.0,
+        86.5
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "p25_26",
+      "eligible_n": 113908,
+      "valid_n": 108249,
+      "bins": {
+        "m01_11": 2409,
+        "m12": 4058,
+        "m13_22": 2026,
+        "m23": 2135,
+        "m24": 95767,
+        "m25_35": 1291,
+        "m36_plus": 563
+      },
+      "coverage_pct": 95.0,
+      "m24_pct": 88.5,
+      "m23_24_pct": 90.4,
+      "omitted_assignment_m24_bounds_pct": [
+        84.0,
+        89.1
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "other",
+      "eligible_n": 316444,
+      "valid_n": 244412,
+      "bins": {
+        "m01_11": 5958,
+        "m12": 34249,
+        "m13_22": 3239,
+        "m23": 20521,
+        "m24": 166823,
+        "m25_35": 12884,
+        "m36_plus": 738
+      },
+      "coverage_pct": 77.2,
+      "m24_pct": 68.3,
+      "m23_24_pct": 76.7,
+      "omitted_assignment_m24_bounds_pct": [
+        52.7,
+        75.5
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "lifecycle",
+      "value": "new",
+      "eligible_n": 331127,
+      "valid_n": 284978,
+      "bins": {
+        "m01_11": 6319,
+        "m12": 30074,
+        "m13_22": 3687,
+        "m23": 5799,
+        "m24": 224509,
+        "m25_35": 13456,
+        "m36_plus": 1134
+      },
+      "coverage_pct": 86.1,
+      "m24_pct": 78.8,
+      "m23_24_pct": 80.8,
+      "omitted_assignment_m24_bounds_pct": [
+        67.8,
+        81.8
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "lifecycle",
+      "value": "renewal",
+      "eligible_n": 146766,
+      "valid_n": 142587,
+      "bins": {
+        "m01_11": 3207,
+        "m12": 11123,
+        "m13_22": 2876,
+        "m23": 13003,
+        "m24": 109069,
+        "m25_35": 2892,
+        "m36_plus": 417
+      },
+      "coverage_pct": 97.2,
+      "m24_pct": 76.5,
+      "m23_24_pct": 85.6,
+      "omitted_assignment_m24_bounds_pct": [
+        74.3,
+        77.2
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "lifecycle",
+      "value": "unknown",
+      "eligible_n": 59890,
+      "valid_n": 14890,
+      "bins": {
+        "m01_11": 268,
+        "m12": 537,
+        "m13_22": 121,
+        "m23": 9361,
+        "m24": 4259,
+        "m25_35": 277,
+        "m36_plus": 67
+      },
+      "coverage_pct": 24.9,
+      "m24_pct": 28.6,
+      "m23_24_pct": 91.5,
+      "omitted_assignment_m24_bounds_pct": [
+        7.1,
+        82.3
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2021",
+      "eligible_n": 54232,
+      "valid_n": 37309,
+      "bins": {
+        "m01_11": 709,
+        "m12": 3335,
+        "m13_22": 668,
+        "m23": 932,
+        "m24": 30480,
+        "m25_35": 858,
+        "m36_plus": 327
+      },
+      "coverage_pct": 68.8,
+      "m24_pct": 81.7,
+      "m23_24_pct": 84.2,
+      "omitted_assignment_m24_bounds_pct": [
+        56.2,
+        87.5
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2022",
+      "eligible_n": 104029,
+      "valid_n": 75877,
+      "bins": {
+        "m01_11": 1571,
+        "m12": 7189,
+        "m13_22": 1206,
+        "m23": 1667,
+        "m24": 62565,
+        "m25_35": 1400,
+        "m36_plus": 279
+      },
+      "coverage_pct": 72.9,
+      "m24_pct": 82.5,
+      "m23_24_pct": 84.7,
+      "omitted_assignment_m24_bounds_pct": [
+        60.1,
+        87.3
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2023",
+      "eligible_n": 107933,
+      "valid_n": 78443,
+      "bins": {
+        "m01_11": 1603,
+        "m12": 7692,
+        "m13_22": 1355,
+        "m23": 1887,
+        "m24": 64274,
+        "m25_35": 1399,
+        "m36_plus": 233
+      },
+      "coverage_pct": 72.7,
+      "m24_pct": 81.9,
+      "m23_24_pct": 84.3,
+      "omitted_assignment_m24_bounds_pct": [
+        59.5,
+        86.9
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2024",
+      "eligible_n": 100495,
+      "valid_n": 84123,
+      "bins": {
+        "m01_11": 2079,
+        "m12": 8911,
+        "m13_22": 1178,
+        "m23": 2374,
+        "m24": 66408,
+        "m25_35": 2864,
+        "m36_plus": 309
+      },
+      "coverage_pct": 83.7,
+      "m24_pct": 78.9,
+      "m23_24_pct": 81.8,
+      "omitted_assignment_m24_bounds_pct": [
+        66.0,
+        82.4
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2025",
+      "eligible_n": 112444,
+      "valid_n": 108928,
+      "bins": {
+        "m01_11": 2475,
+        "m12": 9541,
+        "m13_22": 1333,
+        "m23": 13490,
+        "m24": 75575,
+        "m25_35": 6201,
+        "m36_plus": 313
+      },
+      "coverage_pct": 96.9,
+      "m24_pct": 69.4,
+      "m23_24_pct": 81.8,
+      "omitted_assignment_m24_bounds_pct": [
+        67.2,
+        70.4
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2026",
+      "eligible_n": 58650,
+      "valid_n": 57775,
+      "bins": {
+        "m01_11": 1357,
+        "m12": 5066,
+        "m13_22": 944,
+        "m23": 7813,
+        "m24": 38535,
+        "m25_35": 3903,
+        "m36_plus": 157
+      },
+      "coverage_pct": 98.5,
+      "m24_pct": 66.7,
+      "m23_24_pct": 80.2,
+      "omitted_assignment_m24_bounds_pct": [
+        65.7,
+        67.2
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2026-07",
+      "end": "2026-09",
+      "dimension": "recent",
+      "value": "provisional",
+      "eligible_n": 23437,
+      "valid_n": 23083,
+      "bins": {
+        "m01_11": 540,
+        "m12": 1851,
+        "m13_22": 384,
+        "m23": 2784,
+        "m24": 15721,
+        "m25_35": 1749,
+        "m36_plus": 54
+      },
+      "coverage_pct": 98.5,
+      "m24_pct": 68.1,
+      "m23_24_pct": 80.2,
+      "omitted_assignment_m24_bounds_pct": [
+        67.0,
+        68.6
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "all",
+      "value": "all",
+      "eligible_n": 881602,
+      "valid_n": 812262,
+      "bins": {
+        "m01_11": 12820,
+        "m12": 29555,
+        "m13_22": 14783,
+        "m23": 13237,
+        "m24": 725634,
+        "m25_35": 11690,
+        "m36_plus": 4543
+      },
+      "coverage_pct": 92.1,
+      "m24_pct": 89.3,
+      "m23_24_pct": 91.0,
+      "omitted_assignment_m24_bounds_pct": [
+        82.3,
+        90.2
+      ],
+      "same_month_n": 245,
+      "m24_including_same_month_pct": 89.3,
+      "conflict_included": {
+        "eligible_n": 881602,
+        "valid_n": 823061,
+        "bins": {
+          "m01_11": 13057,
+          "m12": 30090,
+          "m13_22": 15002,
+          "m23": 13671,
+          "m24": 734089,
+          "m25_35": 12340,
+          "m36_plus": 4812
+        },
+        "coverage_pct": 93.4,
+        "m24_pct": 89.2,
+        "m23_24_pct": 90.9,
+        "omitted_assignment_m24_bounds_pct": [
+          83.2,
+          90.0
+        ],
+        "same_month_n": 319,
+        "m24_including_same_month_pct": 89.2
+      },
+      "start_aligned": {
+        "eligible_n": 881602,
+        "valid_n": 811506,
+        "m24_n": 725128,
+        "m24_pct": 89.4
+      }
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "p17_18",
+      "eligible_n": 217242,
+      "valid_n": 200457,
+      "bins": {
+        "m01_11": 2960,
+        "m12": 6545,
+        "m13_22": 3918,
+        "m23": 3402,
+        "m24": 180140,
+        "m25_35": 2756,
+        "m36_plus": 736
+      },
+      "coverage_pct": 92.3,
+      "m24_pct": 89.9,
+      "m23_24_pct": 91.6,
+      "omitted_assignment_m24_bounds_pct": [
+        82.9,
+        90.7
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "p25_26",
+      "eligible_n": 322401,
+      "valid_n": 294384,
+      "bins": {
+        "m01_11": 5087,
+        "m12": 15277,
+        "m13_22": 5866,
+        "m23": 4550,
+        "m24": 257312,
+        "m25_35": 4442,
+        "m36_plus": 1850
+      },
+      "coverage_pct": 91.3,
+      "m24_pct": 87.4,
+      "m23_24_pct": 89.0,
+      "omitted_assignment_m24_bounds_pct": [
+        79.8,
+        88.6
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "other",
+      "eligible_n": 341959,
+      "valid_n": 317421,
+      "bins": {
+        "m01_11": 4773,
+        "m12": 7733,
+        "m13_22": 4999,
+        "m23": 5285,
+        "m24": 288182,
+        "m25_35": 4492,
+        "m36_plus": 1957
+      },
+      "coverage_pct": 92.8,
+      "m24_pct": 90.8,
+      "m23_24_pct": 92.5,
+      "omitted_assignment_m24_bounds_pct": [
+        84.2,
+        91.5
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "lifecycle",
+      "value": "new",
+      "eligible_n": 515212,
+      "valid_n": 505302,
+      "bins": {
+        "m01_11": 4847,
+        "m12": 6811,
+        "m13_22": 6472,
+        "m23": 7117,
+        "m24": 470475,
+        "m25_35": 6353,
+        "m36_plus": 3227
+      },
+      "coverage_pct": 98.1,
+      "m24_pct": 93.1,
+      "m23_24_pct": 94.5,
+      "omitted_assignment_m24_bounds_pct": [
+        91.3,
+        93.3
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "lifecycle",
+      "value": "renewal",
+      "eligible_n": 303723,
+      "valid_n": 296427,
+      "bins": {
+        "m01_11": 7658,
+        "m12": 22252,
+        "m13_22": 7966,
+        "m23": 5941,
+        "m24": 246193,
+        "m25_35": 5175,
+        "m36_plus": 1242
+      },
+      "coverage_pct": 97.6,
+      "m24_pct": 83.1,
+      "m23_24_pct": 85.1,
+      "omitted_assignment_m24_bounds_pct": [
+        81.0,
+        83.5
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "lifecycle",
+      "value": "unknown",
+      "eligible_n": 62667,
+      "valid_n": 10533,
+      "bins": {
+        "m01_11": 315,
+        "m12": 492,
+        "m13_22": 345,
+        "m23": 179,
+        "m24": 8966,
+        "m25_35": 162,
+        "m36_plus": 74
+      },
+      "coverage_pct": 16.8,
+      "m24_pct": 85.1,
+      "m23_24_pct": 86.8,
+      "omitted_assignment_m24_bounds_pct": [
+        14.3,
+        97.5
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2021",
+      "eligible_n": 99544,
+      "valid_n": 85462,
+      "bins": {
+        "m01_11": 1573,
+        "m12": 2000,
+        "m13_22": 1993,
+        "m23": 1255,
+        "m24": 76008,
+        "m25_35": 1893,
+        "m36_plus": 740
+      },
+      "coverage_pct": 85.9,
+      "m24_pct": 88.9,
+      "m23_24_pct": 90.4,
+      "omitted_assignment_m24_bounds_pct": [
+        76.3,
+        90.6
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2022",
+      "eligible_n": 176427,
+      "valid_n": 156070,
+      "bins": {
+        "m01_11": 2589,
+        "m12": 4604,
+        "m13_22": 4225,
+        "m23": 2346,
+        "m24": 138799,
+        "m25_35": 2569,
+        "m36_plus": 938
+      },
+      "coverage_pct": 88.5,
+      "m24_pct": 88.9,
+      "m23_24_pct": 90.4,
+      "omitted_assignment_m24_bounds_pct": [
+        78.6,
+        90.3
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2023",
+      "eligible_n": 189574,
+      "valid_n": 171005,
+      "bins": {
+        "m01_11": 2341,
+        "m12": 5300,
+        "m13_22": 3291,
+        "m23": 2800,
+        "m24": 154572,
+        "m25_35": 1990,
+        "m36_plus": 711
+      },
+      "coverage_pct": 90.2,
+      "m24_pct": 90.4,
+      "m23_24_pct": 92.0,
+      "omitted_assignment_m24_bounds_pct": [
+        81.5,
+        91.4
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2024",
+      "eligible_n": 172906,
+      "valid_n": 164710,
+      "bins": {
+        "m01_11": 2493,
+        "m12": 7574,
+        "m13_22": 2079,
+        "m23": 2289,
+        "m24": 147052,
+        "m25_35": 2140,
+        "m36_plus": 1083
+      },
+      "coverage_pct": 95.3,
+      "m24_pct": 89.3,
+      "m23_24_pct": 90.7,
+      "omitted_assignment_m24_bounds_pct": [
+        85.0,
+        89.8
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2025",
+      "eligible_n": 168873,
+      "valid_n": 162768,
+      "bins": {
+        "m01_11": 2636,
+        "m12": 6962,
+        "m13_22": 2090,
+        "m23": 3291,
+        "m24": 144823,
+        "m25_35": 2195,
+        "m36_plus": 771
+      },
+      "coverage_pct": 96.4,
+      "m24_pct": 89.0,
+      "m23_24_pct": 91.0,
+      "omitted_assignment_m24_bounds_pct": [
+        85.7,
+        89.4
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2026",
+      "eligible_n": 74278,
+      "valid_n": 72247,
+      "bins": {
+        "m01_11": 1188,
+        "m12": 3115,
+        "m13_22": 1105,
+        "m23": 1256,
+        "m24": 64380,
+        "m25_35": 903,
+        "m36_plus": 300
+      },
+      "coverage_pct": 97.3,
+      "m24_pct": 89.1,
+      "m23_24_pct": 90.8,
+      "omitted_assignment_m24_bounds_pct": [
+        86.6,
+        89.5
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2026-07",
+      "end": "2026-09",
+      "dimension": "recent",
+      "value": "provisional",
+      "eligible_n": 29287,
+      "valid_n": 28662,
+      "bins": {
+        "m01_11": 518,
+        "m12": 1144,
+        "m13_22": 510,
+        "m23": 1317,
+        "m24": 24690,
+        "m25_35": 385,
+        "m36_plus": 98
+      },
+      "coverage_pct": 97.9,
+      "m24_pct": 86.1,
+      "m23_24_pct": 90.7,
+      "omitted_assignment_m24_bounds_pct": [
+        84.3,
+        86.5
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "all",
+      "value": "all",
+      "eligible_n": 701035,
+      "valid_n": 578412,
+      "bins": {
+        "m01_11": 12224,
+        "m12": 47644,
+        "m13_22": 8820,
+        "m23": 93092,
+        "m24": 348666,
+        "m25_35": 65363,
+        "m36_plus": 2603
+      },
+      "coverage_pct": 82.5,
+      "m24_pct": 60.3,
+      "m23_24_pct": 76.4,
+      "omitted_assignment_m24_bounds_pct": [
+        49.7,
+        67.3
+      ],
+      "same_month_n": 77,
+      "m24_including_same_month_pct": 60.3,
+      "conflict_included": {
+        "eligible_n": 701035,
+        "valid_n": 583053,
+        "bins": {
+          "m01_11": 12408,
+          "m12": 47859,
+          "m13_22": 8908,
+          "m23": 93564,
+          "m24": 351859,
+          "m25_35": 65757,
+          "m36_plus": 2698
+        },
+        "coverage_pct": 83.2,
+        "m24_pct": 60.3,
+        "m23_24_pct": 76.4,
+        "omitted_assignment_m24_bounds_pct": [
+          50.1,
+          67.1
+        ],
+        "same_month_n": 90,
+        "m24_including_same_month_pct": 60.3
+      },
+      "start_aligned": {
+        "eligible_n": 701035,
+        "valid_n": 573248,
+        "m24_n": 347782,
+        "m24_pct": 60.7
+      }
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "p17_18",
+      "eligible_n": 128699,
+      "valid_n": 116248,
+      "bins": {
+        "m01_11": 2471,
+        "m12": 6637,
+        "m13_22": 2115,
+        "m23": 14648,
+        "m24": 81878,
+        "m25_35": 8187,
+        "m36_plus": 312
+      },
+      "coverage_pct": 90.3,
+      "m24_pct": 70.4,
+      "m23_24_pct": 83.0,
+      "omitted_assignment_m24_bounds_pct": [
+        63.6,
+        73.3
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "p25_26",
+      "eligible_n": 153079,
+      "valid_n": 141249,
+      "bins": {
+        "m01_11": 3519,
+        "m12": 8708,
+        "m13_22": 2908,
+        "m23": 8250,
+        "m24": 113964,
+        "m25_35": 2495,
+        "m36_plus": 1405
+      },
+      "coverage_pct": 92.3,
+      "m24_pct": 80.7,
+      "m23_24_pct": 86.5,
+      "omitted_assignment_m24_bounds_pct": [
+        74.4,
+        82.2
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "other",
+      "eligible_n": 419257,
+      "valid_n": 320915,
+      "bins": {
+        "m01_11": 6234,
+        "m12": 32299,
+        "m13_22": 3797,
+        "m23": 70194,
+        "m24": 152824,
+        "m25_35": 54681,
+        "m36_plus": 886
+      },
+      "coverage_pct": 76.5,
+      "m24_pct": 47.6,
+      "m23_24_pct": 69.5,
+      "omitted_assignment_m24_bounds_pct": [
+        36.4,
+        60.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "lifecycle",
+      "value": "new",
+      "eligible_n": 375018,
+      "valid_n": 369445,
+      "bins": {
+        "m01_11": 8690,
+        "m12": 36901,
+        "m13_22": 5886,
+        "m23": 15298,
+        "m24": 256916,
+        "m25_35": 43516,
+        "m36_plus": 2238
+      },
+      "coverage_pct": 98.5,
+      "m24_pct": 69.5,
+      "m23_24_pct": 73.7,
+      "omitted_assignment_m24_bounds_pct": [
+        68.5,
+        70.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "lifecycle",
+      "value": "renewal",
+      "eligible_n": 220653,
+      "valid_n": 205207,
+      "bins": {
+        "m01_11": 3358,
+        "m12": 10392,
+        "m13_22": 2824,
+        "m23": 77348,
+        "m24": 89161,
+        "m25_35": 21775,
+        "m36_plus": 349
+      },
+      "coverage_pct": 93.0,
+      "m24_pct": 43.4,
+      "m23_24_pct": 81.1,
+      "omitted_assignment_m24_bounds_pct": [
+        40.4,
+        47.5
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "lifecycle",
+      "value": "unknown",
+      "eligible_n": 105364,
+      "valid_n": 3760,
+      "bins": {
+        "m01_11": 176,
+        "m12": 351,
+        "m13_22": 110,
+        "m23": 446,
+        "m24": 2589,
+        "m25_35": 72,
+        "m36_plus": 16
+      },
+      "coverage_pct": 3.6,
+      "m24_pct": 68.9,
+      "m23_24_pct": 80.7,
+      "omitted_assignment_m24_bounds_pct": [
+        2.4,
+        98.9
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2021",
+      "eligible_n": 71224,
+      "valid_n": 43778,
+      "bins": {
+        "m01_11": 834,
+        "m12": 3511,
+        "m13_22": 772,
+        "m23": 4531,
+        "m24": 29825,
+        "m25_35": 3760,
+        "m36_plus": 545
+      },
+      "coverage_pct": 61.5,
+      "m24_pct": 68.1,
+      "m23_24_pct": 78.5,
+      "omitted_assignment_m24_bounds_pct": [
+        41.8,
+        80.5
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2022",
+      "eligible_n": 136575,
+      "valid_n": 93443,
+      "bins": {
+        "m01_11": 2181,
+        "m12": 8548,
+        "m13_22": 1870,
+        "m23": 8583,
+        "m24": 65880,
+        "m25_35": 5884,
+        "m36_plus": 497
+      },
+      "coverage_pct": 68.4,
+      "m24_pct": 70.5,
+      "m23_24_pct": 79.7,
+      "omitted_assignment_m24_bounds_pct": [
+        48.2,
+        79.9
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2023",
+      "eligible_n": 148444,
+      "valid_n": 105518,
+      "bins": {
+        "m01_11": 2435,
+        "m12": 9546,
+        "m13_22": 1997,
+        "m23": 15742,
+        "m24": 68270,
+        "m25_35": 6958,
+        "m36_plus": 570
+      },
+      "coverage_pct": 71.1,
+      "m24_pct": 64.7,
+      "m23_24_pct": 79.6,
+      "omitted_assignment_m24_bounds_pct": [
+        45.9,
+        75.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2024",
+      "eligible_n": 135138,
+      "valid_n": 129577,
+      "bins": {
+        "m01_11": 2409,
+        "m12": 9745,
+        "m13_22": 1555,
+        "m23": 24984,
+        "m24": 68348,
+        "m25_35": 22051,
+        "m36_plus": 485
+      },
+      "coverage_pct": 95.9,
+      "m24_pct": 52.7,
+      "m23_24_pct": 72.0,
+      "omitted_assignment_m24_bounds_pct": [
+        50.5,
+        54.7
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2025",
+      "eligible_n": 143153,
+      "valid_n": 140638,
+      "bins": {
+        "m01_11": 2917,
+        "m12": 10605,
+        "m13_22": 1648,
+        "m23": 26742,
+        "m24": 77212,
+        "m25_35": 21179,
+        "m36_plus": 335
+      },
+      "coverage_pct": 98.2,
+      "m24_pct": 54.9,
+      "m23_24_pct": 73.9,
+      "omitted_assignment_m24_bounds_pct": [
+        53.9,
+        55.7
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2026",
+      "eligible_n": 66501,
+      "valid_n": 65458,
+      "bins": {
+        "m01_11": 1448,
+        "m12": 5689,
+        "m13_22": 978,
+        "m23": 12510,
+        "m24": 39131,
+        "m25_35": 5531,
+        "m36_plus": 171
+      },
+      "coverage_pct": 98.4,
+      "m24_pct": 59.8,
+      "m23_24_pct": 78.9,
+      "omitted_assignment_m24_bounds_pct": [
+        58.8,
+        60.5
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2026-07",
+      "end": "2026-09",
+      "dimension": "recent",
+      "value": "provisional",
+      "eligible_n": 28476,
+      "valid_n": 28151,
+      "bins": {
+        "m01_11": 652,
+        "m12": 2041,
+        "m13_22": 423,
+        "m23": 5736,
+        "m24": 15260,
+        "m25_35": 3991,
+        "m36_plus": 48
+      },
+      "coverage_pct": 98.9,
+      "m24_pct": 54.2,
+      "m23_24_pct": 74.6,
+      "omitted_assignment_m24_bounds_pct": [
+        53.5,
+        54.8
+      ]
+    }
+  ],
+  "standardized": [
+    {
+      "market": "jeonse",
+      "start": "2022-01",
+      "end": "2025-12",
+      "scopes": {
+        "11": {
+          "complete_eligible_n": 546425,
+          "complete_valid_n": 488785,
+          "unadjusted_m24_pct": 90.9,
+          "common_eligible_n": 540459,
+          "common_valid_n": 485158,
+          "common_unadjusted_m24_bounds_pct": [
+            90.8,
+            91.6
+          ],
+          "standardized_m24_pct": 91.8,
+          "outside_common_eligible_n": 5966,
+          "outside_common_valid_n": 3627,
+          "common_eligible_coverage_pct": 98.9,
+          "common_valid_coverage_pct": 99.3
+        },
+        "41": {
+          "complete_eligible_n": 707780,
+          "complete_valid_n": 654553,
+          "unadjusted_m24_pct": 89.4,
+          "common_eligible_n": 704847,
+          "common_valid_n": 654524,
+          "common_unadjusted_m24_bounds_pct": [
+            89.4,
+            89.5
+          ],
+          "standardized_m24_pct": 89.2,
+          "outside_common_eligible_n": 2933,
+          "outside_common_valid_n": 29,
+          "common_eligible_coverage_pct": 99.6,
+          "common_valid_coverage_pct": 100.0
+        }
+      },
+      "common_groups": 33
+    },
+    {
+      "market": "monthly",
+      "start": "2022-01",
+      "end": "2025-12",
+      "scopes": {
+        "11": {
+          "complete_eligible_n": 424901,
+          "complete_valid_n": 347371,
+          "unadjusted_m24_pct": 77.4,
+          "common_eligible_n": 423688,
+          "common_valid_n": 347294,
+          "common_unadjusted_m24_bounds_pct": [
+            77.3,
+            77.5
+          ],
+          "standardized_m24_pct": 78.5,
+          "outside_common_eligible_n": 1213,
+          "outside_common_valid_n": 77,
+          "common_eligible_coverage_pct": 99.7,
+          "common_valid_coverage_pct": 100.0
+        },
+        "41": {
+          "complete_eligible_n": 563310,
+          "complete_valid_n": 469176,
+          "unadjusted_m24_pct": 59.6,
+          "common_eligible_n": 561819,
+          "common_valid_n": 469124,
+          "common_unadjusted_m24_bounds_pct": [
+            59.6,
+            59.7
+          ],
+          "standardized_m24_pct": 59.9,
+          "outside_common_eligible_n": 1491,
+          "outside_common_valid_n": 52,
+          "common_eligible_coverage_pct": 99.7,
+          "common_valid_coverage_pct": 100.0
+        }
+      },
+      "common_groups": 33
+    }
+  ],
+  "long_term_sensitivity": [
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "over_60_n": 182,
+      "m24_excluding_over_60_pct": 90.5
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "over_60_n": 74,
+      "m24_excluding_over_60_pct": 76.4
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "over_60_n": 481,
+      "m24_excluding_over_60_pct": 89.4
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "over_60_n": 1069,
+      "m24_excluding_over_60_pct": 60.4
+    }
+  ],
+  "precision": {
+    "counts": "integer",
+    "percentages": ".1 percentage point; interval endpoints round outward"
+  },
+  "official_checked": "2026-10-12",
+  "snapshot_built_at": "2026-10-03T19:15:55.508656+00:00",
+  "sources": {
+    "rent": "https://www.data.go.kr/data/15126474/openapi.do",
+    "law": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276291&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+    "reporting": "https://www.korea.kr/news/policyNewsView.do?newsId=148888119"
+  },
+  "definitions": {
+    "duration": "일자가 없는 월 차이입니다.23개월을24개월로 고치지 않으며 같은 월은0일 계약을 뜻하지 않습니다.",
+    "start": "현재 보유한 원천의2011년 계약분에도 기간 값이 일부 있습니다.2021-06은 신고제 시행에 맞춘 분석 시작이며 필드 최초 공표일이 아닙니다.",
+    "population": "서울25구·경기 수집36지역의 분석 조건을 충족한 아파트 신고 계약입니다. 모든 임차가구나 경기 전체가 아닙니다.",
+    "monthly": "월 차임이 양수인 계약을 보증금 크기와 무관하게 포함합니다.",
+    "valid": "양수 월 차이를 해석할 수 있고 기간 충돌이 없는 계약입니다.",
+    "unknown": "신규·갱신 구분 미상이며 신규 또는 갱신요구권 미사용으로 바꾸지 않습니다.",
+    "bounds": "유효 분포에서 제외한 모든 기간을24개월 또는 다른 기간으로 가정한 범위입니다. 신뢰구간이나 전체 가구의 범위가 아닙니다.",
+    "composition": "2022~2025년 연도·면적·계약구분을 함께 맞춥니다. 양쪽 유효30건 이상인 공통 그룹의 두 지역 합계로 가중합니다.",
+    "common_unadjusted_bounds": "공통 표본의 무조정 비중은 전체24개월 건수와 제외된 유효 계약 수로 계산한 가능한 범위입니다. 실제 공통 표본의24개월 건수를 따로 공개하지 않으며 신뢰구간도 아닙니다.",
+    "aligned": "시작월과 계약월의 차이가±12개월인 조건을 분석자가 정한 보조 비교입니다.",
+    "long_terms": "60개월 초과 제외는 보조 비교입니다. 주 분포에서는 지우지 않았습니다."
+  },
+  "limits": [
+    "신고 기간·법적 보호기간·실제 거주기간은 다릅니다.",
+    "임대차 신고와 확정일자 자료가 함께 들어갑니다. 금액 변동 없는 갱신 등 관측되지 않는 계약도 있습니다.",
+    "2021년은6~12월,2026년 주 분석은1~6월입니다.7~9월은 잠정 비교입니다.",
+    "기재 누락이 무작위라고 가정하지 않습니다. 구분 미상·연도별 기록률 차이를 함께 읽어야 합니다.",
+    "시작월·끝월의 오기 가능성이 있습니다. 큰 월 차이를 실제 장기 거주로 해석하지 않습니다.",
+    "구성 비교는 관측 차이를 나눈 것이며 인과효과나 누락 보정이 아닙니다."
+  ]
+}
