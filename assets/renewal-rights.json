@@ -1,0 +1,5797 @@
+{
+  "schema": "renewal_rights_v1",
+  "period": [
+    "2021-06",
+    "2026-06"
+  ],
+  "recent_provisional": [
+    "2026-07",
+    "2026-09"
+  ],
+  "scopes": {
+    "11": "서울 25개 구",
+    "41": "경기 수집 36개 지역"
+  },
+  "area_groups": {
+    "p17_18": "59형(전용 17·18평형)",
+    "p25_26": "84형(전용 25·26평형)",
+    "other": "기타 면적"
+  },
+  "policy_periods": {
+    "first_two": [
+      "2020-07-31",
+      "2022-07-30"
+    ],
+    "second_two": [
+      "2022-07-31",
+      "2024-07-30"
+    ],
+    "later": [
+      "2024-07-31",
+      "2026-06-30"
+    ]
+  },
+  "official_checked": "2026-10-12",
+  "snapshot_built_at": "2026-10-03T19:15:55.508656+00:00",
+  "precision": {
+    "counts": "integer",
+    "percentages": "0.1 percentage point, half-up; bounds round outward"
+  },
+  "rows": [
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "all",
+      "value": "all",
+      "new_n": 362918,
+      "right_n": 139989,
+      "unspecified_n": 124886,
+      "unknown_n": 48436,
+      "renewal_n": 264875,
+      "eligible_n": 676229,
+      "recorded_use_pct": 52.9,
+      "type_coverage_pct": 92.8,
+      "recorded_use_all_eligible_pct": 20.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        52.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        44.6,
+        100.0
+      ],
+      "excluded_n": 1800,
+      "total_n": 678029,
+      "term_conflict_excluded": {
+        "new_n": 358332,
+        "right_n": 139484,
+        "unspecified_n": 124087,
+        "unknown_n": 47696,
+        "renewal_n": 263571,
+        "eligible_n": 669599,
+        "recorded_use_pct": 52.9,
+        "type_coverage_pct": 92.9,
+        "recorded_use_all_eligible_pct": 20.8,
+        "known_renewal_missing_rights_bounds_pct": [
+          52.9,
+          100.0
+        ],
+        "both_missing_assignment_pct": [
+          44.8,
+          100.0
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "p17_18",
+      "area": "p17_18",
+      "new_n": 99962,
+      "right_n": 37217,
+      "unspecified_n": 30140,
+      "unknown_n": 15011,
+      "renewal_n": 67357,
+      "eligible_n": 182330,
+      "recorded_use_pct": 55.3,
+      "type_coverage_pct": 91.8,
+      "recorded_use_all_eligible_pct": 20.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        55.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        45.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "p25_26",
+      "area": "p25_26",
+      "new_n": 117673,
+      "right_n": 49971,
+      "unspecified_n": 44557,
+      "unknown_n": 13823,
+      "renewal_n": 94528,
+      "eligible_n": 226024,
+      "recorded_use_pct": 52.9,
+      "type_coverage_pct": 93.9,
+      "recorded_use_all_eligible_pct": 22.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        52.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        46.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "other",
+      "area": "other",
+      "new_n": 145283,
+      "right_n": 52801,
+      "unspecified_n": 50189,
+      "unknown_n": 19602,
+      "renewal_n": 102990,
+      "eligible_n": 267875,
+      "recorded_use_pct": 51.3,
+      "type_coverage_pct": 92.7,
+      "recorded_use_all_eligible_pct": 19.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        51.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        43.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2021-12",
+      "dimension": "year",
+      "value": "2021",
+      "new_n": 34486,
+      "right_n": 20028,
+      "unspecified_n": 7713,
+      "unknown_n": 11056,
+      "renewal_n": 27741,
+      "eligible_n": 73283,
+      "recorded_use_pct": 72.2,
+      "type_coverage_pct": 84.9,
+      "recorded_use_all_eligible_pct": 27.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        72.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        51.6,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2021-12",
+      "dimension": "year_area",
+      "value": "2021:p17_18",
+      "area": "p17_18",
+      "new_n": 8729,
+      "right_n": 5180,
+      "unspecified_n": 1648,
+      "unknown_n": 2961,
+      "renewal_n": 6828,
+      "eligible_n": 18518,
+      "recorded_use_pct": 75.9,
+      "type_coverage_pct": 84.0,
+      "recorded_use_all_eligible_pct": 28.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        75.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        52.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2021-12",
+      "dimension": "year_area",
+      "value": "2021:p25_26",
+      "area": "p25_26",
+      "new_n": 10521,
+      "right_n": 6867,
+      "unspecified_n": 2752,
+      "unknown_n": 3105,
+      "renewal_n": 9619,
+      "eligible_n": 23245,
+      "recorded_use_pct": 71.4,
+      "type_coverage_pct": 86.6,
+      "recorded_use_all_eligible_pct": 29.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        71.3,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        53.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2021-12",
+      "dimension": "year_area",
+      "value": "2021:other",
+      "area": "other",
+      "new_n": 15236,
+      "right_n": 7981,
+      "unspecified_n": 3313,
+      "unknown_n": 4990,
+      "renewal_n": 11294,
+      "eligible_n": 31520,
+      "recorded_use_pct": 70.7,
+      "type_coverage_pct": 84.2,
+      "recorded_use_all_eligible_pct": 25.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        70.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        49.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2022-01",
+      "end": "2022-12",
+      "dimension": "year",
+      "value": "2022",
+      "new_n": 56413,
+      "right_n": 38324,
+      "unspecified_n": 19636,
+      "unknown_n": 14979,
+      "renewal_n": 57960,
+      "eligible_n": 129352,
+      "recorded_use_pct": 66.1,
+      "type_coverage_pct": 88.4,
+      "recorded_use_all_eligible_pct": 29.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        66.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        52.5,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2022-01",
+      "end": "2022-12",
+      "dimension": "year_area",
+      "value": "2022:p17_18",
+      "area": "p17_18",
+      "new_n": 15973,
+      "right_n": 9857,
+      "unspecified_n": 4349,
+      "unknown_n": 4472,
+      "renewal_n": 14206,
+      "eligible_n": 34651,
+      "recorded_use_pct": 69.4,
+      "type_coverage_pct": 87.1,
+      "recorded_use_all_eligible_pct": 28.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        69.3,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        52.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2022-01",
+      "end": "2022-12",
+      "dimension": "year_area",
+      "value": "2022:p25_26",
+      "area": "p25_26",
+      "new_n": 17036,
+      "right_n": 13030,
+      "unspecified_n": 7130,
+      "unknown_n": 4200,
+      "renewal_n": 20160,
+      "eligible_n": 41396,
+      "recorded_use_pct": 64.6,
+      "type_coverage_pct": 89.9,
+      "recorded_use_all_eligible_pct": 31.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        64.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        53.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2022-01",
+      "end": "2022-12",
+      "dimension": "year_area",
+      "value": "2022:other",
+      "area": "other",
+      "new_n": 23404,
+      "right_n": 15437,
+      "unspecified_n": 8157,
+      "unknown_n": 6307,
+      "renewal_n": 23594,
+      "eligible_n": 53305,
+      "recorded_use_pct": 65.4,
+      "type_coverage_pct": 88.2,
+      "recorded_use_all_eligible_pct": 29.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        65.4,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        51.6,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2023-01",
+      "end": "2023-12",
+      "dimension": "year",
+      "value": "2023",
+      "new_n": 91157,
+      "right_n": 15853,
+      "unspecified_n": 28442,
+      "unknown_n": 12271,
+      "renewal_n": 44295,
+      "eligible_n": 147723,
+      "recorded_use_pct": 35.8,
+      "type_coverage_pct": 91.7,
+      "recorded_use_all_eligible_pct": 10.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        35.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        28.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2023-01",
+      "end": "2023-12",
+      "dimension": "year_area",
+      "value": "2023:p17_18",
+      "area": "p17_18",
+      "new_n": 25410,
+      "right_n": 4102,
+      "unspecified_n": 6464,
+      "unknown_n": 3553,
+      "renewal_n": 10566,
+      "eligible_n": 39529,
+      "recorded_use_pct": 38.8,
+      "type_coverage_pct": 91.0,
+      "recorded_use_all_eligible_pct": 10.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        38.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        29.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2023-01",
+      "end": "2023-12",
+      "dimension": "year_area",
+      "value": "2023:p25_26",
+      "area": "p25_26",
+      "new_n": 30407,
+      "right_n": 5872,
+      "unspecified_n": 10372,
+      "unknown_n": 3683,
+      "renewal_n": 16244,
+      "eligible_n": 50334,
+      "recorded_use_pct": 36.1,
+      "type_coverage_pct": 92.7,
+      "recorded_use_all_eligible_pct": 11.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        36.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        29.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2023-01",
+      "end": "2023-12",
+      "dimension": "year_area",
+      "value": "2023:other",
+      "area": "other",
+      "new_n": 35340,
+      "right_n": 5879,
+      "unspecified_n": 11606,
+      "unknown_n": 5035,
+      "renewal_n": 17485,
+      "eligible_n": 57860,
+      "recorded_use_pct": 33.6,
+      "type_coverage_pct": 91.3,
+      "recorded_use_all_eligible_pct": 10.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        33.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        26.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2024-01",
+      "end": "2024-12",
+      "dimension": "year",
+      "value": "2024",
+      "new_n": 83263,
+      "right_n": 15360,
+      "unspecified_n": 28894,
+      "unknown_n": 3338,
+      "renewal_n": 44254,
+      "eligible_n": 130855,
+      "recorded_use_pct": 34.7,
+      "type_coverage_pct": 97.4,
+      "recorded_use_all_eligible_pct": 11.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        34.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        32.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2024-01",
+      "end": "2024-12",
+      "dimension": "year_area",
+      "value": "2024:p17_18",
+      "area": "p17_18",
+      "new_n": 23877,
+      "right_n": 4187,
+      "unspecified_n": 7044,
+      "unknown_n": 1110,
+      "renewal_n": 11231,
+      "eligible_n": 36218,
+      "recorded_use_pct": 37.3,
+      "type_coverage_pct": 96.9,
+      "recorded_use_all_eligible_pct": 11.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        37.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        33.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2024-01",
+      "end": "2024-12",
+      "dimension": "year_area",
+      "value": "2024:p25_26",
+      "area": "p25_26",
+      "new_n": 26907,
+      "right_n": 5597,
+      "unspecified_n": 10168,
+      "unknown_n": 1016,
+      "renewal_n": 15765,
+      "eligible_n": 43688,
+      "recorded_use_pct": 35.5,
+      "type_coverage_pct": 97.7,
+      "recorded_use_all_eligible_pct": 12.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        35.5,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        33.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2024-01",
+      "end": "2024-12",
+      "dimension": "year_area",
+      "value": "2024:other",
+      "area": "other",
+      "new_n": 32479,
+      "right_n": 5576,
+      "unspecified_n": 11682,
+      "unknown_n": 1212,
+      "renewal_n": 17258,
+      "eligible_n": 50949,
+      "recorded_use_pct": 32.3,
+      "type_coverage_pct": 97.6,
+      "recorded_use_all_eligible_pct": 10.9,
+      "known_renewal_missing_rights_bounds_pct": [
+        32.3,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        30.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2025-01",
+      "end": "2025-12",
+      "dimension": "year",
+      "value": "2025",
+      "new_n": 70937,
+      "right_n": 34679,
+      "unspecified_n": 26913,
+      "unknown_n": 5966,
+      "renewal_n": 61592,
+      "eligible_n": 138495,
+      "recorded_use_pct": 56.3,
+      "type_coverage_pct": 95.7,
+      "recorded_use_all_eligible_pct": 25.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        56.3,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        51.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2025-01",
+      "end": "2025-12",
+      "dimension": "year_area",
+      "value": "2025:p17_18",
+      "area": "p17_18",
+      "new_n": 19086,
+      "right_n": 9531,
+      "unspecified_n": 6734,
+      "unknown_n": 2632,
+      "renewal_n": 16265,
+      "eligible_n": 37983,
+      "recorded_use_pct": 58.6,
+      "type_coverage_pct": 93.1,
+      "recorded_use_all_eligible_pct": 25.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        58.5,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        50.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2025-01",
+      "end": "2025-12",
+      "dimension": "year_area",
+      "value": "2025:p25_26",
+      "area": "p25_26",
+      "new_n": 24360,
+      "right_n": 12869,
+      "unspecified_n": 9571,
+      "unknown_n": 1547,
+      "renewal_n": 22440,
+      "eligible_n": 48347,
+      "recorded_use_pct": 57.3,
+      "type_coverage_pct": 96.8,
+      "recorded_use_all_eligible_pct": 26.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        57.3,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        53.6,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2025-01",
+      "end": "2025-12",
+      "dimension": "year_area",
+      "value": "2025:other",
+      "area": "other",
+      "new_n": 27491,
+      "right_n": 12279,
+      "unspecified_n": 10608,
+      "unknown_n": 1787,
+      "renewal_n": 22887,
+      "eligible_n": 52165,
+      "recorded_use_pct": 53.7,
+      "type_coverage_pct": 96.6,
+      "recorded_use_all_eligible_pct": 23.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        53.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        49.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2026",
+      "new_n": 26662,
+      "right_n": 15745,
+      "unspecified_n": 13288,
+      "unknown_n": 826,
+      "renewal_n": 29033,
+      "eligible_n": 56521,
+      "recorded_use_pct": 54.2,
+      "type_coverage_pct": 98.5,
+      "recorded_use_all_eligible_pct": 27.9,
+      "known_renewal_missing_rights_bounds_pct": [
+        54.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        52.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "year_area",
+      "value": "2026:p17_18",
+      "area": "p17_18",
+      "new_n": 6887,
+      "right_n": 4360,
+      "unspecified_n": 3901,
+      "unknown_n": 283,
+      "renewal_n": 8261,
+      "eligible_n": 15431,
+      "recorded_use_pct": 52.8,
+      "type_coverage_pct": 98.2,
+      "recorded_use_all_eligible_pct": 28.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        52.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        51.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "year_area",
+      "value": "2026:p25_26",
+      "area": "p25_26",
+      "new_n": 8442,
+      "right_n": 5736,
+      "unspecified_n": 4564,
+      "unknown_n": 272,
+      "renewal_n": 10300,
+      "eligible_n": 19014,
+      "recorded_use_pct": 55.7,
+      "type_coverage_pct": 98.6,
+      "recorded_use_all_eligible_pct": 30.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        55.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        54.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "year_area",
+      "value": "2026:other",
+      "area": "other",
+      "new_n": 11333,
+      "right_n": 5649,
+      "unspecified_n": 4823,
+      "unknown_n": 271,
+      "renewal_n": 10472,
+      "eligible_n": 22076,
+      "recorded_use_pct": 53.9,
+      "type_coverage_pct": 98.8,
+      "recorded_use_all_eligible_pct": 25.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        53.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        52.5,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2025-01",
+      "end": "2025-06",
+      "dimension": "same_h1",
+      "value": "2025",
+      "new_n": 37785,
+      "right_n": 17557,
+      "unspecified_n": 13558,
+      "unknown_n": 3862,
+      "renewal_n": 31115,
+      "eligible_n": 72762,
+      "recorded_use_pct": 56.4,
+      "type_coverage_pct": 94.7,
+      "recorded_use_all_eligible_pct": 24.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        56.4,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        50.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "same_h1",
+      "value": "2026",
+      "new_n": 26662,
+      "right_n": 15745,
+      "unspecified_n": 13288,
+      "unknown_n": 826,
+      "renewal_n": 29033,
+      "eligible_n": 56521,
+      "recorded_use_pct": 54.2,
+      "type_coverage_pct": 98.5,
+      "recorded_use_all_eligible_pct": 27.9,
+      "known_renewal_missing_rights_bounds_pct": [
+        54.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        52.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2026-07",
+      "end": "2026-09",
+      "dimension": "recent",
+      "value": "provisional",
+      "new_n": 9110,
+      "right_n": 6408,
+      "unspecified_n": 5795,
+      "unknown_n": 278,
+      "renewal_n": 12203,
+      "eligible_n": 21591,
+      "recorded_use_pct": 52.5,
+      "type_coverage_pct": 98.7,
+      "recorded_use_all_eligible_pct": 29.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        52.5,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        51.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "all",
+      "value": "all",
+      "new_n": 331127,
+      "right_n": 52934,
+      "unspecified_n": 93832,
+      "unknown_n": 59890,
+      "renewal_n": 146766,
+      "eligible_n": 537783,
+      "recorded_use_pct": 36.1,
+      "type_coverage_pct": 88.9,
+      "recorded_use_all_eligible_pct": 9.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        36.0,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        25.6,
+        100.0
+      ],
+      "excluded_n": 1485,
+      "total_n": 539268,
+      "term_conflict_excluded": {
+        "new_n": 328107,
+        "right_n": 52787,
+        "unspecified_n": 93141,
+        "unknown_n": 59583,
+        "renewal_n": 145928,
+        "eligible_n": 533618,
+        "recorded_use_pct": 36.2,
+        "type_coverage_pct": 88.8,
+        "recorded_use_all_eligible_pct": 9.9,
+        "known_renewal_missing_rights_bounds_pct": [
+          36.1,
+          100.0
+        ],
+        "both_missing_assignment_pct": [
+          25.6,
+          100.0
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "p17_18",
+      "area": "p17_18",
+      "new_n": 69097,
+      "right_n": 12550,
+      "unspecified_n": 17839,
+      "unknown_n": 7945,
+      "renewal_n": 30389,
+      "eligible_n": 107431,
+      "recorded_use_pct": 41.3,
+      "type_coverage_pct": 92.6,
+      "recorded_use_all_eligible_pct": 11.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        41.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        32.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "p25_26",
+      "area": "p25_26",
+      "new_n": 68002,
+      "right_n": 17468,
+      "unspecified_n": 23125,
+      "unknown_n": 5313,
+      "renewal_n": 40593,
+      "eligible_n": 113908,
+      "recorded_use_pct": 43.0,
+      "type_coverage_pct": 95.3,
+      "recorded_use_all_eligible_pct": 15.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        43.0,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        38.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "other",
+      "area": "other",
+      "new_n": 194028,
+      "right_n": 22916,
+      "unspecified_n": 52868,
+      "unknown_n": 46632,
+      "renewal_n": 75784,
+      "eligible_n": 316444,
+      "recorded_use_pct": 30.2,
+      "type_coverage_pct": 85.3,
+      "recorded_use_all_eligible_pct": 7.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        30.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        18.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2021-12",
+      "dimension": "year",
+      "value": "2021",
+      "new_n": 32832,
+      "right_n": 5293,
+      "unspecified_n": 4432,
+      "unknown_n": 11675,
+      "renewal_n": 9725,
+      "eligible_n": 54232,
+      "recorded_use_pct": 54.4,
+      "type_coverage_pct": 78.5,
+      "recorded_use_all_eligible_pct": 9.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        54.4,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        24.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2021-12",
+      "dimension": "year_area",
+      "value": "2021:p17_18",
+      "area": "p17_18",
+      "new_n": 8252,
+      "right_n": 1262,
+      "unspecified_n": 890,
+      "unknown_n": 1404,
+      "renewal_n": 2152,
+      "eligible_n": 11808,
+      "recorded_use_pct": 58.6,
+      "type_coverage_pct": 88.1,
+      "recorded_use_all_eligible_pct": 10.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        58.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        35.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2021-12",
+      "dimension": "year_area",
+      "value": "2021:p25_26",
+      "area": "p25_26",
+      "new_n": 6990,
+      "right_n": 1792,
+      "unspecified_n": 1489,
+      "unknown_n": 1239,
+      "renewal_n": 3281,
+      "eligible_n": 11510,
+      "recorded_use_pct": 54.6,
+      "type_coverage_pct": 89.2,
+      "recorded_use_all_eligible_pct": 15.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        54.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        39.6,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2021-12",
+      "dimension": "year_area",
+      "value": "2021:other",
+      "area": "other",
+      "new_n": 17590,
+      "right_n": 2239,
+      "unspecified_n": 2053,
+      "unknown_n": 9032,
+      "renewal_n": 4292,
+      "eligible_n": 30914,
+      "recorded_use_pct": 52.2,
+      "type_coverage_pct": 70.8,
+      "recorded_use_all_eligible_pct": 7.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        52.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        16.8,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2022-01",
+      "end": "2022-12",
+      "dimension": "year",
+      "value": "2022",
+      "new_n": 59056,
+      "right_n": 11458,
+      "unspecified_n": 14690,
+      "unknown_n": 18825,
+      "renewal_n": 26148,
+      "eligible_n": 104029,
+      "recorded_use_pct": 43.8,
+      "type_coverage_pct": 81.9,
+      "recorded_use_all_eligible_pct": 11.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        43.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        25.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2022-01",
+      "end": "2022-12",
+      "dimension": "year_area",
+      "value": "2022:p17_18",
+      "area": "p17_18",
+      "new_n": 13233,
+      "right_n": 2730,
+      "unspecified_n": 2751,
+      "unknown_n": 2048,
+      "renewal_n": 5481,
+      "eligible_n": 20762,
+      "recorded_use_pct": 49.8,
+      "type_coverage_pct": 90.1,
+      "recorded_use_all_eligible_pct": 13.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        49.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        36.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2022-01",
+      "end": "2022-12",
+      "dimension": "year_area",
+      "value": "2022:p25_26",
+      "area": "p25_26",
+      "new_n": 13098,
+      "right_n": 3763,
+      "unspecified_n": 4714,
+      "unknown_n": 1839,
+      "renewal_n": 8477,
+      "eligible_n": 23414,
+      "recorded_use_pct": 44.4,
+      "type_coverage_pct": 92.1,
+      "recorded_use_all_eligible_pct": 16.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        44.3,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        36.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2022-01",
+      "end": "2022-12",
+      "dimension": "year_area",
+      "value": "2022:other",
+      "area": "other",
+      "new_n": 32725,
+      "right_n": 4965,
+      "unspecified_n": 7225,
+      "unknown_n": 14938,
+      "renewal_n": 12190,
+      "eligible_n": 59853,
+      "recorded_use_pct": 40.7,
+      "type_coverage_pct": 75.0,
+      "recorded_use_all_eligible_pct": 8.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        40.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        18.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2023-01",
+      "end": "2023-12",
+      "dimension": "year",
+      "value": "2023",
+      "new_n": 69257,
+      "right_n": 6041,
+      "unspecified_n": 16018,
+      "unknown_n": 16617,
+      "renewal_n": 22059,
+      "eligible_n": 107933,
+      "recorded_use_pct": 27.4,
+      "type_coverage_pct": 84.6,
+      "recorded_use_all_eligible_pct": 5.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        27.3,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        15.6,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2023-01",
+      "end": "2023-12",
+      "dimension": "year_area",
+      "value": "2023:p17_18",
+      "area": "p17_18",
+      "new_n": 15515,
+      "right_n": 1413,
+      "unspecified_n": 3519,
+      "unknown_n": 1484,
+      "renewal_n": 4932,
+      "eligible_n": 21931,
+      "recorded_use_pct": 28.6,
+      "type_coverage_pct": 93.2,
+      "recorded_use_all_eligible_pct": 6.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        28.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        22.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2023-01",
+      "end": "2023-12",
+      "dimension": "year_area",
+      "value": "2023:p25_26",
+      "area": "p25_26",
+      "new_n": 14981,
+      "right_n": 2052,
+      "unspecified_n": 4662,
+      "unknown_n": 1398,
+      "renewal_n": 6714,
+      "eligible_n": 23093,
+      "recorded_use_pct": 30.6,
+      "type_coverage_pct": 93.9,
+      "recorded_use_all_eligible_pct": 8.9,
+      "known_renewal_missing_rights_bounds_pct": [
+        30.5,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        25.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2023-01",
+      "end": "2023-12",
+      "dimension": "year_area",
+      "value": "2023:other",
+      "area": "other",
+      "new_n": 38761,
+      "right_n": 2576,
+      "unspecified_n": 7837,
+      "unknown_n": 13735,
+      "renewal_n": 10413,
+      "eligible_n": 62909,
+      "recorded_use_pct": 24.7,
+      "type_coverage_pct": 78.2,
+      "recorded_use_all_eligible_pct": 4.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        24.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        10.6,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2024-01",
+      "end": "2024-12",
+      "dimension": "year",
+      "value": "2024",
+      "new_n": 70015,
+      "right_n": 8510,
+      "unspecified_n": 19669,
+      "unknown_n": 2301,
+      "renewal_n": 28179,
+      "eligible_n": 100495,
+      "recorded_use_pct": 30.2,
+      "type_coverage_pct": 97.7,
+      "recorded_use_all_eligible_pct": 8.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        30.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        27.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2024-01",
+      "end": "2024-12",
+      "dimension": "year_area",
+      "value": "2024:p17_18",
+      "area": "p17_18",
+      "new_n": 13232,
+      "right_n": 2025,
+      "unspecified_n": 3419,
+      "unknown_n": 500,
+      "renewal_n": 5444,
+      "eligible_n": 19176,
+      "recorded_use_pct": 37.2,
+      "type_coverage_pct": 97.4,
+      "recorded_use_all_eligible_pct": 10.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        37.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        34.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2024-01",
+      "end": "2024-12",
+      "dimension": "year_area",
+      "value": "2024:p25_26",
+      "area": "p25_26",
+      "new_n": 12630,
+      "right_n": 2692,
+      "unspecified_n": 4627,
+      "unknown_n": 426,
+      "renewal_n": 7319,
+      "eligible_n": 20375,
+      "recorded_use_pct": 36.8,
+      "type_coverage_pct": 97.9,
+      "recorded_use_all_eligible_pct": 13.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        36.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        34.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2024-01",
+      "end": "2024-12",
+      "dimension": "year_area",
+      "value": "2024:other",
+      "area": "other",
+      "new_n": 44153,
+      "right_n": 3793,
+      "unspecified_n": 11623,
+      "unknown_n": 1375,
+      "renewal_n": 15416,
+      "eligible_n": 60944,
+      "recorded_use_pct": 24.6,
+      "type_coverage_pct": 97.7,
+      "recorded_use_all_eligible_pct": 6.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        24.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        22.5,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2025-01",
+      "end": "2025-12",
+      "dimension": "year",
+      "value": "2025",
+      "new_n": 65481,
+      "right_n": 14337,
+      "unspecified_n": 22570,
+      "unknown_n": 10056,
+      "renewal_n": 36907,
+      "eligible_n": 112444,
+      "recorded_use_pct": 38.8,
+      "type_coverage_pct": 91.1,
+      "recorded_use_all_eligible_pct": 12.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        38.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        30.5,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2025-01",
+      "end": "2025-12",
+      "dimension": "year_area",
+      "value": "2025:p17_18",
+      "area": "p17_18",
+      "new_n": 12372,
+      "right_n": 3439,
+      "unspecified_n": 4127,
+      "unknown_n": 2392,
+      "renewal_n": 7566,
+      "eligible_n": 22330,
+      "recorded_use_pct": 45.5,
+      "type_coverage_pct": 89.3,
+      "recorded_use_all_eligible_pct": 15.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        45.4,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        34.5,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2025-01",
+      "end": "2025-12",
+      "dimension": "year_area",
+      "value": "2025:p25_26",
+      "area": "p25_26",
+      "new_n": 13513,
+      "right_n": 4878,
+      "unspecified_n": 5032,
+      "unknown_n": 287,
+      "renewal_n": 9910,
+      "eligible_n": 23710,
+      "recorded_use_pct": 49.2,
+      "type_coverage_pct": 98.8,
+      "recorded_use_all_eligible_pct": 20.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        49.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        47.8,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2025-01",
+      "end": "2025-12",
+      "dimension": "year_area",
+      "value": "2025:other",
+      "area": "other",
+      "new_n": 39596,
+      "right_n": 6020,
+      "unspecified_n": 13411,
+      "unknown_n": 7377,
+      "renewal_n": 19431,
+      "eligible_n": 66404,
+      "recorded_use_pct": 31.0,
+      "type_coverage_pct": 88.9,
+      "recorded_use_all_eligible_pct": 9.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        30.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        22.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2026",
+      "new_n": 34486,
+      "right_n": 7295,
+      "unspecified_n": 16453,
+      "unknown_n": 416,
+      "renewal_n": 23748,
+      "eligible_n": 58650,
+      "recorded_use_pct": 30.7,
+      "type_coverage_pct": 99.3,
+      "recorded_use_all_eligible_pct": 12.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        30.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        30.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "year_area",
+      "value": "2026:p17_18",
+      "area": "p17_18",
+      "new_n": 6493,
+      "right_n": 1681,
+      "unspecified_n": 3133,
+      "unknown_n": 117,
+      "renewal_n": 4814,
+      "eligible_n": 11424,
+      "recorded_use_pct": 34.9,
+      "type_coverage_pct": 99.0,
+      "recorded_use_all_eligible_pct": 14.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        34.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        34.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "year_area",
+      "value": "2026:p25_26",
+      "area": "p25_26",
+      "new_n": 6790,
+      "right_n": 2291,
+      "unspecified_n": 2601,
+      "unknown_n": 124,
+      "renewal_n": 4892,
+      "eligible_n": 11806,
+      "recorded_use_pct": 46.8,
+      "type_coverage_pct": 98.9,
+      "recorded_use_all_eligible_pct": 19.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        46.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        45.6,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "year_area",
+      "value": "2026:other",
+      "area": "other",
+      "new_n": 21203,
+      "right_n": 3323,
+      "unspecified_n": 10719,
+      "unknown_n": 175,
+      "renewal_n": 14042,
+      "eligible_n": 35420,
+      "recorded_use_pct": 23.7,
+      "type_coverage_pct": 99.5,
+      "recorded_use_all_eligible_pct": 9.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        23.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        23.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2025-01",
+      "end": "2025-06",
+      "dimension": "same_h1",
+      "value": "2025",
+      "new_n": 32373,
+      "right_n": 6868,
+      "unspecified_n": 11147,
+      "unknown_n": 5949,
+      "renewal_n": 18015,
+      "eligible_n": 56337,
+      "recorded_use_pct": 38.1,
+      "type_coverage_pct": 89.4,
+      "recorded_use_all_eligible_pct": 12.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        38.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        28.6,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "same_h1",
+      "value": "2026",
+      "new_n": 34486,
+      "right_n": 7295,
+      "unspecified_n": 16453,
+      "unknown_n": 416,
+      "renewal_n": 23748,
+      "eligible_n": 58650,
+      "recorded_use_pct": 30.7,
+      "type_coverage_pct": 99.3,
+      "recorded_use_all_eligible_pct": 12.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        30.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        30.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2026-07",
+      "end": "2026-09",
+      "dimension": "recent",
+      "value": "provisional",
+      "new_n": 13314,
+      "right_n": 2985,
+      "unspecified_n": 6962,
+      "unknown_n": 176,
+      "renewal_n": 9947,
+      "eligible_n": 23437,
+      "recorded_use_pct": 30.0,
+      "type_coverage_pct": 99.2,
+      "recorded_use_all_eligible_pct": 12.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        30.0,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        29.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "all",
+      "value": "all",
+      "new_n": 515212,
+      "right_n": 165046,
+      "unspecified_n": 138677,
+      "unknown_n": 62667,
+      "renewal_n": 303723,
+      "eligible_n": 881602,
+      "recorded_use_pct": 54.3,
+      "type_coverage_pct": 92.9,
+      "recorded_use_all_eligible_pct": 18.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        54.3,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        45.0,
+        100.0
+      ],
+      "excluded_n": 2738,
+      "total_n": 884340,
+      "term_conflict_excluded": {
+        "new_n": 507186,
+        "right_n": 164174,
+        "unspecified_n": 137455,
+        "unknown_n": 61636,
+        "renewal_n": 301629,
+        "eligible_n": 870451,
+        "recorded_use_pct": 54.4,
+        "type_coverage_pct": 92.9,
+        "recorded_use_all_eligible_pct": 18.9,
+        "known_renewal_missing_rights_bounds_pct": [
+          54.4,
+          100.0
+        ],
+        "both_missing_assignment_pct": [
+          45.1,
+          100.0
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "p17_18",
+      "area": "p17_18",
+      "new_n": 129600,
+      "right_n": 41366,
+      "unspecified_n": 30927,
+      "unknown_n": 15349,
+      "renewal_n": 72293,
+      "eligible_n": 217242,
+      "recorded_use_pct": 57.2,
+      "type_coverage_pct": 92.9,
+      "recorded_use_all_eligible_pct": 19.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        57.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        47.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "p25_26",
+      "area": "p25_26",
+      "new_n": 182072,
+      "right_n": 59024,
+      "unspecified_n": 55270,
+      "unknown_n": 26035,
+      "renewal_n": 114294,
+      "eligible_n": 322401,
+      "recorded_use_pct": 51.6,
+      "type_coverage_pct": 91.9,
+      "recorded_use_all_eligible_pct": 18.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        51.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        42.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "other",
+      "area": "other",
+      "new_n": 203540,
+      "right_n": 64656,
+      "unspecified_n": 52480,
+      "unknown_n": 21283,
+      "renewal_n": 117136,
+      "eligible_n": 341959,
+      "recorded_use_pct": 55.2,
+      "type_coverage_pct": 93.8,
+      "recorded_use_all_eligible_pct": 18.9,
+      "known_renewal_missing_rights_bounds_pct": [
+        55.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        46.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2021-12",
+      "dimension": "year",
+      "value": "2021",
+      "new_n": 54836,
+      "right_n": 20900,
+      "unspecified_n": 8636,
+      "unknown_n": 15172,
+      "renewal_n": 29536,
+      "eligible_n": 99544,
+      "recorded_use_pct": 70.8,
+      "type_coverage_pct": 84.8,
+      "recorded_use_all_eligible_pct": 21.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        70.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        46.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2021-12",
+      "dimension": "year_area",
+      "value": "2021:p17_18",
+      "area": "p17_18",
+      "new_n": 13659,
+      "right_n": 5280,
+      "unspecified_n": 1801,
+      "unknown_n": 3650,
+      "renewal_n": 7081,
+      "eligible_n": 24390,
+      "recorded_use_pct": 74.6,
+      "type_coverage_pct": 85.0,
+      "recorded_use_all_eligible_pct": 21.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        74.5,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        49.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2021-12",
+      "dimension": "year_area",
+      "value": "2021:p25_26",
+      "area": "p25_26",
+      "new_n": 19494,
+      "right_n": 6902,
+      "unspecified_n": 3310,
+      "unknown_n": 6143,
+      "renewal_n": 10212,
+      "eligible_n": 35849,
+      "recorded_use_pct": 67.6,
+      "type_coverage_pct": 82.9,
+      "recorded_use_all_eligible_pct": 19.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        67.5,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        42.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2021-12",
+      "dimension": "year_area",
+      "value": "2021:other",
+      "area": "other",
+      "new_n": 21683,
+      "right_n": 8718,
+      "unspecified_n": 3525,
+      "unknown_n": 5379,
+      "renewal_n": 12243,
+      "eligible_n": 39305,
+      "recorded_use_pct": 71.2,
+      "type_coverage_pct": 86.3,
+      "recorded_use_all_eligible_pct": 22.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        71.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        49.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2022-01",
+      "end": "2022-12",
+      "dimension": "year",
+      "value": "2022",
+      "new_n": 89836,
+      "right_n": 43120,
+      "unspecified_n": 22510,
+      "unknown_n": 20961,
+      "renewal_n": 65630,
+      "eligible_n": 176427,
+      "recorded_use_pct": 65.7,
+      "type_coverage_pct": 88.1,
+      "recorded_use_all_eligible_pct": 24.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        65.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        49.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2022-01",
+      "end": "2022-12",
+      "dimension": "year_area",
+      "value": "2022:p17_18",
+      "area": "p17_18",
+      "new_n": 23426,
+      "right_n": 10596,
+      "unspecified_n": 4895,
+      "unknown_n": 5115,
+      "renewal_n": 15491,
+      "eligible_n": 44032,
+      "recorded_use_pct": 68.4,
+      "type_coverage_pct": 88.4,
+      "recorded_use_all_eligible_pct": 24.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        68.4,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        51.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2022-01",
+      "end": "2022-12",
+      "dimension": "year_area",
+      "value": "2022:p25_26",
+      "area": "p25_26",
+      "new_n": 30971,
+      "right_n": 14888,
+      "unspecified_n": 8713,
+      "unknown_n": 8769,
+      "renewal_n": 23601,
+      "eligible_n": 63341,
+      "recorded_use_pct": 63.1,
+      "type_coverage_pct": 86.2,
+      "recorded_use_all_eligible_pct": 23.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        63.0,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        45.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2022-01",
+      "end": "2022-12",
+      "dimension": "year_area",
+      "value": "2022:other",
+      "area": "other",
+      "new_n": 35439,
+      "right_n": 17636,
+      "unspecified_n": 8902,
+      "unknown_n": 7077,
+      "renewal_n": 26538,
+      "eligible_n": 69054,
+      "recorded_use_pct": 66.5,
+      "type_coverage_pct": 89.8,
+      "recorded_use_all_eligible_pct": 25.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        66.4,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        52.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2023-01",
+      "end": "2023-12",
+      "dimension": "year",
+      "value": "2023",
+      "new_n": 118466,
+      "right_n": 21960,
+      "unspecified_n": 31539,
+      "unknown_n": 17609,
+      "renewal_n": 53499,
+      "eligible_n": 189574,
+      "recorded_use_pct": 41.0,
+      "type_coverage_pct": 90.7,
+      "recorded_use_all_eligible_pct": 11.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        41.0,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        30.8,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2023-01",
+      "end": "2023-12",
+      "dimension": "year_area",
+      "value": "2023:p17_18",
+      "area": "p17_18",
+      "new_n": 29789,
+      "right_n": 5191,
+      "unspecified_n": 6813,
+      "unknown_n": 4220,
+      "renewal_n": 12004,
+      "eligible_n": 46013,
+      "recorded_use_pct": 43.2,
+      "type_coverage_pct": 90.8,
+      "recorded_use_all_eligible_pct": 11.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        43.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        31.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2023-01",
+      "end": "2023-12",
+      "dimension": "year_area",
+      "value": "2023:p25_26",
+      "area": "p25_26",
+      "new_n": 41942,
+      "right_n": 8059,
+      "unspecified_n": 12050,
+      "unknown_n": 7806,
+      "renewal_n": 20109,
+      "eligible_n": 69857,
+      "recorded_use_pct": 40.1,
+      "type_coverage_pct": 88.8,
+      "recorded_use_all_eligible_pct": 11.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        40.0,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        28.8,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2023-01",
+      "end": "2023-12",
+      "dimension": "year_area",
+      "value": "2023:other",
+      "area": "other",
+      "new_n": 46735,
+      "right_n": 8710,
+      "unspecified_n": 12676,
+      "unknown_n": 5583,
+      "renewal_n": 21386,
+      "eligible_n": 73704,
+      "recorded_use_pct": 40.7,
+      "type_coverage_pct": 92.4,
+      "recorded_use_all_eligible_pct": 11.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        40.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        32.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2024-01",
+      "end": "2024-12",
+      "dimension": "year",
+      "value": "2024",
+      "new_n": 112376,
+      "right_n": 21394,
+      "unspecified_n": 33982,
+      "unknown_n": 5154,
+      "renewal_n": 55376,
+      "eligible_n": 172906,
+      "recorded_use_pct": 38.6,
+      "type_coverage_pct": 97.0,
+      "recorded_use_all_eligible_pct": 12.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        38.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        35.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2024-01",
+      "end": "2024-12",
+      "dimension": "year_area",
+      "value": "2024:p17_18",
+      "area": "p17_18",
+      "new_n": 28960,
+      "right_n": 5531,
+      "unspecified_n": 8017,
+      "unknown_n": 1357,
+      "renewal_n": 13548,
+      "eligible_n": 43865,
+      "recorded_use_pct": 40.8,
+      "type_coverage_pct": 96.9,
+      "recorded_use_all_eligible_pct": 12.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        40.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        37.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2024-01",
+      "end": "2024-12",
+      "dimension": "year_area",
+      "value": "2024:p25_26",
+      "area": "p25_26",
+      "new_n": 38999,
+      "right_n": 8038,
+      "unspecified_n": 13716,
+      "unknown_n": 1994,
+      "renewal_n": 21754,
+      "eligible_n": 62747,
+      "recorded_use_pct": 36.9,
+      "type_coverage_pct": 96.8,
+      "recorded_use_all_eligible_pct": 12.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        36.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        33.8,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2024-01",
+      "end": "2024-12",
+      "dimension": "year_area",
+      "value": "2024:other",
+      "area": "other",
+      "new_n": 44417,
+      "right_n": 7825,
+      "unspecified_n": 12249,
+      "unknown_n": 1803,
+      "renewal_n": 20074,
+      "eligible_n": 66294,
+      "recorded_use_pct": 39.0,
+      "type_coverage_pct": 97.3,
+      "recorded_use_all_eligible_pct": 11.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        38.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        35.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2025-01",
+      "end": "2025-12",
+      "dimension": "year",
+      "value": "2025",
+      "new_n": 97750,
+      "right_n": 38885,
+      "unspecified_n": 29305,
+      "unknown_n": 2933,
+      "renewal_n": 68190,
+      "eligible_n": 168873,
+      "recorded_use_pct": 57.0,
+      "type_coverage_pct": 98.3,
+      "recorded_use_all_eligible_pct": 23.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        57.0,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        54.6,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2025-01",
+      "end": "2025-12",
+      "dimension": "year_area",
+      "value": "2025:p17_18",
+      "area": "p17_18",
+      "new_n": 23737,
+      "right_n": 9872,
+      "unspecified_n": 6554,
+      "unknown_n": 786,
+      "renewal_n": 16426,
+      "eligible_n": 40949,
+      "recorded_use_pct": 60.1,
+      "type_coverage_pct": 98.1,
+      "recorded_use_all_eligible_pct": 24.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        60.0,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        57.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2025-01",
+      "end": "2025-12",
+      "dimension": "year_area",
+      "value": "2025:p25_26",
+      "area": "p25_26",
+      "new_n": 35429,
+      "right_n": 14241,
+      "unspecified_n": 12159,
+      "unknown_n": 1029,
+      "renewal_n": 26400,
+      "eligible_n": 62858,
+      "recorded_use_pct": 53.9,
+      "type_coverage_pct": 98.4,
+      "recorded_use_all_eligible_pct": 22.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        53.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        51.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2025-01",
+      "end": "2025-12",
+      "dimension": "year_area",
+      "value": "2025:other",
+      "area": "other",
+      "new_n": 38584,
+      "right_n": 14772,
+      "unspecified_n": 10592,
+      "unknown_n": 1118,
+      "renewal_n": 25364,
+      "eligible_n": 65066,
+      "recorded_use_pct": 58.2,
+      "type_coverage_pct": 98.3,
+      "recorded_use_all_eligible_pct": 22.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        58.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        55.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2026",
+      "new_n": 41948,
+      "right_n": 18787,
+      "unspecified_n": 12705,
+      "unknown_n": 838,
+      "renewal_n": 31492,
+      "eligible_n": 74278,
+      "recorded_use_pct": 59.7,
+      "type_coverage_pct": 98.9,
+      "recorded_use_all_eligible_pct": 25.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        59.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        58.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "year_area",
+      "value": "2026:p17_18",
+      "area": "p17_18",
+      "new_n": 10029,
+      "right_n": 4896,
+      "unspecified_n": 2847,
+      "unknown_n": 221,
+      "renewal_n": 7743,
+      "eligible_n": 17993,
+      "recorded_use_pct": 63.2,
+      "type_coverage_pct": 98.8,
+      "recorded_use_all_eligible_pct": 27.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        63.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        61.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "year_area",
+      "value": "2026:p25_26",
+      "area": "p25_26",
+      "new_n": 15237,
+      "right_n": 6896,
+      "unspecified_n": 5322,
+      "unknown_n": 294,
+      "renewal_n": 12218,
+      "eligible_n": 27749,
+      "recorded_use_pct": 56.4,
+      "type_coverage_pct": 98.9,
+      "recorded_use_all_eligible_pct": 24.9,
+      "known_renewal_missing_rights_bounds_pct": [
+        56.4,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        55.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "year_area",
+      "value": "2026:other",
+      "area": "other",
+      "new_n": 16682,
+      "right_n": 6995,
+      "unspecified_n": 4536,
+      "unknown_n": 323,
+      "renewal_n": 11531,
+      "eligible_n": 28536,
+      "recorded_use_pct": 60.7,
+      "type_coverage_pct": 98.9,
+      "recorded_use_all_eligible_pct": 24.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        60.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        59.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2025-01",
+      "end": "2025-06",
+      "dimension": "same_h1",
+      "value": "2025",
+      "new_n": 51873,
+      "right_n": 20386,
+      "unspecified_n": 15737,
+      "unknown_n": 1874,
+      "renewal_n": 36123,
+      "eligible_n": 89870,
+      "recorded_use_pct": 56.4,
+      "type_coverage_pct": 97.9,
+      "recorded_use_all_eligible_pct": 22.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        56.4,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        53.6,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "same_h1",
+      "value": "2026",
+      "new_n": 41948,
+      "right_n": 18787,
+      "unspecified_n": 12705,
+      "unknown_n": 838,
+      "renewal_n": 31492,
+      "eligible_n": 74278,
+      "recorded_use_pct": 59.7,
+      "type_coverage_pct": 98.9,
+      "recorded_use_all_eligible_pct": 25.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        59.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        58.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2026-07",
+      "end": "2026-09",
+      "dimension": "recent",
+      "value": "provisional",
+      "new_n": 14826,
+      "right_n": 8101,
+      "unspecified_n": 6047,
+      "unknown_n": 313,
+      "renewal_n": 14148,
+      "eligible_n": 29287,
+      "recorded_use_pct": 57.3,
+      "type_coverage_pct": 98.9,
+      "recorded_use_all_eligible_pct": 27.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        57.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        56.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "all",
+      "value": "all",
+      "new_n": 375018,
+      "right_n": 38361,
+      "unspecified_n": 182292,
+      "unknown_n": 105364,
+      "renewal_n": 220653,
+      "eligible_n": 701035,
+      "recorded_use_pct": 17.4,
+      "type_coverage_pct": 85.0,
+      "recorded_use_all_eligible_pct": 5.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        17.3,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        11.7,
+        100.0
+      ],
+      "excluded_n": 3473,
+      "total_n": 704508,
+      "term_conflict_excluded": {
+        "new_n": 371942,
+        "right_n": 38230,
+        "unspecified_n": 181085,
+        "unknown_n": 105052,
+        "renewal_n": 219315,
+        "eligible_n": 696309,
+        "recorded_use_pct": 17.4,
+        "type_coverage_pct": 84.9,
+        "recorded_use_all_eligible_pct": 5.5,
+        "known_renewal_missing_rights_bounds_pct": [
+          17.4,
+          100.0
+        ],
+        "both_missing_assignment_pct": [
+          11.7,
+          100.0
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "p17_18",
+      "area": "p17_18",
+      "new_n": 80355,
+      "right_n": 9066,
+      "unspecified_n": 30844,
+      "unknown_n": 8434,
+      "renewal_n": 39910,
+      "eligible_n": 128699,
+      "recorded_use_pct": 22.7,
+      "type_coverage_pct": 93.4,
+      "recorded_use_all_eligible_pct": 7.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        22.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        18.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "p25_26",
+      "area": "p25_26",
+      "new_n": 96607,
+      "right_n": 12182,
+      "unspecified_n": 34913,
+      "unknown_n": 9377,
+      "renewal_n": 47095,
+      "eligible_n": 153079,
+      "recorded_use_pct": 25.9,
+      "type_coverage_pct": 93.9,
+      "recorded_use_all_eligible_pct": 8.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        25.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        21.5,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2026-06",
+      "dimension": "area",
+      "value": "other",
+      "area": "other",
+      "new_n": 198056,
+      "right_n": 17113,
+      "unspecified_n": 116535,
+      "unknown_n": 87553,
+      "renewal_n": 133648,
+      "eligible_n": 419257,
+      "recorded_use_pct": 12.8,
+      "type_coverage_pct": 79.1,
+      "recorded_use_all_eligible_pct": 4.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        12.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        7.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2021-12",
+      "dimension": "year",
+      "value": "2021",
+      "new_n": 32604,
+      "right_n": 3855,
+      "unspecified_n": 9775,
+      "unknown_n": 24990,
+      "renewal_n": 13630,
+      "eligible_n": 71224,
+      "recorded_use_pct": 28.3,
+      "type_coverage_pct": 64.9,
+      "recorded_use_all_eligible_pct": 5.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        28.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        9.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2021-12",
+      "dimension": "year_area",
+      "value": "2021:p17_18",
+      "area": "p17_18",
+      "new_n": 7090,
+      "right_n": 890,
+      "unspecified_n": 2030,
+      "unknown_n": 2215,
+      "renewal_n": 2920,
+      "eligible_n": 12225,
+      "recorded_use_pct": 30.5,
+      "type_coverage_pct": 81.9,
+      "recorded_use_all_eligible_pct": 7.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        30.4,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        17.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2021-12",
+      "dimension": "year_area",
+      "value": "2021:p25_26",
+      "area": "p25_26",
+      "new_n": 9407,
+      "right_n": 1213,
+      "unspecified_n": 2526,
+      "unknown_n": 1909,
+      "renewal_n": 3739,
+      "eligible_n": 15055,
+      "recorded_use_pct": 32.4,
+      "type_coverage_pct": 87.3,
+      "recorded_use_all_eligible_pct": 8.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        32.4,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        21.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2021-12",
+      "dimension": "year_area",
+      "value": "2021:other",
+      "area": "other",
+      "new_n": 16107,
+      "right_n": 1752,
+      "unspecified_n": 5219,
+      "unknown_n": 20866,
+      "renewal_n": 6971,
+      "eligible_n": 43944,
+      "recorded_use_pct": 25.1,
+      "type_coverage_pct": 52.5,
+      "recorded_use_all_eligible_pct": 4.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        25.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        6.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2022-01",
+      "end": "2022-12",
+      "dimension": "year",
+      "value": "2022",
+      "new_n": 62936,
+      "right_n": 8328,
+      "unspecified_n": 26464,
+      "unknown_n": 38847,
+      "renewal_n": 34792,
+      "eligible_n": 136575,
+      "recorded_use_pct": 23.9,
+      "type_coverage_pct": 71.6,
+      "recorded_use_all_eligible_pct": 6.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        23.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        11.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2022-01",
+      "end": "2022-12",
+      "dimension": "year_area",
+      "value": "2022:p17_18",
+      "area": "p17_18",
+      "new_n": 14531,
+      "right_n": 2011,
+      "unspecified_n": 5454,
+      "unknown_n": 2697,
+      "renewal_n": 7465,
+      "eligible_n": 24693,
+      "recorded_use_pct": 26.9,
+      "type_coverage_pct": 89.1,
+      "recorded_use_all_eligible_pct": 8.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        26.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        19.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2022-01",
+      "end": "2022-12",
+      "dimension": "year_area",
+      "value": "2022:p25_26",
+      "area": "p25_26",
+      "new_n": 17768,
+      "right_n": 2411,
+      "unspecified_n": 7329,
+      "unknown_n": 3363,
+      "renewal_n": 9740,
+      "eligible_n": 30871,
+      "recorded_use_pct": 24.8,
+      "type_coverage_pct": 89.1,
+      "recorded_use_all_eligible_pct": 7.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        24.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        18.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2022-01",
+      "end": "2022-12",
+      "dimension": "year_area",
+      "value": "2022:other",
+      "area": "other",
+      "new_n": 30637,
+      "right_n": 3906,
+      "unspecified_n": 13681,
+      "unknown_n": 32787,
+      "renewal_n": 17587,
+      "eligible_n": 81011,
+      "recorded_use_pct": 22.2,
+      "type_coverage_pct": 59.5,
+      "recorded_use_all_eligible_pct": 4.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        22.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        7.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2023-01",
+      "end": "2023-12",
+      "dimension": "year",
+      "value": "2023",
+      "new_n": 74143,
+      "right_n": 4590,
+      "unspecified_n": 33886,
+      "unknown_n": 35825,
+      "renewal_n": 38476,
+      "eligible_n": 148444,
+      "recorded_use_pct": 11.9,
+      "type_coverage_pct": 75.9,
+      "recorded_use_all_eligible_pct": 3.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        11.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        6.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2023-01",
+      "end": "2023-12",
+      "dimension": "year_area",
+      "value": "2023:p17_18",
+      "area": "p17_18",
+      "new_n": 17020,
+      "right_n": 975,
+      "unspecified_n": 6656,
+      "unknown_n": 2558,
+      "renewal_n": 7631,
+      "eligible_n": 27209,
+      "recorded_use_pct": 12.8,
+      "type_coverage_pct": 90.6,
+      "recorded_use_all_eligible_pct": 3.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        12.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        9.5,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2023-01",
+      "end": "2023-12",
+      "dimension": "year_area",
+      "value": "2023:p25_26",
+      "area": "p25_26",
+      "new_n": 20012,
+      "right_n": 1420,
+      "unspecified_n": 6541,
+      "unknown_n": 2945,
+      "renewal_n": 7961,
+      "eligible_n": 30918,
+      "recorded_use_pct": 17.8,
+      "type_coverage_pct": 90.5,
+      "recorded_use_all_eligible_pct": 4.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        17.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        13.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2023-01",
+      "end": "2023-12",
+      "dimension": "year_area",
+      "value": "2023:other",
+      "area": "other",
+      "new_n": 37111,
+      "right_n": 2195,
+      "unspecified_n": 20689,
+      "unknown_n": 30322,
+      "renewal_n": 22884,
+      "eligible_n": 90317,
+      "recorded_use_pct": 9.6,
+      "type_coverage_pct": 66.4,
+      "recorded_use_all_eligible_pct": 2.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        9.5,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        4.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2024-01",
+      "end": "2024-12",
+      "dimension": "year",
+      "value": "2024",
+      "new_n": 79710,
+      "right_n": 6135,
+      "unspecified_n": 45416,
+      "unknown_n": 3877,
+      "renewal_n": 51551,
+      "eligible_n": 135138,
+      "recorded_use_pct": 11.9,
+      "type_coverage_pct": 97.1,
+      "recorded_use_all_eligible_pct": 4.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        11.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        11.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2024-01",
+      "end": "2024-12",
+      "dimension": "year_area",
+      "value": "2024:p17_18",
+      "area": "p17_18",
+      "new_n": 16084,
+      "right_n": 1392,
+      "unspecified_n": 6844,
+      "unknown_n": 518,
+      "renewal_n": 8236,
+      "eligible_n": 24838,
+      "recorded_use_pct": 16.9,
+      "type_coverage_pct": 97.9,
+      "recorded_use_all_eligible_pct": 5.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        16.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        15.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2024-01",
+      "end": "2024-12",
+      "dimension": "year_area",
+      "value": "2024:p25_26",
+      "area": "p25_26",
+      "new_n": 18292,
+      "right_n": 2109,
+      "unspecified_n": 7453,
+      "unknown_n": 603,
+      "renewal_n": 9562,
+      "eligible_n": 28457,
+      "recorded_use_pct": 22.1,
+      "type_coverage_pct": 97.9,
+      "recorded_use_all_eligible_pct": 7.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        22.0,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        20.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2024-01",
+      "end": "2024-12",
+      "dimension": "year_area",
+      "value": "2024:other",
+      "area": "other",
+      "new_n": 45334,
+      "right_n": 2634,
+      "unspecified_n": 31119,
+      "unknown_n": 2756,
+      "renewal_n": 33753,
+      "eligible_n": 81843,
+      "recorded_use_pct": 7.8,
+      "type_coverage_pct": 96.6,
+      "recorded_use_all_eligible_pct": 3.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        7.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        7.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2025-01",
+      "end": "2025-12",
+      "dimension": "year",
+      "value": "2025",
+      "new_n": 85586,
+      "right_n": 10115,
+      "unspecified_n": 46096,
+      "unknown_n": 1356,
+      "renewal_n": 56211,
+      "eligible_n": 143153,
+      "recorded_use_pct": 18.0,
+      "type_coverage_pct": 99.1,
+      "recorded_use_all_eligible_pct": 7.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        17.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        17.5,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2025-01",
+      "end": "2025-12",
+      "dimension": "year_area",
+      "value": "2025:p17_18",
+      "area": "p17_18",
+      "new_n": 17157,
+      "right_n": 2487,
+      "unspecified_n": 6266,
+      "unknown_n": 349,
+      "renewal_n": 8753,
+      "eligible_n": 26259,
+      "recorded_use_pct": 28.4,
+      "type_coverage_pct": 98.7,
+      "recorded_use_all_eligible_pct": 9.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        28.4,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        27.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2025-01",
+      "end": "2025-12",
+      "dimension": "year_area",
+      "value": "2025:p25_26",
+      "area": "p25_26",
+      "new_n": 20717,
+      "right_n": 3302,
+      "unspecified_n": 7335,
+      "unknown_n": 370,
+      "renewal_n": 10637,
+      "eligible_n": 31724,
+      "recorded_use_pct": 31.0,
+      "type_coverage_pct": 98.8,
+      "recorded_use_all_eligible_pct": 10.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        31.0,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        29.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2025-01",
+      "end": "2025-12",
+      "dimension": "year_area",
+      "value": "2025:other",
+      "area": "other",
+      "new_n": 47712,
+      "right_n": 4326,
+      "unspecified_n": 32495,
+      "unknown_n": 637,
+      "renewal_n": 36821,
+      "eligible_n": 85170,
+      "recorded_use_pct": 11.7,
+      "type_coverage_pct": 99.3,
+      "recorded_use_all_eligible_pct": 5.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        11.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        11.5,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "year",
+      "value": "2026",
+      "new_n": 40039,
+      "right_n": 5338,
+      "unspecified_n": 20655,
+      "unknown_n": 469,
+      "renewal_n": 25993,
+      "eligible_n": 66501,
+      "recorded_use_pct": 20.5,
+      "type_coverage_pct": 99.3,
+      "recorded_use_all_eligible_pct": 8.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        20.5,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        20.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "year_area",
+      "value": "2026:p17_18",
+      "area": "p17_18",
+      "new_n": 8473,
+      "right_n": 1311,
+      "unspecified_n": 3594,
+      "unknown_n": 97,
+      "renewal_n": 4905,
+      "eligible_n": 13475,
+      "recorded_use_pct": 26.7,
+      "type_coverage_pct": 99.3,
+      "recorded_use_all_eligible_pct": 9.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        26.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        26.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "year_area",
+      "value": "2026:p25_26",
+      "area": "p25_26",
+      "new_n": 10411,
+      "right_n": 1727,
+      "unspecified_n": 3729,
+      "unknown_n": 187,
+      "renewal_n": 5456,
+      "eligible_n": 16054,
+      "recorded_use_pct": 31.7,
+      "type_coverage_pct": 98.8,
+      "recorded_use_all_eligible_pct": 10.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        31.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        30.6,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "year_area",
+      "value": "2026:other",
+      "area": "other",
+      "new_n": 21155,
+      "right_n": 2300,
+      "unspecified_n": 13332,
+      "unknown_n": 185,
+      "renewal_n": 15632,
+      "eligible_n": 36972,
+      "recorded_use_pct": 14.7,
+      "type_coverage_pct": 99.5,
+      "recorded_use_all_eligible_pct": 6.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        14.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        14.5,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2025-01",
+      "end": "2025-06",
+      "dimension": "same_h1",
+      "value": "2025",
+      "new_n": 38457,
+      "right_n": 4919,
+      "unspecified_n": 22416,
+      "unknown_n": 742,
+      "renewal_n": 27335,
+      "eligible_n": 66534,
+      "recorded_use_pct": 18.0,
+      "type_coverage_pct": 98.9,
+      "recorded_use_all_eligible_pct": 7.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        17.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        17.5,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2026-01",
+      "end": "2026-06",
+      "dimension": "same_h1",
+      "value": "2026",
+      "new_n": 40039,
+      "right_n": 5338,
+      "unspecified_n": 20655,
+      "unknown_n": 469,
+      "renewal_n": 25993,
+      "eligible_n": 66501,
+      "recorded_use_pct": 20.5,
+      "type_coverage_pct": 99.3,
+      "recorded_use_all_eligible_pct": 8.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        20.5,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        20.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2026-07",
+      "end": "2026-09",
+      "dimension": "recent",
+      "value": "provisional",
+      "new_n": 17076,
+      "right_n": 2481,
+      "unspecified_n": 8744,
+      "unknown_n": 175,
+      "renewal_n": 11225,
+      "eligible_n": 28476,
+      "recorded_use_pct": 22.1,
+      "type_coverage_pct": 99.4,
+      "recorded_use_all_eligible_pct": 8.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        22.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        21.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2021-06",
+      "dimension": "quarter",
+      "value": "2021Q2",
+      "new_n": 5186,
+      "right_n": 2151,
+      "unspecified_n": 792,
+      "unknown_n": 1629,
+      "renewal_n": 2943,
+      "eligible_n": 9758,
+      "recorded_use_pct": 73.1,
+      "type_coverage_pct": 83.3,
+      "recorded_use_all_eligible_pct": 22.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        73.0,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        47.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-07",
+      "end": "2021-09",
+      "dimension": "quarter",
+      "value": "2021Q3",
+      "new_n": 14026,
+      "right_n": 8105,
+      "unspecified_n": 3104,
+      "unknown_n": 4911,
+      "renewal_n": 11209,
+      "eligible_n": 30146,
+      "recorded_use_pct": 72.3,
+      "type_coverage_pct": 83.7,
+      "recorded_use_all_eligible_pct": 26.9,
+      "known_renewal_missing_rights_bounds_pct": [
+        72.3,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        50.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-10",
+      "end": "2021-12",
+      "dimension": "quarter",
+      "value": "2021Q4",
+      "new_n": 15274,
+      "right_n": 9772,
+      "unspecified_n": 3817,
+      "unknown_n": 4516,
+      "renewal_n": 13589,
+      "eligible_n": 33379,
+      "recorded_use_pct": 71.9,
+      "type_coverage_pct": 86.5,
+      "recorded_use_all_eligible_pct": 29.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        71.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        53.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2022-01",
+      "end": "2022-03",
+      "dimension": "quarter",
+      "value": "2022Q1",
+      "new_n": 15123,
+      "right_n": 11802,
+      "unspecified_n": 4386,
+      "unknown_n": 4383,
+      "renewal_n": 16188,
+      "eligible_n": 35694,
+      "recorded_use_pct": 72.9,
+      "type_coverage_pct": 87.7,
+      "recorded_use_all_eligible_pct": 33.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        72.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        57.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2022-04",
+      "end": "2022-06",
+      "dimension": "quarter",
+      "value": "2022Q2",
+      "new_n": 14615,
+      "right_n": 9819,
+      "unspecified_n": 4073,
+      "unknown_n": 3462,
+      "renewal_n": 13892,
+      "eligible_n": 31969,
+      "recorded_use_pct": 70.7,
+      "type_coverage_pct": 89.2,
+      "recorded_use_all_eligible_pct": 30.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        70.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        56.5,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2022-07",
+      "end": "2022-09",
+      "dimension": "quarter",
+      "value": "2022Q3",
+      "new_n": 12685,
+      "right_n": 10327,
+      "unspecified_n": 4677,
+      "unknown_n": 3946,
+      "renewal_n": 15004,
+      "eligible_n": 31635,
+      "recorded_use_pct": 68.8,
+      "type_coverage_pct": 87.5,
+      "recorded_use_all_eligible_pct": 32.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        68.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        54.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2022-10",
+      "end": "2022-12",
+      "dimension": "quarter",
+      "value": "2022Q4",
+      "new_n": 13990,
+      "right_n": 6376,
+      "unspecified_n": 6500,
+      "unknown_n": 3188,
+      "renewal_n": 12876,
+      "eligible_n": 30054,
+      "recorded_use_pct": 49.5,
+      "type_coverage_pct": 89.4,
+      "recorded_use_all_eligible_pct": 21.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        49.5,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        39.6,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2023-01",
+      "end": "2023-03",
+      "dimension": "quarter",
+      "value": "2023Q1",
+      "new_n": 23799,
+      "right_n": 4310,
+      "unspecified_n": 8005,
+      "unknown_n": 3768,
+      "renewal_n": 12315,
+      "eligible_n": 39882,
+      "recorded_use_pct": 35.0,
+      "type_coverage_pct": 90.6,
+      "recorded_use_all_eligible_pct": 10.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        34.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        26.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2023-04",
+      "end": "2023-06",
+      "dimension": "quarter",
+      "value": "2023Q2",
+      "new_n": 22606,
+      "right_n": 4012,
+      "unspecified_n": 6869,
+      "unknown_n": 2963,
+      "renewal_n": 10881,
+      "eligible_n": 36450,
+      "recorded_use_pct": 36.9,
+      "type_coverage_pct": 91.9,
+      "recorded_use_all_eligible_pct": 11.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        36.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        28.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2023-07",
+      "end": "2023-09",
+      "dimension": "quarter",
+      "value": "2023Q3",
+      "new_n": 21717,
+      "right_n": 3677,
+      "unspecified_n": 6255,
+      "unknown_n": 2806,
+      "renewal_n": 9932,
+      "eligible_n": 34455,
+      "recorded_use_pct": 37.0,
+      "type_coverage_pct": 91.9,
+      "recorded_use_all_eligible_pct": 10.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        37.0,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        28.8,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2023-10",
+      "end": "2023-12",
+      "dimension": "quarter",
+      "value": "2023Q4",
+      "new_n": 23035,
+      "right_n": 3854,
+      "unspecified_n": 7313,
+      "unknown_n": 2734,
+      "renewal_n": 11167,
+      "eligible_n": 36936,
+      "recorded_use_pct": 34.5,
+      "type_coverage_pct": 92.6,
+      "recorded_use_all_eligible_pct": 10.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        34.5,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        27.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2024-01",
+      "end": "2024-03",
+      "dimension": "quarter",
+      "value": "2024Q1",
+      "new_n": 22442,
+      "right_n": 3984,
+      "unspecified_n": 8768,
+      "unknown_n": 1180,
+      "renewal_n": 12752,
+      "eligible_n": 36374,
+      "recorded_use_pct": 31.2,
+      "type_coverage_pct": 96.8,
+      "recorded_use_all_eligible_pct": 11.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        31.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        28.5,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2024-04",
+      "end": "2024-06",
+      "dimension": "quarter",
+      "value": "2024Q2",
+      "new_n": 20824,
+      "right_n": 3247,
+      "unspecified_n": 7234,
+      "unknown_n": 704,
+      "renewal_n": 10481,
+      "eligible_n": 32009,
+      "recorded_use_pct": 31.0,
+      "type_coverage_pct": 97.8,
+      "recorded_use_all_eligible_pct": 10.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        30.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        29.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2024-07",
+      "end": "2024-09",
+      "dimension": "quarter",
+      "value": "2024Q3",
+      "new_n": 19994,
+      "right_n": 3129,
+      "unspecified_n": 6866,
+      "unknown_n": 778,
+      "renewal_n": 9995,
+      "eligible_n": 30767,
+      "recorded_use_pct": 31.3,
+      "type_coverage_pct": 97.5,
+      "recorded_use_all_eligible_pct": 10.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        31.3,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        29.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2024-10",
+      "end": "2024-12",
+      "dimension": "quarter",
+      "value": "2024Q4",
+      "new_n": 20003,
+      "right_n": 5000,
+      "unspecified_n": 6026,
+      "unknown_n": 676,
+      "renewal_n": 11026,
+      "eligible_n": 31705,
+      "recorded_use_pct": 45.3,
+      "type_coverage_pct": 97.9,
+      "recorded_use_all_eligible_pct": 15.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        45.3,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        42.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2025-01",
+      "end": "2025-03",
+      "dimension": "quarter",
+      "value": "2025Q1",
+      "new_n": 19885,
+      "right_n": 8538,
+      "unspecified_n": 6955,
+      "unknown_n": 2208,
+      "renewal_n": 15493,
+      "eligible_n": 37586,
+      "recorded_use_pct": 55.1,
+      "type_coverage_pct": 94.1,
+      "recorded_use_all_eligible_pct": 22.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        55.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        48.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2025-04",
+      "end": "2025-06",
+      "dimension": "quarter",
+      "value": "2025Q2",
+      "new_n": 17900,
+      "right_n": 9019,
+      "unspecified_n": 6603,
+      "unknown_n": 1654,
+      "renewal_n": 15622,
+      "eligible_n": 35176,
+      "recorded_use_pct": 57.7,
+      "type_coverage_pct": 95.3,
+      "recorded_use_all_eligible_pct": 25.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        57.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        52.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2025-07",
+      "end": "2025-09",
+      "dimension": "quarter",
+      "value": "2025Q3",
+      "new_n": 16015,
+      "right_n": 8676,
+      "unspecified_n": 6377,
+      "unknown_n": 1550,
+      "renewal_n": 15053,
+      "eligible_n": 32618,
+      "recorded_use_pct": 57.6,
+      "type_coverage_pct": 95.2,
+      "recorded_use_all_eligible_pct": 26.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        57.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        52.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2025-10",
+      "end": "2025-12",
+      "dimension": "quarter",
+      "value": "2025Q4",
+      "new_n": 17137,
+      "right_n": 8446,
+      "unspecified_n": 6978,
+      "unknown_n": 554,
+      "renewal_n": 15424,
+      "eligible_n": 33115,
+      "recorded_use_pct": 54.8,
+      "type_coverage_pct": 98.3,
+      "recorded_use_all_eligible_pct": 25.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        54.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        52.8,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2026-01",
+      "end": "2026-03",
+      "dimension": "quarter",
+      "value": "2026Q1",
+      "new_n": 14809,
+      "right_n": 8590,
+      "unspecified_n": 7266,
+      "unknown_n": 482,
+      "renewal_n": 15856,
+      "eligible_n": 31147,
+      "recorded_use_pct": 54.2,
+      "type_coverage_pct": 98.5,
+      "recorded_use_all_eligible_pct": 27.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        54.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        52.5,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2026-04",
+      "end": "2026-06",
+      "dimension": "quarter",
+      "value": "2026Q2",
+      "new_n": 11853,
+      "right_n": 7155,
+      "unspecified_n": 6022,
+      "unknown_n": 344,
+      "renewal_n": 13177,
+      "eligible_n": 25374,
+      "recorded_use_pct": 54.3,
+      "type_coverage_pct": 98.6,
+      "recorded_use_all_eligible_pct": 28.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        54.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        52.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2021-06",
+      "dimension": "quarter",
+      "value": "2021Q2",
+      "new_n": 4487,
+      "right_n": 524,
+      "unspecified_n": 462,
+      "unknown_n": 1440,
+      "renewal_n": 986,
+      "eligible_n": 6913,
+      "recorded_use_pct": 53.1,
+      "type_coverage_pct": 79.2,
+      "recorded_use_all_eligible_pct": 7.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        53.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        21.5,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-07",
+      "end": "2021-09",
+      "dimension": "quarter",
+      "value": "2021Q3",
+      "new_n": 13033,
+      "right_n": 2083,
+      "unspecified_n": 1682,
+      "unknown_n": 5320,
+      "renewal_n": 3765,
+      "eligible_n": 22118,
+      "recorded_use_pct": 55.3,
+      "type_coverage_pct": 75.9,
+      "recorded_use_all_eligible_pct": 9.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        55.3,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        22.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-10",
+      "end": "2021-12",
+      "dimension": "quarter",
+      "value": "2021Q4",
+      "new_n": 15312,
+      "right_n": 2686,
+      "unspecified_n": 2288,
+      "unknown_n": 4915,
+      "renewal_n": 4974,
+      "eligible_n": 25201,
+      "recorded_use_pct": 54.0,
+      "type_coverage_pct": 80.5,
+      "recorded_use_all_eligible_pct": 10.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        54.0,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        27.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2022-01",
+      "end": "2022-03",
+      "dimension": "quarter",
+      "value": "2022Q1",
+      "new_n": 14899,
+      "right_n": 3232,
+      "unspecified_n": 3188,
+      "unknown_n": 4763,
+      "renewal_n": 6420,
+      "eligible_n": 26082,
+      "recorded_use_pct": 50.3,
+      "type_coverage_pct": 81.7,
+      "recorded_use_all_eligible_pct": 12.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        50.3,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        28.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2022-04",
+      "end": "2022-06",
+      "dimension": "quarter",
+      "value": "2022Q2",
+      "new_n": 14501,
+      "right_n": 2892,
+      "unspecified_n": 3207,
+      "unknown_n": 4478,
+      "renewal_n": 6099,
+      "eligible_n": 25078,
+      "recorded_use_pct": 47.4,
+      "type_coverage_pct": 82.1,
+      "recorded_use_all_eligible_pct": 11.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        47.4,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        27.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2022-07",
+      "end": "2022-09",
+      "dimension": "quarter",
+      "value": "2022Q3",
+      "new_n": 12858,
+      "right_n": 3029,
+      "unspecified_n": 4052,
+      "unknown_n": 4761,
+      "renewal_n": 7081,
+      "eligible_n": 24700,
+      "recorded_use_pct": 42.8,
+      "type_coverage_pct": 80.7,
+      "recorded_use_all_eligible_pct": 12.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        42.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        25.5,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2022-10",
+      "end": "2022-12",
+      "dimension": "quarter",
+      "value": "2022Q4",
+      "new_n": 16798,
+      "right_n": 2305,
+      "unspecified_n": 4243,
+      "unknown_n": 4823,
+      "renewal_n": 6548,
+      "eligible_n": 28169,
+      "recorded_use_pct": 35.2,
+      "type_coverage_pct": 82.9,
+      "recorded_use_all_eligible_pct": 8.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        35.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        20.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2023-01",
+      "end": "2023-03",
+      "dimension": "quarter",
+      "value": "2023Q1",
+      "new_n": 18552,
+      "right_n": 1729,
+      "unspecified_n": 4533,
+      "unknown_n": 5781,
+      "renewal_n": 6262,
+      "eligible_n": 30595,
+      "recorded_use_pct": 27.6,
+      "type_coverage_pct": 81.1,
+      "recorded_use_all_eligible_pct": 5.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        27.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        14.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2023-04",
+      "end": "2023-06",
+      "dimension": "quarter",
+      "value": "2023Q2",
+      "new_n": 17157,
+      "right_n": 1450,
+      "unspecified_n": 4097,
+      "unknown_n": 4524,
+      "renewal_n": 5547,
+      "eligible_n": 27228,
+      "recorded_use_pct": 26.1,
+      "type_coverage_pct": 83.4,
+      "recorded_use_all_eligible_pct": 5.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        26.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        14.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2023-07",
+      "end": "2023-09",
+      "dimension": "quarter",
+      "value": "2023Q3",
+      "new_n": 15873,
+      "right_n": 1338,
+      "unspecified_n": 3259,
+      "unknown_n": 3459,
+      "renewal_n": 4597,
+      "eligible_n": 23929,
+      "recorded_use_pct": 29.1,
+      "type_coverage_pct": 85.5,
+      "recorded_use_all_eligible_pct": 5.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        29.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        16.6,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2023-10",
+      "end": "2023-12",
+      "dimension": "quarter",
+      "value": "2023Q4",
+      "new_n": 17675,
+      "right_n": 1524,
+      "unspecified_n": 4129,
+      "unknown_n": 2853,
+      "renewal_n": 5653,
+      "eligible_n": 26181,
+      "recorded_use_pct": 27.0,
+      "type_coverage_pct": 89.1,
+      "recorded_use_all_eligible_pct": 5.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        26.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        17.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2024-01",
+      "end": "2024-03",
+      "dimension": "quarter",
+      "value": "2024Q1",
+      "new_n": 19643,
+      "right_n": 1879,
+      "unspecified_n": 5001,
+      "unknown_n": 1175,
+      "renewal_n": 6880,
+      "eligible_n": 27698,
+      "recorded_use_pct": 27.3,
+      "type_coverage_pct": 95.8,
+      "recorded_use_all_eligible_pct": 6.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        27.3,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        23.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2024-04",
+      "end": "2024-06",
+      "dimension": "quarter",
+      "value": "2024Q2",
+      "new_n": 16605,
+      "right_n": 1644,
+      "unspecified_n": 5129,
+      "unknown_n": 356,
+      "renewal_n": 6773,
+      "eligible_n": 23734,
+      "recorded_use_pct": 24.3,
+      "type_coverage_pct": 98.5,
+      "recorded_use_all_eligible_pct": 6.9,
+      "known_renewal_missing_rights_bounds_pct": [
+        24.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        23.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2024-07",
+      "end": "2024-09",
+      "dimension": "quarter",
+      "value": "2024Q3",
+      "new_n": 15679,
+      "right_n": 1935,
+      "unspecified_n": 4590,
+      "unknown_n": 400,
+      "renewal_n": 6525,
+      "eligible_n": 22604,
+      "recorded_use_pct": 29.7,
+      "type_coverage_pct": 98.2,
+      "recorded_use_all_eligible_pct": 8.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        29.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        27.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2024-10",
+      "end": "2024-12",
+      "dimension": "quarter",
+      "value": "2024Q4",
+      "new_n": 18088,
+      "right_n": 3052,
+      "unspecified_n": 4949,
+      "unknown_n": 370,
+      "renewal_n": 8001,
+      "eligible_n": 26459,
+      "recorded_use_pct": 38.1,
+      "type_coverage_pct": 98.6,
+      "recorded_use_all_eligible_pct": 11.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        38.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        36.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2025-01",
+      "end": "2025-03",
+      "dimension": "quarter",
+      "value": "2025Q1",
+      "new_n": 16425,
+      "right_n": 3373,
+      "unspecified_n": 5602,
+      "unknown_n": 3001,
+      "renewal_n": 8975,
+      "eligible_n": 28401,
+      "recorded_use_pct": 37.6,
+      "type_coverage_pct": 89.4,
+      "recorded_use_all_eligible_pct": 11.9,
+      "known_renewal_missing_rights_bounds_pct": [
+        37.5,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        28.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2025-04",
+      "end": "2025-06",
+      "dimension": "quarter",
+      "value": "2025Q2",
+      "new_n": 15948,
+      "right_n": 3495,
+      "unspecified_n": 5545,
+      "unknown_n": 2948,
+      "renewal_n": 9040,
+      "eligible_n": 27936,
+      "recorded_use_pct": 38.7,
+      "type_coverage_pct": 89.4,
+      "recorded_use_all_eligible_pct": 12.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        38.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        29.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2025-07",
+      "end": "2025-09",
+      "dimension": "quarter",
+      "value": "2025Q3",
+      "new_n": 15436,
+      "right_n": 3657,
+      "unspecified_n": 4918,
+      "unknown_n": 2405,
+      "renewal_n": 8575,
+      "eligible_n": 26416,
+      "recorded_use_pct": 42.6,
+      "type_coverage_pct": 90.9,
+      "recorded_use_all_eligible_pct": 13.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        42.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        33.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2025-10",
+      "end": "2025-12",
+      "dimension": "quarter",
+      "value": "2025Q4",
+      "new_n": 17672,
+      "right_n": 3812,
+      "unspecified_n": 6505,
+      "unknown_n": 1702,
+      "renewal_n": 10317,
+      "eligible_n": 29691,
+      "recorded_use_pct": 36.9,
+      "type_coverage_pct": 94.3,
+      "recorded_use_all_eligible_pct": 12.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        36.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        31.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2026-01",
+      "end": "2026-03",
+      "dimension": "quarter",
+      "value": "2026Q1",
+      "new_n": 17558,
+      "right_n": 3926,
+      "unspecified_n": 8823,
+      "unknown_n": 241,
+      "renewal_n": 12749,
+      "eligible_n": 30548,
+      "recorded_use_pct": 30.8,
+      "type_coverage_pct": 99.2,
+      "recorded_use_all_eligible_pct": 12.9,
+      "known_renewal_missing_rights_bounds_pct": [
+        30.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        30.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2026-04",
+      "end": "2026-06",
+      "dimension": "quarter",
+      "value": "2026Q2",
+      "new_n": 16928,
+      "right_n": 3369,
+      "unspecified_n": 7630,
+      "unknown_n": 175,
+      "renewal_n": 10999,
+      "eligible_n": 28102,
+      "recorded_use_pct": 30.6,
+      "type_coverage_pct": 99.4,
+      "recorded_use_all_eligible_pct": 12.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        30.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        30.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2021-06",
+      "dimension": "quarter",
+      "value": "2021Q2",
+      "new_n": 8388,
+      "right_n": 2216,
+      "unspecified_n": 1087,
+      "unknown_n": 2212,
+      "renewal_n": 3303,
+      "eligible_n": 13903,
+      "recorded_use_pct": 67.1,
+      "type_coverage_pct": 84.1,
+      "recorded_use_all_eligible_pct": 15.9,
+      "known_renewal_missing_rights_bounds_pct": [
+        67.0,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        40.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-07",
+      "end": "2021-09",
+      "dimension": "quarter",
+      "value": "2021Q3",
+      "new_n": 23798,
+      "right_n": 9059,
+      "unspecified_n": 3583,
+      "unknown_n": 6687,
+      "renewal_n": 12642,
+      "eligible_n": 43127,
+      "recorded_use_pct": 71.7,
+      "type_coverage_pct": 84.5,
+      "recorded_use_all_eligible_pct": 21.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        71.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        46.8,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-10",
+      "end": "2021-12",
+      "dimension": "quarter",
+      "value": "2021Q4",
+      "new_n": 22650,
+      "right_n": 9625,
+      "unspecified_n": 3966,
+      "unknown_n": 6273,
+      "renewal_n": 13591,
+      "eligible_n": 42514,
+      "recorded_use_pct": 70.8,
+      "type_coverage_pct": 85.2,
+      "recorded_use_all_eligible_pct": 22.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        70.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        48.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2022-01",
+      "end": "2022-03",
+      "dimension": "quarter",
+      "value": "2022Q1",
+      "new_n": 23454,
+      "right_n": 12795,
+      "unspecified_n": 5075,
+      "unknown_n": 5415,
+      "renewal_n": 17870,
+      "eligible_n": 46739,
+      "recorded_use_pct": 71.6,
+      "type_coverage_pct": 88.4,
+      "recorded_use_all_eligible_pct": 27.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        71.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        54.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2022-04",
+      "end": "2022-06",
+      "dimension": "quarter",
+      "value": "2022Q2",
+      "new_n": 23421,
+      "right_n": 11366,
+      "unspecified_n": 5265,
+      "unknown_n": 4993,
+      "renewal_n": 16631,
+      "eligible_n": 45045,
+      "recorded_use_pct": 68.3,
+      "type_coverage_pct": 88.9,
+      "recorded_use_all_eligible_pct": 25.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        68.3,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        52.5,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2022-07",
+      "end": "2022-09",
+      "dimension": "quarter",
+      "value": "2022Q3",
+      "new_n": 20527,
+      "right_n": 11469,
+      "unspecified_n": 5352,
+      "unknown_n": 5230,
+      "renewal_n": 16821,
+      "eligible_n": 42578,
+      "recorded_use_pct": 68.2,
+      "type_coverage_pct": 87.7,
+      "recorded_use_all_eligible_pct": 26.9,
+      "known_renewal_missing_rights_bounds_pct": [
+        68.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        52.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2022-10",
+      "end": "2022-12",
+      "dimension": "quarter",
+      "value": "2022Q4",
+      "new_n": 22434,
+      "right_n": 7490,
+      "unspecified_n": 6818,
+      "unknown_n": 5323,
+      "renewal_n": 14308,
+      "eligible_n": 42065,
+      "recorded_use_pct": 52.3,
+      "type_coverage_pct": 87.3,
+      "recorded_use_all_eligible_pct": 17.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        52.3,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        38.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2023-01",
+      "end": "2023-03",
+      "dimension": "quarter",
+      "value": "2023Q1",
+      "new_n": 32206,
+      "right_n": 6167,
+      "unspecified_n": 8229,
+      "unknown_n": 5365,
+      "renewal_n": 14396,
+      "eligible_n": 51967,
+      "recorded_use_pct": 42.8,
+      "type_coverage_pct": 89.7,
+      "recorded_use_all_eligible_pct": 11.9,
+      "known_renewal_missing_rights_bounds_pct": [
+        42.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        31.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2023-04",
+      "end": "2023-06",
+      "dimension": "quarter",
+      "value": "2023Q2",
+      "new_n": 30349,
+      "right_n": 5517,
+      "unspecified_n": 8077,
+      "unknown_n": 4251,
+      "renewal_n": 13594,
+      "eligible_n": 48194,
+      "recorded_use_pct": 40.6,
+      "type_coverage_pct": 91.2,
+      "recorded_use_all_eligible_pct": 11.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        40.5,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        30.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2023-07",
+      "end": "2023-09",
+      "dimension": "quarter",
+      "value": "2023Q3",
+      "new_n": 28434,
+      "right_n": 5215,
+      "unspecified_n": 7649,
+      "unknown_n": 3939,
+      "renewal_n": 12864,
+      "eligible_n": 45237,
+      "recorded_use_pct": 40.5,
+      "type_coverage_pct": 91.3,
+      "recorded_use_all_eligible_pct": 11.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        40.5,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        31.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2023-10",
+      "end": "2023-12",
+      "dimension": "quarter",
+      "value": "2023Q4",
+      "new_n": 27477,
+      "right_n": 5061,
+      "unspecified_n": 7584,
+      "unknown_n": 4054,
+      "renewal_n": 12645,
+      "eligible_n": 44176,
+      "recorded_use_pct": 40.0,
+      "type_coverage_pct": 90.8,
+      "recorded_use_all_eligible_pct": 11.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        40.0,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        30.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2024-01",
+      "end": "2024-03",
+      "dimension": "quarter",
+      "value": "2024Q1",
+      "new_n": 31553,
+      "right_n": 5427,
+      "unspecified_n": 9482,
+      "unknown_n": 1990,
+      "renewal_n": 14909,
+      "eligible_n": 48452,
+      "recorded_use_pct": 36.4,
+      "type_coverage_pct": 95.9,
+      "recorded_use_all_eligible_pct": 11.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        36.4,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        32.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2024-04",
+      "end": "2024-06",
+      "dimension": "quarter",
+      "value": "2024Q2",
+      "new_n": 28778,
+      "right_n": 4598,
+      "unspecified_n": 8594,
+      "unknown_n": 1046,
+      "renewal_n": 13192,
+      "eligible_n": 43016,
+      "recorded_use_pct": 34.9,
+      "type_coverage_pct": 97.6,
+      "recorded_use_all_eligible_pct": 10.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        34.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        32.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2024-07",
+      "end": "2024-09",
+      "dimension": "quarter",
+      "value": "2024Q3",
+      "new_n": 26919,
+      "right_n": 4875,
+      "unspecified_n": 8797,
+      "unknown_n": 1120,
+      "renewal_n": 13672,
+      "eligible_n": 41711,
+      "recorded_use_pct": 35.7,
+      "type_coverage_pct": 97.3,
+      "recorded_use_all_eligible_pct": 11.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        35.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        32.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2024-10",
+      "end": "2024-12",
+      "dimension": "quarter",
+      "value": "2024Q4",
+      "new_n": 25126,
+      "right_n": 6494,
+      "unspecified_n": 7109,
+      "unknown_n": 998,
+      "renewal_n": 13603,
+      "eligible_n": 39727,
+      "recorded_use_pct": 47.7,
+      "type_coverage_pct": 97.5,
+      "recorded_use_all_eligible_pct": 16.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        47.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        44.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2025-01",
+      "end": "2025-03",
+      "dimension": "quarter",
+      "value": "2025Q1",
+      "new_n": 27081,
+      "right_n": 10128,
+      "unspecified_n": 8006,
+      "unknown_n": 1168,
+      "renewal_n": 18134,
+      "eligible_n": 46383,
+      "recorded_use_pct": 55.9,
+      "type_coverage_pct": 97.5,
+      "recorded_use_all_eligible_pct": 21.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        55.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        52.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2025-04",
+      "end": "2025-06",
+      "dimension": "quarter",
+      "value": "2025Q2",
+      "new_n": 24792,
+      "right_n": 10258,
+      "unspecified_n": 7731,
+      "unknown_n": 706,
+      "renewal_n": 17989,
+      "eligible_n": 43487,
+      "recorded_use_pct": 57.0,
+      "type_coverage_pct": 98.4,
+      "recorded_use_all_eligible_pct": 23.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        57.0,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        54.8,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2025-07",
+      "end": "2025-09",
+      "dimension": "quarter",
+      "value": "2025Q3",
+      "new_n": 22613,
+      "right_n": 9474,
+      "unspecified_n": 7365,
+      "unknown_n": 556,
+      "renewal_n": 16839,
+      "eligible_n": 40008,
+      "recorded_use_pct": 56.3,
+      "type_coverage_pct": 98.6,
+      "recorded_use_all_eligible_pct": 23.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        56.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        54.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2025-10",
+      "end": "2025-12",
+      "dimension": "quarter",
+      "value": "2025Q4",
+      "new_n": 23264,
+      "right_n": 9025,
+      "unspecified_n": 6203,
+      "unknown_n": 503,
+      "renewal_n": 15228,
+      "eligible_n": 38995,
+      "recorded_use_pct": 59.3,
+      "type_coverage_pct": 98.7,
+      "recorded_use_all_eligible_pct": 23.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        59.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        57.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2026-01",
+      "end": "2026-03",
+      "dimension": "quarter",
+      "value": "2026Q1",
+      "new_n": 23291,
+      "right_n": 9712,
+      "unspecified_n": 6800,
+      "unknown_n": 511,
+      "renewal_n": 16512,
+      "eligible_n": 40314,
+      "recorded_use_pct": 58.8,
+      "type_coverage_pct": 98.7,
+      "recorded_use_all_eligible_pct": 24.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        58.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        57.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2026-04",
+      "end": "2026-06",
+      "dimension": "quarter",
+      "value": "2026Q2",
+      "new_n": 18657,
+      "right_n": 9075,
+      "unspecified_n": 5905,
+      "unknown_n": 327,
+      "renewal_n": 14980,
+      "eligible_n": 33964,
+      "recorded_use_pct": 60.6,
+      "type_coverage_pct": 99.0,
+      "recorded_use_all_eligible_pct": 26.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        60.5,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        59.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2021-06",
+      "dimension": "quarter",
+      "value": "2021Q2",
+      "new_n": 5049,
+      "right_n": 417,
+      "unspecified_n": 925,
+      "unknown_n": 2979,
+      "renewal_n": 1342,
+      "eligible_n": 9370,
+      "recorded_use_pct": 31.1,
+      "type_coverage_pct": 68.2,
+      "recorded_use_all_eligible_pct": 4.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        31.0,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        9.6,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-07",
+      "end": "2021-09",
+      "dimension": "quarter",
+      "value": "2021Q3",
+      "new_n": 13246,
+      "right_n": 1585,
+      "unspecified_n": 4463,
+      "unknown_n": 11317,
+      "renewal_n": 6048,
+      "eligible_n": 30611,
+      "recorded_use_pct": 26.2,
+      "type_coverage_pct": 63.0,
+      "recorded_use_all_eligible_pct": 5.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        26.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        9.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-10",
+      "end": "2021-12",
+      "dimension": "quarter",
+      "value": "2021Q4",
+      "new_n": 14309,
+      "right_n": 1853,
+      "unspecified_n": 4387,
+      "unknown_n": 10694,
+      "renewal_n": 6240,
+      "eligible_n": 31243,
+      "recorded_use_pct": 29.7,
+      "type_coverage_pct": 65.8,
+      "recorded_use_all_eligible_pct": 5.9,
+      "known_renewal_missing_rights_bounds_pct": [
+        29.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        10.9,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2022-01",
+      "end": "2022-03",
+      "dimension": "quarter",
+      "value": "2022Q1",
+      "new_n": 14485,
+      "right_n": 2403,
+      "unspecified_n": 6357,
+      "unknown_n": 8288,
+      "renewal_n": 8760,
+      "eligible_n": 31533,
+      "recorded_use_pct": 27.4,
+      "type_coverage_pct": 73.7,
+      "recorded_use_all_eligible_pct": 7.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        27.4,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        14.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2022-04",
+      "end": "2022-06",
+      "dimension": "quarter",
+      "value": "2022Q2",
+      "new_n": 14940,
+      "right_n": 2238,
+      "unspecified_n": 6358,
+      "unknown_n": 9101,
+      "renewal_n": 8596,
+      "eligible_n": 32637,
+      "recorded_use_pct": 26.0,
+      "type_coverage_pct": 72.1,
+      "recorded_use_all_eligible_pct": 6.9,
+      "known_renewal_missing_rights_bounds_pct": [
+        26.0,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        12.6,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2022-07",
+      "end": "2022-09",
+      "dimension": "quarter",
+      "value": "2022Q3",
+      "new_n": 15499,
+      "right_n": 2141,
+      "unspecified_n": 6117,
+      "unknown_n": 10610,
+      "renewal_n": 8258,
+      "eligible_n": 34367,
+      "recorded_use_pct": 25.9,
+      "type_coverage_pct": 69.1,
+      "recorded_use_all_eligible_pct": 6.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        25.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        11.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2022-10",
+      "end": "2022-12",
+      "dimension": "quarter",
+      "value": "2022Q4",
+      "new_n": 18012,
+      "right_n": 1546,
+      "unspecified_n": 7632,
+      "unknown_n": 10848,
+      "renewal_n": 9178,
+      "eligible_n": 38038,
+      "recorded_use_pct": 16.8,
+      "type_coverage_pct": 71.5,
+      "recorded_use_all_eligible_pct": 4.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        16.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        7.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2023-01",
+      "end": "2023-03",
+      "dimension": "quarter",
+      "value": "2023Q1",
+      "new_n": 19739,
+      "right_n": 1320,
+      "unspecified_n": 7104,
+      "unknown_n": 7618,
+      "renewal_n": 8424,
+      "eligible_n": 35781,
+      "recorded_use_pct": 15.7,
+      "type_coverage_pct": 78.7,
+      "recorded_use_all_eligible_pct": 3.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        15.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        8.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2023-04",
+      "end": "2023-06",
+      "dimension": "quarter",
+      "value": "2023Q2",
+      "new_n": 18145,
+      "right_n": 1172,
+      "unspecified_n": 7899,
+      "unknown_n": 8296,
+      "renewal_n": 9071,
+      "eligible_n": 35512,
+      "recorded_use_pct": 12.9,
+      "type_coverage_pct": 76.6,
+      "recorded_use_all_eligible_pct": 3.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        12.9,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        6.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2023-07",
+      "end": "2023-09",
+      "dimension": "quarter",
+      "value": "2023Q3",
+      "new_n": 17711,
+      "right_n": 1016,
+      "unspecified_n": 9325,
+      "unknown_n": 9544,
+      "renewal_n": 10341,
+      "eligible_n": 37596,
+      "recorded_use_pct": 9.8,
+      "type_coverage_pct": 74.6,
+      "recorded_use_all_eligible_pct": 2.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        9.8,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        5.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2023-10",
+      "end": "2023-12",
+      "dimension": "quarter",
+      "value": "2023Q4",
+      "new_n": 18548,
+      "right_n": 1082,
+      "unspecified_n": 9558,
+      "unknown_n": 10367,
+      "renewal_n": 10640,
+      "eligible_n": 39555,
+      "recorded_use_pct": 10.2,
+      "type_coverage_pct": 73.8,
+      "recorded_use_all_eligible_pct": 2.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        10.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        5.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2024-01",
+      "end": "2024-03",
+      "dimension": "quarter",
+      "value": "2024Q1",
+      "new_n": 20304,
+      "right_n": 1466,
+      "unspecified_n": 11395,
+      "unknown_n": 2683,
+      "renewal_n": 12861,
+      "eligible_n": 35848,
+      "recorded_use_pct": 11.4,
+      "type_coverage_pct": 92.5,
+      "recorded_use_all_eligible_pct": 4.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        11.3,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        9.4,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2024-04",
+      "end": "2024-06",
+      "dimension": "quarter",
+      "value": "2024Q2",
+      "new_n": 18589,
+      "right_n": 1428,
+      "unspecified_n": 12127,
+      "unknown_n": 365,
+      "renewal_n": 13555,
+      "eligible_n": 32509,
+      "recorded_use_pct": 10.5,
+      "type_coverage_pct": 98.9,
+      "recorded_use_all_eligible_pct": 4.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        10.5,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        10.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2024-07",
+      "end": "2024-09",
+      "dimension": "quarter",
+      "value": "2024Q3",
+      "new_n": 18610,
+      "right_n": 1346,
+      "unspecified_n": 9727,
+      "unknown_n": 400,
+      "renewal_n": 11073,
+      "eligible_n": 30083,
+      "recorded_use_pct": 12.2,
+      "type_coverage_pct": 98.7,
+      "recorded_use_all_eligible_pct": 4.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        12.1,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        11.7,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2024-10",
+      "end": "2024-12",
+      "dimension": "quarter",
+      "value": "2024Q4",
+      "new_n": 22207,
+      "right_n": 1895,
+      "unspecified_n": 12167,
+      "unknown_n": 429,
+      "renewal_n": 14062,
+      "eligible_n": 36698,
+      "recorded_use_pct": 13.5,
+      "type_coverage_pct": 98.8,
+      "recorded_use_all_eligible_pct": 5.2,
+      "known_renewal_missing_rights_bounds_pct": [
+        13.4,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        13.0,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2025-01",
+      "end": "2025-03",
+      "dimension": "quarter",
+      "value": "2025Q1",
+      "new_n": 19115,
+      "right_n": 2292,
+      "unspecified_n": 10662,
+      "unknown_n": 447,
+      "renewal_n": 12954,
+      "eligible_n": 32516,
+      "recorded_use_pct": 17.7,
+      "type_coverage_pct": 98.6,
+      "recorded_use_all_eligible_pct": 7.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        17.6,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        17.1,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2025-04",
+      "end": "2025-06",
+      "dimension": "quarter",
+      "value": "2025Q2",
+      "new_n": 19342,
+      "right_n": 2627,
+      "unspecified_n": 11754,
+      "unknown_n": 295,
+      "renewal_n": 14381,
+      "eligible_n": 34018,
+      "recorded_use_pct": 18.3,
+      "type_coverage_pct": 99.1,
+      "recorded_use_all_eligible_pct": 7.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        18.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        17.8,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2025-07",
+      "end": "2025-09",
+      "dimension": "quarter",
+      "value": "2025Q3",
+      "new_n": 22483,
+      "right_n": 2607,
+      "unspecified_n": 11698,
+      "unknown_n": 279,
+      "renewal_n": 14305,
+      "eligible_n": 37067,
+      "recorded_use_pct": 18.2,
+      "type_coverage_pct": 99.2,
+      "recorded_use_all_eligible_pct": 7.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        18.2,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        17.8,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2025-10",
+      "end": "2025-12",
+      "dimension": "quarter",
+      "value": "2025Q4",
+      "new_n": 24646,
+      "right_n": 2589,
+      "unspecified_n": 11982,
+      "unknown_n": 335,
+      "renewal_n": 14571,
+      "eligible_n": 39552,
+      "recorded_use_pct": 17.8,
+      "type_coverage_pct": 99.2,
+      "recorded_use_all_eligible_pct": 6.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        17.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        17.3,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2026-01",
+      "end": "2026-03",
+      "dimension": "quarter",
+      "value": "2026Q1",
+      "new_n": 21034,
+      "right_n": 2759,
+      "unspecified_n": 9352,
+      "unknown_n": 279,
+      "renewal_n": 12111,
+      "eligible_n": 33424,
+      "recorded_use_pct": 22.8,
+      "type_coverage_pct": 99.2,
+      "recorded_use_all_eligible_pct": 8.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        22.7,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        22.2,
+        100.0
+      ]
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2026-04",
+      "end": "2026-06",
+      "dimension": "quarter",
+      "value": "2026Q2",
+      "new_n": 19005,
+      "right_n": 2579,
+      "unspecified_n": 11303,
+      "unknown_n": 190,
+      "renewal_n": 13882,
+      "eligible_n": 33077,
+      "recorded_use_pct": 18.6,
+      "type_coverage_pct": 99.4,
+      "recorded_use_all_eligible_pct": 7.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        18.5,
+        100.0
+      ],
+      "both_missing_assignment_pct": [
+        18.3,
+        100.0
+      ]
+    }
+  ],
+  "boundary_sensitivity": [
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2020-08",
+      "end": "2022-07",
+      "value": "first_two",
+      "recorded_use_pct": 71.1
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2022-08",
+      "end": "2024-07",
+      "value": "second_two",
+      "recorded_use_pct": 39.6
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2020-08",
+      "end": "2022-07",
+      "value": "first_two",
+      "recorded_use_pct": 50.3
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2022-08",
+      "end": "2024-07",
+      "value": "second_two",
+      "recorded_use_pct": 29.3
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2020-08",
+      "end": "2022-07",
+      "value": "first_two",
+      "recorded_use_pct": 68.8
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2022-08",
+      "end": "2024-07",
+      "value": "second_two",
+      "recorded_use_pct": 43.5
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2020-08",
+      "end": "2022-07",
+      "value": "first_two",
+      "recorded_use_pct": 27.1
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2022-08",
+      "end": "2024-07",
+      "value": "second_two",
+      "recorded_use_pct": 13.1
+    }
+  ],
+  "policy_comparisons": [
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2020-07",
+      "end": "2022-07",
+      "dimension": "epoch",
+      "value": "first_two",
+      "epoch": "first_two",
+      "recorded_use_pct": 71.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        71.1,
+        100.0
+      ],
+      "type_coverage_pct": 53.4
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2022-07",
+      "end": "2024-07",
+      "dimension": "epoch",
+      "value": "second_two",
+      "epoch": "second_two",
+      "recorded_use_pct": 39.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        39.6,
+        100.0
+      ],
+      "type_coverage_pct": 92.7
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2024-07",
+      "end": "2026-06",
+      "dimension": "epoch",
+      "value": "later",
+      "epoch": "later",
+      "recorded_use_pct": 53.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        53.1,
+        100.0
+      ],
+      "type_coverage_pct": 96.8
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2020-07",
+      "end": "2021-05",
+      "dimension": "first_two_reporting",
+      "value": "before_reporting",
+      "epoch": "first_two",
+      "recorded_use_pct": 6.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        6.5,
+        100.0
+      ],
+      "type_coverage_pct": 3.4
+    },
+    {
+      "scope": "11",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2022-07",
+      "dimension": "first_two_reporting",
+      "value": "after_reporting",
+      "epoch": "first_two",
+      "recorded_use_pct": 72.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        71.9,
+        100.0
+      ],
+      "type_coverage_pct": 86.7
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2020-07",
+      "end": "2022-07",
+      "dimension": "epoch",
+      "value": "first_two",
+      "epoch": "first_two",
+      "recorded_use_pct": 50.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        50.3,
+        100.0
+      ],
+      "type_coverage_pct": 55.4
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2022-07",
+      "end": "2024-07",
+      "dimension": "epoch",
+      "value": "second_two",
+      "epoch": "second_two",
+      "recorded_use_pct": 29.3,
+      "known_renewal_missing_rights_bounds_pct": [
+        29.3,
+        100.0
+      ],
+      "type_coverage_pct": 87.8
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2024-07",
+      "end": "2026-06",
+      "dimension": "epoch",
+      "value": "later",
+      "epoch": "later",
+      "recorded_use_pct": 35.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        35.6,
+        100.0
+      ],
+      "type_coverage_pct": 94.8
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2020-07",
+      "end": "2021-05",
+      "dimension": "first_two_reporting",
+      "value": "before_reporting",
+      "epoch": "first_two",
+      "recorded_use_pct": 11.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        11.4,
+        100.0
+      ],
+      "type_coverage_pct": 4.1
+    },
+    {
+      "scope": "11",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2022-07",
+      "dimension": "first_two_reporting",
+      "value": "after_reporting",
+      "epoch": "first_two",
+      "recorded_use_pct": 50.7,
+      "known_renewal_missing_rights_bounds_pct": [
+        50.7,
+        100.0
+      ],
+      "type_coverage_pct": 79.8
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2020-07",
+      "end": "2022-07",
+      "dimension": "epoch",
+      "value": "first_two",
+      "epoch": "first_two",
+      "recorded_use_pct": 68.8,
+      "known_renewal_missing_rights_bounds_pct": [
+        68.8,
+        100.0
+      ],
+      "type_coverage_pct": 58.3
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2022-07",
+      "end": "2024-07",
+      "dimension": "epoch",
+      "value": "second_two",
+      "epoch": "second_two",
+      "recorded_use_pct": 43.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        43.5,
+        100.0
+      ],
+      "type_coverage_pct": 91.8
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2024-07",
+      "end": "2026-06",
+      "dimension": "epoch",
+      "value": "later",
+      "epoch": "later",
+      "recorded_use_pct": 55.0,
+      "known_renewal_missing_rights_bounds_pct": [
+        54.9,
+        100.0
+      ],
+      "type_coverage_pct": 98.2
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2020-07",
+      "end": "2021-05",
+      "dimension": "first_two_reporting",
+      "value": "before_reporting",
+      "epoch": "first_two",
+      "recorded_use_pct": 6.9,
+      "known_renewal_missing_rights_bounds_pct": [
+        6.8,
+        100.0
+      ],
+      "type_coverage_pct": 9.0
+    },
+    {
+      "scope": "41",
+      "market": "jeonse",
+      "start": "2021-06",
+      "end": "2022-07",
+      "dimension": "first_two_reporting",
+      "value": "after_reporting",
+      "epoch": "first_two",
+      "recorded_use_pct": 70.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        70.4,
+        100.0
+      ],
+      "type_coverage_pct": 86.7
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2020-07",
+      "end": "2022-07",
+      "dimension": "epoch",
+      "value": "first_two",
+      "epoch": "first_two",
+      "recorded_use_pct": 27.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        27.1,
+        100.0
+      ],
+      "type_coverage_pct": 50.1
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2022-07",
+      "end": "2024-07",
+      "dimension": "epoch",
+      "value": "second_two",
+      "epoch": "second_two",
+      "recorded_use_pct": 13.1,
+      "known_renewal_missing_rights_bounds_pct": [
+        13.0,
+        100.0
+      ],
+      "type_coverage_pct": 79.9
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2024-07",
+      "end": "2026-06",
+      "dimension": "epoch",
+      "value": "later",
+      "epoch": "later",
+      "recorded_use_pct": 17.6,
+      "known_renewal_missing_rights_bounds_pct": [
+        17.5,
+        100.0
+      ],
+      "type_coverage_pct": 99.1
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2020-07",
+      "end": "2021-05",
+      "dimension": "first_two_reporting",
+      "value": "before_reporting",
+      "epoch": "first_two",
+      "recorded_use_pct": 7.4,
+      "known_renewal_missing_rights_bounds_pct": [
+        7.4,
+        100.0
+      ],
+      "type_coverage_pct": 7.0
+    },
+    {
+      "scope": "41",
+      "market": "monthly",
+      "start": "2021-06",
+      "end": "2022-07",
+      "dimension": "first_two_reporting",
+      "value": "after_reporting",
+      "epoch": "first_two",
+      "recorded_use_pct": 27.5,
+      "known_renewal_missing_rights_bounds_pct": [
+        27.5,
+        100.0
+      ],
+      "type_coverage_pct": 69.2
+    }
+  ],
+  "sources": {
+    "rent": "https://www.data.go.kr/data/15126474/openapi.do",
+    "law": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276291&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+    "form_2023_12_29": "https://www.law.go.kr/LSW/flDownload.do?bylClsCd=110202&flSeq=161498991",
+    "renewal_guide": "https://easylaw.go.kr/CSP/CnpClsMainBtr.laf?ccfNo=4&cciNo=4&cnpClsNo=1&csmSeq=629&popMenu=ov",
+    "introduced": "https://www.korea.kr/news/policyNewsView.do?newsId=148875466",
+    "reporting": "https://www.korea.kr/news/policyNewsView.do?newsId=148888119"
+  },
+  "definitions": {
+    "numerator": "갱신으로 분류되고 갱신요구권 사용이 기재된 계약 수",
+    "denominator": "사용 기재와 권리 미기재를 모두 포함한 갱신 계약 수",
+    "missing": "권리의 빈칸은 확인된 미사용이 아니며 계약구분의 빈칸은 신규가 아닙니다.",
+    "population": "수집 지역의 분석 조건에 맞는 아파트 신고·확정일자 계약입니다. 모든 임차인이나 모든 재계약이 아닙니다.",
+    "time": "계약일 기준입니다. 첫 분기는 2021년 6월만, 2021년 연도 표는 6~12월만, 2026년 연도 표는 1~6월만 포함합니다.",
+    "policy": "정책 첫 2년은 2020-07-31부터입니다. 2021-06-01 신고제 시행일과 구분합니다.",
+    "form": "2023-12-29 개정 신고 서식은 행사와 미행사를 구분합니다. 공개 자료의 빈칸이 미행사 선택과 같다고 확인한 것은 아닙니다.",
+    "record_accuracy": "현재 원본에는 도입 이전 계약월에도 사용 표시가 있습니다. 표시의 입력 경위나 개별 법적 행사 사실은 확인하지 못했습니다.",
+    "bounds": "기재된 사용은 맞다고 가정하고 관측 계약의 미기재를 달리 배정한 가정 범위입니다. 전체 임차인의 실제 사용률이나 통계적 신뢰구간이 아닙니다."
+  }
+}
