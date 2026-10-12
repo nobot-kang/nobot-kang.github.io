@@ -255,3 +255,27 @@ sensitivities. The main distribution retains long reported periods. The current 
 contain some period values for2011 contracts; June2021 is a reporting-policy study
 boundary, not a verified first publication date. These data do not identify legal
 expiry dates, household moves, causal regional differences or every rental contract.
+
+`assets/renewal-rights.json` (`renewal_rights_v1`) covers Seoul 25 districts and the
+36 collected Gyeonggi regions, not all tenants or all Gyeonggi. Main observations
+are June 2021–June 2026; July–September 2026 is separately provisional. The 208
+ordinary comparisons retain new, marked-use renewal, unspecified-rights renewal
+and unknown-type counts. `renewal_n` sums the two renewal categories. Recorded-use
+percentages divide marked renewals by all classified renewals; type coverage
+divides new plus renewal contracts by all eligible contracts. An unspecified right
+is not confirmed nonuse; unknown contract type is not new. Different dimension
+rows overlap and must not be added together. The first public quarter is June
+2021 only; 2021 and 2026 annual comparisons are partial years.
+
+Twenty policy comparisons retain recorded-use and type-coverage percentages for
+exact statutory-date windows and the split around reporting's June 1, 2021 start.
+The first window is July 31, 2020–July 30, 2022. Eight auxiliary comparisons shift
+to whole months and retain only the recorded-use percentage. These ratio-only
+windows do not expose their primitive counts. Percentages round to 0.1 point.
+Missing-value assignment bounds round outward, assume marked-use values are true,
+and concern observed contracts; they are not population confidence intervals.
+Low early coverage, changing reporting scope, current retrospective labels and
+unobserved renewals prevent inference to actual exercise rates or policy effects.
+The 2023-12-29 official reporting form distinguishes exercise/nonexercise, but no
+verified mapping from API blanks to its nonexercise selection is asserted. Individual
+contract IDs, exact exercise histories and private historical anomaly counts are absent.
