@@ -1,0 +1,163 @@
+{
+  "schema": "completed_unsold_scope_v1",
+  "unit": "호",
+  "kb_retrieved": "2026-10-03",
+  "definitions_checked": "2026-10-13",
+  "scope_rows": [
+    {
+      "month": "202202",
+      "scope": "11",
+      "kb_total": 47,
+      "official_total": 47,
+      "official_public": 0,
+      "official_private": 47,
+      "completed_private": 45
+    },
+    {
+      "month": "202202",
+      "scope": "41",
+      "kb_total": 1862,
+      "official_total": 1862,
+      "official_public": 0,
+      "official_private": 1862,
+      "completed_private": 384
+    },
+    {
+      "month": "202605",
+      "scope": "11",
+      "kb_total": 985,
+      "official_total": 985,
+      "official_public": 0,
+      "official_private": 985,
+      "completed_private": 659
+    },
+    {
+      "month": "202605",
+      "scope": "41",
+      "kb_total": 13042,
+      "official_total": 13042,
+      "official_public": 0,
+      "official_private": 13042,
+      "completed_private": 2714
+    },
+    {
+      "month": "202606",
+      "scope": "11",
+      "kb_total": 1013,
+      "official_total": 1013,
+      "official_public": 0,
+      "official_private": 1013,
+      "completed_private": 692
+    },
+    {
+      "month": "202606",
+      "scope": "41",
+      "kb_total": 13553,
+      "official_total": 13553,
+      "official_public": 0,
+      "official_private": 13553,
+      "completed_private": 2568
+    },
+    {
+      "month": "202607",
+      "scope": "11",
+      "kb_total": 994,
+      "official_total": 994,
+      "official_public": 0,
+      "official_private": 994,
+      "completed_private": 692
+    },
+    {
+      "month": "202607",
+      "scope": "41",
+      "kb_total": 14394,
+      "official_total": 14394,
+      "official_public": 0,
+      "official_private": 14394,
+      "completed_private": 2331
+    }
+  ],
+  "discrepancies": [
+    {
+      "month": "201903",
+      "region": "구리시",
+      "kb": [
+        47,
+        4,
+        13,
+        0
+      ],
+      "official": [
+        47,
+        4,
+        43,
+        0
+      ]
+    },
+    {
+      "month": "202202",
+      "region": "서울",
+      "kb": [
+        45,
+        43,
+        2,
+        null
+      ],
+      "official": [
+        45,
+        43,
+        2,
+        0
+      ]
+    },
+    {
+      "month": "202605",
+      "region": "화성시",
+      "kb": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "official": [
+        61,
+        44,
+        14,
+        3
+      ]
+    },
+    {
+      "month": "202606",
+      "region": "화성시",
+      "kb": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "official": [
+        61,
+        44,
+        14,
+        3
+      ]
+    }
+  ],
+  "discrepancy_order": [
+    "전체",
+    "전용 60㎡ 이하",
+    "전용 60㎡ 초과~85㎡ 이하",
+    "전용 85㎡ 초과"
+  ],
+  "sources": {
+    "molit": "https://stat.molit.go.kr/portal/cate/statMetaView.do?hRsId=32",
+    "glossary": "https://stat.molit.go.kr/portal/stat/partDic.do",
+    "kb": "https://data.kbland.kr/"
+  },
+  "limits": [
+    "선택 월의 현재 보유 개정본 대조이며 당시 첫 발표본의 차이를 복원하지 않았습니다.",
+    "전체와 준공 후는 서로 다른 범위입니다. 이 표에서 공공이 0이라고 역사 전체 또는 공공 주택 조사 완전성을 뜻하지 않습니다.",
+    "KB 결측을 0으로 바꾸거나 원표로 조용히 채우지 않았습니다.",
+    "지역 미분양 주택 집계입니다. 사적 거래·재고 통계, 개별 주택 식별자 또는 주택과 거래의 연결을 추가하지 않습니다."
+  ]
+}
