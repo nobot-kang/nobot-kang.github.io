@@ -8,22 +8,6 @@
 
 첫 집·갈아타기 후보와 전세·월세 조건을 같은 기준으로 비교하고, 계약 전에 확인할 것을 정리합니다.
 
-### [아파트의 진화](https://nobot-kang.github.io/series/apartment-evolution/)
-
-현재 남은 단지를 준공 연대로 나눠 주차·층수·난방과 공간 조건, 정보 누락과 실제 이용의 차이를 읽습니다.
-
-- [세대당 주차 1대, 어느 준공 연대부터 흔해졌을까?](https://nobot-kang.github.io/posts/apartment-parking-by-completion-era/): 서울·수집 경기의 준공 연대별 세대당 주차와 지하 주차 비율을 비교합니다. 중위·분포·지역 차이, 누락 단지와 신축·구축 비교의 한계를 확인합니다.
-- [아파트 최고층수, 신축일수록 높을까? 준공 연대별 서울·경기 비교](https://nobot-kang.github.io/posts/apartment-height-by-completion-era/): 서울·수집 경기의 준공 연대별 최고층수와 30층·40층 이상 비중을 비교합니다. K-apt·건축물대장의 차이, 정보 누락과 현재 재고 비교의 한계를 함께 확인합니다.
-- [지역난방·개별난방·중앙난방 차이: 준공 연대와 지역으로 보면](https://nobot-kang.github.io/posts/apartment-heating-by-completion-era/): 개별·중앙·지역난방의 차이와 서울·수집 경기의 준공 연대별 구성을 비교합니다. 단지 수와 세대수 가중, 신도시와의 관계, 중앙난방 단지의 연식·규모와 정보 누락의 한계를 확인합니다.
-- [아파트 평형 종류: 신축 단지는 면적 가짓수가 더 많을까?](https://nobot-kang.github.io/posts/apartment-area-variety-by-completion-era/): 서울·수집 경기의 단지별 전용면적 가짓수를 준공 연대와 세대수 규모로 비교합니다. 정확 면적과 정수 평형의 차이, 한 가지 면적 단지 비율, 정보 누락과 평면도 해석의 한계를 확인합니다.
-
-### [소득과 부담](https://nobot-kang.github.io/series/income-and-affordability/)
-
-공표 소득·주거비·가격 지표의 가정과 분모를 확인하고 개인의 자금 계획과 구분합니다.
-
-- [중간 소득으로 살 수 있는 아파트 비율은? 서울·경기 KB HOI 16년](https://nobot-kang.github.io/posts/housing-opportunity-seoul-gyeonggi/): 서울·경기 KB 주택구입잠재력지수를 2010~2026년 분기로 비교합니다. 2019년 소득조사 변경, 구간별 최고·최저와 소득·금리 가정, 실제 매물·개인 구매력과의 차이를 확인합니다.
-- [서울·경기 아파트 월세는 기준소득의 몇 %일까? 보증금 비용까지 비교](https://nobot-kang.github.io/posts/apartment-rent-income-ratio/): 서울·수집 경기 아파트 59형·84형 월세를 2011~2026년 KB 공통 기준소득에 비교합니다. 보증금 비용과 같은 달 비교, 실제 임차가구 부담률과의 차이를 확인합니다.
-
 ### [첫 집의 예산](https://nobot-kang.github.io/series/first-home-budget/)
 
 예산별 거래와 모형 가격 기준 재고, 실제 매물과 자금 조건을 구분해 첫 집 후보를 비교합니다.
@@ -32,6 +16,13 @@
 - [소형 아파트가 더 올랐을까? 서울·경기 면적별 16년 지수 비교](https://nobot-kang.github.io/posts/apartment-size-price-index/): 소형 아파트가 대형보다 더 올랐을까요? 서울·수집 경기의 전용 60㎡ 이하·60~85㎡·85㎡ 초과 자체 지수로 2010~2026년 변화, 하락기 반전과 끝월 민감도를 비교합니다.
 - [PIR 추이 읽기: 서울·경기 집값과 소득의 2010~2026년 비교](https://nobot-kang.github.io/posts/apartment-price-income-history/): 2010~2026년 서울·수집 경기의 소득 대비 모형가격을 비교합니다. 2019년 소득조사 개편, 물가 조정과의 차이, 같은 단지 비교 및 추정의 한계를 함께 확인하세요.
 - [서울 구축 59형 vs 경기 신축 84형: 6억·9억 예산 비교](https://nobot-kang.github.io/posts/same-budget-old-small-new-outer/): 6억·9억 예산 상한 아래 서울 구축 59형과 경기 외곽 신축 84형의 평균가격·전세가율·거래 빈도를 비교합니다. 짧은 가격 이력과 서로 다른 실제 지출액을 구분해 읽어 보세요.
+
+### [소득과 부담](https://nobot-kang.github.io/series/income-and-affordability/)
+
+공표 소득·주거비·가격 지표의 가정과 분모를 확인하고 개인의 자금 계획과 구분합니다.
+
+- [중간 소득으로 살 수 있는 아파트 비율은? 서울·경기 KB HOI 16년](https://nobot-kang.github.io/posts/housing-opportunity-seoul-gyeonggi/): 서울·경기 KB 주택구입잠재력지수를 2010~2026년 분기로 비교합니다. 2019년 소득조사 변경, 구간별 최고·최저와 소득·금리 가정, 실제 매물·개인 구매력과의 차이를 확인합니다.
+- [서울·경기 아파트 월세는 기준소득의 몇 %일까? 보증금 비용까지 비교](https://nobot-kang.github.io/posts/apartment-rent-income-ratio/): 서울·수집 경기 아파트 59형·84형 월세를 2011~2026년 KB 공통 기준소득에 비교합니다. 보증금 비용과 같은 달 비교, 실제 임차가구 부담률과의 차이를 확인합니다.
 
 ### [다음 집으로 가는 비용](https://nobot-kang.github.io/series/home-upgrade-costs/)
 
@@ -47,6 +38,15 @@
 - [신축 프리미엄, 연식별 아파트 가격표만으로 알 수 있을까?](https://nobot-kang.github.io/posts/apartment-age-price-comparison/): 노원·강서의 2026년 상반기 84㎡ 실거래를 연식별로 비교합니다. 신축 표본이 부족한 칸과 연식별 중앙값 차이, 비교 분모와 입지 혼입을 확인하고 소멸 연도를 단정할 수 없는 이유를 설명합니다.
 - [1,000세대 대단지 아파트는 얼마나 비쌀까? 연식을 맞춘 비교](https://nobot-kang.github.io/posts/apartment-size-price-comparison/): 노원·강서의 2026년 상반기 84㎡ 실거래를 1,000세대 미만·이상으로 비교합니다. 세대수 확인 표본과 연식 제한에 따라 달라지는 가격 격차, 대단지 효과·환금성으로 해석할 때의 한계를 살펴보세요.
 - [아파트 15층은 로열층일까? 층별 실거래가 비교의 기준](https://nobot-kang.github.io/posts/apartment-floor-price-comparison/): 노원·강서의 2026년 상반기 84㎡ 실거래를 층별로 비교합니다. 15층과 상대층의 차이, 건물 총층수 연결률과 가격 분포를 확인하고 내 후보의 층 프리미엄으로 적용하기 어려운 이유를 살펴보세요.
+
+### [아파트의 진화](https://nobot-kang.github.io/series/apartment-evolution/)
+
+현재 남은 단지를 준공 연대로 나눠 주차·층수·난방, 면적 가짓수와 소형·대형 구성, 정보 누락과 실제 이용의 차이를 읽습니다.
+
+- [세대당 주차 1대, 어느 준공 연대부터 흔해졌을까?](https://nobot-kang.github.io/posts/apartment-parking-by-completion-era/): 서울·수집 경기의 준공 연대별 세대당 주차와 지하 주차 비율을 비교합니다. 중위·분포·지역 차이, 누락 단지와 신축·구축 비교의 한계를 확인합니다.
+- [아파트 최고층수, 신축일수록 높을까? 준공 연대별 서울·경기 비교](https://nobot-kang.github.io/posts/apartment-height-by-completion-era/): 서울·수집 경기의 준공 연대별 최고층수와 30층·40층 이상 비중을 비교합니다. K-apt·건축물대장의 차이, 정보 누락과 현재 재고 비교의 한계를 함께 확인합니다.
+- [지역난방·개별난방·중앙난방 차이: 준공 연대와 지역으로 보면](https://nobot-kang.github.io/posts/apartment-heating-by-completion-era/): 개별·중앙·지역난방의 차이와 서울·수집 경기의 준공 연대별 구성을 비교합니다. 단지 수와 세대수 가중, 신도시와의 관계, 중앙난방 단지의 연식·규모와 정보 누락의 한계를 확인합니다.
+- [아파트 평형 종류: 신축 단지는 면적 가짓수가 더 많을까?](https://nobot-kang.github.io/posts/apartment-area-variety-by-completion-era/): 서울·수집 경기의 단지별 전용면적 가짓수를 준공 연대와 세대수 규모로 비교합니다. 정확 면적과 정수 평형의 차이, 한 가지 면적 단지 비율, 정보 누락과 평면도 해석의 한계를 확인합니다.
 - [2020년 이후 아파트는 소형 비중이 클까? 서울·경기 재고 비교](https://nobot-kang.github.io/posts/apartment-size-by-completion-era/): 서울·수집 경기의 현재 연결 재고를 사용승인 연대로 나눕니다. 한 단지를 제외해도 최근 연대의 소형 비중은 높고 대형 비중은 낮습니다. 세대수 분모, 84㎡대 구성, 제외 기준과 한계를 확인하세요.
 
 ### [첫 집을 위한 가격 읽기](https://nobot-kang.github.io/series/first-home-prices/)
@@ -69,27 +69,19 @@
 - [같은 면적으로 본 전세가율: 서울·경기 지역 지도와 18분기 흐름](https://nobot-kang.github.io/posts/modeled-regional-jeonse-ratio/): 서울 25구·수집 경기 36지역의 같은 주택 모형 전세가율을 두 면적군으로 비교합니다. 2026년 2분기 지역 지도와 18분기 흐름, 모형 범위·고정 표본·전체 후보의 차이를 확인하세요.
 - [같은 보증금 전세, 2년 뒤에도 같은 면적을 고를 수 있을까?](https://nobot-kang.github.io/posts/same-deposit-two-years/): 3억·5억·7억 원 보증금을 고정해 2024·2026년 서울·수집 경기의 두 면적군을 비교합니다. 지역 지도와 확인·유보 상태, 면적 축소와 지역 이동의 한계를 살펴보세요.
 - [갱신 전세는 신규보다 얼마나 쌀까? 서울 비교 표본의 한계](https://nobot-kang.github.io/posts/seoul-renewal-jeonse-comparison/): 2026년 상반기 서울 아파트 신규·갱신 전세의 중앙값과 같은 단지·전용면적·분기 99묶음의 격차를 비교합니다. 포함 비중 6.0%와 미기재의 의미를 함께 읽습니다.
-- [전세 계약은 꼭 2년일까? 신고된 기간과 법적 보호의 차이](https://nobot-kang.github.io/posts/reported-rental-contract-duration/): 전세 1년 계약과 법적 보호를 구분하고, 서울·경기 수집 지역의 신고 기간을 전세·월세·면적·신규·갱신별로 비교합니다. 23개월 기록과 기간 누락이 비중을 어떻게 바꾸는지도 확인하세요.
-- [갱신요구권 사용 비율: 서울·경기 실거래 기록의 숫자와 빈칸](https://nobot-kang.github.io/posts/renewal-rights-recorded-use/): 서울·경기 수집 지역 아파트의 갱신요구권 사용 기재 비중을 시기·전세·월세·면적별로 비교합니다. 빈칸을 미사용으로 볼 수 없는 이유와 신고제 초기 결손, 정책 첫 2년의 분모를 확인하세요.
+- [전세 계약은 꼭 2년일까? 신고된 기간과 법적 보호의 차이](https://nobot-kang.github.io/posts/reported-rental-contract-duration/): 전세 1년 계약과 법적 보호를 구분하고, 서울·수집 경기의 신고 기간을 전세·월세·면적·신규·갱신별로 비교합니다. 23개월 기록과 기간 누락이 비중을 어떻게 바꾸는지도 확인하세요.
+- [갱신요구권 사용 비율: 서울·경기 실거래 기록의 숫자와 빈칸](https://nobot-kang.github.io/posts/renewal-rights-recorded-use/): 서울·수집 경기 아파트의 갱신요구권 사용 기재 비중을 시기·전세·월세·면적별로 비교합니다. 빈칸을 미사용으로 볼 수 없는 이유와 신고제 초기 결손, 정책 첫 2년의 분모를 확인하세요.
 
 ## 시장 흐름
 
 지역·가격대·거래금액이 어디서 어떻게 움직였는지 실거래 집계로 따라갑니다.
-
-### [시장 심리 읽기](https://nobot-kang.github.io/series/market-sentiment/)
-
-중개업소 설문의 산식과 응답, 실제 계약·가격을 구분하고 기간·지역을 맞춰 심리지수를 읽습니다.
-
-- [KB 매수우위지수 100의 뜻: 서울·경기 거래량과 집값도 함께 움직일까?](https://nobot-kang.github.io/posts/kb-buyer-sentiment-100/): 2010~2026년 서울·경기·수도권 월간 매수우위지수에서 100 초과 구간과 응답 비율을 확인합니다. 실제 아파트 계약·가격의 동행과 반례, 월간·주간 및 최근 자료의 한계를 비교합니다.
-- [거래활발지수가 오르면 거래량도 늘었을까? 서울·경기 매매와 전세 비교](https://nobot-kang.github.io/posts/kb-trading-activity-and-contracts/): KB 월간 매매·전세 거래활발지수와 서울·수집 경기의 아파트 계약 건수를 비교합니다. 지수 100의 뜻, 상관과 전월 방향, 임대차 신고제 전후·최근 월·반올림의 한계를 확인합니다.
-- [KB 전망지수는 3개월 뒤 집값을 맞혔을까? 매매·전세 방향 비교](https://nobot-kang.github.io/posts/kb-price-outlook-and-results/): 서울·경기의 KB 매매·전세 전망을 3개월 뒤 가격 방향과 대조합니다. 항상 상승·직전 추세 가정, 연도별 반례, 공표 시점과 자체 지수의 차이를 함께 확인합니다.
 
 ### [계절과 계약 달력](https://nobot-kang.github.io/series/housing-calendar/)
 
 입주 예정과 계약 날짜를 구분하고, 월 길이·단지 규모·계약 종류에 따른 계절 패턴과 연도별 차이를 확인합니다.
 
 - [전세 계약은 1~2월에 몰릴까? 서울·경기 4년 비교](https://nobot-kang.github.io/posts/jeonse-contract-season/): 2022~2025년 서울·수집 경기 전세 계약을 달력일로 보정해 비교했습니다. 신규·갱신·미상, 61개 지역과 매매·월세 비교를 통해 신학기 전세 수요라는 해석의 한계를 확인합니다.
-- [대단지 입주는 몇 월에 몰릴까? 서울·경기 16년 입주 예정 달력](https://nobot-kang.github.io/posts/apartment-movein-calendar/): 서울·경기 수집 지역의 2010~2025년 입주 예정 월 분포를 전체·대단지로 비교합니다. 평균 최고 월과 개별 연도, 최대 단지의 영향, 전세 계약 달력의 차이와 2026년 부분 기간을 확인하세요.
+- [대단지 입주는 몇 월에 몰릴까? 서울·경기 16년 입주 예정 달력](https://nobot-kang.github.io/posts/apartment-movein-calendar/): 서울·수집 경기의 2010~2025년 입주 예정 월 분포를 전체·대단지로 비교합니다. 평균 최고 월과 개별 연도, 최대 단지의 영향, 전세 계약 달력의 차이와 2026년 부분 기간을 확인하세요.
 - [아파트 계약은 토요일과 월말에 몰릴까? 서울·경기 달력 비교](https://nobot-kang.github.io/posts/apartment-contract-weekday/): 2010~2025년 서울·수집 경기 매매 계약의 요일과 월말 패턴을 비교했습니다. 요일 수·월 길이·월별 구성과 해제·직거래 제외 조건을 맞추고, 계약하기 좋은 날을 추정할 수 없는 한계를 확인합니다.
 - [명절에는 아파트 거래가 줄까? 설·추석·연말·선거 주간 비교](https://nobot-kang.github.io/posts/apartment-holiday-transactions/): 2022~2025년 서울·수집 경기 매매·전세·월세의 명절 거래량을 비교했습니다. 설·추석 주간의 감소와 전후 63일 차이, 연말·선거의 혼합 결과와 모형의 한계를 확인합니다.
 
@@ -109,6 +101,14 @@
 - [아파트 계약 해제까지 며칠? 7·30·90일 분포와 신고가 비교](https://nobot-kang.github.io/posts/apartment-cancellation-delay/): 서울·수집 경기의 2020~2026년 관측 해제를 7·30·90일로 비교합니다. 가격대·계약 연도·신고가 차이와 날짜 미상, 최근 계약의 짧은 관측기간을 구분해 실거래가 해제 표시를 읽어보세요.
 - [하락기에 팔린 아파트는 어떤 집이었나? 2021~2023년 거래 구성 비교](https://nobot-kang.github.io/posts/apartment-downturn-composition/): 서울·수집 경기의 2021~2023년 지역·가격·면적·연식별 신고 구성을 비교합니다. 고정 집단으로 나눈 평균 변화와 2023년 반등, 해제·직거래 포함 기준에 따라 달라지는 결론을 함께 확인합니다.
 - [오랜만에 거래된 아파트는 싸게 팔릴까? 거래 공백과 가격 비교](https://nobot-kang.github.io/posts/apartment-reopening-price/): 서울·경기 2022~2025년 거래 공백 뒤 가격을 비교합니다. 실제 가격 차이와 과거 참고가격 대비 저가 빈도를 분리하고, 60·90·120일 기준과 연도별 불확실성을 확인합니다.
+
+### [시장 심리 읽기](https://nobot-kang.github.io/series/market-sentiment/)
+
+중개업소 설문의 산식과 응답, 실제 계약·가격을 구분하고 기간·지역을 맞춰 심리지수를 읽습니다.
+
+- [KB 매수우위지수 100의 뜻: 서울·경기 거래량과 집값도 함께 움직일까?](https://nobot-kang.github.io/posts/kb-buyer-sentiment-100/): 2010~2026년 서울·경기·수도권 월간 매수우위지수에서 100 초과 구간과 응답 비율을 확인합니다. 실제 아파트 계약·가격의 동행과 반례, 월간·주간 및 최근 자료의 한계를 비교합니다.
+- [거래활발지수가 오르면 거래량도 늘었을까? 서울·경기 매매와 전세 비교](https://nobot-kang.github.io/posts/kb-trading-activity-and-contracts/): KB 월간 매매·전세 거래활발지수와 서울·수집 경기의 아파트 계약 건수를 비교합니다. 지수 100의 뜻, 상관과 전월 방향, 임대차 신고제 전후·최근 월·반올림의 한계를 확인합니다.
+- [KB 전망지수는 3개월 뒤 집값을 맞혔을까? 매매·전세 방향 비교](https://nobot-kang.github.io/posts/kb-price-outlook-and-results/): 서울·경기의 KB 매매·전세 전망을 3개월 뒤 가격 방향과 대조합니다. 항상 상승·직전 추세 가정, 연도별 반례, 공표 시점과 자체 지수의 차이를 함께 확인합니다.
 
 ### [집값이 움직이는 순서](https://nobot-kang.github.io/series/price-propagation/)
 
@@ -262,13 +262,15 @@
 
 ### [거래량 뉴스 읽는 법](https://nobot-kang.github.io/collections/reading-volume-news/)
 
-최근 달의 신고 지연, 평년의 분모, 월별·명절 달력, 신고가 비율의 분모까지 “거래가 늘었다·줄었다”는 기사를 확인하는 순서를 다섯 편으로 정리했습니다.
+최근 달의 신고 지연, 평년의 분모, 월별·명절 달력, 신고가 비율의 분모와 해제까지 걸린 기간, 중개업소 체감 지수와 실제 계약까지 “거래가 늘었다·줄었다”는 기사를 확인하는 순서를 일곱 편으로 정리했습니다.
 
 1. [최근 월 아파트 거래량, 왜 나중에 늘어날까? 신고 지연과 집계 시점 읽기](https://nobot-kang.github.io/posts/recent-month-transaction-lag/)
 2. [아파트 거래량, 평년보다 많으면 회복일까? 서울·경기 기준 비교](https://nobot-kang.github.io/posts/apartment-volume-baseline/)
 3. [이사철이면 아파트 거래가 늘까? 서울의 네 해 달력 비교](https://nobot-kang.github.io/posts/seoul-contract-calendar/)
 4. [명절에는 아파트 거래가 줄까? 설·추석·연말·선거 주간 비교](https://nobot-kang.github.io/posts/apartment-holiday-transactions/)
 5. [아파트 신고가 비율, 무엇을 분모로 셀까? 기준과 해제 읽기](https://nobot-kang.github.io/posts/apartment-record-high-share/)
+6. [아파트 계약 해제까지 며칠? 7·30·90일 분포와 신고가 비교](https://nobot-kang.github.io/posts/apartment-cancellation-delay/)
+7. [거래활발지수가 오르면 거래량도 늘었을까? 서울·경기 매매와 전세 비교](https://nobot-kang.github.io/posts/kb-trading-activity-and-contracts/)
 
 ### [정책 발표 뒤 거래 읽기](https://nobot-kang.github.io/collections/policy-and-trades/)
 
@@ -281,14 +283,16 @@
 
 ### [전세 만기 앞두고 읽기](https://nobot-kang.github.io/collections/jeonse-renewal/)
 
-매매와 전세의 15년 흐름, 공표 전세가율과 같은 면적 전세가율, 같은 보증금으로 2년 뒤 고를 수 있는 지역, 신규·갱신 전세 차이, 월세로 바꿀 때의 계산을 차례로 읽습니다.
+매매와 전세의 15년 흐름, 공표 전세가율과 같은 면적 전세가율, 같은 보증금으로 2년 뒤 고를 수 있는 지역, 신규·갱신 전세 차이, 신고된 계약기간과 갱신요구권 기재, 월세로 바꿀 때의 계산을 차례로 읽습니다.
 
 1. [매매와 전세는 같이 움직일까? 서울·경기 15년 지수 비교](https://nobot-kang.github.io/posts/sale-jeonse-price-history/)
 2. [서울·경기 전세가율: 평균보다 지역별 분포를 먼저 보세요](https://nobot-kang.github.io/posts/seoul-gyeonggi-jeonse-ratios/)
 3. [같은 면적으로 본 전세가율: 서울·경기 지역 지도와 18분기 흐름](https://nobot-kang.github.io/posts/modeled-regional-jeonse-ratio/)
 4. [같은 보증금 전세, 2년 뒤에도 같은 면적을 고를 수 있을까?](https://nobot-kang.github.io/posts/same-deposit-two-years/)
 5. [갱신 전세는 신규보다 얼마나 쌀까? 서울 비교 표본의 한계](https://nobot-kang.github.io/posts/seoul-renewal-jeonse-comparison/)
-6. [보증금 1억을 올리면 월세는 얼마 줄까? 두 조건의 전환율 계산법](https://nobot-kang.github.io/posts/deposit-rent-comparison/)
+6. [전세 계약은 꼭 2년일까? 신고된 기간과 법적 보호의 차이](https://nobot-kang.github.io/posts/reported-rental-contract-duration/)
+7. [갱신요구권 사용 비율: 서울·경기 실거래 기록의 숫자와 빈칸](https://nobot-kang.github.io/posts/renewal-rights-recorded-use/)
+8. [보증금 1억을 올리면 월세는 얼마 줄까? 두 조건의 전환율 계산법](https://nobot-kang.github.io/posts/deposit-rent-comparison/)
 
 ## Optional
 
