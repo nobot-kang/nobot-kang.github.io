@@ -1,0 +1,8027 @@
+{
+  "schema": "annual_transaction_value_active_v1",
+  "public_admitted": true,
+  "period": [
+    "2010-01",
+    "2026-09"
+  ],
+  "population": "eligible_invariant AND NOT land AND NOT is_cancelled; direct included; unknown cancellation retained",
+  "amount_unit": "만원",
+  "amount_rounding_quantum": 1000000,
+  "mean": "Displayed rounded total / displayed total count; band counts and band means are not published.",
+  "rows": [
+    {
+      "scope": "11",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 44094,
+      "amount_manwon_rounded": 2192000000,
+      "amount_interval_manwon": [
+        2191500000,
+        2192499999
+      ],
+      "mean_from_displayed_total": "1096000000/22047"
+    },
+    {
+      "scope": "11",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 309000000,
+      "amount_interval_manwon": [
+        308500000,
+        309499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 859000000,
+      "amount_interval_manwon": [
+        858500000,
+        859499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 429000000,
+      "amount_interval_manwon": [
+        428500000,
+        429499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 248000000,
+      "amount_interval_manwon": [
+        247500000,
+        248499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 143000000,
+      "amount_interval_manwon": [
+        142500000,
+        143499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 125000000,
+      "amount_interval_manwon": [
+        124500000,
+        125499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 48000000,
+      "amount_interval_manwon": [
+        47500000,
+        48499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 19000000,
+      "amount_interval_manwon": [
+        18500000,
+        19499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2010,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 26635,
+      "amount_manwon_rounded": 1295000000,
+      "amount_interval_manwon": [
+        1294500000,
+        1295499999
+      ],
+      "mean_from_displayed_total": "37000000/761"
+    },
+    {
+      "scope": "11",
+      "year": 2010,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 19348,
+      "amount_manwon_rounded": 944000000,
+      "amount_interval_manwon": [
+        943500000,
+        944499999
+      ],
+      "mean_from_displayed_total": "236000000/4837"
+    },
+    {
+      "scope": "11",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 54215,
+      "amount_manwon_rounded": 2470000000,
+      "amount_interval_manwon": [
+        2469500000,
+        2470499999
+      ],
+      "mean_from_displayed_total": "494000000/10843"
+    },
+    {
+      "scope": "11",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 409000000,
+      "amount_interval_manwon": [
+        408500000,
+        409499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1098000000,
+      "amount_interval_manwon": [
+        1097500000,
+        1098499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 488000000,
+      "amount_interval_manwon": [
+        487500000,
+        488499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 213000000,
+      "amount_interval_manwon": [
+        212500000,
+        213499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 118000000,
+      "amount_interval_manwon": [
+        117500000,
+        118499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 80000000,
+      "amount_interval_manwon": [
+        79500000,
+        80499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 36000000,
+      "amount_interval_manwon": [
+        35500000,
+        36499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 17000000,
+      "amount_interval_manwon": [
+        16500000,
+        17499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2011,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 43016,
+      "amount_manwon_rounded": 1947000000,
+      "amount_interval_manwon": [
+        1946500000,
+        1947499999
+      ],
+      "mean_from_displayed_total": "243375000/5377"
+    },
+    {
+      "scope": "11",
+      "year": 2011,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 29926,
+      "amount_manwon_rounded": 1364000000,
+      "amount_interval_manwon": [
+        1363500000,
+        1364499999
+      ],
+      "mean_from_displayed_total": "682000000/14963"
+    },
+    {
+      "scope": "11",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 40749,
+      "amount_manwon_rounded": 1808000000,
+      "amount_interval_manwon": [
+        1807500000,
+        1808499999
+      ],
+      "mean_from_displayed_total": "1808000000/40749"
+    },
+    {
+      "scope": "11",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 327000000,
+      "amount_interval_manwon": [
+        326500000,
+        327499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 774000000,
+      "amount_interval_manwon": [
+        773500000,
+        774499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 383000000,
+      "amount_interval_manwon": [
+        382500000,
+        383499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 136000000,
+      "amount_interval_manwon": [
+        135500000,
+        136499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 81000000,
+      "amount_interval_manwon": [
+        80500000,
+        81499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 63000000,
+      "amount_interval_manwon": [
+        62500000,
+        63499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 24000000,
+      "amount_interval_manwon": [
+        23500000,
+        24499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 10000000,
+      "amount_interval_manwon": [
+        9500000,
+        10499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2012,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 27796,
+      "amount_manwon_rounded": 1219000000,
+      "amount_interval_manwon": [
+        1218500000,
+        1219499999
+      ],
+      "mean_from_displayed_total": "304750000/6949"
+    },
+    {
+      "scope": "11",
+      "year": 2012,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 20112,
+      "amount_manwon_rounded": 886000000,
+      "amount_interval_manwon": [
+        885500000,
+        886499999
+      ],
+      "mean_from_displayed_total": "55375000/1257"
+    },
+    {
+      "scope": "11",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 67760,
+      "amount_manwon_rounded": 3002000000,
+      "amount_interval_manwon": [
+        3001500000,
+        3002499999
+      ],
+      "mean_from_displayed_total": "37525000/847"
+    },
+    {
+      "scope": "11",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 516000000,
+      "amount_interval_manwon": [
+        515500000,
+        516499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1397000000,
+      "amount_interval_manwon": [
+        1396500000,
+        1397499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 574000000,
+      "amount_interval_manwon": [
+        573500000,
+        574499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 217000000,
+      "amount_interval_manwon": [
+        216500000,
+        217499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 115000000,
+      "amount_interval_manwon": [
+        114500000,
+        115499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 117000000,
+      "amount_interval_manwon": [
+        116500000,
+        117499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 36000000,
+      "amount_interval_manwon": [
+        35500000,
+        36499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 14000000,
+      "amount_interval_manwon": [
+        13500000,
+        14499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 11000000,
+      "amount_interval_manwon": [
+        10500000,
+        11499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2013,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 48314,
+      "amount_manwon_rounded": 2123000000,
+      "amount_interval_manwon": [
+        2122500000,
+        2123499999
+      ],
+      "mean_from_displayed_total": "1061500000/24157"
+    },
+    {
+      "scope": "11",
+      "year": 2013,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 32501,
+      "amount_manwon_rounded": 1466000000,
+      "amount_interval_manwon": [
+        1465500000,
+        1466499999
+      ],
+      "mean_from_displayed_total": "1466000000/32501"
+    },
+    {
+      "scope": "11",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 85011,
+      "amount_manwon_rounded": 3895000000,
+      "amount_interval_manwon": [
+        3894500000,
+        3895499999
+      ],
+      "mean_from_displayed_total": "3895000000/85011"
+    },
+    {
+      "scope": "11",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 585000000,
+      "amount_interval_manwon": [
+        584500000,
+        585499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1863000000,
+      "amount_interval_manwon": [
+        1862500000,
+        1863499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 713000000,
+      "amount_interval_manwon": [
+        712500000,
+        713499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 305000000,
+      "amount_interval_manwon": [
+        304500000,
+        305499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 188000000,
+      "amount_interval_manwon": [
+        187500000,
+        188499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 124000000,
+      "amount_interval_manwon": [
+        123500000,
+        124499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 57000000,
+      "amount_interval_manwon": [
+        56500000,
+        57499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 25000000,
+      "amount_interval_manwon": [
+        24500000,
+        25499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 23000000,
+      "amount_interval_manwon": [
+        22500000,
+        23499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2014,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 64633,
+      "amount_manwon_rounded": 2965000000,
+      "amount_interval_manwon": [
+        2964500000,
+        2965499999
+      ],
+      "mean_from_displayed_total": "2965000000/64633"
+    },
+    {
+      "scope": "11",
+      "year": 2014,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 39491,
+      "amount_manwon_rounded": 1798000000,
+      "amount_interval_manwon": [
+        1797500000,
+        1798499999
+      ],
+      "mean_from_displayed_total": "1798000000/39491"
+    },
+    {
+      "scope": "11",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 119651,
+      "amount_manwon_rounded": 5710000000,
+      "amount_interval_manwon": [
+        5709500000,
+        5710499999
+      ],
+      "mean_from_displayed_total": "5710000000/119651"
+    },
+    {
+      "scope": "11",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 728000000,
+      "amount_interval_manwon": [
+        727500000,
+        728499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 2765000000,
+      "amount_interval_manwon": [
+        2764500000,
+        2765499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1119000000,
+      "amount_interval_manwon": [
+        1118500000,
+        1119499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 459000000,
+      "amount_interval_manwon": [
+        458500000,
+        459499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 301000000,
+      "amount_interval_manwon": [
+        300500000,
+        301499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 170000000,
+      "amount_interval_manwon": [
+        169500000,
+        170499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 88000000,
+      "amount_interval_manwon": [
+        87500000,
+        88499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 33000000,
+      "amount_interval_manwon": [
+        32500000,
+        33499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 28000000,
+      "amount_interval_manwon": [
+        27500000,
+        28499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2015,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 97036,
+      "amount_manwon_rounded": 4534000000,
+      "amount_interval_manwon": [
+        4533500000,
+        4534499999
+      ],
+      "mean_from_displayed_total": "1133500000/24259"
+    },
+    {
+      "scope": "11",
+      "year": 2015,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 67520,
+      "amount_manwon_rounded": 3135000000,
+      "amount_interval_manwon": [
+        3134500000,
+        3135499999
+      ],
+      "mean_from_displayed_total": "9796875/211"
+    },
+    {
+      "scope": "11",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 109764,
+      "amount_manwon_rounded": 5898000000,
+      "amount_interval_manwon": [
+        5897500000,
+        5898499999
+      ],
+      "mean_from_displayed_total": "491500000/9147"
+    },
+    {
+      "scope": "11",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 508000000,
+      "amount_interval_manwon": [
+        507500000,
+        508499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 2604000000,
+      "amount_interval_manwon": [
+        2603500000,
+        2604499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1323000000,
+      "amount_interval_manwon": [
+        1322500000,
+        1323499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 587000000,
+      "amount_interval_manwon": [
+        586500000,
+        587499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 371000000,
+      "amount_interval_manwon": [
+        370500000,
+        371499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 251000000,
+      "amount_interval_manwon": [
+        250500000,
+        251499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 108000000,
+      "amount_interval_manwon": [
+        107500000,
+        108499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 60000000,
+      "amount_interval_manwon": [
+        59500000,
+        60499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 52000000,
+      "amount_interval_manwon": [
+        51500000,
+        52499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 23000000,
+      "amount_interval_manwon": [
+        22500000,
+        23499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2016,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 87727,
+      "amount_manwon_rounded": 4687000000,
+      "amount_interval_manwon": [
+        4686500000,
+        4687499999
+      ],
+      "mean_from_displayed_total": "4687000000/87727"
+    },
+    {
+      "scope": "11",
+      "year": 2016,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 53681,
+      "amount_manwon_rounded": 2818000000,
+      "amount_interval_manwon": [
+        2817500000,
+        2818499999
+      ],
+      "mean_from_displayed_total": "2818000000/53681"
+    },
+    {
+      "scope": "11",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 104576,
+      "amount_manwon_rounded": 6478000000,
+      "amount_interval_manwon": [
+        6477500000,
+        6478499999
+      ],
+      "mean_from_displayed_total": "50609375/817"
+    },
+    {
+      "scope": "11",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 357000000,
+      "amount_interval_manwon": [
+        356500000,
+        357499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 2351000000,
+      "amount_interval_manwon": [
+        2350500000,
+        2351499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1573000000,
+      "amount_interval_manwon": [
+        1572500000,
+        1573499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 771000000,
+      "amount_interval_manwon": [
+        770500000,
+        771499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 574000000,
+      "amount_interval_manwon": [
+        573500000,
+        574499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 486000000,
+      "amount_interval_manwon": [
+        485500000,
+        486499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 148000000,
+      "amount_interval_manwon": [
+        147500000,
+        148499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 93000000,
+      "amount_interval_manwon": [
+        92500000,
+        93499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 76000000,
+      "amount_interval_manwon": [
+        75500000,
+        76499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 33000000,
+      "amount_interval_manwon": [
+        32500000,
+        33499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2017,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 81640,
+      "amount_manwon_rounded": 4875000000,
+      "amount_interval_manwon": [
+        4874500000,
+        4875499999
+      ],
+      "mean_from_displayed_total": "9375000/157"
+    },
+    {
+      "scope": "11",
+      "year": 2017,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 54802,
+      "amount_manwon_rounded": 3213000000,
+      "amount_interval_manwon": [
+        3212500000,
+        3213499999
+      ],
+      "mean_from_displayed_total": "1606500000/27401"
+    },
+    {
+      "scope": "11",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 81243,
+      "amount_manwon_rounded": 5351000000,
+      "amount_interval_manwon": [
+        5350500000,
+        5351499999
+      ],
+      "mean_from_displayed_total": "5351000000/81243"
+    },
+    {
+      "scope": "11",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 248000000,
+      "amount_interval_manwon": [
+        247500000,
+        248499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1758000000,
+      "amount_interval_manwon": [
+        1757500000,
+        1758499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1355000000,
+      "amount_interval_manwon": [
+        1354500000,
+        1355499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 587000000,
+      "amount_interval_manwon": [
+        586500000,
+        587499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 458000000,
+      "amount_interval_manwon": [
+        457500000,
+        458499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 490000000,
+      "amount_interval_manwon": [
+        489500000,
+        490499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 200000000,
+      "amount_interval_manwon": [
+        199500000,
+        200499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 97000000,
+      "amount_interval_manwon": [
+        96500000,
+        97499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 88000000,
+      "amount_interval_manwon": [
+        87500000,
+        88499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 49000000,
+      "amount_interval_manwon": [
+        48500000,
+        49499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2018,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 74639,
+      "amount_manwon_rounded": 4928000000,
+      "amount_interval_manwon": [
+        4927500000,
+        4928499999
+      ],
+      "mean_from_displayed_total": "4928000000/74639"
+    },
+    {
+      "scope": "11",
+      "year": 2018,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 45474,
+      "amount_manwon_rounded": 2861000000,
+      "amount_interval_manwon": [
+        2860500000,
+        2861499999
+      ],
+      "mean_from_displayed_total": "1430500000/22737"
+    },
+    {
+      "scope": "11",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 74554,
+      "amount_manwon_rounded": 6129000000,
+      "amount_interval_manwon": [
+        6128500000,
+        6129499999
+      ],
+      "mean_from_displayed_total": "3064500000/37277"
+    },
+    {
+      "scope": "11",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 151000000,
+      "amount_interval_manwon": [
+        150500000,
+        151499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1199000000,
+      "amount_interval_manwon": [
+        1198500000,
+        1199499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1549000000,
+      "amount_interval_manwon": [
+        1548500000,
+        1549499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 880000000,
+      "amount_interval_manwon": [
+        879500000,
+        880499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 685000000,
+      "amount_interval_manwon": [
+        684500000,
+        685499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 829000000,
+      "amount_interval_manwon": [
+        828500000,
+        829499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 388000000,
+      "amount_interval_manwon": [
+        387500000,
+        388499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 197000000,
+      "amount_interval_manwon": [
+        196500000,
+        197499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 159000000,
+      "amount_interval_manwon": [
+        158500000,
+        159499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 72000000,
+      "amount_interval_manwon": [
+        71500000,
+        72499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2019,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 42086,
+      "amount_manwon_rounded": 3464000000,
+      "amount_interval_manwon": [
+        3463500000,
+        3464499999
+      ],
+      "mean_from_displayed_total": "1732000000/21043"
+    },
+    {
+      "scope": "11",
+      "year": 2019,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 19668,
+      "amount_manwon_rounded": 1567000000,
+      "amount_interval_manwon": [
+        1566500000,
+        1567499999
+      ],
+      "mean_from_displayed_total": "391750000/4917"
+    },
+    {
+      "scope": "11",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 78760,
+      "amount_manwon_rounded": 6669000000,
+      "amount_interval_manwon": [
+        6668500000,
+        6669499999
+      ],
+      "mean_from_displayed_total": "166725000/1969"
+    },
+    {
+      "scope": "11",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 129000000,
+      "amount_interval_manwon": [
+        128500000,
+        129499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1148000000,
+      "amount_interval_manwon": [
+        1147500000,
+        1148499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1762000000,
+      "amount_interval_manwon": [
+        1761500000,
+        1762499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1096000000,
+      "amount_interval_manwon": [
+        1095500000,
+        1096499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 891000000,
+      "amount_interval_manwon": [
+        890500000,
+        891499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 775000000,
+      "amount_interval_manwon": [
+        774500000,
+        775499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 382000000,
+      "amount_interval_manwon": [
+        381500000,
+        382499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 228000000,
+      "amount_interval_manwon": [
+        227500000,
+        228499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 170000000,
+      "amount_interval_manwon": [
+        169500000,
+        170499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2020,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 61180,
+      "amount_manwon_rounded": 4931000000,
+      "amount_interval_manwon": [
+        4930500000,
+        4931499999
+      ],
+      "mean_from_displayed_total": "246550000/3059"
+    },
+    {
+      "scope": "11",
+      "year": 2020,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 42357,
+      "amount_manwon_rounded": 3236000000,
+      "amount_interval_manwon": [
+        3235500000,
+        3236499999
+      ],
+      "mean_from_displayed_total": "3236000000/42357"
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 4175000000,
+      "amount_interval_manwon": [
+        4174500000,
+        4175499999
+      ],
+      "mean_from_displayed_total": "41750000/409",
+      "n_rounded": 40900,
+      "n_interval": [
+        40850,
+        40949
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 59000000,
+      "amount_interval_manwon": [
+        58500000,
+        59499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 398000000,
+      "amount_interval_manwon": [
+        397500000,
+        398499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 876000000,
+      "amount_interval_manwon": [
+        875500000,
+        876499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 711000000,
+      "amount_interval_manwon": [
+        710500000,
+        711499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 605000000,
+      "amount_interval_manwon": [
+        604500000,
+        605499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 36315,
+      "amount_manwon_rounded": 3687000000,
+      "amount_interval_manwon": [
+        3686500000,
+        3687499999
+      ],
+      "mean_from_displayed_total": "245800000/2421"
+    },
+    {
+      "scope": "11",
+      "year": 2021,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 25128,
+      "amount_manwon_rounded": 2492000000,
+      "amount_interval_manwon": [
+        2491500000,
+        2492499999
+      ],
+      "mean_from_displayed_total": "311500000/3141"
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 1111000000,
+      "amount_interval_manwon": [
+        1110500000,
+        1111499999
+      ],
+      "mean_from_displayed_total": "11110000/113",
+      "n_rounded": 11300,
+      "n_interval": [
+        11250,
+        11349
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 35000000,
+      "amount_interval_manwon": [
+        34500000,
+        35499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 112000000,
+      "amount_interval_manwon": [
+        111500000,
+        112499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 186000000,
+      "amount_interval_manwon": [
+        185500000,
+        186499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 174000000,
+      "amount_interval_manwon": [
+        173500000,
+        174499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 126000000,
+      "amount_interval_manwon": [
+        125500000,
+        126499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 136000000,
+      "amount_interval_manwon": [
+        135500000,
+        136499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 94000000,
+      "amount_interval_manwon": [
+        93500000,
+        94499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 941000000,
+      "amount_interval_manwon": [
+        940500000,
+        941499999
+      ],
+      "mean_from_displayed_total": "4705000/47",
+      "n_rounded": 9400,
+      "n_interval": [
+        9350,
+        9449
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "11",
+      "year": 2022,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 771000000,
+      "amount_interval_manwon": [
+        770500000,
+        771499999
+      ],
+      "mean_from_displayed_total": "102800",
+      "n_rounded": 7500,
+      "n_interval": [
+        7450,
+        7549
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 3507000000,
+      "amount_interval_manwon": [
+        3506500000,
+        3507499999
+      ],
+      "mean_from_displayed_total": "4383750/41",
+      "n_rounded": 32800,
+      "n_interval": [
+        32750,
+        32849
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 33000000,
+      "amount_interval_manwon": [
+        32500000,
+        33499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 314000000,
+      "amount_interval_manwon": [
+        313500000,
+        314499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 693000000,
+      "amount_interval_manwon": [
+        692500000,
+        693499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 631000000,
+      "amount_interval_manwon": [
+        630500000,
+        631499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 470000000,
+      "amount_interval_manwon": [
+        469500000,
+        470499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 508000000,
+      "amount_interval_manwon": [
+        507500000,
+        508499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 339000000,
+      "amount_interval_manwon": [
+        338500000,
+        339499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 190000000,
+      "amount_interval_manwon": [
+        189500000,
+        190499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 2907000000,
+      "amount_interval_manwon": [
+        2906500000,
+        2907499999
+      ],
+      "mean_from_displayed_total": "29070000/271",
+      "n_rounded": 27100,
+      "n_interval": [
+        27050,
+        27149
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "11",
+      "year": 2023,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 1731000000,
+      "amount_interval_manwon": [
+        1730500000,
+        1731499999
+      ],
+      "mean_from_displayed_total": "8655000/83",
+      "n_rounded": 16600,
+      "n_interval": [
+        16550,
+        16649
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 6409000000,
+      "amount_interval_manwon": [
+        6408500000,
+        6409499999
+      ],
+      "mean_from_displayed_total": "16022500/133",
+      "n_rounded": 53200,
+      "n_interval": [
+        53150,
+        53249
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 40000000,
+      "amount_interval_manwon": [
+        39500000,
+        40499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 421000000,
+      "amount_interval_manwon": [
+        420500000,
+        421499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1023000000,
+      "amount_interval_manwon": [
+        1022500000,
+        1023499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1079000000,
+      "amount_interval_manwon": [
+        1078500000,
+        1079499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 888000000,
+      "amount_interval_manwon": [
+        887500000,
+        888499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 923000000,
+      "amount_interval_manwon": [
+        922500000,
+        923499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 659000000,
+      "amount_interval_manwon": [
+        658500000,
+        659499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 431000000,
+      "amount_interval_manwon": [
+        430500000,
+        431499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 468000000,
+      "amount_interval_manwon": [
+        467500000,
+        468499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 210000000,
+      "amount_interval_manwon": [
+        209500000,
+        210499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 5212000000,
+      "amount_interval_manwon": [
+        5211500000,
+        5212499999
+      ],
+      "mean_from_displayed_total": "10424000/87",
+      "n_rounded": 43500,
+      "n_interval": [
+        43450,
+        43549
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "11",
+      "year": 2024,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 3012000000,
+      "amount_interval_manwon": [
+        3011500000,
+        3012499999
+      ],
+      "mean_from_displayed_total": "5020000/43",
+      "n_rounded": 25800,
+      "n_interval": [
+        25750,
+        25849
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 9147000000,
+      "amount_interval_manwon": [
+        9146500000,
+        9147499999
+      ],
+      "mean_from_displayed_total": "91470000/721",
+      "n_rounded": 72100,
+      "n_interval": [
+        72050,
+        72149
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 45000000,
+      "amount_interval_manwon": [
+        44500000,
+        45499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 515000000,
+      "amount_interval_manwon": [
+        514500000,
+        515499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1277000000,
+      "amount_interval_manwon": [
+        1276500000,
+        1277499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1407000000,
+      "amount_interval_manwon": [
+        1406500000,
+        1407499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1392000000,
+      "amount_interval_manwon": [
+        1391500000,
+        1392499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1603000000,
+      "amount_interval_manwon": [
+        1602500000,
+        1603499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 842000000,
+      "amount_interval_manwon": [
+        841500000,
+        842499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 618000000,
+      "amount_interval_manwon": [
+        617500000,
+        618499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 736000000,
+      "amount_interval_manwon": [
+        735500000,
+        736499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 322000000,
+      "amount_interval_manwon": [
+        321500000,
+        322499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 7186000000,
+      "amount_interval_manwon": [
+        7185500000,
+        7186499999
+      ],
+      "mean_from_displayed_total": "71860000/561",
+      "n_rounded": 56100,
+      "n_interval": [
+        56050,
+        56149
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "11",
+      "year": 2025,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 5286000000,
+      "amount_interval_manwon": [
+        5285500000,
+        5286499999
+      ],
+      "mean_from_displayed_total": "52860000/401",
+      "n_rounded": 40100,
+      "n_interval": [
+        40050,
+        40149
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 5834000000,
+      "amount_interval_manwon": [
+        5833500000,
+        5834499999
+      ],
+      "mean_from_displayed_total": "29170000/247",
+      "n_rounded": 49400,
+      "n_interval": [
+        49350,
+        49449
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 9,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 33000000,
+      "amount_interval_manwon": [
+        32500000,
+        33499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 9,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 465000000,
+      "amount_interval_manwon": [
+        464500000,
+        465499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 9,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 976000000,
+      "amount_interval_manwon": [
+        975500000,
+        976499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 9,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 897000000,
+      "amount_interval_manwon": [
+        896500000,
+        897499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 9,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 771000000,
+      "amount_interval_manwon": [
+        770500000,
+        771499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 9,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 910000000,
+      "amount_interval_manwon": [
+        909500000,
+        910499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 9,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 499000000,
+      "amount_interval_manwon": [
+        498500000,
+        499499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 9,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 352000000,
+      "amount_interval_manwon": [
+        351500000,
+        352499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 9,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 469000000,
+      "amount_interval_manwon": [
+        468500000,
+        469499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 9,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 9,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 9,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 5834000000,
+      "amount_interval_manwon": [
+        5833500000,
+        5834499999
+      ],
+      "mean_from_displayed_total": "29170000/247",
+      "n_rounded": 49400,
+      "n_interval": [
+        49350,
+        49449
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 4577000000,
+      "amount_interval_manwon": [
+        4576500000,
+        4577499999
+      ],
+      "mean_from_displayed_total": "2860625/24",
+      "n_rounded": 38400,
+      "n_interval": [
+        38350,
+        38449
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "41",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 80748,
+      "amount_manwon_rounded": 2077000000,
+      "amount_interval_manwon": [
+        2076500000,
+        2077499999
+      ],
+      "mean_from_displayed_total": "519250000/20187"
+    },
+    {
+      "scope": "41",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1101000000,
+      "amount_interval_manwon": [
+        1100500000,
+        1101499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 772000000,
+      "amount_interval_manwon": [
+        771500000,
+        772499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 162000000,
+      "amount_interval_manwon": [
+        161500000,
+        162499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 32000000,
+      "amount_interval_manwon": [
+        31500000,
+        32499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 7000000,
+      "amount_interval_manwon": [
+        6500000,
+        7499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2010,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2010,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 50776,
+      "amount_manwon_rounded": 1251000000,
+      "amount_interval_manwon": [
+        1250500000,
+        1251499999
+      ],
+      "mean_from_displayed_total": "156375000/6347"
+    },
+    {
+      "scope": "41",
+      "year": 2010,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 35607,
+      "amount_manwon_rounded": 871000000,
+      "amount_interval_manwon": [
+        870500000,
+        871499999
+      ],
+      "mean_from_displayed_total": "67000000/2739"
+    },
+    {
+      "scope": "41",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 107137,
+      "amount_manwon_rounded": 2813000000,
+      "amount_interval_manwon": [
+        2812500000,
+        2813499999
+      ],
+      "mean_from_displayed_total": "2813000000/107137"
+    },
+    {
+      "scope": "41",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1516000000,
+      "amount_interval_manwon": [
+        1515500000,
+        1516499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 986000000,
+      "amount_interval_manwon": [
+        985500000,
+        986499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 269000000,
+      "amount_interval_manwon": [
+        268500000,
+        269499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 32000000,
+      "amount_interval_manwon": [
+        31500000,
+        32499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 6000000,
+      "amount_interval_manwon": [
+        5500000,
+        6499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2011,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2011,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 85678,
+      "amount_manwon_rounded": 2239000000,
+      "amount_interval_manwon": [
+        2238500000,
+        2239499999
+      ],
+      "mean_from_displayed_total": "1119500000/42839"
+    },
+    {
+      "scope": "41",
+      "year": 2011,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 58672,
+      "amount_manwon_rounded": 1538000000,
+      "amount_interval_manwon": [
+        1537500000,
+        1538499999
+      ],
+      "mean_from_displayed_total": "96125000/3667"
+    },
+    {
+      "scope": "41",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 77349,
+      "amount_manwon_rounded": 1990000000,
+      "amount_interval_manwon": [
+        1989500000,
+        1990499999
+      ],
+      "mean_from_displayed_total": "1990000000/77349"
+    },
+    {
+      "scope": "41",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1122000000,
+      "amount_interval_manwon": [
+        1121500000,
+        1122499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 696000000,
+      "amount_interval_manwon": [
+        695500000,
+        696499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 148000000,
+      "amount_interval_manwon": [
+        147500000,
+        148499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 18000000,
+      "amount_interval_manwon": [
+        17500000,
+        18499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 3000000,
+      "amount_interval_manwon": [
+        2500000,
+        3499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2012,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2012,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 54014,
+      "amount_manwon_rounded": 1372000000,
+      "amount_interval_manwon": [
+        1371500000,
+        1372499999
+      ],
+      "mean_from_displayed_total": "686000000/27007"
+    },
+    {
+      "scope": "41",
+      "year": 2012,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 38032,
+      "amount_manwon_rounded": 965000000,
+      "amount_interval_manwon": [
+        964500000,
+        965499999
+      ],
+      "mean_from_displayed_total": "60312500/2377"
+    },
+    {
+      "scope": "41",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 126174,
+      "amount_manwon_rounded": 3401000000,
+      "amount_interval_manwon": [
+        3400500000,
+        3401499999
+      ],
+      "mean_from_displayed_total": "1700500000/63087"
+    },
+    {
+      "scope": "41",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1793000000,
+      "amount_interval_manwon": [
+        1792500000,
+        1793499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1351000000,
+      "amount_interval_manwon": [
+        1350500000,
+        1351499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 223000000,
+      "amount_interval_manwon": [
+        222500000,
+        223499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 26000000,
+      "amount_interval_manwon": [
+        25500000,
+        26499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 5000000,
+      "amount_interval_manwon": [
+        4500000,
+        5499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2013,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2013,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 90396,
+      "amount_manwon_rounded": 2404000000,
+      "amount_interval_manwon": [
+        2403500000,
+        2404499999
+      ],
+      "mean_from_displayed_total": "601000000/22599"
+    },
+    {
+      "scope": "41",
+      "year": 2013,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 57980,
+      "amount_manwon_rounded": 1527000000,
+      "amount_interval_manwon": [
+        1526500000,
+        1527499999
+      ],
+      "mean_from_displayed_total": "76350000/2899"
+    },
+    {
+      "scope": "41",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 149781,
+      "amount_manwon_rounded": 4149000000,
+      "amount_interval_manwon": [
+        4148500000,
+        4149499999
+      ],
+      "mean_from_displayed_total": "1383000000/49927"
+    },
+    {
+      "scope": "41",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 2043000000,
+      "amount_interval_manwon": [
+        2042500000,
+        2043499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1828000000,
+      "amount_interval_manwon": [
+        1827500000,
+        1828499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 239000000,
+      "amount_interval_manwon": [
+        238500000,
+        239499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 32000000,
+      "amount_interval_manwon": [
+        31500000,
+        32499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 5000000,
+      "amount_interval_manwon": [
+        4500000,
+        5499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 2000000,
+      "amount_interval_manwon": [
+        1500000,
+        2499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2014,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2014,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 113458,
+      "amount_manwon_rounded": 3127000000,
+      "amount_interval_manwon": [
+        3126500000,
+        3127499999
+      ],
+      "mean_from_displayed_total": "1563500000/56729"
+    },
+    {
+      "scope": "41",
+      "year": 2014,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 70386,
+      "amount_manwon_rounded": 1926000000,
+      "amount_interval_manwon": [
+        1925500000,
+        1926499999
+      ],
+      "mean_from_displayed_total": "321000000/11731"
+    },
+    {
+      "scope": "41",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 174052,
+      "amount_manwon_rounded": 5113000000,
+      "amount_interval_manwon": [
+        5112500000,
+        5113499999
+      ],
+      "mean_from_displayed_total": "1278250000/43513"
+    },
+    {
+      "scope": "41",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 2249000000,
+      "amount_interval_manwon": [
+        2248500000,
+        2249499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 2450000000,
+      "amount_interval_manwon": [
+        2449500000,
+        2450499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 355000000,
+      "amount_interval_manwon": [
+        354500000,
+        355499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 43000000,
+      "amount_interval_manwon": [
+        42500000,
+        43499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 12000000,
+      "amount_interval_manwon": [
+        11500000,
+        12499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2015,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2015,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 140849,
+      "amount_manwon_rounded": 4095000000,
+      "amount_interval_manwon": [
+        4094500000,
+        4095499999
+      ],
+      "mean_from_displayed_total": "4095000000/140849"
+    },
+    {
+      "scope": "41",
+      "year": 2015,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 99585,
+      "amount_manwon_rounded": 2868000000,
+      "amount_interval_manwon": [
+        2867500000,
+        2868499999
+      ],
+      "mean_from_displayed_total": "191200000/6639"
+    },
+    {
+      "scope": "41",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 151422,
+      "amount_manwon_rounded": 4773000000,
+      "amount_interval_manwon": [
+        4772500000,
+        4773499999
+      ],
+      "mean_from_displayed_total": "795500000/25237"
+    },
+    {
+      "scope": "41",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1808000000,
+      "amount_interval_manwon": [
+        1807500000,
+        1808499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 2427000000,
+      "amount_interval_manwon": [
+        2426500000,
+        2427499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 463000000,
+      "amount_interval_manwon": [
+        462500000,
+        463499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 58000000,
+      "amount_interval_manwon": [
+        57500000,
+        58499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 13000000,
+      "amount_interval_manwon": [
+        12500000,
+        13499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2016,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2016,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 115599,
+      "amount_manwon_rounded": 3583000000,
+      "amount_interval_manwon": [
+        3582500000,
+        3583499999
+      ],
+      "mean_from_displayed_total": "3583000000/115599"
+    },
+    {
+      "scope": "41",
+      "year": 2016,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 69014,
+      "amount_manwon_rounded": 2072000000,
+      "amount_interval_manwon": [
+        2071500000,
+        2072499999
+      ],
+      "mean_from_displayed_total": "1036000000/34507"
+    },
+    {
+      "scope": "41",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 135292,
+      "amount_manwon_rounded": 4662000000,
+      "amount_interval_manwon": [
+        4661500000,
+        4662499999
+      ],
+      "mean_from_displayed_total": "1165500000/33823"
+    },
+    {
+      "scope": "41",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1434000000,
+      "amount_interval_manwon": [
+        1433500000,
+        1434499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 2459000000,
+      "amount_interval_manwon": [
+        2458500000,
+        2459499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 612000000,
+      "amount_interval_manwon": [
+        611500000,
+        612499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 116000000,
+      "amount_interval_manwon": [
+        115500000,
+        116499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 31000000,
+      "amount_interval_manwon": [
+        30500000,
+        31499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2017,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2017,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 107285,
+      "amount_manwon_rounded": 3624000000,
+      "amount_interval_manwon": [
+        3623500000,
+        3624499999
+      ],
+      "mean_from_displayed_total": "724800000/21457"
+    },
+    {
+      "scope": "41",
+      "year": 2017,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 68804,
+      "amount_manwon_rounded": 2265000000,
+      "amount_interval_manwon": [
+        2264500000,
+        2265499999
+      ],
+      "mean_from_displayed_total": "566250000/17201"
+    },
+    {
+      "scope": "41",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 134520,
+      "amount_manwon_rounded": 4977000000,
+      "amount_interval_manwon": [
+        4976500000,
+        4977499999
+      ],
+      "mean_from_displayed_total": "41475000/1121"
+    },
+    {
+      "scope": "41",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1236000000,
+      "amount_interval_manwon": [
+        1235500000,
+        1236499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 2791000000,
+      "amount_interval_manwon": [
+        2790500000,
+        2791499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 658000000,
+      "amount_interval_manwon": [
+        657500000,
+        658499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 206000000,
+      "amount_interval_manwon": [
+        205500000,
+        206499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 57000000,
+      "amount_interval_manwon": [
+        56500000,
+        57499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2018,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2018,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 109683,
+      "amount_manwon_rounded": 4143000000,
+      "amount_interval_manwon": [
+        4142500000,
+        4143499999
+      ],
+      "mean_from_displayed_total": "1381000000/36561"
+    },
+    {
+      "scope": "41",
+      "year": 2018,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 64489,
+      "amount_manwon_rounded": 2384000000,
+      "amount_interval_manwon": [
+        2383500000,
+        2384499999
+      ],
+      "mean_from_displayed_total": "2384000000/64489"
+    },
+    {
+      "scope": "41",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 124043,
+      "amount_manwon_rounded": 4866000000,
+      "amount_interval_manwon": [
+        4865500000,
+        4866499999
+      ],
+      "mean_from_displayed_total": "4866000000/124043"
+    },
+    {
+      "scope": "41",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1122000000,
+      "amount_interval_manwon": [
+        1121500000,
+        1122499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 2383000000,
+      "amount_interval_manwon": [
+        2382500000,
+        2383499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 833000000,
+      "amount_interval_manwon": [
+        832500000,
+        833499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 334000000,
+      "amount_interval_manwon": [
+        333500000,
+        334499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 137000000,
+      "amount_interval_manwon": [
+        136500000,
+        137499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 51000000,
+      "amount_interval_manwon": [
+        50500000,
+        51499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2019,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2019,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 69958,
+      "amount_manwon_rounded": 2561000000,
+      "amount_interval_manwon": [
+        2560500000,
+        2561499999
+      ],
+      "mean_from_displayed_total": "1280500000/34979"
+    },
+    {
+      "scope": "41",
+      "year": 2019,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 39834,
+      "amount_manwon_rounded": 1348000000,
+      "amount_interval_manwon": [
+        1347500000,
+        1348499999
+      ],
+      "mean_from_displayed_total": "674000000/19917"
+    },
+    {
+      "scope": "41",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "supported",
+      "n": 209131,
+      "amount_manwon_rounded": 8729000000,
+      "amount_interval_manwon": [
+        8728500000,
+        8729499999
+      ],
+      "mean_from_displayed_total": "8729000000/209131"
+    },
+    {
+      "scope": "41",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1781000000,
+      "amount_interval_manwon": [
+        1780500000,
+        1781499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 3972000000,
+      "amount_interval_manwon": [
+        3971500000,
+        3972499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1957000000,
+      "amount_interval_manwon": [
+        1956500000,
+        1957499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 527000000,
+      "amount_interval_manwon": [
+        526500000,
+        527499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 347000000,
+      "amount_interval_manwon": [
+        346500000,
+        347499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2020,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2020,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 156643,
+      "amount_manwon_rounded": 6280000000,
+      "amount_interval_manwon": [
+        6279500000,
+        6280499999
+      ],
+      "mean_from_displayed_total": "6280000000/156643"
+    },
+    {
+      "scope": "41",
+      "year": 2020,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 114277,
+      "amount_manwon_rounded": 4395000000,
+      "amount_interval_manwon": [
+        4394500000,
+        4395499999
+      ],
+      "mean_from_displayed_total": "4395000000/114277"
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 5770000000,
+      "amount_interval_manwon": [
+        5769500000,
+        5770499999
+      ],
+      "mean_from_displayed_total": "1154000/23",
+      "n_rounded": 115000,
+      "n_interval": [
+        114950,
+        115049
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 677000000,
+      "amount_interval_manwon": [
+        676500000,
+        677499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 2137000000,
+      "amount_interval_manwon": [
+        2136500000,
+        2137499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1792000000,
+      "amount_interval_manwon": [
+        1791500000,
+        1792499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 606000000,
+      "amount_interval_manwon": [
+        605500000,
+        606499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 3000000,
+      "amount_interval_manwon": [
+        2500000,
+        3499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "supported",
+      "n": 102059,
+      "amount_manwon_rounded": 5078000000,
+      "amount_interval_manwon": [
+        5077500000,
+        5078499999
+      ],
+      "mean_from_displayed_total": "5078000000/102059"
+    },
+    {
+      "scope": "41",
+      "year": 2021,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "supported",
+      "n": 71137,
+      "amount_manwon_rounded": 3333000000,
+      "amount_interval_manwon": [
+        3332500000,
+        3333499999
+      ],
+      "mean_from_displayed_total": "303000000/6467"
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 1717000000,
+      "amount_interval_manwon": [
+        1716500000,
+        1717499999
+      ],
+      "mean_from_displayed_total": "343400/7",
+      "n_rounded": 35000,
+      "n_interval": [
+        34950,
+        35049
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 193000000,
+      "amount_interval_manwon": [
+        192500000,
+        193499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 707000000,
+      "amount_interval_manwon": [
+        706500000,
+        707499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 486000000,
+      "amount_interval_manwon": [
+        485500000,
+        486499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 164000000,
+      "amount_interval_manwon": [
+        163500000,
+        164499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 87000000,
+      "amount_interval_manwon": [
+        86500000,
+        87499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 1399000000,
+      "amount_interval_manwon": [
+        1398500000,
+        1399499999
+      ],
+      "mean_from_displayed_total": "13990000/281",
+      "n_rounded": 28100,
+      "n_interval": [
+        28050,
+        28149
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "41",
+      "year": 2022,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 1127000000,
+      "amount_interval_manwon": [
+        1126500000,
+        1127499999
+      ],
+      "mean_from_displayed_total": "11270000/221",
+      "n_rounded": 22100,
+      "n_interval": [
+        22050,
+        22149
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 4232000000,
+      "amount_interval_manwon": [
+        4231500000,
+        4232499999
+      ],
+      "mean_from_displayed_total": "5290000/101",
+      "n_rounded": 80800,
+      "n_interval": [
+        80750,
+        80849
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 352000000,
+      "amount_interval_manwon": [
+        351500000,
+        352499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1847000000,
+      "amount_interval_manwon": [
+        1846500000,
+        1847499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1218000000,
+      "amount_interval_manwon": [
+        1217500000,
+        1218499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 413000000,
+      "amount_interval_manwon": [
+        412500000,
+        413499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 228000000,
+      "amount_interval_manwon": [
+        227500000,
+        228499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 3492000000,
+      "amount_interval_manwon": [
+        3491500000,
+        3492499999
+      ],
+      "mean_from_displayed_total": "17460000/329",
+      "n_rounded": 65800,
+      "n_interval": [
+        65750,
+        65849
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "41",
+      "year": 2023,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 2224000000,
+      "amount_interval_manwon": [
+        2223500000,
+        2224499999
+      ],
+      "mean_from_displayed_total": "11120000/211",
+      "n_rounded": 42200,
+      "n_interval": [
+        42150,
+        42249
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 5490000000,
+      "amount_interval_manwon": [
+        5489500000,
+        5490499999
+      ],
+      "mean_from_displayed_total": "54900000/973",
+      "n_rounded": 97300,
+      "n_interval": [
+        97250,
+        97349
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 383000000,
+      "amount_interval_manwon": [
+        382500000,
+        383499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 2037000000,
+      "amount_interval_manwon": [
+        2036500000,
+        2037499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1696000000,
+      "amount_interval_manwon": [
+        1695500000,
+        1696499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 642000000,
+      "amount_interval_manwon": [
+        641500000,
+        642499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 366000000,
+      "amount_interval_manwon": [
+        365500000,
+        366499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 4477000000,
+      "amount_interval_manwon": [
+        4476500000,
+        4477499999
+      ],
+      "mean_from_displayed_total": "4477000/79",
+      "n_rounded": 79000,
+      "n_interval": [
+        78950,
+        79049
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "41",
+      "year": 2024,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 2714000000,
+      "amount_interval_manwon": [
+        2713500000,
+        2714499999
+      ],
+      "mean_from_displayed_total": "27140000/491",
+      "n_rounded": 49100,
+      "n_interval": [
+        49050,
+        49149
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 12,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 7218000000,
+      "amount_interval_manwon": [
+        7217500000,
+        7218499999
+      ],
+      "mean_from_displayed_total": "72180000/1157",
+      "n_rounded": 115700,
+      "n_interval": [
+        115650,
+        115749
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 387000000,
+      "amount_interval_manwon": [
+        386500000,
+        387499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 2221000000,
+      "amount_interval_manwon": [
+        2220500000,
+        2221499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 2207000000,
+      "amount_interval_manwon": [
+        2206500000,
+        2207499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1066000000,
+      "amount_interval_manwon": [
+        1065500000,
+        1066499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 614000000,
+      "amount_interval_manwon": [
+        613500000,
+        614499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 12,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 446000000,
+      "amount_interval_manwon": [
+        445500000,
+        446499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 12,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 12,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 5175000000,
+      "amount_interval_manwon": [
+        5174500000,
+        5175499999
+      ],
+      "mean_from_displayed_total": "51750000/833",
+      "n_rounded": 83300,
+      "n_interval": [
+        83250,
+        83349
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "41",
+      "year": 2025,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 3545000000,
+      "amount_interval_manwon": [
+        3544500000,
+        3545499999
+      ],
+      "mean_from_displayed_total": "2215625/36",
+      "n_rounded": 57600,
+      "n_interval": [
+        57550,
+        57649
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 6688000000,
+      "amount_interval_manwon": [
+        6687500000,
+        6688499999
+      ],
+      "mean_from_displayed_total": "66880000/1057",
+      "n_rounded": 105700,
+      "n_interval": [
+        105650,
+        105749
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=3억",
+      "months": 9,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 330000000,
+      "amount_interval_manwon": [
+        329500000,
+        330499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=6억",
+      "months": 9,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 2014000000,
+      "amount_interval_manwon": [
+        2013500000,
+        2014499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=9억",
+      "months": 9,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 2086000000,
+      "amount_interval_manwon": [
+        2085500000,
+        2086499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=12억",
+      "months": 9,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 1077000000,
+      "amount_interval_manwon": [
+        1076500000,
+        1077499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=15억",
+      "months": 9,
+      "status": "supported",
+      "n": null,
+      "amount_manwon_rounded": 607000000,
+      "amount_interval_manwon": [
+        606500000,
+        607499999
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=20억",
+      "months": 9,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=25억",
+      "months": 9,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=30억",
+      "months": 9,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=40억",
+      "months": 9,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=50억",
+      "months": 9,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": "<=75억",
+      "months": 9,
+      "status": "withheld",
+      "n": null,
+      "amount_manwon_rounded": null,
+      "amount_interval_manwon": null,
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "window": "calendar",
+      "policy": "active",
+      "band": ">75억",
+      "months": 9,
+      "status": "empty",
+      "n": null,
+      "amount_manwon_rounded": 0,
+      "amount_interval_manwon": [
+        0,
+        0
+      ],
+      "mean_from_displayed_total": null
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "window": "jan_sep",
+      "policy": "active",
+      "band": "all",
+      "months": 9,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 6688000000,
+      "amount_interval_manwon": [
+        6687500000,
+        6688499999
+      ],
+      "mean_from_displayed_total": "66880000/1057",
+      "n_rounded": 105700,
+      "n_interval": [
+        105650,
+        105749
+      ],
+      "n_rounding_quantum": 100
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "window": "jan_jun",
+      "policy": "active",
+      "band": "all",
+      "months": 6,
+      "status": "rounded_count",
+      "n": null,
+      "amount_manwon_rounded": 4941000000,
+      "amount_interval_manwon": [
+        4940500000,
+        4941499999
+      ],
+      "mean_from_displayed_total": "49410000/773",
+      "n_rounded": 77300,
+      "n_interval": [
+        77250,
+        77349
+      ],
+      "n_rounding_quantum": 100
+    }
+  ]
+}
