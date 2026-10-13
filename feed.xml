@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-13T22:09:25+09:00</updated>
+  <updated>2026-10-13T22:38:59+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -11,10 +11,19 @@
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
   <entry>
+    <title>미분양 통계 기준: 전체·준공 후·민간은 어떻게 다를까?</title>
+    <id>https://nobot-kang.github.io/posts/unsold-statistics-scope/</id>
+    <published>2026-10-13T22:38:59+09:00</published>
+    <updated>2026-10-13T22:38:59+09:00</updated>
+    <summary>미분양의 보고 과정과 월말 기준, 전체·준공 후·민간의 차이를 설명합니다. 서울·경기 원표와 KB의 실제 대조 사례로 빈칸·0·지역 범위를 확인하고 악성 미분양 기사를 읽어보세요.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/unsold-statistics-scope/" />
+    <category term="인구·주택 통계 읽기" />
+  </entry>
+  <entry>
     <title>KB·국토부 아파트 거래량이 다른 이유: 계약월·지역·제외 조건</title>
     <id>https://nobot-kang.github.io/posts/kb-molit-apartment-volume/</id>
     <published>2026-10-13T22:09:25+09:00</published>
-    <updated>2026-10-13T22:09:25+09:00</updated>
+    <updated>2026-10-13T22:38:59+09:00</updated>
     <summary>서울·수집 경기의 2010~2026년 아파트 거래량을 비교합니다. 계약월과 신고월, 경기도 전체와 수집 지역, 해제·직거래 제외 조건 및 반올림을 구분해 서로 다른 거래량 기사를 읽어보세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/kb-molit-apartment-volume/" />
     <category term="인구·주택 통계 읽기" />
@@ -41,7 +50,7 @@
     <title>준공 후 미분양 면적별 비중: 큰 평형에 몰렸을까?</title>
     <id>https://nobot-kang.github.io/posts/completed-unsold-by-area/</id>
     <published>2026-10-12T20:53:14+09:00</published>
-    <updated>2026-10-13T19:13:00+09:00</updated>
+    <updated>2026-10-13T22:38:59+09:00</updated>
     <summary>서울·수집 경기의 2010~2026년 7월 준공 후 미분양을 세 면적 구간으로 비교합니다. 대형 비중의 고점과 반례, 같은 기간 매매 구성, 공식 원표의 빈칸과 결측 민감도를 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/completed-unsold-by-area/" />
     <category term="공급과 미분양" />

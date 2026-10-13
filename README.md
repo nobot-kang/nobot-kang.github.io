@@ -300,3 +300,13 @@ unobserved renewals prevent inference to actual exercise rates or policy effects
 The 2023-12-29 official reporting form distinguishes exercise/nonexercise, but no
 verified mapping from API blanks to its nonexercise selection is asserted. Individual
 contract IDs, exact exercise histories and private historical anomaly counts are absent.
+
+## 미분양 통계 범위 대조
+
+`completed-unsold-scope.json`은 기존 `completed-unsold.json`과 별도의 보충자료입니다.
+2022년 2월·2026년 5~7월 서울·경기 광역의 전체 미분양/공공/민간/민간 준공 후
+수량8개 묶음과 네 출처 불일치 사례를 담습니다. 단위는 호이며 `null`은 미기재입니다.
+`scope_rows`의 경기 코드는 도 전체로, 기존 면적 분석의 수집 경기와 범위가 다릅니다.
+`discrepancies`의 배열 순서는 `discrepancy_order`를 따릅니다. KB 결측·구성합 불일치를
+원표로 덮어쓰지 않았습니다. 보유 개정본 대조이며 과거 첫 발표본을 복원하지 않았고,
+이 보충자료에 새로운 사적 거래·재고 수나 주택/거래 연결은 없습니다.
