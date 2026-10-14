@@ -1,0 +1,9071 @@
+{
+  "schema": "movein_city_ages_v1",
+  "period": [
+    2010,
+    2025
+  ],
+  "ages": [
+    "0~19세",
+    "20대",
+    "30대",
+    "40대",
+    "50대",
+    "60대",
+    "70세 이상"
+  ],
+  "cities": {
+    "4159000000": "화성시",
+    "4157000000": "김포시",
+    "4146000000": "용인시",
+    "4148000000": "파주시",
+    "4136000000": "남양주시",
+    "4122000000": "평택시",
+    "4145000000": "하남시",
+    "4161000000": "광주시",
+    "4128000000": "고양시",
+    "4111000000": "수원시",
+    "4115000000": "의정부시",
+    "4143000000": "의왕시",
+    "4129000000": "과천시",
+    "4131000000": "구리시",
+    "4121000000": "광명시",
+    "4141000000": "군포시",
+    "4117000000": "안양시",
+    "4113000000": "성남시",
+    "4127000000": "안산시",
+    "4119000000": "부천시",
+    "4125000000": "동두천시",
+    "4139000000": "시흥시",
+    "4155000000": "안성시",
+    "4163000000": "양주시",
+    "4167000000": "여주시",
+    "4137000000": "오산시",
+    "4150000000": "이천시",
+    "4165000000": "포천시"
+  },
+  "selected": [
+    "4111000000",
+    "4117000000",
+    "4122000000",
+    "4146000000",
+    "4157000000",
+    "4159000000",
+    "4163000000"
+  ],
+  "supply": [
+    {
+      "code": "4111000000",
+      "year": 2010,
+      "units": 3595,
+      "present_months": 8,
+      "records": 11
+    },
+    {
+      "code": "4111000000",
+      "year": 2011,
+      "units": 8847,
+      "present_months": 5,
+      "records": 15
+    },
+    {
+      "code": "4111000000",
+      "year": 2012,
+      "units": 10748,
+      "present_months": 9,
+      "records": 26
+    },
+    {
+      "code": "4111000000",
+      "year": 2013,
+      "units": 10770,
+      "present_months": 10,
+      "records": 28
+    },
+    {
+      "code": "4111000000",
+      "year": 2014,
+      "units": 6793,
+      "present_months": 10,
+      "records": 21
+    },
+    {
+      "code": "4111000000",
+      "year": 2015,
+      "units": 7935,
+      "present_months": 11,
+      "records": 26
+    },
+    {
+      "code": "4111000000",
+      "year": 2016,
+      "units": 3554,
+      "present_months": 12,
+      "records": 35
+    },
+    {
+      "code": "4111000000",
+      "year": 2017,
+      "units": 12829,
+      "present_months": 12,
+      "records": 57
+    },
+    {
+      "code": "4111000000",
+      "year": 2018,
+      "units": 8798,
+      "present_months": 11,
+      "records": 37
+    },
+    {
+      "code": "4111000000",
+      "year": 2019,
+      "units": 7966,
+      "present_months": 12,
+      "records": 39
+    },
+    {
+      "code": "4111000000",
+      "year": 2020,
+      "units": 1367,
+      "present_months": 11,
+      "records": 23
+    },
+    {
+      "code": "4111000000",
+      "year": 2021,
+      "units": 10637,
+      "present_months": 10,
+      "records": 31
+    },
+    {
+      "code": "4111000000",
+      "year": 2022,
+      "units": 11147,
+      "present_months": 12,
+      "records": 31
+    },
+    {
+      "code": "4111000000",
+      "year": 2023,
+      "units": 9536,
+      "present_months": 8,
+      "records": 15
+    },
+    {
+      "code": "4111000000",
+      "year": 2024,
+      "units": 3521,
+      "present_months": 5,
+      "records": 6
+    },
+    {
+      "code": "4111000000",
+      "year": 2025,
+      "units": 1566,
+      "present_months": 1,
+      "records": 2
+    },
+    {
+      "code": "4113000000",
+      "year": 2010,
+      "units": 4065,
+      "present_months": 5,
+      "records": 14
+    },
+    {
+      "code": "4113000000",
+      "year": 2011,
+      "units": 1207,
+      "present_months": 5,
+      "records": 6
+    },
+    {
+      "code": "4113000000",
+      "year": 2012,
+      "units": 3614,
+      "present_months": 7,
+      "records": 9
+    },
+    {
+      "code": "4113000000",
+      "year": 2013,
+      "units": 2172,
+      "present_months": 4,
+      "records": 7
+    },
+    {
+      "code": "4113000000",
+      "year": 2014,
+      "units": 88,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4113000000",
+      "year": 2015,
+      "units": 4537,
+      "present_months": 3,
+      "records": 7
+    },
+    {
+      "code": "4113000000",
+      "year": 2016,
+      "units": 4000,
+      "present_months": 6,
+      "records": 10
+    },
+    {
+      "code": "4113000000",
+      "year": 2017,
+      "units": 2919,
+      "present_months": 7,
+      "records": 14
+    },
+    {
+      "code": "4113000000",
+      "year": 2018,
+      "units": 616,
+      "present_months": 4,
+      "records": 8
+    },
+    {
+      "code": "4113000000",
+      "year": 2019,
+      "units": 1621,
+      "present_months": 7,
+      "records": 10
+    },
+    {
+      "code": "4113000000",
+      "year": 2020,
+      "units": 4705,
+      "present_months": 4,
+      "records": 5
+    },
+    {
+      "code": "4113000000",
+      "year": 2021,
+      "units": 7401,
+      "present_months": 9,
+      "records": 18
+    },
+    {
+      "code": "4113000000",
+      "year": 2022,
+      "units": 7086,
+      "present_months": 6,
+      "records": 11
+    },
+    {
+      "code": "4113000000",
+      "year": 2023,
+      "units": 5459,
+      "present_months": 6,
+      "records": 12
+    },
+    {
+      "code": "4113000000",
+      "year": 2024,
+      "units": 1123,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4113000000",
+      "year": 2025,
+      "units": 2033,
+      "present_months": 4,
+      "records": 7
+    },
+    {
+      "code": "4115000000",
+      "year": 2010,
+      "units": 164,
+      "present_months": 3,
+      "records": 4
+    },
+    {
+      "code": "4115000000",
+      "year": 2011,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4115000000",
+      "year": 2012,
+      "units": 490,
+      "present_months": 7,
+      "records": 8
+    },
+    {
+      "code": "4115000000",
+      "year": 2013,
+      "units": 2357,
+      "present_months": 10,
+      "records": 24
+    },
+    {
+      "code": "4115000000",
+      "year": 2014,
+      "units": 1544,
+      "present_months": 10,
+      "records": 27
+    },
+    {
+      "code": "4115000000",
+      "year": 2015,
+      "units": 1341,
+      "present_months": 11,
+      "records": 23
+    },
+    {
+      "code": "4115000000",
+      "year": 2016,
+      "units": 2906,
+      "present_months": 12,
+      "records": 41
+    },
+    {
+      "code": "4115000000",
+      "year": 2017,
+      "units": 5787,
+      "present_months": 12,
+      "records": 35
+    },
+    {
+      "code": "4115000000",
+      "year": 2018,
+      "units": 7349,
+      "present_months": 12,
+      "records": 56
+    },
+    {
+      "code": "4115000000",
+      "year": 2019,
+      "units": 3885,
+      "present_months": 10,
+      "records": 22
+    },
+    {
+      "code": "4115000000",
+      "year": 2020,
+      "units": 5460,
+      "present_months": 12,
+      "records": 25
+    },
+    {
+      "code": "4115000000",
+      "year": 2021,
+      "units": 5085,
+      "present_months": 9,
+      "records": 18
+    },
+    {
+      "code": "4115000000",
+      "year": 2022,
+      "units": 3466,
+      "present_months": 6,
+      "records": 9
+    },
+    {
+      "code": "4115000000",
+      "year": 2023,
+      "units": 4086,
+      "present_months": 5,
+      "records": 9
+    },
+    {
+      "code": "4115000000",
+      "year": 2024,
+      "units": 3718,
+      "present_months": 6,
+      "records": 10
+    },
+    {
+      "code": "4115000000",
+      "year": 2025,
+      "units": 1550,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4117000000",
+      "year": 2010,
+      "units": 1964,
+      "present_months": 6,
+      "records": 8
+    },
+    {
+      "code": "4117000000",
+      "year": 2011,
+      "units": 281,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4117000000",
+      "year": 2012,
+      "units": 2231,
+      "present_months": 6,
+      "records": 8
+    },
+    {
+      "code": "4117000000",
+      "year": 2013,
+      "units": 602,
+      "present_months": 10,
+      "records": 17
+    },
+    {
+      "code": "4117000000",
+      "year": 2014,
+      "units": 763,
+      "present_months": 11,
+      "records": 20
+    },
+    {
+      "code": "4117000000",
+      "year": 2015,
+      "units": 1239,
+      "present_months": 11,
+      "records": 23
+    },
+    {
+      "code": "4117000000",
+      "year": 2016,
+      "units": 6230,
+      "present_months": 10,
+      "records": 19
+    },
+    {
+      "code": "4117000000",
+      "year": 2017,
+      "units": 1031,
+      "present_months": 10,
+      "records": 24
+    },
+    {
+      "code": "4117000000",
+      "year": 2018,
+      "units": 965,
+      "present_months": 10,
+      "records": 25
+    },
+    {
+      "code": "4117000000",
+      "year": 2019,
+      "units": 2146,
+      "present_months": 11,
+      "records": 20
+    },
+    {
+      "code": "4117000000",
+      "year": 2020,
+      "units": 601,
+      "present_months": 9,
+      "records": 16
+    },
+    {
+      "code": "4117000000",
+      "year": 2021,
+      "units": 8200,
+      "present_months": 9,
+      "records": 15
+    },
+    {
+      "code": "4117000000",
+      "year": 2022,
+      "units": 5165,
+      "present_months": 9,
+      "records": 16
+    },
+    {
+      "code": "4117000000",
+      "year": 2023,
+      "units": 3164,
+      "present_months": 4,
+      "records": 5
+    },
+    {
+      "code": "4117000000",
+      "year": 2024,
+      "units": 8879,
+      "present_months": 7,
+      "records": 9
+    },
+    {
+      "code": "4117000000",
+      "year": 2025,
+      "units": 3796,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4119000000",
+      "year": 2010,
+      "units": 1070,
+      "present_months": 8,
+      "records": 10
+    },
+    {
+      "code": "4119000000",
+      "year": 2011,
+      "units": 3528,
+      "present_months": 10,
+      "records": 14
+    },
+    {
+      "code": "4119000000",
+      "year": 2012,
+      "units": 2527,
+      "present_months": 9,
+      "records": 21
+    },
+    {
+      "code": "4119000000",
+      "year": 2013,
+      "units": 850,
+      "present_months": 10,
+      "records": 19
+    },
+    {
+      "code": "4119000000",
+      "year": 2014,
+      "units": 2229,
+      "present_months": 9,
+      "records": 17
+    },
+    {
+      "code": "4119000000",
+      "year": 2015,
+      "units": 1197,
+      "present_months": 10,
+      "records": 19
+    },
+    {
+      "code": "4119000000",
+      "year": 2016,
+      "units": 3788,
+      "present_months": 12,
+      "records": 41
+    },
+    {
+      "code": "4119000000",
+      "year": 2017,
+      "units": 6298,
+      "present_months": 12,
+      "records": 47
+    },
+    {
+      "code": "4119000000",
+      "year": 2018,
+      "units": 2423,
+      "present_months": 12,
+      "records": 38
+    },
+    {
+      "code": "4119000000",
+      "year": 2019,
+      "units": 1802,
+      "present_months": 12,
+      "records": 55
+    },
+    {
+      "code": "4119000000",
+      "year": 2020,
+      "units": 3639,
+      "present_months": 12,
+      "records": 44
+    },
+    {
+      "code": "4119000000",
+      "year": 2021,
+      "units": 2855,
+      "present_months": 12,
+      "records": 58
+    },
+    {
+      "code": "4119000000",
+      "year": 2022,
+      "units": 3064,
+      "present_months": 12,
+      "records": 58
+    },
+    {
+      "code": "4119000000",
+      "year": 2023,
+      "units": 5272,
+      "present_months": 11,
+      "records": 43
+    },
+    {
+      "code": "4119000000",
+      "year": 2024,
+      "units": 1363,
+      "present_months": 9,
+      "records": 21
+    },
+    {
+      "code": "4119000000",
+      "year": 2025,
+      "units": 1724,
+      "present_months": 5,
+      "records": 6
+    },
+    {
+      "code": "4121000000",
+      "year": 2010,
+      "units": 7191,
+      "present_months": 8,
+      "records": 8
+    },
+    {
+      "code": "4121000000",
+      "year": 2011,
+      "units": 1204,
+      "present_months": 1,
+      "records": 2
+    },
+    {
+      "code": "4121000000",
+      "year": 2012,
+      "units": 70,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4121000000",
+      "year": 2013,
+      "units": 71,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4121000000",
+      "year": 2014,
+      "units": 61,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4121000000",
+      "year": 2015,
+      "units": 1304,
+      "present_months": 2,
+      "records": 3
+    },
+    {
+      "code": "4121000000",
+      "year": 2016,
+      "units": 104,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4121000000",
+      "year": 2017,
+      "units": 1555,
+      "present_months": 4,
+      "records": 5
+    },
+    {
+      "code": "4121000000",
+      "year": 2018,
+      "units": 2495,
+      "present_months": 5,
+      "records": 6
+    },
+    {
+      "code": "4121000000",
+      "year": 2019,
+      "units": 66,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4121000000",
+      "year": 2020,
+      "units": 3669,
+      "present_months": 6,
+      "records": 9
+    },
+    {
+      "code": "4121000000",
+      "year": 2021,
+      "units": 820,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4121000000",
+      "year": 2022,
+      "units": 2770,
+      "present_months": 6,
+      "records": 8
+    },
+    {
+      "code": "4121000000",
+      "year": 2023,
+      "units": 1187,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4121000000",
+      "year": 2024,
+      "units": 4405,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4121000000",
+      "year": 2025,
+      "units": 9346,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4122000000",
+      "year": 2010,
+      "units": 2999,
+      "present_months": 6,
+      "records": 6
+    },
+    {
+      "code": "4122000000",
+      "year": 2011,
+      "units": 3748,
+      "present_months": 3,
+      "records": 6
+    },
+    {
+      "code": "4122000000",
+      "year": 2012,
+      "units": 2407,
+      "present_months": 4,
+      "records": 7
+    },
+    {
+      "code": "4122000000",
+      "year": 2013,
+      "units": 2921,
+      "present_months": 10,
+      "records": 24
+    },
+    {
+      "code": "4122000000",
+      "year": 2014,
+      "units": 2178,
+      "present_months": 11,
+      "records": 29
+    },
+    {
+      "code": "4122000000",
+      "year": 2015,
+      "units": 5155,
+      "present_months": 11,
+      "records": 33
+    },
+    {
+      "code": "4122000000",
+      "year": 2016,
+      "units": 7625,
+      "present_months": 11,
+      "records": 42
+    },
+    {
+      "code": "4122000000",
+      "year": 2017,
+      "units": 10932,
+      "present_months": 12,
+      "records": 42
+    },
+    {
+      "code": "4122000000",
+      "year": 2018,
+      "units": 11686,
+      "present_months": 10,
+      "records": 33
+    },
+    {
+      "code": "4122000000",
+      "year": 2019,
+      "units": 17424,
+      "present_months": 12,
+      "records": 27
+    },
+    {
+      "code": "4122000000",
+      "year": 2020,
+      "units": 7198,
+      "present_months": 7,
+      "records": 11
+    },
+    {
+      "code": "4122000000",
+      "year": 2021,
+      "units": 7025,
+      "present_months": 8,
+      "records": 10
+    },
+    {
+      "code": "4122000000",
+      "year": 2022,
+      "units": 7709,
+      "present_months": 7,
+      "records": 9
+    },
+    {
+      "code": "4122000000",
+      "year": 2023,
+      "units": 6171,
+      "present_months": 7,
+      "records": 8
+    },
+    {
+      "code": "4122000000",
+      "year": 2024,
+      "units": 6713,
+      "present_months": 7,
+      "records": 9
+    },
+    {
+      "code": "4122000000",
+      "year": 2025,
+      "units": 9368,
+      "present_months": 6,
+      "records": 11
+    },
+    {
+      "code": "4125000000",
+      "year": 2010,
+      "units": 19,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4125000000",
+      "year": 2011,
+      "units": 569,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4125000000",
+      "year": 2012,
+      "units": 154,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4125000000",
+      "year": 2013,
+      "units": 151,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4125000000",
+      "year": 2014,
+      "units": 278,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4125000000",
+      "year": 2015,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4125000000",
+      "year": 2016,
+      "units": 22,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4125000000",
+      "year": 2017,
+      "units": 52,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4125000000",
+      "year": 2018,
+      "units": 508,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4125000000",
+      "year": 2019,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4125000000",
+      "year": 2020,
+      "units": 384,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4125000000",
+      "year": 2021,
+      "units": 429,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4125000000",
+      "year": 2022,
+      "units": 52,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4125000000",
+      "year": 2023,
+      "units": 314,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4125000000",
+      "year": 2024,
+      "units": 744,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4125000000",
+      "year": 2025,
+      "units": 679,
+      "present_months": 2,
+      "records": 3
+    },
+    {
+      "code": "4127000000",
+      "year": 2010,
+      "units": 879,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4127000000",
+      "year": 2011,
+      "units": 83,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4127000000",
+      "year": 2012,
+      "units": 589,
+      "present_months": 6,
+      "records": 7
+    },
+    {
+      "code": "4127000000",
+      "year": 2013,
+      "units": 1053,
+      "present_months": 11,
+      "records": 20
+    },
+    {
+      "code": "4127000000",
+      "year": 2014,
+      "units": 192,
+      "present_months": 8,
+      "records": 11
+    },
+    {
+      "code": "4127000000",
+      "year": 2015,
+      "units": 1132,
+      "present_months": 9,
+      "records": 23
+    },
+    {
+      "code": "4127000000",
+      "year": 2016,
+      "units": 1740,
+      "present_months": 9,
+      "records": 15
+    },
+    {
+      "code": "4127000000",
+      "year": 2017,
+      "units": 262,
+      "present_months": 8,
+      "records": 12
+    },
+    {
+      "code": "4127000000",
+      "year": 2018,
+      "units": 6899,
+      "present_months": 10,
+      "records": 19
+    },
+    {
+      "code": "4127000000",
+      "year": 2019,
+      "units": 4781,
+      "present_months": 6,
+      "records": 10
+    },
+    {
+      "code": "4127000000",
+      "year": 2020,
+      "units": 10208,
+      "present_months": 8,
+      "records": 10
+    },
+    {
+      "code": "4127000000",
+      "year": 2021,
+      "units": 1522,
+      "present_months": 3,
+      "records": 5
+    },
+    {
+      "code": "4127000000",
+      "year": 2022,
+      "units": 72,
+      "present_months": 3,
+      "records": 8
+    },
+    {
+      "code": "4127000000",
+      "year": 2023,
+      "units": 2274,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4127000000",
+      "year": 2024,
+      "units": 1554,
+      "present_months": 5,
+      "records": 6
+    },
+    {
+      "code": "4127000000",
+      "year": 2025,
+      "units": 733,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4128000000",
+      "year": 2010,
+      "units": 10071,
+      "present_months": 7,
+      "records": 13
+    },
+    {
+      "code": "4128000000",
+      "year": 2011,
+      "units": 3506,
+      "present_months": 2,
+      "records": 5
+    },
+    {
+      "code": "4128000000",
+      "year": 2012,
+      "units": 4517,
+      "present_months": 7,
+      "records": 11
+    },
+    {
+      "code": "4128000000",
+      "year": 2013,
+      "units": 6496,
+      "present_months": 6,
+      "records": 9
+    },
+    {
+      "code": "4128000000",
+      "year": 2014,
+      "units": 1657,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4128000000",
+      "year": 2015,
+      "units": 3788,
+      "present_months": 6,
+      "records": 6
+    },
+    {
+      "code": "4128000000",
+      "year": 2016,
+      "units": 2762,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4128000000",
+      "year": 2017,
+      "units": 2036,
+      "present_months": 4,
+      "records": 5
+    },
+    {
+      "code": "4128000000",
+      "year": 2018,
+      "units": 6230,
+      "present_months": 7,
+      "records": 10
+    },
+    {
+      "code": "4128000000",
+      "year": 2019,
+      "units": 10553,
+      "present_months": 7,
+      "records": 19
+    },
+    {
+      "code": "4128000000",
+      "year": 2020,
+      "units": 5734,
+      "present_months": 7,
+      "records": 12
+    },
+    {
+      "code": "4128000000",
+      "year": 2021,
+      "units": 1022,
+      "present_months": 4,
+      "records": 13
+    },
+    {
+      "code": "4128000000",
+      "year": 2022,
+      "units": 8393,
+      "present_months": 8,
+      "records": 17
+    },
+    {
+      "code": "4128000000",
+      "year": 2023,
+      "units": 1551,
+      "present_months": 5,
+      "records": 6
+    },
+    {
+      "code": "4128000000",
+      "year": 2024,
+      "units": 4673,
+      "present_months": 5,
+      "records": 6
+    },
+    {
+      "code": "4128000000",
+      "year": 2025,
+      "units": 2197,
+      "present_months": 3,
+      "records": 4
+    },
+    {
+      "code": "4129000000",
+      "year": 2010,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4129000000",
+      "year": 2011,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4129000000",
+      "year": 2012,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4129000000",
+      "year": 2013,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4129000000",
+      "year": 2014,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4129000000",
+      "year": 2015,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4129000000",
+      "year": 2016,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4129000000",
+      "year": 2017,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4129000000",
+      "year": 2018,
+      "units": 543,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4129000000",
+      "year": 2019,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4129000000",
+      "year": 2020,
+      "units": 2988,
+      "present_months": 2,
+      "records": 3
+    },
+    {
+      "code": "4129000000",
+      "year": 2021,
+      "units": 3454,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4129000000",
+      "year": 2022,
+      "units": 2603,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4129000000",
+      "year": 2023,
+      "units": 1491,
+      "present_months": 2,
+      "records": 3
+    },
+    {
+      "code": "4129000000",
+      "year": 2024,
+      "units": 1380,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4129000000",
+      "year": 2025,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4131000000",
+      "year": 2010,
+      "units": 299,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4131000000",
+      "year": 2011,
+      "units": 80,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4131000000",
+      "year": 2012,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4131000000",
+      "year": 2013,
+      "units": 32,
+      "present_months": 1,
+      "records": 2
+    },
+    {
+      "code": "4131000000",
+      "year": 2014,
+      "units": 398,
+      "present_months": 2,
+      "records": 3
+    },
+    {
+      "code": "4131000000",
+      "year": 2015,
+      "units": 470,
+      "present_months": 2,
+      "records": 4
+    },
+    {
+      "code": "4131000000",
+      "year": 2016,
+      "units": 3409,
+      "present_months": 4,
+      "records": 6
+    },
+    {
+      "code": "4131000000",
+      "year": 2017,
+      "units": 2659,
+      "present_months": 5,
+      "records": 5
+    },
+    {
+      "code": "4131000000",
+      "year": 2018,
+      "units": 2256,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4131000000",
+      "year": 2019,
+      "units": 20,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4131000000",
+      "year": 2020,
+      "units": 1383,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4131000000",
+      "year": 2021,
+      "units": 426,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4131000000",
+      "year": 2022,
+      "units": 447,
+      "present_months": 4,
+      "records": 6
+    },
+    {
+      "code": "4131000000",
+      "year": 2023,
+      "units": 397,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4131000000",
+      "year": 2024,
+      "units": 565,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4131000000",
+      "year": 2025,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4136000000",
+      "year": 2010,
+      "units": 7985,
+      "present_months": 7,
+      "records": 13
+    },
+    {
+      "code": "4136000000",
+      "year": 2011,
+      "units": 424,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4136000000",
+      "year": 2012,
+      "units": 7393,
+      "present_months": 10,
+      "records": 15
+    },
+    {
+      "code": "4136000000",
+      "year": 2013,
+      "units": 2253,
+      "present_months": 4,
+      "records": 6
+    },
+    {
+      "code": "4136000000",
+      "year": 2014,
+      "units": 2707,
+      "present_months": 5,
+      "records": 6
+    },
+    {
+      "code": "4136000000",
+      "year": 2015,
+      "units": 7911,
+      "present_months": 4,
+      "records": 8
+    },
+    {
+      "code": "4136000000",
+      "year": 2016,
+      "units": 209,
+      "present_months": 4,
+      "records": 5
+    },
+    {
+      "code": "4136000000",
+      "year": 2017,
+      "units": 2382,
+      "present_months": 4,
+      "records": 8
+    },
+    {
+      "code": "4136000000",
+      "year": 2018,
+      "units": 8475,
+      "present_months": 7,
+      "records": 14
+    },
+    {
+      "code": "4136000000",
+      "year": 2019,
+      "units": 11454,
+      "present_months": 6,
+      "records": 16
+    },
+    {
+      "code": "4136000000",
+      "year": 2020,
+      "units": 4562,
+      "present_months": 5,
+      "records": 7
+    },
+    {
+      "code": "4136000000",
+      "year": 2021,
+      "units": 8401,
+      "present_months": 7,
+      "records": 13
+    },
+    {
+      "code": "4136000000",
+      "year": 2022,
+      "units": 2782,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4136000000",
+      "year": 2023,
+      "units": 1658,
+      "present_months": 5,
+      "records": 5
+    },
+    {
+      "code": "4136000000",
+      "year": 2024,
+      "units": 967,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4136000000",
+      "year": 2025,
+      "units": 1776,
+      "present_months": 3,
+      "records": 4
+    },
+    {
+      "code": "4137000000",
+      "year": 2010,
+      "units": 4839,
+      "present_months": 5,
+      "records": 7
+    },
+    {
+      "code": "4137000000",
+      "year": 2011,
+      "units": 2061,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4137000000",
+      "year": 2012,
+      "units": 276,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4137000000",
+      "year": 2013,
+      "units": 1800,
+      "present_months": 7,
+      "records": 8
+    },
+    {
+      "code": "4137000000",
+      "year": 2014,
+      "units": 234,
+      "present_months": 6,
+      "records": 7
+    },
+    {
+      "code": "4137000000",
+      "year": 2015,
+      "units": 214,
+      "present_months": 4,
+      "records": 8
+    },
+    {
+      "code": "4137000000",
+      "year": 2016,
+      "units": 122,
+      "present_months": 5,
+      "records": 5
+    },
+    {
+      "code": "4137000000",
+      "year": 2017,
+      "units": 3853,
+      "present_months": 4,
+      "records": 8
+    },
+    {
+      "code": "4137000000",
+      "year": 2018,
+      "units": 4217,
+      "present_months": 5,
+      "records": 8
+    },
+    {
+      "code": "4137000000",
+      "year": 2019,
+      "units": 3985,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4137000000",
+      "year": 2020,
+      "units": 640,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4137000000",
+      "year": 2021,
+      "units": 58,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4137000000",
+      "year": 2022,
+      "units": 432,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4137000000",
+      "year": 2023,
+      "units": 2002,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4137000000",
+      "year": 2024,
+      "units": 7555,
+      "present_months": 7,
+      "records": 8
+    },
+    {
+      "code": "4137000000",
+      "year": 2025,
+      "units": 3876,
+      "present_months": 5,
+      "records": 6
+    },
+    {
+      "code": "4139000000",
+      "year": 2010,
+      "units": 516,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4139000000",
+      "year": 2011,
+      "units": 708,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4139000000",
+      "year": 2012,
+      "units": 539,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4139000000",
+      "year": 2013,
+      "units": 1178,
+      "present_months": 4,
+      "records": 5
+    },
+    {
+      "code": "4139000000",
+      "year": 2014,
+      "units": 1416,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4139000000",
+      "year": 2015,
+      "units": 3528,
+      "present_months": 4,
+      "records": 7
+    },
+    {
+      "code": "4139000000",
+      "year": 2016,
+      "units": 3583,
+      "present_months": 8,
+      "records": 11
+    },
+    {
+      "code": "4139000000",
+      "year": 2017,
+      "units": 11485,
+      "present_months": 8,
+      "records": 17
+    },
+    {
+      "code": "4139000000",
+      "year": 2018,
+      "units": 12492,
+      "present_months": 9,
+      "records": 15
+    },
+    {
+      "code": "4139000000",
+      "year": 2019,
+      "units": 11419,
+      "present_months": 9,
+      "records": 18
+    },
+    {
+      "code": "4139000000",
+      "year": 2020,
+      "units": 10182,
+      "present_months": 9,
+      "records": 18
+    },
+    {
+      "code": "4139000000",
+      "year": 2021,
+      "units": 2118,
+      "present_months": 7,
+      "records": 9
+    },
+    {
+      "code": "4139000000",
+      "year": 2022,
+      "units": 2197,
+      "present_months": 6,
+      "records": 7
+    },
+    {
+      "code": "4139000000",
+      "year": 2023,
+      "units": 5992,
+      "present_months": 4,
+      "records": 8
+    },
+    {
+      "code": "4139000000",
+      "year": 2024,
+      "units": 1110,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4139000000",
+      "year": 2025,
+      "units": 1297,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4141000000",
+      "year": 2010,
+      "units": 3869,
+      "present_months": 3,
+      "records": 5
+    },
+    {
+      "code": "4141000000",
+      "year": 2011,
+      "units": 77,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4141000000",
+      "year": 2012,
+      "units": 517,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4141000000",
+      "year": 2013,
+      "units": 12,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4141000000",
+      "year": 2014,
+      "units": 2027,
+      "present_months": 5,
+      "records": 6
+    },
+    {
+      "code": "4141000000",
+      "year": 2015,
+      "units": 164,
+      "present_months": 4,
+      "records": 6
+    },
+    {
+      "code": "4141000000",
+      "year": 2016,
+      "units": 38,
+      "present_months": 5,
+      "records": 5
+    },
+    {
+      "code": "4141000000",
+      "year": 2017,
+      "units": 45,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4141000000",
+      "year": 2018,
+      "units": 1745,
+      "present_months": 7,
+      "records": 8
+    },
+    {
+      "code": "4141000000",
+      "year": 2019,
+      "units": 1886,
+      "present_months": 10,
+      "records": 15
+    },
+    {
+      "code": "4141000000",
+      "year": 2020,
+      "units": 135,
+      "present_months": 5,
+      "records": 6
+    },
+    {
+      "code": "4141000000",
+      "year": 2021,
+      "units": 260,
+      "present_months": 2,
+      "records": 5
+    },
+    {
+      "code": "4141000000",
+      "year": 2022,
+      "units": 843,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4141000000",
+      "year": 2023,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4141000000",
+      "year": 2024,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4141000000",
+      "year": 2025,
+      "units": 80,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4143000000",
+      "year": 2010,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4143000000",
+      "year": 2011,
+      "units": 876,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4143000000",
+      "year": 2012,
+      "units": 2449,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4143000000",
+      "year": 2013,
+      "units": 330,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4143000000",
+      "year": 2014,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4143000000",
+      "year": 2015,
+      "units": 49,
+      "present_months": 3,
+      "records": 4
+    },
+    {
+      "code": "4143000000",
+      "year": 2016,
+      "units": 57,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4143000000",
+      "year": 2017,
+      "units": 141,
+      "present_months": 6,
+      "records": 8
+    },
+    {
+      "code": "4143000000",
+      "year": 2018,
+      "units": 598,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4143000000",
+      "year": 2019,
+      "units": 5806,
+      "present_months": 5,
+      "records": 11
+    },
+    {
+      "code": "4143000000",
+      "year": 2020,
+      "units": 1204,
+      "present_months": 2,
+      "records": 4
+    },
+    {
+      "code": "4143000000",
+      "year": 2021,
+      "units": 1168,
+      "present_months": 7,
+      "records": 9
+    },
+    {
+      "code": "4143000000",
+      "year": 2022,
+      "units": 24,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4143000000",
+      "year": 2023,
+      "units": 1851,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4143000000",
+      "year": 2024,
+      "units": 25,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4143000000",
+      "year": 2025,
+      "units": 3474,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4145000000",
+      "year": 2010,
+      "units": 453,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4145000000",
+      "year": 2011,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4145000000",
+      "year": 2012,
+      "units": 36,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4145000000",
+      "year": 2013,
+      "units": 22,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4145000000",
+      "year": 2014,
+      "units": 3243,
+      "present_months": 4,
+      "records": 5
+    },
+    {
+      "code": "4145000000",
+      "year": 2015,
+      "units": 4796,
+      "present_months": 5,
+      "records": 6
+    },
+    {
+      "code": "4145000000",
+      "year": 2016,
+      "units": 12745,
+      "present_months": 8,
+      "records": 13
+    },
+    {
+      "code": "4145000000",
+      "year": 2017,
+      "units": 6253,
+      "present_months": 6,
+      "records": 9
+    },
+    {
+      "code": "4145000000",
+      "year": 2018,
+      "units": 6088,
+      "present_months": 8,
+      "records": 10
+    },
+    {
+      "code": "4145000000",
+      "year": 2019,
+      "units": 3706,
+      "present_months": 6,
+      "records": 10
+    },
+    {
+      "code": "4145000000",
+      "year": 2020,
+      "units": 3388,
+      "present_months": 4,
+      "records": 6
+    },
+    {
+      "code": "4145000000",
+      "year": 2021,
+      "units": 9161,
+      "present_months": 6,
+      "records": 12
+    },
+    {
+      "code": "4145000000",
+      "year": 2022,
+      "units": 2988,
+      "present_months": 7,
+      "records": 8
+    },
+    {
+      "code": "4145000000",
+      "year": 2023,
+      "units": 907,
+      "present_months": 1,
+      "records": 2
+    },
+    {
+      "code": "4145000000",
+      "year": 2024,
+      "units": 1059,
+      "present_months": 2,
+      "records": 4
+    },
+    {
+      "code": "4145000000",
+      "year": 2025,
+      "units": 99,
+      "present_months": 1,
+      "records": 2
+    },
+    {
+      "code": "4146000000",
+      "year": 2010,
+      "units": 14011,
+      "present_months": 12,
+      "records": 35
+    },
+    {
+      "code": "4146000000",
+      "year": 2011,
+      "units": 1769,
+      "present_months": 3,
+      "records": 5
+    },
+    {
+      "code": "4146000000",
+      "year": 2012,
+      "units": 4078,
+      "present_months": 11,
+      "records": 19
+    },
+    {
+      "code": "4146000000",
+      "year": 2013,
+      "units": 6872,
+      "present_months": 8,
+      "records": 16
+    },
+    {
+      "code": "4146000000",
+      "year": 2014,
+      "units": 2917,
+      "present_months": 10,
+      "records": 14
+    },
+    {
+      "code": "4146000000",
+      "year": 2015,
+      "units": 2283,
+      "present_months": 11,
+      "records": 23
+    },
+    {
+      "code": "4146000000",
+      "year": 2016,
+      "units": 4159,
+      "present_months": 12,
+      "records": 48
+    },
+    {
+      "code": "4146000000",
+      "year": 2017,
+      "units": 8393,
+      "present_months": 11,
+      "records": 43
+    },
+    {
+      "code": "4146000000",
+      "year": 2018,
+      "units": 16957,
+      "present_months": 11,
+      "records": 36
+    },
+    {
+      "code": "4146000000",
+      "year": 2019,
+      "units": 14161,
+      "present_months": 11,
+      "records": 30
+    },
+    {
+      "code": "4146000000",
+      "year": 2020,
+      "units": 1685,
+      "present_months": 7,
+      "records": 8
+    },
+    {
+      "code": "4146000000",
+      "year": 2021,
+      "units": 3630,
+      "present_months": 9,
+      "records": 15
+    },
+    {
+      "code": "4146000000",
+      "year": 2022,
+      "units": 1625,
+      "present_months": 8,
+      "records": 13
+    },
+    {
+      "code": "4146000000",
+      "year": 2023,
+      "units": 5986,
+      "present_months": 8,
+      "records": 12
+    },
+    {
+      "code": "4146000000",
+      "year": 2024,
+      "units": 11746,
+      "present_months": 8,
+      "records": 13
+    },
+    {
+      "code": "4146000000",
+      "year": 2025,
+      "units": 3781,
+      "present_months": 6,
+      "records": 8
+    },
+    {
+      "code": "4148000000",
+      "year": 2010,
+      "units": 9244,
+      "present_months": 7,
+      "records": 13
+    },
+    {
+      "code": "4148000000",
+      "year": 2011,
+      "units": 4105,
+      "present_months": 4,
+      "records": 5
+    },
+    {
+      "code": "4148000000",
+      "year": 2012,
+      "units": 4168,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4148000000",
+      "year": 2013,
+      "units": 988,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4148000000",
+      "year": 2014,
+      "units": 3566,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4148000000",
+      "year": 2015,
+      "units": 1204,
+      "present_months": 5,
+      "records": 5
+    },
+    {
+      "code": "4148000000",
+      "year": 2016,
+      "units": 282,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4148000000",
+      "year": 2017,
+      "units": 2454,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4148000000",
+      "year": 2018,
+      "units": 6660,
+      "present_months": 5,
+      "records": 6
+    },
+    {
+      "code": "4148000000",
+      "year": 2019,
+      "units": 8,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4148000000",
+      "year": 2020,
+      "units": 4698,
+      "present_months": 4,
+      "records": 7
+    },
+    {
+      "code": "4148000000",
+      "year": 2021,
+      "units": 3096,
+      "present_months": 5,
+      "records": 7
+    },
+    {
+      "code": "4148000000",
+      "year": 2022,
+      "units": 5196,
+      "present_months": 5,
+      "records": 7
+    },
+    {
+      "code": "4148000000",
+      "year": 2023,
+      "units": 2741,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4148000000",
+      "year": 2024,
+      "units": 9756,
+      "present_months": 7,
+      "records": 13
+    },
+    {
+      "code": "4148000000",
+      "year": 2025,
+      "units": 4645,
+      "present_months": 5,
+      "records": 7
+    },
+    {
+      "code": "4150000000",
+      "year": 2010,
+      "units": 2186,
+      "present_months": 4,
+      "records": 7
+    },
+    {
+      "code": "4150000000",
+      "year": 2011,
+      "units": 347,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4150000000",
+      "year": 2012,
+      "units": 116,
+      "present_months": 2,
+      "records": 3
+    },
+    {
+      "code": "4150000000",
+      "year": 2013,
+      "units": 328,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4150000000",
+      "year": 2014,
+      "units": 287,
+      "present_months": 3,
+      "records": 4
+    },
+    {
+      "code": "4150000000",
+      "year": 2015,
+      "units": 481,
+      "present_months": 2,
+      "records": 4
+    },
+    {
+      "code": "4150000000",
+      "year": 2016,
+      "units": 1150,
+      "present_months": 3,
+      "records": 4
+    },
+    {
+      "code": "4150000000",
+      "year": 2017,
+      "units": 1284,
+      "present_months": 8,
+      "records": 10
+    },
+    {
+      "code": "4150000000",
+      "year": 2018,
+      "units": 1284,
+      "present_months": 6,
+      "records": 8
+    },
+    {
+      "code": "4150000000",
+      "year": 2019,
+      "units": 1413,
+      "present_months": 5,
+      "records": 6
+    },
+    {
+      "code": "4150000000",
+      "year": 2020,
+      "units": 603,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4150000000",
+      "year": 2021,
+      "units": 1595,
+      "present_months": 4,
+      "records": 6
+    },
+    {
+      "code": "4150000000",
+      "year": 2022,
+      "units": 24,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4150000000",
+      "year": 2023,
+      "units": 299,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4150000000",
+      "year": 2024,
+      "units": 3767,
+      "present_months": 6,
+      "records": 7
+    },
+    {
+      "code": "4150000000",
+      "year": 2025,
+      "units": 180,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4155000000",
+      "year": 2010,
+      "units": 2967,
+      "present_months": 2,
+      "records": 3
+    },
+    {
+      "code": "4155000000",
+      "year": 2011,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4155000000",
+      "year": 2012,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4155000000",
+      "year": 2013,
+      "units": 51,
+      "present_months": 1,
+      "records": 2
+    },
+    {
+      "code": "4155000000",
+      "year": 2014,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4155000000",
+      "year": 2015,
+      "units": 191,
+      "present_months": 2,
+      "records": 4
+    },
+    {
+      "code": "4155000000",
+      "year": 2016,
+      "units": 2623,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4155000000",
+      "year": 2017,
+      "units": 1035,
+      "present_months": 4,
+      "records": 5
+    },
+    {
+      "code": "4155000000",
+      "year": 2018,
+      "units": 5804,
+      "present_months": 5,
+      "records": 6
+    },
+    {
+      "code": "4155000000",
+      "year": 2019,
+      "units": 1824,
+      "present_months": 3,
+      "records": 4
+    },
+    {
+      "code": "4155000000",
+      "year": 2020,
+      "units": 715,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4155000000",
+      "year": 2021,
+      "units": 644,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4155000000",
+      "year": 2022,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4155000000",
+      "year": 2023,
+      "units": 3208,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4155000000",
+      "year": 2024,
+      "units": 5008,
+      "present_months": 6,
+      "records": 6
+    },
+    {
+      "code": "4155000000",
+      "year": 2025,
+      "units": 2408,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4157000000",
+      "year": 2010,
+      "units": 4482,
+      "present_months": 4,
+      "records": 9
+    },
+    {
+      "code": "4157000000",
+      "year": 2011,
+      "units": 4911,
+      "present_months": 2,
+      "records": 5
+    },
+    {
+      "code": "4157000000",
+      "year": 2012,
+      "units": 10075,
+      "present_months": 6,
+      "records": 12
+    },
+    {
+      "code": "4157000000",
+      "year": 2013,
+      "units": 7214,
+      "present_months": 6,
+      "records": 8
+    },
+    {
+      "code": "4157000000",
+      "year": 2014,
+      "units": 6727,
+      "present_months": 8,
+      "records": 11
+    },
+    {
+      "code": "4157000000",
+      "year": 2015,
+      "units": 967,
+      "present_months": 3,
+      "records": 4
+    },
+    {
+      "code": "4157000000",
+      "year": 2016,
+      "units": 3269,
+      "present_months": 5,
+      "records": 10
+    },
+    {
+      "code": "4157000000",
+      "year": 2017,
+      "units": 11843,
+      "present_months": 8,
+      "records": 18
+    },
+    {
+      "code": "4157000000",
+      "year": 2018,
+      "units": 13221,
+      "present_months": 9,
+      "records": 28
+    },
+    {
+      "code": "4157000000",
+      "year": 2019,
+      "units": 794,
+      "present_months": 4,
+      "records": 5
+    },
+    {
+      "code": "4157000000",
+      "year": 2020,
+      "units": 16325,
+      "present_months": 8,
+      "records": 18
+    },
+    {
+      "code": "4157000000",
+      "year": 2021,
+      "units": 1328,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4157000000",
+      "year": 2022,
+      "units": 838,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4157000000",
+      "year": 2023,
+      "units": 1434,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4157000000",
+      "year": 2024,
+      "units": 1696,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4157000000",
+      "year": 2025,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4159000000",
+      "year": 2010,
+      "units": 2625,
+      "present_months": 7,
+      "records": 9
+    },
+    {
+      "code": "4159000000",
+      "year": 2011,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4159000000",
+      "year": 2012,
+      "units": 1330,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4159000000",
+      "year": 2013,
+      "units": 255,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4159000000",
+      "year": 2014,
+      "units": 2897,
+      "present_months": 3,
+      "records": 6
+    },
+    {
+      "code": "4159000000",
+      "year": 2015,
+      "units": 18715,
+      "present_months": 9,
+      "records": 24
+    },
+    {
+      "code": "4159000000",
+      "year": 2016,
+      "units": 10614,
+      "present_months": 12,
+      "records": 27
+    },
+    {
+      "code": "4159000000",
+      "year": 2017,
+      "units": 18589,
+      "present_months": 11,
+      "records": 27
+    },
+    {
+      "code": "4159000000",
+      "year": 2018,
+      "units": 32708,
+      "present_months": 12,
+      "records": 50
+    },
+    {
+      "code": "4159000000",
+      "year": 2019,
+      "units": 19218,
+      "present_months": 12,
+      "records": 43
+    },
+    {
+      "code": "4159000000",
+      "year": 2020,
+      "units": 2787,
+      "present_months": 6,
+      "records": 10
+    },
+    {
+      "code": "4159000000",
+      "year": 2021,
+      "units": 7809,
+      "present_months": 7,
+      "records": 14
+    },
+    {
+      "code": "4159000000",
+      "year": 2022,
+      "units": 10765,
+      "present_months": 7,
+      "records": 16
+    },
+    {
+      "code": "4159000000",
+      "year": 2023,
+      "units": 10578,
+      "present_months": 10,
+      "records": 17
+    },
+    {
+      "code": "4159000000",
+      "year": 2024,
+      "units": 11485,
+      "present_months": 8,
+      "records": 16
+    },
+    {
+      "code": "4159000000",
+      "year": 2025,
+      "units": 6841,
+      "present_months": 6,
+      "records": 11
+    },
+    {
+      "code": "4161000000",
+      "year": 2010,
+      "units": 1920,
+      "present_months": 5,
+      "records": 6
+    },
+    {
+      "code": "4161000000",
+      "year": 2011,
+      "units": 1601,
+      "present_months": 2,
+      "records": 4
+    },
+    {
+      "code": "4161000000",
+      "year": 2012,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4161000000",
+      "year": 2013,
+      "units": 220,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4161000000",
+      "year": 2014,
+      "units": 17,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4161000000",
+      "year": 2015,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4161000000",
+      "year": 2016,
+      "units": 2735,
+      "present_months": 3,
+      "records": 9
+    },
+    {
+      "code": "4161000000",
+      "year": 2017,
+      "units": 5170,
+      "present_months": 4,
+      "records": 14
+    },
+    {
+      "code": "4161000000",
+      "year": 2018,
+      "units": 5610,
+      "present_months": 6,
+      "records": 14
+    },
+    {
+      "code": "4161000000",
+      "year": 2019,
+      "units": 2495,
+      "present_months": 5,
+      "records": 8
+    },
+    {
+      "code": "4161000000",
+      "year": 2020,
+      "units": 587,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4161000000",
+      "year": 2021,
+      "units": 1570,
+      "present_months": 4,
+      "records": 6
+    },
+    {
+      "code": "4161000000",
+      "year": 2022,
+      "units": 2925,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4161000000",
+      "year": 2023,
+      "units": 3232,
+      "present_months": 4,
+      "records": 5
+    },
+    {
+      "code": "4161000000",
+      "year": 2024,
+      "units": 5207,
+      "present_months": 4,
+      "records": 9
+    },
+    {
+      "code": "4161000000",
+      "year": 2025,
+      "units": 84,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4163000000",
+      "year": 2010,
+      "units": 1078,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4163000000",
+      "year": 2011,
+      "units": 272,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4163000000",
+      "year": 2012,
+      "units": 249,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4163000000",
+      "year": 2013,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4163000000",
+      "year": 2014,
+      "units": 2069,
+      "present_months": 3,
+      "records": 5
+    },
+    {
+      "code": "4163000000",
+      "year": 2015,
+      "units": 61,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4163000000",
+      "year": 2016,
+      "units": 1938,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4163000000",
+      "year": 2017,
+      "units": 1309,
+      "present_months": 4,
+      "records": 4
+    },
+    {
+      "code": "4163000000",
+      "year": 2018,
+      "units": 3354,
+      "present_months": 5,
+      "records": 9
+    },
+    {
+      "code": "4163000000",
+      "year": 2019,
+      "units": 1744,
+      "present_months": 6,
+      "records": 8
+    },
+    {
+      "code": "4163000000",
+      "year": 2020,
+      "units": 2991,
+      "present_months": 6,
+      "records": 6
+    },
+    {
+      "code": "4163000000",
+      "year": 2021,
+      "units": 2222,
+      "present_months": 4,
+      "records": 5
+    },
+    {
+      "code": "4163000000",
+      "year": 2022,
+      "units": 7661,
+      "present_months": 6,
+      "records": 10
+    },
+    {
+      "code": "4163000000",
+      "year": 2023,
+      "units": 11523,
+      "present_months": 8,
+      "records": 14
+    },
+    {
+      "code": "4163000000",
+      "year": 2024,
+      "units": 7146,
+      "present_months": 6,
+      "records": 16
+    },
+    {
+      "code": "4163000000",
+      "year": 2025,
+      "units": 1672,
+      "present_months": 2,
+      "records": 3
+    },
+    {
+      "code": "4165000000",
+      "year": 2010,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4165000000",
+      "year": 2011,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4165000000",
+      "year": 2012,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4165000000",
+      "year": 2013,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4165000000",
+      "year": 2014,
+      "units": 24,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4165000000",
+      "year": 2015,
+      "units": 36,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4165000000",
+      "year": 2016,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4165000000",
+      "year": 2017,
+      "units": 971,
+      "present_months": 2,
+      "records": 3
+    },
+    {
+      "code": "4165000000",
+      "year": 2018,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4165000000",
+      "year": 2019,
+      "units": 25,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4165000000",
+      "year": 2020,
+      "units": 283,
+      "present_months": 2,
+      "records": 3
+    },
+    {
+      "code": "4165000000",
+      "year": 2021,
+      "units": 829,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4165000000",
+      "year": 2022,
+      "units": 517,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4165000000",
+      "year": 2023,
+      "units": 1016,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4165000000",
+      "year": 2024,
+      "units": 1077,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4165000000",
+      "year": 2025,
+      "units": 406,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4167000000",
+      "year": 2010,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4167000000",
+      "year": 2011,
+      "units": 32,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4167000000",
+      "year": 2012,
+      "units": 71,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4167000000",
+      "year": 2013,
+      "units": 48,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4167000000",
+      "year": 2014,
+      "units": 1054,
+      "present_months": 3,
+      "records": 3
+    },
+    {
+      "code": "4167000000",
+      "year": 2015,
+      "units": 92,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4167000000",
+      "year": 2016,
+      "units": 125,
+      "present_months": 2,
+      "records": 3
+    },
+    {
+      "code": "4167000000",
+      "year": 2017,
+      "units": 435,
+      "present_months": 8,
+      "records": 12
+    },
+    {
+      "code": "4167000000",
+      "year": 2018,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    },
+    {
+      "code": "4167000000",
+      "year": 2019,
+      "units": 388,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4167000000",
+      "year": 2020,
+      "units": 526,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4167000000",
+      "year": 2021,
+      "units": 551,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4167000000",
+      "year": 2022,
+      "units": 605,
+      "present_months": 1,
+      "records": 1
+    },
+    {
+      "code": "4167000000",
+      "year": 2023,
+      "units": 1242,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4167000000",
+      "year": 2024,
+      "units": 578,
+      "present_months": 2,
+      "records": 2
+    },
+    {
+      "code": "4167000000",
+      "year": 2025,
+      "units": 0,
+      "present_months": 0,
+      "records": 0
+    }
+  ],
+  "selections": {
+    "all": [
+      {
+        "code": "4159000000",
+        "units": 157216
+      },
+      {
+        "code": "4111000000",
+        "units": 119609
+      },
+      {
+        "code": "4122000000",
+        "units": 111259
+      },
+      {
+        "code": "4146000000",
+        "units": 104053
+      },
+      {
+        "code": "4157000000",
+        "units": 85124
+      }
+    ],
+    "recent": [
+      {
+        "code": "4159000000",
+        "units": 47478
+      },
+      {
+        "code": "4122000000",
+        "units": 36986
+      },
+      {
+        "code": "4111000000",
+        "units": 36407
+      },
+      {
+        "code": "4163000000",
+        "units": 30224
+      },
+      {
+        "code": "4117000000",
+        "units": 29204
+      }
+    ],
+    "known_overlap_removed": [
+      {
+        "code": "4159000000",
+        "units": 157216
+      },
+      {
+        "code": "4111000000",
+        "units": 119609
+      },
+      {
+        "code": "4122000000",
+        "units": 111259
+      },
+      {
+        "code": "4146000000",
+        "units": 104053
+      },
+      {
+        "code": "4157000000",
+        "units": 85124
+      }
+    ],
+    "recent_overlap_removed": [
+      {
+        "code": "4159000000",
+        "units": 47478
+      },
+      {
+        "code": "4122000000",
+        "units": 36986
+      },
+      {
+        "code": "4111000000",
+        "units": 36407
+      },
+      {
+        "code": "4163000000",
+        "units": 30224
+      },
+      {
+        "code": "4117000000",
+        "units": 29204
+      }
+    ]
+  },
+  "annual": [
+    {
+      "code": "4111000000",
+      "year": 2010,
+      "inflow": [
+        40393,
+        42953,
+        43916,
+        27876,
+        15412,
+        7517,
+        6335
+      ],
+      "outflow": [
+        44046,
+        42022,
+        47758,
+        31153,
+        17514,
+        8116,
+        6493
+      ],
+      "net": [
+        -3653,
+        931,
+        -3842,
+        -3277,
+        -2102,
+        -599,
+        -158
+      ],
+      "total_inflow": 184402,
+      "total_net": -12700
+    },
+    {
+      "code": "4111000000",
+      "year": 2011,
+      "inflow": [
+        44688,
+        42529,
+        47973,
+        30977,
+        19571,
+        8842,
+        7455
+      ],
+      "outflow": [
+        43978,
+        40364,
+        47210,
+        31266,
+        19854,
+        8547,
+        6851
+      ],
+      "net": [
+        710,
+        2165,
+        763,
+        -289,
+        -283,
+        295,
+        604
+      ],
+      "total_inflow": 202035,
+      "total_net": 3965
+    },
+    {
+      "code": "4111000000",
+      "year": 2012,
+      "inflow": [
+        45431,
+        40620,
+        48013,
+        31691,
+        19260,
+        7995,
+        7103
+      ],
+      "outflow": [
+        38823,
+        35211,
+        42228,
+        28775,
+        17726,
+        7128,
+        5974
+      ],
+      "net": [
+        6608,
+        5409,
+        5785,
+        2916,
+        1534,
+        867,
+        1129
+      ],
+      "total_inflow": 200113,
+      "total_net": 24248
+    },
+    {
+      "code": "4111000000",
+      "year": 2013,
+      "inflow": [
+        43545,
+        38783,
+        47260,
+        31689,
+        19389,
+        7764,
+        7070
+      ],
+      "outflow": [
+        38444,
+        33346,
+        42294,
+        29147,
+        18394,
+        7267,
+        6322
+      ],
+      "net": [
+        5101,
+        5437,
+        4966,
+        2542,
+        995,
+        497,
+        748
+      ],
+      "total_inflow": 195500,
+      "total_net": 20286
+    },
+    {
+      "code": "4111000000",
+      "year": 2014,
+      "inflow": [
+        40833,
+        40134,
+        48537,
+        30149,
+        20709,
+        8812,
+        7279
+      ],
+      "outflow": [
+        36798,
+        34901,
+        43333,
+        28785,
+        19858,
+        7989,
+        6531
+      ],
+      "net": [
+        4035,
+        5233,
+        5204,
+        1364,
+        851,
+        823,
+        748
+      ],
+      "total_inflow": 196453,
+      "total_net": 18258
+    },
+    {
+      "code": "4111000000",
+      "year": 2015,
+      "inflow": [
+        36015,
+        40986,
+        45435,
+        28768,
+        21200,
+        9518,
+        7715
+      ],
+      "outflow": [
+        37144,
+        37901,
+        45045,
+        29479,
+        22205,
+        9197,
+        6804
+      ],
+      "net": [
+        -1129,
+        3085,
+        390,
+        -711,
+        -1005,
+        321,
+        911
+      ],
+      "total_inflow": 189637,
+      "total_net": 1862
+    },
+    {
+      "code": "4111000000",
+      "year": 2016,
+      "inflow": [
+        30394,
+        39115,
+        41203,
+        25313,
+        19412,
+        9326,
+        7447
+      ],
+      "outflow": [
+        31349,
+        35870,
+        40854,
+        25947,
+        20220,
+        9121,
+        6614
+      ],
+      "net": [
+        -955,
+        3245,
+        349,
+        -634,
+        -808,
+        205,
+        833
+      ],
+      "total_inflow": 172210,
+      "total_net": 2235
+    },
+    {
+      "code": "4111000000",
+      "year": 2017,
+      "inflow": [
+        31684,
+        40787,
+        41806,
+        25799,
+        19603,
+        9819,
+        7561
+      ],
+      "outflow": [
+        31583,
+        37521,
+        41161,
+        26476,
+        20615,
+        9706,
+        6685
+      ],
+      "net": [
+        101,
+        3266,
+        645,
+        -677,
+        -1012,
+        113,
+        876
+      ],
+      "total_inflow": 177059,
+      "total_net": 3312
+    },
+    {
+      "code": "4111000000",
+      "year": 2018,
+      "inflow": [
+        31477,
+        44250,
+        42030,
+        26798,
+        22031,
+        12114,
+        9106
+      ],
+      "outflow": [
+        33302,
+        41602,
+        45139,
+        28355,
+        24183,
+        12405,
+        8578
+      ],
+      "net": [
+        -1825,
+        2648,
+        -3109,
+        -1557,
+        -2152,
+        -291,
+        528
+      ],
+      "total_inflow": 187806,
+      "total_net": -5758
+    },
+    {
+      "code": "4111000000",
+      "year": 2019,
+      "inflow": [
+        28550,
+        42953,
+        39073,
+        25018,
+        19336,
+        10658,
+        7748
+      ],
+      "outflow": [
+        30957,
+        41953,
+        42895,
+        27177,
+        22060,
+        11612,
+        7750
+      ],
+      "net": [
+        -2407,
+        1000,
+        -3822,
+        -2159,
+        -2724,
+        -954,
+        -2
+      ],
+      "total_inflow": 173336,
+      "total_net": -11068
+    },
+    {
+      "code": "4111000000",
+      "year": 2020,
+      "inflow": [
+        23864,
+        44815,
+        37906,
+        23264,
+        19222,
+        11241,
+        7892
+      ],
+      "outflow": [
+        27303,
+        43414,
+        41463,
+        25554,
+        21540,
+        12387,
+        7857
+      ],
+      "net": [
+        -3439,
+        1401,
+        -3557,
+        -2290,
+        -2318,
+        -1146,
+        35
+      ],
+      "total_inflow": 168204,
+      "total_net": -11314
+    },
+    {
+      "code": "4111000000",
+      "year": 2021,
+      "inflow": [
+        26367,
+        48179,
+        41472,
+        25066,
+        20514,
+        12942,
+        8718
+      ],
+      "outflow": [
+        27823,
+        44553,
+        41583,
+        26744,
+        22468,
+        13700,
+        8484
+      ],
+      "net": [
+        -1456,
+        3626,
+        -111,
+        -1678,
+        -1954,
+        -758,
+        234
+      ],
+      "total_inflow": 183258,
+      "total_net": -2097
+    },
+    {
+      "code": "4111000000",
+      "year": 2022,
+      "inflow": [
+        23840,
+        44046,
+        39147,
+        22179,
+        18597,
+        11640,
+        7269
+      ],
+      "outflow": [
+        22670,
+        39698,
+        36259,
+        22073,
+        19057,
+        12232,
+        7023
+      ],
+      "net": [
+        1170,
+        4348,
+        2888,
+        106,
+        -460,
+        -592,
+        246
+      ],
+      "total_inflow": 166718,
+      "total_net": 7706
+    },
+    {
+      "code": "4111000000",
+      "year": 2023,
+      "inflow": [
+        24043,
+        42671,
+        41239,
+        22799,
+        18197,
+        11669,
+        7406
+      ],
+      "outflow": [
+        23535,
+        38367,
+        39987,
+        23058,
+        18599,
+        11842,
+        6840
+      ],
+      "net": [
+        508,
+        4304,
+        1252,
+        -259,
+        -402,
+        -173,
+        566
+      ],
+      "total_inflow": 168024,
+      "total_net": 5796
+    },
+    {
+      "code": "4111000000",
+      "year": 2024,
+      "inflow": [
+        19125,
+        41359,
+        37480,
+        19157,
+        16626,
+        11039,
+        7040
+      ],
+      "outflow": [
+        21148,
+        37677,
+        39845,
+        21326,
+        18208,
+        11974,
+        6837
+      ],
+      "net": [
+        -2023,
+        3682,
+        -2365,
+        -2169,
+        -1582,
+        -935,
+        203
+      ],
+      "total_inflow": 151826,
+      "total_net": -5189
+    },
+    {
+      "code": "4111000000",
+      "year": 2025,
+      "inflow": [
+        17872,
+        39190,
+        36607,
+        18179,
+        15515,
+        10716,
+        7072
+      ],
+      "outflow": [
+        19476,
+        37289,
+        39393,
+        20214,
+        17554,
+        12284,
+        6931
+      ],
+      "net": [
+        -1604,
+        1901,
+        -2786,
+        -2035,
+        -2039,
+        -1568,
+        141
+      ],
+      "total_inflow": 145151,
+      "total_net": -7990
+    },
+    {
+      "code": "4117000000",
+      "year": 2010,
+      "inflow": [
+        22711,
+        18502,
+        23950,
+        16433,
+        9626,
+        4351,
+        3758
+      ],
+      "outflow": [
+        24137,
+        18456,
+        24220,
+        17789,
+        10447,
+        4881,
+        3818
+      ],
+      "net": [
+        -1426,
+        46,
+        -270,
+        -1356,
+        -821,
+        -530,
+        -60
+      ],
+      "total_inflow": 99331,
+      "total_net": -4417
+    },
+    {
+      "code": "4117000000",
+      "year": 2011,
+      "inflow": [
+        20963,
+        16085,
+        21486,
+        15409,
+        9678,
+        4151,
+        3762
+      ],
+      "outflow": [
+        22867,
+        17257,
+        23736,
+        16795,
+        11429,
+        4857,
+        4217
+      ],
+      "net": [
+        -1904,
+        -1172,
+        -2250,
+        -1386,
+        -1751,
+        -706,
+        -455
+      ],
+      "total_inflow": 91534,
+      "total_net": -9624
+    },
+    {
+      "code": "4117000000",
+      "year": 2012,
+      "inflow": [
+        21384,
+        16975,
+        22494,
+        15784,
+        11319,
+        4843,
+        4165
+      ],
+      "outflow": [
+        23070,
+        17372,
+        23581,
+        17487,
+        12898,
+        5411,
+        4663
+      ],
+      "net": [
+        -1686,
+        -397,
+        -1087,
+        -1703,
+        -1579,
+        -568,
+        -498
+      ],
+      "total_inflow": 96964,
+      "total_net": -7518
+    },
+    {
+      "code": "4117000000",
+      "year": 2013,
+      "inflow": [
+        17585,
+        14539,
+        20146,
+        13419,
+        9794,
+        4174,
+        3678
+      ],
+      "outflow": [
+        19330,
+        15154,
+        20854,
+        14996,
+        11218,
+        4584,
+        4063
+      ],
+      "net": [
+        -1745,
+        -615,
+        -708,
+        -1577,
+        -1424,
+        -410,
+        -385
+      ],
+      "total_inflow": 83335,
+      "total_net": -6864
+    },
+    {
+      "code": "4117000000",
+      "year": 2014,
+      "inflow": [
+        16637,
+        14525,
+        19006,
+        13526,
+        10204,
+        4194,
+        3635
+      ],
+      "outflow": [
+        19059,
+        15409,
+        21468,
+        15147,
+        11725,
+        5008,
+        4111
+      ],
+      "net": [
+        -2422,
+        -884,
+        -2462,
+        -1621,
+        -1521,
+        -814,
+        -476
+      ],
+      "total_inflow": 81727,
+      "total_net": -10200
+    },
+    {
+      "code": "4117000000",
+      "year": 2015,
+      "inflow": [
+        16425,
+        15590,
+        19409,
+        13796,
+        11246,
+        4965,
+        3836
+      ],
+      "outflow": [
+        17649,
+        16237,
+        20656,
+        14743,
+        12667,
+        5585,
+        4093
+      ],
+      "net": [
+        -1224,
+        -647,
+        -1247,
+        -947,
+        -1421,
+        -620,
+        -257
+      ],
+      "total_inflow": 85267,
+      "total_net": -6363
+    },
+    {
+      "code": "4117000000",
+      "year": 2016,
+      "inflow": [
+        18473,
+        17180,
+        20687,
+        15551,
+        13254,
+        6337,
+        4630
+      ],
+      "outflow": [
+        18888,
+        17344,
+        21053,
+        16030,
+        14073,
+        7031,
+        4948
+      ],
+      "net": [
+        -415,
+        -164,
+        -366,
+        -479,
+        -819,
+        -694,
+        -318
+      ],
+      "total_inflow": 96112,
+      "total_net": -3255
+    },
+    {
+      "code": "4117000000",
+      "year": 2017,
+      "inflow": [
+        15492,
+        15615,
+        17722,
+        13711,
+        11665,
+        6057,
+        4517
+      ],
+      "outflow": [
+        17296,
+        17220,
+        20241,
+        15144,
+        13789,
+        7355,
+        5260
+      ],
+      "net": [
+        -1804,
+        -1605,
+        -2519,
+        -1433,
+        -2124,
+        -1298,
+        -743
+      ],
+      "total_inflow": 84779,
+      "total_net": -11526
+    },
+    {
+      "code": "4117000000",
+      "year": 2018,
+      "inflow": [
+        12340,
+        14283,
+        16505,
+        11336,
+        9651,
+        5353,
+        3999
+      ],
+      "outflow": [
+        14983,
+        16256,
+        19107,
+        13141,
+        11917,
+        6599,
+        4363
+      ],
+      "net": [
+        -2643,
+        -1973,
+        -2602,
+        -1805,
+        -2266,
+        -1246,
+        -364
+      ],
+      "total_inflow": 73467,
+      "total_net": -12899
+    },
+    {
+      "code": "4117000000",
+      "year": 2019,
+      "inflow": [
+        12431,
+        14255,
+        16187,
+        11194,
+        9153,
+        5345,
+        3803
+      ],
+      "outflow": [
+        14559,
+        15952,
+        18473,
+        12692,
+        11489,
+        6405,
+        4145
+      ],
+      "net": [
+        -2128,
+        -1697,
+        -2286,
+        -1498,
+        -2336,
+        -1060,
+        -342
+      ],
+      "total_inflow": 72368,
+      "total_net": -11347
+    },
+    {
+      "code": "4117000000",
+      "year": 2020,
+      "inflow": [
+        12659,
+        15860,
+        16973,
+        11932,
+        10931,
+        7009,
+        4618
+      ],
+      "outflow": [
+        15500,
+        19110,
+        20347,
+        14190,
+        14288,
+        8963,
+        5547
+      ],
+      "net": [
+        -2841,
+        -3250,
+        -3374,
+        -2258,
+        -3357,
+        -1954,
+        -929
+      ],
+      "total_inflow": 79982,
+      "total_net": -17963
+    },
+    {
+      "code": "4117000000",
+      "year": 2021,
+      "inflow": [
+        14070,
+        16615,
+        20515,
+        12638,
+        10925,
+        7656,
+        4730
+      ],
+      "outflow": [
+        14146,
+        17387,
+        18991,
+        12737,
+        12413,
+        8820,
+        5070
+      ],
+      "net": [
+        -76,
+        -772,
+        1524,
+        -99,
+        -1488,
+        -1164,
+        -340
+      ],
+      "total_inflow": 87149,
+      "total_net": -2415
+    },
+    {
+      "code": "4117000000",
+      "year": 2022,
+      "inflow": [
+        10273,
+        13240,
+        16622,
+        9637,
+        8252,
+        6035,
+        3696
+      ],
+      "outflow": [
+        9901,
+        13689,
+        14520,
+        9341,
+        8705,
+        6334,
+        3590
+      ],
+      "net": [
+        372,
+        -449,
+        2102,
+        296,
+        -453,
+        -299,
+        106
+      ],
+      "total_inflow": 67755,
+      "total_net": 1675
+    },
+    {
+      "code": "4117000000",
+      "year": 2023,
+      "inflow": [
+        8857,
+        11458,
+        14560,
+        8285,
+        6865,
+        4855,
+        3071
+      ],
+      "outflow": [
+        9555,
+        12150,
+        15107,
+        8715,
+        7714,
+        5540,
+        3157
+      ],
+      "net": [
+        -698,
+        -692,
+        -547,
+        -430,
+        -849,
+        -685,
+        -86
+      ],
+      "total_inflow": 57951,
+      "total_net": -3987
+    },
+    {
+      "code": "4117000000",
+      "year": 2024,
+      "inflow": [
+        13724,
+        14441,
+        21217,
+        12531,
+        10184,
+        7424,
+        4214
+      ],
+      "outflow": [
+        11779,
+        12858,
+        17121,
+        10728,
+        9569,
+        6860,
+        3763
+      ],
+      "net": [
+        1945,
+        1583,
+        4096,
+        1803,
+        615,
+        564,
+        451
+      ],
+      "total_inflow": 83735,
+      "total_net": 11057
+    },
+    {
+      "code": "4117000000",
+      "year": 2025,
+      "inflow": [
+        11624,
+        13431,
+        20539,
+        10745,
+        8828,
+        6621,
+        4340
+      ],
+      "outflow": [
+        10449,
+        12468,
+        17523,
+        9948,
+        8870,
+        6791,
+        4247
+      ],
+      "net": [
+        1175,
+        963,
+        3016,
+        797,
+        -42,
+        -170,
+        93
+      ],
+      "total_inflow": 76128,
+      "total_net": 5832
+    },
+    {
+      "code": "4122000000",
+      "year": 2010,
+      "inflow": [
+        16589,
+        13444,
+        15743,
+        10788,
+        5963,
+        2965,
+        2423
+      ],
+      "outflow": [
+        17286,
+        12584,
+        15729,
+        10771,
+        5764,
+        2779,
+        2371
+      ],
+      "net": [
+        -697,
+        860,
+        14,
+        17,
+        199,
+        186,
+        52
+      ],
+      "total_inflow": 67915,
+      "total_net": 631
+    },
+    {
+      "code": "4122000000",
+      "year": 2011,
+      "inflow": [
+        18286,
+        13715,
+        17475,
+        11605,
+        6721,
+        2985,
+        2632
+      ],
+      "outflow": [
+        17492,
+        12361,
+        15886,
+        10914,
+        6347,
+        2811,
+        2487
+      ],
+      "net": [
+        794,
+        1354,
+        1589,
+        691,
+        374,
+        174,
+        145
+      ],
+      "total_inflow": 73419,
+      "total_net": 5121
+    },
+    {
+      "code": "4122000000",
+      "year": 2012,
+      "inflow": [
+        17032,
+        13504,
+        17525,
+        11521,
+        6918,
+        3193,
+        2740
+      ],
+      "outflow": [
+        16238,
+        12283,
+        15566,
+        11051,
+        6699,
+        3069,
+        2733
+      ],
+      "net": [
+        794,
+        1221,
+        1959,
+        470,
+        219,
+        124,
+        7
+      ],
+      "total_inflow": 72433,
+      "total_net": 4794
+    },
+    {
+      "code": "4122000000",
+      "year": 2013,
+      "inflow": [
+        17074,
+        13173,
+        17496,
+        11583,
+        7116,
+        2947,
+        2639
+      ],
+      "outflow": [
+        16097,
+        11930,
+        15471,
+        10927,
+        6680,
+        2903,
+        2697
+      ],
+      "net": [
+        977,
+        1243,
+        2025,
+        656,
+        436,
+        44,
+        -58
+      ],
+      "total_inflow": 72028,
+      "total_net": 5323
+    },
+    {
+      "code": "4122000000",
+      "year": 2014,
+      "inflow": [
+        14976,
+        12926,
+        15945,
+        11283,
+        7364,
+        3185,
+        2829
+      ],
+      "outflow": [
+        14363,
+        11660,
+        14186,
+        10452,
+        6946,
+        3041,
+        2753
+      ],
+      "net": [
+        613,
+        1266,
+        1759,
+        831,
+        418,
+        144,
+        76
+      ],
+      "total_inflow": 68508,
+      "total_net": 5107
+    },
+    {
+      "code": "4122000000",
+      "year": 2015,
+      "inflow": [
+        16004,
+        14872,
+        17656,
+        12868,
+        8918,
+        3917,
+        3021
+      ],
+      "outflow": [
+        14991,
+        12873,
+        15337,
+        11437,
+        7898,
+        3425,
+        2902
+      ],
+      "net": [
+        1013,
+        1999,
+        2319,
+        1431,
+        1020,
+        492,
+        119
+      ],
+      "total_inflow": 77256,
+      "total_net": 8393
+    },
+    {
+      "code": "4122000000",
+      "year": 2016,
+      "inflow": [
+        14977,
+        14724,
+        16920,
+        12521,
+        9003,
+        3940,
+        3094
+      ],
+      "outflow": [
+        13894,
+        12956,
+        14684,
+        11139,
+        7931,
+        3618,
+        2940
+      ],
+      "net": [
+        1083,
+        1768,
+        2236,
+        1382,
+        1072,
+        322,
+        154
+      ],
+      "total_inflow": 75179,
+      "total_net": 8017
+    },
+    {
+      "code": "4122000000",
+      "year": 2017,
+      "inflow": [
+        14928,
+        15778,
+        17391,
+        13044,
+        8964,
+        3944,
+        2734
+      ],
+      "outflow": [
+        13726,
+        13571,
+        15159,
+        11272,
+        7931,
+        3612,
+        2565
+      ],
+      "net": [
+        1202,
+        2207,
+        2232,
+        1772,
+        1033,
+        332,
+        169
+      ],
+      "total_inflow": 76783,
+      "total_net": 8947
+    },
+    {
+      "code": "4122000000",
+      "year": 2018,
+      "inflow": [
+        17027,
+        18027,
+        19683,
+        14677,
+        10606,
+        4628,
+        3202
+      ],
+      "outflow": [
+        14775,
+        15319,
+        16560,
+        12345,
+        9052,
+        4163,
+        2855
+      ],
+      "net": [
+        2252,
+        2708,
+        3123,
+        2332,
+        1554,
+        465,
+        347
+      ],
+      "total_inflow": 87850,
+      "total_net": 12781
+    },
+    {
+      "code": "4122000000",
+      "year": 2019,
+      "inflow": [
+        17402,
+        20299,
+        20991,
+        15267,
+        11227,
+        5320,
+        3207
+      ],
+      "outflow": [
+        14395,
+        17170,
+        16807,
+        12374,
+        9527,
+        4552,
+        2851
+      ],
+      "net": [
+        3007,
+        3129,
+        4184,
+        2893,
+        1700,
+        768,
+        356
+      ],
+      "total_inflow": 93713,
+      "total_net": 16037
+    },
+    {
+      "code": "4122000000",
+      "year": 2020,
+      "inflow": [
+        17473,
+        23390,
+        23321,
+        16650,
+        12608,
+        6037,
+        3619
+      ],
+      "outflow": [
+        13448,
+        18196,
+        17222,
+        12769,
+        10306,
+        5053,
+        3086
+      ],
+      "net": [
+        4025,
+        5194,
+        6099,
+        3881,
+        2302,
+        984,
+        533
+      ],
+      "total_inflow": 103098,
+      "total_net": 23018
+    },
+    {
+      "code": "4122000000",
+      "year": 2021,
+      "inflow": [
+        17571,
+        27550,
+        26169,
+        17933,
+        14288,
+        7588,
+        4246
+      ],
+      "outflow": [
+        13475,
+        20525,
+        18840,
+        13594,
+        11046,
+        6047,
+        3441
+      ],
+      "net": [
+        4096,
+        7025,
+        7329,
+        4339,
+        3242,
+        1541,
+        805
+      ],
+      "total_inflow": 115345,
+      "total_net": 28377
+    },
+    {
+      "code": "4122000000",
+      "year": 2022,
+      "inflow": [
+        13635,
+        24192,
+        21439,
+        15180,
+        12028,
+        6412,
+        3638
+      ],
+      "outflow": [
+        11859,
+        19767,
+        17643,
+        12631,
+        10440,
+        6039,
+        3442
+      ],
+      "net": [
+        1776,
+        4425,
+        3796,
+        2549,
+        1588,
+        373,
+        196
+      ],
+      "total_inflow": 96524,
+      "total_net": 14703
+    },
+    {
+      "code": "4122000000",
+      "year": 2023,
+      "inflow": [
+        15064,
+        23004,
+        23450,
+        15180,
+        11526,
+        6148,
+        3285
+      ],
+      "outflow": [
+        13447,
+        19483,
+        20001,
+        13416,
+        10374,
+        5907,
+        3183
+      ],
+      "net": [
+        1617,
+        3521,
+        3449,
+        1764,
+        1152,
+        241,
+        102
+      ],
+      "total_inflow": 97657,
+      "total_net": 11846
+    },
+    {
+      "code": "4122000000",
+      "year": 2024,
+      "inflow": [
+        12981,
+        21904,
+        21908,
+        13629,
+        10958,
+        6002,
+        3316
+      ],
+      "outflow": [
+        12341,
+        19207,
+        20119,
+        12939,
+        10535,
+        6011,
+        3147
+      ],
+      "net": [
+        640,
+        2697,
+        1789,
+        690,
+        423,
+        -9,
+        169
+      ],
+      "total_inflow": 90698,
+      "total_net": 6399
+    },
+    {
+      "code": "4122000000",
+      "year": 2025,
+      "inflow": [
+        13423,
+        22216,
+        23333,
+        14512,
+        12024,
+        6968,
+        3663
+      ],
+      "outflow": [
+        12043,
+        19379,
+        20456,
+        13037,
+        11017,
+        6296,
+        3288
+      ],
+      "net": [
+        1380,
+        2837,
+        2877,
+        1475,
+        1007,
+        672,
+        375
+      ],
+      "total_inflow": 96139,
+      "total_net": 10623
+    },
+    {
+      "code": "4146000000",
+      "year": 2010,
+      "inflow": [
+        45362,
+        28317,
+        46502,
+        27235,
+        15373,
+        9365,
+        6589
+      ],
+      "outflow": [
+        39563,
+        23087,
+        37855,
+        25219,
+        12602,
+        7844,
+        5889
+      ],
+      "net": [
+        5799,
+        5230,
+        8647,
+        2016,
+        2771,
+        1521,
+        700
+      ],
+      "total_inflow": 178743,
+      "total_net": 26684
+    },
+    {
+      "code": "4146000000",
+      "year": 2011,
+      "inflow": [
+        41657,
+        25243,
+        41326,
+        24916,
+        15015,
+        8951,
+        6909
+      ],
+      "outflow": [
+        39401,
+        22323,
+        36943,
+        24760,
+        13619,
+        8073,
+        6137
+      ],
+      "net": [
+        2256,
+        2920,
+        4383,
+        156,
+        1396,
+        878,
+        772
+      ],
+      "total_inflow": 164017,
+      "total_net": 12761
+    },
+    {
+      "code": "4146000000",
+      "year": 2012,
+      "inflow": [
+        39345,
+        24146,
+        40367,
+        24493,
+        14430,
+        8238,
+        6541
+      ],
+      "outflow": [
+        37376,
+        21094,
+        34870,
+        24344,
+        13202,
+        7471,
+        6098
+      ],
+      "net": [
+        1969,
+        3052,
+        5497,
+        149,
+        1228,
+        767,
+        443
+      ],
+      "total_inflow": 157560,
+      "total_net": 13105
+    },
+    {
+      "code": "4146000000",
+      "year": 2013,
+      "inflow": [
+        39055,
+        23746,
+        40155,
+        25080,
+        15238,
+        8597,
+        7254
+      ],
+      "outflow": [
+        35091,
+        20084,
+        32922,
+        24130,
+        13647,
+        7401,
+        6455
+      ],
+      "net": [
+        3964,
+        3662,
+        7233,
+        950,
+        1591,
+        1196,
+        799
+      ],
+      "total_inflow": 159125,
+      "total_net": 19395
+    },
+    {
+      "code": "4146000000",
+      "year": 2014,
+      "inflow": [
+        38374,
+        24230,
+        38944,
+        25768,
+        15694,
+        8860,
+        7401
+      ],
+      "outflow": [
+        35676,
+        21287,
+        34312,
+        25105,
+        14399,
+        8146,
+        6895
+      ],
+      "net": [
+        2698,
+        2943,
+        4632,
+        663,
+        1295,
+        714,
+        506
+      ],
+      "total_inflow": 159271,
+      "total_net": 13451
+    },
+    {
+      "code": "4146000000",
+      "year": 2015,
+      "inflow": [
+        36468,
+        24697,
+        37119,
+        25904,
+        16793,
+        10037,
+        8043
+      ],
+      "outflow": [
+        35576,
+        23284,
+        33997,
+        26109,
+        16026,
+        8839,
+        7078
+      ],
+      "net": [
+        892,
+        1413,
+        3122,
+        -205,
+        767,
+        1198,
+        965
+      ],
+      "total_inflow": 159061,
+      "total_net": 8152
+    },
+    {
+      "code": "4146000000",
+      "year": 2016,
+      "inflow": [
+        33343,
+        25718,
+        33984,
+        23154,
+        15216,
+        9409,
+        7434
+      ],
+      "outflow": [
+        31570,
+        22535,
+        30533,
+        23684,
+        14920,
+        8552,
+        6480
+      ],
+      "net": [
+        1773,
+        3183,
+        3451,
+        -530,
+        296,
+        857,
+        954
+      ],
+      "total_inflow": 148258,
+      "total_net": 9984
+    },
+    {
+      "code": "4146000000",
+      "year": 2017,
+      "inflow": [
+        31336,
+        23922,
+        31943,
+        22848,
+        15259,
+        9602,
+        7794
+      ],
+      "outflow": [
+        29944,
+        23176,
+        28474,
+        22504,
+        14190,
+        8303,
+        6560
+      ],
+      "net": [
+        1392,
+        746,
+        3469,
+        344,
+        1069,
+        1299,
+        1234
+      ],
+      "total_inflow": 142704,
+      "total_net": 9553
+    },
+    {
+      "code": "4146000000",
+      "year": 2018,
+      "inflow": [
+        38545,
+        29210,
+        40232,
+        27962,
+        19287,
+        12410,
+        9433
+      ],
+      "outflow": [
+        32523,
+        26433,
+        31176,
+        25044,
+        16468,
+        9559,
+        7592
+      ],
+      "net": [
+        6022,
+        2777,
+        9056,
+        2918,
+        2819,
+        2851,
+        1841
+      ],
+      "total_inflow": 177079,
+      "total_net": 28284
+    },
+    {
+      "code": "4146000000",
+      "year": 2019,
+      "inflow": [
+        33907,
+        30193,
+        36230,
+        25529,
+        17800,
+        11173,
+        9069
+      ],
+      "outflow": [
+        29893,
+        26577,
+        28877,
+        23348,
+        15761,
+        9150,
+        7331
+      ],
+      "net": [
+        4014,
+        3616,
+        7353,
+        2181,
+        2039,
+        2023,
+        1738
+      ],
+      "total_inflow": 163901,
+      "total_net": 22964
+    },
+    {
+      "code": "4146000000",
+      "year": 2020,
+      "inflow": [
+        32561,
+        32970,
+        34449,
+        26179,
+        18651,
+        12519,
+        10416
+      ],
+      "outflow": [
+        30570,
+        30469,
+        30457,
+        25363,
+        17746,
+        11226,
+        9221
+      ],
+      "net": [
+        1991,
+        2501,
+        3992,
+        816,
+        905,
+        1293,
+        1195
+      ],
+      "total_inflow": 167745,
+      "total_net": 12693
+    },
+    {
+      "code": "4146000000",
+      "year": 2021,
+      "inflow": [
+        28574,
+        32577,
+        31753,
+        23461,
+        18175,
+        12264,
+        9324
+      ],
+      "outflow": [
+        28576,
+        32159,
+        29705,
+        23825,
+        18462,
+        11887,
+        8716
+      ],
+      "net": [
+        -2,
+        418,
+        2048,
+        -364,
+        -287,
+        377,
+        608
+      ],
+      "total_inflow": 156128,
+      "total_net": 2798
+    },
+    {
+      "code": "4146000000",
+      "year": 2022,
+      "inflow": [
+        20534,
+        26355,
+        23716,
+        16965,
+        13957,
+        9075,
+        7154
+      ],
+      "outflow": [
+        21061,
+        27450,
+        22747,
+        17704,
+        14531,
+        9257,
+        6733
+      ],
+      "net": [
+        -527,
+        -1095,
+        969,
+        -739,
+        -574,
+        -182,
+        421
+      ],
+      "total_inflow": 117756,
+      "total_net": -1727
+    },
+    {
+      "code": "4146000000",
+      "year": 2023,
+      "inflow": [
+        22179,
+        26517,
+        26283,
+        18545,
+        14821,
+        9857,
+        7599
+      ],
+      "outflow": [
+        22521,
+        27179,
+        25528,
+        18711,
+        14769,
+        9231,
+        6868
+      ],
+      "net": [
+        -342,
+        -662,
+        755,
+        -166,
+        52,
+        626,
+        731
+      ],
+      "total_inflow": 125801,
+      "total_net": 994
+    },
+    {
+      "code": "4146000000",
+      "year": 2024,
+      "inflow": [
+        25387,
+        28847,
+        31736,
+        21286,
+        17690,
+        11512,
+        8435
+      ],
+      "outflow": [
+        23432,
+        28198,
+        27744,
+        19972,
+        17071,
+        10564,
+        7453
+      ],
+      "net": [
+        1955,
+        649,
+        3992,
+        1314,
+        619,
+        948,
+        982
+      ],
+      "total_inflow": 144893,
+      "total_net": 10459
+    },
+    {
+      "code": "4146000000",
+      "year": 2025,
+      "inflow": [
+        22709,
+        27076,
+        29135,
+        19158,
+        16443,
+        10776,
+        8472
+      ],
+      "outflow": [
+        21180,
+        28006,
+        26506,
+        18408,
+        16552,
+        10375,
+        7876
+      ],
+      "net": [
+        1529,
+        -930,
+        2629,
+        750,
+        -109,
+        401,
+        596
+      ],
+      "total_inflow": 133769,
+      "total_net": 4866
+    },
+    {
+      "code": "4157000000",
+      "year": 2010,
+      "inflow": [
+        10803,
+        7537,
+        10713,
+        7648,
+        5117,
+        2777,
+        2026
+      ],
+      "outflow": [
+        8592,
+        6041,
+        8009,
+        6512,
+        3829,
+        2061,
+        1615
+      ],
+      "net": [
+        2211,
+        1496,
+        2704,
+        1136,
+        1288,
+        716,
+        411
+      ],
+      "total_inflow": 46621,
+      "total_net": 9962
+    },
+    {
+      "code": "4157000000",
+      "year": 2011,
+      "inflow": [
+        13027,
+        7934,
+        13084,
+        8867,
+        6062,
+        3193,
+        2351
+      ],
+      "outflow": [
+        8788,
+        5827,
+        8208,
+        6493,
+        4079,
+        2055,
+        1616
+      ],
+      "net": [
+        4239,
+        2107,
+        4876,
+        2374,
+        1983,
+        1138,
+        735
+      ],
+      "total_inflow": 54518,
+      "total_net": 17452
+    },
+    {
+      "code": "4157000000",
+      "year": 2012,
+      "inflow": [
+        17418,
+        9477,
+        18197,
+        11101,
+        7732,
+        3838,
+        2628
+      ],
+      "outflow": [
+        9844,
+        6235,
+        9499,
+        7258,
+        4715,
+        2264,
+        1755
+      ],
+      "net": [
+        7574,
+        3242,
+        8698,
+        3843,
+        3017,
+        1574,
+        873
+      ],
+      "total_inflow": 70391,
+      "total_net": 28821
+    },
+    {
+      "code": "4157000000",
+      "year": 2013,
+      "inflow": [
+        16220,
+        8964,
+        17516,
+        10307,
+        7560,
+        3919,
+        3023
+      ],
+      "outflow": [
+        10371,
+        6546,
+        10573,
+        7364,
+        5044,
+        2545,
+        2111
+      ],
+      "net": [
+        5849,
+        2418,
+        6943,
+        2943,
+        2516,
+        1374,
+        912
+      ],
+      "total_inflow": 67509,
+      "total_net": 22955
+    },
+    {
+      "code": "4157000000",
+      "year": 2014,
+      "inflow": [
+        17922,
+        9416,
+        19657,
+        11534,
+        8119,
+        4277,
+        3036
+      ],
+      "outflow": [
+        11057,
+        6836,
+        11502,
+        8059,
+        5816,
+        2827,
+        2288
+      ],
+      "net": [
+        6865,
+        2580,
+        8155,
+        3475,
+        2303,
+        1450,
+        748
+      ],
+      "total_inflow": 73961,
+      "total_net": 25576
+    },
+    {
+      "code": "4157000000",
+      "year": 2015,
+      "inflow": [
+        12462,
+        7947,
+        13939,
+        9237,
+        6779,
+        4050,
+        2857
+      ],
+      "outflow": [
+        11013,
+        7335,
+        11791,
+        8325,
+        5939,
+        3258,
+        2546
+      ],
+      "net": [
+        1449,
+        612,
+        2148,
+        912,
+        840,
+        792,
+        311
+      ],
+      "total_inflow": 57271,
+      "total_net": 7064
+    },
+    {
+      "code": "4157000000",
+      "year": 2016,
+      "inflow": [
+        12256,
+        8343,
+        14170,
+        9374,
+        7281,
+        4344,
+        3020
+      ],
+      "outflow": [
+        10108,
+        7248,
+        10962,
+        8002,
+        5773,
+        3328,
+        2301
+      ],
+      "net": [
+        2148,
+        1095,
+        3208,
+        1372,
+        1508,
+        1016,
+        719
+      ],
+      "total_inflow": 58788,
+      "total_net": 11066
+    },
+    {
+      "code": "4157000000",
+      "year": 2017,
+      "inflow": [
+        17954,
+        10382,
+        21198,
+        12966,
+        8618,
+        5541,
+        3529
+      ],
+      "outflow": [
+        11307,
+        7884,
+        12071,
+        9290,
+        6260,
+        3824,
+        2603
+      ],
+      "net": [
+        6647,
+        2498,
+        9127,
+        3676,
+        2358,
+        1717,
+        926
+      ],
+      "total_inflow": 80188,
+      "total_net": 26949
+    },
+    {
+      "code": "4157000000",
+      "year": 2018,
+      "inflow": [
+        17682,
+        12573,
+        21724,
+        13385,
+        9412,
+        6269,
+        3800
+      ],
+      "outflow": [
+        11058,
+        8941,
+        12409,
+        9349,
+        6616,
+        4276,
+        2867
+      ],
+      "net": [
+        6624,
+        3632,
+        9315,
+        4036,
+        2796,
+        1993,
+        933
+      ],
+      "total_inflow": 84845,
+      "total_net": 29329
+    },
+    {
+      "code": "4157000000",
+      "year": 2019,
+      "inflow": [
+        11885,
+        10893,
+        15187,
+        10100,
+        7429,
+        4893,
+        3116
+      ],
+      "outflow": [
+        9643,
+        8774,
+        11407,
+        8512,
+        6153,
+        3977,
+        2647
+      ],
+      "net": [
+        2242,
+        2119,
+        3780,
+        1588,
+        1276,
+        916,
+        469
+      ],
+      "total_inflow": 63503,
+      "total_net": 12390
+    },
+    {
+      "code": "4157000000",
+      "year": 2020,
+      "inflow": [
+        23335,
+        16663,
+        26978,
+        18950,
+        12122,
+        8376,
+        4907
+      ],
+      "outflow": [
+        15758,
+        11717,
+        16793,
+        13387,
+        8759,
+        6019,
+        3727
+      ],
+      "net": [
+        7577,
+        4946,
+        10185,
+        5563,
+        3363,
+        2357,
+        1180
+      ],
+      "total_inflow": 111331,
+      "total_net": 35171
+    },
+    {
+      "code": "4157000000",
+      "year": 2021,
+      "inflow": [
+        12305,
+        13473,
+        16482,
+        11369,
+        8326,
+        6523,
+        4177
+      ],
+      "outflow": [
+        10633,
+        11394,
+        12966,
+        10103,
+        7315,
+        5530,
+        3446
+      ],
+      "net": [
+        1672,
+        2079,
+        3516,
+        1266,
+        1011,
+        993,
+        731
+      ],
+      "total_inflow": 72655,
+      "total_net": 11268
+    },
+    {
+      "code": "4157000000",
+      "year": 2022,
+      "inflow": [
+        7702,
+        10622,
+        11620,
+        8413,
+        6223,
+        4967,
+        3224
+      ],
+      "outflow": [
+        9565,
+        10745,
+        11927,
+        9481,
+        6329,
+        4747,
+        2931
+      ],
+      "net": [
+        -1863,
+        -123,
+        -307,
+        -1068,
+        -106,
+        220,
+        293
+      ],
+      "total_inflow": 52771,
+      "total_net": -2954
+    },
+    {
+      "code": "4157000000",
+      "year": 2023,
+      "inflow": [
+        8567,
+        10588,
+        12842,
+        8937,
+        6376,
+        5226,
+        3443
+      ],
+      "outflow": [
+        9409,
+        10016,
+        12424,
+        9258,
+        6026,
+        4636,
+        2895
+      ],
+      "net": [
+        -842,
+        572,
+        418,
+        -321,
+        350,
+        590,
+        548
+      ],
+      "total_inflow": 55979,
+      "total_net": 1315
+    },
+    {
+      "code": "4157000000",
+      "year": 2024,
+      "inflow": [
+        8186,
+        10420,
+        12371,
+        8672,
+        6464,
+        5118,
+        3453
+      ],
+      "outflow": [
+        9133,
+        9922,
+        12157,
+        9193,
+        6181,
+        4734,
+        2997
+      ],
+      "net": [
+        -947,
+        498,
+        214,
+        -521,
+        283,
+        384,
+        456
+      ],
+      "total_inflow": 54684,
+      "total_net": 367
+    },
+    {
+      "code": "4157000000",
+      "year": 2025,
+      "inflow": [
+        6741,
+        9452,
+        10761,
+        7499,
+        5762,
+        4598,
+        3396
+      ],
+      "outflow": [
+        7959,
+        9591,
+        10909,
+        8487,
+        6074,
+        4449,
+        3069
+      ],
+      "net": [
+        -1218,
+        -139,
+        -148,
+        -988,
+        -312,
+        149,
+        327
+      ],
+      "total_inflow": 48209,
+      "total_net": -2329
+    },
+    {
+      "code": "4159000000",
+      "year": 2010,
+      "inflow": [
+        24677,
+        19464,
+        26848,
+        14551,
+        8279,
+        4376,
+        3132
+      ],
+      "outflow": [
+        24301,
+        16301,
+        24788,
+        14230,
+        8126,
+        4403,
+        3373
+      ],
+      "net": [
+        376,
+        3163,
+        2060,
+        321,
+        153,
+        -27,
+        -241
+      ],
+      "total_inflow": 101327,
+      "total_net": 5805
+    },
+    {
+      "code": "4159000000",
+      "year": 2011,
+      "inflow": [
+        22546,
+        17159,
+        25144,
+        13264,
+        8527,
+        3970,
+        2899
+      ],
+      "outflow": [
+        23081,
+        14467,
+        23799,
+        13215,
+        7832,
+        3809,
+        2897
+      ],
+      "net": [
+        -535,
+        2692,
+        1345,
+        49,
+        695,
+        161,
+        2
+      ],
+      "total_inflow": 93509,
+      "total_net": 4409
+    },
+    {
+      "code": "4159000000",
+      "year": 2012,
+      "inflow": [
+        19552,
+        14854,
+        22810,
+        11992,
+        7381,
+        3538,
+        2616
+      ],
+      "outflow": [
+        19866,
+        12607,
+        21242,
+        12204,
+        7335,
+        3602,
+        2790
+      ],
+      "net": [
+        -314,
+        2247,
+        1568,
+        -212,
+        46,
+        -64,
+        -174
+      ],
+      "total_inflow": 82743,
+      "total_net": 3097
+    },
+    {
+      "code": "4159000000",
+      "year": 2013,
+      "inflow": [
+        17669,
+        13370,
+        20666,
+        11270,
+        7340,
+        3421,
+        2638
+      ],
+      "outflow": [
+        19061,
+        11755,
+        20521,
+        11832,
+        7335,
+        3371,
+        2657
+      ],
+      "net": [
+        -1392,
+        1615,
+        145,
+        -562,
+        5,
+        50,
+        -19
+      ],
+      "total_inflow": 76374,
+      "total_net": -158
+    },
+    {
+      "code": "4159000000",
+      "year": 2014,
+      "inflow": [
+        17797,
+        14636,
+        21735,
+        12349,
+        8107,
+        3909,
+        2865
+      ],
+      "outflow": [
+        17601,
+        11949,
+        19616,
+        12061,
+        7599,
+        3644,
+        2810
+      ],
+      "net": [
+        196,
+        2687,
+        2119,
+        288,
+        508,
+        265,
+        55
+      ],
+      "total_inflow": 81398,
+      "total_net": 6118
+    },
+    {
+      "code": "4159000000",
+      "year": 2015,
+      "inflow": [
+        37209,
+        21800,
+        38717,
+        23149,
+        13411,
+        5935,
+        4080
+      ],
+      "outflow": [
+        24237,
+        13773,
+        23315,
+        16371,
+        8768,
+        4116,
+        3052
+      ],
+      "net": [
+        12972,
+        8027,
+        15402,
+        6778,
+        4643,
+        1819,
+        1028
+      ],
+      "total_inflow": 144301,
+      "total_net": 50669
+    },
+    {
+      "code": "4159000000",
+      "year": 2016,
+      "inflow": [
+        26567,
+        20700,
+        31806,
+        18553,
+        12141,
+        6339,
+        4187
+      ],
+      "outflow": [
+        18225,
+        13595,
+        19857,
+        13592,
+        8560,
+        4363,
+        3065
+      ],
+      "net": [
+        8342,
+        7105,
+        11949,
+        4961,
+        3581,
+        1976,
+        1122
+      ],
+      "total_inflow": 120293,
+      "total_net": 39036
+    },
+    {
+      "code": "4159000000",
+      "year": 2017,
+      "inflow": [
+        26973,
+        24510,
+        34077,
+        19613,
+        13558,
+        6912,
+        4092
+      ],
+      "outflow": [
+        18074,
+        14855,
+        21084,
+        13726,
+        8949,
+        4693,
+        3141
+      ],
+      "net": [
+        8899,
+        9655,
+        12993,
+        5887,
+        4609,
+        2219,
+        951
+      ],
+      "total_inflow": 129735,
+      "total_net": 45213
+    },
+    {
+      "code": "4159000000",
+      "year": 2018,
+      "inflow": [
+        36640,
+        30651,
+        43793,
+        26631,
+        17871,
+        9246,
+        5380
+      ],
+      "outflow": [
+        23305,
+        19046,
+        26174,
+        17942,
+        11147,
+        6070,
+        3920
+      ],
+      "net": [
+        13335,
+        11605,
+        17619,
+        8689,
+        6724,
+        3176,
+        1460
+      ],
+      "total_inflow": 170212,
+      "total_net": 62608
+    },
+    {
+      "code": "4159000000",
+      "year": 2019,
+      "inflow": [
+        35473,
+        31678,
+        41928,
+        26924,
+        17970,
+        9300,
+        5172
+      ],
+      "outflow": [
+        24664,
+        21388,
+        28317,
+        19414,
+        12252,
+        6593,
+        3979
+      ],
+      "net": [
+        10809,
+        10290,
+        13611,
+        7510,
+        5718,
+        2707,
+        1193
+      ],
+      "total_inflow": 168445,
+      "total_net": 51838
+    },
+    {
+      "code": "4159000000",
+      "year": 2020,
+      "inflow": [
+        28872,
+        32846,
+        38283,
+        23902,
+        16633,
+        9666,
+        5525
+      ],
+      "outflow": [
+        23301,
+        22998,
+        29361,
+        19449,
+        12732,
+        7345,
+        4376
+      ],
+      "net": [
+        5571,
+        9848,
+        8922,
+        4453,
+        3901,
+        2321,
+        1149
+      ],
+      "total_inflow": 155727,
+      "total_net": 36165
+    },
+    {
+      "code": "4159000000",
+      "year": 2021,
+      "inflow": [
+        26513,
+        33994,
+        36467,
+        23459,
+        16902,
+        10292,
+        5734
+      ],
+      "outflow": [
+        23008,
+        25268,
+        29579,
+        20337,
+        13494,
+        8436,
+        4760
+      ],
+      "net": [
+        3505,
+        8726,
+        6888,
+        3122,
+        3408,
+        1856,
+        974
+      ],
+      "total_inflow": 153361,
+      "total_net": 28479
+    },
+    {
+      "code": "4159000000",
+      "year": 2022,
+      "inflow": [
+        18298,
+        28495,
+        27871,
+        17430,
+        13389,
+        8937,
+        4886
+      ],
+      "outflow": [
+        16181,
+        22291,
+        22728,
+        15428,
+        10763,
+        7132,
+        3845
+      ],
+      "net": [
+        2117,
+        6204,
+        5143,
+        2002,
+        2626,
+        1805,
+        1041
+      ],
+      "total_inflow": 119306,
+      "total_net": 20938
+    },
+    {
+      "code": "4159000000",
+      "year": 2023,
+      "inflow": [
+        24502,
+        29702,
+        37057,
+        21754,
+        14791,
+        9658,
+        5104
+      ],
+      "outflow": [
+        20104,
+        22495,
+        28235,
+        18121,
+        12004,
+        7552,
+        4006
+      ],
+      "net": [
+        4398,
+        7207,
+        8822,
+        3633,
+        2787,
+        2106,
+        1098
+      ],
+      "total_inflow": 142568,
+      "total_net": 30051
+    },
+    {
+      "code": "4159000000",
+      "year": 2024,
+      "inflow": [
+        20737,
+        28282,
+        34306,
+        18998,
+        14465,
+        9263,
+        5273
+      ],
+      "outflow": [
+        18665,
+        22638,
+        27444,
+        17095,
+        12383,
+        7985,
+        4455
+      ],
+      "net": [
+        2072,
+        5644,
+        6862,
+        1903,
+        2082,
+        1278,
+        818
+      ],
+      "total_inflow": 131324,
+      "total_net": 20659
+    },
+    {
+      "code": "4159000000",
+      "year": 2025,
+      "inflow": [
+        19618,
+        28121,
+        33667,
+        18633,
+        14621,
+        9771,
+        5197
+      ],
+      "outflow": [
+        18060,
+        23350,
+        28256,
+        17387,
+        13079,
+        8339,
+        4488
+      ],
+      "net": [
+        1558,
+        4771,
+        5411,
+        1246,
+        1542,
+        1432,
+        709
+      ],
+      "total_inflow": 129628,
+      "total_net": 16669
+    },
+    {
+      "code": "4163000000",
+      "year": 2010,
+      "inflow": [
+        11310,
+        6981,
+        10524,
+        6982,
+        4611,
+        2847,
+        1879
+      ],
+      "outflow": [
+        8249,
+        5351,
+        7514,
+        5521,
+        3355,
+        1945,
+        1386
+      ],
+      "net": [
+        3061,
+        1630,
+        3010,
+        1461,
+        1256,
+        902,
+        493
+      ],
+      "total_inflow": 45134,
+      "total_net": 11813
+    },
+    {
+      "code": "4163000000",
+      "year": 2011,
+      "inflow": [
+        7931,
+        5434,
+        7202,
+        5376,
+        3818,
+        1965,
+        1547
+      ],
+      "outflow": [
+        7681,
+        4867,
+        6827,
+        5051,
+        3334,
+        1728,
+        1359
+      ],
+      "net": [
+        250,
+        567,
+        375,
+        325,
+        484,
+        237,
+        188
+      ],
+      "total_inflow": 33273,
+      "total_net": 2426
+    },
+    {
+      "code": "4163000000",
+      "year": 2012,
+      "inflow": [
+        7403,
+        4633,
+        6757,
+        4944,
+        3294,
+        1731,
+        1387
+      ],
+      "outflow": [
+        7766,
+        4941,
+        6907,
+        5036,
+        3380,
+        1664,
+        1393
+      ],
+      "net": [
+        -363,
+        -308,
+        -150,
+        -92,
+        -86,
+        67,
+        -6
+      ],
+      "total_inflow": 30149,
+      "total_net": -938
+    },
+    {
+      "code": "4163000000",
+      "year": 2013,
+      "inflow": [
+        5977,
+        3771,
+        5395,
+        4312,
+        3002,
+        1581,
+        1440
+      ],
+      "outflow": [
+        6541,
+        4290,
+        5897,
+        4741,
+        2942,
+        1569,
+        1431
+      ],
+      "net": [
+        -564,
+        -519,
+        -502,
+        -429,
+        60,
+        12,
+        9
+      ],
+      "total_inflow": 25478,
+      "total_net": -1933
+    },
+    {
+      "code": "4163000000",
+      "year": 2014,
+      "inflow": [
+        7363,
+        4684,
+        6742,
+        5398,
+        3888,
+        2030,
+        1694
+      ],
+      "outflow": [
+        6871,
+        4547,
+        6217,
+        5106,
+        3508,
+        1743,
+        1604
+      ],
+      "net": [
+        492,
+        137,
+        525,
+        292,
+        380,
+        287,
+        90
+      ],
+      "total_inflow": 31799,
+      "total_net": 2203
+    },
+    {
+      "code": "4163000000",
+      "year": 2015,
+      "inflow": [
+        6676,
+        4480,
+        6018,
+        5099,
+        3913,
+        2166,
+        1761
+      ],
+      "outflow": [
+        6311,
+        4431,
+        5533,
+        4852,
+        3420,
+        1727,
+        1537
+      ],
+      "net": [
+        365,
+        49,
+        485,
+        247,
+        493,
+        439,
+        224
+      ],
+      "total_inflow": 30113,
+      "total_net": 2302
+    },
+    {
+      "code": "4163000000",
+      "year": 2016,
+      "inflow": [
+        5516,
+        4006,
+        5052,
+        4411,
+        3464,
+        2031,
+        1669
+      ],
+      "outflow": [
+        5632,
+        4362,
+        5213,
+        4393,
+        3363,
+        1873,
+        1558
+      ],
+      "net": [
+        -116,
+        -356,
+        -161,
+        18,
+        101,
+        158,
+        111
+      ],
+      "total_inflow": 26149,
+      "total_net": -245
+    },
+    {
+      "code": "4163000000",
+      "year": 2017,
+      "inflow": [
+        6813,
+        4979,
+        6825,
+        5563,
+        4377,
+        2753,
+        2230
+      ],
+      "outflow": [
+        5832,
+        4495,
+        5285,
+        4753,
+        3415,
+        1901,
+        1574
+      ],
+      "net": [
+        981,
+        484,
+        1540,
+        810,
+        962,
+        852,
+        656
+      ],
+      "total_inflow": 33540,
+      "total_net": 6285
+    },
+    {
+      "code": "4163000000",
+      "year": 2018,
+      "inflow": [
+        6453,
+        5242,
+        6430,
+        5123,
+        4094,
+        2580,
+        2371
+      ],
+      "outflow": [
+        5764,
+        4917,
+        5234,
+        4491,
+        3406,
+        2058,
+        1759
+      ],
+      "net": [
+        689,
+        325,
+        1196,
+        632,
+        688,
+        522,
+        612
+      ],
+      "total_inflow": 32293,
+      "total_net": 4664
+    },
+    {
+      "code": "4163000000",
+      "year": 2019,
+      "inflow": [
+        6661,
+        5808,
+        6315,
+        5402,
+        4095,
+        2716,
+        2312
+      ],
+      "outflow": [
+        5605,
+        5260,
+        5093,
+        4518,
+        3486,
+        2251,
+        1761
+      ],
+      "net": [
+        1056,
+        548,
+        1222,
+        884,
+        609,
+        465,
+        551
+      ],
+      "total_inflow": 33309,
+      "total_net": 5335
+    },
+    {
+      "code": "4163000000",
+      "year": 2020,
+      "inflow": [
+        7438,
+        6692,
+        6900,
+        6320,
+        5095,
+        3384,
+        2637
+      ],
+      "outflow": [
+        5634,
+        5897,
+        5202,
+        4959,
+        3990,
+        2594,
+        2002
+      ],
+      "net": [
+        1804,
+        795,
+        1698,
+        1361,
+        1105,
+        790,
+        635
+      ],
+      "total_inflow": 38466,
+      "total_net": 8188
+    },
+    {
+      "code": "4163000000",
+      "year": 2021,
+      "inflow": [
+        6028,
+        6201,
+        6033,
+        5406,
+        4701,
+        3360,
+        2699
+      ],
+      "outflow": [
+        4666,
+        5863,
+        4747,
+        4319,
+        3750,
+        2646,
+        1853
+      ],
+      "net": [
+        1362,
+        338,
+        1286,
+        1087,
+        951,
+        714,
+        846
+      ],
+      "total_inflow": 34428,
+      "total_net": 6584
+    },
+    {
+      "code": "4163000000",
+      "year": 2022,
+      "inflow": [
+        5699,
+        5797,
+        6094,
+        5122,
+        4611,
+        3138,
+        2403
+      ],
+      "outflow": [
+        4146,
+        5341,
+        4342,
+        3757,
+        3293,
+        2377,
+        1702
+      ],
+      "net": [
+        1553,
+        456,
+        1752,
+        1365,
+        1318,
+        761,
+        701
+      ],
+      "total_inflow": 32864,
+      "total_net": 7906
+    },
+    {
+      "code": "4163000000",
+      "year": 2023,
+      "inflow": [
+        10632,
+        8348,
+        11564,
+        9332,
+        7035,
+        4985,
+        3156
+      ],
+      "outflow": [
+        5488,
+        5729,
+        5594,
+        4815,
+        3875,
+        2723,
+        1886
+      ],
+      "net": [
+        5144,
+        2619,
+        5970,
+        4517,
+        3160,
+        2262,
+        1270
+      ],
+      "total_inflow": 55052,
+      "total_net": 24942
+    },
+    {
+      "code": "4163000000",
+      "year": 2024,
+      "inflow": [
+        9277,
+        9098,
+        12091,
+        8319,
+        7025,
+        5005,
+        3295
+      ],
+      "outflow": [
+        5541,
+        6514,
+        6629,
+        4877,
+        4261,
+        3045,
+        2044
+      ],
+      "net": [
+        3736,
+        2584,
+        5462,
+        3442,
+        2764,
+        1960,
+        1251
+      ],
+      "total_inflow": 54110,
+      "total_net": 21199
+    },
+    {
+      "code": "4163000000",
+      "year": 2025,
+      "inflow": [
+        5259,
+        7014,
+        7573,
+        5196,
+        5108,
+        3822,
+        2955
+      ],
+      "outflow": [
+        4302,
+        6127,
+        6020,
+        4298,
+        3922,
+        2857,
+        2119
+      ],
+      "net": [
+        957,
+        887,
+        1553,
+        898,
+        1186,
+        965,
+        836
+      ],
+      "total_inflow": 36927,
+      "total_net": 7282
+    }
+  ],
+  "peaks": {
+    "4111000000": [
+      2017
+    ],
+    "4117000000": [
+      2024
+    ],
+    "4122000000": [
+      2019
+    ],
+    "4146000000": [
+      2018
+    ],
+    "4157000000": [
+      2020
+    ],
+    "4159000000": [
+      2018
+    ],
+    "4163000000": [
+      2023
+    ]
+  },
+  "windows": [
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "offset": -2,
+      "year": 2015,
+      "available": true
+    },
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "offset": -1,
+      "year": 2016,
+      "available": true
+    },
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "offset": 0,
+      "year": 2017,
+      "available": true
+    },
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "offset": 1,
+      "year": 2018,
+      "available": true
+    },
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "offset": 2,
+      "year": 2019,
+      "available": true
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "offset": -2,
+      "year": 2022,
+      "available": true
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "offset": -1,
+      "year": 2023,
+      "available": true
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "offset": 0,
+      "year": 2024,
+      "available": true
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "offset": 1,
+      "year": 2025,
+      "available": true
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "offset": 2,
+      "year": 2026,
+      "available": false
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "offset": -2,
+      "year": 2017,
+      "available": true
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "offset": -1,
+      "year": 2018,
+      "available": true
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "offset": 0,
+      "year": 2019,
+      "available": true
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "offset": 1,
+      "year": 2020,
+      "available": true
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "offset": 2,
+      "year": 2021,
+      "available": true
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "offset": -2,
+      "year": 2016,
+      "available": true
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "offset": -1,
+      "year": 2017,
+      "available": true
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "offset": 0,
+      "year": 2018,
+      "available": true
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "offset": 1,
+      "year": 2019,
+      "available": true
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "offset": 2,
+      "year": 2020,
+      "available": true
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "offset": -2,
+      "year": 2018,
+      "available": true
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "offset": -1,
+      "year": 2019,
+      "available": true
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "offset": 0,
+      "year": 2020,
+      "available": true
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "offset": 1,
+      "year": 2021,
+      "available": true
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "offset": 2,
+      "year": 2022,
+      "available": true
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "offset": -2,
+      "year": 2016,
+      "available": true
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "offset": -1,
+      "year": 2017,
+      "available": true
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "offset": 0,
+      "year": 2018,
+      "available": true
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "offset": 1,
+      "year": 2019,
+      "available": true
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "offset": 2,
+      "year": 2020,
+      "available": true
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "offset": -2,
+      "year": 2021,
+      "available": true
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "offset": -1,
+      "year": 2022,
+      "available": true
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "offset": 0,
+      "year": 2023,
+      "available": true
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "offset": 1,
+      "year": 2024,
+      "available": true
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "offset": 2,
+      "year": 2025,
+      "available": true
+    }
+  ],
+  "comparisons": [
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "age": "19",
+      "radius": 1,
+      "before_mean": -955.0,
+      "after_mean": -1825.0,
+      "after_minus_before": -870.0
+    },
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "age": "19",
+      "radius": 2,
+      "before_mean": -1042.0,
+      "after_mean": -2116.0,
+      "after_minus_before": -1074.0
+    },
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "age": "20",
+      "radius": 1,
+      "before_mean": 3245.0,
+      "after_mean": 2648.0,
+      "after_minus_before": -597.0
+    },
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "age": "20",
+      "radius": 2,
+      "before_mean": 3165.0,
+      "after_mean": 1824.0,
+      "after_minus_before": -1341.0
+    },
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "age": "30",
+      "radius": 1,
+      "before_mean": 349.0,
+      "after_mean": -3109.0,
+      "after_minus_before": -3458.0
+    },
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "age": "30",
+      "radius": 2,
+      "before_mean": 369.5,
+      "after_mean": -3465.5,
+      "after_minus_before": -3835.0
+    },
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "age": "40",
+      "radius": 1,
+      "before_mean": -634.0,
+      "after_mean": -1557.0,
+      "after_minus_before": -923.0
+    },
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "age": "40",
+      "radius": 2,
+      "before_mean": -672.5,
+      "after_mean": -1858.0,
+      "after_minus_before": -1185.5
+    },
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "age": "50",
+      "radius": 1,
+      "before_mean": -808.0,
+      "after_mean": -2152.0,
+      "after_minus_before": -1344.0
+    },
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "age": "50",
+      "radius": 2,
+      "before_mean": -906.5,
+      "after_mean": -2438.0,
+      "after_minus_before": -1531.5
+    },
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "age": "60",
+      "radius": 1,
+      "before_mean": 205.0,
+      "after_mean": -291.0,
+      "after_minus_before": -496.0
+    },
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "age": "60",
+      "radius": 2,
+      "before_mean": 263.0,
+      "after_mean": -622.5,
+      "after_minus_before": -885.5
+    },
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "age": "70",
+      "radius": 1,
+      "before_mean": 833.0,
+      "after_mean": 528.0,
+      "after_minus_before": -305.0
+    },
+    {
+      "code": "4111000000",
+      "peak_year": 2017,
+      "age": "70",
+      "radius": 2,
+      "before_mean": 872.0,
+      "after_mean": 263.0,
+      "after_minus_before": -609.0
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "age": "19",
+      "radius": 1,
+      "before_mean": -698.0,
+      "after_mean": 1175.0,
+      "after_minus_before": 1873.0
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "age": "19",
+      "radius": 2,
+      "before_mean": -163.0,
+      "after_mean": null,
+      "after_minus_before": null
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "age": "20",
+      "radius": 1,
+      "before_mean": -692.0,
+      "after_mean": 963.0,
+      "after_minus_before": 1655.0
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "age": "20",
+      "radius": 2,
+      "before_mean": -570.5,
+      "after_mean": null,
+      "after_minus_before": null
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "age": "30",
+      "radius": 1,
+      "before_mean": -547.0,
+      "after_mean": 3016.0,
+      "after_minus_before": 3563.0
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "age": "30",
+      "radius": 2,
+      "before_mean": 777.5,
+      "after_mean": null,
+      "after_minus_before": null
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "age": "40",
+      "radius": 1,
+      "before_mean": -430.0,
+      "after_mean": 797.0,
+      "after_minus_before": 1227.0
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "age": "40",
+      "radius": 2,
+      "before_mean": -67.0,
+      "after_mean": null,
+      "after_minus_before": null
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "age": "50",
+      "radius": 1,
+      "before_mean": -849.0,
+      "after_mean": -42.0,
+      "after_minus_before": 807.0
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "age": "50",
+      "radius": 2,
+      "before_mean": -651.0,
+      "after_mean": null,
+      "after_minus_before": null
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "age": "60",
+      "radius": 1,
+      "before_mean": -685.0,
+      "after_mean": -170.0,
+      "after_minus_before": 515.0
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "age": "60",
+      "radius": 2,
+      "before_mean": -492.0,
+      "after_mean": null,
+      "after_minus_before": null
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "age": "70",
+      "radius": 1,
+      "before_mean": -86.0,
+      "after_mean": 93.0,
+      "after_minus_before": 179.0
+    },
+    {
+      "code": "4117000000",
+      "peak_year": 2024,
+      "age": "70",
+      "radius": 2,
+      "before_mean": 10.0,
+      "after_mean": null,
+      "after_minus_before": null
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "age": "19",
+      "radius": 1,
+      "before_mean": 2252.0,
+      "after_mean": 4025.0,
+      "after_minus_before": 1773.0
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "age": "19",
+      "radius": 2,
+      "before_mean": 1727.0,
+      "after_mean": 4060.5,
+      "after_minus_before": 2333.5
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "age": "20",
+      "radius": 1,
+      "before_mean": 2708.0,
+      "after_mean": 5194.0,
+      "after_minus_before": 2486.0
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "age": "20",
+      "radius": 2,
+      "before_mean": 2457.5,
+      "after_mean": 6109.5,
+      "after_minus_before": 3652.0
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "age": "30",
+      "radius": 1,
+      "before_mean": 3123.0,
+      "after_mean": 6099.0,
+      "after_minus_before": 2976.0
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "age": "30",
+      "radius": 2,
+      "before_mean": 2677.5,
+      "after_mean": 6714.0,
+      "after_minus_before": 4036.5
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "age": "40",
+      "radius": 1,
+      "before_mean": 2332.0,
+      "after_mean": 3881.0,
+      "after_minus_before": 1549.0
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "age": "40",
+      "radius": 2,
+      "before_mean": 2052.0,
+      "after_mean": 4110.0,
+      "after_minus_before": 2058.0
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "age": "50",
+      "radius": 1,
+      "before_mean": 1554.0,
+      "after_mean": 2302.0,
+      "after_minus_before": 748.0
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "age": "50",
+      "radius": 2,
+      "before_mean": 1293.5,
+      "after_mean": 2772.0,
+      "after_minus_before": 1478.5
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "age": "60",
+      "radius": 1,
+      "before_mean": 465.0,
+      "after_mean": 984.0,
+      "after_minus_before": 519.0
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "age": "60",
+      "radius": 2,
+      "before_mean": 398.5,
+      "after_mean": 1262.5,
+      "after_minus_before": 864.0
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "age": "70",
+      "radius": 1,
+      "before_mean": 347.0,
+      "after_mean": 533.0,
+      "after_minus_before": 186.0
+    },
+    {
+      "code": "4122000000",
+      "peak_year": 2019,
+      "age": "70",
+      "radius": 2,
+      "before_mean": 258.0,
+      "after_mean": 669.0,
+      "after_minus_before": 411.0
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "age": "19",
+      "radius": 1,
+      "before_mean": 1392.0,
+      "after_mean": 4014.0,
+      "after_minus_before": 2622.0
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "age": "19",
+      "radius": 2,
+      "before_mean": 1582.5,
+      "after_mean": 3002.5,
+      "after_minus_before": 1420.0
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "age": "20",
+      "radius": 1,
+      "before_mean": 746.0,
+      "after_mean": 3616.0,
+      "after_minus_before": 2870.0
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "age": "20",
+      "radius": 2,
+      "before_mean": 1964.5,
+      "after_mean": 3058.5,
+      "after_minus_before": 1094.0
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "age": "30",
+      "radius": 1,
+      "before_mean": 3469.0,
+      "after_mean": 7353.0,
+      "after_minus_before": 3884.0
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "age": "30",
+      "radius": 2,
+      "before_mean": 3460.0,
+      "after_mean": 5672.5,
+      "after_minus_before": 2212.5
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "age": "40",
+      "radius": 1,
+      "before_mean": 344.0,
+      "after_mean": 2181.0,
+      "after_minus_before": 1837.0
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "age": "40",
+      "radius": 2,
+      "before_mean": -93.0,
+      "after_mean": 1498.5,
+      "after_minus_before": 1591.5
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "age": "50",
+      "radius": 1,
+      "before_mean": 1069.0,
+      "after_mean": 2039.0,
+      "after_minus_before": 970.0
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "age": "50",
+      "radius": 2,
+      "before_mean": 682.5,
+      "after_mean": 1472.0,
+      "after_minus_before": 789.5
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "age": "60",
+      "radius": 1,
+      "before_mean": 1299.0,
+      "after_mean": 2023.0,
+      "after_minus_before": 724.0
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "age": "60",
+      "radius": 2,
+      "before_mean": 1078.0,
+      "after_mean": 1658.0,
+      "after_minus_before": 580.0
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "age": "70",
+      "radius": 1,
+      "before_mean": 1234.0,
+      "after_mean": 1738.0,
+      "after_minus_before": 504.0
+    },
+    {
+      "code": "4146000000",
+      "peak_year": 2018,
+      "age": "70",
+      "radius": 2,
+      "before_mean": 1094.0,
+      "after_mean": 1466.5,
+      "after_minus_before": 372.5
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "age": "19",
+      "radius": 1,
+      "before_mean": 2242.0,
+      "after_mean": 1672.0,
+      "after_minus_before": -570.0
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "age": "19",
+      "radius": 2,
+      "before_mean": 4433.0,
+      "after_mean": -95.5,
+      "after_minus_before": -4528.5
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "age": "20",
+      "radius": 1,
+      "before_mean": 2119.0,
+      "after_mean": 2079.0,
+      "after_minus_before": -40.0
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "age": "20",
+      "radius": 2,
+      "before_mean": 2875.5,
+      "after_mean": 978.0,
+      "after_minus_before": -1897.5
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "age": "30",
+      "radius": 1,
+      "before_mean": 3780.0,
+      "after_mean": 3516.0,
+      "after_minus_before": -264.0
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "age": "30",
+      "radius": 2,
+      "before_mean": 6547.5,
+      "after_mean": 1604.5,
+      "after_minus_before": -4943.0
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "age": "40",
+      "radius": 1,
+      "before_mean": 1588.0,
+      "after_mean": 1266.0,
+      "after_minus_before": -322.0
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "age": "40",
+      "radius": 2,
+      "before_mean": 2812.0,
+      "after_mean": 99.0,
+      "after_minus_before": -2713.0
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "age": "50",
+      "radius": 1,
+      "before_mean": 1276.0,
+      "after_mean": 1011.0,
+      "after_minus_before": -265.0
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "age": "50",
+      "radius": 2,
+      "before_mean": 2036.0,
+      "after_mean": 452.5,
+      "after_minus_before": -1583.5
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "age": "60",
+      "radius": 1,
+      "before_mean": 916.0,
+      "after_mean": 993.0,
+      "after_minus_before": 77.0
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "age": "60",
+      "radius": 2,
+      "before_mean": 1454.5,
+      "after_mean": 606.5,
+      "after_minus_before": -848.0
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "age": "70",
+      "radius": 1,
+      "before_mean": 469.0,
+      "after_mean": 731.0,
+      "after_minus_before": 262.0
+    },
+    {
+      "code": "4157000000",
+      "peak_year": 2020,
+      "age": "70",
+      "radius": 2,
+      "before_mean": 701.0,
+      "after_mean": 512.0,
+      "after_minus_before": -189.0
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "age": "19",
+      "radius": 1,
+      "before_mean": 8899.0,
+      "after_mean": 10809.0,
+      "after_minus_before": 1910.0
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "age": "19",
+      "radius": 2,
+      "before_mean": 8620.5,
+      "after_mean": 8190.0,
+      "after_minus_before": -430.5
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "age": "20",
+      "radius": 1,
+      "before_mean": 9655.0,
+      "after_mean": 10290.0,
+      "after_minus_before": 635.0
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "age": "20",
+      "radius": 2,
+      "before_mean": 8380.0,
+      "after_mean": 10069.0,
+      "after_minus_before": 1689.0
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "age": "30",
+      "radius": 1,
+      "before_mean": 12993.0,
+      "after_mean": 13611.0,
+      "after_minus_before": 618.0
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "age": "30",
+      "radius": 2,
+      "before_mean": 12471.0,
+      "after_mean": 11266.5,
+      "after_minus_before": -1204.5
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "age": "40",
+      "radius": 1,
+      "before_mean": 5887.0,
+      "after_mean": 7510.0,
+      "after_minus_before": 1623.0
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "age": "40",
+      "radius": 2,
+      "before_mean": 5424.0,
+      "after_mean": 5981.5,
+      "after_minus_before": 557.5
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "age": "50",
+      "radius": 1,
+      "before_mean": 4609.0,
+      "after_mean": 5718.0,
+      "after_minus_before": 1109.0
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "age": "50",
+      "radius": 2,
+      "before_mean": 4095.0,
+      "after_mean": 4809.5,
+      "after_minus_before": 714.5
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "age": "60",
+      "radius": 1,
+      "before_mean": 2219.0,
+      "after_mean": 2707.0,
+      "after_minus_before": 488.0
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "age": "60",
+      "radius": 2,
+      "before_mean": 2097.5,
+      "after_mean": 2514.0,
+      "after_minus_before": 416.5
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "age": "70",
+      "radius": 1,
+      "before_mean": 951.0,
+      "after_mean": 1193.0,
+      "after_minus_before": 242.0
+    },
+    {
+      "code": "4159000000",
+      "peak_year": 2018,
+      "age": "70",
+      "radius": 2,
+      "before_mean": 1036.5,
+      "after_mean": 1171.0,
+      "after_minus_before": 134.5
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "age": "19",
+      "radius": 1,
+      "before_mean": 1553.0,
+      "after_mean": 3736.0,
+      "after_minus_before": 2183.0
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "age": "19",
+      "radius": 2,
+      "before_mean": 1457.5,
+      "after_mean": 2346.5,
+      "after_minus_before": 889.0
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "age": "20",
+      "radius": 1,
+      "before_mean": 456.0,
+      "after_mean": 2584.0,
+      "after_minus_before": 2128.0
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "age": "20",
+      "radius": 2,
+      "before_mean": 397.0,
+      "after_mean": 1735.5,
+      "after_minus_before": 1338.5
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "age": "30",
+      "radius": 1,
+      "before_mean": 1752.0,
+      "after_mean": 5462.0,
+      "after_minus_before": 3710.0
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "age": "30",
+      "radius": 2,
+      "before_mean": 1519.0,
+      "after_mean": 3507.5,
+      "after_minus_before": 1988.5
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "age": "40",
+      "radius": 1,
+      "before_mean": 1365.0,
+      "after_mean": 3442.0,
+      "after_minus_before": 2077.0
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "age": "40",
+      "radius": 2,
+      "before_mean": 1226.0,
+      "after_mean": 2170.0,
+      "after_minus_before": 944.0
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "age": "50",
+      "radius": 1,
+      "before_mean": 1318.0,
+      "after_mean": 2764.0,
+      "after_minus_before": 1446.0
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "age": "50",
+      "radius": 2,
+      "before_mean": 1134.5,
+      "after_mean": 1975.0,
+      "after_minus_before": 840.5
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "age": "60",
+      "radius": 1,
+      "before_mean": 761.0,
+      "after_mean": 1960.0,
+      "after_minus_before": 1199.0
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "age": "60",
+      "radius": 2,
+      "before_mean": 737.5,
+      "after_mean": 1462.5,
+      "after_minus_before": 725.0
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "age": "70",
+      "radius": 1,
+      "before_mean": 701.0,
+      "after_mean": 1251.0,
+      "after_minus_before": 550.0
+    },
+    {
+      "code": "4163000000",
+      "peak_year": 2023,
+      "age": "70",
+      "radius": 2,
+      "before_mean": 773.5,
+      "after_mean": 1043.5,
+      "after_minus_before": 270.0
+    }
+  ],
+  "origin_period": [
+    "2024-06",
+    "2025-05"
+  ],
+  "origin_monthly": [
+    {
+      "code": "4111000000",
+      "ym": "202406",
+      "total_inflow": 10405,
+      "interprovince_inflow": 2751,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2751
+    },
+    {
+      "code": "4111000000",
+      "ym": "202407",
+      "total_inflow": 12199,
+      "interprovince_inflow": 3419,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3419
+    },
+    {
+      "code": "4111000000",
+      "ym": "202408",
+      "total_inflow": 12118,
+      "interprovince_inflow": 3533,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3533
+    },
+    {
+      "code": "4111000000",
+      "ym": "202409",
+      "total_inflow": 10814,
+      "interprovince_inflow": 2914,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2914
+    },
+    {
+      "code": "4111000000",
+      "ym": "202410",
+      "total_inflow": 11810,
+      "interprovince_inflow": 2921,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2921
+    },
+    {
+      "code": "4111000000",
+      "ym": "202411",
+      "total_inflow": 10550,
+      "interprovince_inflow": 2753,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2753
+    },
+    {
+      "code": "4111000000",
+      "ym": "202412",
+      "total_inflow": 11759,
+      "interprovince_inflow": 3328,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3328
+    },
+    {
+      "code": "4111000000",
+      "ym": "202501",
+      "total_inflow": 11284,
+      "interprovince_inflow": 3666,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3666
+    },
+    {
+      "code": "4111000000",
+      "ym": "202502",
+      "total_inflow": 15577,
+      "interprovince_inflow": 5501,
+      "seoul_minimum": 0,
+      "seoul_maximum": 5501
+    },
+    {
+      "code": "4111000000",
+      "ym": "202503",
+      "total_inflow": 12283,
+      "interprovince_inflow": 3873,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3873
+    },
+    {
+      "code": "4111000000",
+      "ym": "202504",
+      "total_inflow": 12735,
+      "interprovince_inflow": 2969,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2969
+    },
+    {
+      "code": "4111000000",
+      "ym": "202505",
+      "total_inflow": 12141,
+      "interprovince_inflow": 2990,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2990
+    },
+    {
+      "code": "4117000000",
+      "ym": "202406",
+      "total_inflow": 4928,
+      "interprovince_inflow": 1324,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1324
+    },
+    {
+      "code": "4117000000",
+      "ym": "202407",
+      "total_inflow": 8202,
+      "interprovince_inflow": 1877,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1877
+    },
+    {
+      "code": "4117000000",
+      "ym": "202408",
+      "total_inflow": 8428,
+      "interprovince_inflow": 1991,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1991
+    },
+    {
+      "code": "4117000000",
+      "ym": "202409",
+      "total_inflow": 7867,
+      "interprovince_inflow": 1784,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1784
+    },
+    {
+      "code": "4117000000",
+      "ym": "202410",
+      "total_inflow": 8021,
+      "interprovince_inflow": 1905,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1905
+    },
+    {
+      "code": "4117000000",
+      "ym": "202411",
+      "total_inflow": 8090,
+      "interprovince_inflow": 1959,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1959
+    },
+    {
+      "code": "4117000000",
+      "ym": "202412",
+      "total_inflow": 8319,
+      "interprovince_inflow": 2121,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2121
+    },
+    {
+      "code": "4117000000",
+      "ym": "202501",
+      "total_inflow": 6800,
+      "interprovince_inflow": 2099,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2099
+    },
+    {
+      "code": "4117000000",
+      "ym": "202502",
+      "total_inflow": 10327,
+      "interprovince_inflow": 2936,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2936
+    },
+    {
+      "code": "4117000000",
+      "ym": "202503",
+      "total_inflow": 7587,
+      "interprovince_inflow": 2115,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2115
+    },
+    {
+      "code": "4117000000",
+      "ym": "202504",
+      "total_inflow": 6610,
+      "interprovince_inflow": 1707,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1707
+    },
+    {
+      "code": "4117000000",
+      "ym": "202505",
+      "total_inflow": 6430,
+      "interprovince_inflow": 1652,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1652
+    },
+    {
+      "code": "4122000000",
+      "ym": "202406",
+      "total_inflow": 6381,
+      "interprovince_inflow": 2037,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2037
+    },
+    {
+      "code": "4122000000",
+      "ym": "202407",
+      "total_inflow": 7562,
+      "interprovince_inflow": 2404,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2404
+    },
+    {
+      "code": "4122000000",
+      "ym": "202408",
+      "total_inflow": 7489,
+      "interprovince_inflow": 2477,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2477
+    },
+    {
+      "code": "4122000000",
+      "ym": "202409",
+      "total_inflow": 7775,
+      "interprovince_inflow": 2316,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2316
+    },
+    {
+      "code": "4122000000",
+      "ym": "202410",
+      "total_inflow": 7879,
+      "interprovince_inflow": 2463,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2463
+    },
+    {
+      "code": "4122000000",
+      "ym": "202411",
+      "total_inflow": 7057,
+      "interprovince_inflow": 2167,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2167
+    },
+    {
+      "code": "4122000000",
+      "ym": "202412",
+      "total_inflow": 7415,
+      "interprovince_inflow": 2459,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2459
+    },
+    {
+      "code": "4122000000",
+      "ym": "202501",
+      "total_inflow": 6899,
+      "interprovince_inflow": 2574,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2574
+    },
+    {
+      "code": "4122000000",
+      "ym": "202502",
+      "total_inflow": 8621,
+      "interprovince_inflow": 3180,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3180
+    },
+    {
+      "code": "4122000000",
+      "ym": "202503",
+      "total_inflow": 7523,
+      "interprovince_inflow": 2574,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2574
+    },
+    {
+      "code": "4122000000",
+      "ym": "202504",
+      "total_inflow": 7810,
+      "interprovince_inflow": 2422,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2422
+    },
+    {
+      "code": "4122000000",
+      "ym": "202505",
+      "total_inflow": 7855,
+      "interprovince_inflow": 2274,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2274
+    },
+    {
+      "code": "4146000000",
+      "ym": "202406",
+      "total_inflow": 9863,
+      "interprovince_inflow": 2966,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2966
+    },
+    {
+      "code": "4146000000",
+      "ym": "202407",
+      "total_inflow": 11457,
+      "interprovince_inflow": 3781,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3781
+    },
+    {
+      "code": "4146000000",
+      "ym": "202408",
+      "total_inflow": 11315,
+      "interprovince_inflow": 3595,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3595
+    },
+    {
+      "code": "4146000000",
+      "ym": "202409",
+      "total_inflow": 13131,
+      "interprovince_inflow": 3077,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3077
+    },
+    {
+      "code": "4146000000",
+      "ym": "202410",
+      "total_inflow": 12551,
+      "interprovince_inflow": 3266,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3266
+    },
+    {
+      "code": "4146000000",
+      "ym": "202411",
+      "total_inflow": 9522,
+      "interprovince_inflow": 2661,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2661
+    },
+    {
+      "code": "4146000000",
+      "ym": "202412",
+      "total_inflow": 12085,
+      "interprovince_inflow": 3496,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3496
+    },
+    {
+      "code": "4146000000",
+      "ym": "202501",
+      "total_inflow": 11817,
+      "interprovince_inflow": 3791,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3791
+    },
+    {
+      "code": "4146000000",
+      "ym": "202502",
+      "total_inflow": 15882,
+      "interprovince_inflow": 5497,
+      "seoul_minimum": 0,
+      "seoul_maximum": 5497
+    },
+    {
+      "code": "4146000000",
+      "ym": "202503",
+      "total_inflow": 11105,
+      "interprovince_inflow": 3806,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3806
+    },
+    {
+      "code": "4146000000",
+      "ym": "202504",
+      "total_inflow": 10161,
+      "interprovince_inflow": 3154,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3154
+    },
+    {
+      "code": "4146000000",
+      "ym": "202505",
+      "total_inflow": 10919,
+      "interprovince_inflow": 3535,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3535
+    },
+    {
+      "code": "4157000000",
+      "ym": "202406",
+      "total_inflow": 3977,
+      "interprovince_inflow": 1970,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1970
+    },
+    {
+      "code": "4157000000",
+      "ym": "202407",
+      "total_inflow": 4572,
+      "interprovince_inflow": 2182,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2182
+    },
+    {
+      "code": "4157000000",
+      "ym": "202408",
+      "total_inflow": 4802,
+      "interprovince_inflow": 2239,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2239
+    },
+    {
+      "code": "4157000000",
+      "ym": "202409",
+      "total_inflow": 4021,
+      "interprovince_inflow": 1856,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1856
+    },
+    {
+      "code": "4157000000",
+      "ym": "202410",
+      "total_inflow": 4998,
+      "interprovince_inflow": 2252,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2252
+    },
+    {
+      "code": "4157000000",
+      "ym": "202411",
+      "total_inflow": 4130,
+      "interprovince_inflow": 1928,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1928
+    },
+    {
+      "code": "4157000000",
+      "ym": "202412",
+      "total_inflow": 4459,
+      "interprovince_inflow": 2093,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2093
+    },
+    {
+      "code": "4157000000",
+      "ym": "202501",
+      "total_inflow": 4036,
+      "interprovince_inflow": 1936,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1936
+    },
+    {
+      "code": "4157000000",
+      "ym": "202502",
+      "total_inflow": 5019,
+      "interprovince_inflow": 2457,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2457
+    },
+    {
+      "code": "4157000000",
+      "ym": "202503",
+      "total_inflow": 4106,
+      "interprovince_inflow": 2033,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2033
+    },
+    {
+      "code": "4157000000",
+      "ym": "202504",
+      "total_inflow": 3963,
+      "interprovince_inflow": 1831,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1831
+    },
+    {
+      "code": "4157000000",
+      "ym": "202505",
+      "total_inflow": 4129,
+      "interprovince_inflow": 2006,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2006
+    },
+    {
+      "code": "4159000000",
+      "ym": "202406",
+      "total_inflow": 8992,
+      "interprovince_inflow": 2310,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2310
+    },
+    {
+      "code": "4159000000",
+      "ym": "202407",
+      "total_inflow": 11920,
+      "interprovince_inflow": 3129,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3129
+    },
+    {
+      "code": "4159000000",
+      "ym": "202408",
+      "total_inflow": 10597,
+      "interprovince_inflow": 2871,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2871
+    },
+    {
+      "code": "4159000000",
+      "ym": "202409",
+      "total_inflow": 12056,
+      "interprovince_inflow": 2672,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2672
+    },
+    {
+      "code": "4159000000",
+      "ym": "202410",
+      "total_inflow": 12812,
+      "interprovince_inflow": 3015,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3015
+    },
+    {
+      "code": "4159000000",
+      "ym": "202411",
+      "total_inflow": 9539,
+      "interprovince_inflow": 2387,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2387
+    },
+    {
+      "code": "4159000000",
+      "ym": "202412",
+      "total_inflow": 10562,
+      "interprovince_inflow": 2920,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2920
+    },
+    {
+      "code": "4159000000",
+      "ym": "202501",
+      "total_inflow": 12223,
+      "interprovince_inflow": 3282,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3282
+    },
+    {
+      "code": "4159000000",
+      "ym": "202502",
+      "total_inflow": 16489,
+      "interprovince_inflow": 4466,
+      "seoul_minimum": 0,
+      "seoul_maximum": 4466
+    },
+    {
+      "code": "4159000000",
+      "ym": "202503",
+      "total_inflow": 10842,
+      "interprovince_inflow": 3109,
+      "seoul_minimum": 0,
+      "seoul_maximum": 3109
+    },
+    {
+      "code": "4159000000",
+      "ym": "202504",
+      "total_inflow": 8980,
+      "interprovince_inflow": 2366,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2366
+    },
+    {
+      "code": "4159000000",
+      "ym": "202505",
+      "total_inflow": 9005,
+      "interprovince_inflow": 2450,
+      "seoul_minimum": 0,
+      "seoul_maximum": 2450
+    },
+    {
+      "code": "4163000000",
+      "ym": "202406",
+      "total_inflow": 4048,
+      "interprovince_inflow": 1213,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1213
+    },
+    {
+      "code": "4163000000",
+      "ym": "202407",
+      "total_inflow": 4927,
+      "interprovince_inflow": 1565,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1565
+    },
+    {
+      "code": "4163000000",
+      "ym": "202408",
+      "total_inflow": 4689,
+      "interprovince_inflow": 1655,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1655
+    },
+    {
+      "code": "4163000000",
+      "ym": "202409",
+      "total_inflow": 3916,
+      "interprovince_inflow": 1199,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1199
+    },
+    {
+      "code": "4163000000",
+      "ym": "202410",
+      "total_inflow": 3977,
+      "interprovince_inflow": 1319,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1319
+    },
+    {
+      "code": "4163000000",
+      "ym": "202411",
+      "total_inflow": 3504,
+      "interprovince_inflow": 1131,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1131
+    },
+    {
+      "code": "4163000000",
+      "ym": "202412",
+      "total_inflow": 3146,
+      "interprovince_inflow": 1101,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1101
+    },
+    {
+      "code": "4163000000",
+      "ym": "202501",
+      "total_inflow": 2760,
+      "interprovince_inflow": 985,
+      "seoul_minimum": 0,
+      "seoul_maximum": 985
+    },
+    {
+      "code": "4163000000",
+      "ym": "202502",
+      "total_inflow": 3395,
+      "interprovince_inflow": 1258,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1258
+    },
+    {
+      "code": "4163000000",
+      "ym": "202503",
+      "total_inflow": 3007,
+      "interprovince_inflow": 1075,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1075
+    },
+    {
+      "code": "4163000000",
+      "ym": "202504",
+      "total_inflow": 3585,
+      "interprovince_inflow": 1193,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1193
+    },
+    {
+      "code": "4163000000",
+      "ym": "202505",
+      "total_inflow": 3117,
+      "interprovince_inflow": 1022,
+      "seoul_minimum": 0,
+      "seoul_maximum": 1022
+    }
+  ],
+  "origin_bounds": [
+    {
+      "code": "4111000000",
+      "total_inflow": 143675,
+      "seoul_minimum": 0,
+      "seoul_maximum": 40618,
+      "minimum_percent": 0,
+      "maximum_percent": 28.271
+    },
+    {
+      "code": "4117000000",
+      "total_inflow": 91609,
+      "seoul_minimum": 0,
+      "seoul_maximum": 23470,
+      "minimum_percent": 0,
+      "maximum_percent": 25.62
+    },
+    {
+      "code": "4122000000",
+      "total_inflow": 90266,
+      "seoul_minimum": 0,
+      "seoul_maximum": 29347,
+      "minimum_percent": 0,
+      "maximum_percent": 32.512
+    },
+    {
+      "code": "4146000000",
+      "total_inflow": 139808,
+      "seoul_minimum": 0,
+      "seoul_maximum": 42625,
+      "minimum_percent": 0,
+      "maximum_percent": 30.488
+    },
+    {
+      "code": "4157000000",
+      "total_inflow": 52212,
+      "seoul_minimum": 0,
+      "seoul_maximum": 24783,
+      "minimum_percent": 0,
+      "maximum_percent": 47.466
+    },
+    {
+      "code": "4159000000",
+      "total_inflow": 134017,
+      "seoul_minimum": 0,
+      "seoul_maximum": 34977,
+      "minimum_percent": 0,
+      "maximum_percent": 26.099
+    },
+    {
+      "code": "4163000000",
+      "total_inflow": 44071,
+      "seoul_minimum": 0,
+      "seoul_maximum": 14716,
+      "minimum_percent": 0,
+      "maximum_percent": 33.392
+    }
+  ],
+  "source_sensitivity": [
+    {
+      "variant": "current_total",
+      "rankings": {
+        "all": [
+          "4159000000",
+          "4111000000",
+          "4122000000",
+          "4146000000",
+          "4157000000"
+        ],
+        "recent": [
+          "4159000000",
+          "4122000000",
+          "4111000000",
+          "4163000000",
+          "4117000000"
+        ]
+      },
+      "peaks": {
+        "4111000000": [
+          2017
+        ],
+        "4117000000": [
+          2024
+        ],
+        "4122000000": [
+          2019
+        ],
+        "4146000000": [
+          2018
+        ],
+        "4157000000": [
+          2020
+        ],
+        "4159000000": [
+          2018
+        ],
+        "4163000000": [
+          2023
+        ]
+      },
+      "selections_identical": true,
+      "selected_peaks_identical": true
+    },
+    {
+      "variant": "previous_twenty_city_totals",
+      "rankings": {
+        "all": [
+          "4159000000",
+          "4111000000",
+          "4122000000",
+          "4146000000",
+          "4157000000"
+        ],
+        "recent": [
+          "4159000000",
+          "4122000000",
+          "4111000000",
+          "4163000000",
+          "4117000000"
+        ]
+      },
+      "peaks": {
+        "4111000000": [
+          2017
+        ],
+        "4117000000": [
+          2024
+        ],
+        "4122000000": [
+          2019
+        ],
+        "4146000000": [
+          2018
+        ],
+        "4157000000": [
+          2020
+        ],
+        "4159000000": [
+          2018
+        ],
+        "4163000000": [
+          2023
+        ]
+      },
+      "selections_identical": true,
+      "selected_peaks_identical": true
+    },
+    {
+      "variant": "twenty_city_list_totals",
+      "rankings": {
+        "all": [
+          "4159000000",
+          "4111000000",
+          "4122000000",
+          "4146000000",
+          "4157000000"
+        ],
+        "recent": [
+          "4159000000",
+          "4122000000",
+          "4111000000",
+          "4163000000",
+          "4117000000"
+        ]
+      },
+      "peaks": {
+        "4111000000": [
+          2017
+        ],
+        "4117000000": [
+          2024
+        ],
+        "4122000000": [
+          2019
+        ],
+        "4146000000": [
+          2018
+        ],
+        "4157000000": [
+          2020
+        ],
+        "4159000000": [
+          2018
+        ],
+        "4163000000": [
+          2023
+        ]
+      },
+      "selections_identical": true,
+      "selected_peaks_identical": true
+    },
+    {
+      "variant": "known_pangyo_overlap_removed",
+      "rankings": {
+        "all": [
+          "4159000000",
+          "4111000000",
+          "4122000000",
+          "4146000000",
+          "4157000000"
+        ],
+        "recent": [
+          "4159000000",
+          "4122000000",
+          "4111000000",
+          "4163000000",
+          "4117000000"
+        ]
+      },
+      "peaks": {
+        "4111000000": [
+          2017
+        ],
+        "4117000000": [
+          2024
+        ],
+        "4122000000": [
+          2019
+        ],
+        "4146000000": [
+          2018
+        ],
+        "4157000000": [
+          2020
+        ],
+        "4159000000": [
+          2018
+        ],
+        "4163000000": [
+          2023
+        ]
+      },
+      "selections_identical": true,
+      "selected_peaks_identical": true
+    }
+  ],
+  "units": {
+    "supply": "수록 입주 일정 세대수",
+    "migration": "명",
+    "comparison_mean": "명/년"
+  },
+  "sources": {
+    "supply": "https://data.kbland.kr/publicdata/housing-supply",
+    "migration": "https://data.kbland.kr/publicdata/population-count",
+    "definition": "https://www.mods.go.kr/boardDownload.es?bid=205&list_no=443278&seq=1"
+  },
+  "observed_through": "2025-12",
+  "checked_on": "2026-10-15",
+  "limitations": [
+    "공급은 현재 제공처에 수록된 입주 일정이며 실제 입주 완료나 이사한 가구 수가 아닙니다. 부재 월은 실제 입주 0의 증거가 아닙니다.",
+    "현재 시 경계에 정리된 과거 자료이며 당시 최초 발표본·모든 과거 행정 경계의 동일성을 검증한 것은 아닙니다.",
+    "이동은 읍면동 경계를 넘는 전체 주민의 전입신고 기반 수치입니다. 아파트 외 주거와 같은 시 안 이동도 포함하며 계약이나 입주 가구와 연결하지 않았습니다.",
+    "순이동은 전입에서 전출을 뺀 값으로 음수가 될 수 있습니다. 순이동 비율은 전입자의 연령 구성이나 인구 이동률이 아닙니다.",
+    "입주가 많은 해를 사후 선택했습니다. 전후 차이는 인과효과나 미래 예측이 아니며 일자리·가격·교육·가구 구성 등 공통 요인이 남습니다.",
+    "안양 2024년 뒤 2년에는 미완결 2026년이 포함돼 해당 평균과 차이를 표시하지 않습니다. 다른 해로 바꾸지 않았습니다.",
+    "확인된 원천 차이와 중첩 조정의 선정 안정성은 모든 누락·중복이 없다는 보장이 아닙니다.",
+    "서울발 수는 확인하지 못했습니다. 하한 0은 실제 0명이 아니라 미확인이고, 상한은 모든 시도간 전입을 서울발로 가정한 값입니다. 이 기간을 입주 집중년으로 소급하거나 연령별 서울발 비중으로 쓰지 않습니다."
+  ]
+}
