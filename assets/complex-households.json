@@ -1,0 +1,4234 @@
+{
+  "schema": "complex_households_v1",
+  "snapshot": "2026-10-02",
+  "source_url": "https://www.k-apt.go.kr/cmmn/kaptworkintro.do",
+  "scopes": {
+    "11": "서울 25개 구",
+    "41": "수집 경기 36개 지역",
+    "11110": "종로구",
+    "11140": "중구",
+    "11170": "용산구",
+    "11200": "성동구",
+    "11215": "광진구",
+    "11230": "동대문구",
+    "11260": "중랑구",
+    "11290": "성북구",
+    "11305": "강북구",
+    "11320": "도봉구",
+    "11350": "노원구",
+    "11380": "은평구",
+    "11410": "서대문구",
+    "11440": "마포구",
+    "11470": "양천구",
+    "11500": "강서구",
+    "11530": "구로구",
+    "11545": "금천구",
+    "11560": "영등포구",
+    "11590": "동작구",
+    "11620": "관악구",
+    "11650": "서초구",
+    "11680": "강남구",
+    "11710": "송파구",
+    "11740": "강동구",
+    "41111": "수원시 장안구",
+    "41113": "수원시 권선구",
+    "41115": "수원시 팔달구",
+    "41117": "수원시 영통구",
+    "41131": "성남시 수정구",
+    "41133": "성남시 중원구",
+    "41135": "성남시 분당구",
+    "41150": "의정부시",
+    "41171": "안양시 만안구",
+    "41173": "안양시 동안구",
+    "41192": "부천시 원미구",
+    "41194": "부천시 소사구",
+    "41196": "부천시 오정구",
+    "41210": "광명시",
+    "41220": "평택시",
+    "41271": "안산시 상록구",
+    "41273": "안산시 단원구",
+    "41281": "고양시 덕양구",
+    "41285": "고양시 일산동구",
+    "41287": "고양시 일산서구",
+    "41290": "과천시",
+    "41310": "구리시",
+    "41360": "남양주시",
+    "41410": "군포시",
+    "41430": "의왕시",
+    "41450": "하남시",
+    "41461": "용인시 처인구",
+    "41463": "용인시 기흥구",
+    "41465": "용인시 수지구",
+    "41480": "파주시",
+    "41570": "김포시",
+    "41591": "화성시 만세구",
+    "41593": "화성시 효행구",
+    "41595": "화성시 병점구",
+    "41597": "화성시 동탄구",
+    "41610": "광주시"
+  },
+  "eras": {
+    "all": "전체",
+    "pre1980": "1980년 이전",
+    "1980s": "1980년대",
+    "1990s": "1990년대",
+    "2000s": "2000년대",
+    "2010s": "2010년대",
+    "2020plus": "2020~2026년",
+    "unknown": "연도 미상",
+    "future": "미래 연도"
+  },
+  "variants": {
+    "main": "기본 집계",
+    "no_conflict": "원천 불일치 제외",
+    "kapt_matched": "등록 유형·연도 일치",
+    "area_only": "면적별 세대수 확인"
+  },
+  "bands": {
+    "under300": "300세대 미만",
+    "300to499": "300~499세대",
+    "500to999": "500~999세대",
+    "1000plus": "1,000세대 이상"
+  },
+  "sources": {
+    "area_sum": "면적별 세대수 합계",
+    "ledger_preferred": "건축물대장 우선값",
+    "title_sum": "주거 표제부 합계",
+    "kapt_basic": "등록 기본정보",
+    "unavailable": "세대수 미상"
+  },
+  "rows": [
+    {
+      "scope": "11",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 190.0,
+        "q25": 20.0,
+        "median": 40.0,
+        "q75": 190.0
+      },
+      "complex_pct": [
+        85.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "household_pct": [
+        25.0,
+        15.0,
+        25.0,
+        35.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "all",
+      "variant": "no_conflict",
+      "summary": {
+        "mean": 170.0,
+        "q25": 20.0,
+        "median": 30.0,
+        "q75": 140.0
+      },
+      "complex_pct": [
+        85.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "household_pct": [
+        30.0,
+        15.0,
+        25.0,
+        35.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          80,
+          90
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "all",
+      "variant": "kapt_matched",
+      "summary": {
+        "mean": 510.0,
+        "q25": 190.0,
+        "median": 310.0,
+        "q75": 600.0
+      },
+      "complex_pct": [
+        50.0,
+        20.0,
+        20.0,
+        10.0
+      ],
+      "household_pct": [
+        20.0,
+        15.0,
+        25.0,
+        40.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "known_households": [
+          70,
+          80
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "all",
+      "variant": "area_only",
+      "summary": {
+        "mean": 510.0,
+        "q25": 190.0,
+        "median": 310.0,
+        "q75": 600.0
+      },
+      "complex_pct": [
+        50.0,
+        20.0,
+        20.0,
+        10.0
+      ],
+      "household_pct": [
+        20.0,
+        15.0,
+        25.0,
+        40.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "known_households": [
+          80,
+          90
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "pre1980",
+      "variant": "main",
+      "summary": {
+        "mean": 210.0,
+        "q25": 30.0,
+        "median": 70.0,
+        "q75": 170.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          70,
+          80
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "pre1980",
+      "variant": "no_conflict",
+      "summary": {
+        "mean": 160.0,
+        "q25": 30.0,
+        "median": 60.0,
+        "q75": 130.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          70,
+          80
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          60,
+          70
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "pre1980",
+      "variant": "kapt_matched",
+      "summary": {
+        "mean": 640.0,
+        "q25": 190.0,
+        "median": 340.0,
+        "q75": 590.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          10,
+          20
+        ],
+        "known_households": [
+          60,
+          70
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "pre1980",
+      "variant": "area_only",
+      "summary": {
+        "mean": 620.0,
+        "q25": 180.0,
+        "median": 340.0,
+        "q75": 590.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          10,
+          20
+        ],
+        "known_households": [
+          60,
+          70
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "1980s",
+      "variant": "main",
+      "summary": {
+        "mean": 560.0,
+        "q25": 160.0,
+        "median": 380.0,
+        "q75": 640.0
+      },
+      "complex_pct": [
+        45.0,
+        20.0,
+        20.0,
+        15.0
+      ],
+      "household_pct": [
+        10.0,
+        15.0,
+        25.0,
+        50.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          70,
+          80
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "1980s",
+      "variant": "no_conflict",
+      "summary": {
+        "mean": 460.0,
+        "q25": 120.0,
+        "median": 300.0,
+        "q75": 560.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          60,
+          70
+        ],
+        "selected_complexes": [
+          80,
+          90
+        ],
+        "known_households": [
+          60,
+          70
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "1980s",
+      "variant": "kapt_matched",
+      "summary": {
+        "mean": 700.0,
+        "q25": 280.0,
+        "median": 480.0,
+        "q75": 800.0
+      },
+      "complex_pct": [
+        30.0,
+        30.0,
+        25.0,
+        20.0
+      ],
+      "household_pct": [
+        10.0,
+        15.0,
+        25.0,
+        50.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "known_households": [
+          80,
+          90
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "1980s",
+      "variant": "area_only",
+      "summary": {
+        "mean": 690.0,
+        "q25": 280.0,
+        "median": 480.0,
+        "q75": 790.0
+      },
+      "complex_pct": [
+        30.0,
+        30.0,
+        25.0,
+        20.0
+      ],
+      "household_pct": [
+        10.0,
+        15.0,
+        25.0,
+        50.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "1990s",
+      "variant": "main",
+      "summary": {
+        "mean": 240.0,
+        "q25": 20.0,
+        "median": 100.0,
+        "q75": 280.0
+      },
+      "complex_pct": [
+        75.0,
+        10.0,
+        10.0,
+        5.0
+      ],
+      "household_pct": [
+        25.0,
+        15.0,
+        25.0,
+        30.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "1990s",
+      "variant": "no_conflict",
+      "summary": {
+        "mean": 190.0,
+        "q25": 10.0,
+        "median": 50.0,
+        "q75": 220.0
+      },
+      "complex_pct": [
+        80.0,
+        10.0,
+        5.0,
+        5.0
+      ],
+      "household_pct": [
+        30.0,
+        20.0,
+        25.0,
+        30.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          80,
+          90
+        ],
+        "known_households": [
+          60,
+          70
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "1990s",
+      "variant": "kapt_matched",
+      "summary": {
+        "mean": 440.0,
+        "q25": 190.0,
+        "median": 290.0,
+        "q75": 540.0
+      },
+      "complex_pct": [
+        50.0,
+        20.0,
+        20.0,
+        10.0
+      ],
+      "household_pct": [
+        25.0,
+        20.0,
+        30.0,
+        25.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          40,
+          50
+        ],
+        "known_households": [
+          80,
+          90
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "1990s",
+      "variant": "area_only",
+      "summary": {
+        "mean": 440.0,
+        "q25": 180.0,
+        "median": 280.0,
+        "q75": 540.0
+      },
+      "complex_pct": [
+        50.0,
+        20.0,
+        20.0,
+        10.0
+      ],
+      "household_pct": [
+        25.0,
+        20.0,
+        30.0,
+        30.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          40,
+          50
+        ],
+        "known_households": [
+          80,
+          90
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "2000s",
+      "variant": "main",
+      "summary": {
+        "mean": 120.0,
+        "q25": 10.0,
+        "median": 20.0,
+        "q75": 80.0
+      },
+      "complex_pct": [
+        90.0,
+        5.0,
+        5.0,
+        0.0
+      ],
+      "household_pct": [
+        35.0,
+        15.0,
+        20.0,
+        30.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "2000s",
+      "variant": "no_conflict",
+      "summary": {
+        "mean": 100.0,
+        "q25": 10.0,
+        "median": 20.0,
+        "q75": 70.0
+      },
+      "complex_pct": [
+        95.0,
+        5.0,
+        5.0,
+        0.0
+      ],
+      "household_pct": [
+        40.0,
+        10.0,
+        20.0,
+        25.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          80,
+          90
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "2000s",
+      "variant": "kapt_matched",
+      "summary": {
+        "mean": 430.0,
+        "q25": 160.0,
+        "median": 250.0,
+        "q75": 480.0
+      },
+      "complex_pct": [
+        60.0,
+        20.0,
+        15.0,
+        5.0
+      ],
+      "household_pct": [
+        25.0,
+        15.0,
+        25.0,
+        35.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "known_households": [
+          70,
+          80
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "2000s",
+      "variant": "area_only",
+      "summary": {
+        "mean": 430.0,
+        "q25": 160.0,
+        "median": 250.0,
+        "q75": 470.0
+      },
+      "complex_pct": [
+        60.0,
+        20.0,
+        15.0,
+        5.0
+      ],
+      "household_pct": [
+        25.0,
+        15.0,
+        25.0,
+        35.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "known_households": [
+          70,
+          80
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "2010s",
+      "variant": "main",
+      "summary": {
+        "mean": 260.0,
+        "q25": 30.0,
+        "median": 80.0,
+        "q75": 300.0
+      },
+      "complex_pct": [
+        75.0,
+        10.0,
+        10.0,
+        5.0
+      ],
+      "household_pct": [
+        20.0,
+        15.0,
+        25.0,
+        40.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "2010s",
+      "variant": "no_conflict",
+      "summary": {
+        "mean": 250.0,
+        "q25": 30.0,
+        "median": 70.0,
+        "q75": 290.0
+      },
+      "complex_pct": [
+        75.0,
+        10.0,
+        10.0,
+        5.0
+      ],
+      "household_pct": [
+        20.0,
+        15.0,
+        25.0,
+        40.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "2010s",
+      "variant": "kapt_matched",
+      "summary": {
+        "mean": 590.0,
+        "q25": 230.0,
+        "median": 420.0,
+        "q75": 770.0
+      },
+      "complex_pct": [
+        40.0,
+        20.0,
+        25.0,
+        15.0
+      ],
+      "household_pct": [
+        15.0,
+        15.0,
+        30.0,
+        45.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          30,
+          40
+        ],
+        "known_households": [
+          80,
+          90
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "2010s",
+      "variant": "area_only",
+      "summary": {
+        "mean": 590.0,
+        "q25": 230.0,
+        "median": 420.0,
+        "q75": 780.0
+      },
+      "complex_pct": [
+        40.0,
+        20.0,
+        25.0,
+        15.0
+      ],
+      "household_pct": [
+        15.0,
+        15.0,
+        30.0,
+        45.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          30,
+          40
+        ],
+        "known_households": [
+          80,
+          90
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "2020plus",
+      "variant": "main",
+      "summary": {
+        "mean": 380.0,
+        "q25": 40.0,
+        "median": 100.0,
+        "q75": 420.0
+      },
+      "complex_pct": [
+        70.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "household_pct": [
+        15.0,
+        10.0,
+        25.0,
+        50.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "2020plus",
+      "variant": "no_conflict",
+      "summary": {
+        "mean": 380.0,
+        "q25": 40.0,
+        "median": 100.0,
+        "q75": 410.0
+      },
+      "complex_pct": [
+        70.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "household_pct": [
+        15.0,
+        10.0,
+        20.0,
+        55.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "2020plus",
+      "variant": "kapt_matched",
+      "summary": {
+        "mean": 730.0,
+        "q25": 270.0,
+        "median": 450.0,
+        "q75": 890.0
+      },
+      "complex_pct": [
+        35.0,
+        20.0,
+        25.0,
+        20.0
+      ],
+      "household_pct": [
+        10.0,
+        10.0,
+        25.0,
+        55.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          30,
+          40
+        ],
+        "known_households": [
+          70,
+          80
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "2020plus",
+      "variant": "area_only",
+      "summary": {
+        "mean": 740.0,
+        "q25": 270.0,
+        "median": 460.0,
+        "q75": 940.0
+      },
+      "complex_pct": [
+        35.0,
+        20.0,
+        25.0,
+        20.0
+      ],
+      "household_pct": [
+        10.0,
+        10.0,
+        25.0,
+        55.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          30,
+          40
+        ],
+        "known_households": [
+          70,
+          80
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "era": "unknown",
+      "variant": "main",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "11",
+      "era": "unknown",
+      "variant": "no_conflict",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "11",
+      "era": "unknown",
+      "variant": "kapt_matched",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "11",
+      "era": "unknown",
+      "variant": "area_only",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "11",
+      "era": "future",
+      "variant": "main",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "11",
+      "era": "future",
+      "variant": "no_conflict",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "11",
+      "era": "future",
+      "variant": "kapt_matched",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "11",
+      "era": "future",
+      "variant": "area_only",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "41",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 410.0,
+        "q25": 50.0,
+        "median": 270.0,
+        "q75": 600.0
+      },
+      "complex_pct": [
+        55.0,
+        15.0,
+        20.0,
+        10.0
+      ],
+      "household_pct": [
+        10.0,
+        15.0,
+        35.0,
+        35.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          80,
+          90
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "all",
+      "variant": "no_conflict",
+      "summary": {
+        "mean": 400.0,
+        "q25": 40.0,
+        "median": 240.0,
+        "q75": 590.0
+      },
+      "complex_pct": [
+        55.0,
+        15.0,
+        20.0,
+        10.0
+      ],
+      "household_pct": [
+        15.0,
+        15.0,
+        35.0,
+        35.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          80,
+          90
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          80,
+          90
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "all",
+      "variant": "kapt_matched",
+      "summary": {
+        "mean": 620.0,
+        "q25": 300.0,
+        "median": 500.0,
+        "q75": 800.0
+      },
+      "complex_pct": [
+        25.0,
+        25.0,
+        35.0,
+        15.0
+      ],
+      "household_pct": [
+        10.0,
+        15.0,
+        40.0,
+        35.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "all",
+      "variant": "area_only",
+      "summary": {
+        "mean": 620.0,
+        "q25": 300.0,
+        "median": 500.0,
+        "q75": 800.0
+      },
+      "complex_pct": [
+        25.0,
+        25.0,
+        35.0,
+        15.0
+      ],
+      "household_pct": [
+        10.0,
+        15.0,
+        40.0,
+        35.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "pre1980",
+      "variant": "main",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "41",
+      "era": "pre1980",
+      "variant": "no_conflict",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "41",
+      "era": "pre1980",
+      "variant": "kapt_matched",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "41",
+      "era": "pre1980",
+      "variant": "area_only",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "41",
+      "era": "1980s",
+      "variant": "main",
+      "summary": {
+        "mean": 170.0,
+        "q25": 40.0,
+        "median": 70.0,
+        "q75": 130.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          70,
+          80
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "1980s",
+      "variant": "no_conflict",
+      "summary": {
+        "mean": 150.0,
+        "q25": 40.0,
+        "median": 70.0,
+        "q75": 100.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          60,
+          70
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          80,
+          90
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "1980s",
+      "variant": "kapt_matched",
+      "summary": {
+        "mean": 580.0,
+        "q25": 210.0,
+        "median": 370.0,
+        "q75": 780.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          10,
+          20
+        ],
+        "known_households": [
+          60,
+          70
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "1980s",
+      "variant": "area_only",
+      "summary": {
+        "mean": 560.0,
+        "q25": 210.0,
+        "median": 370.0,
+        "q75": 750.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          10,
+          20
+        ],
+        "known_households": [
+          60,
+          70
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "1990s",
+      "variant": "main",
+      "summary": {
+        "mean": 430.0,
+        "q25": 90.0,
+        "median": 300.0,
+        "q75": 600.0
+      },
+      "complex_pct": [
+        50.0,
+        20.0,
+        25.0,
+        10.0
+      ],
+      "household_pct": [
+        15.0,
+        20.0,
+        40.0,
+        30.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          80,
+          90
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "1990s",
+      "variant": "no_conflict",
+      "summary": {
+        "mean": 410.0,
+        "q25": 70.0,
+        "median": 280.0,
+        "q75": 590.0
+      },
+      "complex_pct": [
+        55.0,
+        15.0,
+        20.0,
+        10.0
+      ],
+      "household_pct": [
+        15.0,
+        15.0,
+        40.0,
+        30.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          70,
+          80
+        ],
+        "selected_complexes": [
+          80,
+          90
+        ],
+        "known_households": [
+          80,
+          90
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "1990s",
+      "variant": "kapt_matched",
+      "summary": {
+        "mean": 560.0,
+        "q25": 270.0,
+        "median": 460.0,
+        "q75": 720.0
+      },
+      "complex_pct": [
+        30.0,
+        25.0,
+        30.0,
+        10.0
+      ],
+      "household_pct": [
+        10.0,
+        20.0,
+        40.0,
+        30.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "known_households": [
+          80,
+          90
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "1990s",
+      "variant": "area_only",
+      "summary": {
+        "mean": 560.0,
+        "q25": 270.0,
+        "median": 460.0,
+        "q75": 710.0
+      },
+      "complex_pct": [
+        30.0,
+        25.0,
+        30.0,
+        10.0
+      ],
+      "household_pct": [
+        10.0,
+        20.0,
+        40.0,
+        30.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "known_households": [
+          80,
+          90
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "2000s",
+      "variant": "main",
+      "summary": {
+        "mean": 360.0,
+        "q25": 40.0,
+        "median": 250.0,
+        "q75": 520.0
+      },
+      "complex_pct": [
+        55.0,
+        20.0,
+        20.0,
+        5.0
+      ],
+      "household_pct": [
+        15.0,
+        20.0,
+        40.0,
+        25.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "2000s",
+      "variant": "no_conflict",
+      "summary": {
+        "mean": 330.0,
+        "q25": 20.0,
+        "median": 220.0,
+        "q75": 490.0
+      },
+      "complex_pct": [
+        60.0,
+        20.0,
+        20.0,
+        5.0
+      ],
+      "household_pct": [
+        15.0,
+        25.0,
+        40.0,
+        25.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          80,
+          90
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "2000s",
+      "variant": "kapt_matched",
+      "summary": {
+        "mean": 550.0,
+        "q25": 280.0,
+        "median": 460.0,
+        "q75": 690.0
+      },
+      "complex_pct": [
+        30.0,
+        30.0,
+        30.0,
+        10.0
+      ],
+      "household_pct": [
+        10.0,
+        20.0,
+        40.0,
+        25.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "2000s",
+      "variant": "area_only",
+      "summary": {
+        "mean": 550.0,
+        "q25": 280.0,
+        "median": 460.0,
+        "q75": 680.0
+      },
+      "complex_pct": [
+        30.0,
+        30.0,
+        30.0,
+        10.0
+      ],
+      "household_pct": [
+        10.0,
+        20.0,
+        40.0,
+        25.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "2010s",
+      "variant": "main",
+      "summary": {
+        "mean": 490.0,
+        "q25": 50.0,
+        "median": 360.0,
+        "q75": 750.0
+      },
+      "complex_pct": [
+        45.0,
+        10.0,
+        25.0,
+        15.0
+      ],
+      "household_pct": [
+        10.0,
+        10.0,
+        40.0,
+        40.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "2010s",
+      "variant": "no_conflict",
+      "summary": {
+        "mean": 490.0,
+        "q25": 50.0,
+        "median": 360.0,
+        "q75": 750.0
+      },
+      "complex_pct": [
+        45.0,
+        15.0,
+        25.0,
+        15.0
+      ],
+      "household_pct": [
+        10.0,
+        10.0,
+        40.0,
+        40.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "2010s",
+      "variant": "kapt_matched",
+      "summary": {
+        "mean": 720.0,
+        "q25": 350.0,
+        "median": 620.0,
+        "q75": 960.0
+      },
+      "complex_pct": [
+        20.0,
+        20.0,
+        40.0,
+        20.0
+      ],
+      "household_pct": [
+        5.0,
+        10.0,
+        40.0,
+        45.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          60,
+          70
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "2010s",
+      "variant": "area_only",
+      "summary": {
+        "mean": 720.0,
+        "q25": 350.0,
+        "median": 620.0,
+        "q75": 960.0
+      },
+      "complex_pct": [
+        20.0,
+        20.0,
+        40.0,
+        20.0
+      ],
+      "household_pct": [
+        5.0,
+        10.0,
+        40.0,
+        45.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          60,
+          70
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "2020plus",
+      "variant": "main",
+      "summary": {
+        "mean": 580.0,
+        "q25": 50.0,
+        "median": 420.0,
+        "q75": 830.0
+      },
+      "complex_pct": [
+        45.0,
+        10.0,
+        25.0,
+        20.0
+      ],
+      "household_pct": [
+        5.0,
+        10.0,
+        35.0,
+        50.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "2020plus",
+      "variant": "no_conflict",
+      "summary": {
+        "mean": 580.0,
+        "q25": 50.0,
+        "median": 420.0,
+        "q75": 830.0
+      },
+      "complex_pct": [
+        45.0,
+        10.0,
+        25.0,
+        20.0
+      ],
+      "household_pct": [
+        5.0,
+        10.0,
+        30.0,
+        55.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "2020plus",
+      "variant": "kapt_matched",
+      "summary": {
+        "mean": 820.0,
+        "q25": 400.0,
+        "median": 660.0,
+        "q75": 1000.0
+      },
+      "complex_pct": [
+        20.0,
+        20.0,
+        40.0,
+        25.0
+      ],
+      "household_pct": [
+        5.0,
+        10.0,
+        35.0,
+        50.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "known_households": [
+          80,
+          90
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "2020plus",
+      "variant": "area_only",
+      "summary": {
+        "mean": 820.0,
+        "q25": 400.0,
+        "median": 660.0,
+        "q75": 1000.0
+      },
+      "complex_pct": [
+        20.0,
+        20.0,
+        40.0,
+        25.0
+      ],
+      "household_pct": [
+        5.0,
+        10.0,
+        35.0,
+        50.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          60,
+          70
+        ],
+        "known_households": [
+          80,
+          90
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "era": "unknown",
+      "variant": "main",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "41",
+      "era": "unknown",
+      "variant": "no_conflict",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "41",
+      "era": "unknown",
+      "variant": "kapt_matched",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "41",
+      "era": "unknown",
+      "variant": "area_only",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "41",
+      "era": "future",
+      "variant": "main",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "41",
+      "era": "future",
+      "variant": "no_conflict",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "41",
+      "era": "future",
+      "variant": "kapt_matched",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "41",
+      "era": "future",
+      "variant": "area_only",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "11110",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 110.0,
+        "q25": 10.0,
+        "median": 20.0,
+        "q75": 110.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          80,
+          90
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11140",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          80,
+          90
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11170",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 150.0,
+        "q25": 20.0,
+        "median": 50.0,
+        "q75": 180.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11200",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 390.0,
+        "q25": 60.0,
+        "median": 230.0,
+        "q75": 530.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11215",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 150.0,
+        "q25": 20.0,
+        "median": 40.0,
+        "q75": 180.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11230",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 220.0,
+        "q25": 20.0,
+        "median": 50.0,
+        "q75": 230.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11260",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 180.0,
+        "q25": 20.0,
+        "median": 60.0,
+        "q75": 190.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11290",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 380.0,
+        "q25": 30.0,
+        "median": 200.0,
+        "q75": 510.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11305",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 200.0,
+        "q25": 20.0,
+        "median": 40.0,
+        "q75": 200.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11320",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 290.0,
+        "q25": 20.0,
+        "median": 110.0,
+        "q75": 300.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11350",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 440.0,
+        "q25": 60.0,
+        "median": 220.0,
+        "q75": 510.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          80,
+          90
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11380",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 120.0,
+        "q25": 20.0,
+        "median": 20.0,
+        "q75": 100.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11410",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 160.0,
+        "q25": 20.0,
+        "median": 20.0,
+        "q75": 120.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11440",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 180.0,
+        "q25": 20.0,
+        "median": 50.0,
+        "q75": 210.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11470",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 170.0,
+        "q25": 20.0,
+        "median": 40.0,
+        "q75": 130.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11500",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 150.0,
+        "q25": 20.0,
+        "median": 40.0,
+        "q75": 120.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11530",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 110.0,
+        "q25": 10.0,
+        "median": 10.0,
+        "q75": 100.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11545",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 170.0,
+        "q25": 20.0,
+        "median": 30.0,
+        "q75": 120.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11560",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 290.0,
+        "q25": 80.0,
+        "median": 190.0,
+        "q75": 380.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11590",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 250.0,
+        "q25": 20.0,
+        "median": 110.0,
+        "q75": 330.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11620",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 150.0,
+        "q25": 20.0,
+        "median": 30.0,
+        "q75": 120.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11650",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 120.0,
+        "q25": 10.0,
+        "median": 20.0,
+        "q75": 90.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11680",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 190.0,
+        "q25": 20.0,
+        "median": 30.0,
+        "q75": 170.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          80,
+          90
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11710",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 280.0,
+        "q25": 20.0,
+        "median": 30.0,
+        "q75": 220.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11740",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 200.0,
+        "q25": 20.0,
+        "median": 40.0,
+        "q75": 110.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41111",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 360.0,
+        "q25": 70.0,
+        "median": 150.0,
+        "q75": 480.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41113",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 370.0,
+        "q25": 20.0,
+        "median": 250.0,
+        "q75": 540.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41115",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 360.0,
+        "q25": 50.0,
+        "median": 140.0,
+        "q75": 300.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          80,
+          90
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41117",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 700.0,
+        "q25": 270.0,
+        "median": 550.0,
+        "q75": 900.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          80,
+          90
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41131",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 310.0,
+        "q25": 50.0,
+        "median": 110.0,
+        "q75": 390.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41133",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 290.0,
+        "q25": 20.0,
+        "median": 70.0,
+        "q75": 410.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41135",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 600.0,
+        "q25": 270.0,
+        "median": 510.0,
+        "q75": 790.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          70,
+          80
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41150",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 410.0,
+        "q25": 120.0,
+        "median": 280.0,
+        "q75": 610.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41171",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 220.0,
+        "q25": 20.0,
+        "median": 60.0,
+        "q75": 220.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          80,
+          90
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41173",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 470.0,
+        "q25": 50.0,
+        "median": 190.0,
+        "q75": 630.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          70,
+          80
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41192",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 200.0,
+        "q25": 20.0,
+        "median": 50.0,
+        "q75": 200.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          80,
+          90
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41194",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 200.0,
+        "q25": 30.0,
+        "median": 50.0,
+        "q75": 160.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          80,
+          90
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41196",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 70.0,
+        "q25": 20.0,
+        "median": 40.0,
+        "q75": 80.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41210",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 670.0,
+        "q25": 100.0,
+        "median": 410.0,
+        "q75": 1070.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          80,
+          90
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41220",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 440.0,
+        "q25": 120.0,
+        "median": 300.0,
+        "q75": 660.0
+      },
+      "complex_pct": [
+        50.0,
+        15.0,
+        30.0,
+        10.0
+      ],
+      "household_pct": [
+        15.0,
+        10.0,
+        45.0,
+        25.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41271",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 550.0,
+        "q25": 30.0,
+        "median": 300.0,
+        "q75": 720.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41273",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 840.0,
+        "q25": 450.0,
+        "median": 800.0,
+        "q75": 1150.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          70,
+          80
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41281",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 430.0,
+        "q25": 80.0,
+        "median": 300.0,
+        "q75": 620.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          80,
+          90
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41285",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 680.0,
+        "q25": 330.0,
+        "median": 550.0,
+        "q75": 920.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          60,
+          70
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41287",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 530.0,
+        "q25": 270.0,
+        "median": 460.0,
+        "q75": 660.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          70,
+          80
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41290",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "scope": "41310",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 220.0,
+        "q25": 20.0,
+        "median": 20.0,
+        "q75": 310.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          80,
+          90
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41360",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 460.0,
+        "q25": 200.0,
+        "median": 400.0,
+        "q75": 640.0
+      },
+      "complex_pct": [
+        35.0,
+        30.0,
+        25.0,
+        10.0
+      ],
+      "household_pct": [
+        10.0,
+        25.0,
+        40.0,
+        25.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41410",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 300.0,
+        "q25": 20.0,
+        "median": 50.0,
+        "q75": 410.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41430",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 380.0,
+        "q25": 130.0,
+        "median": 330.0,
+        "q75": 510.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          80,
+          90
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41450",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 630.0,
+        "q25": 300.0,
+        "median": 620.0,
+        "q75": 870.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41461",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 270.0,
+        "q25": 20.0,
+        "median": 50.0,
+        "q75": 380.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41463",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 440.0,
+        "q25": 170.0,
+        "median": 380.0,
+        "q75": 590.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41465",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 410.0,
+        "q25": 110.0,
+        "median": 340.0,
+        "q75": 560.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41480",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 590.0,
+        "q25": 180.0,
+        "median": 450.0,
+        "q75": 820.0
+      },
+      "complex_pct": [
+        40.0,
+        20.0,
+        25.0,
+        20.0
+      ],
+      "household_pct": [
+        10.0,
+        10.0,
+        25.0,
+        50.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41570",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 670.0,
+        "q25": 290.0,
+        "median": 520.0,
+        "q75": 920.0
+      },
+      "complex_pct": [
+        25.0,
+        25.0,
+        25.0,
+        25.0
+      ],
+      "household_pct": [
+        5.0,
+        15.0,
+        25.0,
+        50.0
+      ],
+      "coverage": {
+        "known_complexes": [
+          80,
+          90
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41591",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 450.0,
+        "q25": 60.0,
+        "median": 430.0,
+        "q75": 680.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41593",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 610.0,
+        "q25": 290.0,
+        "median": 620.0,
+        "q75": 820.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41595",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 650.0,
+        "q25": 380.0,
+        "median": 580.0,
+        "q75": 780.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41597",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 740.0,
+        "q25": 500.0,
+        "median": 710.0,
+        "q75": 920.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41610",
+      "era": "all",
+      "variant": "main",
+      "summary": {
+        "mean": 460.0,
+        "q25": 300.0,
+        "median": 400.0,
+        "q75": 510.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    }
+  ],
+  "source_rows": [
+    {
+      "source": "area_sum",
+      "scope": "11",
+      "era": "all",
+      "variant": "source",
+      "summary": {
+        "mean": 510.0,
+        "q25": 190.0,
+        "median": 310.0,
+        "q75": 600.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "known_households": [
+          80,
+          90
+        ]
+      }
+    },
+    {
+      "source": "ledger_preferred",
+      "scope": "11",
+      "era": "all",
+      "variant": "source",
+      "summary": {
+        "mean": 50.0,
+        "q25": 10.0,
+        "median": 20.0,
+        "q75": 40.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          60,
+          70
+        ],
+        "known_households": [
+          10,
+          20
+        ]
+      }
+    },
+    {
+      "source": "title_sum",
+      "scope": "11",
+      "era": "all",
+      "variant": "source",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "source": "kapt_basic",
+      "scope": "11",
+      "era": "all",
+      "variant": "source",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "source": "unavailable",
+      "scope": "11",
+      "era": "all",
+      "variant": "source",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          0,
+          10
+        ],
+        "selected_complexes": [
+          0,
+          10
+        ],
+        "known_households": [
+          0,
+          10
+        ]
+      }
+    },
+    {
+      "source": "area_sum",
+      "scope": "41",
+      "era": "all",
+      "variant": "source",
+      "summary": {
+        "mean": 620.0,
+        "q25": 300.0,
+        "median": 500.0,
+        "q75": 800.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "source": "ledger_preferred",
+      "scope": "41",
+      "era": "all",
+      "variant": "source",
+      "summary": {
+        "mean": 90.0,
+        "q25": 20.0,
+        "median": 30.0,
+        "q75": 70.0
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          90,
+          100
+        ],
+        "selected_complexes": [
+          30,
+          40
+        ],
+        "known_households": [
+          0,
+          10
+        ]
+      }
+    },
+    {
+      "source": "title_sum",
+      "scope": "41",
+      "era": "all",
+      "variant": "source",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "source": "kapt_basic",
+      "scope": "41",
+      "era": "all",
+      "variant": "source",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": null,
+        "selected_complexes": null,
+        "known_households": null
+      }
+    },
+    {
+      "source": "unavailable",
+      "scope": "41",
+      "era": "all",
+      "variant": "source",
+      "summary": {
+        "mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "complex_pct": null,
+      "household_pct": null,
+      "coverage": {
+        "known_complexes": [
+          0,
+          10
+        ],
+        "selected_complexes": [
+          10,
+          20
+        ],
+        "known_households": [
+          0,
+          10
+        ]
+      }
+    }
+  ],
+  "precision": {
+    "household_step": 10,
+    "percentage_step": 5,
+    "coverage_band_pp": 10
+  },
+  "limits": [
+    "Current retained complex census, not all legal housing, occupancy or a demolition inventory.",
+    "Mean and type-7 quantiles weight each known complex equally; category household shares use only known households.",
+    "Valid full area sum precedes identifiable ledger, residential-title and basic counts. Lower-priority disagreements remain flags.",
+    "Identifiable parcel totals can omit buildings of a reporting complex. The measured-area subset has different coverage.",
+    "Current completion cohorts are survivorship-conditioned; no historical cohort census or causal price effect.",
+    "Rounded percentages can fail to sum to 100; zero after rounding does not establish absence. Withheld rows remain visible.",
+    "No identities, exact additive totals, exact denominators, event links or new rental-count/price equations are published."
+  ]
+}
