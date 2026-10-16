@@ -1,0 +1,8217 @@
+{
+  "schema": "aging_stock_v1",
+  "snapshot": "2026-10-02",
+  "years": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032,
+    2033,
+    2034,
+    2035
+  ],
+  "scopes": {
+    "11": "서울 25개 구",
+    "41": "수집 경기 36개 지역",
+    "11110": "종로구",
+    "11140": "중구",
+    "11170": "용산구",
+    "11200": "성동구",
+    "11215": "광진구",
+    "11230": "동대문구",
+    "11260": "중랑구",
+    "11290": "성북구",
+    "11305": "강북구",
+    "11320": "도봉구",
+    "11350": "노원구",
+    "11380": "은평구",
+    "11410": "서대문구",
+    "11440": "마포구",
+    "11470": "양천구",
+    "11500": "강서구",
+    "11530": "구로구",
+    "11545": "금천구",
+    "11560": "영등포구",
+    "11590": "동작구",
+    "11620": "관악구",
+    "11650": "서초구",
+    "11680": "강남구",
+    "11710": "송파구",
+    "11740": "강동구",
+    "41111": "수원시 장안구",
+    "41113": "수원시 권선구",
+    "41115": "수원시 팔달구",
+    "41117": "수원시 영통구",
+    "41131": "성남시 수정구",
+    "41133": "성남시 중원구",
+    "41135": "성남시 분당구",
+    "41150": "의정부시",
+    "41171": "안양시 만안구",
+    "41173": "안양시 동안구",
+    "41192": "부천시 원미구",
+    "41194": "부천시 소사구",
+    "41196": "부천시 오정구",
+    "41210": "광명시",
+    "41220": "평택시",
+    "41271": "안산시 상록구",
+    "41273": "안산시 단원구",
+    "41281": "고양시 덕양구",
+    "41285": "고양시 일산동구",
+    "41287": "고양시 일산서구",
+    "41290": "과천시",
+    "41310": "구리시",
+    "41360": "남양주시",
+    "41410": "군포시",
+    "41430": "의왕시",
+    "41450": "하남시",
+    "41461": "용인시 처인구",
+    "41463": "용인시 기흥구",
+    "41465": "용인시 수지구",
+    "41480": "파주시",
+    "41570": "김포시",
+    "41591": "화성시 만세구",
+    "41593": "화성시 효행구",
+    "41595": "화성시 병점구",
+    "41597": "화성시 동탄구",
+    "41610": "광주시"
+  },
+  "variants": {
+    "main": "기본 집계",
+    "no_conflict": "원천 불일치 제외",
+    "kapt_matched": "등록 유형·연도 일치",
+    "area_only": "면적별 세대수 확인"
+  },
+  "precision": {
+    "household_step": 1000,
+    "percentage_step": 5,
+    "coverage_band_pp": 10
+  },
+  "definitions": {
+    "entry": "build_year+30=year",
+    "old": "build_year<=year-30",
+    "valid_year": "integer1900..2026",
+    "household_share": "known positive households with valid year",
+    "complex_share": "complexes with valid year, including unknown households"
+  },
+  "rows": [
+    {
+      "scope": "11",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": 40000.0,
+      "old_households": 447000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 20.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2027,
+      "variant": "main",
+      "entry_households": 52000.0,
+      "old_households": 499000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 20.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2028,
+      "variant": "main",
+      "entry_households": 49000.0,
+      "old_households": 548000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2029,
+      "variant": "main",
+      "entry_households": 72000.0,
+      "old_households": 620000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": 72000.0,
+      "old_households": 692000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2031,
+      "variant": "main",
+      "entry_households": 50000.0,
+      "old_households": 742000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2032,
+      "variant": "main",
+      "entry_households": 55000.0,
+      "old_households": 797000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2033,
+      "variant": "main",
+      "entry_households": 78000.0,
+      "old_households": 875000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2034,
+      "variant": "main",
+      "entry_households": 81000.0,
+      "old_households": 956000.0,
+      "old_household_pct": 55.0,
+      "old_complex_pct": 65.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": 57000.0,
+      "old_households": 1013000.0,
+      "old_household_pct": 60.0,
+      "old_complex_pct": 70.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "variant": "no_conflict",
+      "entry_households": 28000.0,
+      "old_households": 299000.0,
+      "old_household_pct": 20.0,
+      "old_complex_pct": 15.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2027,
+      "variant": "no_conflict",
+      "entry_households": 34000.0,
+      "old_households": 333000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 20.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2028,
+      "variant": "no_conflict",
+      "entry_households": 37000.0,
+      "old_households": 370000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 20.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2029,
+      "variant": "no_conflict",
+      "entry_households": 52000.0,
+      "old_households": 422000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2030,
+      "variant": "no_conflict",
+      "entry_households": 44000.0,
+      "old_households": 466000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2031,
+      "variant": "no_conflict",
+      "entry_households": 31000.0,
+      "old_households": 497000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2032,
+      "variant": "no_conflict",
+      "entry_households": 48000.0,
+      "old_households": 545000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2033,
+      "variant": "no_conflict",
+      "entry_households": 63000.0,
+      "old_households": 608000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2034,
+      "variant": "no_conflict",
+      "entry_households": 75000.0,
+      "old_households": 684000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 60.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2035,
+      "variant": "no_conflict",
+      "entry_households": 52000.0,
+      "old_households": 736000.0,
+      "old_household_pct": 55.0,
+      "old_complex_pct": 70.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "variant": "kapt_matched",
+      "entry_households": 27000.0,
+      "old_households": 377000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          70,
+          80
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2027,
+      "variant": "kapt_matched",
+      "entry_households": 44000.0,
+      "old_households": 421000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          70,
+          80
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2028,
+      "variant": "kapt_matched",
+      "entry_households": 40000.0,
+      "old_households": 461000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          70,
+          80
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2029,
+      "variant": "kapt_matched",
+      "entry_households": 58000.0,
+      "old_households": 520000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          70,
+          80
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2030,
+      "variant": "kapt_matched",
+      "entry_households": 58000.0,
+      "old_households": 578000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 45.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          70,
+          80
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2031,
+      "variant": "kapt_matched",
+      "entry_households": 38000.0,
+      "old_households": 616000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 45.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          70,
+          80
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2032,
+      "variant": "kapt_matched",
+      "entry_households": 36000.0,
+      "old_households": 652000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          70,
+          80
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2033,
+      "variant": "kapt_matched",
+      "entry_households": 56000.0,
+      "old_households": 708000.0,
+      "old_household_pct": 55.0,
+      "old_complex_pct": 55.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          70,
+          80
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2034,
+      "variant": "kapt_matched",
+      "entry_households": 60000.0,
+      "old_households": 768000.0,
+      "old_household_pct": 55.0,
+      "old_complex_pct": 60.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          70,
+          80
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2035,
+      "variant": "kapt_matched",
+      "entry_households": 42000.0,
+      "old_households": 810000.0,
+      "old_household_pct": 60.0,
+      "old_complex_pct": 65.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          70,
+          80
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2026,
+      "variant": "area_only",
+      "entry_households": 27000.0,
+      "old_households": 379000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2027,
+      "variant": "area_only",
+      "entry_households": 44000.0,
+      "old_households": 423000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2028,
+      "variant": "area_only",
+      "entry_households": 40000.0,
+      "old_households": 463000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2029,
+      "variant": "area_only",
+      "entry_households": 58000.0,
+      "old_households": 521000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2030,
+      "variant": "area_only",
+      "entry_households": 57000.0,
+      "old_households": 578000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 45.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2031,
+      "variant": "area_only",
+      "entry_households": 39000.0,
+      "old_households": 616000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 45.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2032,
+      "variant": "area_only",
+      "entry_households": 36000.0,
+      "old_households": 652000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2033,
+      "variant": "area_only",
+      "entry_households": 56000.0,
+      "old_households": 708000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 55.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2034,
+      "variant": "area_only",
+      "entry_households": 61000.0,
+      "old_households": 769000.0,
+      "old_household_pct": 55.0,
+      "old_complex_pct": 60.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "year": 2035,
+      "variant": "area_only",
+      "entry_households": 42000.0,
+      "old_households": 811000.0,
+      "old_household_pct": 60.0,
+      "old_complex_pct": 65.0,
+      "coverage": {
+        "selected_complexes": [
+          20,
+          30
+        ],
+        "complete_complexes": [
+          20,
+          30
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": 59000.0,
+      "old_households": 526000.0,
+      "old_household_pct": 20.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2027,
+      "variant": "main",
+      "entry_households": 64000.0,
+      "old_households": 589000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2028,
+      "variant": "main",
+      "entry_households": 58000.0,
+      "old_households": 648000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2029,
+      "variant": "main",
+      "entry_households": 63000.0,
+      "old_households": 710000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": 60000.0,
+      "old_households": 771000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2031,
+      "variant": "main",
+      "entry_households": 82000.0,
+      "old_households": 853000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2032,
+      "variant": "main",
+      "entry_households": 109000.0,
+      "old_households": 962000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 45.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2033,
+      "variant": "main",
+      "entry_households": 74000.0,
+      "old_households": 1036000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2034,
+      "variant": "main",
+      "entry_households": 105000.0,
+      "old_households": 1141000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 55.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": 72000.0,
+      "old_households": 1213000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 60.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "variant": "no_conflict",
+      "entry_households": 46000.0,
+      "old_households": 445000.0,
+      "old_household_pct": 20.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2027,
+      "variant": "no_conflict",
+      "entry_households": 49000.0,
+      "old_households": 493000.0,
+      "old_household_pct": 20.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2028,
+      "variant": "no_conflict",
+      "entry_households": 38000.0,
+      "old_households": 531000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2029,
+      "variant": "no_conflict",
+      "entry_households": 50000.0,
+      "old_households": 581000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2030,
+      "variant": "no_conflict",
+      "entry_households": 42000.0,
+      "old_households": 623000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2031,
+      "variant": "no_conflict",
+      "entry_households": 54000.0,
+      "old_households": 677000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2032,
+      "variant": "no_conflict",
+      "entry_households": 86000.0,
+      "old_households": 764000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 45.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2033,
+      "variant": "no_conflict",
+      "entry_households": 52000.0,
+      "old_households": 816000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 45.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2034,
+      "variant": "no_conflict",
+      "entry_households": 87000.0,
+      "old_households": 903000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2035,
+      "variant": "no_conflict",
+      "entry_households": 67000.0,
+      "old_households": 971000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 55.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          80,
+          90
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "variant": "kapt_matched",
+      "entry_households": 51000.0,
+      "old_households": 446000.0,
+      "old_household_pct": 20.0,
+      "old_complex_pct": 20.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2027,
+      "variant": "kapt_matched",
+      "entry_households": 56000.0,
+      "old_households": 502000.0,
+      "old_household_pct": 20.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2028,
+      "variant": "kapt_matched",
+      "entry_households": 53000.0,
+      "old_households": 555000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2029,
+      "variant": "kapt_matched",
+      "entry_households": 61000.0,
+      "old_households": 616000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2030,
+      "variant": "kapt_matched",
+      "entry_households": 59000.0,
+      "old_households": 675000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2031,
+      "variant": "kapt_matched",
+      "entry_households": 81000.0,
+      "old_households": 756000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2032,
+      "variant": "kapt_matched",
+      "entry_households": 104000.0,
+      "old_households": 859000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2033,
+      "variant": "kapt_matched",
+      "entry_households": 67000.0,
+      "old_households": 926000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 45.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2034,
+      "variant": "kapt_matched",
+      "entry_households": 97000.0,
+      "old_households": 1023000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2035,
+      "variant": "kapt_matched",
+      "entry_households": 66000.0,
+      "old_households": 1089000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2026,
+      "variant": "area_only",
+      "entry_households": 51000.0,
+      "old_households": 444000.0,
+      "old_household_pct": 20.0,
+      "old_complex_pct": 20.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2027,
+      "variant": "area_only",
+      "entry_households": 56000.0,
+      "old_households": 499000.0,
+      "old_household_pct": 20.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2028,
+      "variant": "area_only",
+      "entry_households": 54000.0,
+      "old_households": 553000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2029,
+      "variant": "area_only",
+      "entry_households": 61000.0,
+      "old_households": 614000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2030,
+      "variant": "area_only",
+      "entry_households": 58000.0,
+      "old_households": 672000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2031,
+      "variant": "area_only",
+      "entry_households": 81000.0,
+      "old_households": 753000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2032,
+      "variant": "area_only",
+      "entry_households": 103000.0,
+      "old_households": 856000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2033,
+      "variant": "area_only",
+      "entry_households": 67000.0,
+      "old_households": 924000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 45.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2034,
+      "variant": "area_only",
+      "entry_households": 97000.0,
+      "old_households": 1020000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "year": 2035,
+      "variant": "area_only",
+      "entry_households": 66000.0,
+      "old_households": 1086000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          50,
+          60
+        ],
+        "complete_complexes": [
+          50,
+          60
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11110",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11110",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 5000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11110",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 7000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 70.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11140",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11140",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11140",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": 60.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11170",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 9000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11170",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 15000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11170",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 24000.0,
+      "old_household_pct": 65.0,
+      "old_complex_pct": 70.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11200",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 12000.0,
+      "old_household_pct": 20.0,
+      "old_complex_pct": 20.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11200",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 26000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11200",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 40000.0,
+      "old_household_pct": 60.0,
+      "old_complex_pct": 65.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11215",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 13000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 15.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11215",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 20000.0,
+      "old_household_pct": 60.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11215",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 25000.0,
+      "old_household_pct": 70.0,
+      "old_complex_pct": 65.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11230",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11230",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 18000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 15.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11230",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 33000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 45.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11260",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 16000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 15.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11260",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 25000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11260",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 33000.0,
+      "old_household_pct": 60.0,
+      "old_complex_pct": 65.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11290",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11290",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 16000.0,
+      "old_household_pct": 20.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11290",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 39000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 55.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11305",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11305",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 8000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11305",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": 55.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11320",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 40000.0,
+      "old_household_pct": 65.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11320",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 46000.0,
+      "old_household_pct": 75.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11320",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 60000.0,
+      "old_household_pct": 95.0,
+      "old_complex_pct": 85.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11350",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 72000.0,
+      "old_household_pct": 55.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11350",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 99000.0,
+      "old_household_pct": 80.0,
+      "old_complex_pct": 55.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11350",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 113000.0,
+      "old_household_pct": 90.0,
+      "old_complex_pct": 85.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11380",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": 5.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11380",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 10000.0,
+      "old_household_pct": 15.0,
+      "old_complex_pct": 10.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11380",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 20000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 55.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11410",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 10000.0,
+      "old_household_pct": 20.0,
+      "old_complex_pct": 15.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11410",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 21000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11410",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 28000.0,
+      "old_household_pct": 55.0,
+      "old_complex_pct": 70.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11440",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11440",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 16000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 20.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11440",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 33000.0,
+      "old_household_pct": 55.0,
+      "old_complex_pct": 65.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11470",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 34000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 15.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11470",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 48000.0,
+      "old_household_pct": 60.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11470",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 65000.0,
+      "old_household_pct": 80.0,
+      "old_complex_pct": 75.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11500",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 26000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 10.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11500",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 37000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11500",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 59000.0,
+      "old_household_pct": 65.0,
+      "old_complex_pct": 65.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11530",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 19000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11530",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 38000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 70.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11530",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 54000.0,
+      "old_household_pct": 70.0,
+      "old_complex_pct": 80.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11545",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11545",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 12000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11545",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 20000.0,
+      "old_household_pct": 70.0,
+      "old_complex_pct": 75.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11560",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 24000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11560",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 38000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 45.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11560",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 53000.0,
+      "old_household_pct": 70.0,
+      "old_complex_pct": 65.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11590",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 14000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 20.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11590",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 20000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11590",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 35000.0,
+      "old_household_pct": 60.0,
+      "old_complex_pct": 70.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11620",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": 10.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11620",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 19000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 20.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11620",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 31000.0,
+      "old_household_pct": 70.0,
+      "old_complex_pct": 65.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11650",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 20000.0,
+      "old_household_pct": 20.0,
+      "old_complex_pct": 15.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11650",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 24000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11650",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 45000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 75.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11680",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 40000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11680",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 49000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11680",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 68000.0,
+      "old_household_pct": 55.0,
+      "old_complex_pct": 75.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11710",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 34000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 20.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11710",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 45000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11710",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 55000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 70.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11740",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 15000.0,
+      "old_household_pct": 15.0,
+      "old_complex_pct": 15.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11740",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 27000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 20.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "11740",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 39000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 70.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41111",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 10000.0,
+      "old_household_pct": 15.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41111",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 23000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 60.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41111",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 35000.0,
+      "old_household_pct": 60.0,
+      "old_complex_pct": 75.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41113",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 16000.0,
+      "old_household_pct": 20.0,
+      "old_complex_pct": 20.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41113",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 30000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41113",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 38000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 55.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41115",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 6000.0,
+      "old_household_pct": 15.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41115",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 10000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41115",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 16000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 60.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41117",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41117",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 29000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41117",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 42000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 55.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41131",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41131",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41131",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 6000.0,
+      "old_household_pct": 20.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41133",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41133",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41133",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": 65.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41135",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 56000.0,
+      "old_household_pct": 60.0,
+      "old_complex_pct": 60.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          70,
+          80
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          70,
+          80
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41135",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 57000.0,
+      "old_household_pct": 65.0,
+      "old_complex_pct": 65.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          70,
+          80
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          70,
+          80
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41135",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 64000.0,
+      "old_household_pct": 70.0,
+      "old_complex_pct": 75.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          70,
+          80
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          70,
+          80
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41150",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 18000.0,
+      "old_household_pct": 15.0,
+      "old_complex_pct": 20.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41150",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 40000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41150",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 58000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41171",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 9000.0,
+      "old_household_pct": 20.0,
+      "old_complex_pct": 20.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41171",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 13000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41171",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 26000.0,
+      "old_household_pct": 60.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41173",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 45000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 55.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          70,
+          80
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          70,
+          80
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41173",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 50000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 65.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          70,
+          80
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          70,
+          80
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41173",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 68000.0,
+      "old_household_pct": 70.0,
+      "old_complex_pct": 75.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          70,
+          80
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          70,
+          80
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41192",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 26000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41192",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 28000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41192",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 46000.0,
+      "old_household_pct": 70.0,
+      "old_complex_pct": 55.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41194",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 15000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41194",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 15000.0,
+      "old_household_pct": 30.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41194",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 25000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41196",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 10000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41196",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 11000.0,
+      "old_household_pct": 55.0,
+      "old_complex_pct": 45.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41196",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 12000.0,
+      "old_household_pct": 60.0,
+      "old_complex_pct": 55.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41210",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 29000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41210",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 33000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41210",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 36000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 60.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41220",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 30000.0,
+      "old_household_pct": 20.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41220",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 40000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41220",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 54000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 45.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41271",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 25000.0,
+      "old_household_pct": 55.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41271",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 30000.0,
+      "old_household_pct": 65.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41271",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 34000.0,
+      "old_household_pct": 70.0,
+      "old_complex_pct": 60.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41273",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          70,
+          80
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          70,
+          80
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41273",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          70,
+          80
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          70,
+          80
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41273",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 32000.0,
+      "old_household_pct": 55.0,
+      "old_complex_pct": 60.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          70,
+          80
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          70,
+          80
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41281",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 32000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 45.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41281",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 44000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 55.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41281",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 51000.0,
+      "old_household_pct": 55.0,
+      "old_complex_pct": 70.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41285",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": 55.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          60,
+          70
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          60,
+          70
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41285",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 17000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 60.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          60,
+          70
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          60,
+          70
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41285",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          60,
+          70
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          60,
+          70
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41287",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 32000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 60.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          70,
+          80
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          70,
+          80
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41287",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 39000.0,
+      "old_household_pct": 55.0,
+      "old_complex_pct": 70.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          70,
+          80
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          70,
+          80
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41287",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          70,
+          80
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          70,
+          80
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41290",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": null,
+        "complete_complexes": null,
+        "complete_households": null,
+        "within_complete": null,
+        "year_known_households": null
+      }
+    },
+    {
+      "scope": "41290",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": null,
+        "complete_complexes": null,
+        "complete_households": null,
+        "within_complete": null,
+        "year_known_households": null
+      }
+    },
+    {
+      "scope": "41290",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": null,
+        "complete_complexes": null,
+        "complete_households": null,
+        "within_complete": null,
+        "year_known_households": null
+      }
+    },
+    {
+      "scope": "41310",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 10000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41310",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 17000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41310",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 26000.0,
+      "old_household_pct": 60.0,
+      "old_complex_pct": 80.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41360",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 14000.0,
+      "old_household_pct": 10.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41360",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 44000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41360",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 76000.0,
+      "old_household_pct": 45.0,
+      "old_complex_pct": 65.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41410",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 41000.0,
+      "old_household_pct": 60.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41410",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 47000.0,
+      "old_household_pct": 70.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41410",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 55000.0,
+      "old_household_pct": 80.0,
+      "old_complex_pct": 65.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41430",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41430",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 13000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 45.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41430",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 21000.0,
+      "old_household_pct": 55.0,
+      "old_complex_pct": 65.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41450",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41450",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41450",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 14000.0,
+      "old_household_pct": 20.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41461",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 5000.0,
+      "old_household_pct": 10.0,
+      "old_complex_pct": 45.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41461",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 11000.0,
+      "old_household_pct": 20.0,
+      "old_complex_pct": 60.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41461",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 18000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 70.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41463",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41463",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 14000.0,
+      "old_household_pct": 15.0,
+      "old_complex_pct": 20.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41463",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 52000.0,
+      "old_household_pct": 50.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41465",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41465",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 26000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41465",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 71000.0,
+      "old_household_pct": 70.0,
+      "old_complex_pct": 70.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41480",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 6000.0,
+      "old_household_pct": 5.0,
+      "old_complex_pct": 25.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41480",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 14000.0,
+      "old_household_pct": 15.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41480",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 42000.0,
+      "old_household_pct": 35.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41570",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41570",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 18000.0,
+      "old_household_pct": 15.0,
+      "old_complex_pct": 30.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41570",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 29000.0,
+      "old_household_pct": 25.0,
+      "old_complex_pct": 40.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          80,
+          90
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          80,
+          90
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41591",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41591",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41591",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 7000.0,
+      "old_household_pct": 15.0,
+      "old_complex_pct": 35.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41593",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41593",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41593",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41595",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41595",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41595",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41597",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 0.0,
+      "old_household_pct": 0.0,
+      "old_complex_pct": 0.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41597",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 0.0,
+      "old_household_pct": 0.0,
+      "old_complex_pct": 0.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41597",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41610",
+      "year": 2026,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41610",
+      "year": 2030,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": null,
+      "old_household_pct": null,
+      "old_complex_pct": null,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "scope": "41610",
+      "year": 2035,
+      "variant": "main",
+      "entry_households": null,
+      "old_households": 27000.0,
+      "old_household_pct": 40.0,
+      "old_complex_pct": 50.0,
+      "coverage": {
+        "selected_complexes": [
+          90,
+          100
+        ],
+        "complete_complexes": [
+          90,
+          100
+        ],
+        "complete_households": [
+          90,
+          100
+        ],
+        "within_complete": [
+          90,
+          100
+        ],
+        "year_known_households": [
+          90,
+          100
+        ]
+      }
+    }
+  ],
+  "limits": [
+    "Fixed currently retained inventory arithmetic, not future supply, demolition, reconstruction eligibility, price or trading predictions.",
+    "Canonical year and household priority are preserved. Unknown household totals are not imputed; legal housing, occupancy and parcel extent are not fully observed.",
+    "Annual entry is shown for provinces; regional comparisons show cumulative30+ stock at2026/2030/2035. Every comparison row is retained.",
+    "Counts are rounded to1000 households; shares to5pp; coverage in10pp bands. Withheld is not zero; rounded differences need not equal separately rounded entries.",
+    "Household shares exclude unknown household values; complex shares can include them. Subsets keep their own denominator and coverage.",
+    "No individual identities, exact private additive totals or denominators, contract events, prices or rental equations are added. Finite overlap review and full corpus replay are separate requirements."
+  ]
+}
