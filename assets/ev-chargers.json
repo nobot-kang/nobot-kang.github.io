@@ -1,0 +1,3777 @@
+{
+  "schema": "ev_chargers_v1",
+  "snapshot": "2026-10-02",
+  "source_dates": [
+    "2026-04-24",
+    "2026-06-26",
+    "2026-08-28",
+    "2026-10-02"
+  ],
+  "source_url": "https://www.k-apt.go.kr/kaptinfo/openKaptMng.do",
+  "scopes": {
+    "11110": "종로구",
+    "11140": "중구",
+    "11170": "용산구",
+    "11200": "성동구",
+    "11215": "광진구",
+    "11230": "동대문구",
+    "11260": "중랑구",
+    "11290": "성북구",
+    "11305": "강북구",
+    "11320": "도봉구",
+    "11350": "노원구",
+    "11380": "은평구",
+    "11410": "서대문구",
+    "11440": "마포구",
+    "11470": "양천구",
+    "11500": "강서구",
+    "11530": "구로구",
+    "11545": "금천구",
+    "11560": "영등포구",
+    "11590": "동작구",
+    "11620": "관악구",
+    "11650": "서초구",
+    "11680": "강남구",
+    "11710": "송파구",
+    "11740": "강동구",
+    "41111": "수원시 장안구",
+    "41113": "수원시 권선구",
+    "41115": "수원시 팔달구",
+    "41117": "수원시 영통구",
+    "41131": "성남시 수정구",
+    "41133": "성남시 중원구",
+    "41135": "성남시 분당구",
+    "41150": "의정부시",
+    "41171": "안양시 만안구",
+    "41173": "안양시 동안구",
+    "41192": "부천시 원미구",
+    "41194": "부천시 소사구",
+    "41196": "부천시 오정구",
+    "41210": "광명시",
+    "41220": "평택시",
+    "41271": "안산시 상록구",
+    "41273": "안산시 단원구",
+    "41281": "고양시 덕양구",
+    "41285": "고양시 일산동구",
+    "41287": "고양시 일산서구",
+    "41290": "과천시",
+    "41310": "구리시",
+    "41360": "남양주시",
+    "41410": "군포시",
+    "41430": "의왕시",
+    "41450": "하남시",
+    "41461": "용인시 처인구",
+    "41463": "용인시 기흥구",
+    "41465": "용인시 수지구",
+    "41480": "파주시",
+    "41570": "김포시",
+    "41591": "화성시 만세구",
+    "41593": "화성시 효행구",
+    "41595": "화성시 병점구",
+    "41597": "화성시 동탄구",
+    "41610": "광주시",
+    "11": "서울 25개 구",
+    "41": "수집 경기 36개 지역"
+  },
+  "eras": {
+    "pre1980": "1980년 이전",
+    "1980s": "1980년대",
+    "1990s": "1990년대",
+    "2000s": "2000년대",
+    "2010s": "2010년대",
+    "2020_2026": "2020~2026년",
+    "unknown": "연도 미상"
+  },
+  "sizes": {
+    "under300": "300세대 미만",
+    "300_499": "300~499세대",
+    "500_999": "500~999세대",
+    "1000plus": "1,000세대 이상",
+    "unknown": "세대수 미상"
+  },
+  "rows": [
+    {
+      "scope": "11",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 85.0,
+      "installation_bounds": [
+        20,
+        100
+      ],
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        20,
+        30
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "11",
+      "dimension": "era",
+      "group": "pre1980",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        10,
+        20
+      ],
+      "flag_household_coverage": [
+        60,
+        70
+      ],
+      "unknown_household_complexes": [
+        20,
+        30
+      ],
+      "ratio_status": "withheld",
+      "ratio_quartiles": null,
+      "ratio_complex_coverage": null,
+      "ratio_household_coverage": null,
+      "weighted_status": "withheld",
+      "weighted_per100": null
+    },
+    {
+      "scope": "11",
+      "dimension": "era",
+      "group": "1980s",
+      "flag_status": "supported",
+      "installed_pct": 50.0,
+      "installation_bounds": [
+        20,
+        80
+      ],
+      "flag_complex_coverage": [
+        40,
+        50
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        20,
+        30
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.0,
+        1.0,
+        1.5
+      ],
+      "ratio_complex_coverage": [
+        20,
+        30
+      ],
+      "ratio_household_coverage": [
+        40,
+        50
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 1.0
+    },
+    {
+      "scope": "11",
+      "dimension": "era",
+      "group": "1990s",
+      "flag_status": "supported",
+      "installed_pct": 80.0,
+      "installation_bounds": [
+        30,
+        95
+      ],
+      "flag_complex_coverage": [
+        30,
+        40
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.0,
+        2.5
+      ],
+      "ratio_complex_coverage": [
+        30,
+        40
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.0
+    },
+    {
+      "scope": "11",
+      "dimension": "era",
+      "group": "2000s",
+      "flag_status": "supported",
+      "installed_pct": 90.0,
+      "installation_bounds": [
+        15,
+        100
+      ],
+      "flag_complex_coverage": [
+        10,
+        20
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        4.0
+      ],
+      "ratio_complex_coverage": [
+        10,
+        20
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "11",
+      "dimension": "era",
+      "group": "2010s",
+      "flag_status": "supported",
+      "installed_pct": 90.0,
+      "installation_bounds": [
+        25,
+        100
+      ],
+      "flag_complex_coverage": [
+        30,
+        40
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        4.0
+      ],
+      "ratio_complex_coverage": [
+        20,
+        30
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "11",
+      "dimension": "era",
+      "group": "2020_2026",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        30,
+        40
+      ],
+      "flag_household_coverage": [
+        60,
+        70
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        3.0,
+        5.0
+      ],
+      "ratio_complex_coverage": [
+        20,
+        30
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 5.0
+    },
+    {
+      "scope": "11",
+      "dimension": "era",
+      "group": "unknown",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": null,
+      "flag_household_coverage": null,
+      "unknown_household_complexes": null,
+      "ratio_status": "withheld",
+      "ratio_quartiles": null,
+      "ratio_complex_coverage": null,
+      "ratio_household_coverage": null,
+      "weighted_status": "withheld",
+      "weighted_per100": null
+    },
+    {
+      "scope": "11",
+      "dimension": "size",
+      "group": "under300",
+      "flag_status": "supported",
+      "installed_pct": 80.0,
+      "installation_bounds": [
+        10,
+        100
+      ],
+      "flag_complex_coverage": [
+        10,
+        20
+      ],
+      "flag_household_coverage": [
+        50,
+        60
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        4.0
+      ],
+      "ratio_complex_coverage": [
+        10,
+        20
+      ],
+      "ratio_household_coverage": [
+        40,
+        50
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "11",
+      "dimension": "size",
+      "group": "300_499",
+      "flag_status": "supported",
+      "installed_pct": 85.0,
+      "installation_bounds": [
+        75,
+        90
+      ],
+      "flag_complex_coverage": [
+        90,
+        100
+      ],
+      "flag_household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        70,
+        80
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "11",
+      "dimension": "size",
+      "group": "500_999",
+      "flag_status": "supported",
+      "installed_pct": 90.0,
+      "installation_bounds": [
+        75,
+        90
+      ],
+      "flag_complex_coverage": [
+        80,
+        90
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.5,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        70,
+        80
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "11",
+      "dimension": "size",
+      "group": "1000plus",
+      "flag_status": "supported",
+      "installed_pct": 85.0,
+      "installation_bounds": [
+        70,
+        90
+      ],
+      "flag_complex_coverage": [
+        80,
+        90
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        70,
+        80
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "11",
+      "dimension": "size",
+      "group": "unknown",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": null,
+      "flag_household_coverage": null,
+      "unknown_household_complexes": [
+        90,
+        100
+      ],
+      "ratio_status": "withheld",
+      "ratio_quartiles": null,
+      "ratio_complex_coverage": null,
+      "ratio_household_coverage": null,
+      "weighted_status": "withheld",
+      "weighted_per100": null
+    },
+    {
+      "scope": "41",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 95.0,
+      "installation_bounds": [
+        45,
+        100
+      ],
+      "flag_complex_coverage": [
+        50,
+        60
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        40,
+        50
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "41",
+      "dimension": "era",
+      "group": "pre1980",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": null,
+      "flag_household_coverage": null,
+      "unknown_household_complexes": [
+        20,
+        30
+      ],
+      "ratio_status": "withheld",
+      "ratio_quartiles": null,
+      "ratio_complex_coverage": null,
+      "ratio_household_coverage": null,
+      "weighted_status": "withheld",
+      "weighted_per100": null
+    },
+    {
+      "scope": "41",
+      "dimension": "era",
+      "group": "1980s",
+      "flag_status": "supported",
+      "installed_pct": 45.0,
+      "installation_bounds": [
+        5,
+        95
+      ],
+      "flag_complex_coverage": [
+        10,
+        20
+      ],
+      "flag_household_coverage": [
+        60,
+        70
+      ],
+      "unknown_household_complexes": [
+        20,
+        30
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.0,
+        1.0,
+        1.5
+      ],
+      "ratio_complex_coverage": [
+        0,
+        10
+      ],
+      "ratio_household_coverage": [
+        30,
+        40
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 1.0
+    },
+    {
+      "scope": "41",
+      "dimension": "era",
+      "group": "1990s",
+      "flag_status": "supported",
+      "installed_pct": 90.0,
+      "installation_bounds": [
+        45,
+        100
+      ],
+      "flag_complex_coverage": [
+        50,
+        60
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.0,
+        2.5
+      ],
+      "ratio_complex_coverage": [
+        40,
+        50
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.0
+    },
+    {
+      "scope": "41",
+      "dimension": "era",
+      "group": "2000s",
+      "flag_status": "supported",
+      "installed_pct": 95.0,
+      "installation_bounds": [
+        50,
+        100
+      ],
+      "flag_complex_coverage": [
+        50,
+        60
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        50,
+        60
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "41",
+      "dimension": "era",
+      "group": "2010s",
+      "flag_status": "supported",
+      "installed_pct": 90.0,
+      "installation_bounds": [
+        55,
+        100
+      ],
+      "flag_complex_coverage": [
+        60,
+        70
+      ],
+      "flag_household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.5,
+        2.5,
+        4.0
+      ],
+      "ratio_complex_coverage": [
+        50,
+        60
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "41",
+      "dimension": "era",
+      "group": "2020_2026",
+      "flag_status": "supported",
+      "installed_pct": 95.0,
+      "installation_bounds": [
+        55,
+        100
+      ],
+      "flag_complex_coverage": [
+        50,
+        60
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.5,
+        3.0,
+        6.0
+      ],
+      "ratio_complex_coverage": [
+        50,
+        60
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 4.0
+    },
+    {
+      "scope": "41",
+      "dimension": "era",
+      "group": "unknown",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": null,
+      "flag_household_coverage": null,
+      "unknown_household_complexes": null,
+      "ratio_status": "withheld",
+      "ratio_quartiles": null,
+      "ratio_complex_coverage": null,
+      "ratio_household_coverage": null,
+      "weighted_status": "withheld",
+      "weighted_per100": null
+    },
+    {
+      "scope": "41",
+      "dimension": "size",
+      "group": "under300",
+      "flag_status": "supported",
+      "installed_pct": 85.0,
+      "installation_bounds": [
+        20,
+        100
+      ],
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        60,
+        70
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        20,
+        30
+      ],
+      "ratio_household_coverage": [
+        50,
+        60
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "41",
+      "dimension": "size",
+      "group": "300_499",
+      "flag_status": "supported",
+      "installed_pct": 95.0,
+      "installation_bounds": [
+        85,
+        100
+      ],
+      "flag_complex_coverage": [
+        90,
+        100
+      ],
+      "flag_household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        80,
+        90
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "41",
+      "dimension": "size",
+      "group": "500_999",
+      "flag_status": "supported",
+      "installed_pct": 95.0,
+      "installation_bounds": [
+        85,
+        100
+      ],
+      "flag_complex_coverage": [
+        90,
+        100
+      ],
+      "flag_household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        80,
+        90
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "41",
+      "dimension": "size",
+      "group": "1000plus",
+      "flag_status": "supported",
+      "installed_pct": 95.0,
+      "installation_bounds": [
+        85,
+        95
+      ],
+      "flag_complex_coverage": [
+        90,
+        100
+      ],
+      "flag_household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        80,
+        90
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "41",
+      "dimension": "size",
+      "group": "unknown",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": null,
+      "flag_household_coverage": null,
+      "unknown_household_complexes": [
+        90,
+        100
+      ],
+      "ratio_status": "withheld",
+      "ratio_quartiles": null,
+      "ratio_complex_coverage": null,
+      "ratio_household_coverage": null,
+      "weighted_status": "withheld",
+      "weighted_per100": null
+    },
+    {
+      "scope": "11110",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        10,
+        20
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.5,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        10,
+        20
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 4.5
+    },
+    {
+      "scope": "11140",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        40,
+        50
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        3.0,
+        4.5
+      ],
+      "ratio_complex_coverage": [
+        10,
+        20
+      ],
+      "ratio_household_coverage": [
+        30,
+        40
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "11170",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 70.0,
+      "installation_bounds": [
+        20,
+        95
+      ],
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.5,
+        3.0,
+        6.5
+      ],
+      "ratio_complex_coverage": [
+        10,
+        20
+      ],
+      "ratio_household_coverage": [
+        40,
+        50
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 5.5
+    },
+    {
+      "scope": "11200",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        50,
+        60
+      ],
+      "flag_household_coverage": [
+        60,
+        70
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.5,
+        5.0
+      ],
+      "ratio_complex_coverage": [
+        40,
+        50
+      ],
+      "ratio_household_coverage": [
+        50,
+        60
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "11215",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 70.0,
+      "installation_bounds": [
+        20,
+        95
+      ],
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        4.0
+      ],
+      "ratio_complex_coverage": [
+        10,
+        20
+      ],
+      "ratio_household_coverage": [
+        50,
+        60
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "11230",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 90.0,
+      "installation_bounds": [
+        20,
+        100
+      ],
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.5,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        20,
+        30
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.5
+    },
+    {
+      "scope": "11260",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        30,
+        40
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        20,
+        30
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "11290",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        50,
+        60
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        40,
+        50
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "11305",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        10,
+        20
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "withheld",
+      "weighted_per100": null
+    },
+    {
+      "scope": "11320",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        40,
+        50
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        40,
+        50
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.0
+    },
+    {
+      "scope": "11350",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 85.0,
+      "installation_bounds": [
+        40,
+        95
+      ],
+      "flag_complex_coverage": [
+        50,
+        60
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.0,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        40,
+        50
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.0
+    },
+    {
+      "scope": "11380",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 85.0,
+      "installation_bounds": [
+        15,
+        100
+      ],
+      "flag_complex_coverage": [
+        10,
+        20
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        10,
+        20
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "11410",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.5,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        20,
+        30
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.5
+    },
+    {
+      "scope": "11440",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        20,
+        30
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "11470",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 70.0,
+      "installation_bounds": [
+        15,
+        95
+      ],
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.5,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        10,
+        20
+      ],
+      "ratio_household_coverage": [
+        30,
+        40
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.5
+    },
+    {
+      "scope": "11500",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 85.0,
+      "installation_bounds": [
+        20,
+        100
+      ],
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        20,
+        30
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "11530",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 85.0,
+      "installation_bounds": [
+        15,
+        100
+      ],
+      "flag_complex_coverage": [
+        10,
+        20
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.0,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        10,
+        20
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.5
+    },
+    {
+      "scope": "11545",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.0,
+        2.5
+      ],
+      "ratio_complex_coverage": [
+        10,
+        20
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.5
+    },
+    {
+      "scope": "11560",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 75.0,
+      "installation_bounds": [
+        40,
+        90
+      ],
+      "flag_complex_coverage": [
+        50,
+        60
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        40,
+        50
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.5
+    },
+    {
+      "scope": "11590",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 90.0,
+      "installation_bounds": [
+        30,
+        100
+      ],
+      "flag_complex_coverage": [
+        30,
+        40
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        30,
+        40
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.5
+    },
+    {
+      "scope": "11620",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 85.0,
+      "installation_bounds": [
+        15,
+        100
+      ],
+      "flag_complex_coverage": [
+        10,
+        20
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.0,
+        2.5,
+        2.5
+      ],
+      "ratio_complex_coverage": [
+        10,
+        20
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.0
+    },
+    {
+      "scope": "11650",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 80.0,
+      "installation_bounds": [
+        10,
+        100
+      ],
+      "flag_complex_coverage": [
+        10,
+        20
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        3.5,
+        5.0
+      ],
+      "ratio_complex_coverage": [
+        10,
+        20
+      ],
+      "ratio_household_coverage": [
+        50,
+        60
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 5.0
+    },
+    {
+      "scope": "11680",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 80.0,
+      "installation_bounds": [
+        15,
+        100
+      ],
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        10,
+        20
+      ],
+      "ratio_household_coverage": [
+        50,
+        60
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 4.0
+    },
+    {
+      "scope": "11710",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 80.0,
+      "installation_bounds": [
+        20,
+        95
+      ],
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "ratio_complex_coverage": [
+        20,
+        30
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "11740",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 80.0,
+      "installation_bounds": [
+        15,
+        100
+      ],
+      "flag_complex_coverage": [
+        10,
+        20
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        4.0
+      ],
+      "ratio_complex_coverage": [
+        10,
+        20
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 5.0
+    },
+    {
+      "scope": "41111",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        40,
+        50
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        40,
+        50
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "41113",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 90.0,
+      "installation_bounds": [
+        50,
+        100
+      ],
+      "flag_complex_coverage": [
+        50,
+        60
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        50,
+        60
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "41115",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 80.0,
+      "installation_bounds": [
+        30,
+        95
+      ],
+      "flag_complex_coverage": [
+        40,
+        50
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.5,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        30,
+        40
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.0
+    },
+    {
+      "scope": "41117",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        60,
+        70
+      ],
+      "flag_household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        3.0,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        60,
+        70
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "41131",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        30,
+        40
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "ratio_complex_coverage": [
+        20,
+        30
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "41133",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        30,
+        40
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.0,
+        4.5
+      ],
+      "ratio_complex_coverage": [
+        30,
+        40
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "41135",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        60,
+        70
+      ],
+      "flag_household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_complexes": [
+        20,
+        30
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "ratio_complex_coverage": [
+        60,
+        70
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "41150",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 85.0,
+      "installation_bounds": [
+        50,
+        95
+      ],
+      "flag_complex_coverage": [
+        60,
+        70
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.0,
+        2.5
+      ],
+      "ratio_complex_coverage": [
+        50,
+        60
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.5
+    },
+    {
+      "scope": "41171",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.0,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        20,
+        30
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.5
+    },
+    {
+      "scope": "41173",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 90.0,
+      "installation_bounds": [
+        30,
+        100
+      ],
+      "flag_complex_coverage": [
+        30,
+        40
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        20,
+        30
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.0,
+        2.5
+      ],
+      "ratio_complex_coverage": [
+        30,
+        40
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.5
+    },
+    {
+      "scope": "41192",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 85.0,
+      "installation_bounds": [
+        20,
+        100
+      ],
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.0,
+        2.5
+      ],
+      "ratio_complex_coverage": [
+        20,
+        30
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.5
+    },
+    {
+      "scope": "41194",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 80.0,
+      "installation_bounds": [
+        15,
+        100
+      ],
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        10,
+        20
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.0
+    },
+    {
+      "scope": "41196",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 70.0,
+      "installation_bounds": [
+        5,
+        100
+      ],
+      "flag_complex_coverage": [
+        10,
+        20
+      ],
+      "flag_household_coverage": [
+        40,
+        50
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.0,
+        2.0,
+        2.5
+      ],
+      "ratio_complex_coverage": [
+        0,
+        10
+      ],
+      "ratio_household_coverage": [
+        30,
+        40
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.0
+    },
+    {
+      "scope": "41210",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        50,
+        60
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.0,
+        2.5,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        40,
+        50
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.0
+    },
+    {
+      "scope": "41220",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 90.0,
+      "installation_bounds": [
+        55,
+        95
+      ],
+      "flag_complex_coverage": [
+        60,
+        70
+      ],
+      "flag_household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        4.5
+      ],
+      "ratio_complex_coverage": [
+        50,
+        60
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "41271",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        50,
+        60
+      ],
+      "flag_household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        40,
+        50
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.0
+    },
+    {
+      "scope": "41273",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        60,
+        70
+      ],
+      "flag_household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_complexes": [
+        20,
+        30
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.5,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        50,
+        60
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "41281",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        50,
+        60
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.5,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        40,
+        50
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.5
+    },
+    {
+      "scope": "41285",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 100.0,
+      "installation_bounds": [
+        50,
+        100
+      ],
+      "flag_complex_coverage": [
+        50,
+        60
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        30,
+        40
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        50,
+        60
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.5
+    },
+    {
+      "scope": "41287",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        60,
+        70
+      ],
+      "flag_household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_complexes": [
+        20,
+        30
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        50,
+        60
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.5
+    },
+    {
+      "scope": "41290",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        50,
+        60
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        30,
+        40
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        3.0,
+        3.0,
+        4.0
+      ],
+      "ratio_complex_coverage": [
+        40,
+        50
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 4.0
+    },
+    {
+      "scope": "41310",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        30,
+        40
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        30,
+        40
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.5
+    },
+    {
+      "scope": "41360",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        60,
+        70
+      ],
+      "flag_household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        4.0
+      ],
+      "ratio_complex_coverage": [
+        60,
+        70
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "41410",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.0,
+        2.5
+      ],
+      "ratio_complex_coverage": [
+        20,
+        30
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 2.0
+    },
+    {
+      "scope": "41430",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        50,
+        60
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.0
+      ],
+      "ratio_complex_coverage": [
+        50,
+        60
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "41450",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        80,
+        90
+      ],
+      "flag_household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        4.0
+      ],
+      "ratio_complex_coverage": [
+        80,
+        90
+      ],
+      "ratio_household_coverage": [
+        90,
+        100
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "41461",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        30,
+        40
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        30,
+        40
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "41463",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        60,
+        70
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        4.0
+      ],
+      "ratio_complex_coverage": [
+        60,
+        70
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "41465",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        60,
+        70
+      ],
+      "flag_household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        3.0,
+        4.5
+      ],
+      "ratio_complex_coverage": [
+        60,
+        70
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "41480",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 90.0,
+      "installation_bounds": [
+        60,
+        95
+      ],
+      "flag_complex_coverage": [
+        70,
+        80
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.5,
+        4.0
+      ],
+      "ratio_complex_coverage": [
+        60,
+        70
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "41570",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        70,
+        80
+      ],
+      "flag_household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        70,
+        80
+      ],
+      "ratio_household_coverage": [
+        90,
+        100
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "41591",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        60,
+        70
+      ],
+      "flag_household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        3.0,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        60,
+        70
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "41593",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        70,
+        80
+      ],
+      "flag_household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.5,
+        3.0,
+        4.5
+      ],
+      "ratio_complex_coverage": [
+        70,
+        80
+      ],
+      "ratio_household_coverage": [
+        90,
+        100
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "41595",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        80,
+        90
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        70,
+        80
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "scope": "41597",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        80,
+        90
+      ],
+      "flag_household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.5,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        80,
+        90
+      ],
+      "ratio_household_coverage": [
+        90,
+        100
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "scope": "41610",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "withheld",
+      "installed_pct": null,
+      "installation_bounds": null,
+      "flag_complex_coverage": [
+        70,
+        80
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.5,
+        2.5,
+        4.5
+      ],
+      "ratio_complex_coverage": [
+        70,
+        80
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    }
+  ],
+  "sensitivity": [
+    {
+      "variant": "explicit_flags",
+      "scope": "11",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 85.0,
+      "installation_bounds": [
+        20,
+        100
+      ],
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        20,
+        30
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "variant": "no_household_conflict",
+      "scope": "11",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 85.0,
+      "installation_bounds": [
+        15,
+        100
+      ],
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        50,
+        60
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        10,
+        20
+      ],
+      "ratio_household_coverage": [
+        50,
+        60
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.5
+    },
+    {
+      "variant": "canonical_bridge",
+      "scope": "11",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 85.0,
+      "installation_bounds": [
+        20,
+        100
+      ],
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        20,
+        30
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "variant": "complete_counts",
+      "scope": "11",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 100.0,
+      "installation_bounds": [
+        20,
+        100
+      ],
+      "flag_complex_coverage": [
+        20,
+        30
+      ],
+      "flag_household_coverage": [
+        60,
+        70
+      ],
+      "unknown_household_complexes": [
+        0,
+        10
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        1.5,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        20,
+        30
+      ],
+      "ratio_household_coverage": [
+        60,
+        70
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "variant": "explicit_flags",
+      "scope": "41",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 90.0,
+      "installation_bounds": [
+        45,
+        100
+      ],
+      "flag_complex_coverage": [
+        50,
+        60
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        40,
+        50
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "variant": "no_household_conflict",
+      "scope": "41",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 95.0,
+      "installation_bounds": [
+        40,
+        100
+      ],
+      "flag_complex_coverage": [
+        40,
+        50
+      ],
+      "flag_household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        40,
+        50
+      ],
+      "ratio_household_coverage": [
+        70,
+        80
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "variant": "canonical_bridge",
+      "scope": "41",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 95.0,
+      "installation_bounds": [
+        45,
+        100
+      ],
+      "flag_complex_coverage": [
+        50,
+        60
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        40,
+        50
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    },
+    {
+      "variant": "complete_counts",
+      "scope": "41",
+      "dimension": "all",
+      "group": "all",
+      "flag_status": "supported",
+      "installed_pct": 100.0,
+      "installation_bounds": [
+        45,
+        100
+      ],
+      "flag_complex_coverage": [
+        40,
+        50
+      ],
+      "flag_household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_complexes": [
+        10,
+        20
+      ],
+      "ratio_status": "supported",
+      "ratio_quartiles": [
+        2.0,
+        2.5,
+        3.5
+      ],
+      "ratio_complex_coverage": [
+        40,
+        50
+      ],
+      "ratio_household_coverage": [
+        80,
+        90
+      ],
+      "weighted_status": "supported",
+      "weighted_per100": 3.0
+    }
+  ],
+  "history": [
+    {
+      "scope": "11",
+      "start": "20260424",
+      "end": "20260626",
+      "status": "supported",
+      "total_change_rounded": 200.0,
+      "change_pct": 0.5,
+      "complete_complex_coverage": [
+        20,
+        30
+      ],
+      "directions_status": "withheld",
+      "direction_bands": null,
+      "decrease_observed": null,
+      "uncertain_transition_status": "withheld_or_none",
+      "installation_transition_status": "observed"
+    },
+    {
+      "scope": "11",
+      "start": "20260626",
+      "end": "20260828",
+      "status": "supported",
+      "total_change_rounded": 300.0,
+      "change_pct": 1.0,
+      "complete_complex_coverage": [
+        20,
+        30
+      ],
+      "directions_status": "supported",
+      "direction_bands": {
+        "increased": [
+          0,
+          5
+        ],
+        "decreased": [
+          0,
+          5
+        ],
+        "unchanged": [
+          95,
+          100
+        ]
+      },
+      "decrease_observed": null,
+      "uncertain_transition_status": "withheld_or_none",
+      "installation_transition_status": "observed"
+    },
+    {
+      "scope": "11",
+      "start": "20260424",
+      "end": "20260828",
+      "status": "supported",
+      "total_change_rounded": 600.0,
+      "change_pct": 1.5,
+      "complete_complex_coverage": [
+        20,
+        30
+      ],
+      "directions_status": "withheld",
+      "direction_bands": null,
+      "decrease_observed": null,
+      "uncertain_transition_status": "observed",
+      "installation_transition_status": "observed"
+    },
+    {
+      "scope": "11",
+      "start": "20260828",
+      "end": "20261002",
+      "status": "supported",
+      "total_change_rounded": 0.0,
+      "change_pct": 0.0,
+      "complete_complex_coverage": [
+        20,
+        30
+      ],
+      "directions_status": "withheld",
+      "direction_bands": null,
+      "decrease_observed": null,
+      "uncertain_transition_status": "withheld_or_none",
+      "installation_transition_status": "withheld_or_none"
+    },
+    {
+      "scope": "41",
+      "start": "20260424",
+      "end": "20260626",
+      "status": "supported",
+      "total_change_rounded": 1700.0,
+      "change_pct": 3.0,
+      "complete_complex_coverage": [
+        40,
+        50
+      ],
+      "directions_status": "withheld",
+      "direction_bands": null,
+      "decrease_observed": null,
+      "uncertain_transition_status": "observed",
+      "installation_transition_status": "observed"
+    },
+    {
+      "scope": "41",
+      "start": "20260626",
+      "end": "20260828",
+      "status": "supported",
+      "total_change_rounded": 600.0,
+      "change_pct": 1.0,
+      "complete_complex_coverage": [
+        40,
+        50
+      ],
+      "directions_status": "supported",
+      "direction_bands": {
+        "increased": [
+          0,
+          5
+        ],
+        "decreased": [
+          0,
+          5
+        ],
+        "unchanged": [
+          95,
+          100
+        ]
+      },
+      "decrease_observed": true,
+      "uncertain_transition_status": "observed",
+      "installation_transition_status": "observed"
+    },
+    {
+      "scope": "41",
+      "start": "20260424",
+      "end": "20260828",
+      "status": "supported",
+      "total_change_rounded": 2300.0,
+      "change_pct": 4.0,
+      "complete_complex_coverage": [
+        40,
+        50
+      ],
+      "directions_status": "supported",
+      "direction_bands": {
+        "increased": [
+          0,
+          5
+        ],
+        "decreased": [
+          0,
+          5
+        ],
+        "unchanged": [
+          90,
+          95
+        ]
+      },
+      "decrease_observed": true,
+      "uncertain_transition_status": "observed",
+      "installation_transition_status": "observed"
+    },
+    {
+      "scope": "41",
+      "start": "20260828",
+      "end": "20261002",
+      "status": "supported",
+      "total_change_rounded": 200.0,
+      "change_pct": 0.5,
+      "complete_complex_coverage": [
+        40,
+        50
+      ],
+      "directions_status": "withheld",
+      "direction_bands": null,
+      "decrease_observed": null,
+      "uncertain_transition_status": "observed",
+      "installation_transition_status": "withheld_or_none"
+    }
+  ],
+  "precision": {
+    "installation_pct_step": 5,
+    "charger_per100_step": 0.5,
+    "coverage_band_pp": 10,
+    "direction_band_pp": 5,
+    "total_change_step": 100,
+    "change_pct_step": 0.5
+  },
+  "limits": [
+    "Current matched inventory, not a census of all apartments or past construction-time facilities.",
+    "Installation flags and positive-count confirmation are distinct; missing counts are never zero.",
+    "Count/household distributions exclude unknown counts and are not an all-complex average.",
+    "Unknown-status bounds are explicit extreme assumptions, not confidence intervals.",
+    "Repeated observations are reported-record changes, not actual installation dates or operation status.",
+    "Gyeonggi is the collected scope; Incheon is absent. Rounded 100% does not establish universal availability."
+  ]
+}
