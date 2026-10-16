@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-16T13:32:32+09:00</updated>
+  <updated>2026-10-16T14:40:00+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -11,10 +11,19 @@
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
   <entry>
+    <title>금리 1%p 오르면, 살 수 있는 아파트 비율은 얼마나 줄까?</title>
+    <id>https://nobot-kang.github.io/posts/rate-housing-opportunity/</id>
+    <published>2026-10-16T14:40:00+09:00</published>
+    <updated>2026-10-16T14:40:00+09:00</updated>
+    <summary>서울·경기 KB HOI에서 금리가 크게 움직인 모든 분기의 구입 가능 비율을 비교합니다. 금리 1%포인트 상승의 가상 가격 한도 계산과 소득·가격분포의 차이를 구분합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/rate-housing-opportunity/" />
+    <category term="소득과 부담" />
+  </entry>
+  <entry>
     <title>비은행 주택대출 비중, 서울·경기는 언제 커졌을까?</title>
     <id>https://nobot-kang.github.io/posts/nonbank-credit/</id>
     <published>2026-10-16T13:32:32+09:00</published>
-    <updated>2026-10-16T13:32:32+09:00</updated>
+    <updated>2026-10-16T14:40:00+09:00</updated>
     <summary>서울·경기 2010~2026년 비은행 주택관련대출 비중과 은행 잔액, 아파트 거래량을 비교합니다. 규제·금리 시기와 취급점포 지역 기준을 확인하고 같은 차주의 이동으로 단정하기 어려운 이유를 정리했습니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/nonbank-credit/" />
     <category term="소득과 부담" />
