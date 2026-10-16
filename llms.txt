@@ -70,7 +70,7 @@
 
 ### [전세와 월세 계약 읽기](https://nobot-kang.github.io/series/jeonse-wolse/)
 
-보증금·월세 두 조건, 서울 월세 비중과 100만 원 초과 계약, 공표·같은 면적 전세가율, 같은 보증금의 2년 뒤 선택지, 신규·갱신 가격, 신고 기간과 갱신요구권 사용 기재를 분모부터 확인합니다.
+보증금·월세 두 조건, 서울 월세 비중과 100만 원 초과 계약, 공표·같은 면적 전세가율, 같은 보증금의 2년 뒤 선택지, 갱신 비중과 신규·갱신 가격, 신고 기간과 갱신요구권 사용 기재를 분모부터 확인합니다.
 
 - [보증금 1억을 올리면 월세는 얼마 줄까? 두 조건의 전환율 계산법](https://nobot-kang.github.io/posts/deposit-rent-comparison/): 보증금 1억원을 더 내면 월세는 얼마나 줄어야 할까요? 같은 집의 두 조건으로 전환율을 계산하고, 추가 자금 비용과 비교하는 계산기·가상 예시·법정 상한의 구분을 제공합니다.
 - [서울 아파트 월세 비중, 절반을 넘었다는 말의 분모는?](https://nobot-kang.github.io/posts/seoul-monthly-rent-share/): 서울 아파트 월세 계약 비중을 2022~2025년과 2025·2026년 상반기로 비교합니다. 신규·갱신·미기재의 분모를 확인하고 계약 비중과 가구·매물·임대료를 구분합니다.
@@ -78,6 +78,7 @@
 - [서울·경기 전세가율: 평균보다 지역별 분포를 먼저 보세요](https://nobot-kang.github.io/posts/seoul-gyeonggi-jeonse-ratios/): 서울 25개 구·수집 경기 36개 시·구의 KB 전세가율과 가격지수 변화를 비교합니다. 광역 평균 뒤의 지역별 겹침, 전세가격 상승과 비율 하락의 공존, 표본이 부족할 때 답할 수 있는 범위를 정리합니다.
 - [같은 면적으로 본 전세가율: 서울·경기 지역 지도와 18분기 흐름](https://nobot-kang.github.io/posts/modeled-regional-jeonse-ratio/): 서울 25구·수집 경기 36지역의 같은 주택 모형 전세가율을 두 면적군으로 비교합니다. 2026년 2분기 지역 지도와 18분기 흐름, 모형 범위·고정 표본·전체 후보의 차이를 확인하세요.
 - [같은 보증금 전세, 2년 뒤에도 같은 면적을 고를 수 있을까?](https://nobot-kang.github.io/posts/same-deposit-two-years/): 3억·5억·7억 원 보증금을 고정해 2024·2026년 서울·수집 경기의 두 면적군을 비교합니다. 지역 지도와 확인·유보 상태, 면적 축소와 지역 이동의 한계를 살펴보세요.
+- [전세 갱신 비중, 미기재를 빼면 얼마나 달라질까?](https://nobot-kang.github.io/posts/jeonse-renewal-share/): 서울·수집 경기의 2021~2026년 아파트 전세 갱신 비중을 전체·기재 분모로 비교합니다. 같은 상반기 건수, 면적·보증금 구간과 미기재의 영향을 확인하고 신규·갱신 가격 비교로 이어갑니다.
 - [갱신 전세는 신규보다 얼마나 쌀까? 서울 비교 표본의 한계](https://nobot-kang.github.io/posts/seoul-renewal-jeonse-comparison/): 2026년 상반기 서울 아파트 신규·갱신 전세의 중앙값과 같은 단지·전용면적·분기 99묶음의 격차를 비교합니다. 포함 비중 6.0%와 미기재의 의미를 함께 읽습니다.
 - [전세 계약은 꼭 2년일까? 신고된 기간과 법적 보호의 차이](https://nobot-kang.github.io/posts/reported-rental-contract-duration/): 전세 1년 계약과 법적 보호를 구분하고, 서울·수집 경기의 신고 기간을 전세·월세·면적·신규·갱신별로 비교합니다. 23개월 기록과 기간 누락이 비중을 어떻게 바꾸는지도 확인하세요.
 - [갱신요구권 사용 비율: 서울·경기 실거래 기록의 숫자와 빈칸](https://nobot-kang.github.io/posts/renewal-rights-recorded-use/): 서울·수집 경기 아파트의 갱신요구권 사용 기재 비중을 시기·전세·월세·면적별로 비교합니다. 빈칸을 미사용으로 볼 수 없는 이유와 신고제 초기 결손, 정책 첫 2년의 분모를 확인하세요.
@@ -306,16 +307,17 @@
 
 ### [전세 만기 앞두고 읽기](https://nobot-kang.github.io/collections/jeonse-renewal/)
 
-매매와 전세의 15년 흐름, 공표 전세가율과 같은 면적 전세가율, 같은 보증금으로 2년 뒤 고를 수 있는 지역, 신규·갱신 전세 차이, 신고된 계약기간과 갱신요구권 기재, 월세로 바꿀 때의 계산을 차례로 읽습니다.
+매매와 전세의 15년 흐름, 공표 전세가율과 같은 면적 전세가율, 같은 보증금으로 2년 뒤 고를 수 있는 지역, 갱신 비중의 분모와 신규·갱신 전세 가격 차이, 신고된 계약기간과 갱신요구권 기재, 월세로 바꿀 때의 계산을 차례로 읽습니다.
 
 1. [매매와 전세는 같이 움직일까? 서울·경기 15년 지수 비교](https://nobot-kang.github.io/posts/sale-jeonse-price-history/)
 2. [서울·경기 전세가율: 평균보다 지역별 분포를 먼저 보세요](https://nobot-kang.github.io/posts/seoul-gyeonggi-jeonse-ratios/)
 3. [같은 면적으로 본 전세가율: 서울·경기 지역 지도와 18분기 흐름](https://nobot-kang.github.io/posts/modeled-regional-jeonse-ratio/)
 4. [같은 보증금 전세, 2년 뒤에도 같은 면적을 고를 수 있을까?](https://nobot-kang.github.io/posts/same-deposit-two-years/)
-5. [갱신 전세는 신규보다 얼마나 쌀까? 서울 비교 표본의 한계](https://nobot-kang.github.io/posts/seoul-renewal-jeonse-comparison/)
-6. [전세 계약은 꼭 2년일까? 신고된 기간과 법적 보호의 차이](https://nobot-kang.github.io/posts/reported-rental-contract-duration/)
-7. [갱신요구권 사용 비율: 서울·경기 실거래 기록의 숫자와 빈칸](https://nobot-kang.github.io/posts/renewal-rights-recorded-use/)
-8. [보증금 1억을 올리면 월세는 얼마 줄까? 두 조건의 전환율 계산법](https://nobot-kang.github.io/posts/deposit-rent-comparison/)
+5. [전세 갱신 비중, 미기재를 빼면 얼마나 달라질까?](https://nobot-kang.github.io/posts/jeonse-renewal-share/)
+6. [갱신 전세는 신규보다 얼마나 쌀까? 서울 비교 표본의 한계](https://nobot-kang.github.io/posts/seoul-renewal-jeonse-comparison/)
+7. [전세 계약은 꼭 2년일까? 신고된 기간과 법적 보호의 차이](https://nobot-kang.github.io/posts/reported-rental-contract-duration/)
+8. [갱신요구권 사용 비율: 서울·경기 실거래 기록의 숫자와 빈칸](https://nobot-kang.github.io/posts/renewal-rights-recorded-use/)
+9. [보증금 1억을 올리면 월세는 얼마 줄까? 두 조건의 전환율 계산법](https://nobot-kang.github.io/posts/deposit-rent-comparison/)
 
 ## Optional
 
