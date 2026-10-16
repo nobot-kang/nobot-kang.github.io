@@ -1,0 +1,2318 @@
+{
+  "schema": "apartment_names_v1",
+  "snapshot": "2026-10-02",
+  "source_url": "https://www.k-apt.go.kr/kaptinfo/openKaptMng.do",
+  "scopes": {
+    "11": "서울 25개 구",
+    "41": "수집 경기 36개 지역"
+  },
+  "eras": {
+    "all": "전체",
+    "pre1980": "1980년 이전",
+    "1980s": "1980년대",
+    "1990s": "1990년대",
+    "2000s": "2000년대",
+    "2010s": "2010년대",
+    "2020_2026": "2020~2026년",
+    "unknown": "연도 미상"
+  },
+  "variants": {
+    "main": "공동주택 등록 이름",
+    "canonical_matched": "같은 단지의 실거래 기반 이름",
+    "canonical_all": "실거래 기반 이름 전체",
+    "canonical_bridge": "기본 연결 단지만"
+  },
+  "words": {
+    "park": "파크",
+    "central": "센트럴",
+    "river": "리버"
+  },
+  "rows": [
+    {
+      "scope": "11",
+      "era": "all",
+      "variant": "main",
+      "lengths": {
+        "mean": 7.5,
+        "space_mean": 7.5,
+        "alnum_mean": 7.5,
+        "q25": 6.0,
+        "median": 7.0,
+        "q75": 9.0,
+        "weighted_mean": 7.5
+      },
+      "complex_coverage": [
+        20,
+        30
+      ],
+      "household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        20,
+        30
+      ],
+      "rates": {
+        "brand": 35.0,
+        "any_word": 10.0,
+        "any_outside": 5.0,
+        "brand_word": 5.0,
+        "brand_outside": 5.0,
+        "park": 5.0,
+        "central": 0.0,
+        "river": 0.0,
+        "outside_park": 5.0,
+        "outside_central": 0.0,
+        "outside_river": 0.0
+      },
+      "classification_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "all",
+      "variant": "canonical_matched",
+      "lengths": {
+        "mean": 6.5,
+        "space_mean": 6.5,
+        "alnum_mean": 6.5,
+        "q25": 4.0,
+        "median": 6.0,
+        "q75": 8.0,
+        "weighted_mean": 6.5
+      },
+      "complex_coverage": [
+        20,
+        30
+      ],
+      "household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        20,
+        30
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "all",
+      "variant": "canonical_all",
+      "lengths": {
+        "mean": 6.5,
+        "space_mean": 6.5,
+        "alnum_mean": 6.0,
+        "q25": 4.0,
+        "median": 6.0,
+        "q75": 8.0,
+        "weighted_mean": 6.5
+      },
+      "complex_coverage": [
+        90,
+        100
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        0,
+        10
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "all",
+      "variant": "canonical_bridge",
+      "lengths": {
+        "mean": 7.5,
+        "space_mean": 7.5,
+        "alnum_mean": 7.5,
+        "q25": 6.0,
+        "median": 7.0,
+        "q75": 9.0,
+        "weighted_mean": 7.5
+      },
+      "complex_coverage": [
+        20,
+        30
+      ],
+      "household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        20,
+        30
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "pre1980",
+      "variant": "main",
+      "lengths": {
+        "mean": 5.0,
+        "space_mean": 5.0,
+        "alnum_mean": 5.0,
+        "q25": 4.0,
+        "median": 5.0,
+        "q75": 5.0,
+        "weighted_mean": 5.0
+      },
+      "complex_coverage": [
+        10,
+        20
+      ],
+      "household_coverage": [
+        60,
+        70
+      ],
+      "unknown_household_share": [
+        20,
+        30
+      ],
+      "name_agreement": [
+        0,
+        10
+      ],
+      "rates": {
+        "brand": 0.0,
+        "any_word": 0.0,
+        "any_outside": 0.0,
+        "brand_word": 0.0,
+        "brand_outside": 0.0,
+        "park": 0.0,
+        "central": 0.0,
+        "river": 0.0,
+        "outside_park": 0.0,
+        "outside_central": 0.0,
+        "outside_river": 0.0
+      },
+      "classification_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "pre1980",
+      "variant": "canonical_matched",
+      "lengths": {
+        "mean": 3.0,
+        "space_mean": 3.0,
+        "alnum_mean": 3.0,
+        "q25": 2.0,
+        "median": 2.0,
+        "q75": 4.0,
+        "weighted_mean": 3.5
+      },
+      "complex_coverage": [
+        10,
+        20
+      ],
+      "household_coverage": [
+        60,
+        70
+      ],
+      "unknown_household_share": [
+        20,
+        30
+      ],
+      "name_agreement": [
+        0,
+        10
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "pre1980",
+      "variant": "canonical_all",
+      "lengths": {
+        "mean": 4.5,
+        "space_mean": 4.5,
+        "alnum_mean": 4.0,
+        "q25": 2.0,
+        "median": 3.0,
+        "q75": 5.0,
+        "weighted_mean": 4.0
+      },
+      "complex_coverage": [
+        90,
+        100
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        20,
+        30
+      ],
+      "name_agreement": [
+        0,
+        10
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "pre1980",
+      "variant": "canonical_bridge",
+      "lengths": {
+        "mean": 5.0,
+        "space_mean": 5.0,
+        "alnum_mean": 5.0,
+        "q25": 4.0,
+        "median": 5.0,
+        "q75": 5.0,
+        "weighted_mean": 5.0
+      },
+      "complex_coverage": [
+        10,
+        20
+      ],
+      "household_coverage": [
+        60,
+        70
+      ],
+      "unknown_household_share": [
+        20,
+        30
+      ],
+      "name_agreement": [
+        0,
+        10
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "1980s",
+      "variant": "main",
+      "lengths": {
+        "mean": 6.0,
+        "space_mean": 6.0,
+        "alnum_mean": 6.0,
+        "q25": 4.0,
+        "median": 6.0,
+        "q75": 7.0,
+        "weighted_mean": 6.0
+      },
+      "complex_coverage": [
+        50,
+        60
+      ],
+      "household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_share": [
+        20,
+        30
+      ],
+      "name_agreement": [
+        10,
+        20
+      ],
+      "rates": {
+        "brand": 15.0,
+        "any_word": null,
+        "any_outside": null,
+        "brand_word": 0.0,
+        "brand_outside": 0.0,
+        "park": null,
+        "central": 0.0,
+        "river": 0.0,
+        "outside_park": null,
+        "outside_central": 0.0,
+        "outside_river": 0.0
+      },
+      "classification_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "1980s",
+      "variant": "canonical_matched",
+      "lengths": {
+        "mean": 5.0,
+        "space_mean": 5.0,
+        "alnum_mean": 4.5,
+        "q25": 3.0,
+        "median": 4.0,
+        "q75": 7.0,
+        "weighted_mean": 6.0
+      },
+      "complex_coverage": [
+        50,
+        60
+      ],
+      "household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_share": [
+        20,
+        30
+      ],
+      "name_agreement": [
+        10,
+        20
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "1980s",
+      "variant": "canonical_all",
+      "lengths": {
+        "mean": 5.0,
+        "space_mean": 5.0,
+        "alnum_mean": 4.5,
+        "q25": 2.0,
+        "median": 4.0,
+        "q75": 7.0,
+        "weighted_mean": 6.0
+      },
+      "complex_coverage": [
+        90,
+        100
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        20,
+        30
+      ],
+      "name_agreement": [
+        0,
+        10
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "1980s",
+      "variant": "canonical_bridge",
+      "lengths": {
+        "mean": 6.0,
+        "space_mean": 6.0,
+        "alnum_mean": 6.0,
+        "q25": 4.0,
+        "median": 6.0,
+        "q75": 7.0,
+        "weighted_mean": 6.0
+      },
+      "complex_coverage": [
+        50,
+        60
+      ],
+      "household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_share": [
+        20,
+        30
+      ],
+      "name_agreement": [
+        10,
+        20
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "1990s",
+      "variant": "main",
+      "lengths": {
+        "mean": 6.0,
+        "space_mean": 6.0,
+        "alnum_mean": 6.0,
+        "q25": 4.0,
+        "median": 6.0,
+        "q75": 7.0,
+        "weighted_mean": 6.0
+      },
+      "complex_coverage": [
+        40,
+        50
+      ],
+      "household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        10,
+        20
+      ],
+      "rates": {
+        "brand": 25.0,
+        "any_word": null,
+        "any_outside": null,
+        "brand_word": null,
+        "brand_outside": null,
+        "park": null,
+        "central": 0.0,
+        "river": null,
+        "outside_park": null,
+        "outside_central": 0.0,
+        "outside_river": null
+      },
+      "classification_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "1990s",
+      "variant": "canonical_matched",
+      "lengths": {
+        "mean": 4.5,
+        "space_mean": 4.5,
+        "alnum_mean": 4.5,
+        "q25": 3.0,
+        "median": 4.0,
+        "q75": 6.0,
+        "weighted_mean": 5.0
+      },
+      "complex_coverage": [
+        40,
+        50
+      ],
+      "household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        10,
+        20
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "1990s",
+      "variant": "canonical_all",
+      "lengths": {
+        "mean": 5.0,
+        "space_mean": 5.0,
+        "alnum_mean": 4.5,
+        "q25": 3.0,
+        "median": 4.0,
+        "q75": 6.0,
+        "weighted_mean": 5.0
+      },
+      "complex_coverage": [
+        80,
+        90
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        0,
+        10
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "1990s",
+      "variant": "canonical_bridge",
+      "lengths": {
+        "mean": 6.0,
+        "space_mean": 6.0,
+        "alnum_mean": 6.0,
+        "q25": 4.0,
+        "median": 6.0,
+        "q75": 7.0,
+        "weighted_mean": 6.0
+      },
+      "complex_coverage": [
+        40,
+        50
+      ],
+      "household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        10,
+        20
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "2000s",
+      "variant": "main",
+      "lengths": {
+        "mean": 8.0,
+        "space_mean": 8.0,
+        "alnum_mean": 8.0,
+        "q25": 7.0,
+        "median": 8.0,
+        "q75": 9.0,
+        "weighted_mean": 7.5
+      },
+      "complex_coverage": [
+        20,
+        30
+      ],
+      "household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        20,
+        30
+      ],
+      "rates": {
+        "brand": 35.0,
+        "any_word": 10.0,
+        "any_outside": 10.0,
+        "brand_word": 5.0,
+        "brand_outside": 0.0,
+        "park": 10.0,
+        "central": null,
+        "river": 5.0,
+        "outside_park": 5.0,
+        "outside_central": null,
+        "outside_river": 5.0
+      },
+      "classification_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "2000s",
+      "variant": "canonical_matched",
+      "lengths": {
+        "mean": 7.0,
+        "space_mean": 7.0,
+        "alnum_mean": 7.0,
+        "q25": 5.0,
+        "median": 7.0,
+        "q75": 8.0,
+        "weighted_mean": 7.0
+      },
+      "complex_coverage": [
+        20,
+        30
+      ],
+      "household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        20,
+        30
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "2000s",
+      "variant": "canonical_all",
+      "lengths": {
+        "mean": 6.5,
+        "space_mean": 6.5,
+        "alnum_mean": 6.0,
+        "q25": 4.0,
+        "median": 6.0,
+        "q75": 8.0,
+        "weighted_mean": 7.0
+      },
+      "complex_coverage": [
+        90,
+        100
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        0,
+        10
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "2000s",
+      "variant": "canonical_bridge",
+      "lengths": {
+        "mean": 8.0,
+        "space_mean": 8.0,
+        "alnum_mean": 8.0,
+        "q25": 7.0,
+        "median": 8.0,
+        "q75": 9.0,
+        "weighted_mean": 7.5
+      },
+      "complex_coverage": [
+        10,
+        20
+      ],
+      "household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        20,
+        30
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "2010s",
+      "variant": "main",
+      "lengths": {
+        "mean": 9.0,
+        "space_mean": 9.0,
+        "alnum_mean": 9.0,
+        "q25": 7.0,
+        "median": 9.0,
+        "q75": 10.0,
+        "weighted_mean": 9.0
+      },
+      "complex_coverage": [
+        30,
+        40
+      ],
+      "household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        50,
+        60
+      ],
+      "rates": {
+        "brand": 55.0,
+        "any_word": 15.0,
+        "any_outside": 10.0,
+        "brand_word": 10.0,
+        "brand_outside": 10.0,
+        "park": 10.0,
+        "central": 5.0,
+        "river": 5.0,
+        "outside_park": 10.0,
+        "outside_central": 5.0,
+        "outside_river": 0.0
+      },
+      "classification_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "2010s",
+      "variant": "canonical_matched",
+      "lengths": {
+        "mean": 8.5,
+        "space_mean": 8.5,
+        "alnum_mean": 8.0,
+        "q25": 7.0,
+        "median": 8.0,
+        "q75": 10.0,
+        "weighted_mean": 8.5
+      },
+      "complex_coverage": [
+        30,
+        40
+      ],
+      "household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        50,
+        60
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "2010s",
+      "variant": "canonical_all",
+      "lengths": {
+        "mean": 7.5,
+        "space_mean": 7.5,
+        "alnum_mean": 7.5,
+        "q25": 5.0,
+        "median": 7.0,
+        "q75": 9.0,
+        "weighted_mean": 8.0
+      },
+      "complex_coverage": [
+        90,
+        100
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        10,
+        20
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "2010s",
+      "variant": "canonical_bridge",
+      "lengths": {
+        "mean": 9.0,
+        "space_mean": 9.0,
+        "alnum_mean": 9.0,
+        "q25": 7.0,
+        "median": 9.0,
+        "q75": 10.0,
+        "weighted_mean": 9.0
+      },
+      "complex_coverage": [
+        30,
+        40
+      ],
+      "household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        50,
+        60
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "2020_2026",
+      "variant": "main",
+      "lengths": {
+        "mean": 9.5,
+        "space_mean": 10.0,
+        "alnum_mean": 9.5,
+        "q25": 8.0,
+        "median": 9.0,
+        "q75": 11.0,
+        "weighted_mean": 9.5
+      },
+      "complex_coverage": [
+        30,
+        40
+      ],
+      "household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        50,
+        60
+      ],
+      "rates": {
+        "brand": 60.0,
+        "any_word": 20.0,
+        "any_outside": 20.0,
+        "brand_word": 15.0,
+        "brand_outside": 15.0,
+        "park": 15.0,
+        "central": 10.0,
+        "river": null,
+        "outside_park": 10.0,
+        "outside_central": 10.0,
+        "outside_river": null
+      },
+      "classification_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "era": "2020_2026",
+      "variant": "canonical_matched",
+      "lengths": {
+        "mean": 9.0,
+        "space_mean": 9.0,
+        "alnum_mean": 9.0,
+        "q25": 7.0,
+        "median": 9.0,
+        "q75": 10.0,
+        "weighted_mean": 8.5
+      },
+      "complex_coverage": [
+        30,
+        40
+      ],
+      "household_coverage": [
+        70,
+        80
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        50,
+        60
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "2020_2026",
+      "variant": "canonical_all",
+      "lengths": {
+        "mean": 8.0,
+        "space_mean": 8.5,
+        "alnum_mean": 8.0,
+        "q25": 6.0,
+        "median": 8.0,
+        "q75": 10.0,
+        "weighted_mean": 8.5
+      },
+      "complex_coverage": [
+        90,
+        100
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        10,
+        20
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "2020_2026",
+      "variant": "canonical_bridge",
+      "lengths": {
+        "mean": 9.5,
+        "space_mean": 10.5,
+        "alnum_mean": 9.5,
+        "q25": 8.0,
+        "median": 9.0,
+        "q75": 11.0,
+        "weighted_mean": 9.5
+      },
+      "complex_coverage": [
+        30,
+        40
+      ],
+      "household_coverage": [
+        60,
+        70
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        50,
+        60
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "unknown",
+      "variant": "main",
+      "lengths": {
+        "mean": null,
+        "space_mean": null,
+        "alnum_mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "weighted_mean": null
+      },
+      "complex_coverage": null,
+      "household_coverage": null,
+      "unknown_household_share": null,
+      "name_agreement": null,
+      "rates": {
+        "brand": null,
+        "any_word": null,
+        "any_outside": null,
+        "brand_word": null,
+        "brand_outside": null,
+        "park": null,
+        "central": null,
+        "river": null,
+        "outside_park": null,
+        "outside_central": null,
+        "outside_river": null
+      },
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "unknown",
+      "variant": "canonical_matched",
+      "lengths": {
+        "mean": null,
+        "space_mean": null,
+        "alnum_mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "weighted_mean": null
+      },
+      "complex_coverage": null,
+      "household_coverage": null,
+      "unknown_household_share": null,
+      "name_agreement": null,
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "unknown",
+      "variant": "canonical_all",
+      "lengths": {
+        "mean": null,
+        "space_mean": null,
+        "alnum_mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "weighted_mean": null
+      },
+      "complex_coverage": null,
+      "household_coverage": null,
+      "unknown_household_share": null,
+      "name_agreement": null,
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "11",
+      "era": "unknown",
+      "variant": "canonical_bridge",
+      "lengths": {
+        "mean": null,
+        "space_mean": null,
+        "alnum_mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "weighted_mean": null
+      },
+      "complex_coverage": null,
+      "household_coverage": null,
+      "unknown_household_share": null,
+      "name_agreement": null,
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "all",
+      "variant": "main",
+      "lengths": {
+        "mean": 8.5,
+        "space_mean": 9.0,
+        "alnum_mean": 8.5,
+        "q25": 6.0,
+        "median": 8.0,
+        "q75": 11.0,
+        "weighted_mean": 9.0
+      },
+      "complex_coverage": [
+        50,
+        60
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        10,
+        20
+      ],
+      "name_agreement": [
+        20,
+        30
+      ],
+      "rates": {
+        "brand": 30.0,
+        "any_word": 10.0,
+        "any_outside": 10.0,
+        "brand_word": 5.0,
+        "brand_outside": 5.0,
+        "park": 5.0,
+        "central": 5.0,
+        "river": 0.0,
+        "outside_park": 5.0,
+        "outside_central": 5.0,
+        "outside_river": 0.0
+      },
+      "classification_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "all",
+      "variant": "canonical_matched",
+      "lengths": {
+        "mean": 8.0,
+        "space_mean": 8.0,
+        "alnum_mean": 7.5,
+        "q25": 5.0,
+        "median": 8.0,
+        "q75": 10.0,
+        "weighted_mean": 8.5
+      },
+      "complex_coverage": [
+        50,
+        60
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        10,
+        20
+      ],
+      "name_agreement": [
+        20,
+        30
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "all",
+      "variant": "canonical_all",
+      "lengths": {
+        "mean": 7.0,
+        "space_mean": 7.0,
+        "alnum_mean": 6.5,
+        "q25": 4.0,
+        "median": 7.0,
+        "q75": 9.0,
+        "weighted_mean": 8.5
+      },
+      "complex_coverage": [
+        90,
+        100
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        10,
+        20
+      ],
+      "name_agreement": [
+        10,
+        20
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "all",
+      "variant": "canonical_bridge",
+      "lengths": {
+        "mean": 8.5,
+        "space_mean": 9.0,
+        "alnum_mean": 8.5,
+        "q25": 6.0,
+        "median": 8.0,
+        "q75": 11.0,
+        "weighted_mean": 9.0
+      },
+      "complex_coverage": [
+        50,
+        60
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        10,
+        20
+      ],
+      "name_agreement": [
+        20,
+        30
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "pre1980",
+      "variant": "main",
+      "lengths": {
+        "mean": null,
+        "space_mean": null,
+        "alnum_mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "weighted_mean": null
+      },
+      "complex_coverage": null,
+      "household_coverage": null,
+      "unknown_household_share": [
+        20,
+        30
+      ],
+      "name_agreement": null,
+      "rates": {
+        "brand": null,
+        "any_word": null,
+        "any_outside": null,
+        "brand_word": null,
+        "brand_outside": null,
+        "park": null,
+        "central": null,
+        "river": null,
+        "outside_park": null,
+        "outside_central": null,
+        "outside_river": null
+      },
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "pre1980",
+      "variant": "canonical_matched",
+      "lengths": {
+        "mean": null,
+        "space_mean": null,
+        "alnum_mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "weighted_mean": null
+      },
+      "complex_coverage": null,
+      "household_coverage": null,
+      "unknown_household_share": [
+        20,
+        30
+      ],
+      "name_agreement": null,
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "pre1980",
+      "variant": "canonical_all",
+      "lengths": {
+        "mean": 3.5,
+        "space_mean": 3.5,
+        "alnum_mean": 3.0,
+        "q25": 2.0,
+        "median": 2.0,
+        "q75": 4.0,
+        "weighted_mean": null
+      },
+      "complex_coverage": [
+        90,
+        100
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        20,
+        30
+      ],
+      "name_agreement": [
+        0,
+        10
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "pre1980",
+      "variant": "canonical_bridge",
+      "lengths": {
+        "mean": null,
+        "space_mean": null,
+        "alnum_mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "weighted_mean": null
+      },
+      "complex_coverage": null,
+      "household_coverage": null,
+      "unknown_household_share": [
+        20,
+        30
+      ],
+      "name_agreement": null,
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "1980s",
+      "variant": "main",
+      "lengths": {
+        "mean": 6.0,
+        "space_mean": 6.0,
+        "alnum_mean": 6.0,
+        "q25": 4.0,
+        "median": 6.0,
+        "q75": 7.0,
+        "weighted_mean": 6.0
+      },
+      "complex_coverage": [
+        10,
+        20
+      ],
+      "household_coverage": [
+        60,
+        70
+      ],
+      "unknown_household_share": [
+        20,
+        30
+      ],
+      "name_agreement": [
+        10,
+        20
+      ],
+      "rates": {
+        "brand": 15.0,
+        "any_word": 0.0,
+        "any_outside": 0.0,
+        "brand_word": 0.0,
+        "brand_outside": 0.0,
+        "park": 0.0,
+        "central": 0.0,
+        "river": 0.0,
+        "outside_park": 0.0,
+        "outside_central": 0.0,
+        "outside_river": 0.0
+      },
+      "classification_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "1980s",
+      "variant": "canonical_matched",
+      "lengths": {
+        "mean": 3.0,
+        "space_mean": 3.0,
+        "alnum_mean": 3.0,
+        "q25": 2.0,
+        "median": 3.0,
+        "q75": 4.0,
+        "weighted_mean": 3.5
+      },
+      "complex_coverage": [
+        10,
+        20
+      ],
+      "household_coverage": [
+        60,
+        70
+      ],
+      "unknown_household_share": [
+        20,
+        30
+      ],
+      "name_agreement": [
+        10,
+        20
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "1980s",
+      "variant": "canonical_all",
+      "lengths": {
+        "mean": 4.0,
+        "space_mean": 4.0,
+        "alnum_mean": 3.5,
+        "q25": 2.0,
+        "median": 3.0,
+        "q75": 5.0,
+        "weighted_mean": 3.5
+      },
+      "complex_coverage": [
+        90,
+        100
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        20,
+        30
+      ],
+      "name_agreement": [
+        0,
+        10
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "1980s",
+      "variant": "canonical_bridge",
+      "lengths": {
+        "mean": 6.0,
+        "space_mean": 6.0,
+        "alnum_mean": 6.0,
+        "q25": 4.0,
+        "median": 6.0,
+        "q75": 7.0,
+        "weighted_mean": 6.0
+      },
+      "complex_coverage": [
+        10,
+        20
+      ],
+      "household_coverage": [
+        60,
+        70
+      ],
+      "unknown_household_share": [
+        20,
+        30
+      ],
+      "name_agreement": [
+        10,
+        20
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "1990s",
+      "variant": "main",
+      "lengths": {
+        "mean": 6.5,
+        "space_mean": 6.5,
+        "alnum_mean": 6.5,
+        "q25": 4.0,
+        "median": 6.0,
+        "q75": 8.0,
+        "weighted_mean": 7.0
+      },
+      "complex_coverage": [
+        50,
+        60
+      ],
+      "household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_share": [
+        10,
+        20
+      ],
+      "name_agreement": [
+        10,
+        20
+      ],
+      "rates": {
+        "brand": 10.0,
+        "any_word": 0.0,
+        "any_outside": 0.0,
+        "brand_word": null,
+        "brand_outside": 0.0,
+        "park": 0.0,
+        "central": null,
+        "river": null,
+        "outside_park": null,
+        "outside_central": null,
+        "outside_river": null
+      },
+      "classification_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "1990s",
+      "variant": "canonical_matched",
+      "lengths": {
+        "mean": 5.5,
+        "space_mean": 5.5,
+        "alnum_mean": 5.0,
+        "q25": 2.5,
+        "median": 5.0,
+        "q75": 8.0,
+        "weighted_mean": 5.5
+      },
+      "complex_coverage": [
+        50,
+        60
+      ],
+      "household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_share": [
+        10,
+        20
+      ],
+      "name_agreement": [
+        10,
+        20
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "1990s",
+      "variant": "canonical_all",
+      "lengths": {
+        "mean": 6.0,
+        "space_mean": 6.0,
+        "alnum_mean": 5.0,
+        "q25": 3.0,
+        "median": 5.0,
+        "q75": 8.0,
+        "weighted_mean": 6.0
+      },
+      "complex_coverage": [
+        90,
+        100
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        10,
+        20
+      ],
+      "name_agreement": [
+        0,
+        10
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "1990s",
+      "variant": "canonical_bridge",
+      "lengths": {
+        "mean": 6.5,
+        "space_mean": 6.5,
+        "alnum_mean": 6.5,
+        "q25": 4.0,
+        "median": 6.0,
+        "q75": 8.0,
+        "weighted_mean": 7.0
+      },
+      "complex_coverage": [
+        50,
+        60
+      ],
+      "household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_share": [
+        10,
+        20
+      ],
+      "name_agreement": [
+        10,
+        20
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "2000s",
+      "variant": "main",
+      "lengths": {
+        "mean": 8.5,
+        "space_mean": 8.5,
+        "alnum_mean": 8.5,
+        "q25": 7.0,
+        "median": 8.0,
+        "q75": 10.0,
+        "weighted_mean": 8.5
+      },
+      "complex_coverage": [
+        50,
+        60
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        20,
+        30
+      ],
+      "rates": {
+        "brand": 25.0,
+        "any_word": 10.0,
+        "any_outside": 5.0,
+        "brand_word": 5.0,
+        "brand_outside": 0.0,
+        "park": 5.0,
+        "central": 0.0,
+        "river": 0.0,
+        "outside_park": 5.0,
+        "outside_central": 0.0,
+        "outside_river": 0.0
+      },
+      "classification_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "2000s",
+      "variant": "canonical_matched",
+      "lengths": {
+        "mean": 8.0,
+        "space_mean": 8.0,
+        "alnum_mean": 8.0,
+        "q25": 6.0,
+        "median": 8.0,
+        "q75": 10.0,
+        "weighted_mean": 8.5
+      },
+      "complex_coverage": [
+        50,
+        60
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        20,
+        30
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "2000s",
+      "variant": "canonical_all",
+      "lengths": {
+        "mean": 7.5,
+        "space_mean": 7.5,
+        "alnum_mean": 7.0,
+        "q25": 5.0,
+        "median": 7.0,
+        "q75": 10.0,
+        "weighted_mean": 8.5
+      },
+      "complex_coverage": [
+        90,
+        100
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        10,
+        20
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "2000s",
+      "variant": "canonical_bridge",
+      "lengths": {
+        "mean": 8.5,
+        "space_mean": 8.5,
+        "alnum_mean": 8.5,
+        "q25": 7.0,
+        "median": 8.0,
+        "q75": 10.0,
+        "weighted_mean": 8.5
+      },
+      "complex_coverage": [
+        50,
+        60
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        20,
+        30
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "2010s",
+      "variant": "main",
+      "lengths": {
+        "mean": 10.0,
+        "space_mean": 10.5,
+        "alnum_mean": 10.0,
+        "q25": 8.0,
+        "median": 10.0,
+        "q75": 12.0,
+        "weighted_mean": 10.5
+      },
+      "complex_coverage": [
+        60,
+        70
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        30,
+        40
+      ],
+      "rates": {
+        "brand": 45.0,
+        "any_word": 20.0,
+        "any_outside": 15.0,
+        "brand_word": 10.0,
+        "brand_outside": 10.0,
+        "park": 10.0,
+        "central": 10.0,
+        "river": 0.0,
+        "outside_park": 10.0,
+        "outside_central": 10.0,
+        "outside_river": 0.0
+      },
+      "classification_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "2010s",
+      "variant": "canonical_matched",
+      "lengths": {
+        "mean": 10.0,
+        "space_mean": 10.0,
+        "alnum_mean": 10.0,
+        "q25": 8.0,
+        "median": 9.0,
+        "q75": 12.0,
+        "weighted_mean": 10.5
+      },
+      "complex_coverage": [
+        60,
+        70
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        30,
+        40
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "2010s",
+      "variant": "canonical_all",
+      "lengths": {
+        "mean": 8.5,
+        "space_mean": 8.5,
+        "alnum_mean": 8.5,
+        "q25": 6.0,
+        "median": 8.0,
+        "q75": 11.0,
+        "weighted_mean": 10.0
+      },
+      "complex_coverage": [
+        90,
+        100
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        20,
+        30
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "2010s",
+      "variant": "canonical_bridge",
+      "lengths": {
+        "mean": 10.0,
+        "space_mean": 10.5,
+        "alnum_mean": 10.0,
+        "q25": 8.0,
+        "median": 10.0,
+        "q75": 12.0,
+        "weighted_mean": 10.5
+      },
+      "complex_coverage": [
+        60,
+        70
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        30,
+        40
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "2020_2026",
+      "variant": "main",
+      "lengths": {
+        "mean": 11.0,
+        "space_mean": 12.0,
+        "alnum_mean": 11.0,
+        "q25": 9.0,
+        "median": 11.0,
+        "q75": 13.0,
+        "weighted_mean": 11.5
+      },
+      "complex_coverage": [
+        50,
+        60
+      ],
+      "household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        40,
+        50
+      ],
+      "rates": {
+        "brand": 50.0,
+        "any_word": 20.0,
+        "any_outside": 20.0,
+        "brand_word": 10.0,
+        "brand_outside": 10.0,
+        "park": 15.0,
+        "central": 10.0,
+        "river": 0.0,
+        "outside_park": 10.0,
+        "outside_central": 10.0,
+        "outside_river": null
+      },
+      "classification_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "era": "2020_2026",
+      "variant": "canonical_matched",
+      "lengths": {
+        "mean": 10.5,
+        "space_mean": 10.5,
+        "alnum_mean": 10.5,
+        "q25": 8.0,
+        "median": 10.0,
+        "q75": 13.0,
+        "weighted_mean": 10.5
+      },
+      "complex_coverage": [
+        50,
+        60
+      ],
+      "household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        40,
+        50
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "2020_2026",
+      "variant": "canonical_all",
+      "lengths": {
+        "mean": 9.0,
+        "space_mean": 9.0,
+        "alnum_mean": 9.0,
+        "q25": 6.0,
+        "median": 9.0,
+        "q75": 12.0,
+        "weighted_mean": 10.5
+      },
+      "complex_coverage": [
+        90,
+        100
+      ],
+      "household_coverage": [
+        90,
+        100
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        20,
+        30
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "2020_2026",
+      "variant": "canonical_bridge",
+      "lengths": {
+        "mean": 11.0,
+        "space_mean": 12.0,
+        "alnum_mean": 11.0,
+        "q25": 9.0,
+        "median": 11.0,
+        "q75": 13.0,
+        "weighted_mean": 11.5
+      },
+      "complex_coverage": [
+        50,
+        60
+      ],
+      "household_coverage": [
+        80,
+        90
+      ],
+      "unknown_household_share": [
+        0,
+        10
+      ],
+      "name_agreement": [
+        40,
+        50
+      ],
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "unknown",
+      "variant": "main",
+      "lengths": {
+        "mean": null,
+        "space_mean": null,
+        "alnum_mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "weighted_mean": null
+      },
+      "complex_coverage": null,
+      "household_coverage": null,
+      "unknown_household_share": null,
+      "name_agreement": null,
+      "rates": {
+        "brand": null,
+        "any_word": null,
+        "any_outside": null,
+        "brand_word": null,
+        "brand_outside": null,
+        "park": null,
+        "central": null,
+        "river": null,
+        "outside_park": null,
+        "outside_central": null,
+        "outside_river": null
+      },
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "unknown",
+      "variant": "canonical_matched",
+      "lengths": {
+        "mean": null,
+        "space_mean": null,
+        "alnum_mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "weighted_mean": null
+      },
+      "complex_coverage": null,
+      "household_coverage": null,
+      "unknown_household_share": null,
+      "name_agreement": null,
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "unknown",
+      "variant": "canonical_all",
+      "lengths": {
+        "mean": null,
+        "space_mean": null,
+        "alnum_mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "weighted_mean": null
+      },
+      "complex_coverage": null,
+      "household_coverage": null,
+      "unknown_household_share": null,
+      "name_agreement": null,
+      "rates": null,
+      "classification_coverage": null
+    },
+    {
+      "scope": "41",
+      "era": "unknown",
+      "variant": "canonical_bridge",
+      "lengths": {
+        "mean": null,
+        "space_mean": null,
+        "alnum_mean": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "weighted_mean": null
+      },
+      "complex_coverage": null,
+      "household_coverage": null,
+      "unknown_household_share": null,
+      "name_agreement": null,
+      "rates": null,
+      "classification_coverage": null
+    }
+  ],
+  "history": [
+    {
+      "scope": "11",
+      "start": "20260424",
+      "end": "20260626",
+      "paired_coverage": [
+        20,
+        30
+      ],
+      "change_pct": {
+        "literal_changed": null,
+        "normalized_changed": null,
+        "length_changed": null
+      },
+      "change_observed": {
+        "literal_changed": null,
+        "normalized_changed": null,
+        "length_changed": null
+      }
+    },
+    {
+      "scope": "41",
+      "start": "20260424",
+      "end": "20260626",
+      "paired_coverage": [
+        50,
+        60
+      ],
+      "change_pct": {
+        "literal_changed": 0.0,
+        "normalized_changed": 0.0,
+        "length_changed": null
+      },
+      "change_observed": {
+        "literal_changed": true,
+        "normalized_changed": true,
+        "length_changed": null
+      }
+    },
+    {
+      "scope": "11",
+      "start": "20260626",
+      "end": "20260828",
+      "paired_coverage": [
+        20,
+        30
+      ],
+      "change_pct": {
+        "literal_changed": null,
+        "normalized_changed": null,
+        "length_changed": null
+      },
+      "change_observed": {
+        "literal_changed": null,
+        "normalized_changed": null,
+        "length_changed": null
+      }
+    },
+    {
+      "scope": "41",
+      "start": "20260626",
+      "end": "20260828",
+      "paired_coverage": [
+        50,
+        60
+      ],
+      "change_pct": {
+        "literal_changed": 0.0,
+        "normalized_changed": 0.0,
+        "length_changed": 0.0
+      },
+      "change_observed": {
+        "literal_changed": true,
+        "normalized_changed": true,
+        "length_changed": true
+      }
+    },
+    {
+      "scope": "11",
+      "start": "20260828",
+      "end": "20261002",
+      "paired_coverage": [
+        20,
+        30
+      ],
+      "change_pct": {
+        "literal_changed": null,
+        "normalized_changed": null,
+        "length_changed": null
+      },
+      "change_observed": {
+        "literal_changed": null,
+        "normalized_changed": null,
+        "length_changed": null
+      }
+    },
+    {
+      "scope": "41",
+      "start": "20260828",
+      "end": "20261002",
+      "paired_coverage": [
+        50,
+        60
+      ],
+      "change_pct": {
+        "literal_changed": null,
+        "normalized_changed": null,
+        "length_changed": null
+      },
+      "change_observed": {
+        "literal_changed": null,
+        "normalized_changed": null,
+        "length_changed": null
+      }
+    }
+  ],
+  "precision": {
+    "length_step": 0.5,
+    "percentage_step": 5,
+    "coverage_band_pp": 10
+  },
+  "limits": [
+    "Current recorded names grouped by completion era, not names at completion or historical first appearances.",
+    "NFKC code points without whitespace; digits, punctuation, brackets and phase labels retained.",
+    "Three Korean substrings are not all foreign words or proof of location. Embedded brand spans are separately excluded.",
+    "Literal registry match is not constructor inference; registry-unmatched is not verified unbranded.",
+    "Unknown classifications and unmatched complexes remain in coverage denominators; known-household coverage is not all housing.",
+    "Rounded zero does not establish absence; withheld groups remain visible. Recorded changes are not verified legal renaming dates.",
+    "No price, demand, operating quality or causal naming effect is estimated."
+  ]
+}
