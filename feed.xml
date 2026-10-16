@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-17T07:24:24+09:00</updated>
+  <updated>2026-10-17T08:07:37+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>월세 갱신 인상률, 보증금이 바뀌면 어떻게 달라질까?</title>
+    <id>https://nobot-kang.github.io/posts/monthly-renewal-increase/</id>
+    <published>2026-10-17T08:07:37+09:00</published>
+    <updated>2026-10-17T08:07:37+09:00</updated>
+    <summary>서울·수집 경기 아파트의 월세 갱신 인상률을 보증금 감소·동일·증가와 같은 상반기·면적별로 비교합니다. 5% 주변 분포, 종전 금액의 눈금, 권리 기재와 법적 판단의 차이를 확인하세요.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/monthly-renewal-increase/" />
+    <category term="전세와 월세 계약 읽기" />
+  </entry>
   <entry>
     <title>전세 갱신 비중, 미기재를 빼면 얼마나 달라질까?</title>
     <id>https://nobot-kang.github.io/posts/jeonse-renewal-share/</id>
@@ -266,7 +275,7 @@
     <title>갱신요구권 사용 비율: 서울·경기 실거래 기록의 숫자와 빈칸</title>
     <id>https://nobot-kang.github.io/posts/renewal-rights-recorded-use/</id>
     <published>2026-10-12T15:19:39+09:00</published>
-    <updated>2026-10-13T19:59:42+09:00</updated>
+    <updated>2026-10-17T08:07:37+09:00</updated>
     <summary>서울·수집 경기 아파트의 갱신요구권 사용 기재 비중을 시기·전세·월세·면적별로 비교합니다. 빈칸을 미사용으로 볼 수 없는 이유와 신고제 초기 결손, 정책 첫 2년의 분모를 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/renewal-rights-recorded-use/" />
     <category term="전세와 월세 계약 읽기" />
