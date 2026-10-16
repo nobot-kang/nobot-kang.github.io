@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-17T00:04:23+09:00</updated>
+  <updated>2026-10-17T01:56:46+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>전세수급지수와 전셋값, 정말 같이 움직였을까?</title>
+    <id>https://nobot-kang.github.io/posts/jeonse-supply-prices/</id>
+    <published>2026-10-17T01:53:41+09:00</published>
+    <updated>2026-10-17T01:53:41+09:00</updated>
+    <summary>서울·경기의 전세수급지수를 KB 가격지수와 실제 59형·84형 보증금 구간으로 비교합니다. 수급 수준과 변화, 2021·2022년 경로, 전체 시차와 신고·통계 개편의 한계를 함께 확인합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/jeonse-supply-prices/" />
+    <category term="시장 심리 읽기" />
+  </entry>
   <entry>
     <title>오래된 아파트 상위 1%, 서울·경기의 건축 연도는?</title>
     <id>https://nobot-kang.github.io/posts/oldest-apartment-stock/</id>
@@ -239,7 +248,7 @@
     <title>KB 전망지수는 3개월 뒤 집값을 맞혔을까? 매매·전세 방향 비교</title>
     <id>https://nobot-kang.github.io/posts/kb-price-outlook-and-results/</id>
     <published>2026-10-12T12:05:07+09:00</published>
-    <updated>2026-10-13T19:13:00+09:00</updated>
+    <updated>2026-10-17T01:53:41+09:00</updated>
     <summary>서울·경기의 KB 매매·전세 전망을 3개월 뒤 가격 방향과 대조합니다. 항상 상승·직전 추세 가정, 연도별 반례, 공표 시점과 자체 지수의 차이를 함께 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/kb-price-outlook-and-results/" />
     <category term="시장 심리 읽기" />
@@ -248,7 +257,7 @@
     <title>거래활발지수가 오르면 거래량도 늘었을까? 서울·경기 매매와 전세 비교</title>
     <id>https://nobot-kang.github.io/posts/kb-trading-activity-and-contracts/</id>
     <published>2026-10-12T10:56:54+09:00</published>
-    <updated>2026-10-13T19:13:00+09:00</updated>
+    <updated>2026-10-17T01:56:46+09:00</updated>
     <summary>KB 월간 매매·전세 거래활발지수와 서울·수집 경기의 아파트 계약 건수를 비교합니다. 지수 100의 뜻, 상관과 전월 방향, 임대차 신고제 전후·최근 월·반올림의 한계를 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/kb-trading-activity-and-contracts/" />
     <category term="시장 심리 읽기" />
@@ -257,7 +266,7 @@
     <title>KB 매수우위지수 100의 뜻: 서울·경기 거래량과 집값도 함께 움직일까?</title>
     <id>https://nobot-kang.github.io/posts/kb-buyer-sentiment-100/</id>
     <published>2026-10-12T09:08:25+09:00</published>
-    <updated>2026-10-13T19:13:00+09:00</updated>
+    <updated>2026-10-17T01:53:41+09:00</updated>
     <summary>2010~2026년 서울·경기·수도권 월간 매수우위지수에서 100 초과 구간과 응답 비율을 확인합니다. 실제 아파트 계약·가격의 동행과 반례, 월간·주간 및 최근 자료의 한계를 비교합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/kb-buyer-sentiment-100/" />
     <category term="시장 심리 읽기" />
