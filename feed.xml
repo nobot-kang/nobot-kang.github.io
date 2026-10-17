@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-17T20:30:34+09:00</updated>
+  <updated>2026-10-17T20:55:27+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -11,10 +11,19 @@
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
   <entry>
+    <title>마포·서대문·은평 아파트 가격: 격차는 언제 벌어졌을까?</title>
+    <id>https://nobot-kang.github.io/posts/northwest-three/</id>
+    <published>2026-10-17T20:55:27+09:00</published>
+    <updated>2026-10-17T20:55:27+09:00</updated>
+    <summary>마포·서대문·은평의 84형 가격 격차가 벌어진 시기를 같은 기간으로 비교합니다. 연식·거래 집중에 따라 달라지는 결과와 재개발 준공·입주의 서로 다른 날짜를 확인하세요.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/northwest-three/" />
+    <category term="수도권 가격 지도" />
+  </entry>
+  <entry>
     <title>강서·양천 아파트 가격: 연식이 같으면 차이도 같을까?</title>
     <id>https://nobot-kang.github.io/posts/gangseo-yangcheon/</id>
     <published>2026-10-17T20:30:34+09:00</published>
-    <updated>2026-10-17T20:30:34+09:00</updated>
+    <updated>2026-10-17T20:55:27+09:00</updated>
     <summary>강서·양천의 84형 가격을 같은 기간과 연식으로 비교합니다. 목동·마곡의 개발·입주 연대, 신축과 거래 집중의 영향, 현재 주택 구성과 비교가 어려운 조건을 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/gangseo-yangcheon/" />
     <category term="수도권 가격 지도" />
