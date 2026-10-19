@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-19T19:09:42+09:00</updated>
+  <updated>2026-10-19T19:22:06+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>서울 새 아파트 중 재개발·재건축 비중은 얼마일까? 2024년 입주 실적의 분모</title>
+    <id>https://nobot-kang.github.io/posts/renewal-supply-share/</id>
+    <published>2026-10-19T19:22:06+09:00</published>
+    <updated>2026-10-19T19:22:06+09:00</updated>
+    <summary>2024년 서울 입주 실적에서 재개발·재건축과 소규모 정비사업의 비중을 구분합니다. 현재 재고·실제 입주·철거를 뺀 순증과의 차이, 전망 자료의 기준월과 세대수 범위를 설명합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/renewal-supply-share/" />
+    <category term="정비사업 숫자 읽기" />
+  </entry>
   <entry>
     <title>서울 정비사업 현황 830건, 모두 다른 정비구역일까? 단계별로 읽기</title>
     <id>https://nobot-kang.github.io/posts/seoul-renewal-register/</id>
@@ -41,7 +50,7 @@
     <title>기부채납하면 용적률은 얼마나 높아질까? 기준·상한과 공공주택의 조건</title>
     <id>https://nobot-kang.github.io/posts/redevelopment-public-contribution/</id>
     <published>2026-10-19T19:09:42+09:00</published>
-    <updated>2026-10-19T19:09:42+09:00</updated>
+    <updated>2026-10-19T19:22:06+09:00</updated>
     <summary>기준·허용·상한용적률과 공공시설·주택 공급의 경로를 구분합니다. 현행 서울 조례의 적용 조건, 허가명별 관측 분포의 한계, 분담금과 연결할 문서를 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/redevelopment-public-contribution/" />
     <category term="정비사업 숫자 읽기" />

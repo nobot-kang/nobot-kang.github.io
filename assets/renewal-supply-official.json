@@ -1,0 +1,47 @@
+{
+  "schema": "seoul_official_renewal_movein_2024_v1",
+  "scope": "서울",
+  "year": 2024,
+  "data_as_of": "2024-12",
+  "released": "2025-03-14",
+  "unit": "official first move-in housing units",
+  "source_url": "https://news.seoul.go.kr/citybuild/housing-statistics-information#view/430877",
+  "corroborating_url": "https://mediahub.seoul.go.kr/archives/2013744",
+  "rows": [
+    {
+      "key": "redevelopment",
+      "label": "재개발",
+      "units": 2960
+    },
+    {
+      "key": "reconstruction",
+      "label": "재건축",
+      "units": 16306
+    },
+    {
+      "key": "street",
+      "label": "가로주택정비",
+      "units": 317
+    },
+    {
+      "key": "small_reconstruction",
+      "label": "소규모재건축",
+      "units": 340
+    },
+    {
+      "key": "non_renewal",
+      "label": "비정비사업",
+      "units": 12749
+    }
+  ],
+  "total_units": 32672,
+  "renewal_units": 19923,
+  "core_renewal_units": 19266,
+  "limitations": [
+    "Official2024 first move-in list, not completed resident occupancy or a historical2010+ census.",
+    "This vintage has no minimum unit threshold; later30+ forecasts are not the same population.",
+    "Includes completion, partial completion and temporary-use approval in the original scope.",
+    "Source sale/rent components and one half-year label are inconsistent; neither is published or repaired.",
+    "No net housing addition, current rental listings, future supply or private apartment linkage."
+  ]
+}
