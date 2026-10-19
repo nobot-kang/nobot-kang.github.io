@@ -1,0 +1,80 @@
+{
+  "schema": "seoul_public_project_register_v1",
+  "observed_source_date": "2026-10-13",
+  "checked_date": "2026-10-19",
+  "source_url": "https://data.seoul.go.kr/dataList/OA-23112/S/1/datasetView.do",
+  "source_sha256": "99b8adf320c2f2468041fe6af4a7e07160f676cd1ae3ac14bedee35b22fa0f98",
+  "unit": "official register records, not unique zones or apartment complexes",
+  "scope": "Seoul; all seven published classifications; no private data linkage",
+  "records": 830,
+  "types": {
+    "신속통합기획": 230,
+    "재개발(도시정비형)": 147,
+    "재개발(주택정비형)": 174,
+    "재건축(공동)": 177,
+    "재건축(단독)": 32,
+    "주거환경개선(관리형)": 52,
+    "주거환경개선(정비형)": 18
+  },
+  "stages": {
+    "건축심의": 43,
+    "관리처분계획인가": 75,
+    "구역지정": 61,
+    "기획완료": 132,
+    "대상지선정": 100,
+    "미기재": 1,
+    "사업시행인가": 68,
+    "열람공고": 1,
+    "정비계획수립": 2,
+    "조합설립인가": 125,
+    "준공": 71,
+    "준공(일부)": 8,
+    "착공": 67,
+    "추진위구성": 76
+  },
+  "districts": {
+    "강남구": 47,
+    "강동구": 31,
+    "강북구": 25,
+    "강서구": 9,
+    "관악구": 25,
+    "광진구": 14,
+    "구로구": 45,
+    "금천구": 18,
+    "노원구": 21,
+    "도봉구": 23,
+    "동대문구": 38,
+    "동작구": 32,
+    "마포구": 32,
+    "서대문구": 35,
+    "서초구": 40,
+    "성동구": 25,
+    "성북구": 43,
+    "송파구": 38,
+    "양천구": 50,
+    "영등포구": 67,
+    "용산구": 38,
+    "은평구": 32,
+    "종로구": 40,
+    "중구": 43,
+    "중랑구": 19
+  },
+  "duplicate_normalized_keys": {
+    "bsns_name": {
+      "groups": 51,
+      "records": 102
+    },
+    "bsns_addr": {
+      "groups": 29,
+      "records": 58
+    }
+  },
+  "missing_supply": 390,
+  "missing_stage": 1,
+  "limitations": [
+    "One current stage/date field; not a full transition history.",
+    "Names and addresses can repeat across classifications; no inferred deduplication.",
+    "Supply totals are not published: missing values and overlapping records.",
+    "No stage conversion probabilities, residence durations or completion forecasts."
+  ]
+}
