@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-19T21:10:16+09:00</updated>
+  <updated>2026-10-19T21:29:49+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>조합원 분양가와 일반분양가 차이: 관리처분계획과 분양가상한제 읽기</title>
+    <id>https://nobot-kang.github.io/posts/redevelopment-member-public-price/</id>
+    <published>2026-10-19T21:29:49+09:00</published>
+    <updated>2026-10-19T21:29:49+09:00</updated>
+    <summary>조합원 분양가와 일반분양가의 결정 절차를 비교합니다. 관리처분계획, 분양가상한제의 택지·지역·예외, 지정 연혁과 분담금의 차이를 공식 원문으로 읽습니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/redevelopment-member-public-price/" />
+    <category term="정비사업 숫자 읽기" />
+  </entry>
   <entry>
     <title>리모델링과 재건축 차이: 면적·세대수·층수 한도를 읽는 법</title>
     <id>https://nobot-kang.github.io/posts/apartment-remodeling-reconstruction/</id>
