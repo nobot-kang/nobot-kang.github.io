@@ -1,0 +1,299 @@
+{
+  "schema": "renewal_area_candidate_v1",
+  "period": "2010–2025",
+  "share_band_pp": 5,
+  "coverage_band_pp": 10,
+  "common_years": {
+    "11": [
+      2010,
+      2011,
+      2012,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "41": null
+  },
+  "boundary": "Current full-area matched permit-name cohort; not legal-origin census, historical supply, or area-specific rental inventory. Upper endpoints excluded except100%; null is withheld, not zero.",
+  "rows": [
+    {
+      "scope": "11",
+      "kind": "reconstruction",
+      "household_share_bands": {
+        "small": [
+          30,
+          35
+        ],
+        "middle": [
+          50,
+          55
+        ],
+        "large": [
+          15,
+          20
+        ],
+        "size59": [
+          25,
+          30
+        ],
+        "size84": [
+          40,
+          45
+        ]
+      },
+      "small_equal_complex_band": [
+        30,
+        35
+      ],
+      "small_no_conflict_band": [
+        30,
+        35
+      ],
+      "small_sale_only_band": null,
+      "small_common_years_band": [
+        30,
+        35
+      ],
+      "small_equal_years_band": [
+        25,
+        30
+      ],
+      "complex_coverage_band": [
+        60,
+        70
+      ]
+    },
+    {
+      "scope": "11",
+      "kind": "redevelopment",
+      "household_share_bands": {
+        "small": [
+          40,
+          45
+        ],
+        "middle": [
+          45,
+          50
+        ],
+        "large": [
+          10,
+          15
+        ],
+        "size59": [
+          25,
+          30
+        ],
+        "size84": [
+          40,
+          45
+        ]
+      },
+      "small_equal_complex_band": [
+        35,
+        40
+      ],
+      "small_no_conflict_band": [
+        40,
+        45
+      ],
+      "small_sale_only_band": [
+        35,
+        40
+      ],
+      "small_common_years_band": [
+        40,
+        45
+      ],
+      "small_equal_years_band": [
+        40,
+        45
+      ],
+      "complex_coverage_band": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11",
+      "kind": "other_recorded",
+      "household_share_bands": {
+        "small": [
+          40,
+          45
+        ],
+        "middle": [
+          30,
+          35
+        ],
+        "large": [
+          20,
+          25
+        ],
+        "size59": [
+          15,
+          20
+        ],
+        "size84": [
+          30,
+          35
+        ]
+      },
+      "small_equal_complex_band": [
+        50,
+        55
+      ],
+      "small_no_conflict_band": [
+        40,
+        45
+      ],
+      "small_sale_only_band": [
+        30,
+        35
+      ],
+      "small_common_years_band": [
+        35,
+        40
+      ],
+      "small_equal_years_band": [
+        40,
+        45
+      ],
+      "complex_coverage_band": [
+        10,
+        20
+      ]
+    },
+    {
+      "scope": "41",
+      "kind": "reconstruction",
+      "household_share_bands": {
+        "small": [
+          35,
+          40
+        ],
+        "middle": [
+          45,
+          50
+        ],
+        "large": [
+          10,
+          15
+        ],
+        "size59": [
+          30,
+          35
+        ],
+        "size84": [
+          35,
+          40
+        ]
+      },
+      "small_equal_complex_band": [
+        40,
+        45
+      ],
+      "small_no_conflict_band": [
+        35,
+        40
+      ],
+      "small_sale_only_band": [
+        35,
+        40
+      ],
+      "small_common_years_band": null,
+      "small_equal_years_band": null,
+      "complex_coverage_band": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41",
+      "kind": "redevelopment",
+      "household_share_bands": {
+        "small": [
+          50,
+          55
+        ],
+        "middle": [
+          40,
+          45
+        ],
+        "large": [
+          0,
+          5
+        ],
+        "size59": [
+          40,
+          45
+        ],
+        "size84": [
+          25,
+          30
+        ]
+      },
+      "small_equal_complex_band": [
+        50,
+        55
+      ],
+      "small_no_conflict_band": [
+        50,
+        55
+      ],
+      "small_sale_only_band": null,
+      "small_common_years_band": null,
+      "small_equal_years_band": null,
+      "complex_coverage_band": null
+    },
+    {
+      "scope": "41",
+      "kind": "other_recorded",
+      "household_share_bands": {
+        "small": [
+          15,
+          20
+        ],
+        "middle": [
+          60,
+          65
+        ],
+        "large": [
+          20,
+          25
+        ],
+        "size59": [
+          10,
+          15
+        ],
+        "size84": [
+          45,
+          50
+        ]
+      },
+      "small_equal_complex_band": [
+        20,
+        25
+      ],
+      "small_no_conflict_band": [
+        15,
+        20
+      ],
+      "small_sale_only_band": [
+        15,
+        20
+      ],
+      "small_common_years_band": null,
+      "small_equal_years_band": null,
+      "complex_coverage_band": [
+        50,
+        60
+      ]
+    }
+  ]
+}
