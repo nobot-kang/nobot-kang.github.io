@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-19T22:20:24+09:00</updated>
+  <updated>2026-10-19T22:50:25+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>모아타운·가로주택·소규모재건축 차이: 작은 노후 아파트 분포 읽기</title>
+    <id>https://nobot-kang.github.io/posts/small-renewal-moa-town/</id>
+    <published>2026-10-19T22:50:25+09:00</published>
+    <updated>2026-10-19T22:50:25+09:00</updated>
+    <summary>모아타운·모아주택과 네 소규모 정비사업의 단위를 구분합니다. 현행 면적·세대수 조건, 서울 정책 목표, 서울·수집 경기의 200세대 미만·30년 이상 아파트 분포와 누락을 함께 읽습니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/small-renewal-moa-town/" />
+    <category term="정비사업 숫자 읽기" />
+  </entry>
   <entry>
     <title>재건축초과이익환수제 계산 구조: 8천만원 기준과 분담금의 차이</title>
     <id>https://nobot-kang.github.io/posts/reconstruction-excess-profit-levy/</id>
@@ -32,7 +41,7 @@
     <title>리모델링과 재건축 차이: 면적·세대수·층수 한도를 읽는 법</title>
     <id>https://nobot-kang.github.io/posts/apartment-remodeling-reconstruction/</id>
     <published>2026-10-19T21:10:16+09:00</published>
-    <updated>2026-10-19T21:10:16+09:00</updated>
+    <updated>2026-10-19T22:50:25+09:00</updated>
     <summary>리모델링과 재건축의 법적 방식, 면적·세대수·수직증축 한도를 비교합니다. 전용 85㎡의 경계와 가상 계산, 안전진단·허가·비용 문서를 나누어 읽습니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-remodeling-reconstruction/" />
     <category term="정비사업 숫자 읽기" />
