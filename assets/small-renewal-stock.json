@@ -1,0 +1,1054 @@
+{
+  "schema": "small_renewal_stock_v1",
+  "snapshot": "2026-10-02",
+  "year": 2026,
+  "scopes": {
+    "11": "서울 25개 구",
+    "41": "수집 경기 36개 지역",
+    "11110": "종로구",
+    "11140": "중구",
+    "11170": "용산구",
+    "11200": "성동구",
+    "11215": "광진구",
+    "11230": "동대문구",
+    "11260": "중랑구",
+    "11290": "성북구",
+    "11305": "강북구",
+    "11320": "도봉구",
+    "11350": "노원구",
+    "11380": "은평구",
+    "11410": "서대문구",
+    "11440": "마포구",
+    "11470": "양천구",
+    "11500": "강서구",
+    "11530": "구로구",
+    "11545": "금천구",
+    "11560": "영등포구",
+    "11590": "동작구",
+    "11620": "관악구",
+    "11650": "서초구",
+    "11680": "강남구",
+    "11710": "송파구",
+    "11740": "강동구",
+    "41111": "수원시 장안구",
+    "41113": "수원시 권선구",
+    "41115": "수원시 팔달구",
+    "41117": "수원시 영통구",
+    "41131": "성남시 수정구",
+    "41133": "성남시 중원구",
+    "41135": "성남시 분당구",
+    "41150": "의정부시",
+    "41171": "안양시 만안구",
+    "41173": "안양시 동안구",
+    "41192": "부천시 원미구",
+    "41194": "부천시 소사구",
+    "41196": "부천시 오정구",
+    "41210": "광명시",
+    "41220": "평택시",
+    "41271": "안산시 상록구",
+    "41273": "안산시 단원구",
+    "41281": "고양시 덕양구",
+    "41285": "고양시 일산동구",
+    "41287": "고양시 일산서구",
+    "41290": "과천시",
+    "41310": "구리시",
+    "41360": "남양주시",
+    "41410": "군포시",
+    "41430": "의왕시",
+    "41450": "하남시",
+    "41461": "용인시 처인구",
+    "41463": "용인시 기흥구",
+    "41465": "용인시 수지구",
+    "41480": "파주시",
+    "41570": "김포시",
+    "41591": "화성시 만세구",
+    "41593": "화성시 효행구",
+    "41595": "화성시 병점구",
+    "41597": "화성시 동탄구",
+    "41610": "광주시"
+  },
+  "rows": [
+    {
+      "scope": "11",
+      "variant": "main",
+      "count_band": [
+        800,
+        825
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "no_conflict",
+      "count_band": [
+        775,
+        800
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "kapt_matched",
+      "count_band": [
+        125,
+        150
+      ],
+      "selected_coverage": [
+        20,
+        30
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "area_only",
+      "count_band": [
+        125,
+        150
+      ],
+      "selected_coverage": [
+        20,
+        30
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "main",
+      "count_band": [
+        775,
+        800
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_conflict",
+      "count_band": [
+        725,
+        750
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "kapt_matched",
+      "count_band": [
+        100,
+        125
+      ],
+      "selected_coverage": [
+        50,
+        60
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "area_only",
+      "count_band": [
+        100,
+        125
+      ],
+      "selected_coverage": [
+        50,
+        60
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11110",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11140",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11170",
+      "variant": "main",
+      "count_band": [
+        50,
+        75
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11200",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11215",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11230",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11260",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11290",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11305",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11320",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11350",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11380",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11410",
+      "variant": "main",
+      "count_band": [
+        25,
+        50
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11440",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11470",
+      "variant": "main",
+      "count_band": [
+        25,
+        50
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11500",
+      "variant": "main",
+      "count_band": [
+        25,
+        50
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11530",
+      "variant": "main",
+      "count_band": [
+        225,
+        250
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11545",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11560",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11590",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11620",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11650",
+      "variant": "main",
+      "count_band": [
+        50,
+        75
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11680",
+      "variant": "main",
+      "count_band": [
+        50,
+        75
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11710",
+      "variant": "main",
+      "count_band": [
+        25,
+        50
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11740",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41111",
+      "variant": "main",
+      "count_band": [
+        25,
+        50
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41113",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41115",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41117",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41131",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41133",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41135",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41150",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41171",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41173",
+      "variant": "main",
+      "count_band": [
+        25,
+        50
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41192",
+      "variant": "main",
+      "count_band": [
+        25,
+        50
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41194",
+      "variant": "main",
+      "count_band": [
+        50,
+        75
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41196",
+      "variant": "main",
+      "count_band": [
+        100,
+        125
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41210",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41220",
+      "variant": "main",
+      "count_band": [
+        25,
+        50
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41271",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41273",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41281",
+      "variant": "main",
+      "count_band": [
+        25,
+        50
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41285",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        60,
+        70
+      ]
+    },
+    {
+      "scope": "41287",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41290",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": null,
+      "complete_coverage": null
+    },
+    {
+      "scope": "41310",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41360",
+      "variant": "main",
+      "count_band": [
+        25,
+        50
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41410",
+      "variant": "main",
+      "count_band": [
+        25,
+        50
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41430",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41450",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41461",
+      "variant": "main",
+      "count_band": [
+        75,
+        100
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41463",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41465",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41480",
+      "variant": "main",
+      "count_band": [
+        25,
+        50
+      ],
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41570",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41591",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41593",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41595",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41597",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41610",
+      "variant": "main",
+      "count_band": null,
+      "selected_coverage": [
+        90,
+        100
+      ],
+      "complete_coverage": [
+        90,
+        100
+      ]
+    }
+  ],
+  "precision": {
+    "count_band_width": 25,
+    "coverage_band_pp": 10
+  },
+  "count_rule": "known households <200 and canonical build_year<=1996; valid years1900..2026",
+  "limits": [
+    "Currently retained canonical apartment inventory, not all standing housing or legal project eligibility.",
+    "Count upper bounds excluded; coverage upper bounds excluded except100%. Null is withheld, never zero.",
+    "Variant populations differ; coverage is essential. No identities, exact totals, household sums or transaction equations."
+  ]
+}
