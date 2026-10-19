@@ -1,0 +1,208 @@
+{
+  "schema": "renewal-comparison-size-v1",
+  "unit": "households",
+  "interval": "[lower,upper)",
+  "width": 100,
+  "rows": [
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "reconstruction",
+      "main_q25": [
+        0,
+        100
+      ],
+      "main_median": [
+        300,
+        400
+      ],
+      "main_q75": [
+        700,
+        800
+      ],
+      "source_q25": [
+        0,
+        400
+      ],
+      "source_median": [
+        300,
+        500
+      ],
+      "source_q75": [
+        700,
+        900
+      ],
+      "common_year_median": [
+        300,
+        500
+      ],
+      "equal_year_median": [
+        200,
+        500
+      ]
+    },
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "redevelopment",
+      "main_q25": [
+        300,
+        400
+      ],
+      "main_median": [
+        500,
+        600
+      ],
+      "main_q75": [
+        900,
+        1000
+      ],
+      "source_q25": [
+        300,
+        400
+      ],
+      "source_median": [
+        500,
+        600
+      ],
+      "source_q75": [
+        900,
+        1000
+      ],
+      "common_year_median": [
+        500,
+        600
+      ],
+      "equal_year_median": [
+        500,
+        600
+      ]
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "reconstruction",
+      "main_q25": [
+        0,
+        100
+      ],
+      "main_median": [
+        300,
+        400
+      ],
+      "main_q75": [
+        800,
+        900
+      ],
+      "source_q25": [
+        0,
+        300
+      ],
+      "source_median": [
+        300,
+        700
+      ],
+      "source_q75": [
+        800,
+        1200
+      ],
+      "common_year_median": [
+        400,
+        700
+      ],
+      "equal_year_median": [
+        400,
+        700
+      ]
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "redevelopment",
+      "main_q25": [
+        400,
+        500
+      ],
+      "main_median": [
+        700,
+        800
+      ],
+      "main_q75": [
+        1100,
+        1200
+      ],
+      "source_q25": [
+        300,
+        500
+      ],
+      "source_median": [
+        700,
+        900
+      ],
+      "source_q75": [
+        1100,
+        1300
+      ],
+      "common_year_median": [
+        800,
+        900
+      ],
+      "equal_year_median": [
+        700,
+        900
+      ]
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "reconstruction",
+      "main_q25": null,
+      "main_median": null,
+      "main_q75": null,
+      "source_q25": null,
+      "source_median": null,
+      "source_q75": null,
+      "common_year_median": null,
+      "equal_year_median": null
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "redevelopment",
+      "main_q25": null,
+      "main_median": null,
+      "main_q75": null,
+      "source_q25": null,
+      "source_median": null,
+      "source_q75": null,
+      "common_year_median": null,
+      "equal_year_median": null
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "reconstruction",
+      "main_q25": null,
+      "main_median": null,
+      "main_q75": null,
+      "source_q25": null,
+      "source_median": null,
+      "source_q75": null,
+      "common_year_median": null,
+      "equal_year_median": null
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "redevelopment",
+      "main_q25": null,
+      "main_median": null,
+      "main_q75": null,
+      "source_q25": null,
+      "source_median": null,
+      "source_q75": null,
+      "common_year_median": null,
+      "equal_year_median": null
+    }
+  ]
+}
