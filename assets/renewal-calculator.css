@@ -1,0 +1,12 @@
+.renewal-columns { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; }
+.renewal-columns .deposit-inputs { grid-template-columns: minmax(0, 1fr); }
+.deposit-calculator .renewal-help { color: var(--muted); line-height: 1.5; margin: 6px 0; }
+#renewal-calculator .deposit-actions button { min-height: 48px; white-space: normal; }
+#renewal-calculator .table-wrap { max-width: 100%; }
+#renewal-calculator td { overflow-wrap: anywhere; }
+#renewal-calculator th { min-width: 7em; }
+#renewal-calculator #renewal-status { font-size: 16px; }
+#renewal-calculator .deposit-errors a { overflow-wrap: anywhere; }
+@media (max-width: 700px) {
+  .renewal-columns { grid-template-columns: minmax(0, 1fr); gap: 0; }
+}

@@ -1,0 +1,637 @@
+{
+  "schema": "construction_duration_v1",
+  "data_as_of": "2026-10-04",
+  "source_url": "https://www.data.go.kr/data/15134735/openapi.do",
+  "scopes": {
+    "11": "서울",
+    "41": "수집 경기"
+  },
+  "periods": [
+    "2010–2019",
+    "2020–2025"
+  ],
+  "kinds": {
+    "reconstruction": "재건축 허가 기재",
+    "redevelopment": "재개발 허가 기재",
+    "other_recorded": "다른 허가 기재"
+  },
+  "sizes": {
+    "all": "전체 규모",
+    "under300": "300세대 미만",
+    "300to999": "300–999세대",
+    "1000plus": "1,000세대 이상",
+    "unknown": "규모 미상"
+  },
+  "unit": "calendar days / 365.2425, rounded to nearest half year; equally weighted complexes",
+  "rows": [
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "reconstruction",
+      "size": "all",
+      "supported": true,
+      "q25_years": 2.0,
+      "median_years": 2.5,
+      "q75_years": 3.0
+    },
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "reconstruction",
+      "size": "under300",
+      "supported": true,
+      "q25_years": 1.5,
+      "median_years": 2.0,
+      "q75_years": 2.5
+    },
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "reconstruction",
+      "size": "300to999",
+      "supported": true,
+      "q25_years": 2.5,
+      "median_years": 2.5,
+      "q75_years": 3.0
+    },
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "reconstruction",
+      "size": "1000plus",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "reconstruction",
+      "size": "unknown",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "redevelopment",
+      "size": "all",
+      "supported": true,
+      "q25_years": 2.5,
+      "median_years": 3.0,
+      "q75_years": 3.0
+    },
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "redevelopment",
+      "size": "under300",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "redevelopment",
+      "size": "300to999",
+      "supported": true,
+      "q25_years": 2.5,
+      "median_years": 2.5,
+      "q75_years": 3.0
+    },
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "redevelopment",
+      "size": "1000plus",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "redevelopment",
+      "size": "unknown",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "other_recorded",
+      "size": "all",
+      "supported": true,
+      "q25_years": 1.0,
+      "median_years": 1.5,
+      "q75_years": 2.0
+    },
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "other_recorded",
+      "size": "under300",
+      "supported": true,
+      "q25_years": 1.0,
+      "median_years": 1.0,
+      "q75_years": 2.0
+    },
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "other_recorded",
+      "size": "300to999",
+      "supported": true,
+      "q25_years": 2.5,
+      "median_years": 2.5,
+      "q75_years": 3.0
+    },
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "other_recorded",
+      "size": "1000plus",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "other_recorded",
+      "size": "unknown",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "reconstruction",
+      "size": "all",
+      "supported": true,
+      "q25_years": 2.0,
+      "median_years": 2.5,
+      "q75_years": 3.0
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "reconstruction",
+      "size": "under300",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "reconstruction",
+      "size": "300to999",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "reconstruction",
+      "size": "1000plus",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "reconstruction",
+      "size": "unknown",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "redevelopment",
+      "size": "all",
+      "supported": true,
+      "q25_years": 3.0,
+      "median_years": 3.5,
+      "q75_years": 4.0
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "redevelopment",
+      "size": "under300",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "redevelopment",
+      "size": "300to999",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "redevelopment",
+      "size": "1000plus",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "redevelopment",
+      "size": "unknown",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "other_recorded",
+      "size": "all",
+      "supported": true,
+      "q25_years": 1.0,
+      "median_years": 1.5,
+      "q75_years": 2.5
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "other_recorded",
+      "size": "under300",
+      "supported": true,
+      "q25_years": 1.0,
+      "median_years": 1.5,
+      "q75_years": 2.5
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "other_recorded",
+      "size": "300to999",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "other_recorded",
+      "size": "1000plus",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "other_recorded",
+      "size": "unknown",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "reconstruction",
+      "size": "all",
+      "supported": true,
+      "q25_years": 2.5,
+      "median_years": 2.5,
+      "q75_years": 3.5
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "reconstruction",
+      "size": "under300",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "reconstruction",
+      "size": "300to999",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "reconstruction",
+      "size": "1000plus",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "reconstruction",
+      "size": "unknown",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "redevelopment",
+      "size": "all",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "redevelopment",
+      "size": "under300",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "redevelopment",
+      "size": "300to999",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "redevelopment",
+      "size": "1000plus",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "redevelopment",
+      "size": "unknown",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "other_recorded",
+      "size": "all",
+      "supported": true,
+      "q25_years": 1.0,
+      "median_years": 2.0,
+      "q75_years": 2.5
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "other_recorded",
+      "size": "under300",
+      "supported": true,
+      "q25_years": 1.0,
+      "median_years": 1.0,
+      "q75_years": 2.0
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "other_recorded",
+      "size": "300to999",
+      "supported": true,
+      "q25_years": 2.5,
+      "median_years": 2.5,
+      "q75_years": 2.5
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "other_recorded",
+      "size": "1000plus",
+      "supported": true,
+      "q25_years": 2.5,
+      "median_years": 2.5,
+      "q75_years": 3.0
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "other_recorded",
+      "size": "unknown",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "reconstruction",
+      "size": "all",
+      "supported": true,
+      "q25_years": 2.0,
+      "median_years": 2.5,
+      "q75_years": 3.0
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "reconstruction",
+      "size": "under300",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "reconstruction",
+      "size": "300to999",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "reconstruction",
+      "size": "1000plus",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "reconstruction",
+      "size": "unknown",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "redevelopment",
+      "size": "all",
+      "supported": true,
+      "q25_years": 3.0,
+      "median_years": 3.0,
+      "q75_years": 4.0
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "redevelopment",
+      "size": "under300",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "redevelopment",
+      "size": "300to999",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "redevelopment",
+      "size": "1000plus",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "redevelopment",
+      "size": "unknown",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "other_recorded",
+      "size": "all",
+      "supported": true,
+      "q25_years": 1.5,
+      "median_years": 2.5,
+      "q75_years": 3.0
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "other_recorded",
+      "size": "under300",
+      "supported": true,
+      "q25_years": 1.0,
+      "median_years": 1.5,
+      "q75_years": 2.5
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "other_recorded",
+      "size": "300to999",
+      "supported": true,
+      "q25_years": 2.5,
+      "median_years": 2.5,
+      "q75_years": 3.0
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "other_recorded",
+      "size": "1000plus",
+      "supported": true,
+      "q25_years": 2.5,
+      "median_years": 3.0,
+      "q75_years": 3.5
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "other_recorded",
+      "size": "unknown",
+      "supported": false,
+      "q25_years": null,
+      "median_years": null,
+      "q75_years": null
+    }
+  ],
+  "limits": [
+    "Selected current apartment complexes with recorded permit classes; not a census of all redevelopment projects.",
+    "Earliest recorded start to latest approval among matching-year non-shared residential main buildings; not district designation, relocation or move-in duration.",
+    "Other recorded permits are not verified non-renewal or new-town projects; missing permit classes are excluded.",
+    "Household size is the current verified count, not a historical construction-time inventory.",
+    "Forty complete-date complexes required for joint quartiles; unsupported includes absent, small and unverified groups.",
+    "Rounded quartiles are not confidence intervals or exact equality tests; no causal duration or future schedule prediction.",
+    "No identities, exact group sizes, household totals, individual dates, date sums or transaction equations."
+  ]
+}

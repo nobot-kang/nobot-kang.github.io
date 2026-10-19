@@ -1,0 +1,93 @@
+{
+  "schema": "permit_far_comparison_v1",
+  "data_as_of": "2026-10-04",
+  "scopes": {
+    "11": "서울",
+    "41": "수집 경기"
+  },
+  "periods": [
+    "2010–2019",
+    "2020–2025"
+  ],
+  "kind": "주택건설사업계획승인만 기재",
+  "unit": "FAR percent; outward five-point envelopes of type7 quartiles across four source checks",
+  "source_url": "https://www.data.go.kr/data/15134735/openapi.do",
+  "rows": [
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "coverage": "50to75",
+      "q25_range_percent": [
+        175,
+        185
+      ],
+      "median_range_percent": [
+        215,
+        220
+      ],
+      "q75_range_percent": [
+        245,
+        250
+      ]
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "coverage": "25to50",
+      "q25_range_percent": [
+        200,
+        205
+      ],
+      "median_range_percent": [
+        225,
+        240
+      ],
+      "q75_range_percent": [
+        395,
+        405
+      ]
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "coverage": "75to100",
+      "q25_range_percent": [
+        180,
+        185
+      ],
+      "median_range_percent": [
+        195,
+        200
+      ],
+      "q75_range_percent": [
+        215,
+        220
+      ]
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "coverage": "75to100",
+      "q25_range_percent": [
+        185,
+        190
+      ],
+      "median_range_percent": [
+        195,
+        200
+      ],
+      "q75_range_percent": [
+        225,
+        230
+      ]
+    }
+  ],
+  "limits": [
+    "Only explicitly recorded approval code 2101; not all ordinary new builds or non-renewal projects.",
+    "Ranges combine source-check sensitivity and coarse outward rounding; not confidence intervals or individual extrema.",
+    "At least forty eligible complexes in every source check; missing records stay in the original denominator.",
+    "No control for zoning, project scale or within-era year mix; no causal contribution or incentive effect.",
+    "No exact counts, sums, identities, individual attributes or transaction equations.",
+    "Current-corpus release replay remains required; no universal external-information protection claim."
+  ]
+}

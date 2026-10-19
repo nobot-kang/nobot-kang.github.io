@@ -1,0 +1,115 @@
+{
+  "schema": "renewal_far_v1",
+  "data_as_of": "2026-10-04",
+  "scopes": {
+    "11": "서울",
+    "41": "수집 경기"
+  },
+  "periods": [
+    "2010–2019",
+    "2020–2025"
+  ],
+  "kinds": {
+    "reconstruction": "재건축 허가 기재",
+    "redevelopment": "재개발 허가 기재"
+  },
+  "source_url": "https://www.data.go.kr/data/15134735/openapi.do",
+  "unit": "recorded FAR percent; type7 quartiles rounded to nearest five percentage points",
+  "coverage_labels": {
+    "under25": "25% 미만",
+    "25to50": "25% 이상 50% 미만",
+    "50to75": "50% 이상 75% 미만",
+    "75to100": "75% 이상 100% 이하"
+  },
+  "rows": [
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "reconstruction",
+      "supported": true,
+      "coverage": "50to75",
+      "q25_percent": 240,
+      "median_percent": 250,
+      "q75_percent": 270
+    },
+    {
+      "scope": "11",
+      "period": "2010–2019",
+      "kind": "redevelopment",
+      "supported": true,
+      "coverage": "50to75",
+      "q25_percent": 225,
+      "median_percent": 240,
+      "q75_percent": 250
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "reconstruction",
+      "supported": true,
+      "coverage": "75to100",
+      "q25_percent": 230,
+      "median_percent": 250,
+      "q75_percent": 300
+    },
+    {
+      "scope": "11",
+      "period": "2020–2025",
+      "kind": "redevelopment",
+      "supported": true,
+      "coverage": "75to100",
+      "q25_percent": 240,
+      "median_percent": 260,
+      "q75_percent": 290
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "reconstruction",
+      "supported": false,
+      "coverage": null,
+      "q25_percent": null,
+      "median_percent": null,
+      "q75_percent": null
+    },
+    {
+      "scope": "41",
+      "period": "2010–2019",
+      "kind": "redevelopment",
+      "supported": false,
+      "coverage": null,
+      "q25_percent": null,
+      "median_percent": null,
+      "q75_percent": null
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "reconstruction",
+      "supported": false,
+      "coverage": null,
+      "q25_percent": null,
+      "median_percent": null,
+      "q75_percent": null
+    },
+    {
+      "scope": "41",
+      "period": "2020–2025",
+      "kind": "redevelopment",
+      "supported": true,
+      "coverage": "75to100",
+      "q25_percent": 250,
+      "median_percent": 265,
+      "q75_percent": 265
+    }
+  ],
+  "limits": [
+    "Current complexes with verified recorded permits and unique matching recap; not all projects or historical completions.",
+    "Missing recap or inconsistent dates remain in the original permit denominator.",
+    "Forty eligible complexes and ten on each quartile tail required; unsupported rows disclose neither values nor coverage.",
+    "Conditional equal-complex distribution; not permission limits, future capacity, before/after changes or causal effects.",
+    "No identities, exact counts, sums, individual attributes, prices or transaction equations.",
+    "Coverage categories and rounded quartiles do not imply representativeness or universal reconstruction protection.",
+    "250 and 300 are pre-existing fictional comparison points, not data-selected defaults."
+  ]
+}
