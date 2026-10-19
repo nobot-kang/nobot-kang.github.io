@@ -1,0 +1,366 @@
+{
+  "schema_version": 1,
+  "period": "2010–2025",
+  "ratio_width_pp": 5,
+  "coverage_width_pp": 10,
+  "conditions": [
+    "main",
+    "latest_only",
+    "components_consistent"
+  ],
+  "rows": [
+    {
+      "scope": "11",
+      "kind": "reconstruction",
+      "main_bands": {
+        "household": [
+          5,
+          10
+        ],
+        "equal_registration": [
+          5,
+          10
+        ],
+        "q25": [
+          0,
+          5
+        ],
+        "q50": [
+          5,
+          10
+        ],
+        "q75": [
+          5,
+          10
+        ]
+      },
+      "condition_range_bands": {
+        "household": [
+          5,
+          10
+        ],
+        "equal_registration": [
+          5,
+          10
+        ],
+        "q25": [
+          0,
+          5
+        ],
+        "q50": [
+          5,
+          10
+        ],
+        "q75": [
+          5,
+          10
+        ]
+      },
+      "coverage_band": [
+        60,
+        70
+      ]
+    },
+    {
+      "scope": "11",
+      "kind": "redevelopment",
+      "main_bands": {
+        "household": [
+          10,
+          15
+        ],
+        "equal_registration": [
+          10,
+          15
+        ],
+        "q25": [
+          0,
+          5
+        ],
+        "q50": [
+          15,
+          20
+        ],
+        "q75": [
+          15,
+          20
+        ]
+      },
+      "condition_range_bands": {
+        "household": [
+          10,
+          15
+        ],
+        "equal_registration": [
+          10,
+          15
+        ],
+        "q25": [
+          0,
+          5
+        ],
+        "q50": [
+          15,
+          20
+        ],
+        "q75": [
+          15,
+          20
+        ]
+      },
+      "coverage_band": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11",
+      "kind": "housing_approval",
+      "main_bands": {
+        "household": [
+          20,
+          25
+        ],
+        "equal_registration": [
+          15,
+          20
+        ],
+        "q25": [
+          0,
+          5
+        ],
+        "q50": [
+          0,
+          5
+        ],
+        "q75": [
+          25,
+          30
+        ]
+      },
+      "condition_range_bands": {
+        "household": [
+          20,
+          25
+        ],
+        "equal_registration": [
+          15,
+          20
+        ],
+        "q25": [
+          0,
+          5
+        ],
+        "q50": [
+          0,
+          5
+        ],
+        "q75": [
+          25,
+          30
+        ]
+      },
+      "coverage_band": [
+        50,
+        60
+      ]
+    },
+    {
+      "scope": "11",
+      "kind": "new_build_permit",
+      "main_bands": {
+        "household": [
+          15,
+          20
+        ],
+        "equal_registration": [
+          10,
+          15
+        ],
+        "q25": [
+          0,
+          5
+        ],
+        "q50": [
+          0,
+          5
+        ],
+        "q75": [
+          0,
+          5
+        ]
+      },
+      "condition_range_bands": {
+        "household": [
+          15,
+          20
+        ],
+        "equal_registration": [
+          10,
+          15
+        ],
+        "q25": [
+          0,
+          5
+        ],
+        "q50": [
+          0,
+          5
+        ],
+        "q75": [
+          0,
+          5
+        ]
+      },
+      "coverage_band": [
+        0,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "kind": "reconstruction",
+      "main_bands": {
+        "household": null,
+        "equal_registration": [
+          0,
+          5
+        ],
+        "q25": [
+          0,
+          5
+        ],
+        "q50": [
+          0,
+          5
+        ],
+        "q75": [
+          0,
+          5
+        ]
+      },
+      "condition_range_bands": {
+        "household": null,
+        "equal_registration": [
+          0,
+          5
+        ],
+        "q25": [
+          0,
+          5
+        ],
+        "q50": [
+          0,
+          5
+        ],
+        "q75": [
+          0,
+          5
+        ]
+      },
+      "coverage_band": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41",
+      "kind": "redevelopment",
+      "main_bands": {
+        "household": [
+          0,
+          5
+        ],
+        "equal_registration": null,
+        "q25": null,
+        "q50": null,
+        "q75": null
+      },
+      "condition_range_bands": {
+        "household": [
+          0,
+          5
+        ],
+        "equal_registration": null,
+        "q25": null,
+        "q50": null,
+        "q75": null
+      },
+      "coverage_band": null
+    },
+    {
+      "scope": "41",
+      "kind": "housing_approval",
+      "main_bands": {
+        "household": [
+          0,
+          5
+        ],
+        "equal_registration": [
+          0,
+          5
+        ],
+        "q25": [
+          0,
+          5
+        ],
+        "q50": [
+          0,
+          5
+        ],
+        "q75": [
+          0,
+          5
+        ]
+      },
+      "condition_range_bands": {
+        "household": [
+          0,
+          5
+        ],
+        "equal_registration": [
+          0,
+          5
+        ],
+        "q25": [
+          0,
+          5
+        ],
+        "q50": [
+          0,
+          5
+        ],
+        "q75": [
+          0,
+          5
+        ]
+      },
+      "coverage_band": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "kind": "new_build_permit",
+      "main_bands": {
+        "household": null,
+        "equal_registration": null,
+        "q25": null,
+        "q50": null,
+        "q75": null
+      },
+      "condition_range_bands": {
+        "household": null,
+        "equal_registration": null,
+        "q25": null,
+        "q50": null,
+        "q75": null
+      },
+      "coverage_band": [
+        10,
+        20
+      ]
+    }
+  ]
+}
