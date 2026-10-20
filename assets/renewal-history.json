@@ -1,0 +1,196 @@
+{
+  "schema": "renewal_history_v1",
+  "scope": "서울",
+  "period": [
+    2010,
+    2025
+  ],
+  "unit": "정규 단지",
+  "rows": [
+    {
+      "year": 2010,
+      "renewal_count_band": [
+        20,
+        30
+      ],
+      "all_count_band": [
+        100,
+        150
+      ]
+    },
+    {
+      "year": 2011,
+      "renewal_count_band": [
+        30,
+        40
+      ],
+      "all_count_band": [
+        100,
+        150
+      ]
+    },
+    {
+      "year": 2012,
+      "renewal_count_band": [
+        20,
+        30
+      ],
+      "all_count_band": [
+        100,
+        150
+      ]
+    },
+    {
+      "year": 2013,
+      "renewal_count_band": [
+        10,
+        20
+      ],
+      "all_count_band": [
+        150,
+        200
+      ]
+    },
+    {
+      "year": 2014,
+      "renewal_count_band": [
+        20,
+        30
+      ],
+      "all_count_band": [
+        100,
+        150
+      ]
+    },
+    {
+      "year": 2015,
+      "renewal_count_band": [
+        10,
+        20
+      ],
+      "all_count_band": [
+        50,
+        100
+      ]
+    },
+    {
+      "year": 2016,
+      "renewal_count_band": [
+        20,
+        30
+      ],
+      "all_count_band": [
+        100,
+        150
+      ]
+    },
+    {
+      "year": 2017,
+      "renewal_count_band": [
+        20,
+        30
+      ],
+      "all_count_band": [
+        50,
+        100
+      ]
+    },
+    {
+      "year": 2018,
+      "renewal_count_band": [
+        20,
+        30
+      ],
+      "all_count_band": [
+        100,
+        150
+      ]
+    },
+    {
+      "year": 2019,
+      "renewal_count_band": [
+        30,
+        40
+      ],
+      "all_count_band": [
+        100,
+        150
+      ]
+    },
+    {
+      "year": 2020,
+      "renewal_count_band": [
+        30,
+        40
+      ],
+      "all_count_band": [
+        100,
+        150
+      ]
+    },
+    {
+      "year": 2021,
+      "renewal_count_band": [
+        20,
+        30
+      ],
+      "all_count_band": [
+        100,
+        150
+      ]
+    },
+    {
+      "year": 2022,
+      "renewal_count_band": [
+        20,
+        30
+      ],
+      "all_count_band": [
+        50,
+        100
+      ]
+    },
+    {
+      "year": 2023,
+      "renewal_count_band": [
+        20,
+        30
+      ],
+      "all_count_band": [
+        50,
+        100
+      ]
+    },
+    {
+      "year": 2024,
+      "renewal_count_band": [
+        10,
+        20
+      ],
+      "all_count_band": [
+        50,
+        100
+      ]
+    },
+    {
+      "year": 2025,
+      "renewal_count_band": [
+        10,
+        20
+      ],
+      "all_count_band": [
+        50,
+        100
+      ]
+    }
+  ],
+  "count_intervals_upper_exclusive": true,
+  "selection": "현재 수집 목록의 준공연도와 일치하는 비공유 주거 주건축물에서 재건축·재개발 허가명이 일관되게 기재된 단지",
+  "limitations": [
+    "서울 전체 정비사업 준공 실적이 아니라 현재 수집 목록에 남은 기록입니다.",
+    "재건축과 재개발을 합친 범위이며 유형별 실적·세대수·순공급을 뜻하지 않습니다.",
+    "전체 단지 범위에는 허가 미기재·혼합·적격 동 없음도 포함됩니다.",
+    "2010년 이전은 미관측이며0이 아닙니다.2026년은 미완료 연도로 제외합니다.",
+    "제도 발표와 준공 기록의 시간상 위치는 정책 적용이나 인과효과의 증거가 아닙니다."
+  ]
+}
