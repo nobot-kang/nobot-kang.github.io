@@ -1,0 +1,347 @@
+{
+  "schema": "relocation_cash_v1",
+  "period": [
+    "2026-01",
+    "2026-06"
+  ],
+  "snapshot": "2026-10-04",
+  "information_cutoff": null,
+  "regions": {
+    "11350": "노원구",
+    "11500": "강서구"
+  },
+  "areas": {
+    "59": "전용17·18평형",
+    "84": "전용25·26평형"
+  },
+  "rows": [
+    {
+      "region": "11350",
+      "area": "59",
+      "median_interval_manwon": [
+        30000,
+        35000
+      ]
+    },
+    {
+      "region": "11350",
+      "area": "84",
+      "median_interval_manwon": [
+        55000,
+        60000
+      ]
+    },
+    {
+      "region": "11500",
+      "area": "59",
+      "median_interval_manwon": [
+        50000,
+        55000
+      ]
+    },
+    {
+      "region": "11500",
+      "area": "84",
+      "median_interval_manwon": [
+        60000,
+        65000
+      ]
+    }
+  ],
+  "fictional_loan_comparisons": [
+    {
+      "region": "11350",
+      "area": "59",
+      "fictional_loan_manwon": 10000,
+      "fictional_repayment_manwon": 0,
+      "available_manwon": 10000,
+      "median_gap_interval_manwon": [
+        20000,
+        25000
+      ]
+    },
+    {
+      "region": "11350",
+      "area": "59",
+      "fictional_loan_manwon": 10000,
+      "fictional_repayment_manwon": 10000,
+      "available_manwon": 0,
+      "median_gap_interval_manwon": [
+        30000,
+        35000
+      ]
+    },
+    {
+      "region": "11350",
+      "area": "59",
+      "fictional_loan_manwon": 20000,
+      "fictional_repayment_manwon": 0,
+      "available_manwon": 20000,
+      "median_gap_interval_manwon": [
+        10000,
+        15000
+      ]
+    },
+    {
+      "region": "11350",
+      "area": "59",
+      "fictional_loan_manwon": 20000,
+      "fictional_repayment_manwon": 10000,
+      "available_manwon": 10000,
+      "median_gap_interval_manwon": [
+        20000,
+        25000
+      ]
+    },
+    {
+      "region": "11350",
+      "area": "59",
+      "fictional_loan_manwon": 30000,
+      "fictional_repayment_manwon": 0,
+      "available_manwon": 30000,
+      "median_gap_interval_manwon": [
+        0,
+        5000
+      ]
+    },
+    {
+      "region": "11350",
+      "area": "59",
+      "fictional_loan_manwon": 30000,
+      "fictional_repayment_manwon": 10000,
+      "available_manwon": 20000,
+      "median_gap_interval_manwon": [
+        10000,
+        15000
+      ]
+    },
+    {
+      "region": "11350",
+      "area": "84",
+      "fictional_loan_manwon": 10000,
+      "fictional_repayment_manwon": 0,
+      "available_manwon": 10000,
+      "median_gap_interval_manwon": [
+        45000,
+        50000
+      ]
+    },
+    {
+      "region": "11350",
+      "area": "84",
+      "fictional_loan_manwon": 10000,
+      "fictional_repayment_manwon": 10000,
+      "available_manwon": 0,
+      "median_gap_interval_manwon": [
+        55000,
+        60000
+      ]
+    },
+    {
+      "region": "11350",
+      "area": "84",
+      "fictional_loan_manwon": 20000,
+      "fictional_repayment_manwon": 0,
+      "available_manwon": 20000,
+      "median_gap_interval_manwon": [
+        35000,
+        40000
+      ]
+    },
+    {
+      "region": "11350",
+      "area": "84",
+      "fictional_loan_manwon": 20000,
+      "fictional_repayment_manwon": 10000,
+      "available_manwon": 10000,
+      "median_gap_interval_manwon": [
+        45000,
+        50000
+      ]
+    },
+    {
+      "region": "11350",
+      "area": "84",
+      "fictional_loan_manwon": 30000,
+      "fictional_repayment_manwon": 0,
+      "available_manwon": 30000,
+      "median_gap_interval_manwon": [
+        25000,
+        30000
+      ]
+    },
+    {
+      "region": "11350",
+      "area": "84",
+      "fictional_loan_manwon": 30000,
+      "fictional_repayment_manwon": 10000,
+      "available_manwon": 20000,
+      "median_gap_interval_manwon": [
+        35000,
+        40000
+      ]
+    },
+    {
+      "region": "11500",
+      "area": "59",
+      "fictional_loan_manwon": 10000,
+      "fictional_repayment_manwon": 0,
+      "available_manwon": 10000,
+      "median_gap_interval_manwon": [
+        40000,
+        45000
+      ]
+    },
+    {
+      "region": "11500",
+      "area": "59",
+      "fictional_loan_manwon": 10000,
+      "fictional_repayment_manwon": 10000,
+      "available_manwon": 0,
+      "median_gap_interval_manwon": [
+        50000,
+        55000
+      ]
+    },
+    {
+      "region": "11500",
+      "area": "59",
+      "fictional_loan_manwon": 20000,
+      "fictional_repayment_manwon": 0,
+      "available_manwon": 20000,
+      "median_gap_interval_manwon": [
+        30000,
+        35000
+      ]
+    },
+    {
+      "region": "11500",
+      "area": "59",
+      "fictional_loan_manwon": 20000,
+      "fictional_repayment_manwon": 10000,
+      "available_manwon": 10000,
+      "median_gap_interval_manwon": [
+        40000,
+        45000
+      ]
+    },
+    {
+      "region": "11500",
+      "area": "59",
+      "fictional_loan_manwon": 30000,
+      "fictional_repayment_manwon": 0,
+      "available_manwon": 30000,
+      "median_gap_interval_manwon": [
+        20000,
+        25000
+      ]
+    },
+    {
+      "region": "11500",
+      "area": "59",
+      "fictional_loan_manwon": 30000,
+      "fictional_repayment_manwon": 10000,
+      "available_manwon": 20000,
+      "median_gap_interval_manwon": [
+        30000,
+        35000
+      ]
+    },
+    {
+      "region": "11500",
+      "area": "84",
+      "fictional_loan_manwon": 10000,
+      "fictional_repayment_manwon": 0,
+      "available_manwon": 10000,
+      "median_gap_interval_manwon": [
+        50000,
+        55000
+      ]
+    },
+    {
+      "region": "11500",
+      "area": "84",
+      "fictional_loan_manwon": 10000,
+      "fictional_repayment_manwon": 10000,
+      "available_manwon": 0,
+      "median_gap_interval_manwon": [
+        60000,
+        65000
+      ]
+    },
+    {
+      "region": "11500",
+      "area": "84",
+      "fictional_loan_manwon": 20000,
+      "fictional_repayment_manwon": 0,
+      "available_manwon": 20000,
+      "median_gap_interval_manwon": [
+        40000,
+        45000
+      ]
+    },
+    {
+      "region": "11500",
+      "area": "84",
+      "fictional_loan_manwon": 20000,
+      "fictional_repayment_manwon": 10000,
+      "available_manwon": 10000,
+      "median_gap_interval_manwon": [
+        50000,
+        55000
+      ]
+    },
+    {
+      "region": "11500",
+      "area": "84",
+      "fictional_loan_manwon": 30000,
+      "fictional_repayment_manwon": 0,
+      "available_manwon": 30000,
+      "median_gap_interval_manwon": [
+        30000,
+        35000
+      ]
+    },
+    {
+      "region": "11500",
+      "area": "84",
+      "fictional_loan_manwon": 30000,
+      "fictional_repayment_manwon": 10000,
+      "available_manwon": 20000,
+      "median_gap_interval_manwon": [
+        40000,
+        45000
+      ]
+    }
+  ],
+  "fictional_cash": {
+    "deposit_manwon": 40000,
+    "loan_manwon": 30000,
+    "existing_repayment_manwon": 10000,
+    "own_cash_manwon": 5000,
+    "moving_cost_manwon": 1000,
+    "recovered_before_manwon": [
+      0,
+      5000
+    ],
+    "shortage_manwon": [
+      16000,
+      11000
+    ]
+  },
+  "definitions": {
+    "observed": "기존 적격 아파트 전세 중 명시적 신규 계약의 신고 보증금 중앙값. 계약 가중·월세0·보증금양수.",
+    "area": "전용면적/3.3058을half-up 정수로 변환한17·18/25·26평형.59㎡대/84㎡대와 다른 범위.",
+    "interval": "0.5억원 폭 표시 구간,하한 포함·상한 미포함. 신뢰구간이나 매물 호가 범위가 아님.",
+    "loan": "1·2·3억원은 독립 가상 실행액. 규제·보증 한도·개인 심사 결과가 아님.",
+    "difference": "표시 중앙값 구간−(가상 실행액−같은 날 기존 채무 상환). 개인 부족현금이나 비용이 아님.",
+    "cash": "별도 순수 가상 지급/회수 달력. 대출·보증금 원금과 이사 등 비용을 구분."
+  },
+  "limits": [
+    "특정 사업의 이주 대상이나 통학권·통근권을 식별하지 않은 두 구 사례다.",
+    "미기재는 신규가 아니며 갱신·미기재 가격은 이번 표에 포함하지 않는다.",
+    "실제 계약 제안·대출 승인·기존 채무·자기자금·지급일은 별도로 확인해야 한다.",
+    "과거 계약도 수정될 수 있고 당시 정보집합 또는 현재 매물 전수가 아니다.",
+    "전월세 원천에 없는 해제·토지임대부 식별이 보완됐다는 뜻이 아니다."
+  ]
+}
