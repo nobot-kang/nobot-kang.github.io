@@ -1,0 +1,104 @@
+{
+  "schema": "newtown_age_composition_v1",
+  "snapshot": "2026-10-02",
+  "reference_year": 2026,
+  "scopes": {
+    "bundang_gu": "성남시 분당구",
+    "ilsan_gu": "고양시 일산동구·일산서구",
+    "dongan_gu": "안양시 동안구",
+    "gunpo_si": "군포시",
+    "wonmi_gu": "부천시 원미구",
+    "seoul": "서울 전체"
+  },
+  "bands": {
+    "1990s": "1990~1999년",
+    "other": "1900~1989년 또는 2000~2026년"
+  },
+  "precision_pp": 5,
+  "rows": [
+    {
+      "scope": "bundang_gu",
+      "band": "1990s",
+      "complex_pct": 65,
+      "household_pct": 65
+    },
+    {
+      "scope": "bundang_gu",
+      "band": "other",
+      "complex_pct": 35,
+      "household_pct": 35
+    },
+    {
+      "scope": "ilsan_gu",
+      "band": "1990s",
+      "complex_pct": 60,
+      "household_pct": 45
+    },
+    {
+      "scope": "ilsan_gu",
+      "band": "other",
+      "complex_pct": 40,
+      "household_pct": 55
+    },
+    {
+      "scope": "dongan_gu",
+      "band": "1990s",
+      "complex_pct": 30,
+      "household_pct": 45
+    },
+    {
+      "scope": "dongan_gu",
+      "band": "other",
+      "complex_pct": 70,
+      "household_pct": 55
+    },
+    {
+      "scope": "gunpo_si",
+      "band": "1990s",
+      "complex_pct": 20,
+      "household_pct": 65
+    },
+    {
+      "scope": "gunpo_si",
+      "band": "other",
+      "complex_pct": 80,
+      "household_pct": 35
+    },
+    {
+      "scope": "wonmi_gu",
+      "band": "1990s",
+      "complex_pct": 20,
+      "household_pct": 40
+    },
+    {
+      "scope": "wonmi_gu",
+      "band": "other",
+      "complex_pct": 80,
+      "household_pct": 60
+    },
+    {
+      "scope": "seoul",
+      "band": "1990s",
+      "complex_pct": 20,
+      "household_pct": 25
+    },
+    {
+      "scope": "seoul",
+      "band": "other",
+      "complex_pct": 80,
+      "household_pct": 75
+    }
+  ],
+  "definitions": {
+    "complex_pct": "Normal-year complexes; household-missing complexes included",
+    "household_pct": "Known positive households among normal-year complexes",
+    "normal_year": "1900..2026 integer",
+    "scope": "Administrative proxies, not newtown plan boundaries or a complete physical stock census"
+  },
+  "limits": [
+    "No individual records, exact denominators or annual counts.",
+    "Different weights and different household-availability populations; not a pure size effect.",
+    "No legal redevelopment eligibility, future supply, price or causal interpretation.",
+    "Rounded zero is not confirmed absence; rounded pieces can sum to other than 100."
+  ]
+}
