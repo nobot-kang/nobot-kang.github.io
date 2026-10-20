@@ -1,0 +1,106 @@
+{
+  "schema": "planned_city_stock_v1",
+  "unit": "확인 세대수",
+  "rows": [
+    {
+      "scope": "seongnam_si",
+      "known_household_source_envelope": [
+        130000,
+        160000
+      ]
+    },
+    {
+      "scope": "goyang_si",
+      "known_household_source_envelope": [
+        180000,
+        220000
+      ]
+    },
+    {
+      "scope": "bucheon_si",
+      "known_household_source_envelope": [
+        90000,
+        140000
+      ]
+    },
+    {
+      "scope": "anyang_si",
+      "known_household_source_envelope": [
+        110000,
+        150000
+      ]
+    },
+    {
+      "scope": "gunpo_si",
+      "known_household_source_envelope": [
+        50000,
+        70000
+      ]
+    },
+    {
+      "scope": "suwon_si",
+      "known_household_source_envelope": [
+        240000,
+        270000
+      ]
+    },
+    {
+      "scope": "yongin_si",
+      "known_household_source_envelope": [
+        230000,
+        270000
+      ]
+    },
+    {
+      "scope": "ansan_si",
+      "known_household_source_envelope": [
+        80000,
+        110000
+      ]
+    },
+    {
+      "scope": "bundang_gu",
+      "known_household_source_envelope": [
+        80000,
+        100000
+      ]
+    },
+    {
+      "scope": "ilsan_gu",
+      "known_household_source_envelope": [
+        100000,
+        120000
+      ]
+    },
+    {
+      "scope": "dongan_gu",
+      "known_household_source_envelope": [
+        70000,
+        100000
+      ]
+    },
+    {
+      "scope": "wonmi_gu",
+      "known_household_source_envelope": [
+        50000,
+        70000
+      ]
+    }
+  ],
+  "bounds": "lower_inclusive_upper_exclusive",
+  "scope": "행정 범위의 현재 수집 아파트 목록",
+  "source_conditions": [
+    "main",
+    "no_conflict",
+    "kapt_matched",
+    "area_only"
+  ],
+  "limitations": [
+    "네 원천 조건의 세대 합을 포함하도록1만 세대 단위로 넓힌 범위입니다.",
+    "원천 조건마다 포함 단지가 다르며 통계적 신뢰구간이 아닙니다.",
+    "법적 대상·실제 신도시 경계·지정 완료 구역의 주택 수가 아닙니다.",
+    "세대수 미상 단지는 합계에 포함되지 않으며0세대라는 뜻이 아닙니다.",
+    "20년 이상 된 아파트를 고르는 연식 필터는 적용하지 않았습니다.",
+    "시와 그 안의 구를 더하거나 차이를 법 적용 밖 재고로 해석하지 않습니다."
+  ]
+}
