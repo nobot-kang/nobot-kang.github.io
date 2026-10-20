@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-20T07:33:22+09:00</updated>
+  <updated>2026-10-20T08:37:24+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>1기 신도시가 있는 지역의 아파트 연식, 어떻게 비교할까?</title>
+    <id>https://nobot-kang.github.io/posts/first-newtown-apartment-age/</id>
+    <published>2026-10-20T08:16:54+09:00</published>
+    <updated>2026-10-20T08:37:24+09:00</updated>
+    <summary>분당구·일산동서구·동안구·군포·원미구의 1990년대 준공 비중을 비교합니다. 단지 수와 확인 세대수의 다른 분모, 실제 신도시 경계와의 차이, 30년 기준을 읽는 순서를 살펴보세요.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/first-newtown-apartment-age/" />
+    <category term="정비사업 숫자 읽기" />
+  </entry>
   <entry>
     <title>재개발·재건축 절차, 거래·이주·입주 시점은 왜 다를까?</title>
     <id>https://nobot-kang.github.io/posts/redevelopment-procedure-and-transactions/</id>
@@ -23,7 +32,7 @@
     <title>재개발·재건축 아파트는 어떻게 다를까? 세대수와 주거 조건 비교</title>
     <id>https://nobot-kang.github.io/posts/redevelopment-apartment-comparison/</id>
     <published>2026-10-20T05:58:37+09:00</published>
-    <updated>2026-10-20T05:58:37+09:00</updated>
+    <updated>2026-10-20T08:24:02+09:00</updated>
     <summary>서울의 허가명·승인연대별 단지 세대수와 원천·공통 연도 조건을 비교합니다. 평형·층수·임대 비율의 다른 분모를 구분하고, 관심 아파트에서 출처와 범위를 확인하는 순서를 살펴보세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/redevelopment-apartment-comparison/" />
     <category term="정비사업 숫자 읽기" />
@@ -383,7 +392,7 @@
     <title>2030년 30년 이상 아파트는 몇 세대일까? 현재 목록으로 계산하기</title>
     <id>https://nobot-kang.github.io/posts/apartment-aging-stock/</id>
     <published>2026-10-16T19:51:43+09:00</published>
-    <updated>2026-10-17T00:04:23+09:00</updated>
+    <updated>2026-10-20T08:16:54+09:00</updated>
     <summary>현재 단지 목록을 유지하면 2030년 30년 이상 아파트는 서울 약 69만 2,000세대, 수집 경기 약 77만 1,000세대입니다. 연간 진입과 누적 규모, 서로 다른 분모와 철거·신축 미반영의 한계를 비교합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-aging-stock/" />
     <category term="아파트의 진화" />
