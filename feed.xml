@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-20T21:21:21+09:00</updated>
+  <updated>2026-10-20T21:32:21+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>재건축 규제는 언제 바뀌었나? 네 제도의 날짜를 따로 읽는 법</title>
+    <id>https://nobot-kang.github.io/posts/reconstruction-regulation-history/</id>
+    <published>2026-10-20T21:32:21+09:00</published>
+    <updated>2026-10-20T21:32:21+09:00</updated>
+    <summary>재건축부담금·분양가상한제·재건축진단·조합원 지위의 주요 연혁을 비교합니다. 공포·시행·지역 지정과 사업의 신청일을 구분하고 서울 가격지수와 정책 효과를 따로 읽습니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/reconstruction-regulation-history/" />
+    <category term="정비사업 숫자 읽기" />
+  </entry>
   <entry>
     <title>재건축 이주비 3억이면 전세를 구할 수 있을까? 먼저 뺄 돈과 필요한 현금</title>
     <id>https://nobot-kang.github.io/posts/reconstruction-relocation-cash/</id>
@@ -32,7 +41,7 @@
     <title>서울 정비사업 50년, 정책 발표와 아파트 준공은 같은 시계일까?</title>
     <id>https://nobot-kang.github.io/posts/seoul-renewal-policy-timeline/</id>
     <published>2026-10-20T12:05:47+09:00</published>
-    <updated>2026-10-20T12:05:47+09:00</updated>
+    <updated>2026-10-20T21:32:21+09:00</updated>
     <summary>아파트지구·합동개발·뉴타운·공공재개발·신속통합기획·모아타운의 공식 연표와 서울 2010~2025년 준공 기록을 비교합니다. 정책 발표와 준공 실적의 다른 시계를 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-renewal-policy-timeline/" />
     <category term="정비사업 숫자 읽기" />
@@ -158,7 +167,7 @@
     <title>서울 정비사업 현황 830건, 모두 다른 정비구역일까? 단계별로 읽기</title>
     <id>https://nobot-kang.github.io/posts/seoul-renewal-register/</id>
     <published>2026-10-19T19:09:42+09:00</published>
-    <updated>2026-10-19T19:09:42+09:00</updated>
+    <updated>2026-10-20T21:32:21+09:00</updated>
     <summary>서울시 공개 현황 830건을 분류·단계·25개 구별로 확인했습니다. 반복 사업명과 공급세대 누락을 검증하고 등록 건수·구역 수·완공 확률을 구분합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/seoul-renewal-register/" />
     <category term="정비사업 숫자 읽기" />
