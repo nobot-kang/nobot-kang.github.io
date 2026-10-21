@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-21T08:12:20+09:00</updated>
+  <updated>2026-10-21T08:41:08+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -11,10 +11,19 @@
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
   <entry>
+    <title>오래된 아파트에서는 작은 집이 더 많이 거래될까?</title>
+    <id>https://nobot-kang.github.io/posts/old-apartment-sale-composition/</id>
+    <published>2026-10-21T08:41:08+09:00</published>
+    <updated>2026-10-21T08:41:08+09:00</updated>
+    <summary>30년 이상 아파트의 소형 거래 비중과 현재 평형별 세대 비중을 비교합니다. 59형·84형, 다른 연식, 상승·하락월과 세대수 자료 선택에 따라 판단이 달라지는 범위를 확인하세요.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/old-apartment-sale-composition/" />
+    <category term="정비사업 숫자 읽기" />
+  </entry>
+  <entry>
     <title>재개발이 있는 동, 아파트 구성은 지역 전체와 같을까?</title>
     <id>https://nobot-kang.github.io/posts/redevelopment-neighborhood-stock/</id>
     <published>2026-10-21T08:12:20+09:00</published>
-    <updated>2026-10-21T08:12:20+09:00</updated>
+    <updated>2026-10-21T08:41:08+09:00</updated>
     <summary>재개발 허가 기록이 있는 동의 현재 아파트를 준공연도로 나눠 같은 시군구와 비교합니다. 기준 세대 대비 최근 준공분, 원천 선택의 차이, 미표시 동·연도와 역사적 주택 비율의 한계를 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/redevelopment-neighborhood-stock/" />
     <category term="정비사업 숫자 읽기" />
