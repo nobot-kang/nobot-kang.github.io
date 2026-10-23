@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-24T00:42:17+09:00</updated>
+  <updated>2026-10-24T01:16:25+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,42 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>두 가격에 5% 차이가 나면? 갈아타기 추가 현금의 범위</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-two-price-errors/</id>
+    <published>2026-10-24T01:16:25+09:00</published>
+    <updated>2026-10-24T01:16:25+09:00</updated>
+    <summary>가상 두 기준값의 ±5%를 같은·반대 방향으로 바꿔 가격 차액과 추가 현금을 비교합니다. 평균오차·개인 신뢰구간과 외생 대출을 구분합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-two-price-errors/" />
+    <category term="가격 비교의 기준" />
+  </entry>
+  <entry>
+    <title>가격 순위가 그대로인데 갈아타기 현금은 왜 더 필요할까?</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-price-rank-cash-gap/</id>
+    <published>2026-10-24T01:16:25+09:00</published>
+    <updated>2026-10-24T01:16:25+09:00</updated>
+    <summary>같은 세 가격의 순위와 공통 12개월을 고정해 가격 차액·외생 새 대출·비용·추가 현금을 비교합니다. 순위를 개인의 지급 가능성으로 바꾸지 않습니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-price-rank-cash-gap/" />
+    <category term="가격 비교의 기준" />
+  </entry>
+  <entry>
+    <title>두 동네 가격이 함께 움직여도 갈아타기 차액은 커질까?</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-price-correlation-gap/</id>
+    <published>2026-10-24T01:16:25+09:00</published>
+    <updated>2026-10-24T01:16:25+09:00</updated>
+    <summary>같은 12개 가상 기준일에서 가격 수준의 상관·차액 범위와 변화율을 나눕니다. 상수 입력의 미정의 상관을 0으로 채우지 않고 실제 지역 예측과 구분합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-price-correlation-gap/" />
+    <category term="가격 비교의 기준" />
+  </entry>
+  <entry>
+    <title>지역 중앙값을 빼면 내 갈아타기 차액이 될까? 고정한 쌍과 비교</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-median-paired-price-gap/</id>
+    <published>2026-10-24T01:16:25+09:00</published>
+    <updated>2026-10-24T01:16:25+09:00</updated>
+    <summary>같은 두 가상 가격 집합에서 독립 중앙값 차이·사전 허용 세 쌍·모든 아홉 교차쌍의 차액을 대조합니다. 지역 요약과 실제 후보 쌍의 비교 단위를 구분합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-median-paired-price-gap/" />
+    <category term="가격 비교의 기준" />
+  </entry>
   <entry>
     <title>받은 전세금은 내 돈일까? 두 집의 자산과 반환채무</title>
     <id>https://nobot-kang.github.io/posts/upgrade-tenant-deposit-liability/</id>
