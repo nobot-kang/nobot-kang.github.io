@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-23T22:29:55+09:00</updated>
+  <updated>2026-10-23T22:59:22+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,69 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>6개월·1년·2년 기다리기: 같은 24개월 말의 자산 비교</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-waiting-duration/</id>
+    <published>2026-10-23T22:53:20+09:00</published>
+    <updated>2026-10-23T22:53:20+09:00</updated>
+    <summary>임차 뒤 매수하는 세 가상 기간을 공통 24개월 말에 비교합니다. 대기 뒤 이자·보유세·현금과 일회 비용의 연간 환산을 구분합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-waiting-duration/" />
+    <category term="팔고 기다리는 동안" />
+  </entry>
+  <entry>
+    <title>집을 팔고 전세로 기다리면? 보유·즉시 이동과 1년 장부 비교</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-sell-rent-wait/</id>
+    <published>2026-10-23T22:53:20+09:00</published>
+    <updated>2026-10-23T22:53:20+09:00</updated>
+    <summary>같은 초기 순자산에서 보유·즉시 이동·전세 대기의 1년 종료 자산과 현금을 비교합니다. 월 재원이 줄 때의 재매수 부족액도 확인합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-sell-rent-wait/" />
+    <category term="팔고 기다리는 동안" />
+  </entry>
+  <entry>
+    <title>월세로 기다리려면 집값이 얼마나 내려야 할까? 비용과 현금이자</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-rent-wait-break-even/</id>
+    <published>2026-10-23T22:53:20+09:00</published>
+    <updated>2026-10-23T22:53:20+09:00</updated>
+    <summary>매도·재매수·이사·월세·금융비용을 같은 1년에서 비교해 목표 가격의 손익분기 하락액을 계산합니다. 투자 가능 현금과 계약금 인출 뒤의 이자도 검증합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-rent-wait-break-even/" />
+    <category term="팔고 기다리는 동안" />
+  </entry>
+  <entry>
+    <title>전세와 월세로 대기하면? 보증금 반환 전 계약금 비교</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-rent-deposit-cash/</id>
+    <published>2026-10-23T22:53:20+09:00</published>
+    <updated>2026-10-23T22:59:22+09:00</updated>
+    <summary>같은 가상 주거 서비스의 세 임차 제안에서 묶이는 보증금과 자유 현금을 비교합니다. 반환 전 계약금·갱신 증액과 목표 가격의 부족 경계를 확인합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-rent-deposit-cash/" />
+    <category term="팔고 기다리는 동안" />
+  </entry>
+  <entry>
+    <title>팔고 기다리는 동안 목표 집만 더 오르면? 두 가격 경로 비교</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-old-target-price-paths/</id>
+    <published>2026-10-23T22:53:20+09:00</published>
+    <updated>2026-10-23T22:53:20+09:00</updated>
+    <summary>종전 집을 유지한 경로와 미리 팔아 월세로 대기한 경로에 서로 다른 두 가격을 넣습니다. 같은 종료일의 재매수 계획 현금과 부족액을 비교합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-old-target-price-paths/" />
+    <category term="팔고 기다리는 동안" />
+  </entry>
+  <entry>
+    <title>전세 만기 전에 집을 사면? 계약금·보증금 반환 지연 달력</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-lease-return-timing/</id>
+    <published>2026-10-23T22:53:20+09:00</published>
+    <updated>2026-10-23T22:53:20+09:00</updated>
+    <summary>중도 종료 합의·계약금·잔금·보증금 반환을 가상 달력에 놓습니다. 최종 현금이 남아도 먼저 지급할 자금이 부족한 경우와 법적 확인 항목을 구분합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-lease-return-timing/" />
+    <category term="팔고 기다리는 동안" />
+  </entry>
+  <entry>
+    <title>집값이 내려도 갈아타기 실패? 가격 하락과 대출 감소 비교</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-falling-price-lower-loan/</id>
+    <published>2026-10-23T22:53:20+09:00</published>
+    <updated>2026-10-23T22:59:22+09:00</updated>
+    <summary>같은 가상 월세 대기 장부에 목표 집 가격 하락과 새 대출 실행액 감소를 함께 넣습니다. 확인된 자기 재원과 별도 대출 가정의 잔금 부족을 비교합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-falling-price-lower-loan/" />
+    <category term="팔고 기다리는 동안" />
+  </entry>
   <entry>
     <title>일시적 두 집과 계속 두 집: 처분 경로별 세금 예산</title>
     <id>https://nobot-kang.github.io/posts/upgrade-two-home-tax-budget/</id>
