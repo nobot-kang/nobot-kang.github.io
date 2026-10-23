@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-23T20:01:08+09:00</updated>
+  <updated>2026-10-23T20:41:15+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -13,17 +13,35 @@
   <entry>
     <title>같은 날 잔금인데 오전에 돈이 부족하다면? 입금 순서 계산</title>
     <id>https://nobot-kang.github.io/posts/upgrade-same-day-settlement/</id>
-    <published>2026-10-23T20:01:08+09:00</published>
-    <updated>2026-10-23T20:01:08+09:00</updated>
+    <published>2026-10-23T20:41:15+09:00</published>
+    <updated>2026-10-23T20:41:15+09:00</updated>
     <summary>가상 매도·매수 잔금일의 오전 지급과 오후 입금을 비교합니다. 이미 받은 계약금을 미래 잔금에서 빼고, 시간대별 최대 부족액과 하루 끝 현금의 차이를 확인하는 방법을 설명합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-same-day-settlement/" />
     <category term="매도와 매수의 순서" />
   </entry>
   <entry>
+    <title>아파트 매도 순대금 계산: 상환·보증금 반환·남길 돈</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-sale-proceeds/</id>
+    <published>2026-10-23T20:41:15+09:00</published>
+    <updated>2026-10-23T20:41:15+09:00</updated>
+    <summary>8억 원 매각대금에서 대출 상환, 보증금 반환, 정산 비용을 차감하는 가상 사례입니다. 세금 유보금과 비상금을 따로 남겨 실제 재투입 현금을 계산하고 중복 차감을 확인합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-sale-proceeds/" />
+    <category term="갈아타기 자금" />
+  </entry>
+  <entry>
+    <title>매도가가 5% 낮아지면 갈아타기 예산은 얼마나 줄까?</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-sale-price-stress/</id>
+    <published>2026-10-23T20:41:15+09:00</published>
+    <updated>2026-10-23T20:41:15+09:00</updated>
+    <summary>가상 매도가를 0·5·10% 할인하고 목표 집 가격 세 안을 교차합니다. 새 대출과 남길 현금을 고정해 매수 상한, 추가 조달액, 종료 순자산을 구분하고 예산이 막히는 경계를 확인합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-sale-price-stress/" />
+    <category term="갈아타기 자금" />
+  </entry>
+  <entry>
     <title>집이 3개월 늦게 팔리면? 중복 비용과 완충자금 계산</title>
     <id>https://nobot-kang.github.io/posts/upgrade-sale-delay-buffer/</id>
-    <published>2026-10-23T20:01:08+09:00</published>
-    <updated>2026-10-23T20:01:08+09:00</updated>
+    <published>2026-10-23T20:41:15+09:00</published>
+    <updated>2026-10-23T20:41:15+09:00</updated>
     <summary>가상 매도 지연 0·3·6개월을 같은 종료일에 비교합니다. 두 집의 이자·관리비와 단기 차입 원금에 가산하는 비용, 임시 숙박의 추가 조건을 나누어 필요한 자금 규모를 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-sale-delay-buffer/" />
     <category term="매도와 매수의 순서" />
@@ -31,71 +49,17 @@
   <entry>
     <title>매도 계약이 해제되면 새집 잔금은? 유입 중단과 반환 가정</title>
     <id>https://nobot-kang.github.io/posts/upgrade-sale-cancelled/</id>
-    <published>2026-10-23T20:01:08+09:00</published>
-    <updated>2026-10-23T20:01:08+09:00</updated>
+    <published>2026-10-23T20:41:15+09:00</published>
+    <updated>2026-10-23T20:41:15+09:00</updated>
     <summary>민법·대법원 원문을 확인하고 법적 정산과 가상 현금표를 구분합니다. 옛집 잔금 유입 중단, 기수령 원금 반환, 새 대출 감소를 나누어 다음 지급 전에 확인할 부족액과 조건을 살펴봅니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-sale-cancelled/" />
     <category term="매도와 매수의 순서" />
   </entry>
   <entry>
-    <title>매도 1,000만 원 할인과 임시 거처, 무엇을 비교할까?</title>
-    <id>https://nobot-kang.github.io/posts/upgrade-discount-or-temporary-home/</id>
-    <published>2026-10-23T20:01:08+09:00</published>
-    <updated>2026-10-23T20:01:08+09:00</updated>
-    <summary>가상 할인 제안과 정가 조기 인도 뒤 1·3·6개월 임시 거처를 비교합니다. 같은 시작·입주일에서 숙박·추가 이동비와 피한 옛집 이자·관리비를 함께 계산해 현금 차이를 확인합니다.</summary>
-    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-discount-or-temporary-home/" />
-    <category term="매도와 매수의 순서" />
-  </entry>
-  <entry>
-    <title>매수 계약금 10·20·30%, 먼저 필요한 현금은 얼마일까?</title>
-    <id>https://nobot-kang.github.io/posts/upgrade-deposit-share/</id>
-    <published>2026-10-23T20:01:08+09:00</published>
-    <updated>2026-10-23T20:01:08+09:00</updated>
-    <summary>가상 매수 총액과 잔금일을 고정하고 계약금 비중만 바꿉니다. 옛집 잔금 전에 필요한 최대 부족액과 나중 잔금이 줄어드는 관계를 계산하고 법적 해약금과 구분합니다.</summary>
-    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-deposit-share/" />
-    <category term="매도와 매수의 순서" />
-  </entry>
-  <entry>
-    <title>잔금은 냈는데 수리로 입주가 늦어지면? 날짜별 비용 계산</title>
-    <id>https://nobot-kang.github.io/posts/upgrade-delayed-movein/</id>
-    <published>2026-10-23T20:01:08+09:00</published>
-    <updated>2026-10-23T20:01:08+09:00</updated>
-    <summary>가상 잔금·보유 시작과 실제 입주일을 나누어 비교합니다. 같은 3개월 기간의 이자·관리비와 입주 지연에 따른 숙박·보관비를 구분하고, 비용과 묶이는 현금을 확인합니다.</summary>
-    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-delayed-movein/" />
-    <category term="매도와 매수의 순서" />
-  </entry>
-  <entry>
-    <title>받은 계약금과 중도금: 갈아타기 잔금을 두 번 세지 않기</title>
-    <id>https://nobot-kang.github.io/posts/upgrade-contract-middle-cash/</id>
-    <published>2026-10-23T20:01:08+09:00</published>
-    <updated>2026-10-23T20:01:08+09:00</updated>
-    <summary>옛집 계약금을 받고 새집 계약금·중도금·잔금을 지급하는 가상 날짜표입니다. 같은 매수가와 잔금일에서 중도금 유무를 비교하고, 실제 먼저 쓸 현금과 미래 유입을 구분합니다.</summary>
-    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-contract-middle-cash/" />
-    <category term="매도와 매수의 순서" />
-  </entry>
-  <entry>
-    <title>선매수·선매도 순서: 최종 잔액보다 최대 부족액을 계산하기</title>
-    <id>https://nobot-kang.github.io/posts/upgrade-buy-sell-order/</id>
-    <published>2026-10-23T20:01:08+09:00</published>
-    <updated>2026-10-23T20:01:08+09:00</updated>
-    <summary>선매도와 선매수의 가상 60일 자금표를 비교합니다. 최종 합계가 같아도 달라지는 최대 부족액과 차입기간, 이자·임시 거처·보유 비용을 구분해 계약 전 확인할 조건을 정리합니다.</summary>
-    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-buy-sell-order/" />
-    <category term="매도와 매수의 순서" />
-  </entry>
-  <entry>
-    <title>매도가가 5% 낮아지면 갈아타기 예산은 얼마나 줄까?</title>
-    <id>https://nobot-kang.github.io/posts/upgrade-sale-price-stress/</id>
-    <published>2026-10-23T19:09:13+09:00</published>
-    <updated>2026-10-23T19:09:13+09:00</updated>
-    <summary>가상 매도가를 0·5·10% 할인하고 목표 집 가격 세 안을 교차합니다. 새 대출과 남길 현금을 고정해 매수 상한, 추가 조달액, 종료 순자산을 구분하고 예산이 막히는 경계를 확인합니다.</summary>
-    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-sale-price-stress/" />
-    <category term="갈아타기 자금" />
-  </entry>
-  <entry>
     <title>갈아타기 수리비: 공사·임시 거처까지 더하면 매수 상한은?</title>
     <id>https://nobot-kang.github.io/posts/upgrade-repair-budget/</id>
-    <published>2026-10-23T19:09:13+09:00</published>
-    <updated>2026-10-23T19:09:13+09:00</updated>
+    <published>2026-10-23T20:41:15+09:00</published>
+    <updated>2026-10-23T20:41:15+09:00</updated>
     <summary>가상 수리 세 안에 입주 전 숙박과 보관비를 더해 매수 상한을 계산합니다. 공사비가 10% 늘어나는 경우, 같은 입주일 비교의 범위와 견적서에서 확인할 지급 항목도 구분합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-repair-budget/" />
     <category term="갈아타기 자금" />
@@ -103,62 +67,17 @@
   <entry>
     <title>한 번에 갈까, 중간 집을 거칠까? 갈아타기 5년 비용</title>
     <id>https://nobot-kang.github.io/posts/upgrade-one-or-two-moves/</id>
-    <published>2026-10-23T19:09:13+09:00</published>
-    <updated>2026-10-23T19:09:13+09:00</updated>
+    <published>2026-10-23T20:41:15+09:00</published>
+    <updated>2026-10-23T20:41:15+09:00</updated>
     <summary>같은 가상 출발 자산에서 직행과 중간 집 12·24·36개월 경유를 비교합니다. 두 번의 거래·대출 정산과 월별 저축을 기록하고 같은 60개월 뒤 현금·대출잔액·순자산을 대조합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-one-or-two-moves/" />
     <category term="갈아타기 자금" />
   </entry>
   <entry>
-    <title>1,000만 원 할인과 잔금 한 달 연기, 무엇이 유리할까?</title>
-    <id>https://nobot-kang.github.io/posts/upgrade-discount-or-delay/</id>
-    <published>2026-10-23T19:09:13+09:00</published>
-    <updated>2026-10-23T20:01:08+09:00</updated>
-    <summary>가상 할인 1,000만 원과 30일 차입·수수료·숙박 차이를 비교하고, 2주 일정 조정의 비용 경계를 계산합니다. 금액상 이점과 실제 자금·일정의 실행 가능 조건을 구분해 확인합니다.</summary>
-    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-discount-or-delay/" />
-    <category term="갈아타기 자금" />
-  </entry>
-  <entry>
-    <title>갈아타기 비용 회수기간: 3·5·10년 거주를 비교하면</title>
-    <id>https://nobot-kang.github.io/posts/upgrade-cost-payback/</id>
-    <published>2026-10-23T19:09:13+09:00</published>
-    <updated>2026-10-23T19:09:13+09:00</updated>
-    <summary>가상 이전 비용과 연간 주거비 절감액으로 3·5·10년의 미회수 금액을 비교합니다. 원금 상환을 비용과 구분하고 가상 할인율 3%에서 단순 회수기간이 어떻게 달라지는지 확인합니다.</summary>
-    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-cost-payback/" />
-    <category term="갈아타기 자금" />
-  </entry>
-  <entry>
-    <title>비상금 5,000만 원으로 소득 공백을 몇 개월 버틸까?</title>
-    <id>https://nobot-kang.github.io/posts/upgrade-cash-runway/</id>
-    <published>2026-10-23T19:09:13+09:00</published>
-    <updated>2026-10-23T19:09:13+09:00</updated>
-    <summary>가상 갈아타기 뒤 현금 0원·5,000만 원에 소득 공백 12개월과 대출 금리 4·5%를 적용합니다. 생활비와 원리금을 함께 차감해 첫 지급 부족 월을 계산하고 실제 조달과 구분합니다.</summary>
-    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-cash-runway/" />
-    <category term="갈아타기 자금" />
-  </entry>
-  <entry>
-    <title>갈아타기 월 부담: 같은 잔금인데 생활비가 달라지는 이유</title>
-    <id>https://nobot-kang.github.io/posts/upgrade-cash-monthly-surplus/</id>
-    <published>2026-10-23T19:09:13+09:00</published>
-    <updated>2026-10-23T19:09:13+09:00</updated>
-    <summary>초기 순자산과 거래 뒤 현금을 맞춘 가상 세 안을 비교합니다. 대출 원금과 만기, 임대 수입·비용·보증금 반환채무를 기록해 같은 잔금과 다른 월 잉여가 함께 성립하는 이유를 확인합니다.</summary>
-    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-cash-monthly-surplus/" />
-    <category term="갈아타기 자금" />
-  </entry>
-  <entry>
-    <title>아파트 매도 순대금 계산: 상환·보증금 반환·남길 돈</title>
-    <id>https://nobot-kang.github.io/posts/upgrade-sale-proceeds/</id>
-    <published>2026-10-23T18:26:20+09:00</published>
-    <updated>2026-10-23T19:09:13+09:00</updated>
-    <summary>8억 원 매각대금에서 대출 상환, 보증금 반환, 정산 비용을 차감하는 가상 사례입니다. 세금 유보금과 비상금을 따로 남겨 실제 재투입 현금을 계산하고 중복 차감을 확인합니다.</summary>
-    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-sale-proceeds/" />
-    <category term="갈아타기 자금" />
-  </entry>
-  <entry>
     <title>갈아타기 순자산과 현금: 싼 집으로 가도 계약금이 부족한 이유</title>
     <id>https://nobot-kang.github.io/posts/upgrade-net-worth-cash/</id>
-    <published>2026-10-23T18:26:20+09:00</published>
-    <updated>2026-10-23T18:26:20+09:00</updated>
+    <published>2026-10-23T20:41:15+09:00</published>
+    <updated>2026-10-23T20:41:15+09:00</updated>
     <summary>순자산 7억 원인 가상 두 가구도 계약일의 현금은 다릅니다. 매도대금과 새 대출이 들어오는 순서를 따라 중간 부족액과 최종 잔액을 나누고, 잔금 전에 확인할 항목을 정리합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-net-worth-cash/" />
     <category term="갈아타기 자금" />
@@ -166,11 +85,92 @@
   <entry>
     <title>갈아타기 비상금: 6개월분을 남기면 매수 상한은 얼마일까?</title>
     <id>https://nobot-kang.github.io/posts/upgrade-emergency-reserve/</id>
-    <published>2026-10-23T18:26:20+09:00</published>
-    <updated>2026-10-23T19:09:13+09:00</updated>
+    <published>2026-10-23T20:41:15+09:00</published>
+    <updated>2026-10-23T20:41:15+09:00</updated>
     <summary>가상 갈아타기 예산에서 비상금을 0·3·6·12개월분 남기는 안을 비교합니다. 생활비와 원리금을 합친 월 필수 지급액, 세금 유보금과 실제 남는 현금을 구분해 매수 상한을 역산합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-emergency-reserve/" />
     <category term="갈아타기 자금" />
+  </entry>
+  <entry>
+    <title>매도 1,000만 원 할인과 임시 거처, 무엇을 비교할까?</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-discount-or-temporary-home/</id>
+    <published>2026-10-23T20:41:15+09:00</published>
+    <updated>2026-10-23T20:41:15+09:00</updated>
+    <summary>가상 할인 제안과 정가 조기 인도 뒤 1·3·6개월 임시 거처를 비교합니다. 같은 시작·입주일에서 숙박·추가 이동비와 피한 옛집 이자·관리비를 함께 계산해 현금 차이를 확인합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-discount-or-temporary-home/" />
+    <category term="매도와 매수의 순서" />
+  </entry>
+  <entry>
+    <title>1,000만 원 할인과 잔금 한 달 연기, 무엇이 유리할까?</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-discount-or-delay/</id>
+    <published>2026-10-23T20:41:15+09:00</published>
+    <updated>2026-10-23T20:41:15+09:00</updated>
+    <summary>가상 할인 1,000만 원과 30일 차입·수수료·숙박 차이를 비교하고, 2주 일정 조정의 비용 경계를 계산합니다. 금액상 이점과 실제 자금·일정의 실행 가능 조건을 구분해 확인합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-discount-or-delay/" />
+    <category term="갈아타기 자금" />
+  </entry>
+  <entry>
+    <title>매수 계약금 10·20·30%, 먼저 필요한 현금은 얼마일까?</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-deposit-share/</id>
+    <published>2026-10-23T20:41:15+09:00</published>
+    <updated>2026-10-23T20:41:15+09:00</updated>
+    <summary>가상 매수 총액과 잔금일을 고정하고 계약금 비중만 바꿉니다. 옛집 잔금 전에 필요한 최대 부족액과 나중 잔금이 줄어드는 관계를 계산하고 법적 해약금과 구분합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-deposit-share/" />
+    <category term="매도와 매수의 순서" />
+  </entry>
+  <entry>
+    <title>잔금은 냈는데 수리로 입주가 늦어지면? 날짜별 비용 계산</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-delayed-movein/</id>
+    <published>2026-10-23T20:41:15+09:00</published>
+    <updated>2026-10-23T20:41:15+09:00</updated>
+    <summary>가상 잔금·보유 시작과 실제 입주일을 나누어 비교합니다. 같은 3개월 기간의 이자·관리비와 입주 지연에 따른 숙박·보관비를 구분하고, 비용과 묶이는 현금을 확인합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-delayed-movein/" />
+    <category term="매도와 매수의 순서" />
+  </entry>
+  <entry>
+    <title>갈아타기 비용 회수기간: 3·5·10년 거주를 비교하면</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-cost-payback/</id>
+    <published>2026-10-23T20:41:15+09:00</published>
+    <updated>2026-10-23T20:41:15+09:00</updated>
+    <summary>가상 이전 비용과 연간 주거비 절감액으로 3·5·10년의 미회수 금액을 비교합니다. 원금 상환을 비용과 구분하고 가상 할인율 3%에서 단순 회수기간이 어떻게 달라지는지 확인합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-cost-payback/" />
+    <category term="갈아타기 자금" />
+  </entry>
+  <entry>
+    <title>받은 계약금과 중도금: 갈아타기 잔금을 두 번 세지 않기</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-contract-middle-cash/</id>
+    <published>2026-10-23T20:41:15+09:00</published>
+    <updated>2026-10-23T20:41:15+09:00</updated>
+    <summary>옛집 계약금을 받고 새집 계약금·중도금·잔금을 지급하는 가상 날짜표입니다. 같은 매수가와 잔금일에서 중도금 유무를 비교하고, 실제 먼저 쓸 현금과 미래 유입을 구분합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-contract-middle-cash/" />
+    <category term="매도와 매수의 순서" />
+  </entry>
+  <entry>
+    <title>비상금 5,000만 원으로 소득 공백을 몇 개월 버틸까?</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-cash-runway/</id>
+    <published>2026-10-23T20:41:15+09:00</published>
+    <updated>2026-10-23T20:41:15+09:00</updated>
+    <summary>가상 갈아타기 뒤 현금 0원·5,000만 원에 소득 공백 12개월과 대출 금리 4·5%를 적용합니다. 생활비와 원리금을 함께 차감해 첫 지급 부족 월을 계산하고 실제 조달과 구분합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-cash-runway/" />
+    <category term="갈아타기 자금" />
+  </entry>
+  <entry>
+    <title>갈아타기 월 부담: 같은 잔금인데 생활비가 달라지는 이유</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-cash-monthly-surplus/</id>
+    <published>2026-10-23T20:41:15+09:00</published>
+    <updated>2026-10-23T20:41:15+09:00</updated>
+    <summary>초기 순자산과 거래 뒤 현금을 맞춘 가상 세 안을 비교합니다. 대출 원금과 만기, 임대 수입·비용·보증금 반환채무를 기록해 같은 잔금과 다른 월 잉여가 함께 성립하는 이유를 확인합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-cash-monthly-surplus/" />
+    <category term="갈아타기 자금" />
+  </entry>
+  <entry>
+    <title>선매수·선매도 순서: 최종 잔액보다 최대 부족액을 계산하기</title>
+    <id>https://nobot-kang.github.io/posts/upgrade-buy-sell-order/</id>
+    <published>2026-10-23T20:41:15+09:00</published>
+    <updated>2026-10-23T20:41:15+09:00</updated>
+    <summary>선매도와 선매수의 가상 60일 자금표를 비교합니다. 최종 합계가 같아도 달라지는 최대 부족액과 차입기간, 이자·임시 거처·보유 비용을 구분해 계약 전 확인할 조건을 정리합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-buy-sell-order/" />
+    <category term="매도와 매수의 순서" />
   </entry>
   <entry>
     <title>고덕 3단지 이주 시기, 강동구 전세 계약은 어떻게 달라졌나?</title>
