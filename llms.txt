@@ -112,12 +112,16 @@
 
 ### [갈아타기 시나리오](https://nobot-kang.github.io/series/upgrade-scenarios/)
 
-같은 순자산의 계약 전 현금에서 반대 가격 경로·비용과 금리·소득 감소까지 가상 충격을 나누고 최초 부족과 완료 장부를 구분합니다.
+계약 전 현금·가격과 비용·소득 변화에서 목표/차입 대안·복합 지연·보유 저축·추가 임차까지 여덟 가상 질문의 첫 부족과 완료 장부를 나눕니다.
 
 - [두 집이 10% 내려도 계약금은 다를까? 같은 순자산 네 가구](https://nobot-kang.github.io/posts/upgrade-equal-price-fall-four-households/): 같은 순자산의 네 가구에 두 집의 같은 가격 변화를 적용합니다. 반환할 보증금·계약금·나중 매각대금을 나누고 현금 0과 예비 현금 유지의 부족액을 가상 장부로 비교합니다.
 - [내 집 하락·목표 집 상승: 무엇을 줄여야 갈아탈 수 있을까?](https://nobot-kang.github.io/posts/upgrade-opposite-prices-cash-boundary/): 내 집 하락·목표 집 상승을 가정해 매수가·확인된 차입·남길 현금의 경계를 비교합니다. 예비비를 없애도 남는 부족과 실제 대출 승인·계약 전 현금의 별도 조건을 구분합니다.
 - [집값이 그대로인데 갈아타기 비용·금리만 오르면?](https://nobot-kang.github.io/posts/upgrade-flat-prices-rising-costs/): 같은 집값에서 정산 비용과 금리를 단독·동시 변경합니다. 가상 60개월 은행 납입을 원금·이자로 나누고 최초 현금·월 지급·남은 부채·순자산을 비교합니다.
 - [갈아타기 직후 소득이 20% 줄면 현금은 몇 달 버틸까?](https://nobot-kang.github.io/posts/upgrade-income-shock-cash-runway/): 실수령 소득이 20%·30% 줄어도 필수 지출이 같으면 현금은 다르게 줄어듭니다. 가상 120개월의 예비비 사용·첫 현금 부족·추가 자기자금과 중단 장부를 비교합니다.
+- [목표 집 1억 원 낮추기 vs 대출 1억 원 늘리기](https://nobot-kang.github.io/posts/upgrade-lower-target-or-borrow-more/): 같은 초기 현금을 만드는 목표 가격 인하와 차입 증액을 비교합니다. 가상 60개월의 월 납입·이자·남은 부채·순자산과 서로 다른 주택의 조건을 구분합니다.
+- [매도 지연·금리 상승·보증금 하락이 겹치면?](https://nobot-kang.github.io/posts/upgrade-delay-rate-deposit-shocks/): 매각 지연·금리 상승·새 보증금 하락을 단독·동시 적용합니다. 반환/승계 채무와 먼저 필요한 현금, 최초 부족·추가 자기자금을 가상 지급 순서에서 비교합니다.
+- [저축을 1년 더 하면 목표 집에 가까워질까?](https://nobot-kang.github.io/posts/upgrade-save-year-two-price-paths/): 기존 집을 보유하며 1년 더 모으면 목표에 가까워질지 계산합니다. 현금 저축·원금 감소·내 집과 목표 집의 가격 변화가 가상 매수 예산에 미치는 영향을 나눕니다.
+- [목표 집을 못 산 뒤 1년 더 임차하면?](https://nobot-kang.github.io/posts/upgrade-failed-repurchase-rent-extension/): 계획한 날 목표 집을 못 산 뒤 임차를 더 이어가는 가상 경로입니다. 추가 월세·묶이는 보증금·반환 전 계약금과 24개월 재진입 예산, 현금/예비비 미달을 구분합니다.
 
 ### [단지 조건 비교](https://nobot-kang.github.io/series/apartment-conditions/)
 
