@@ -3,14 +3,64 @@ import argparse
 import json
 import shutil
 import re
+import time
 from datetime import datetime
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urljoin, urlsplit
-from urllib.request import urlopen
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
 
 SITE = 'https://nobot-kang.github.io/'
+USER_AGENT = f'PapaPenguin-LinkChecker/1.0 (+{SITE})'
+
+
+def probe_external(url):
+    """Separate inaccessible automation probes from broken links; bound retries."""
+    for attempt in range(3):
+        try:
+            request = Request(url, headers={'User-Agent': USER_AGENT})
+            with urlopen(request, timeout=30) as response:
+                status = response.status
+            if 200 <= status < 300:
+                return 'OK', f'HTTP {status}'
+            return 'ERROR', f'HTTP {status}'
+        except HTTPError as error:
+            status = error.code
+            error.close()
+            if status in {401, 403}:
+                return 'WARN', f'HTTP {status}: access restricted; verify in a browser'
+            if status != 429 and not 500 <= status < 600:
+                return 'ERROR', f'HTTP {status}'
+            detail = f'HTTP {status} after 3 attempts'
+            if attempt == 2:
+                level = 'WARN' if status == 429 else 'ERROR'
+                return level, detail
+        except (URLError, OSError) as error:
+            detail = f'{error} after 3 attempts'
+        if attempt < 2:
+            time.sleep(attempt + 1)
+    return 'ERROR', detail
+
+
+def check_external(links):
+    # Fragments never reach the server; probe each HTTP resource just once.
+    urls = sorted({urlsplit(url)._replace(fragment='').geturl() for url in links})
+    counts = dict.fromkeys(('OK', 'WARN', 'ERROR'), 0)
+    for url in urls:
+        level, detail = probe_external(url)
+        counts[level] += 1
+        message = f'{url} ({detail})'
+        if level == 'OK':
+            print('OK', message, flush=True)
+        else:
+            # Escape workflow commands so URL/error text cannot add annotations.
+            message = message.replace('%', '%25').replace('\r', '%0D').replace('\n', '%0A')
+            annotation = 'warning' if level == 'WARN' else 'error'
+            print(f'::{annotation}::{message}', flush=True)
+    print(f"External links: {counts['OK']} passed, {counts['WARN']} unverified, {counts['ERROR']} failed", flush=True)
+    return counts['ERROR'] == 0
 
 
 class Document(HTMLParser):
@@ -144,11 +194,8 @@ def main():
     parser.add_argument('--external', action='store_true')
     args = parser.parse_args()
     names, links = check(args.root)
-    if args.external:
-        for url in sorted(links):
-            with urlopen(url, timeout=30) as response:
-                assert response.status == 200, url
-            print('OK', url)
+    if args.external and not check_external(links):
+        raise SystemExit('External link checks failed; see URL diagnostics above.')
     if args.stage:
         assert not args.stage.exists(), 'staging destination must be new'
         for name in names:
