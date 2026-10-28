@@ -311,7 +311,7 @@ td.heat-neg-1 { background: #f8ece0; } td.heat-neg-2 { background: #f0d2b3; } td
 .rc-track { position: relative; height: 24px; }
 .rc-axis .rc-track { height: 20px; }
 .rc-tick { position: absolute; left: var(--x); bottom: 0; transform: translateX(-50%); font-size: 12px; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
-.rc-tick:first-child { transform: none; } .rc-tick:last-child { transform: translateX(-100%); }
+.rc-tick:first-child { transform: none; } .rc-tick:last-child, .rc-tick.end { transform: translateX(-100%); }
 .rc-gridline { position: absolute; left: var(--x); top: 0; bottom: 0; width: 1px; background: var(--line); }
 .rc-gridline.rc-ref { width: 2px; margin-left: -1px; background: var(--navy); z-index: 1; opacity: .7; }
 .rc-mark { position: absolute; left: var(--a); width: calc(var(--b) - var(--a)); min-width: 3px; top: 7px; height: 10px; border-radius: 2px; background: #b5c1ca; }
@@ -343,3 +343,10 @@ td.heat-neg-1 { background: #f8ece0; } td.heat-neg-2 { background: #f0d2b3; } td
 .vis-fold > summary { cursor: pointer; display: flex; align-items: center; min-height: 44px; color: var(--teal); font-size: 15px; font-weight: 700; }
 .vis-fold > .table-wrap { margin-top: 8px; }
 .has-key .rc-row:not(.is-key) .rc-mark.dot.hollow { box-shadow: inset 0 0 0 2px #9aa9b5; }
+/* Review 8: named reference lines, zero baselines and stack gaps (STYLE §8). */
+.rc-gridline.rc-ref.rc-zero { background: var(--ink); opacity: .45; width: 1px; margin-left: 0; }
+.rc-axis .rc-track.named { height: 42px; }
+.rc-ref-name { position: absolute; left: var(--x); top: 0; padding: 0 6px; font-size: 12px; font-weight: 700; color: var(--navy); white-space: nowrap; border-left: 2px solid var(--navy); line-height: 18px; }
+.rc-ref-name.end { transform: translateX(-100%); border-left: 0; border-right: 2px solid var(--navy); }
+.rc-mark.seg + .rc-mark.seg { box-shadow: inset 2px 0 0 var(--surface); }
+@media(max-width: 560px) { .rc-track.many .rc-tick:nth-child(even) { visibility: hidden; } }
