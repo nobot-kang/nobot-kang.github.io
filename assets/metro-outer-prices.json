@@ -1,0 +1,473 @@
+{
+  "schema": "metro_outer_prices_v1",
+  "public_admitted": true,
+  "snapshot": "2026-10-30",
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "baseline": [
+    {
+      "kind": "city",
+      "scope": "gyeonggi",
+      "city": "고양시",
+      "complex_quantiles_manwon": [
+        [
+          40000,
+          45000
+        ],
+        [
+          50000,
+          55000
+        ],
+        [
+          60000,
+          65000
+        ]
+      ]
+    },
+    {
+      "kind": "city",
+      "scope": "gyeonggi",
+      "city": "광명시",
+      "complex_quantiles_manwon": [
+        [
+          65000,
+          70000
+        ],
+        [
+          85000,
+          90000
+        ],
+        [
+          120000,
+          125000
+        ]
+      ]
+    },
+    {
+      "kind": "city",
+      "scope": "gyeonggi",
+      "city": "구리시",
+      "complex_quantiles_manwon": [
+        [
+          65000,
+          70000
+        ],
+        [
+          70000,
+          75000
+        ],
+        [
+          85000,
+          90000
+        ]
+      ]
+    },
+    {
+      "kind": "city",
+      "scope": "gyeonggi",
+      "city": "남양주시",
+      "complex_quantiles_manwon": [
+        [
+          40000,
+          45000
+        ],
+        [
+          50000,
+          55000
+        ],
+        [
+          65000,
+          70000
+        ]
+      ]
+    },
+    {
+      "kind": "city",
+      "scope": "gyeonggi",
+      "city": "부천시",
+      "complex_quantiles_manwon": [
+        [
+          45000,
+          50000
+        ],
+        [
+          55000,
+          60000
+        ],
+        [
+          70000,
+          75000
+        ]
+      ]
+    },
+    {
+      "kind": "city",
+      "scope": "gyeonggi",
+      "city": "안양시",
+      "complex_quantiles_manwon": [
+        [
+          45000,
+          50000
+        ],
+        [
+          60000,
+          65000
+        ],
+        [
+          80000,
+          85000
+        ]
+      ]
+    },
+    {
+      "kind": "city",
+      "scope": "gyeonggi",
+      "city": "의정부시",
+      "complex_quantiles_manwon": [
+        [
+          30000,
+          35000
+        ],
+        [
+          35000,
+          40000
+        ],
+        [
+          40000,
+          45000
+        ]
+      ]
+    },
+    {
+      "kind": "city",
+      "scope": "seoul",
+      "city": "구로구",
+      "complex_quantiles_manwon": [
+        [
+          55000,
+          60000
+        ],
+        [
+          65000,
+          70000
+        ],
+        [
+          75000,
+          80000
+        ]
+      ]
+    },
+    {
+      "kind": "city",
+      "scope": "seoul",
+      "city": "금천구",
+      "complex_quantiles_manwon": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "kind": "city",
+      "scope": "seoul",
+      "city": "노원구",
+      "complex_quantiles_manwon": [
+        [
+          60000,
+          65000
+        ],
+        [
+          65000,
+          70000
+        ],
+        [
+          85000,
+          90000
+        ]
+      ]
+    },
+    {
+      "kind": "city",
+      "scope": "seoul",
+      "city": "도봉구",
+      "complex_quantiles_manwon": [
+        [
+          45000,
+          50000
+        ],
+        [
+          50000,
+          55000
+        ],
+        [
+          55000,
+          60000
+        ]
+      ]
+    },
+    {
+      "kind": "city",
+      "scope": "seoul",
+      "city": "은평구",
+      "complex_quantiles_manwon": [
+        [
+          55000,
+          60000
+        ],
+        [
+          75000,
+          80000
+        ],
+        [
+          85000,
+          90000
+        ]
+      ]
+    },
+    {
+      "kind": "city",
+      "scope": "seoul",
+      "city": "중랑구",
+      "complex_quantiles_manwon": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "kind": "pooled",
+      "scope": "gyeonggi",
+      "city": null,
+      "complex_quantiles_manwon": [
+        [
+          40000,
+          45000
+        ],
+        [
+          50000,
+          55000
+        ],
+        [
+          70000,
+          75000
+        ]
+      ],
+      "transaction_quantiles_manwon": [
+        [
+          50000,
+          55000
+        ],
+        [
+          65000,
+          70000
+        ],
+        [
+          85000,
+          90000
+        ]
+      ]
+    },
+    {
+      "kind": "pooled",
+      "scope": "seoul",
+      "city": null,
+      "complex_quantiles_manwon": [
+        [
+          50000,
+          55000
+        ],
+        [
+          60000,
+          65000
+        ],
+        [
+          75000,
+          80000
+        ]
+      ],
+      "transaction_quantiles_manwon": [
+        [
+          55000,
+          60000
+        ],
+        [
+          70000,
+          75000
+        ],
+        [
+          85000,
+          90000
+        ]
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "mode": "main",
+      "median_manwon": {
+        "gyeonggi": [
+          50000,
+          55000
+        ],
+        "seoul": [
+          60000,
+          65000
+        ]
+      },
+      "age_size_ratio_tenths": [
+        13,
+        14
+      ]
+    },
+    {
+      "mode": "650m",
+      "median_manwon": {
+        "gyeonggi": [
+          50000,
+          55000
+        ],
+        "seoul": [
+          60000,
+          65000
+        ]
+      },
+      "age_size_ratio_tenths": null
+    },
+    {
+      "mode": "750m",
+      "median_manwon": {
+        "gyeonggi": [
+          50000,
+          55000
+        ],
+        "seoul": [
+          60000,
+          65000
+        ]
+      },
+      "age_size_ratio_tenths": [
+        13,
+        14
+      ]
+    },
+    {
+      "mode": "no_inferred",
+      "median_manwon": {
+        "gyeonggi": [
+          50000,
+          55000
+        ],
+        "seoul": [
+          60000,
+          65000
+        ]
+      },
+      "age_size_ratio_tenths": [
+        13,
+        14
+      ]
+    },
+    {
+      "mode": "no_conflict",
+      "median_manwon": {
+        "gyeonggi": [
+          50000,
+          55000
+        ],
+        "seoul": [
+          60000,
+          65000
+        ]
+      },
+      "age_size_ratio_tenths": [
+        13,
+        14
+      ]
+    },
+    {
+      "mode": "drop_largest",
+      "median_manwon": {
+        "gyeonggi": [
+          50000,
+          55000
+        ],
+        "seoul": [
+          60000,
+          65000
+        ]
+      },
+      "age_size_ratio_tenths": [
+        13,
+        14
+      ]
+    }
+  ],
+  "entry_stops": [
+    {
+      "city": "고양시",
+      "median_stops": [
+        2,
+        4
+      ]
+    },
+    {
+      "city": "광명시",
+      "median_stops": [
+        0,
+        2
+      ]
+    },
+    {
+      "city": "구리시",
+      "median_stops": [
+        0,
+        2
+      ]
+    },
+    {
+      "city": "남양주시",
+      "median_stops": [
+        2,
+        4
+      ]
+    },
+    {
+      "city": "부천시",
+      "median_stops": [
+        4,
+        6
+      ]
+    },
+    {
+      "city": "안양시",
+      "median_stops": [
+        4,
+        6
+      ]
+    },
+    {
+      "city": "의정부시",
+      "median_stops": [
+        4,
+        6
+      ]
+    }
+  ],
+  "units": {
+    "prices": "만원; 5000-wide intervals",
+    "ratio": "tenths; 1-wide intervals",
+    "stops": "2-wide intervals"
+  },
+  "closure": "lower inclusive, upper exclusive",
+  "limits": [
+    "Chosen six Seoul districts and seven Gyeonggi cities; not all outskirts or a border census.",
+    "Complex medians and transaction distributions are different weightings.",
+    "Common age-size summaries compare eligible groups equally, not causal effects.",
+    "Changing radius changes eligible composition. The 650m adjusted ratio is withheld.",
+    "Entry stops start at the current nearest station group; zero means that station is in Seoul.",
+    "Current graph and coordinates, not historical service or walking/commuting time.",
+    "Intervals are display precision, not confidence intervals; missing is not zero."
+  ]
+}

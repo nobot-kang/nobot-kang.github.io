@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-30T02:40:23+09:00</updated>
+  <updated>2026-10-30T03:10:55+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>경기 역세권과 서울 외곽 비역세권, 84형 가격은 얼마나 겹칠까?</title>
+    <id>https://nobot-kang.github.io/posts/metro-outer-prices/</id>
+    <published>2026-10-30T03:10:55+09:00</published>
+    <updated>2026-10-30T03:10:55+09:00</updated>
+    <summary>선정한 경기 7개 시의 역 700m 안과 서울 외곽 6개 구의 역 700m 밖 84형 가격 분포를 비교했습니다. 지역·거래 비중·연식·규모와 서울 진입 정거장 수를 나누어 읽습니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-outer-prices/" />
+    <category term="경기 철도와 주거입지" />
+  </entry>
   <entry>
     <title>서울과 경기, 한 역 차이면 가격도 갈릴까? 경계 8쌍의 비교</title>
     <id>https://nobot-kang.github.io/posts/metro-border-prices/</id>
@@ -77,7 +86,7 @@
     <title>경기 신축 대단지는 역에서 얼마나 멀까? 2015년 이후·1,000세대 이상 비교</title>
     <id>https://nobot-kang.github.io/posts/metro-gyeonggi-large-new/</id>
     <published>2026-10-29T17:43:12+09:00</published>
-    <updated>2026-10-29T17:43:12+09:00</updated>
+    <updated>2026-10-30T03:10:55+09:00</updated>
     <summary>2015년 이후 사용승인·1,000세대 이상 경기 아파트의 현재 역 직선거리를 전체 재고와 비교했습니다. 분모·확인 범위와 연도·규모 구성, 지역 비교의 한계를 읽습니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-gyeonggi-large-new/" />
     <category term="경기 철도와 주거입지" />
