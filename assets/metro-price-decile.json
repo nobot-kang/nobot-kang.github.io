@@ -1,0 +1,1095 @@
+{
+  "schema": "metro_price_decile_v1",
+  "public_admitted": true,
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "precision": {
+    "distance_m": 500,
+    "shares_pp": 10,
+    "interval": "Left closed right open, except 100% included. Display ranges, not confidence intervals."
+  },
+  "rows": [
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "11",
+      "decile": 1,
+      "values": {
+        "q25": [
+          0,
+          500
+        ],
+        "median": [
+          500,
+          1000
+        ],
+        "q75": [
+          1000,
+          1500
+        ],
+        "outside700": [
+          50,
+          60
+        ],
+        "line0": [
+          50,
+          60
+        ],
+        "line1": [
+          30,
+          40
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "11",
+      "decile": 2,
+      "values": {
+        "q25": [
+          0,
+          500
+        ],
+        "median": [
+          500,
+          1000
+        ],
+        "q75": [
+          500,
+          1000
+        ],
+        "outside700": [
+          30,
+          40
+        ],
+        "line0": [
+          30,
+          40
+        ],
+        "line1": [
+          40,
+          50
+        ],
+        "line2plus": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "11",
+      "decile": 3,
+      "values": {
+        "q25": [
+          0,
+          500
+        ],
+        "median": [
+          500,
+          1000
+        ],
+        "q75": [
+          500,
+          1000
+        ],
+        "outside700": [
+          20,
+          30
+        ],
+        "line0": [
+          20,
+          30
+        ],
+        "line1": [
+          50,
+          60
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "11",
+      "decile": 4,
+      "values": {
+        "q25": [
+          0,
+          500
+        ],
+        "median": [
+          500,
+          1000
+        ],
+        "q75": [
+          500,
+          1000
+        ],
+        "outside700": [
+          20,
+          30
+        ],
+        "line0": [
+          20,
+          30
+        ],
+        "line1": [
+          40,
+          50
+        ],
+        "line2plus": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "11",
+      "decile": 5,
+      "values": {
+        "q25": [
+          0,
+          500
+        ],
+        "median": [
+          500,
+          1000
+        ],
+        "q75": [
+          500,
+          1000
+        ],
+        "outside700": [
+          20,
+          30
+        ],
+        "line0": [
+          20,
+          30
+        ],
+        "line1": [
+          40,
+          50
+        ],
+        "line2plus": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "11",
+      "decile": 6,
+      "values": {
+        "q25": [
+          0,
+          500
+        ],
+        "median": [
+          500,
+          1000
+        ],
+        "q75": [
+          500,
+          1000
+        ],
+        "outside700": [
+          20,
+          30
+        ],
+        "line0": [
+          20,
+          30
+        ],
+        "line1": [
+          40,
+          50
+        ],
+        "line2plus": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "11",
+      "decile": 7,
+      "values": {
+        "q25": [
+          0,
+          500
+        ],
+        "median": [
+          0,
+          500
+        ],
+        "q75": [
+          500,
+          1000
+        ],
+        "outside700": null,
+        "line0": null,
+        "line1": [
+          40,
+          50
+        ],
+        "line2plus": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "11",
+      "decile": 8,
+      "values": {
+        "q25": [
+          0,
+          500
+        ],
+        "median": [
+          0,
+          500
+        ],
+        "q75": [
+          500,
+          1000
+        ],
+        "outside700": null,
+        "line0": null,
+        "line1": [
+          50,
+          60
+        ],
+        "line2plus": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "11",
+      "decile": 9,
+      "values": {
+        "q25": [
+          0,
+          500
+        ],
+        "median": [
+          0,
+          500
+        ],
+        "q75": [
+          500,
+          1000
+        ],
+        "outside700": null,
+        "line0": null,
+        "line1": [
+          40,
+          50
+        ],
+        "line2plus": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "11",
+      "decile": 10,
+      "values": {
+        "q25": [
+          0,
+          500
+        ],
+        "median": [
+          0,
+          500
+        ],
+        "q75": [
+          500,
+          1000
+        ],
+        "outside700": null,
+        "line0": null,
+        "line1": [
+          30,
+          40
+        ],
+        "line2plus": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "41",
+      "decile": 1,
+      "values": {
+        "q25": [
+          500,
+          1000
+        ],
+        "median": null,
+        "q75": null,
+        "outside700": [
+          80,
+          90
+        ],
+        "line0": [
+          80,
+          90
+        ],
+        "line1": [
+          10,
+          20
+        ],
+        "line2plus": [
+          0,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "41",
+      "decile": 2,
+      "values": {
+        "q25": [
+          500,
+          1000
+        ],
+        "median": [
+          1000,
+          1500
+        ],
+        "q75": null,
+        "outside700": [
+          80,
+          90
+        ],
+        "line0": [
+          80,
+          90
+        ],
+        "line1": [
+          10,
+          20
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "41",
+      "decile": 3,
+      "values": {
+        "q25": [
+          500,
+          1000
+        ],
+        "median": [
+          1000,
+          1500
+        ],
+        "q75": null,
+        "outside700": [
+          70,
+          80
+        ],
+        "line0": [
+          70,
+          80
+        ],
+        "line1": [
+          20,
+          30
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "41",
+      "decile": 4,
+      "values": {
+        "q25": [
+          500,
+          1000
+        ],
+        "median": [
+          1000,
+          1500
+        ],
+        "q75": null,
+        "outside700": [
+          70,
+          80
+        ],
+        "line0": [
+          70,
+          80
+        ],
+        "line1": [
+          20,
+          30
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "41",
+      "decile": 5,
+      "values": {
+        "q25": [
+          500,
+          1000
+        ],
+        "median": [
+          500,
+          1000
+        ],
+        "q75": null,
+        "outside700": [
+          60,
+          70
+        ],
+        "line0": [
+          60,
+          70
+        ],
+        "line1": [
+          20,
+          30
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "41",
+      "decile": 6,
+      "values": {
+        "q25": [
+          500,
+          1000
+        ],
+        "median": [
+          1000,
+          1500
+        ],
+        "q75": null,
+        "outside700": [
+          70,
+          80
+        ],
+        "line0": [
+          70,
+          80
+        ],
+        "line1": [
+          20,
+          30
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "41",
+      "decile": 7,
+      "values": {
+        "q25": [
+          500,
+          1000
+        ],
+        "median": [
+          500,
+          1000
+        ],
+        "q75": null,
+        "outside700": [
+          60,
+          70
+        ],
+        "line0": [
+          60,
+          70
+        ],
+        "line1": [
+          30,
+          40
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "41",
+      "decile": 8,
+      "values": {
+        "q25": [
+          500,
+          1000
+        ],
+        "median": [
+          500,
+          1000
+        ],
+        "q75": [
+          1000,
+          1500
+        ],
+        "outside700": [
+          50,
+          60
+        ],
+        "line0": [
+          50,
+          60
+        ],
+        "line1": [
+          30,
+          40
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "41",
+      "decile": 9,
+      "values": {
+        "q25": [
+          500,
+          1000
+        ],
+        "median": [
+          500,
+          1000
+        ],
+        "q75": [
+          1000,
+          1500
+        ],
+        "outside700": [
+          50,
+          60
+        ],
+        "line0": [
+          50,
+          60
+        ],
+        "line1": [
+          30,
+          40
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "scope": "41",
+      "decile": 10,
+      "values": {
+        "q25": [
+          0,
+          500
+        ],
+        "median": [
+          500,
+          1000
+        ],
+        "q75": [
+          1000,
+          1500
+        ],
+        "outside700": [
+          40,
+          50
+        ],
+        "line0": [
+          40,
+          50
+        ],
+        "line1": [
+          30,
+          40
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "59",
+      "scope": "11",
+      "decile": 10,
+      "values": {
+        "median": [
+          0,
+          500
+        ],
+        "outside700": null,
+        "line2plus": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "59",
+      "scope": "41",
+      "decile": 10,
+      "values": {
+        "median": [
+          500,
+          1000
+        ],
+        "outside700": [
+          50,
+          60
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "min10",
+      "scope": "11",
+      "decile": 10,
+      "values": {
+        "median": [
+          0,
+          500
+        ],
+        "outside700": null,
+        "line2plus": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "min10",
+      "scope": "41",
+      "decile": 10,
+      "values": {
+        "median": [
+          500,
+          1000
+        ],
+        "outside700": [
+          50,
+          60
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "half2025",
+      "scope": "11",
+      "decile": 10,
+      "values": {
+        "median": [
+          0,
+          500
+        ],
+        "outside700": null,
+        "line2plus": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "half2025",
+      "scope": "41",
+      "decile": 10,
+      "values": {
+        "median": [
+          500,
+          1000
+        ],
+        "outside700": [
+          50,
+          60
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "half2026",
+      "scope": "11",
+      "decile": 10,
+      "values": {
+        "median": [
+          0,
+          500
+        ],
+        "outside700": null,
+        "line2plus": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "half2026",
+      "scope": "41",
+      "decile": 10,
+      "values": {
+        "median": [
+          500,
+          1000
+        ],
+        "outside700": [
+          50,
+          60
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "no_inferred",
+      "scope": "11",
+      "decile": 10,
+      "values": {
+        "median": [
+          0,
+          500
+        ],
+        "outside700": null,
+        "line2plus": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "no_inferred",
+      "scope": "41",
+      "decile": 10,
+      "values": {
+        "median": [
+          500,
+          1000
+        ],
+        "outside700": [
+          40,
+          50
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "no_conflict",
+      "scope": "11",
+      "decile": 10,
+      "values": {
+        "median": [
+          0,
+          500
+        ],
+        "outside700": null,
+        "line2plus": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "no_conflict",
+      "scope": "41",
+      "decile": 10,
+      "values": {
+        "median": [
+          500,
+          1000
+        ],
+        "outside700": [
+          40,
+          50
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "no_both",
+      "scope": "11",
+      "decile": 10,
+      "values": {
+        "median": [
+          0,
+          500
+        ],
+        "outside700": null,
+        "line2plus": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "no_both",
+      "scope": "41",
+      "decile": 10,
+      "values": {
+        "median": [
+          500,
+          1000
+        ],
+        "outside700": [
+          40,
+          50
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "max_distance",
+      "scope": "11",
+      "decile": 10,
+      "values": {
+        "median": [
+          0,
+          500
+        ],
+        "outside700": null,
+        "line2plus": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "max_distance",
+      "scope": "41",
+      "decile": 10,
+      "values": {
+        "median": [
+          500,
+          1000
+        ],
+        "outside700": [
+          40,
+          50
+        ],
+        "line2plus": null
+      }
+    },
+    {
+      "kind": "boundary",
+      "setting": "main",
+      "scope": "11",
+      "decile": 10,
+      "radius": 650,
+      "values": {
+        "outside650": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "boundary",
+      "setting": "main",
+      "scope": "11",
+      "decile": 10,
+      "radius": 750,
+      "values": {
+        "outside750": null
+      }
+    },
+    {
+      "kind": "boundary",
+      "setting": "main",
+      "scope": "41",
+      "decile": 10,
+      "radius": 650,
+      "values": {
+        "outside650": [
+          50,
+          60
+        ]
+      }
+    },
+    {
+      "kind": "boundary",
+      "setting": "main",
+      "scope": "41",
+      "decile": 10,
+      "radius": 750,
+      "values": {
+        "outside750": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "transition",
+      "setting": "main_half2025",
+      "scope": "11",
+      "values": {
+        "moved_share": [
+          60,
+          70
+        ]
+      }
+    },
+    {
+      "kind": "transition",
+      "setting": "main_half2025",
+      "scope": "41",
+      "values": {
+        "moved_share": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "transition",
+      "setting": "main_half2026",
+      "scope": "11",
+      "values": {
+        "moved_share": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "transition",
+      "setting": "main_half2026",
+      "scope": "41",
+      "values": {
+        "moved_share": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "transition",
+      "setting": "half2025_half2026",
+      "scope": "11",
+      "values": {
+        "moved_share": [
+          70,
+          80
+        ]
+      }
+    },
+    {
+      "kind": "transition",
+      "setting": "half2025_half2026",
+      "scope": "41",
+      "values": {
+        "moved_share": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "transition",
+      "setting": "main_min10",
+      "scope": "11",
+      "values": {
+        "moved_share": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "transition",
+      "setting": "main_min10",
+      "scope": "41",
+      "values": {
+        "moved_share": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "coverage",
+      "setting": "main",
+      "scope": "11",
+      "values": {
+        "observed_price_coverage": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "coverage",
+      "setting": "main",
+      "scope": "41",
+      "values": {
+        "observed_price_coverage": [
+          70,
+          80
+        ]
+      }
+    }
+  ],
+  "sources": {
+    "transactions": "https://rt.molit.go.kr/",
+    "stations": "https://openapi.kric.go.kr/rips/M_01_01/detail.do?id=32"
+  },
+  "limits": [
+    "Current station network applied to historical contracts; straight-line distance, not walking time.",
+    "Observed complex median price ranks within each province; not price effects or individual investment recommendations.",
+    "Withheld fields are not zero. No same-district or age-adjusted estimate.",
+    "Finite actual-display review, not protection against arbitrary auxiliary information."
+  ]
+}
