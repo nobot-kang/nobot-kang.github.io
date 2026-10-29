@@ -1,0 +1,1186 @@
+{
+  "schema": "metro_sale_jeonse_v1",
+  "public_admitted": true,
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "precision": {
+    "price_index_points": 5,
+    "difference_pp": 5,
+    "interval": "Left closed, right open; equal endpoints only for the exact reference identity."
+  },
+  "rows": [
+    {
+      "kind": "binary",
+      "setting": "main",
+      "scope": "11",
+      "control": "district",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          115,
+          120
+        ],
+        "rent_index": [
+          110,
+          115
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "11",
+      "control": "district",
+      "target": "300",
+      "reference": "1000",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "11",
+      "control": "district",
+      "target": "500",
+      "reference": "1000",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "11",
+      "control": "district",
+      "target": "700",
+      "reference": "1000",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "11",
+      "control": "district",
+      "target": "1000",
+      "reference": "1000",
+      "status": "insufficient",
+      "reference_identity": true,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "11",
+      "control": "district",
+      "target": "1500",
+      "reference": "1000",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "11",
+      "control": "district",
+      "target": "over1500",
+      "reference": "1000",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "main",
+      "scope": "11",
+      "control": "district_age",
+      "target": "inside",
+      "reference": "outside",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "11",
+      "control": "district_age",
+      "target": "300",
+      "reference": "1000",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "11",
+      "control": "district_age",
+      "target": "500",
+      "reference": "1000",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "11",
+      "control": "district_age",
+      "target": "700",
+      "reference": "1000",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "11",
+      "control": "district_age",
+      "target": "1000",
+      "reference": "1000",
+      "status": "insufficient",
+      "reference_identity": true,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "11",
+      "control": "district_age",
+      "target": "1500",
+      "reference": "1000",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "11",
+      "control": "district_age",
+      "target": "over1500",
+      "reference": "1000",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "main",
+      "scope": "41",
+      "control": "district",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          110,
+          115
+        ],
+        "rent_index": [
+          105,
+          110
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "41",
+      "control": "district",
+      "target": "300",
+      "reference": "1000",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "41",
+      "control": "district",
+      "target": "500",
+      "reference": "1000",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          120,
+          125
+        ],
+        "rent_index": [
+          115,
+          120
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "41",
+      "control": "district",
+      "target": "700",
+      "reference": "1000",
+      "status": "single_region",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "41",
+      "control": "district",
+      "target": "1000",
+      "reference": "1000",
+      "status": "supported",
+      "reference_identity": true,
+      "values": {
+        "sale_index": [
+          100,
+          100
+        ],
+        "rent_index": [
+          100,
+          100
+        ],
+        "difference_pp": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "41",
+      "control": "district",
+      "target": "1500",
+      "reference": "1000",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          85,
+          90
+        ],
+        "rent_index": [
+          90,
+          95
+        ],
+        "difference_pp": [
+          -5,
+          0
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "41",
+      "control": "district",
+      "target": "over1500",
+      "reference": "1000",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          75,
+          80
+        ],
+        "rent_index": [
+          80,
+          85
+        ],
+        "difference_pp": [
+          -10,
+          -5
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "main",
+      "scope": "41",
+      "control": "district_age",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          115,
+          120
+        ],
+        "rent_index": [
+          110,
+          115
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "41",
+      "control": "district_age",
+      "target": "300",
+      "reference": "1000",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "41",
+      "control": "district_age",
+      "target": "500",
+      "reference": "1000",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "41",
+      "control": "district_age",
+      "target": "700",
+      "reference": "1000",
+      "status": "single_region",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "41",
+      "control": "district_age",
+      "target": "1000",
+      "reference": "1000",
+      "status": "supported",
+      "reference_identity": true,
+      "values": {
+        "sale_index": [
+          100,
+          100
+        ],
+        "rent_index": [
+          100,
+          100
+        ],
+        "difference_pp": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "41",
+      "control": "district_age",
+      "target": "1500",
+      "reference": "1000",
+      "status": "single_region",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "distance",
+      "setting": "main",
+      "scope": "41",
+      "control": "district_age",
+      "target": "over1500",
+      "reference": "1000",
+      "status": "single_region",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "59",
+      "scope": "11",
+      "control": "district",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          100,
+          105
+        ],
+        "rent_index": [
+          100,
+          105
+        ],
+        "difference_pp": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "59",
+      "scope": "11",
+      "control": "district_age",
+      "target": "inside",
+      "reference": "outside",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "59",
+      "scope": "41",
+      "control": "district",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          120,
+          125
+        ],
+        "rent_index": [
+          115,
+          120
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "59",
+      "scope": "41",
+      "control": "district_age",
+      "target": "inside",
+      "reference": "outside",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "min10",
+      "scope": "11",
+      "control": "district",
+      "target": "inside",
+      "reference": "outside",
+      "status": "single_region",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "min10",
+      "scope": "11",
+      "control": "district_age",
+      "target": "inside",
+      "reference": "outside",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "min10",
+      "scope": "41",
+      "control": "district",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          120,
+          125
+        ],
+        "rent_index": [
+          110,
+          115
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "min10",
+      "scope": "41",
+      "control": "district_age",
+      "target": "inside",
+      "reference": "outside",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "near650",
+      "scope": "11",
+      "control": "district",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          115,
+          120
+        ],
+        "rent_index": [
+          110,
+          115
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "near650",
+      "scope": "11",
+      "control": "district_age",
+      "target": "inside",
+      "reference": "outside",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "near650",
+      "scope": "41",
+      "control": "district",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          110,
+          115
+        ],
+        "rent_index": [
+          100,
+          105
+        ],
+        "difference_pp": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "near650",
+      "scope": "41",
+      "control": "district_age",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          110,
+          115
+        ],
+        "rent_index": [
+          105,
+          110
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "near750",
+      "scope": "11",
+      "control": "district",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          125,
+          130
+        ],
+        "rent_index": [
+          110,
+          115
+        ],
+        "difference_pp": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "near750",
+      "scope": "11",
+      "control": "district_age",
+      "target": "inside",
+      "reference": "outside",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "near750",
+      "scope": "41",
+      "control": "district",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          110,
+          115
+        ],
+        "rent_index": [
+          105,
+          110
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "near750",
+      "scope": "41",
+      "control": "district_age",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          115,
+          120
+        ],
+        "rent_index": [
+          110,
+          115
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "no_inferred",
+      "scope": "11",
+      "control": "district",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          115,
+          120
+        ],
+        "rent_index": [
+          110,
+          115
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "no_inferred",
+      "scope": "11",
+      "control": "district_age",
+      "target": "inside",
+      "reference": "outside",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "no_inferred",
+      "scope": "41",
+      "control": "district",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          110,
+          115
+        ],
+        "rent_index": [
+          105,
+          110
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "no_inferred",
+      "scope": "41",
+      "control": "district_age",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          115,
+          120
+        ],
+        "rent_index": [
+          110,
+          115
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "no_conflict",
+      "scope": "11",
+      "control": "district",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          115,
+          120
+        ],
+        "rent_index": [
+          110,
+          115
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "no_conflict",
+      "scope": "11",
+      "control": "district_age",
+      "target": "inside",
+      "reference": "outside",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "no_conflict",
+      "scope": "41",
+      "control": "district",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          110,
+          115
+        ],
+        "rent_index": [
+          105,
+          110
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "no_conflict",
+      "scope": "41",
+      "control": "district_age",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          115,
+          120
+        ],
+        "rent_index": [
+          110,
+          115
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "max_distance",
+      "scope": "11",
+      "control": "district",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          115,
+          120
+        ],
+        "rent_index": [
+          110,
+          115
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "max_distance",
+      "scope": "11",
+      "control": "district_age",
+      "target": "inside",
+      "reference": "outside",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "max_distance",
+      "scope": "41",
+      "control": "district",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          110,
+          115
+        ],
+        "rent_index": [
+          105,
+          110
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "max_distance",
+      "scope": "41",
+      "control": "district_age",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          115,
+          120
+        ],
+        "rent_index": [
+          110,
+          115
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "drop_largest",
+      "scope": "11",
+      "control": "district",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          120,
+          125
+        ],
+        "rent_index": [
+          105,
+          110
+        ],
+        "difference_pp": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "drop_largest",
+      "scope": "11",
+      "control": "district_age",
+      "target": "inside",
+      "reference": "outside",
+      "status": "insufficient",
+      "reference_identity": false,
+      "values": {
+        "sale_index": null,
+        "rent_index": null,
+        "difference_pp": null
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "drop_largest",
+      "scope": "41",
+      "control": "district",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          110,
+          115
+        ],
+        "rent_index": [
+          100,
+          105
+        ],
+        "difference_pp": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "binary",
+      "setting": "drop_largest",
+      "scope": "41",
+      "control": "district_age",
+      "target": "inside",
+      "reference": "outside",
+      "status": "supported",
+      "reference_identity": false,
+      "values": {
+        "sale_index": [
+          110,
+          115
+        ],
+        "rent_index": [
+          110,
+          115
+        ],
+        "difference_pp": [
+          0,
+          5
+        ]
+      }
+    }
+  ],
+  "sources": {
+    "transactions": "https://rt.molit.go.kr/",
+    "stations": "https://openapi.kric.go.kr/rips/M_01_01/detail.do?id=32"
+  },
+  "limits": [
+    "Same complex cohort in both markets, not matched individual dwellings. Current network, not historical walking access.",
+    "Equal-complex price medians and equal-stratum geometric means; no causal demand estimate.",
+    "Withheld and single-region results are not zero.",
+    "Finite actual-display review, not a guarantee against arbitrary auxiliary information."
+  ]
+}
