@@ -1,0 +1,185 @@
+{
+  "schema": "metro_border_prices_v1",
+  "public_admitted": true,
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "snapshot": "2026-10-30",
+  "unit": "tenths of Seoul/Gyeonggi ratio; left closed right open",
+  "rows": [
+    {
+      "line": "1호선",
+      "seoul": "도봉산",
+      "gyeonggi": "망월사",
+      "values_tenths": {
+        "basic": [
+          15,
+          16
+        ],
+        "transaction": [
+          14,
+          15
+        ],
+        "sensitivity": [
+          15,
+          16
+        ]
+      },
+      "sensitivity_status": "admitted",
+      "unavailable": {
+        "main650": "insufficient_sample",
+        "drop_largest": "insufficient_sample"
+      }
+    },
+    {
+      "line": "1호선",
+      "seoul": "금천구청",
+      "gyeonggi": "석수",
+      "values_tenths": {
+        "basic": [
+          9,
+          10
+        ],
+        "transaction": [
+          9,
+          10
+        ],
+        "sensitivity": [
+          9,
+          10
+        ]
+      },
+      "sensitivity_status": "admitted",
+      "unavailable": {}
+    },
+    {
+      "line": "1호선",
+      "seoul": "금천구청",
+      "gyeonggi": "광명",
+      "values_tenths": {
+        "basic": [
+          5,
+          6
+        ],
+        "transaction": [
+          5,
+          6
+        ],
+        "sensitivity": [
+          5,
+          6
+        ]
+      },
+      "sensitivity_status": "admitted",
+      "unavailable": {
+        "drop_largest": "insufficient_sample"
+      }
+    },
+    {
+      "line": "3호선",
+      "seoul": "구파발",
+      "gyeonggi": "지축",
+      "values_tenths": {
+        "basic": [
+          11,
+          12
+        ],
+        "transaction": [
+          12,
+          13
+        ],
+        "sensitivity": null
+      },
+      "sensitivity_status": "withheld_small_endpoint_change",
+      "unavailable": {
+        "standard700": "coordinate_unavailable",
+        "drop_largest": "insufficient_sample"
+      }
+    },
+    {
+      "line": "7호선",
+      "seoul": "천왕",
+      "gyeonggi": "광명사거리",
+      "values_tenths": {
+        "basic": [
+          11,
+          12
+        ],
+        "transaction": [
+          9,
+          10
+        ],
+        "sensitivity": null
+      },
+      "sensitivity_status": "withheld_small_endpoint_change",
+      "unavailable": {}
+    },
+    {
+      "line": "경의중앙선",
+      "seoul": "양원",
+      "gyeonggi": "구리",
+      "values_tenths": {
+        "basic": [
+          6,
+          7
+        ],
+        "transaction": [
+          7,
+          8
+        ],
+        "sensitivity": null
+      },
+      "sensitivity_status": "withheld_small_endpoint_change",
+      "unavailable": {
+        "standard700": "coordinate_unavailable",
+        "detailed700": "coordinate_unavailable"
+      }
+    },
+    {
+      "line": "5호선",
+      "seoul": "강일",
+      "gyeonggi": "미사",
+      "values_tenths": {
+        "basic": [
+          11,
+          12
+        ],
+        "transaction": [
+          11,
+          12
+        ],
+        "sensitivity": null
+      },
+      "sensitivity_status": "withheld_small_endpoint_change",
+      "unavailable": {}
+    },
+    {
+      "line": "8호선",
+      "seoul": "암사역사공원",
+      "gyeonggi": "장자호수공원",
+      "values_tenths": {
+        "basic": [
+          10,
+          11
+        ],
+        "transaction": [
+          17,
+          18
+        ],
+        "sensitivity": null
+      },
+      "sensitivity_status": "withheld_small_endpoint_change",
+      "unavailable": {}
+    }
+  ],
+  "limits": [
+    "Eight supported adjacent pairs, not a complete border-station census.",
+    "Current line-specific station coordinates and straight-line radii.",
+    "Basic: median of complex medians; transaction: median of all contracts.",
+    "No supported common-age comparison; composition differs between sides.",
+    "Sensitivity excludes transaction weighting; five whole ranges withheld.",
+    "Bands are left closed and right open, not confidence intervals.",
+    "Gwangmyeong branch adjacency does not imply mainline service frequency."
+  ]
+}
