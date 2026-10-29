@@ -1,0 +1,730 @@
+{
+  "schema": "metro_network_region_v1",
+  "public_admitted": true,
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "ratio": "Seoul/Gyeonggi observed medians, equal common-age weights; percent difference intervals, not causal boundary effects.",
+  "interval": "5 percentage points, left closed right open; not confidence intervals",
+  "rows": [
+    {
+      "kind": "comparison",
+      "setting": "main",
+      "band": "0_5",
+      "common_ages": [],
+      "status": "insufficient",
+      "raw_status": "withheld_prior_price",
+      "values": {
+        "adjusted_ratio": null,
+        "raw_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "main",
+      "band": "6_10",
+      "common_ages": [
+        "0_9",
+        "10_19",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "raw_status": "supported",
+      "values": {
+        "adjusted_ratio": [
+          35,
+          40
+        ],
+        "raw_ratio": [
+          40,
+          45
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "main",
+      "band": "11_15",
+      "common_ages": [
+        "0_9",
+        "10_19",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "raw_status": "supported",
+      "values": {
+        "adjusted_ratio": [
+          55,
+          60
+        ],
+        "raw_ratio": [
+          35,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "main",
+      "band": "16_20",
+      "common_ages": [
+        "10_19",
+        "20_29"
+      ],
+      "status": "common_ages",
+      "raw_status": "supported",
+      "values": {
+        "adjusted_ratio": [
+          80,
+          85
+        ],
+        "raw_ratio": [
+          50,
+          55
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "main",
+      "band": "21_plus",
+      "common_ages": [],
+      "status": "insufficient",
+      "raw_status": "insufficient",
+      "values": {
+        "adjusted_ratio": null,
+        "raw_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "59",
+      "band": "0_5",
+      "common_ages": [],
+      "status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "59",
+      "band": "6_10",
+      "common_ages": [
+        "0_9",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          40,
+          45
+        ]
+      }
+    },
+    {
+      "kind": "fixed_common_ages",
+      "setting": "59",
+      "band": "6_10",
+      "common_ages": [
+        "0_9",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "values": {
+        "baseline": [
+          30,
+          35
+        ],
+        "changed": [
+          40,
+          45
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "59",
+      "band": "11_15",
+      "common_ages": [
+        "0_9",
+        "10_19",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          45,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "59",
+      "band": "16_20",
+      "common_ages": [
+        "10_19",
+        "20_29"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          70,
+          75
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "59",
+      "band": "21_plus",
+      "common_ages": [],
+      "status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "floor_6_15",
+      "band": "0_5",
+      "common_ages": [],
+      "status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "floor_6_15",
+      "band": "6_10",
+      "common_ages": [
+        "0_9",
+        "10_19",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          30,
+          35
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "floor_6_15",
+      "band": "11_15",
+      "common_ages": [
+        "0_9",
+        "10_19",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          55,
+          60
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "floor_6_15",
+      "band": "16_20",
+      "common_ages": [
+        "10_19",
+        "20_29"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          85,
+          90
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "floor_6_15",
+      "band": "21_plus",
+      "common_ages": [],
+      "status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "no_inferred",
+      "band": "0_5",
+      "common_ages": [],
+      "status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "no_inferred",
+      "band": "6_10",
+      "common_ages": [
+        "0_9",
+        "10_19",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          35,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "no_inferred",
+      "band": "11_15",
+      "common_ages": [
+        "0_9",
+        "10_19",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          55,
+          60
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "no_inferred",
+      "band": "16_20",
+      "common_ages": [
+        "10_19",
+        "20_29"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          80,
+          85
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "no_inferred",
+      "band": "21_plus",
+      "common_ages": [],
+      "status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "no_conflict",
+      "band": "0_5",
+      "common_ages": [],
+      "status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "no_conflict",
+      "band": "6_10",
+      "common_ages": [
+        "0_9",
+        "10_19",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          35,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "no_conflict",
+      "band": "11_15",
+      "common_ages": [
+        "0_9",
+        "10_19",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          55,
+          60
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "no_conflict",
+      "band": "16_20",
+      "common_ages": [
+        "10_19",
+        "20_29"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          80,
+          85
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "no_conflict",
+      "band": "21_plus",
+      "common_ages": [],
+      "status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "no_both",
+      "band": "0_5",
+      "common_ages": [],
+      "status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "no_both",
+      "band": "6_10",
+      "common_ages": [
+        "0_9",
+        "10_19",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          35,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "no_both",
+      "band": "11_15",
+      "common_ages": [
+        "0_9",
+        "10_19",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          55,
+          60
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "no_both",
+      "band": "16_20",
+      "common_ages": [
+        "10_19",
+        "20_29"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          80,
+          85
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "no_both",
+      "band": "21_plus",
+      "common_ages": [],
+      "status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "650m",
+      "band": "0_5",
+      "common_ages": [],
+      "status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "650m",
+      "band": "6_10",
+      "common_ages": [
+        "0_9",
+        "10_19",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          35,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "650m",
+      "band": "11_15",
+      "common_ages": [
+        "0_9",
+        "10_19",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          50,
+          55
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "650m",
+      "band": "16_20",
+      "common_ages": [
+        "10_19",
+        "20_29"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          75,
+          80
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "650m",
+      "band": "21_plus",
+      "common_ages": [],
+      "status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "750m",
+      "band": "0_5",
+      "common_ages": [],
+      "status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "750m",
+      "band": "6_10",
+      "common_ages": [
+        "0_9",
+        "10_19",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          35,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "750m",
+      "band": "11_15",
+      "common_ages": [
+        "0_9",
+        "10_19",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          50,
+          55
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "750m",
+      "band": "16_20",
+      "common_ages": [
+        "10_19",
+        "20_29"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          75,
+          80
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "750m",
+      "band": "21_plus",
+      "common_ages": [],
+      "status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "drop_largest",
+      "band": "0_5",
+      "common_ages": [],
+      "status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "drop_largest",
+      "band": "6_10",
+      "common_ages": [
+        "0_9",
+        "10_19",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          35,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "drop_largest",
+      "band": "11_15",
+      "common_ages": [
+        "0_9",
+        "10_19",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          55,
+          60
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "drop_largest",
+      "band": "16_20",
+      "common_ages": [
+        "10_19",
+        "20_29",
+        "30_plus"
+      ],
+      "status": "common_ages",
+      "values": {
+        "adjusted_ratio": [
+          60,
+          65
+        ]
+      }
+    },
+    {
+      "kind": "fixed_common_ages",
+      "setting": "drop_largest",
+      "band": "16_20",
+      "common_ages": [
+        "10_19",
+        "20_29"
+      ],
+      "status": "common_ages",
+      "values": {
+        "baseline": [
+          80,
+          85
+        ],
+        "changed": [
+          70,
+          75
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "setting": "drop_largest",
+      "band": "21_plus",
+      "common_ages": [],
+      "status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    }
+  ],
+  "sources": {
+    "sale": "https://www.data.go.kr/data/15126469/openapi.do",
+    "stations": "https://openapi.kric.go.kr/rips/M_01_01/detail.do?id=32"
+  },
+  "limitations": [
+    "Same stop bands, not exact stop counts or travel time. Current graph, not historical service.",
+    "Common age sets vary; comparison is descriptive, not causal effects of region or size.",
+    "Inherit withheld Gangnam/Gyeonggi/0–5 direct price; no ratio workaround.",
+    "Finite review of actual ratio fields; no universal reconstruction protection."
+  ]
+}
