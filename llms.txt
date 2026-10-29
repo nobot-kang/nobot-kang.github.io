@@ -175,6 +175,13 @@
 - [오래된 아파트 상위 1%, 서울·경기의 건축 연도는?](https://nobot-kang.github.io/posts/oldest-apartment-stock/): 서울·수집 경기 목록의 오래된 1% 경계와 40년 초과의 알려진 세대수를 비교합니다. 동률·지역 분모·자료 선택에 따른 차이와 현재 존치 여부를 따로 확인해야 하는 이유를 설명합니다.
 - [아파트 커뮤니티 시설, 신축·대단지에 더 많을까? K-apt 기재 비교](https://nobot-kang.github.io/posts/apartment-community-facilities/): 현재 K-apt 목록의 헬스장·수영장 기재 비중을 준공 연대·단지 규모별로 비교합니다. 목록 확인 범위와 실제 보유의 차이, 문고·독서실의 구분, 관심 단지에서 확인할 조건을 설명합니다.
 
+### [역까지의 거리](https://nobot-kang.github.io/series/metro-stock/)
+
+서울·수집 경기의 현재 아파트 재고를 역 거리별로 비교하고, 준공 연대·단지·세대수와 지역 구성에 따라 달라지는 결과를 읽습니다.
+
+- [서울·경기 역세권 비율: 직선 700m 안의 단지·확인 세대수 비교](https://nobot-kang.github.io/posts/metro-stock-radius/): 보유한 서울·수집 경기 단지의 역 700m 안 비율을 두 분모로 비교합니다. 반경별 곡선과 61개 지역, 위치·세대수 결손을 읽는 기준입니다.
+- [신축 아파트는 역에서 멀까? 서울·경기와 단지·세대 기준의 차이](https://nobot-kang.github.io/posts/metro-stock-age/): 현재 보유 재고의 준공 연대별 역 거리를 서울·수집 경기로 나눴습니다. 단지·세대수 가중 중앙값과 같은 지역 구성 비교로 판단이 달라지는 조건을 확인합니다.
+
 ### [첫 집을 위한 가격 읽기](https://nobot-kang.github.io/series/first-home-prices/)
 
 비교 조건 → 대표 숫자 → 거래 근거 → 후보 비교. 네 편과 후보 비교표로 가격 읽기를 시작합니다.
@@ -421,6 +428,15 @@
 - [아파트 시세 추정 정확도: 평균 오차 5.68%를 어떻게 읽어야 할까?](https://nobot-kang.github.io/posts/apartment-model-price-error/): 자체 매매 시세 모형의 시간순서 평가에서 평균 오차, ±10% 이내 비중, 80% 구간 포함률을 비교합니다. 근거가 오래된 집과 시기별 차이, 실시간 예측으로 읽을 수 없는 한계를 확인하세요.
 - [아파트 시세 모형은 쓸 만할까? 실거래·동네·KB 지수로 재검증](https://nobot-kang.github.io/posts/apartment-model-price-usefulness/): 평균 오차 5.68%인 시세 모형은 쓸 만할까요? 마지막 실거래와의 성능 비교, 시군구·법정동 오차, KB 지수의 월별 흐름을 검증하고 용도별 활용 기준을 제시합니다.
 - [최근 월 아파트 거래량, 왜 나중에 늘어날까? 신고 지연과 집계 시점 읽기](https://nobot-kang.github.io/posts/recent-month-transaction-lag/): 최근 월 아파트 거래량은 왜 나중에 달라질까요? 계약일·신고일·조회일, 신고 기한과 통계 확정의 차이를 구분하고 가상 수정 예시와 다섯 가지 확인 질문으로 설명합니다.
+
+### [역세권 숫자 읽기](https://nobot-kang.github.io/series/metro-reading/)
+
+직선거리·보행 동선, 단지·세대·거래의 분모, 가상 가격 비교와 과거 역망의 시점을 구분합니다.
+
+- [역세권 500m·700m 기준: 직선거리와 도보거리는 어떻게 다를까?](https://nobot-kang.github.io/posts/metro-distance-standard/): 역까지 거리를 비교할 때 출발점·출입구·노선을 맞추는 방법을 설명합니다. 가상 반경 판정으로 직선 700m의 경계와 보행시간의 차이를 확인합니다.
+- [역세권 비율, 단지·세대·거래 중 무엇을 센 숫자일까?](https://nobot-kang.github.io/posts/metro-access-denominators/): 같은 가상 지역에서 역세권 비율이 50%·80%·20%로 달라지는 계산을 확인합니다. 위치·세대수의 빈칸과 거래 기간을 구분하는 방법입니다.
+- [역세권 프리미엄 계산법: 지역·면적·분모를 맞춰 읽는 다섯 가지](https://nobot-kang.github.io/posts/metro-premium-comparison-rules/): 가상 가격으로 20%와 16.7%의 차이, 지역 구성이 섞인 평균을 계산합니다. 실제 집값에 프리미엄 비율을 적용하기 전 확인할 기준입니다.
+- [현재 지도로 과거 역세권을 나누면? 신림선 개통일로 보는 시점 문제](https://nobot-kang.github.io/posts/metro-network-history/): 신림선의 공식 개통일을 통해 현재 역 기준 분류와 거래 당시 접근성을 구분합니다. 개통 기대와 실제 운행, 과거 집값 비교의 확인 사항을 정리합니다.
 
 ### [인구·주택 통계 읽기](https://nobot-kang.github.io/series/population-housing-statistics/)
 

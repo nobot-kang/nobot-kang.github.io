@@ -1,0 +1,7916 @@
+{
+  "schema": "metro_stock_v1",
+  "public_admitted": true,
+  "analysis_date": "2026-10-29",
+  "scopes": {
+    "11": "서울 25개 구",
+    "41": "수집 경기 36개 지역",
+    "11110": "종로구",
+    "11140": "중구",
+    "11170": "용산구",
+    "11200": "성동구",
+    "11215": "광진구",
+    "11230": "동대문구",
+    "11260": "중랑구",
+    "11290": "성북구",
+    "11305": "강북구",
+    "11320": "도봉구",
+    "11350": "노원구",
+    "11380": "은평구",
+    "11410": "서대문구",
+    "11440": "마포구",
+    "11470": "양천구",
+    "11500": "강서구",
+    "11530": "구로구",
+    "11545": "금천구",
+    "11560": "영등포구",
+    "11590": "동작구",
+    "11620": "관악구",
+    "11650": "서초구",
+    "11680": "강남구",
+    "11710": "송파구",
+    "11740": "강동구",
+    "41111": "수원시 장안구",
+    "41113": "수원시 권선구",
+    "41115": "수원시 팔달구",
+    "41117": "수원시 영통구",
+    "41131": "성남시 수정구",
+    "41133": "성남시 중원구",
+    "41135": "성남시 분당구",
+    "41150": "의정부시",
+    "41171": "안양시 만안구",
+    "41173": "안양시 동안구",
+    "41192": "부천시 원미구",
+    "41194": "부천시 소사구",
+    "41196": "부천시 오정구",
+    "41210": "광명시",
+    "41220": "평택시",
+    "41271": "안산시 상록구",
+    "41273": "안산시 단원구",
+    "41281": "고양시 덕양구",
+    "41285": "고양시 일산동구",
+    "41287": "고양시 일산서구",
+    "41290": "과천시",
+    "41310": "구리시",
+    "41360": "남양주시",
+    "41410": "군포시",
+    "41430": "의왕시",
+    "41450": "하남시",
+    "41461": "용인시 처인구",
+    "41463": "용인시 기흥구",
+    "41465": "용인시 수지구",
+    "41480": "파주시",
+    "41570": "김포시",
+    "41591": "화성시 만세구",
+    "41593": "화성시 효행구",
+    "41595": "화성시 병점구",
+    "41597": "화성시 동탄구",
+    "41610": "광주시"
+  },
+  "eras": {
+    "pre2000": [
+      1900,
+      1999
+    ],
+    "2000s": [
+      2000,
+      2009
+    ],
+    "2010s": [
+      2010,
+      2019
+    ],
+    "2020s": [
+      2020,
+      2026
+    ]
+  },
+  "precision": {
+    "share_step_pp": 10,
+    "distance_step_m": 100
+  },
+  "radius_rows": [
+    {
+      "scope": "11",
+      "radius_m": 300,
+      "complex_share": [
+        20,
+        30
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "radius_m": 500,
+      "complex_share": [
+        50,
+        60
+      ],
+      "household_share": [
+        50,
+        60
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "radius_m": 700,
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "radius_m": 1000,
+      "complex_share": [
+        90,
+        100
+      ],
+      "household_share": [
+        90,
+        100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "radius_m": 1500,
+      "complex_share": [
+        90,
+        100
+      ],
+      "household_share": [
+        90,
+        100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "radius_m": 300,
+      "complex_share": [
+        0,
+        20
+      ],
+      "household_share": [
+        0,
+        10
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41",
+      "radius_m": 500,
+      "complex_share": [
+        20,
+        30
+      ],
+      "household_share": [
+        10,
+        20
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41",
+      "radius_m": 700,
+      "complex_share": [
+        30,
+        50
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41",
+      "radius_m": 1000,
+      "complex_share": [
+        50,
+        60
+      ],
+      "household_share": [
+        50,
+        60
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41",
+      "radius_m": 1500,
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11110",
+      "radius_m": 700,
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11140",
+      "radius_m": 700,
+      "complex_share": [
+        90,
+        100
+      ],
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11170",
+      "radius_m": 700,
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11200",
+      "radius_m": 700,
+      "complex_share": null,
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11215",
+      "radius_m": 700,
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11230",
+      "radius_m": 700,
+      "complex_share": [
+        50,
+        60
+      ],
+      "household_share": [
+        60,
+        70
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11260",
+      "radius_m": 700,
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        80,
+        90
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11290",
+      "radius_m": 700,
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11305",
+      "radius_m": 700,
+      "complex_share": null,
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11320",
+      "radius_m": 700,
+      "complex_share": [
+        50,
+        60
+      ],
+      "household_share": [
+        60,
+        70
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11350",
+      "radius_m": 700,
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11380",
+      "radius_m": 700,
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        60,
+        70
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11410",
+      "radius_m": 700,
+      "complex_share": [
+        50,
+        60
+      ],
+      "household_share": [
+        50,
+        60
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11440",
+      "radius_m": 700,
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        80,
+        90
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11470",
+      "radius_m": 700,
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": [
+        40,
+        50
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11500",
+      "radius_m": 700,
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11530",
+      "radius_m": 700,
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11545",
+      "radius_m": 700,
+      "complex_share": [
+        20,
+        30
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11560",
+      "radius_m": 700,
+      "complex_share": null,
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11590",
+      "radius_m": 700,
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11620",
+      "radius_m": 700,
+      "complex_share": [
+        60,
+        70
+      ],
+      "household_share": [
+        50,
+        60
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11650",
+      "radius_m": 700,
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11680",
+      "radius_m": 700,
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11710",
+      "radius_m": 700,
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11740",
+      "radius_m": 700,
+      "complex_share": [
+        90,
+        100
+      ],
+      "household_share": [
+        80,
+        90
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41111",
+      "radius_m": 700,
+      "complex_share": null,
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41113",
+      "radius_m": 700,
+      "complex_share": [
+        20,
+        30
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41115",
+      "radius_m": 700,
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41117",
+      "radius_m": 700,
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41131",
+      "radius_m": 700,
+      "complex_share": [
+        60,
+        70
+      ],
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41133",
+      "radius_m": 700,
+      "complex_share": [
+        40,
+        60
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41135",
+      "radius_m": 700,
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": [
+        40,
+        50
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41150",
+      "radius_m": 700,
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        60,
+        70
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41171",
+      "radius_m": 700,
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41173",
+      "radius_m": 700,
+      "complex_share": [
+        10,
+        30
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "coordinate_coverage": [
+        80,
+        90
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41192",
+      "radius_m": 700,
+      "complex_share": [
+        60,
+        70
+      ],
+      "household_share": [
+        50,
+        60
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41194",
+      "radius_m": 700,
+      "complex_share": [
+        60,
+        70
+      ],
+      "household_share": [
+        40,
+        50
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41196",
+      "radius_m": 700,
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41210",
+      "radius_m": 700,
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        40,
+        50
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41220",
+      "radius_m": 700,
+      "complex_share": [
+        20,
+        30
+      ],
+      "household_share": [
+        10,
+        20
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41271",
+      "radius_m": 700,
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41273",
+      "radius_m": 700,
+      "complex_share": null,
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41281",
+      "radius_m": 700,
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41285",
+      "radius_m": 700,
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        60,
+        70
+      ]
+    },
+    {
+      "scope": "41287",
+      "radius_m": 700,
+      "complex_share": [
+        60,
+        70
+      ],
+      "household_share": [
+        50,
+        60
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41290",
+      "radius_m": 700,
+      "complex_share": null,
+      "household_share": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41310",
+      "radius_m": 700,
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": [
+        60,
+        70
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41360",
+      "radius_m": 700,
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41410",
+      "radius_m": 700,
+      "complex_share": [
+        50,
+        60
+      ],
+      "household_share": [
+        50,
+        60
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41430",
+      "radius_m": 700,
+      "complex_share": null,
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41450",
+      "radius_m": 700,
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41461",
+      "radius_m": 700,
+      "complex_share": [
+        50,
+        60
+      ],
+      "household_share": [
+        40,
+        50
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41463",
+      "radius_m": 700,
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41465",
+      "radius_m": 700,
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41480",
+      "radius_m": 700,
+      "complex_share": [
+        20,
+        30
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41570",
+      "radius_m": 700,
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41591",
+      "radius_m": 700,
+      "complex_share": [
+        0,
+        10
+      ],
+      "household_share": [
+        0,
+        10
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41593",
+      "radius_m": 700,
+      "complex_share": [
+        0,
+        10
+      ],
+      "household_share": [
+        0,
+        10
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41595",
+      "radius_m": 700,
+      "complex_share": null,
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41597",
+      "radius_m": 700,
+      "complex_share": null,
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41610",
+      "radius_m": 700,
+      "complex_share": null,
+      "household_share": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    }
+  ],
+  "age_rows": [
+    {
+      "scope": "11",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "max_distance",
+      "era": "pre2000",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "max_distance",
+      "era": "2000s",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "max_distance",
+      "era": "2010s",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "max_distance",
+      "era": "2020s",
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "no_inferred",
+      "era": "pre2000",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "no_inferred",
+      "era": "2000s",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "no_inferred",
+      "era": "2010s",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "no_inferred",
+      "era": "2020s",
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "no_region_conflict",
+      "era": "pre2000",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "no_region_conflict",
+      "era": "2000s",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "no_region_conflict",
+      "era": "2010s",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "no_region_conflict",
+      "era": "2020s",
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "no_both",
+      "era": "pre2000",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "no_both",
+      "era": "2000s",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "no_both",
+      "era": "2010s",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "no_both",
+      "era": "2020s",
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "approval_matched",
+      "era": "pre2000",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "approval_matched",
+      "era": "2000s",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "approval_matched",
+      "era": "2010s",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        60,
+        70
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        500,
+        600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "approval_matched",
+      "era": "2020s",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": [
+        40,
+        50
+      ],
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "complex_median_m": [
+        800,
+        900
+      ],
+      "household_median_m": [
+        900,
+        1000
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "complex_median_m": [
+        800,
+        900
+      ],
+      "household_median_m": [
+        1100,
+        1200
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "complex_median_m": [
+        900,
+        1000
+      ],
+      "household_median_m": [
+        1000,
+        1100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "max_distance",
+      "era": "pre2000",
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": [
+        40,
+        50
+      ],
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "max_distance",
+      "era": "2000s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "complex_median_m": [
+        800,
+        900
+      ],
+      "household_median_m": [
+        900,
+        1000
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "max_distance",
+      "era": "2010s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "complex_median_m": [
+        800,
+        900
+      ],
+      "household_median_m": [
+        1100,
+        1200
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "max_distance",
+      "era": "2020s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "complex_median_m": [
+        900,
+        1000
+      ],
+      "household_median_m": [
+        1000,
+        1100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_inferred",
+      "era": "pre2000",
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": [
+        40,
+        50
+      ],
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_inferred",
+      "era": "2000s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "complex_median_m": [
+        800,
+        900
+      ],
+      "household_median_m": [
+        900,
+        1000
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_inferred",
+      "era": "2010s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "complex_median_m": [
+        800,
+        900
+      ],
+      "household_median_m": [
+        1100,
+        1200
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_inferred",
+      "era": "2020s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "complex_median_m": [
+        900,
+        1000
+      ],
+      "household_median_m": [
+        1000,
+        1100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_region_conflict",
+      "era": "pre2000",
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": [
+        40,
+        50
+      ],
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_region_conflict",
+      "era": "2000s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "complex_median_m": [
+        800,
+        900
+      ],
+      "household_median_m": [
+        900,
+        1000
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_region_conflict",
+      "era": "2010s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "complex_median_m": [
+        800,
+        900
+      ],
+      "household_median_m": [
+        1100,
+        1200
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_region_conflict",
+      "era": "2020s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "complex_median_m": [
+        900,
+        1000
+      ],
+      "household_median_m": [
+        1000,
+        1100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_both",
+      "era": "pre2000",
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": [
+        40,
+        50
+      ],
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_both",
+      "era": "2000s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "complex_median_m": [
+        800,
+        900
+      ],
+      "household_median_m": [
+        900,
+        1000
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_both",
+      "era": "2010s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "complex_median_m": [
+        800,
+        900
+      ],
+      "household_median_m": [
+        1100,
+        1200
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_both",
+      "era": "2020s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "complex_median_m": [
+        900,
+        1000
+      ],
+      "household_median_m": [
+        1000,
+        1100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "approval_matched",
+      "era": "pre2000",
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": [
+        40,
+        50
+      ],
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "approval_matched",
+      "era": "2000s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "complex_median_m": [
+        900,
+        1000
+      ],
+      "household_median_m": [
+        1000,
+        1100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "approval_matched",
+      "era": "2010s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "complex_median_m": [
+        1100,
+        1200
+      ],
+      "household_median_m": [
+        1100,
+        1200
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "approval_matched",
+      "era": "2020s",
+      "complex_share": [
+        20,
+        30
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "complex_median_m": [
+        1100,
+        1200
+      ],
+      "household_median_m": [
+        1000,
+        1100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11110",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11110",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11110",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11110",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11140",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11140",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        90,
+        100
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11140",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": [
+        90,
+        100
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11140",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11170",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11170",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11170",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": [
+        300,
+        400
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11170",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11200",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": [
+        300,
+        400
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11200",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": [
+        300,
+        400
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11200",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11200",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11215",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11215",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11215",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11215",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11230",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11230",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        50,
+        60
+      ],
+      "household_share": [
+        40,
+        50
+      ],
+      "complex_median_m": [
+        600,
+        700
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11230",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": [
+        50,
+        60
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        500,
+        600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11230",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11260",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        500,
+        600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11260",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11260",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11260",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11290",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11290",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        500,
+        600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11290",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        300,
+        400
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11290",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11305",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11305",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11305",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11305",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11320",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        800,
+        900
+      ],
+      "household_median_m": [
+        600,
+        700
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11320",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        60,
+        70
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        500,
+        600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11320",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11320",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11350",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        500,
+        600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "11350",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11350",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11350",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11380",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        600,
+        700
+      ],
+      "household_median_m": [
+        500,
+        600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11380",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        50,
+        60
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        600,
+        700
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11380",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        200,
+        300
+      ],
+      "household_median_m": [
+        500,
+        600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11380",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11410",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        500,
+        600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11410",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        500,
+        600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11410",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        600,
+        700
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11410",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11440",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "11440",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        80,
+        90
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11440",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": [
+        300,
+        400
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11440",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11470",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": [
+        50,
+        60
+      ],
+      "household_share": [
+        50,
+        60
+      ],
+      "complex_median_m": [
+        600,
+        700
+      ],
+      "household_median_m": [
+        600,
+        700
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11470",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": [
+        40,
+        50
+      ],
+      "complex_median_m": [
+        800,
+        900
+      ],
+      "household_median_m": [
+        800,
+        900
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11470",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        900,
+        1000
+      ],
+      "household_median_m": [
+        1000,
+        1100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11470",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11500",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11500",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        60,
+        70
+      ],
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11500",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": [
+        300,
+        400
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11500",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": [
+        90,
+        100
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11530",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": [
+        90,
+        100
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        100,
+        200
+      ],
+      "household_median_m": [
+        500,
+        600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11530",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        500,
+        600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11530",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        600,
+        700
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "11530",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11545",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11545",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1000,
+        1100
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11545",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11545",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11560",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        300,
+        400
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11560",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11560",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        300,
+        400
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11560",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11590",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11590",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        500,
+        600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11590",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        300,
+        400
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11590",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11620",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11620",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        60,
+        70
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        600,
+        700
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11620",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11620",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "11650",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": [
+        70,
+        90
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "11650",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        80,
+        90
+      ],
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11650",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11650",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11680",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": [
+        70,
+        90
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        300,
+        400
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "11680",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        300,
+        400
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11680",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        800,
+        900
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11680",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11710",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11710",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11710",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11710",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        500,
+        600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11740",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11740",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11740",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": [
+        500,
+        600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11740",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41111",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1900,
+        2000
+      ],
+      "household_median_m": [
+        1400,
+        1500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41111",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1600,
+        1700
+      ],
+      "household_median_m": [
+        1100,
+        1200
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41111",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41111",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41113",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1100,
+        1200
+      ],
+      "household_median_m": [
+        1200,
+        1300
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41113",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1700,
+        1800
+      ],
+      "household_median_m": [
+        600,
+        700
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41113",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1400,
+        1500
+      ],
+      "household_median_m": [
+        1600,
+        1700
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41113",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41115",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1300,
+        1400
+      ],
+      "household_median_m": [
+        1200,
+        1300
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41115",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        800,
+        900
+      ],
+      "household_median_m": [
+        1000,
+        1100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41115",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41115",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41117",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        50,
+        60
+      ]
+    },
+    {
+      "scope": "41117",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41117",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41117",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41131",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41131",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        300,
+        400
+      ],
+      "household_median_m": [
+        300,
+        400
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41131",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        600,
+        700
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41131",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41133",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41133",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41133",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41133",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41135",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": [
+        40,
+        50
+      ],
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        60,
+        70
+      ]
+    },
+    {
+      "scope": "41135",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        800,
+        900
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41135",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41135",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41150",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41150",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        400,
+        500
+      ],
+      "household_median_m": [
+        300,
+        400
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41150",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        1200,
+        1300
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41150",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        600,
+        700
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41171",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1000,
+        1100
+      ],
+      "household_median_m": [
+        1100,
+        1200
+      ],
+      "coordinate_coverage": [
+        80,
+        90
+      ],
+      "household_count_coverage": [
+        60,
+        70
+      ]
+    },
+    {
+      "scope": "41171",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        800,
+        900
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41171",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41171",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41173",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": [
+        20,
+        40
+      ],
+      "household_share": [
+        40,
+        50
+      ],
+      "complex_median_m": [
+        900,
+        1000
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        80,
+        90
+      ],
+      "household_count_coverage": [
+        60,
+        70
+      ]
+    },
+    {
+      "scope": "41173",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1000,
+        1100
+      ],
+      "household_median_m": [
+        1100,
+        1200
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41173",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        900,
+        1000
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41173",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41192",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": [
+        50,
+        60
+      ],
+      "household_share": [
+        50,
+        60
+      ],
+      "complex_median_m": [
+        600,
+        700
+      ],
+      "household_median_m": [
+        600,
+        700
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        60,
+        70
+      ]
+    },
+    {
+      "scope": "41192",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        600,
+        700
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41192",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        800,
+        900
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41192",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41194",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        600,
+        700
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41194",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        800,
+        900
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41194",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        1400,
+        1500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41194",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41196",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41196",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        900,
+        1000
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41196",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        600,
+        700
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41196",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41210",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1000,
+        1100
+      ],
+      "household_median_m": [
+        900,
+        1000
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41210",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        600,
+        700
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41210",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41210",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41220",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1300,
+        1400
+      ],
+      "household_median_m": [
+        1400,
+        1500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41220",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        2500,
+        2600
+      ],
+      "household_median_m": [
+        3000,
+        3100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41220",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        10,
+        20
+      ],
+      "complex_median_m": [
+        2000,
+        2100
+      ],
+      "household_median_m": [
+        3000,
+        3100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41220",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        2400,
+        2500
+      ],
+      "household_median_m": [
+        1900,
+        2000
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41271",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1000,
+        1100
+      ],
+      "household_median_m": [
+        800,
+        900
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41271",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41271",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41271",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41273",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41273",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        900,
+        1000
+      ],
+      "household_median_m": [
+        900,
+        1000
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41273",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41273",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41281",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": [
+        50,
+        60
+      ],
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        600,
+        700
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41281",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        900,
+        1000
+      ],
+      "household_median_m": [
+        900,
+        1000
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41281",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1300,
+        1400
+      ],
+      "household_median_m": [
+        1700,
+        1800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41281",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41285",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        600,
+        700
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41285",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41285",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41285",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41287",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": [
+        60,
+        80
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        500,
+        600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        60,
+        70
+      ]
+    },
+    {
+      "scope": "41287",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41287",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41287",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41290",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41290",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41290",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41290",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41310",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": [
+        40,
+        60
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41310",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        500,
+        600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41310",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41310",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41360",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "complex_median_m": [
+        900,
+        1000
+      ],
+      "household_median_m": [
+        1000,
+        1100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41360",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        20,
+        30
+      ],
+      "complex_median_m": [
+        800,
+        900
+      ],
+      "household_median_m": [
+        1000,
+        1100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41360",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        900,
+        1000
+      ],
+      "household_median_m": [
+        900,
+        1000
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41360",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41410",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": [
+        50,
+        60
+      ],
+      "household_share": [
+        50,
+        60
+      ],
+      "complex_median_m": [
+        600,
+        700
+      ],
+      "household_median_m": [
+        600,
+        700
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41410",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        50,
+        60
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        600,
+        700
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41410",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41410",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41430",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1800,
+        1900
+      ],
+      "household_median_m": [
+        1800,
+        1900
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41430",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1600,
+        1700
+      ],
+      "household_median_m": [
+        2000,
+        2100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41430",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41430",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41450",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41450",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        500,
+        600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41450",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        900,
+        1000
+      ],
+      "household_median_m": [
+        1000,
+        1100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41450",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41461",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": [
+        50,
+        60
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        400,
+        500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41461",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        900,
+        1000
+      ],
+      "household_median_m": [
+        900,
+        1000
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41461",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        500,
+        600
+      ],
+      "household_median_m": [
+        1000,
+        1100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41461",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41463",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        900,
+        1000
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41463",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        30,
+        40
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "complex_median_m": [
+        1000,
+        1100
+      ],
+      "household_median_m": [
+        1000,
+        1100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41463",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1000,
+        1100
+      ],
+      "household_median_m": [
+        1000,
+        1100
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41463",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41465",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        800,
+        900
+      ],
+      "household_median_m": [
+        600,
+        700
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41465",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        20,
+        30
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "complex_median_m": [
+        800,
+        900
+      ],
+      "household_median_m": [
+        800,
+        900
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41465",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1000,
+        1100
+      ],
+      "household_median_m": [
+        900,
+        1000
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41465",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41480",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        600,
+        700
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "41480",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1100,
+        1200
+      ],
+      "household_median_m": [
+        1100,
+        1200
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41480",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1200,
+        1300
+      ],
+      "household_median_m": [
+        1100,
+        1200
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41480",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1400,
+        1500
+      ],
+      "household_median_m": [
+        1300,
+        1400
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41570",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        600,
+        700
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "41570",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        600,
+        700
+      ],
+      "household_median_m": [
+        800,
+        900
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41570",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        700,
+        800
+      ],
+      "household_median_m": [
+        700,
+        800
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41570",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41591",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41591",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        0,
+        10
+      ],
+      "household_share": [
+        0,
+        10
+      ],
+      "complex_median_m": [
+        12300,
+        12400
+      ],
+      "household_median_m": [
+        12200,
+        12300
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41591",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41591",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41593",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41593",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": [
+        0,
+        10
+      ],
+      "household_share": null,
+      "complex_median_m": [
+        3100,
+        3200
+      ],
+      "household_median_m": null,
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41593",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41593",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41595",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41595",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1100,
+        1200
+      ],
+      "household_median_m": [
+        1100,
+        1200
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41595",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41595",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41597",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41597",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        1700,
+        1800
+      ],
+      "household_median_m": [
+        1600,
+        1700
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41597",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        2100,
+        2200
+      ],
+      "household_median_m": [
+        2400,
+        2500
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41597",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41610",
+      "variant": "main",
+      "era": "pre2000",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    },
+    {
+      "scope": "41610",
+      "variant": "main",
+      "era": "2000s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        2400,
+        2500
+      ],
+      "household_median_m": [
+        2300,
+        2400
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41610",
+      "variant": "main",
+      "era": "2010s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": [
+        2500,
+        2600
+      ],
+      "household_median_m": [
+        2500,
+        2600
+      ],
+      "coordinate_coverage": [
+        90,
+        100
+      ],
+      "household_count_coverage": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "41610",
+      "variant": "main",
+      "era": "2020s",
+      "complex_share": null,
+      "household_share": null,
+      "complex_median_m": null,
+      "household_median_m": null,
+      "coordinate_coverage": null,
+      "household_count_coverage": null
+    }
+  ],
+  "control_rows": [
+    {
+      "scope": "11",
+      "variant": "main",
+      "measure": "complex",
+      "regions": [
+        "11230",
+        "11380",
+        "11500",
+        "11650",
+        "11680",
+        "11710",
+        "11740"
+      ],
+      "older_share": [
+        80,
+        90
+      ],
+      "newer_share": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "main",
+      "measure": "household",
+      "regions": [],
+      "older_share": null,
+      "newer_share": null
+    },
+    {
+      "scope": "11",
+      "variant": "max_distance",
+      "measure": "complex",
+      "regions": [
+        "11230",
+        "11380",
+        "11500",
+        "11650",
+        "11680",
+        "11710",
+        "11740"
+      ],
+      "older_share": [
+        80,
+        90
+      ],
+      "newer_share": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "max_distance",
+      "measure": "household",
+      "regions": [],
+      "older_share": null,
+      "newer_share": null
+    },
+    {
+      "scope": "11",
+      "variant": "no_inferred",
+      "measure": "complex",
+      "regions": [
+        "11230",
+        "11380",
+        "11500",
+        "11650",
+        "11680",
+        "11710",
+        "11740"
+      ],
+      "older_share": [
+        80,
+        90
+      ],
+      "newer_share": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "no_inferred",
+      "measure": "household",
+      "regions": [],
+      "older_share": null,
+      "newer_share": null
+    },
+    {
+      "scope": "11",
+      "variant": "no_region_conflict",
+      "measure": "complex",
+      "regions": [
+        "11230",
+        "11380",
+        "11500",
+        "11650",
+        "11680",
+        "11710",
+        "11740"
+      ],
+      "older_share": [
+        80,
+        90
+      ],
+      "newer_share": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "no_region_conflict",
+      "measure": "household",
+      "regions": [],
+      "older_share": null,
+      "newer_share": null
+    },
+    {
+      "scope": "11",
+      "variant": "no_both",
+      "measure": "complex",
+      "regions": [
+        "11230",
+        "11380",
+        "11500",
+        "11650",
+        "11680",
+        "11710",
+        "11740"
+      ],
+      "older_share": [
+        80,
+        90
+      ],
+      "newer_share": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11",
+      "variant": "no_both",
+      "measure": "household",
+      "regions": [],
+      "older_share": null,
+      "newer_share": null
+    },
+    {
+      "scope": "11",
+      "variant": "approval_matched",
+      "measure": "complex",
+      "regions": [],
+      "older_share": null,
+      "newer_share": null
+    },
+    {
+      "scope": "11",
+      "variant": "approval_matched",
+      "measure": "household",
+      "regions": [],
+      "older_share": null,
+      "newer_share": null
+    },
+    {
+      "scope": "41",
+      "variant": "main",
+      "measure": "complex",
+      "regions": [
+        "41150",
+        "41192",
+        "41194",
+        "41196",
+        "41220",
+        "41480"
+      ],
+      "older_share": [
+        50,
+        60
+      ],
+      "newer_share": [
+        40,
+        50
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "main",
+      "measure": "household",
+      "regions": [
+        "41150",
+        "41192",
+        "41194",
+        "41196",
+        "41220",
+        "41480"
+      ],
+      "older_share": [
+        40,
+        50
+      ],
+      "newer_share": [
+        30,
+        40
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "max_distance",
+      "measure": "complex",
+      "regions": [
+        "41150",
+        "41192",
+        "41194",
+        "41196",
+        "41220",
+        "41480"
+      ],
+      "older_share": [
+        50,
+        60
+      ],
+      "newer_share": [
+        40,
+        50
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "max_distance",
+      "measure": "household",
+      "regions": [
+        "41150",
+        "41192",
+        "41194",
+        "41196",
+        "41220",
+        "41480"
+      ],
+      "older_share": [
+        40,
+        50
+      ],
+      "newer_share": [
+        30,
+        40
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_inferred",
+      "measure": "complex",
+      "regions": [
+        "41150",
+        "41192",
+        "41194",
+        "41196",
+        "41220",
+        "41480"
+      ],
+      "older_share": [
+        50,
+        60
+      ],
+      "newer_share": [
+        40,
+        50
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_inferred",
+      "measure": "household",
+      "regions": [
+        "41150",
+        "41192",
+        "41194",
+        "41196",
+        "41220",
+        "41480"
+      ],
+      "older_share": [
+        40,
+        50
+      ],
+      "newer_share": [
+        30,
+        40
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_region_conflict",
+      "measure": "complex",
+      "regions": [
+        "41150",
+        "41192",
+        "41194",
+        "41196",
+        "41220",
+        "41480"
+      ],
+      "older_share": [
+        50,
+        60
+      ],
+      "newer_share": [
+        40,
+        50
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_region_conflict",
+      "measure": "household",
+      "regions": [
+        "41150",
+        "41192",
+        "41194",
+        "41196",
+        "41220",
+        "41480"
+      ],
+      "older_share": [
+        40,
+        50
+      ],
+      "newer_share": [
+        30,
+        40
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_both",
+      "measure": "complex",
+      "regions": [
+        "41150",
+        "41192",
+        "41194",
+        "41196",
+        "41220",
+        "41480"
+      ],
+      "older_share": [
+        50,
+        60
+      ],
+      "newer_share": [
+        40,
+        50
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "no_both",
+      "measure": "household",
+      "regions": [
+        "41150",
+        "41192",
+        "41194",
+        "41196",
+        "41220",
+        "41480"
+      ],
+      "older_share": [
+        40,
+        50
+      ],
+      "newer_share": [
+        30,
+        40
+      ]
+    },
+    {
+      "scope": "41",
+      "variant": "approval_matched",
+      "measure": "complex",
+      "regions": [],
+      "older_share": null,
+      "newer_share": null
+    },
+    {
+      "scope": "41",
+      "variant": "approval_matched",
+      "measure": "household",
+      "regions": [],
+      "older_share": null,
+      "newer_share": null
+    }
+  ],
+  "limits": [
+    "Current retained stock and retained static network, not historical operating network or walk time.",
+    "Share intervals include unknown-coordinate possibilities and display coarsening; they are not confidence intervals.",
+    "Household shares condition on known current household totals. Distance medians condition on complete coordinates.",
+    "No exact counts, individual locations, complex memberships or prices.",
+    "Some household shares are additionally withheld after joint-field review; withheld does not mean zero or absence of data.",
+    "Finite conditional distance alternatives were reviewed with legacy non-distance inputs fixed; not a guarantee against arbitrary external information or a physical alternative-coordinate proof."
+  ],
+  "sources": {
+    "transactions": "https://rt.molit.go.kr/",
+    "complexes": "https://www.k-apt.go.kr/",
+    "stations": "https://openapi.kric.go.kr/rips/M_01_01/detail.do?id=32"
+  }
+}
