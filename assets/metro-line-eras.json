@@ -1,0 +1,2857 @@
+{
+  "schema": "metro_line_eras_v1",
+  "public_admitted": true,
+  "approval_through": "2026-10-02",
+  "precision_pp": 10,
+  "interval_note": "Enclosing display intervals, not confidence intervals; missing fields are not zero.",
+  "sensitivity_modes": [
+    "main",
+    "intersection",
+    "no_inferred",
+    "no_region_conflict",
+    "no_household_conflict",
+    "near650",
+    "near750"
+  ],
+  "eras": [
+    "before2000",
+    "2000s",
+    "2010s",
+    "2020s",
+    "unconfirmed"
+  ],
+  "rows": [
+    {
+      "kind": "main",
+      "line": "1호선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          30,
+          40
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          20,
+          30
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          60,
+          70
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "1호선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          20,
+          30
+        ],
+        "complex_2000s": [
+          0,
+          10
+        ],
+        "household_2000s": [
+          20,
+          30
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "complex_2020s": [
+          0,
+          10
+        ],
+        "household_2020s": [
+          10,
+          20
+        ],
+        "complex_unconfirmed": [
+          60,
+          70
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "1호선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          30,
+          40
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          20,
+          30
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "complex_2020s": [
+          0,
+          10
+        ],
+        "household_2020s": [
+          0,
+          10
+        ],
+        "complex_unconfirmed": [
+          60,
+          70
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "1호선",
+      "scope": "all",
+      "values": {
+        "household_before2000": [
+          20,
+          40
+        ],
+        "household_2000s": [
+          20,
+          30
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "household_2020s": [
+          0,
+          20
+        ],
+        "household_unconfirmed": [
+          10,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "2호선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          20,
+          30
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          30,
+          40
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "complex_2020s": [
+          0,
+          10
+        ],
+        "household_2020s": [
+          0,
+          10
+        ],
+        "complex_unconfirmed": [
+          70,
+          80
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "2호선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "2호선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          20,
+          30
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          30,
+          40
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "complex_2020s": [
+          0,
+          10
+        ],
+        "household_2020s": [
+          0,
+          10
+        ],
+        "complex_unconfirmed": [
+          70,
+          80
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "2호선",
+      "scope": "all",
+      "values": {
+        "household_before2000": [
+          20,
+          30
+        ],
+        "household_2000s": [
+          20,
+          40
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "household_2020s": [
+          0,
+          10
+        ],
+        "household_unconfirmed": [
+          10,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "3호선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          30,
+          40
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          20,
+          30
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          70,
+          80
+        ],
+        "household_unconfirmed": [
+          20,
+          30
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "3호선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": [
+          40,
+          50
+        ],
+        "household_before2000": [
+          60,
+          70
+        ],
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          40,
+          50
+        ],
+        "household_unconfirmed": null,
+        "household_count_coverage": [
+          70,
+          80
+        ],
+        "approval_coverage": [
+          50,
+          60
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "3호선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          40,
+          50
+        ],
+        "complex_2000s": [
+          0,
+          10
+        ],
+        "household_2000s": [
+          20,
+          30
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          60,
+          70
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "3호선",
+      "scope": "all",
+      "values": {
+        "household_before2000": [
+          30,
+          50
+        ],
+        "household_2000s": [
+          10,
+          30
+        ],
+        "household_2010s": [
+          0,
+          20
+        ],
+        "household_2020s": null,
+        "household_unconfirmed": [
+          10,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "4호선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          40,
+          50
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          20,
+          30
+        ],
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          60,
+          70
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "4호선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": [
+          20,
+          30
+        ],
+        "household_before2000": [
+          30,
+          40
+        ],
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          40,
+          50
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": null,
+        "approval_coverage": [
+          50,
+          60
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "4호선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          30,
+          40
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          20,
+          30
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          60,
+          70
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "4호선",
+      "scope": "all",
+      "values": {
+        "household_before2000": [
+          30,
+          40
+        ],
+        "household_2000s": [
+          10,
+          30
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "household_2020s": null,
+        "household_unconfirmed": [
+          10,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "5호선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": [
+          0,
+          10
+        ],
+        "household_before2000": [
+          20,
+          30
+        ],
+        "complex_2000s": [
+          0,
+          10
+        ],
+        "household_2000s": [
+          10,
+          20
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          20,
+          30
+        ],
+        "complex_2020s": [
+          0,
+          10
+        ],
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          70,
+          80
+        ],
+        "household_unconfirmed": [
+          20,
+          30
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "5호선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "5호선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": [
+          0,
+          10
+        ],
+        "household_before2000": [
+          20,
+          30
+        ],
+        "complex_2000s": [
+          0,
+          10
+        ],
+        "household_2000s": [
+          10,
+          20
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          20,
+          30
+        ],
+        "complex_2020s": [
+          0,
+          10
+        ],
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          70,
+          80
+        ],
+        "household_unconfirmed": [
+          20,
+          30
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "5호선",
+      "scope": "all",
+      "values": {
+        "household_before2000": [
+          20,
+          30
+        ],
+        "household_2000s": [
+          10,
+          30
+        ],
+        "household_2010s": [
+          10,
+          30
+        ],
+        "household_2020s": null,
+        "household_unconfirmed": [
+          10,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "6호선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": [
+          0,
+          10
+        ],
+        "household_before2000": [
+          10,
+          20
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          20,
+          30
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          20,
+          30
+        ],
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          70,
+          80
+        ],
+        "household_unconfirmed": [
+          30,
+          40
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "6호선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "6호선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": [
+          0,
+          10
+        ],
+        "household_before2000": [
+          10,
+          20
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          20,
+          30
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          20,
+          30
+        ],
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          70,
+          80
+        ],
+        "household_unconfirmed": [
+          30,
+          40
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "6호선",
+      "scope": "all",
+      "values": {
+        "household_before2000": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          20,
+          30
+        ],
+        "household_2010s": [
+          20,
+          30
+        ],
+        "household_2020s": null,
+        "household_unconfirmed": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "7호선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          40,
+          50
+        ],
+        "complex_2000s": [
+          0,
+          10
+        ],
+        "household_2000s": [
+          20,
+          30
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          70,
+          80
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "7호선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": [
+          20,
+          30
+        ],
+        "household_2000s": [
+          30,
+          40
+        ],
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          50,
+          60
+        ],
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "7호선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          30,
+          40
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          20,
+          30
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          0,
+          10
+        ],
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          70,
+          80
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "7호선",
+      "scope": "all",
+      "values": {
+        "household_before2000": [
+          30,
+          50
+        ],
+        "household_2000s": [
+          20,
+          30
+        ],
+        "household_2010s": [
+          0,
+          20
+        ],
+        "household_2020s": null,
+        "household_unconfirmed": [
+          10,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "8호선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          20,
+          30
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          30,
+          40
+        ],
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          70,
+          80
+        ],
+        "household_unconfirmed": [
+          20,
+          30
+        ],
+        "household_count_coverage": null,
+        "approval_coverage": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "8호선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          50,
+          60
+        ],
+        "household_unconfirmed": [
+          0,
+          10
+        ],
+        "household_count_coverage": null,
+        "approval_coverage": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "8호선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          20,
+          30
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          20,
+          30
+        ],
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          60,
+          70
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "8호선",
+      "scope": "all",
+      "values": {
+        "household_before2000": [
+          20,
+          30
+        ],
+        "household_2000s": [
+          20,
+          40
+        ],
+        "household_2010s": null,
+        "household_2020s": null,
+        "household_unconfirmed": [
+          10,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "9호선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          30,
+          40
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          20,
+          30
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          60,
+          70
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "9호선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "9호선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          30,
+          40
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          20,
+          30
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          60,
+          70
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "9호선",
+      "scope": "all",
+      "values": {
+        "household_before2000": [
+          20,
+          40
+        ],
+        "household_2000s": [
+          20,
+          40
+        ],
+        "household_2010s": null,
+        "household_2020s": null,
+        "household_unconfirmed": [
+          10,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "GTXA",
+      "scope": "11",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "GTXA",
+      "scope": "41",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "GTXA",
+      "scope": "all",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          50,
+          60
+        ],
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "GTXA",
+      "scope": "all",
+      "values": {
+        "household_before2000": null,
+        "household_2000s": null,
+        "household_2010s": null,
+        "household_2020s": null,
+        "household_unconfirmed": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "경강선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "경강선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "경강선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "경강선",
+      "scope": "all",
+      "values": {
+        "household_before2000": null,
+        "household_2000s": null,
+        "household_2010s": null,
+        "household_2020s": null,
+        "household_unconfirmed": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "경의중앙선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": [
+          0,
+          10
+        ],
+        "household_before2000": [
+          20,
+          30
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          20,
+          30
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          60,
+          70
+        ],
+        "household_unconfirmed": [
+          20,
+          30
+        ],
+        "household_count_coverage": [
+          90,
+          100
+        ],
+        "approval_coverage": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "경의중앙선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": [
+          20,
+          30
+        ],
+        "household_before2000": [
+          30,
+          40
+        ],
+        "complex_2000s": [
+          20,
+          30
+        ],
+        "household_2000s": [
+          30,
+          40
+        ],
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          40,
+          50
+        ],
+        "household_unconfirmed": [
+          0,
+          10
+        ],
+        "household_count_coverage": [
+          70,
+          80
+        ],
+        "approval_coverage": [
+          50,
+          60
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "경의중앙선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          20,
+          30
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          30,
+          40
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          50,
+          60
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": [
+          80,
+          90
+        ],
+        "approval_coverage": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "경의중앙선",
+      "scope": "all",
+      "values": {
+        "household_before2000": [
+          20,
+          30
+        ],
+        "household_2000s": [
+          30,
+          40
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "household_2020s": null,
+        "household_unconfirmed": [
+          10,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "경춘선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          60,
+          70
+        ],
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "경춘선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "경춘선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          10,
+          20
+        ],
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          60,
+          70
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": null,
+        "approval_coverage": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "경춘선",
+      "scope": "all",
+      "values": {
+        "household_before2000": null,
+        "household_2000s": null,
+        "household_2010s": null,
+        "household_2020s": null,
+        "household_unconfirmed": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "공항철도",
+      "scope": "11",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "공항철도",
+      "scope": "41",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "공항철도",
+      "scope": "all",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          50,
+          60
+        ],
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "공항철도",
+      "scope": "all",
+      "values": {
+        "household_before2000": null,
+        "household_2000s": null,
+        "household_2010s": null,
+        "household_2020s": null,
+        "household_unconfirmed": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "김포골드라인",
+      "scope": "11",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "김포골드라인",
+      "scope": "41",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "김포골드라인",
+      "scope": "all",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "김포골드라인",
+      "scope": "all",
+      "values": {
+        "household_before2000": null,
+        "household_2000s": null,
+        "household_2010s": null,
+        "household_2020s": null,
+        "household_unconfirmed": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "서해선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "서해선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          70,
+          80
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": [
+          80,
+          90
+        ],
+        "approval_coverage": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "서해선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          70,
+          80
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": [
+          80,
+          90
+        ],
+        "approval_coverage": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "서해선",
+      "scope": "all",
+      "values": {
+        "household_before2000": null,
+        "household_2000s": null,
+        "household_2010s": null,
+        "household_2020s": null,
+        "household_unconfirmed": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "수인분당선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          20,
+          30
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          30,
+          40
+        ],
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          60,
+          70
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": [
+          80,
+          90
+        ],
+        "approval_coverage": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "수인분당선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": [
+          20,
+          30
+        ],
+        "household_before2000": [
+          40,
+          50
+        ],
+        "complex_2000s": [
+          20,
+          30
+        ],
+        "household_2000s": [
+          30,
+          40
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          40,
+          50
+        ],
+        "household_unconfirmed": [
+          0,
+          10
+        ],
+        "household_count_coverage": [
+          80,
+          90
+        ],
+        "approval_coverage": [
+          50,
+          60
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "수인분당선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          30,
+          40
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          30,
+          40
+        ],
+        "complex_2010s": [
+          0,
+          10
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          50,
+          60
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": [
+          80,
+          90
+        ],
+        "approval_coverage": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "수인분당선",
+      "scope": "all",
+      "values": {
+        "household_before2000": [
+          30,
+          40
+        ],
+        "household_2000s": [
+          20,
+          40
+        ],
+        "household_2010s": [
+          10,
+          20
+        ],
+        "household_2020s": null,
+        "household_unconfirmed": [
+          10,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "신림선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": [
+          20,
+          30
+        ],
+        "household_before2000": [
+          40,
+          50
+        ],
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          60,
+          70
+        ],
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "신림선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "신림선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": [
+          20,
+          30
+        ],
+        "household_before2000": [
+          40,
+          50
+        ],
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          60,
+          70
+        ],
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "신림선",
+      "scope": "all",
+      "values": {
+        "household_before2000": null,
+        "household_2000s": null,
+        "household_2010s": null,
+        "household_2020s": null,
+        "household_unconfirmed": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "신분당선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          80,
+          90
+        ],
+        "household_unconfirmed": [
+          20,
+          30
+        ],
+        "household_count_coverage": null,
+        "approval_coverage": [
+          10,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "신분당선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": [
+          20,
+          30
+        ],
+        "household_2000s": [
+          30,
+          40
+        ],
+        "complex_2010s": [
+          20,
+          30
+        ],
+        "household_2010s": [
+          30,
+          40
+        ],
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          20,
+          30
+        ],
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": [
+          70,
+          80
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "신분당선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": [
+          10,
+          20
+        ],
+        "household_before2000": [
+          20,
+          30
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          30,
+          40
+        ],
+        "complex_2010s": [
+          10,
+          20
+        ],
+        "household_2010s": [
+          30,
+          40
+        ],
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          50,
+          60
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": null,
+        "approval_coverage": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "신분당선",
+      "scope": "all",
+      "values": {
+        "household_before2000": [
+          20,
+          30
+        ],
+        "household_2000s": null,
+        "household_2010s": [
+          20,
+          40
+        ],
+        "household_2020s": null,
+        "household_unconfirmed": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "용인에버라인",
+      "scope": "11",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "용인에버라인",
+      "scope": "41",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          50,
+          60
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": null,
+        "approval_coverage": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "용인에버라인",
+      "scope": "all",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          50,
+          60
+        ],
+        "household_unconfirmed": [
+          10,
+          20
+        ],
+        "household_count_coverage": null,
+        "approval_coverage": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "용인에버라인",
+      "scope": "all",
+      "values": {
+        "household_before2000": null,
+        "household_2000s": null,
+        "household_2010s": null,
+        "household_2020s": null,
+        "household_unconfirmed": [
+          10,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "우이신설선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          40,
+          50
+        ],
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          60,
+          70
+        ],
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "우이신설선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "우이신설선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          40,
+          50
+        ],
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          60,
+          70
+        ],
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "우이신설선",
+      "scope": "all",
+      "values": {
+        "household_before2000": null,
+        "household_2000s": null,
+        "household_2010s": null,
+        "household_2020s": null,
+        "household_unconfirmed": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "의정부경전철",
+      "scope": "11",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "의정부경전철",
+      "scope": "41",
+      "values": {
+        "complex_before2000": [
+          20,
+          30
+        ],
+        "household_before2000": [
+          20,
+          30
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          30,
+          40
+        ],
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          30,
+          40
+        ],
+        "household_unconfirmed": [
+          0,
+          10
+        ],
+        "household_count_coverage": null,
+        "approval_coverage": [
+          60,
+          70
+        ]
+      }
+    },
+    {
+      "kind": "main",
+      "line": "의정부경전철",
+      "scope": "all",
+      "values": {
+        "complex_before2000": [
+          20,
+          30
+        ],
+        "household_before2000": [
+          20,
+          30
+        ],
+        "complex_2000s": [
+          10,
+          20
+        ],
+        "household_2000s": [
+          30,
+          40
+        ],
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": [
+          30,
+          40
+        ],
+        "household_unconfirmed": [
+          0,
+          10
+        ],
+        "household_count_coverage": null,
+        "approval_coverage": [
+          60,
+          70
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "의정부경전철",
+      "scope": "all",
+      "values": {
+        "household_before2000": null,
+        "household_2000s": [
+          30,
+          40
+        ],
+        "household_2010s": null,
+        "household_2020s": null,
+        "household_unconfirmed": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "인천1호선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "인천1호선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "인천1호선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "인천1호선",
+      "scope": "all",
+      "values": {
+        "household_before2000": null,
+        "household_2000s": null,
+        "household_2010s": null,
+        "household_2020s": null,
+        "household_unconfirmed": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "인천2호선",
+      "scope": "11",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "인천2호선",
+      "scope": "41",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "main",
+      "line": "인천2호선",
+      "scope": "all",
+      "values": {
+        "complex_before2000": null,
+        "household_before2000": null,
+        "complex_2000s": null,
+        "household_2000s": null,
+        "complex_2010s": null,
+        "household_2010s": null,
+        "complex_2020s": null,
+        "household_2020s": null,
+        "complex_unconfirmed": null,
+        "household_unconfirmed": null,
+        "household_count_coverage": null,
+        "approval_coverage": null
+      }
+    },
+    {
+      "kind": "sensitivity_envelope",
+      "line": "인천2호선",
+      "scope": "all",
+      "values": {
+        "household_before2000": null,
+        "household_2000s": null,
+        "household_2010s": null,
+        "household_2020s": null,
+        "household_unconfirmed": null
+      }
+    }
+  ],
+  "analysis_date": "2026-10-29",
+  "sources": {
+    "complexes": "https://www.k-apt.go.kr/",
+    "stations": "https://openapi.kric.go.kr/rips/M_01_01/detail.do?id=32"
+  },
+  "limits": [
+    "Current collected Seoul/Gyeonggi stock within 700m straight-line distance to actual line-specific stations; not walking time or historical opening effects.",
+    "Unknown approval dates remain in the denominator; household shares use only confirmed household totals, while complex shares retain missing household counts.",
+    "A complex can belong to multiple lines; line totals cannot be added into regional totals.",
+    "Closed display intervals; missing fields do not mean zero. Sensitivity envelopes include all listed settings and are withheld if any setting lacks contribution support.",
+    "Bounded actual-field and relevant prior-stock review; not a universal reconstruction guarantee."
+  ]
+}
