@@ -1,0 +1,985 @@
+{
+  "schema": "metro_parking_distance_v1",
+  "public_admitted": true,
+  "units": {
+    "parking_per100": "parking spaces per 100 households",
+    "pressure_per100": "registered vehicles per 100 parking spaces",
+    "difference": "inside median minus outside median; equal matched-stratum mean"
+  },
+  "interval": "lower inclusive, upper exclusive",
+  "cells": [
+    {
+      "mode": "main",
+      "scope": "11",
+      "kind": "age",
+      "stratum": "2000s",
+      "target": "inside",
+      "parking_per100": [
+        110,
+        120
+      ],
+      "pressure_per100": [
+        100,
+        110
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "11",
+      "kind": "age",
+      "stratum": "2000s",
+      "target": "outside",
+      "parking_per100": [
+        110,
+        120
+      ],
+      "pressure_per100": [
+        100,
+        110
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "11",
+      "kind": "age",
+      "stratum": "2010s",
+      "target": "inside",
+      "parking_per100": [
+        120,
+        130
+      ],
+      "pressure_per100": [
+        100,
+        110
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "11",
+      "kind": "age",
+      "stratum": "2010s",
+      "target": "outside",
+      "parking_per100": [
+        120,
+        130
+      ],
+      "pressure_per100": [
+        100,
+        110
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "11",
+      "kind": "age",
+      "stratum": "2020s",
+      "target": "inside",
+      "parking_per100": [
+        110,
+        120
+      ],
+      "pressure_per100": [
+        80,
+        90
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "11",
+      "kind": "age",
+      "stratum": "2020s",
+      "target": "outside",
+      "parking_per100": [
+        120,
+        130
+      ],
+      "pressure_per100": [
+        90,
+        100
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "11",
+      "kind": "age",
+      "stratum": "before2000",
+      "target": "inside",
+      "parking_per100": [
+        80,
+        90
+      ],
+      "pressure_per100": [
+        110,
+        120
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "11",
+      "kind": "age",
+      "stratum": "before2000",
+      "target": "outside",
+      "parking_per100": [
+        80,
+        90
+      ],
+      "pressure_per100": [
+        120,
+        130
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "11",
+      "kind": "binary",
+      "stratum": "all",
+      "target": "inside",
+      "parking_per100": [
+        110,
+        120
+      ],
+      "pressure_per100": [
+        100,
+        110
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "11",
+      "kind": "binary",
+      "stratum": "all",
+      "target": "outside",
+      "parking_per100": [
+        110,
+        120
+      ],
+      "pressure_per100": [
+        100,
+        110
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "11",
+      "kind": "distance",
+      "stratum": "all",
+      "target": "1000",
+      "parking_per100": [
+        110,
+        120
+      ],
+      "pressure_per100": [
+        100,
+        110
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "11",
+      "kind": "distance",
+      "stratum": "all",
+      "target": "1500",
+      "parking_per100": [
+        110,
+        120
+      ],
+      "pressure_per100": [
+        100,
+        110
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "11",
+      "kind": "distance",
+      "stratum": "all",
+      "target": "300",
+      "parking_per100": [
+        110,
+        120
+      ],
+      "pressure_per100": [
+        100,
+        110
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "11",
+      "kind": "distance",
+      "stratum": "all",
+      "target": "500",
+      "parking_per100": [
+        110,
+        120
+      ],
+      "pressure_per100": [
+        100,
+        110
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "11",
+      "kind": "distance",
+      "stratum": "all",
+      "target": "700",
+      "parking_per100": [
+        100,
+        110
+      ],
+      "pressure_per100": [
+        100,
+        110
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "11",
+      "kind": "distance",
+      "stratum": "all",
+      "target": "over1500",
+      "parking_per100": [
+        110,
+        120
+      ],
+      "pressure_per100": [
+        100,
+        110
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "kind": "age",
+      "stratum": "2000s",
+      "target": "inside",
+      "parking_per100": [
+        110,
+        120
+      ],
+      "pressure_per100": [
+        110,
+        120
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "kind": "age",
+      "stratum": "2000s",
+      "target": "outside",
+      "parking_per100": [
+        110,
+        120
+      ],
+      "pressure_per100": [
+        120,
+        130
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "kind": "age",
+      "stratum": "2010s",
+      "target": "inside",
+      "parking_per100": [
+        120,
+        130
+      ],
+      "pressure_per100": [
+        100,
+        110
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "kind": "age",
+      "stratum": "2010s",
+      "target": "outside",
+      "parking_per100": [
+        120,
+        130
+      ],
+      "pressure_per100": [
+        110,
+        120
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "kind": "age",
+      "stratum": "2020s",
+      "target": "inside",
+      "parking_per100": [
+        120,
+        130
+      ],
+      "pressure_per100": [
+        90,
+        100
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "kind": "age",
+      "stratum": "2020s",
+      "target": "outside",
+      "parking_per100": [
+        120,
+        130
+      ],
+      "pressure_per100": [
+        100,
+        110
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "kind": "age",
+      "stratum": "before2000",
+      "target": "inside",
+      "parking_per100": [
+        80,
+        90
+      ],
+      "pressure_per100": [
+        120,
+        130
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "kind": "age",
+      "stratum": "before2000",
+      "target": "outside",
+      "parking_per100": [
+        80,
+        90
+      ],
+      "pressure_per100": [
+        130,
+        140
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "kind": "binary",
+      "stratum": "all",
+      "target": "inside",
+      "parking_per100": [
+        100,
+        110
+      ],
+      "pressure_per100": [
+        110,
+        120
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "kind": "binary",
+      "stratum": "all",
+      "target": "outside",
+      "parking_per100": [
+        110,
+        120
+      ],
+      "pressure_per100": [
+        110,
+        120
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "kind": "distance",
+      "stratum": "all",
+      "target": "1000",
+      "parking_per100": [
+        110,
+        120
+      ],
+      "pressure_per100": [
+        110,
+        120
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "kind": "distance",
+      "stratum": "all",
+      "target": "1500",
+      "parking_per100": [
+        110,
+        120
+      ],
+      "pressure_per100": [
+        110,
+        120
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "kind": "distance",
+      "stratum": "all",
+      "target": "300",
+      "parking_per100": [
+        100,
+        110
+      ],
+      "pressure_per100": [
+        100,
+        110
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "kind": "distance",
+      "stratum": "all",
+      "target": "500",
+      "parking_per100": [
+        100,
+        110
+      ],
+      "pressure_per100": [
+        110,
+        120
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "kind": "distance",
+      "stratum": "all",
+      "target": "700",
+      "parking_per100": [
+        100,
+        110
+      ],
+      "pressure_per100": [
+        110,
+        120
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "kind": "distance",
+      "stratum": "all",
+      "target": "over1500",
+      "parking_per100": [
+        110,
+        120
+      ],
+      "pressure_per100": [
+        120,
+        130
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "11",
+      "kind": "age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        0,
+        5
+      ],
+      "pressure_per100": [
+        -5,
+        0
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "11",
+      "kind": "region_age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": null,
+      "pressure_per100": null
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "kind": "age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        -5,
+        0
+      ],
+      "pressure_per100": [
+        -10,
+        -5
+      ]
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "kind": "region_age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        -10,
+        -5
+      ],
+      "pressure_per100": [
+        -10,
+        -5
+      ]
+    },
+    {
+      "mode": "max_distance",
+      "scope": "11",
+      "kind": "age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        0,
+        5
+      ],
+      "pressure_per100": [
+        -5,
+        0
+      ]
+    },
+    {
+      "mode": "max_distance",
+      "scope": "11",
+      "kind": "region_age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": null,
+      "pressure_per100": null
+    },
+    {
+      "mode": "max_distance",
+      "scope": "41",
+      "kind": "age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        -5,
+        0
+      ],
+      "pressure_per100": [
+        -10,
+        -5
+      ]
+    },
+    {
+      "mode": "max_distance",
+      "scope": "41",
+      "kind": "region_age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        -10,
+        -5
+      ],
+      "pressure_per100": [
+        -10,
+        -5
+      ]
+    },
+    {
+      "mode": "no_inferred",
+      "scope": "11",
+      "kind": "age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        0,
+        5
+      ],
+      "pressure_per100": [
+        -5,
+        0
+      ]
+    },
+    {
+      "mode": "no_inferred",
+      "scope": "11",
+      "kind": "region_age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": null,
+      "pressure_per100": null
+    },
+    {
+      "mode": "no_inferred",
+      "scope": "41",
+      "kind": "age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        -5,
+        0
+      ],
+      "pressure_per100": [
+        -10,
+        -5
+      ]
+    },
+    {
+      "mode": "no_inferred",
+      "scope": "41",
+      "kind": "region_age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        -10,
+        -5
+      ],
+      "pressure_per100": [
+        -10,
+        -5
+      ]
+    },
+    {
+      "mode": "no_region_conflict",
+      "scope": "11",
+      "kind": "age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        0,
+        5
+      ],
+      "pressure_per100": [
+        -5,
+        0
+      ]
+    },
+    {
+      "mode": "no_region_conflict",
+      "scope": "11",
+      "kind": "region_age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": null,
+      "pressure_per100": null
+    },
+    {
+      "mode": "no_region_conflict",
+      "scope": "41",
+      "kind": "age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        -5,
+        0
+      ],
+      "pressure_per100": [
+        -10,
+        -5
+      ]
+    },
+    {
+      "mode": "no_region_conflict",
+      "scope": "41",
+      "kind": "region_age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        -10,
+        -5
+      ],
+      "pressure_per100": [
+        -10,
+        -5
+      ]
+    },
+    {
+      "mode": "positive_vehicles",
+      "scope": "11",
+      "kind": "age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        0,
+        5
+      ],
+      "pressure_per100": [
+        -5,
+        0
+      ]
+    },
+    {
+      "mode": "positive_vehicles",
+      "scope": "11",
+      "kind": "region_age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": null,
+      "pressure_per100": null
+    },
+    {
+      "mode": "positive_vehicles",
+      "scope": "41",
+      "kind": "age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        -5,
+        0
+      ],
+      "pressure_per100": [
+        -10,
+        -5
+      ]
+    },
+    {
+      "mode": "positive_vehicles",
+      "scope": "41",
+      "kind": "region_age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        -15,
+        -10
+      ],
+      "pressure_per100": [
+        -5,
+        0
+      ]
+    },
+    {
+      "mode": "consistent_components",
+      "scope": "11",
+      "kind": "age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        0,
+        5
+      ],
+      "pressure_per100": [
+        -5,
+        0
+      ]
+    },
+    {
+      "mode": "consistent_components",
+      "scope": "11",
+      "kind": "region_age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": null,
+      "pressure_per100": null
+    },
+    {
+      "mode": "consistent_components",
+      "scope": "41",
+      "kind": "age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        -5,
+        0
+      ],
+      "pressure_per100": [
+        -10,
+        -5
+      ]
+    },
+    {
+      "mode": "consistent_components",
+      "scope": "41",
+      "kind": "region_age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        -15,
+        -10
+      ],
+      "pressure_per100": [
+        -5,
+        0
+      ]
+    },
+    {
+      "mode": "latest_only",
+      "scope": "11",
+      "kind": "age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        0,
+        5
+      ],
+      "pressure_per100": [
+        -5,
+        0
+      ]
+    },
+    {
+      "mode": "latest_only",
+      "scope": "11",
+      "kind": "region_age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": null,
+      "pressure_per100": null
+    },
+    {
+      "mode": "latest_only",
+      "scope": "41",
+      "kind": "age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        -5,
+        0
+      ],
+      "pressure_per100": [
+        -10,
+        -5
+      ]
+    },
+    {
+      "mode": "latest_only",
+      "scope": "41",
+      "kind": "region_age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        -10,
+        -5
+      ],
+      "pressure_per100": [
+        -10,
+        -5
+      ]
+    },
+    {
+      "mode": "near650",
+      "scope": "11",
+      "kind": "age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        0,
+        5
+      ],
+      "pressure_per100": [
+        -5,
+        0
+      ]
+    },
+    {
+      "mode": "near650",
+      "scope": "11",
+      "kind": "region_age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": null,
+      "pressure_per100": null
+    },
+    {
+      "mode": "near650",
+      "scope": "41",
+      "kind": "age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        -5,
+        0
+      ],
+      "pressure_per100": [
+        -10,
+        -5
+      ]
+    },
+    {
+      "mode": "near650",
+      "scope": "41",
+      "kind": "region_age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": null,
+      "pressure_per100": null
+    },
+    {
+      "mode": "near750",
+      "scope": "11",
+      "kind": "age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        0,
+        5
+      ],
+      "pressure_per100": [
+        -5,
+        0
+      ]
+    },
+    {
+      "mode": "near750",
+      "scope": "11",
+      "kind": "region_age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": null,
+      "pressure_per100": null
+    },
+    {
+      "mode": "near750",
+      "scope": "41",
+      "kind": "age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        -5,
+        0
+      ],
+      "pressure_per100": [
+        -10,
+        -5
+      ]
+    },
+    {
+      "mode": "near750",
+      "scope": "41",
+      "kind": "region_age_difference",
+      "stratum": "matched",
+      "target": "inside_minus_outside",
+      "parking_per100": [
+        -10,
+        -5
+      ],
+      "pressure_per100": [
+        -10,
+        -5
+      ]
+    }
+  ],
+  "source_dates": [
+    "2026-04-24",
+    "2026-06-26",
+    "2026-08-28",
+    "2026-10-02"
+  ],
+  "limits": [
+    "Current selected apartment records and straight-line station distance; not historical station access.",
+    "Common eligible complexes for both metrics; equal-complex medians, not ratios of totals.",
+    "Registered vehicles are not occupied spaces or observed parking availability.",
+    "Controlled differences average eligible matched strata equally; neither causal effects nor equal district weights.",
+    "Display intervals describe rounding, not confidence intervals. Withheld values are not zero."
+  ]
+}
