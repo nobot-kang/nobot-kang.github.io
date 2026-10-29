@@ -1,0 +1,547 @@
+{
+  "schema": "metro_price_v1",
+  "public_admitted": true,
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "price_width_manwon": 10000,
+  "difference_width_percentage_points": 5,
+  "interval": "left closed, right open; display range, not confidence interval",
+  "rows": [
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "main",
+      "values": {
+        "uncontrolled_ratio": [
+          20,
+          25
+        ],
+        "pooled_ratio": [
+          -10,
+          -5
+        ],
+        "region_ratio": [
+          10,
+          15
+        ],
+        "age_region_ratio": [
+          10,
+          15
+        ],
+        "trade_weighted_ratio": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "main",
+      "values": {
+        "uncontrolled_ratio": [
+          20,
+          25
+        ],
+        "pooled_ratio": [
+          30,
+          35
+        ],
+        "region_ratio": [
+          15,
+          20
+        ],
+        "age_region_ratio": [
+          15,
+          20
+        ],
+        "trade_weighted_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "59",
+      "values": {
+        "age_region_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "59",
+      "values": {
+        "age_region_ratio": [
+          30,
+          35
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "floor_6_15",
+      "values": {
+        "age_region_ratio": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "floor_6_15",
+      "values": {
+        "age_region_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "no_inferred",
+      "values": {
+        "age_region_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "no_inferred",
+      "values": {
+        "age_region_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "no_conflict",
+      "values": {
+        "age_region_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "no_conflict",
+      "values": {
+        "age_region_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "no_both",
+      "values": {
+        "age_region_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "no_both",
+      "values": {
+        "age_region_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "650m",
+      "values": {
+        "age_region_ratio": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "650m",
+      "values": {
+        "age_region_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "750m",
+      "values": {
+        "age_region_ratio": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "750m",
+      "values": {
+        "age_region_ratio": [
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "drop_largest",
+      "values": {
+        "age_region_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "drop_largest",
+      "values": {
+        "age_region_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "11",
+      "setting": "300",
+      "values": {
+        "median": [
+          130000,
+          140000
+        ],
+        "relative_ratio": null
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "11",
+      "setting": "500",
+      "values": {
+        "median": [
+          120000,
+          130000
+        ],
+        "relative_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "11",
+      "setting": "700",
+      "values": {
+        "median": [
+          110000,
+          120000
+        ],
+        "relative_ratio": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "11",
+      "setting": "1000",
+      "values": {
+        "median": [
+          100000,
+          110000
+        ],
+        "relative_ratio": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "11",
+      "setting": "1500",
+      "values": {
+        "median": [
+          80000,
+          90000
+        ],
+        "relative_ratio": null
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "11",
+      "setting": "over1500",
+      "values": {
+        "median": [
+          70000,
+          80000
+        ],
+        "relative_ratio": null
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "41",
+      "setting": "300",
+      "values": {
+        "median": [
+          70000,
+          80000
+        ],
+        "relative_ratio": null
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "41",
+      "setting": "500",
+      "values": {
+        "median": [
+          70000,
+          80000
+        ],
+        "relative_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "41",
+      "setting": "700",
+      "values": {
+        "median": [
+          70000,
+          80000
+        ],
+        "relative_ratio": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "41",
+      "setting": "1000",
+      "values": {
+        "median": [
+          60000,
+          70000
+        ],
+        "relative_ratio": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "41",
+      "setting": "1500",
+      "values": {
+        "median": [
+          60000,
+          70000
+        ],
+        "relative_ratio": [
+          -15,
+          -10
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "41",
+      "setting": "over1500",
+      "values": {
+        "median": [
+          50000,
+          60000
+        ],
+        "relative_ratio": [
+          -40,
+          -35
+        ]
+      }
+    },
+    {
+      "kind": "followup",
+      "scope": "11",
+      "setting": "same_dong",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "kind": "followup",
+      "scope": "41",
+      "setting": "same_dong",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "kind": "followup",
+      "scope": "11",
+      "setting": "same_household",
+      "values": {
+        "adjusted_ratio": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "followup",
+      "scope": "41",
+      "setting": "same_household",
+      "values": {
+        "adjusted_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "followup",
+      "scope": "11",
+      "setting": "no_gtxa",
+      "values": {
+        "adjusted_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "followup",
+      "scope": "41",
+      "setting": "no_gtxa",
+      "values": {
+        "adjusted_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "followup",
+      "scope": "11",
+      "setting": "no_byeollae",
+      "values": {
+        "adjusted_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "followup",
+      "scope": "41",
+      "setting": "no_byeollae",
+      "values": {
+        "adjusted_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "followup",
+      "scope": "11",
+      "setting": "no_geomdan",
+      "values": {
+        "adjusted_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "followup",
+      "scope": "41",
+      "setting": "no_geomdan",
+      "values": {
+        "adjusted_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "followup",
+      "scope": "11",
+      "setting": "no_recent",
+      "values": {
+        "adjusted_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "followup",
+      "scope": "41",
+      "setting": "no_recent",
+      "values": {
+        "adjusted_ratio": [
+          15,
+          20
+        ]
+      }
+    }
+  ],
+  "sources": {
+    "transactions": "https://rt.molit.go.kr/",
+    "stations": "https://openapi.kric.go.kr/rips/M_01_01/detail.do?id=32"
+  },
+  "limits": [
+    "Observed sale comparisons for retained Seoul and collected Gyeonggi samples; not causal effects, asking prices or walking times.",
+    "Current station network and coordinates; no reconstruction of the historical network.",
+    "Coarse display intervals are not confidence intervals. Null means insufficient comparison support.",
+    "Finite editorial review of displayed fields; not a guarantee against all external information or proof preserving every earlier distance target."
+  ]
+}
