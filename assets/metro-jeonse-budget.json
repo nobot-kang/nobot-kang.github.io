@@ -1,0 +1,1445 @@
+{
+  "schema": "metro_jeonse_budget_v1",
+  "public_admitted": true,
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "precision": {
+    "area_m2": 20,
+    "age_years": 10,
+    "area_difference_m2": 10,
+    "age_difference_years": 5,
+    "area_difference_offset": -5,
+    "interval": "left closed right open; display ranges, not confidence intervals"
+  },
+  "single_region_policy": "No numeric display from one region; insufficient and single-region states remain visible.",
+  "rows": [
+    {
+      "kind": "budget",
+      "setting": "main",
+      "budget_manwon": 20000,
+      "group": "all",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "insufficient",
+      "values": {
+        "inside_area": null,
+        "outside_area": null,
+        "inside_age": null,
+        "outside_age": null,
+        "area_difference": null,
+        "age_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "weighting",
+      "setting": "main",
+      "budget_manwon": 20000,
+      "group": "all",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "insufficient",
+      "values": {
+        "complex_area_difference": null,
+        "complex_age_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "budget",
+      "setting": "main",
+      "budget_manwon": 20000,
+      "group": "all",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "single_region_only",
+      "values": {
+        "inside_area": null,
+        "outside_area": null,
+        "inside_age": null,
+        "outside_age": null,
+        "area_difference": null,
+        "age_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "weighting",
+      "setting": "main",
+      "budget_manwon": 20000,
+      "group": "all",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "single_region_only",
+      "values": {
+        "complex_area_difference": null,
+        "complex_age_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "budget",
+      "setting": "main",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "inside_area": [
+          40,
+          60
+        ],
+        "outside_area": [
+          40,
+          60
+        ],
+        "inside_age": [
+          30,
+          40
+        ],
+        "outside_age": [
+          20,
+          30
+        ],
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "weighting",
+      "setting": "main",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "complex_area_difference": [
+          -5,
+          5
+        ],
+        "complex_age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "budget",
+      "setting": "main",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "inside_area": [
+          60,
+          80
+        ],
+        "outside_area": [
+          60,
+          80
+        ],
+        "inside_age": [
+          20,
+          30
+        ],
+        "outside_age": [
+          20,
+          30
+        ],
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "weighting",
+      "setting": "main",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "complex_area_difference": [
+          -5,
+          5
+        ],
+        "complex_age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "composition",
+      "setting": "main",
+      "budget_manwon": 30000,
+      "group": "59",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "insufficient",
+      "values": {
+        "age_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "composition",
+      "setting": "main",
+      "budget_manwon": 30000,
+      "group": "59",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "insufficient",
+      "values": {
+        "age_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "composition",
+      "setting": "main",
+      "budget_manwon": 30000,
+      "group": "84",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "insufficient",
+      "values": {
+        "age_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "composition",
+      "setting": "main",
+      "budget_manwon": 30000,
+      "group": "84",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "composition",
+      "setting": "main",
+      "budget_manwon": 30000,
+      "group": "age0_9",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "insufficient",
+      "values": {
+        "area_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "composition",
+      "setting": "main",
+      "budget_manwon": 30000,
+      "group": "age0_9",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "insufficient",
+      "values": {
+        "area_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "composition",
+      "setting": "main",
+      "budget_manwon": 30000,
+      "group": "age10_19",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "insufficient",
+      "values": {
+        "area_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "composition",
+      "setting": "main",
+      "budget_manwon": 30000,
+      "group": "age10_19",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "insufficient",
+      "values": {
+        "area_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "composition",
+      "setting": "main",
+      "budget_manwon": 30000,
+      "group": "age20_29",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "insufficient",
+      "values": {
+        "area_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "composition",
+      "setting": "main",
+      "budget_manwon": 30000,
+      "group": "age20_29",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -25,
+          -15
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "composition",
+      "setting": "main",
+      "budget_manwon": 30000,
+      "group": "age30_plus",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "insufficient",
+      "values": {
+        "area_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "composition",
+      "setting": "main",
+      "budget_manwon": 30000,
+      "group": "age30_plus",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "single_region_only",
+      "values": {
+        "area_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "budget",
+      "setting": "main",
+      "budget_manwon": 50000,
+      "group": "all",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "inside_area": [
+          60,
+          80
+        ],
+        "outside_area": [
+          60,
+          80
+        ],
+        "inside_age": [
+          20,
+          30
+        ],
+        "outside_age": [
+          10,
+          20
+        ],
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          5,
+          10
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "weighting",
+      "setting": "main",
+      "budget_manwon": 50000,
+      "group": "all",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "complex_area_difference": [
+          -5,
+          5
+        ],
+        "complex_age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "budget",
+      "setting": "main",
+      "budget_manwon": 50000,
+      "group": "all",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "inside_area": [
+          80,
+          100
+        ],
+        "outside_area": [
+          80,
+          100
+        ],
+        "inside_age": [
+          20,
+          30
+        ],
+        "outside_age": [
+          10,
+          20
+        ],
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "weighting",
+      "setting": "main",
+      "budget_manwon": 50000,
+      "group": "all",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "complex_area_difference": [
+          -5,
+          5
+        ],
+        "complex_age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "narrow",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "insufficient",
+      "values": {
+        "area_difference": null,
+        "age_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "narrow",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "common_with_main",
+      "reference": false,
+      "status": "insufficient",
+      "values": {
+        "area_difference": null,
+        "age_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "narrow",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "common_with_main",
+      "reference": true,
+      "status": "insufficient",
+      "values": {
+        "area_difference": null,
+        "age_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "narrow",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          5,
+          10
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "narrow",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "common_with_main",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          5,
+          10
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "narrow",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "common_with_main",
+      "reference": true,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "wide",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "single_region_only",
+      "values": {
+        "area_difference": null,
+        "age_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "wide",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "common_with_main",
+      "reference": false,
+      "status": "single_region_only",
+      "values": {
+        "area_difference": null,
+        "age_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "wide",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "common_with_main",
+      "reference": true,
+      "status": "single_region_only",
+      "values": {
+        "area_difference": null,
+        "age_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "wide",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "wide",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "common_with_main",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "wide",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "common_with_main",
+      "reference": true,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "near650",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "single_region_only",
+      "values": {
+        "area_difference": null,
+        "age_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "near650",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "common_with_main",
+      "reference": false,
+      "status": "single_region_only",
+      "values": {
+        "area_difference": null,
+        "age_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "near650",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "common_with_main",
+      "reference": true,
+      "status": "single_region_only",
+      "values": {
+        "area_difference": null,
+        "age_difference": null
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "near650",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          5,
+          10
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "near650",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "common_with_main",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          5,
+          10
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "near650",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "common_with_main",
+      "reference": true,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "near750",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "near750",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "common_with_main",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "near750",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "common_with_main",
+      "reference": true,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "near750",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -15,
+          -5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "near750",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "common_with_main",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "near750",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "common_with_main",
+      "reference": true,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "no_inferred",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "no_inferred",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "common_with_main",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "no_inferred",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "common_with_main",
+      "reference": true,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "no_inferred",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "no_inferred",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "common_with_main",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "no_inferred",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "common_with_main",
+      "reference": true,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "no_conflict",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "no_conflict",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "common_with_main",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "no_conflict",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "common_with_main",
+      "reference": true,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "no_conflict",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "no_conflict",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "common_with_main",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "no_conflict",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "common_with_main",
+      "reference": true,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "no_both",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "no_both",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "common_with_main",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "no_both",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "common_with_main",
+      "reference": true,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "no_both",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "no_both",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "common_with_main",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "no_both",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "common_with_main",
+      "reference": true,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "drop_largest",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": null
+      },
+      "withheld_reasons": {
+        "age_difference": "withheld_small_selection_change"
+      }
+    },
+    {
+      "kind": "common_regions",
+      "setting": "drop_largest",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "common_with_main",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": null
+      },
+      "withheld_reasons": {
+        "age_difference": "withheld_small_selection_change"
+      }
+    },
+    {
+      "kind": "common_regions",
+      "setting": "drop_largest",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "11",
+      "support": "common_with_main",
+      "reference": true,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "drop_largest",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "own",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "drop_largest",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "common_with_main",
+      "reference": false,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    },
+    {
+      "kind": "common_regions",
+      "setting": "drop_largest",
+      "budget_manwon": 30000,
+      "group": "all",
+      "scope": "41",
+      "support": "common_with_main",
+      "reference": true,
+      "status": "comparable",
+      "values": {
+        "area_difference": [
+          -5,
+          5
+        ],
+        "age_difference": [
+          0,
+          5
+        ]
+      },
+      "withheld_reasons": {}
+    }
+  ]
+}
