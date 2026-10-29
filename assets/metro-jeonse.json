@@ -1,0 +1,563 @@
+{
+  "schema": "metro_jeonse_v1",
+  "public_admitted": true,
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "interval": "left closed, right open; display range, not confidence interval",
+  "single_region_policy": "Adjusted results from one region remain private; status remains visible.",
+  "rows": [
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "main",
+      "status": "comparable",
+      "values": {
+        "uncontrolled_ratio": [
+          20,
+          25
+        ],
+        "pooled_ratio": [
+          0,
+          5
+        ],
+        "region_ratio": [
+          0,
+          5
+        ],
+        "age_region_ratio": [
+          0,
+          5
+        ],
+        "trade_weighted_ratio": [
+          -5,
+          0
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "main",
+      "status": "comparable",
+      "values": {
+        "uncontrolled_ratio": [
+          20,
+          25
+        ],
+        "pooled_ratio": [
+          15,
+          20
+        ],
+        "region_ratio": [
+          15,
+          20
+        ],
+        "age_region_ratio": [
+          15,
+          20
+        ],
+        "trade_weighted_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "59",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "59",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "floor_6_15",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "floor_6_15",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "no_inferred",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "no_inferred",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "no_conflict",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "no_conflict",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "no_both",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "no_both",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "650m",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "650m",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "750m",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          -10,
+          -5
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "750m",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "drop_largest",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "drop_largest",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "same_dong",
+      "status": "single_region_only",
+      "values": {
+        "age_region_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "same_dong",
+      "status": "insufficient",
+      "values": {
+        "age_region_ratio": null
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "same_household",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "same_household",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "no_gtxa",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "no_gtxa",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "no_byeollae",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          -5,
+          0
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "no_byeollae",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "no_geomdan",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "no_geomdan",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "11",
+      "setting": "no_recent",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          -5,
+          0
+        ]
+      }
+    },
+    {
+      "kind": "comparison",
+      "scope": "41",
+      "setting": "no_recent",
+      "status": "comparable",
+      "values": {
+        "age_region_ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "11",
+      "setting": "300",
+      "status": "insufficient",
+      "values": {
+        "median": [
+          80000,
+          90000
+        ],
+        "relative_ratio": null
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "11",
+      "setting": "500",
+      "status": "insufficient",
+      "values": {
+        "median": [
+          70000,
+          80000
+        ],
+        "relative_ratio": null
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "11",
+      "setting": "700",
+      "status": "insufficient",
+      "values": {
+        "median": [
+          60000,
+          70000
+        ],
+        "relative_ratio": null
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "11",
+      "setting": "1000",
+      "status": "reference",
+      "values": {
+        "median": [
+          60000,
+          70000
+        ],
+        "relative_ratio": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "11",
+      "setting": "1500",
+      "status": "single_region_only",
+      "values": {
+        "median": [
+          50000,
+          60000
+        ],
+        "relative_ratio": null
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "11",
+      "setting": "over1500",
+      "status": "insufficient",
+      "values": {
+        "median": [
+          50000,
+          60000
+        ],
+        "relative_ratio": null
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "41",
+      "setting": "300",
+      "status": "insufficient",
+      "values": {
+        "median": [
+          40000,
+          50000
+        ],
+        "relative_ratio": null
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "41",
+      "setting": "500",
+      "status": "insufficient",
+      "values": {
+        "median": [
+          40000,
+          50000
+        ],
+        "relative_ratio": null
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "41",
+      "setting": "700",
+      "status": "comparable",
+      "values": {
+        "median": [
+          40000,
+          50000
+        ],
+        "relative_ratio": [
+          -10,
+          -5
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "41",
+      "setting": "1000",
+      "status": "reference",
+      "values": {
+        "median": [
+          40000,
+          50000
+        ],
+        "relative_ratio": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "41",
+      "setting": "1500",
+      "status": "single_region_only",
+      "values": {
+        "median": [
+          40000,
+          50000
+        ],
+        "relative_ratio": null
+      }
+    },
+    {
+      "kind": "distance",
+      "scope": "41",
+      "setting": "over1500",
+      "status": "single_region_only",
+      "values": {
+        "median": [
+          30000,
+          40000
+        ],
+        "relative_ratio": null
+      }
+    }
+  ]
+}
