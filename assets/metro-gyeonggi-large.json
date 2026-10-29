@@ -1,0 +1,481 @@
+{
+  "schema": "metro_gyeonggi_large_v1",
+  "public_admitted": true,
+  "approval_through": "2026-10-02",
+  "target": "Verified approval 2015 onward, confirmed households >=1000; collected Gyeonggi stock.",
+  "precision": {
+    "shares_pp": 10,
+    "median_m": 500,
+    "interval": "Left closed right open, except 100% included. Bounds enclose missing-coordinate uncertainty; not confidence intervals."
+  },
+  "rows": [
+    {
+      "kind": "radius",
+      "setting": "main",
+      "cohort": "all",
+      "radius_m": 300,
+      "values": {
+        "complex_share": [
+          0,
+          20
+        ],
+        "household_share": [
+          0,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "radius",
+      "setting": "main",
+      "cohort": "all",
+      "radius_m": 500,
+      "values": {
+        "complex_share": [
+          20,
+          30
+        ],
+        "household_share": [
+          10,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "radius",
+      "setting": "main",
+      "cohort": "all",
+      "radius_m": 700,
+      "values": {
+        "complex_share": [
+          30,
+          50
+        ],
+        "household_share": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "radius",
+      "setting": "main",
+      "cohort": "all",
+      "radius_m": 1000,
+      "values": {
+        "complex_share": [
+          50,
+          60
+        ],
+        "household_share": [
+          50,
+          60
+        ]
+      }
+    },
+    {
+      "kind": "radius",
+      "setting": "main",
+      "cohort": "all",
+      "radius_m": 1500,
+      "values": {
+        "complex_share": [
+          70,
+          80
+        ],
+        "household_share": [
+          70,
+          80
+        ]
+      }
+    },
+    {
+      "kind": "radius",
+      "setting": "main",
+      "cohort": "new_large",
+      "radius_m": 300,
+      "values": {
+        "complex_share": null,
+        "household_share": null
+      }
+    },
+    {
+      "kind": "radius",
+      "setting": "main",
+      "cohort": "new_large",
+      "radius_m": 500,
+      "values": {
+        "complex_share": [
+          10,
+          20
+        ],
+        "household_share": [
+          10,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "radius",
+      "setting": "main",
+      "cohort": "new_large",
+      "radius_m": 700,
+      "values": {
+        "complex_share": [
+          20,
+          30
+        ],
+        "household_share": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "radius",
+      "setting": "main",
+      "cohort": "new_large",
+      "radius_m": 1000,
+      "values": {
+        "complex_share": [
+          40,
+          50
+        ],
+        "household_share": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "kind": "radius",
+      "setting": "main",
+      "cohort": "new_large",
+      "radius_m": 1500,
+      "values": {
+        "complex_share": [
+          60,
+          70
+        ],
+        "household_share": [
+          60,
+          70
+        ]
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "cohort": "all",
+      "values": {
+        "complex_share": [
+          30,
+          50
+        ],
+        "household_share": [
+          30,
+          40
+        ],
+        "complex_median_m": [
+          500,
+          1000
+        ],
+        "household_median_m": [
+          500,
+          1000
+        ]
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "cohort": "new_large",
+      "values": {
+        "complex_share": [
+          20,
+          30
+        ],
+        "household_share": [
+          20,
+          30
+        ],
+        "complex_median_m": [
+          1000,
+          1500
+        ],
+        "household_median_m": [
+          1000,
+          1500
+        ]
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "cohort": "new_small",
+      "values": {
+        "complex_share": [
+          30,
+          40
+        ],
+        "household_share": [
+          20,
+          30
+        ],
+        "complex_median_m": [
+          1000,
+          1500
+        ],
+        "household_median_m": [
+          1000,
+          1500
+        ]
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "cohort": "old_large",
+      "values": {
+        "complex_share": [
+          30,
+          40
+        ],
+        "household_share": [
+          30,
+          40
+        ],
+        "complex_median_m": [
+          500,
+          1000
+        ],
+        "household_median_m": [
+          500,
+          1000
+        ]
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "cohort": "old_small",
+      "values": {
+        "complex_share": [
+          30,
+          40
+        ],
+        "household_share": [
+          30,
+          40
+        ],
+        "complex_median_m": [
+          500,
+          1000
+        ],
+        "household_median_m": [
+          500,
+          1000
+        ]
+      }
+    },
+    {
+      "kind": "profile",
+      "setting": "main",
+      "cohort": "unverified",
+      "values": {
+        "complex_share": [
+          40,
+          50
+        ],
+        "household_share": [
+          30,
+          40
+        ],
+        "complex_median_m": [
+          500,
+          1000
+        ],
+        "household_median_m": [
+          500,
+          1000
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "max_distance",
+      "cohort": "new_large",
+      "values": {
+        "complex_share": [
+          20,
+          30
+        ],
+        "household_share": [
+          20,
+          30
+        ],
+        "complex_median_m": [
+          1000,
+          1500
+        ],
+        "household_median_m": [
+          1000,
+          1500
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "no_inferred",
+      "cohort": "new_large",
+      "values": {
+        "complex_share": [
+          20,
+          30
+        ],
+        "household_share": [
+          20,
+          30
+        ],
+        "complex_median_m": [
+          1000,
+          1500
+        ],
+        "household_median_m": [
+          1000,
+          1500
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "no_region_conflict",
+      "cohort": "new_large",
+      "values": {
+        "complex_share": [
+          20,
+          30
+        ],
+        "household_share": [
+          20,
+          30
+        ],
+        "complex_median_m": [
+          1000,
+          1500
+        ],
+        "household_median_m": [
+          1000,
+          1500
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "no_both",
+      "cohort": "new_large",
+      "values": {
+        "complex_share": [
+          20,
+          30
+        ],
+        "household_share": [
+          20,
+          30
+        ],
+        "complex_median_m": [
+          1000,
+          1500
+        ],
+        "household_median_m": [
+          1000,
+          1500
+        ]
+      }
+    },
+    {
+      "kind": "sensitivity",
+      "setting": "no_household_conflict",
+      "cohort": "new_large",
+      "values": {
+        "complex_share": [
+          20,
+          30
+        ],
+        "household_share": [
+          20,
+          30
+        ],
+        "complex_median_m": [
+          1000,
+          1500
+        ],
+        "household_median_m": [
+          1000,
+          1500
+        ]
+      }
+    },
+    {
+      "kind": "boundary",
+      "setting": "main",
+      "cohort": "new_large",
+      "radius_m": 650,
+      "values": {
+        "complex_share": [
+          20,
+          30
+        ],
+        "household_share": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "boundary",
+      "setting": "main",
+      "cohort": "new_large",
+      "radius_m": 750,
+      "values": {
+        "complex_share": [
+          30,
+          40
+        ],
+        "household_share": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "coverage",
+      "setting": "main",
+      "cohort": "all",
+      "values": {
+        "coordinate_coverage": [
+          90,
+          100
+        ],
+        "household_count_coverage": [
+          80,
+          90
+        ],
+        "classification_coverage": [
+          50,
+          60
+        ]
+      }
+    }
+  ],
+  "sources": {
+    "complexes": "https://www.k-apt.go.kr/",
+    "stations": "https://openapi.kric.go.kr/rips/M_01_01/detail.do?id=32"
+  },
+  "limitations": [
+    "Collected Gyeonggi stock only; current straight-line station distances, not walking or commute time.",
+    "Target is verified approval from 2015 with at least 1000 confirmed households; unverified attributes remain distinct.",
+    "No supported within-district comparison; regional composition is not controlled and no causal development effect is identified.",
+    "Two target 300m shares withheld. Actual-field contribution and related legacy cohort review, not universal reconstruction protection."
+  ]
+}
