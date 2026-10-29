@@ -1,0 +1,1112 @@
+{
+  "schema": "metro_network_v1",
+  "public_admitted": true,
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "interval": "left closed right open; prices in 10000-manwon intervals, differences in 5pp intervals; not confidence intervals",
+  "reference": "6–10 stops; equal age-stratum weights within region and equal region weights; at least two regions for broad ratio",
+  "route": "Current nearest group within 700m; minimize stops first then transfers. Not travel time or recommended commute.",
+  "omitted_sensitivities": "All Gyeonggi and other Seoul non-reference sensitivity bands have fewer than two comparable regions.",
+  "rows": [
+    {
+      "destination": "cbd",
+      "setting": "main",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "single_region_only",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          140000,
+          150000
+        ]
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "main",
+      "scope": "11",
+      "band": "6_10",
+      "comparison_status": "reference",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          100000,
+          110000
+        ]
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "main",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "single_region_only",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          90000,
+          100000
+        ]
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "main",
+      "scope": "11",
+      "band": "16_20",
+      "comparison_status": "insufficient",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          160000,
+          170000
+        ]
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "main",
+      "scope": "11",
+      "band": "21_plus",
+      "comparison_status": "insufficient",
+      "price_status": "insufficient",
+      "values": {
+        "adjusted_ratio": null,
+        "median": null
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "main",
+      "scope": "41",
+      "band": "0_5",
+      "comparison_status": "insufficient",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          60000,
+          70000
+        ]
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "main",
+      "scope": "41",
+      "band": "6_10",
+      "comparison_status": "reference",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          60000,
+          70000
+        ]
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "main",
+      "scope": "41",
+      "band": "11_15",
+      "comparison_status": "insufficient",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          80000,
+          90000
+        ]
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "main",
+      "scope": "41",
+      "band": "16_20",
+      "comparison_status": "insufficient",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          70000,
+          80000
+        ]
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "main",
+      "scope": "41",
+      "band": "21_plus",
+      "comparison_status": "insufficient",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          50000,
+          60000
+        ]
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "59",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "single_region_only",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "59",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "single_region_only",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "floor_6_15",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "floor_6_15",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "no_inferred",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "single_region_only",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "no_inferred",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "single_region_only",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "no_conflict",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "single_region_only",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "no_conflict",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "single_region_only",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "no_both",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "single_region_only",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "no_both",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "single_region_only",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "650m",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "single_region_only",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "650m",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "750m",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "750m",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "single_region_only",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "drop_largest",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "destination": "cbd",
+      "setting": "drop_largest",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "single_region_only",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "main",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": [
+          10,
+          15
+        ],
+        "median": [
+          230000,
+          240000
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "main",
+      "scope": "11",
+      "band": "6_10",
+      "comparison_status": "reference",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          130000,
+          140000
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "main",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "comparable",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": [
+          -25,
+          -20
+        ],
+        "median": [
+          100000,
+          110000
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "main",
+      "scope": "11",
+      "band": "16_20",
+      "comparison_status": "insufficient",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          80000,
+          90000
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "main",
+      "scope": "11",
+      "band": "21_plus",
+      "comparison_status": "insufficient",
+      "price_status": "insufficient",
+      "values": {
+        "adjusted_ratio": null,
+        "median": null
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "main",
+      "scope": "41",
+      "band": "0_5",
+      "comparison_status": "insufficient",
+      "price_status": "withheld_contribution",
+      "values": {
+        "adjusted_ratio": null,
+        "median": null
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "main",
+      "scope": "41",
+      "band": "6_10",
+      "comparison_status": "reference",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          90000,
+          100000
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "main",
+      "scope": "41",
+      "band": "11_15",
+      "comparison_status": "insufficient",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          70000,
+          80000
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "main",
+      "scope": "41",
+      "band": "16_20",
+      "comparison_status": "insufficient",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          50000,
+          60000
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "main",
+      "scope": "41",
+      "band": "21_plus",
+      "comparison_status": "insufficient",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          40000,
+          50000
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "59",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "single_region_only",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "59",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "floor_6_15",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "single_region_only",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "floor_6_15",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          -25,
+          -20
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "no_inferred",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "no_inferred",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          -25,
+          -20
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "no_conflict",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "no_conflict",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          -25,
+          -20
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "no_both",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "no_both",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          -25,
+          -20
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "650m",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "650m",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          -25,
+          -20
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "750m",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "750m",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          -25,
+          -20
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "drop_largest",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "destination": "gangnam",
+      "setting": "drop_largest",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          -25,
+          -20
+        ]
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "main",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": [
+          30,
+          35
+        ],
+        "median": [
+          130000,
+          140000
+        ]
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "main",
+      "scope": "11",
+      "band": "6_10",
+      "comparison_status": "reference",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          120000,
+          130000
+        ]
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "main",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "insufficient",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          90000,
+          100000
+        ]
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "main",
+      "scope": "11",
+      "band": "16_20",
+      "comparison_status": "insufficient",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          100000,
+          110000
+        ]
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "main",
+      "scope": "11",
+      "band": "21_plus",
+      "comparison_status": "insufficient",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          170000,
+          180000
+        ]
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "main",
+      "scope": "41",
+      "band": "0_5",
+      "comparison_status": "insufficient",
+      "price_status": "insufficient",
+      "values": {
+        "adjusted_ratio": null,
+        "median": null
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "main",
+      "scope": "41",
+      "band": "6_10",
+      "comparison_status": "reference",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          60000,
+          70000
+        ]
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "main",
+      "scope": "41",
+      "band": "11_15",
+      "comparison_status": "insufficient",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          60000,
+          70000
+        ]
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "main",
+      "scope": "41",
+      "band": "16_20",
+      "comparison_status": "insufficient",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          80000,
+          90000
+        ]
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "main",
+      "scope": "41",
+      "band": "21_plus",
+      "comparison_status": "insufficient",
+      "price_status": "supported",
+      "values": {
+        "adjusted_ratio": null,
+        "median": [
+          50000,
+          60000
+        ]
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "59",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "59",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "floor_6_15",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "floor_6_15",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "single_region_only",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "no_inferred",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          30,
+          35
+        ]
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "no_inferred",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "no_conflict",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          30,
+          35
+        ]
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "no_conflict",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "no_both",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          30,
+          35
+        ]
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "no_both",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "650m",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          30,
+          35
+        ]
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "650m",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "750m",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "750m",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "single_region_only",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "drop_largest",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "destination": "yeouido",
+      "setting": "drop_largest",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "single_region_only",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "cbd_without_seoul",
+      "setting": "main",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "cbd_without_seoul",
+      "setting": "main",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          -25,
+          -20
+        ]
+      }
+    },
+    {
+      "destination": "cbd_without_supplement",
+      "setting": "main",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "single_region_only",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "cbd_without_supplement",
+      "setting": "main",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "single_region_only",
+      "values": {
+        "adjusted_ratio": null
+      }
+    },
+    {
+      "destination": "gangnam_without_supplement",
+      "setting": "main",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "destination": "gangnam_without_supplement",
+      "setting": "main",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          -25,
+          -20
+        ]
+      }
+    },
+    {
+      "destination": "yeouido_without_supplement",
+      "setting": "main",
+      "scope": "11",
+      "band": "0_5",
+      "comparison_status": "comparable",
+      "values": {
+        "adjusted_ratio": [
+          30,
+          35
+        ]
+      }
+    },
+    {
+      "destination": "yeouido_without_supplement",
+      "setting": "main",
+      "scope": "11",
+      "band": "11_15",
+      "comparison_status": "insufficient",
+      "values": {
+        "adjusted_ratio": null
+      }
+    }
+  ],
+  "sources": {
+    "sale": "https://www.data.go.kr/data/15126469/openapi.do",
+    "stations": "https://openapi.kric.go.kr/rips/M_01_01/detail.do?id=32"
+  },
+  "limitations": [
+    "Current graph, shortest stops then transfers; not travel time, train service patterns, or historical network.",
+    "Supported strata and regions vary by destination, stop band and sensitivity.",
+    "One direct price withheld for concentrated interval contributions; unavailable is not zero.",
+    "Finite actual-field and selected legacy review, not universal reconstruction protection."
+  ]
+}
