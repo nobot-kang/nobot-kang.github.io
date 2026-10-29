@@ -1,0 +1,819 @@
+{
+  "schema": "metro_age_tradeoff_v1",
+  "public_admitted": true,
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "interval": "left closed, right open; not confidence intervals",
+  "choice_definition": "young age<=10 distance>700m / old age>=20 distance<=500m unless sensitivity changes a boundary",
+  "summary_policy": "Explicit regional comparisons retained; broad summaries with only one region have status without a numeric ratio.",
+  "rows": [
+    {
+      "kind": "region",
+      "market": "sale",
+      "setting": "main",
+      "scope": "41135",
+      "label": "성남시 분당구",
+      "status": "comparable",
+      "values": {
+        "young_far_median": [
+          120000,
+          130000
+        ],
+        "old_near_median": [
+          180000,
+          190000
+        ],
+        "ratio": [
+          -35,
+          -30
+        ]
+      }
+    },
+    {
+      "kind": "region",
+      "market": "sale",
+      "setting": "main",
+      "scope": "41150",
+      "label": "의정부시",
+      "status": "insufficient",
+      "values": {
+        "young_far_median": null,
+        "old_near_median": null,
+        "ratio": null
+      }
+    },
+    {
+      "kind": "region",
+      "market": "sale",
+      "setting": "main",
+      "scope": "41360",
+      "label": "남양주시",
+      "status": "comparable",
+      "values": {
+        "young_far_median": [
+          80000,
+          90000
+        ],
+        "old_near_median": [
+          40000,
+          50000
+        ],
+        "ratio": [
+          70,
+          75
+        ]
+      }
+    },
+    {
+      "kind": "region",
+      "market": "sale",
+      "setting": "main",
+      "scope": "41465",
+      "label": "용인시 수지구",
+      "status": "insufficient",
+      "values": {
+        "young_far_median": null,
+        "old_near_median": null,
+        "ratio": null
+      }
+    },
+    {
+      "kind": "region",
+      "market": "sale",
+      "setting": "main",
+      "scope": "41570",
+      "label": "김포시",
+      "status": "comparable",
+      "values": {
+        "young_far_median": [
+          50000,
+          60000
+        ],
+        "old_near_median": [
+          40000,
+          50000
+        ],
+        "ratio": [
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "kind": "region",
+      "market": "jeonse",
+      "setting": "main",
+      "scope": "41135",
+      "label": "성남시 분당구",
+      "status": "insufficient",
+      "values": {
+        "young_far_median": null,
+        "old_near_median": null,
+        "ratio": null
+      }
+    },
+    {
+      "kind": "region",
+      "market": "jeonse",
+      "setting": "main",
+      "scope": "41150",
+      "label": "의정부시",
+      "status": "comparable",
+      "values": {
+        "young_far_median": [
+          30000,
+          40000
+        ],
+        "old_near_median": [
+          20000,
+          30000
+        ],
+        "ratio": [
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "region",
+      "market": "jeonse",
+      "setting": "main",
+      "scope": "41360",
+      "label": "남양주시",
+      "status": "comparable",
+      "values": {
+        "young_far_median": [
+          50000,
+          60000
+        ],
+        "old_near_median": [
+          30000,
+          40000
+        ],
+        "ratio": [
+          35,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "region",
+      "market": "jeonse",
+      "setting": "main",
+      "scope": "41465",
+      "label": "용인시 수지구",
+      "status": "comparable",
+      "values": {
+        "young_far_median": [
+          60000,
+          70000
+        ],
+        "old_near_median": [
+          50000,
+          60000
+        ],
+        "ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "region",
+      "market": "jeonse",
+      "setting": "main",
+      "scope": "41570",
+      "label": "김포시",
+      "status": "comparable",
+      "values": {
+        "young_far_median": [
+          30000,
+          40000
+        ],
+        "old_near_median": [
+          30000,
+          40000
+        ],
+        "ratio": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "sale",
+      "setting": "main",
+      "scope": "11",
+      "status": "insufficient",
+      "values": {
+        "ratio": null
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "sale",
+      "setting": "main",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "sale",
+      "setting": "59",
+      "scope": "41",
+      "status": "insufficient",
+      "values": {
+        "ratio": null
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "sale",
+      "setting": "floor_6_15",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "sale",
+      "setting": "no_inferred",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "sale",
+      "setting": "no_conflict",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "sale",
+      "setting": "no_both",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "sale",
+      "setting": "young9",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "sale",
+      "setting": "old25",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "sale",
+      "setting": "near450",
+      "scope": "41",
+      "status": "single_region_only",
+      "values": {
+        "ratio": null
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "sale",
+      "setting": "near550",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "sale",
+      "setting": "far650",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "sale",
+      "setting": "far750",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "sale",
+      "setting": "drop_largest",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "sale",
+      "setting": "same_dong",
+      "scope": "41",
+      "status": "insufficient",
+      "values": {
+        "ratio": null
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "sale",
+      "setting": "same_household",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          -15,
+          -10
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "jeonse",
+      "setting": "main",
+      "scope": "11",
+      "status": "insufficient",
+      "values": {
+        "ratio": null
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "jeonse",
+      "setting": "main",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "jeonse",
+      "setting": "59",
+      "scope": "41",
+      "status": "insufficient",
+      "values": {
+        "ratio": null
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "jeonse",
+      "setting": "floor_6_15",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "jeonse",
+      "setting": "no_inferred",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "jeonse",
+      "setting": "no_conflict",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "jeonse",
+      "setting": "no_both",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "jeonse",
+      "setting": "young9",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "jeonse",
+      "setting": "old25",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          35,
+          40
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "jeonse",
+      "setting": "near450",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "jeonse",
+      "setting": "near550",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "jeonse",
+      "setting": "far650",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "jeonse",
+      "setting": "far750",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "jeonse",
+      "setting": "drop_largest",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "jeonse",
+      "setting": "same_dong",
+      "scope": "41",
+      "status": "insufficient",
+      "values": {
+        "ratio": null
+      }
+    },
+    {
+      "kind": "summary",
+      "market": "jeonse",
+      "setting": "same_household",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "ratio": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "kind": "common_markets",
+      "market": "both",
+      "setting": "main",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "sale": [
+          45,
+          50
+        ],
+        "jeonse": [
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "kind": "common_markets",
+      "market": "both",
+      "setting": "59",
+      "scope": "41",
+      "status": "insufficient",
+      "values": {
+        "sale": null,
+        "jeonse": null
+      }
+    },
+    {
+      "kind": "common_markets",
+      "market": "both",
+      "setting": "floor_6_15",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "sale": [
+          40,
+          45
+        ],
+        "jeonse": [
+          30,
+          35
+        ]
+      }
+    },
+    {
+      "kind": "common_markets",
+      "market": "both",
+      "setting": "no_inferred",
+      "scope": "41",
+      "status": "single_region_only",
+      "values": {
+        "sale": null,
+        "jeonse": null
+      }
+    },
+    {
+      "kind": "common_markets",
+      "market": "both",
+      "setting": "no_conflict",
+      "scope": "41",
+      "status": "single_region_only",
+      "values": {
+        "sale": null,
+        "jeonse": null
+      }
+    },
+    {
+      "kind": "common_markets",
+      "market": "both",
+      "setting": "no_both",
+      "scope": "41",
+      "status": "single_region_only",
+      "values": {
+        "sale": null,
+        "jeonse": null
+      }
+    },
+    {
+      "kind": "common_markets",
+      "market": "both",
+      "setting": "young9",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "sale": [
+          45,
+          50
+        ],
+        "jeonse": [
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "kind": "common_markets",
+      "market": "both",
+      "setting": "old25",
+      "scope": "41",
+      "status": "insufficient",
+      "values": {
+        "sale": null,
+        "jeonse": null
+      }
+    },
+    {
+      "kind": "common_markets",
+      "market": "both",
+      "setting": "near450",
+      "scope": "41",
+      "status": "insufficient",
+      "values": {
+        "sale": null,
+        "jeonse": null
+      }
+    },
+    {
+      "kind": "common_markets",
+      "market": "both",
+      "setting": "near550",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "sale": [
+          40,
+          45
+        ],
+        "jeonse": [
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "kind": "common_markets",
+      "market": "both",
+      "setting": "far650",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "sale": [
+          40,
+          45
+        ],
+        "jeonse": [
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "kind": "common_markets",
+      "market": "both",
+      "setting": "far750",
+      "scope": "41",
+      "status": "single_region_only",
+      "values": {
+        "sale": null,
+        "jeonse": null
+      }
+    },
+    {
+      "kind": "common_markets",
+      "market": "both",
+      "setting": "drop_largest",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "sale": [
+          15,
+          20
+        ],
+        "jeonse": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "kind": "common_markets",
+      "market": "both",
+      "setting": "same_dong",
+      "scope": "41",
+      "status": "insufficient",
+      "values": {
+        "sale": null,
+        "jeonse": null
+      }
+    },
+    {
+      "kind": "common_markets",
+      "market": "both",
+      "setting": "same_household",
+      "scope": "41",
+      "status": "comparable",
+      "values": {
+        "sale": [
+          -15,
+          -10
+        ],
+        "jeonse": [
+          10,
+          15
+        ]
+      }
+    }
+  ],
+  "sources": {
+    "sale": "https://www.data.go.kr/data/15126469/openapi.do",
+    "rent": "https://www.data.go.kr/data/15126474/openapi.do",
+    "stations": "https://openapi.kric.go.kr/rips/M_01_01/detail.do?id=32"
+  },
+  "limits": [
+    "Observed transactions from supported regional choices, not individual-home matches or causal effects.",
+    "Current station network and construction-year records, not historical network reconstruction or walking time.",
+    "Different supported regions across markets/settings; common-market summaries match regions, not individual homes.",
+    "Finite review of actual fields and selected legacy relationships, not a universal reconstruction guarantee."
+  ]
+}

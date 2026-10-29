@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-29T14:30:34+09:00</updated>
+  <updated>2026-10-29T14:54:15+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -11,10 +11,19 @@
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
   <entry>
+    <title>신축 비역세권 vs 구축 역세권: 더 비싼 쪽은 지역마다 달랐다</title>
+    <id>https://nobot-kang.github.io/posts/metro-age-tradeoff/</id>
+    <published>2026-10-29T14:54:15+09:00</published>
+    <updated>2026-10-29T14:54:15+09:00</updated>
+    <summary>같은 지역의 84형에서 10년 이하·역 700m 밖과 20년 이상·500m 안을 비교했습니다. 매매·신규 전세의 지역별 차이, 공통 지역 비교와 조건을 바꿨을 때의 한계를 살펴봅니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-age-tradeoff/" />
+    <category term="역세권과 단지 조건" />
+  </entry>
+  <entry>
     <title>역세권 전세는 더 비쌀까? 조건에 따라 달라진 84형 보증금</title>
     <id>https://nobot-kang.github.io/posts/metro-jeonse-comparison/</id>
     <published>2026-10-29T14:30:34+09:00</published>
-    <updated>2026-10-29T14:30:34+09:00</updated>
+    <updated>2026-10-29T14:54:15+09:00</updated>
     <summary>서울·수집 경기의 신규 84형 전세 보증금을 직선 700m 안팎으로 비교했습니다. 같은 구·연식 비교와 거리 구간, 조건을 바꿀 때 달라지는 결과와 한계를 살펴봅니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-jeonse-comparison/" />
     <category term="역 거리와 전세·월세" />
