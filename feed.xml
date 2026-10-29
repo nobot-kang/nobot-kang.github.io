@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-30T00:09:57+09:00</updated>
+  <updated>2026-10-30T01:09:34+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>역세권 아파트가 먼저 회복했을까? 2021년 고점과 비교 조건</title>
+    <id>https://nobot-kang.github.io/posts/metro-peak-recovery/</id>
+    <published>2026-10-30T01:09:34+09:00</published>
+    <updated>2026-10-30T01:09:34+09:00</updated>
+    <summary>2021년 고점을 기준으로 서울·수집 경기 아파트의 거리별 회복 비율과 시점을 비교했습니다. 미확인 단지를 분모에 남기고 지역·연식·거리 경계를 바꿔 결과의 한계를 살펴봅니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-peak-recovery/" />
+    <category term="역 거리와 거래의 온도" />
+  </entry>
   <entry>
     <title>역에서 멀수록 주차가 넉넉할까? 주차면과 등록차량 비교</title>
     <id>https://nobot-kang.github.io/posts/metro-parking-distance/</id>

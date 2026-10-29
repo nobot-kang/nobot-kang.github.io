@@ -1,0 +1,899 @@
+{
+  "schema": "metro_peak_recovery_v1",
+  "public_admitted": true,
+  "peak_window": [
+    "2021-01-07",
+    "2021-12-30"
+  ],
+  "end": "2026-06-25",
+  "interval_definition": "5 percentage-point display bands; lower inclusive, upper exclusive except 100% upper endpoint; not confidence intervals",
+  "rows": [
+    {
+      "scope": "11",
+      "kind": "distance",
+      "band": "500",
+      "cumulative": {
+        "2023-Q4": {
+          "lo": 5,
+          "hi": 10,
+          "upper_inclusive": false
+        },
+        "2024-Q4": {
+          "lo": 15,
+          "hi": 20,
+          "upper_inclusive": false
+        },
+        "2025-Q4": {
+          "lo": 45,
+          "hi": 50,
+          "upper_inclusive": false
+        },
+        "2026-Q2": {
+          "lo": 65,
+          "hi": 70,
+          "upper_inclusive": false
+        }
+      }
+    },
+    {
+      "scope": "11",
+      "kind": "binary",
+      "band": "inside",
+      "cumulative": {
+        "2023-Q4": {
+          "lo": 5,
+          "hi": 10,
+          "upper_inclusive": false
+        },
+        "2024-Q4": {
+          "lo": 15,
+          "hi": 20,
+          "upper_inclusive": false
+        },
+        "2025-Q4": {
+          "lo": 45,
+          "hi": 50,
+          "upper_inclusive": false
+        },
+        "2026-Q2": {
+          "lo": 65,
+          "hi": 70,
+          "upper_inclusive": false
+        }
+      },
+      "observed_at_end": {
+        "lo": 85,
+        "hi": 90,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "scope": "11",
+      "kind": "distance",
+      "band": "300",
+      "cumulative": {
+        "2023-Q4": {
+          "lo": 5,
+          "hi": 10,
+          "upper_inclusive": false
+        },
+        "2024-Q4": {
+          "lo": 20,
+          "hi": 25,
+          "upper_inclusive": false
+        },
+        "2025-Q4": {
+          "lo": 50,
+          "hi": 55,
+          "upper_inclusive": false
+        },
+        "2026-Q2": {
+          "lo": 65,
+          "hi": 70,
+          "upper_inclusive": false
+        }
+      }
+    },
+    {
+      "scope": "11",
+      "kind": "distance",
+      "band": "700",
+      "cumulative": {
+        "2023-Q4": {
+          "lo": 5,
+          "hi": 10,
+          "upper_inclusive": false
+        },
+        "2024-Q4": {
+          "lo": 15,
+          "hi": 20,
+          "upper_inclusive": false
+        },
+        "2025-Q4": {
+          "lo": 40,
+          "hi": 45,
+          "upper_inclusive": false
+        },
+        "2026-Q2": {
+          "lo": 60,
+          "hi": 65,
+          "upper_inclusive": false
+        }
+      }
+    },
+    {
+      "scope": "11",
+      "kind": "distance",
+      "band": "over1500",
+      "cumulative": {
+        "2023-Q4": null,
+        "2024-Q4": null,
+        "2025-Q4": null,
+        "2026-Q2": {
+          "lo": 35,
+          "hi": 40,
+          "upper_inclusive": false
+        }
+      }
+    },
+    {
+      "scope": "11",
+      "kind": "binary",
+      "band": "outside",
+      "cumulative": {
+        "2023-Q4": {
+          "lo": 5,
+          "hi": 10,
+          "upper_inclusive": false
+        },
+        "2024-Q4": {
+          "lo": 10,
+          "hi": 15,
+          "upper_inclusive": false
+        },
+        "2025-Q4": {
+          "lo": 25,
+          "hi": 30,
+          "upper_inclusive": false
+        },
+        "2026-Q2": {
+          "lo": 45,
+          "hi": 50,
+          "upper_inclusive": false
+        }
+      },
+      "observed_at_end": {
+        "lo": 85,
+        "hi": 90,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "scope": "11",
+      "kind": "distance",
+      "band": "1000",
+      "cumulative": {
+        "2023-Q4": {
+          "lo": 0,
+          "hi": 5,
+          "upper_inclusive": false
+        },
+        "2024-Q4": {
+          "lo": 10,
+          "hi": 15,
+          "upper_inclusive": false
+        },
+        "2025-Q4": {
+          "lo": 30,
+          "hi": 35,
+          "upper_inclusive": false
+        },
+        "2026-Q2": {
+          "lo": 50,
+          "hi": 55,
+          "upper_inclusive": false
+        }
+      }
+    },
+    {
+      "scope": "11",
+      "kind": "distance",
+      "band": "1500",
+      "cumulative": {
+        "2023-Q4": null,
+        "2024-Q4": null,
+        "2025-Q4": {
+          "lo": 15,
+          "hi": 20,
+          "upper_inclusive": false
+        },
+        "2026-Q2": {
+          "lo": 30,
+          "hi": 35,
+          "upper_inclusive": false
+        }
+      }
+    },
+    {
+      "scope": "41",
+      "kind": "distance",
+      "band": "over1500",
+      "cumulative": {
+        "2023-Q4": null,
+        "2024-Q4": {
+          "lo": 20,
+          "hi": 25,
+          "upper_inclusive": false
+        },
+        "2025-Q4": {
+          "lo": 20,
+          "hi": 25,
+          "upper_inclusive": false
+        },
+        "2026-Q2": {
+          "lo": 25,
+          "hi": 30,
+          "upper_inclusive": false
+        }
+      }
+    },
+    {
+      "scope": "41",
+      "kind": "binary",
+      "band": "outside",
+      "cumulative": {
+        "2023-Q4": {
+          "lo": 10,
+          "hi": 15,
+          "upper_inclusive": false
+        },
+        "2024-Q4": {
+          "lo": 15,
+          "hi": 20,
+          "upper_inclusive": false
+        },
+        "2025-Q4": {
+          "lo": 20,
+          "hi": 25,
+          "upper_inclusive": false
+        },
+        "2026-Q2": {
+          "lo": 25,
+          "hi": 30,
+          "upper_inclusive": false
+        }
+      },
+      "observed_at_end": {
+        "lo": 90,
+        "hi": 95,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "scope": "41",
+      "kind": "distance",
+      "band": "1500",
+      "cumulative": {
+        "2023-Q4": {
+          "lo": 10,
+          "hi": 15,
+          "upper_inclusive": false
+        },
+        "2024-Q4": {
+          "lo": 10,
+          "hi": 15,
+          "upper_inclusive": false
+        },
+        "2025-Q4": {
+          "lo": 15,
+          "hi": 20,
+          "upper_inclusive": false
+        },
+        "2026-Q2": {
+          "lo": 25,
+          "hi": 30,
+          "upper_inclusive": false
+        }
+      }
+    },
+    {
+      "scope": "41",
+      "kind": "distance",
+      "band": "500",
+      "cumulative": {
+        "2023-Q4": {
+          "lo": 5,
+          "hi": 10,
+          "upper_inclusive": false
+        },
+        "2024-Q4": {
+          "lo": 10,
+          "hi": 15,
+          "upper_inclusive": false
+        },
+        "2025-Q4": {
+          "lo": 15,
+          "hi": 20,
+          "upper_inclusive": false
+        },
+        "2026-Q2": {
+          "lo": 25,
+          "hi": 30,
+          "upper_inclusive": false
+        }
+      }
+    },
+    {
+      "scope": "41",
+      "kind": "binary",
+      "band": "inside",
+      "cumulative": {
+        "2023-Q4": {
+          "lo": 5,
+          "hi": 10,
+          "upper_inclusive": false
+        },
+        "2024-Q4": {
+          "lo": 10,
+          "hi": 15,
+          "upper_inclusive": false
+        },
+        "2025-Q4": {
+          "lo": 20,
+          "hi": 25,
+          "upper_inclusive": false
+        },
+        "2026-Q2": {
+          "lo": 30,
+          "hi": 35,
+          "upper_inclusive": false
+        }
+      },
+      "observed_at_end": {
+        "lo": 90,
+        "hi": 95,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "scope": "41",
+      "kind": "distance",
+      "band": "700",
+      "cumulative": {
+        "2023-Q4": null,
+        "2024-Q4": {
+          "lo": 10,
+          "hi": 15,
+          "upper_inclusive": false
+        },
+        "2025-Q4": {
+          "lo": 20,
+          "hi": 25,
+          "upper_inclusive": false
+        },
+        "2026-Q2": {
+          "lo": 30,
+          "hi": 35,
+          "upper_inclusive": false
+        }
+      }
+    },
+    {
+      "scope": "41",
+      "kind": "distance",
+      "band": "1000",
+      "cumulative": {
+        "2023-Q4": {
+          "lo": 10,
+          "hi": 15,
+          "upper_inclusive": false
+        },
+        "2024-Q4": {
+          "lo": 10,
+          "hi": 15,
+          "upper_inclusive": false
+        },
+        "2025-Q4": {
+          "lo": 20,
+          "hi": 25,
+          "upper_inclusive": false
+        },
+        "2026-Q2": {
+          "lo": 30,
+          "hi": 35,
+          "upper_inclusive": false
+        }
+      }
+    },
+    {
+      "scope": "41",
+      "kind": "distance",
+      "band": "300",
+      "cumulative": {
+        "2023-Q4": null,
+        "2024-Q4": {
+          "lo": 10,
+          "hi": 15,
+          "upper_inclusive": false
+        },
+        "2025-Q4": {
+          "lo": 20,
+          "hi": 25,
+          "upper_inclusive": false
+        },
+        "2026-Q2": {
+          "lo": 30,
+          "hi": 35,
+          "upper_inclusive": false
+        }
+      }
+    }
+  ],
+  "controls": [
+    {
+      "mode": "main",
+      "scope": "11",
+      "control": "district",
+      "difference_pp": {
+        "lo": 5,
+        "hi": 10,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "main",
+      "scope": "11",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": -5,
+        "hi": 0,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "control": "district",
+      "difference_pp": {
+        "lo": 0,
+        "hi": 5,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "main",
+      "scope": "41",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": 0,
+        "hi": 5,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "59",
+      "scope": "11",
+      "control": "district",
+      "difference_pp": {
+        "lo": 10,
+        "hi": 15,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "59",
+      "scope": "11",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": 5,
+        "hi": 10,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "59",
+      "scope": "41",
+      "control": "district",
+      "difference_pp": {
+        "lo": 0,
+        "hi": 5,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "59",
+      "scope": "41",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": -5,
+        "hi": 0,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "strong",
+      "scope": "11",
+      "control": "district",
+      "difference_pp": {
+        "lo": 0,
+        "hi": 5,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "strong",
+      "scope": "11",
+      "control": "district_age",
+      "difference_pp": null
+    },
+    {
+      "mode": "strong",
+      "scope": "41",
+      "control": "district",
+      "difference_pp": {
+        "lo": -5,
+        "hi": 0,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "strong",
+      "scope": "41",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": -5,
+        "hi": 0,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "max_distance",
+      "scope": "11",
+      "control": "district",
+      "difference_pp": {
+        "lo": 5,
+        "hi": 10,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "max_distance",
+      "scope": "11",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": -5,
+        "hi": 0,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "max_distance",
+      "scope": "41",
+      "control": "district",
+      "difference_pp": {
+        "lo": 0,
+        "hi": 5,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "max_distance",
+      "scope": "41",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": 0,
+        "hi": 5,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "near650",
+      "scope": "11",
+      "control": "district",
+      "difference_pp": {
+        "lo": 5,
+        "hi": 10,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "near650",
+      "scope": "11",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": 0,
+        "hi": 5,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "near650",
+      "scope": "41",
+      "control": "district",
+      "difference_pp": {
+        "lo": 0,
+        "hi": 5,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "near650",
+      "scope": "41",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": 0,
+        "hi": 5,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "near750",
+      "scope": "11",
+      "control": "district",
+      "difference_pp": {
+        "lo": 10,
+        "hi": 15,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "near750",
+      "scope": "11",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": -5,
+        "hi": 0,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "near750",
+      "scope": "41",
+      "control": "district",
+      "difference_pp": {
+        "lo": 0,
+        "hi": 5,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "near750",
+      "scope": "41",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": 5,
+        "hi": 10,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "no_inferred",
+      "scope": "11",
+      "control": "district",
+      "difference_pp": {
+        "lo": 5,
+        "hi": 10,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "no_inferred",
+      "scope": "11",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": -5,
+        "hi": 0,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "no_inferred",
+      "scope": "41",
+      "control": "district",
+      "difference_pp": null
+    },
+    {
+      "mode": "no_inferred",
+      "scope": "41",
+      "control": "district_age",
+      "difference_pp": null
+    },
+    {
+      "mode": "no_conflict",
+      "scope": "11",
+      "control": "district",
+      "difference_pp": {
+        "lo": 5,
+        "hi": 10,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "no_conflict",
+      "scope": "11",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": -5,
+        "hi": 0,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "no_conflict",
+      "scope": "41",
+      "control": "district",
+      "difference_pp": null
+    },
+    {
+      "mode": "no_conflict",
+      "scope": "41",
+      "control": "district_age",
+      "difference_pp": null
+    },
+    {
+      "mode": "five_week",
+      "scope": "11",
+      "control": "district",
+      "difference_pp": {
+        "lo": 5,
+        "hi": 10,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "five_week",
+      "scope": "11",
+      "control": "district_age",
+      "difference_pp": null
+    },
+    {
+      "mode": "five_week",
+      "scope": "41",
+      "control": "district",
+      "difference_pp": {
+        "lo": 0,
+        "hi": 5,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "five_week",
+      "scope": "41",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": 0,
+        "hi": 5,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "decline5",
+      "scope": "11",
+      "control": "district",
+      "difference_pp": {
+        "lo": 5,
+        "hi": 10,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "decline5",
+      "scope": "11",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": -5,
+        "hi": 0,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "decline5",
+      "scope": "41",
+      "control": "district",
+      "difference_pp": {
+        "lo": 5,
+        "hi": 10,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "decline5",
+      "scope": "41",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": 5,
+        "hi": 10,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "exclude_recent",
+      "scope": "11",
+      "control": "district",
+      "difference_pp": {
+        "lo": 5,
+        "hi": 10,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "exclude_recent",
+      "scope": "11",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": -5,
+        "hi": 0,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "exclude_recent",
+      "scope": "41",
+      "control": "district",
+      "difference_pp": {
+        "lo": 0,
+        "hi": 5,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "exclude_recent",
+      "scope": "41",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": 0,
+        "hi": 5,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "exclude_recent_uncertain",
+      "scope": "11",
+      "control": "district",
+      "difference_pp": {
+        "lo": 5,
+        "hi": 10,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "exclude_recent_uncertain",
+      "scope": "11",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": 0,
+        "hi": 5,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "exclude_recent_uncertain",
+      "scope": "41",
+      "control": "district",
+      "difference_pp": {
+        "lo": -5,
+        "hi": 0,
+        "upper_inclusive": false
+      }
+    },
+    {
+      "mode": "exclude_recent_uncertain",
+      "scope": "41",
+      "control": "district_age",
+      "difference_pp": {
+        "lo": 0,
+        "hi": 5,
+        "upper_inclusive": false
+      }
+    }
+  ],
+  "snapshot": "2026-10-30",
+  "limits": [
+    "Fixed supported 2021 modeled representative dwellings; current surviving-stock selection.",
+    "First three consecutive eligible weekly closes after a post-2021 below-peak observation; not independent trades.",
+    "Unconfirmed and missing outcomes stay in the fixed denominator; ever recovered differs from terminal state.",
+    "Current straight-line station groups; opening-date candidate exclusions do not reconstruct historical service.",
+    "Controlled estimates equally weight eligible matched strata; changing conditions can change membership.",
+    "Display bands are not confidence intervals; withheld fields are not zero."
+  ]
+}
