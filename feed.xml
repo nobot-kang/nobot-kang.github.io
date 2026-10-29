@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-29T18:34:42+09:00</updated>
+  <updated>2026-10-29T18:54:57+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>비싼 아파트는 모두 역세권일까? 가격 10분위별 역 거리</title>
+    <id>https://nobot-kang.github.io/posts/metro-price-decile-distance/</id>
+    <published>2026-10-29T18:54:57+09:00</published>
+    <updated>2026-10-29T18:54:57+09:00</updated>
+    <summary>서울·수집 경기 84형 단지 가격 10분위별 현재 역 거리와 노선 분포를 비교했습니다. 높은 가격의 비역세권 비중, 기간별 순위 변화와 지역·연식 통제의 한계를 확인합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-price-decile-distance/" />
+    <category term="역 이름으로 읽는 가격 지도" />
+  </entry>
   <entry>
     <title>전세 3억 원이면 역 가까운 집이 더 작을까? 면적·연식과 비교의 한계</title>
     <id>https://nobot-kang.github.io/posts/metro-jeonse-budget-choices/</id>
