@@ -1,0 +1,504 @@
+{
+  "schema": "metro_transfer_prices_v1",
+  "public_admitted": true,
+  "snapshot": "2026-10-30",
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "baseline": [
+    {
+      "destination": "gangnam",
+      "dimension": "age",
+      "region": "11200",
+      "band": "6_10",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "ratio_tenths": [
+        10,
+        11
+      ]
+    },
+    {
+      "destination": "gangnam",
+      "dimension": "age",
+      "region": "11650",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "ratio_tenths": [
+        7,
+        8
+      ]
+    },
+    {
+      "destination": "gangnam",
+      "dimension": "age",
+      "region": "11680",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "ratio_tenths": [
+        9,
+        10
+      ]
+    },
+    {
+      "destination": "gangnam",
+      "dimension": "age_size",
+      "region": "11500",
+      "band": "16_20",
+      "age": "20_29",
+      "size": "under300",
+      "comparison": 1,
+      "ratio_tenths": [
+        13,
+        14
+      ]
+    },
+    {
+      "destination": "gangnam",
+      "dimension": "age_size",
+      "region": "11560",
+      "band": "11_15",
+      "age": "20_29",
+      "size": "under300",
+      "comparison": 1,
+      "ratio_tenths": [
+        11,
+        12
+      ]
+    },
+    {
+      "destination": "gangnam",
+      "dimension": "age_size",
+      "region": "11650",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "under300",
+      "comparison": 1,
+      "ratio_tenths": [
+        8,
+        9
+      ]
+    },
+    {
+      "destination": "cbd",
+      "dimension": "age",
+      "region": "11200",
+      "band": "6_10",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "ratio_tenths": [
+        7,
+        8
+      ]
+    },
+    {
+      "destination": "cbd",
+      "dimension": "age",
+      "region": "11290",
+      "band": "6_10",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "ratio_tenths": [
+        11,
+        12
+      ]
+    },
+    {
+      "destination": "cbd",
+      "dimension": "age",
+      "region": "11440",
+      "band": "0_5",
+      "age": "10_19",
+      "size": "all",
+      "comparison": 1,
+      "ratio_tenths": [
+        10,
+        11
+      ]
+    },
+    {
+      "destination": "cbd",
+      "dimension": "age",
+      "region": "11440",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "ratio_tenths": [
+        12,
+        13
+      ]
+    },
+    {
+      "destination": "yeouido",
+      "dimension": "age",
+      "region": "11440",
+      "band": "0_5",
+      "age": "10_19",
+      "size": "all",
+      "comparison": 1,
+      "ratio_tenths": [
+        12,
+        13
+      ]
+    },
+    {
+      "destination": "yeouido",
+      "dimension": "age",
+      "region": "11440",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "ratio_tenths": [
+        13,
+        14
+      ]
+    },
+    {
+      "destination": "yeouido",
+      "dimension": "age",
+      "region": "11710",
+      "band": "21_plus",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "ratio_tenths": [
+        8,
+        9
+      ]
+    }
+  ],
+  "gangnam_settings": [
+    {
+      "dimension": "age",
+      "region": "11200",
+      "band": "6_10",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "mode": "main",
+      "ratio_tenths": [
+        10,
+        11
+      ]
+    },
+    {
+      "dimension": "age",
+      "region": "11200",
+      "band": "6_10",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "mode": "650m",
+      "ratio_tenths": [
+        10,
+        11
+      ]
+    },
+    {
+      "dimension": "age",
+      "region": "11200",
+      "band": "6_10",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "mode": "750m",
+      "ratio_tenths": [
+        10,
+        11
+      ]
+    },
+    {
+      "dimension": "age",
+      "region": "11200",
+      "band": "6_10",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "mode": "no_inferred",
+      "ratio_tenths": [
+        10,
+        11
+      ]
+    },
+    {
+      "dimension": "age",
+      "region": "11200",
+      "band": "6_10",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "mode": "no_conflict",
+      "ratio_tenths": [
+        10,
+        11
+      ]
+    },
+    {
+      "dimension": "age",
+      "region": "11200",
+      "band": "6_10",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "mode": "reverse_loop",
+      "ratio_tenths": [
+        10,
+        11
+      ]
+    },
+    {
+      "dimension": "age",
+      "region": "11650",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "mode": "main",
+      "ratio_tenths": [
+        7,
+        8
+      ]
+    },
+    {
+      "dimension": "age",
+      "region": "11650",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "mode": "650m",
+      "ratio_tenths": [
+        7,
+        8
+      ]
+    },
+    {
+      "dimension": "age",
+      "region": "11650",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "mode": "750m",
+      "ratio_tenths": null
+    },
+    {
+      "dimension": "age",
+      "region": "11650",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "mode": "no_inferred",
+      "ratio_tenths": [
+        7,
+        8
+      ]
+    },
+    {
+      "dimension": "age",
+      "region": "11650",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "mode": "no_conflict",
+      "ratio_tenths": [
+        7,
+        8
+      ]
+    },
+    {
+      "dimension": "age",
+      "region": "11650",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "mode": "reverse_loop",
+      "ratio_tenths": [
+        7,
+        8
+      ]
+    },
+    {
+      "dimension": "age",
+      "region": "11680",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "mode": "main",
+      "ratio_tenths": [
+        9,
+        10
+      ]
+    },
+    {
+      "dimension": "age",
+      "region": "11680",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "mode": "650m",
+      "ratio_tenths": null
+    },
+    {
+      "dimension": "age",
+      "region": "11680",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "mode": "750m",
+      "ratio_tenths": [
+        9,
+        10
+      ]
+    },
+    {
+      "dimension": "age",
+      "region": "11680",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "mode": "no_inferred",
+      "ratio_tenths": [
+        9,
+        10
+      ]
+    },
+    {
+      "dimension": "age",
+      "region": "11680",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "mode": "no_conflict",
+      "ratio_tenths": [
+        9,
+        10
+      ]
+    },
+    {
+      "dimension": "age",
+      "region": "11680",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "mode": "reverse_loop",
+      "ratio_tenths": [
+        9,
+        10
+      ]
+    }
+  ],
+  "gangnam_transactions": [
+    {
+      "dimension": "age",
+      "region": "11200",
+      "band": "6_10",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "ratio_tenths": [
+        10,
+        11
+      ]
+    },
+    {
+      "dimension": "age",
+      "region": "11650",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "ratio_tenths": [
+        7,
+        8
+      ]
+    },
+    {
+      "dimension": "age",
+      "region": "11680",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "ratio_tenths": [
+        9,
+        10
+      ]
+    }
+  ],
+  "cbd_without_seoul": [
+    {
+      "dimension": "age",
+      "region": "11200",
+      "band": "6_10",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "ratio_tenths": [
+        7,
+        8
+      ]
+    },
+    {
+      "dimension": "age",
+      "region": "11290",
+      "band": "6_10",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "ratio_tenths": null
+    },
+    {
+      "dimension": "age",
+      "region": "11440",
+      "band": "0_5",
+      "age": "10_19",
+      "size": "all",
+      "comparison": 1,
+      "ratio_tenths": null
+    },
+    {
+      "dimension": "age",
+      "region": "11440",
+      "band": "0_5",
+      "age": "20_29",
+      "size": "all",
+      "comparison": 1,
+      "ratio_tenths": [
+        13,
+        14
+      ]
+    }
+  ],
+  "unit": "ratio in tenths",
+  "closure": "lower inclusive, upper exclusive",
+  "ratio": "zero-transfer complex-median price divided by one-transfer complex-median price; transaction section uses trade medians",
+  "limits": [
+    "Current nearest station group within 700m, straight-line distance; radius sensitivities are separate.",
+    "Regular weekday local-service patterns; selected KORAIL timetable effective 2026-09-01 retains a draft label.",
+    "No express, ITX, temporary-service or departure-time connection guarantee; not an all-service minimum.",
+    "Transfer-first then stop-count routes; no historical commuting or causal price effect.",
+    "Loop-direction counterfactual is a sensitivity, not a claim of reverse-direction service.",
+    "Intervals are display precision, not confidence intervals. Withheld is not zero.",
+    "Different destinations and controls select different complexes. Repeated main values are aliases."
+  ]
+}
