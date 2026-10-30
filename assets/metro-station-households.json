@@ -1,0 +1,432 @@
+{
+  "schema": "metro_station_households_v1",
+  "public_admitted": true,
+  "interval_households": 5000,
+  "examples": [
+    {
+      "selection": "higher",
+      "station_name": "도곡",
+      "lines": [
+        "3호선",
+        "수인분당선"
+      ],
+      "values": {
+        "main": [
+          15000,
+          20000
+        ],
+        "650m": null,
+        "750m": [
+          15000,
+          20000
+        ],
+        "all_positions": [
+          15000,
+          20000
+        ],
+        "no_inferred": [
+          15000,
+          20000
+        ],
+        "no_region_conflict": [
+          15000,
+          20000
+        ],
+        "no_household_conflict": null
+      }
+    },
+    {
+      "selection": "higher",
+      "station_name": "범골",
+      "lines": [
+        "의정부경전철"
+      ],
+      "values": {
+        "main": [
+          15000,
+          20000
+        ],
+        "650m": null,
+        "750m": [
+          15000,
+          20000
+        ],
+        "all_positions": [
+          15000,
+          20000
+        ],
+        "no_inferred": [
+          15000,
+          20000
+        ],
+        "no_region_conflict": [
+          15000,
+          20000
+        ],
+        "no_household_conflict": null
+      }
+    },
+    {
+      "selection": "higher",
+      "station_name": "잠원",
+      "lines": [
+        "3호선"
+      ],
+      "values": {
+        "main": [
+          15000,
+          20000
+        ],
+        "650m": [
+          15000,
+          20000
+        ],
+        "750m": [
+          15000,
+          20000
+        ],
+        "all_positions": [
+          15000,
+          20000
+        ],
+        "no_inferred": [
+          15000,
+          20000
+        ],
+        "no_region_conflict": [
+          15000,
+          20000
+        ],
+        "no_household_conflict": [
+          15000,
+          20000
+        ]
+      }
+    },
+    {
+      "selection": "higher",
+      "station_name": "행당",
+      "lines": [
+        "5호선"
+      ],
+      "values": {
+        "main": [
+          15000,
+          20000
+        ],
+        "650m": null,
+        "750m": null,
+        "all_positions": [
+          15000,
+          20000
+        ],
+        "no_inferred": [
+          15000,
+          20000
+        ],
+        "no_region_conflict": [
+          15000,
+          20000
+        ],
+        "no_household_conflict": null
+      }
+    },
+    {
+      "selection": "higher",
+      "station_name": "회룡",
+      "lines": [
+        "1호선",
+        "의정부경전철"
+      ],
+      "values": {
+        "main": [
+          15000,
+          20000
+        ],
+        "650m": [
+          15000,
+          20000
+        ],
+        "750m": [
+          15000,
+          20000
+        ],
+        "all_positions": [
+          15000,
+          20000
+        ],
+        "no_inferred": [
+          15000,
+          20000
+        ],
+        "no_region_conflict": [
+          15000,
+          20000
+        ],
+        "no_household_conflict": null
+      }
+    },
+    {
+      "selection": "lower",
+      "station_name": "가산디지털단지",
+      "lines": [
+        "1호선",
+        "7호선"
+      ],
+      "values": {
+        "main": [
+          0,
+          5000
+        ],
+        "650m": [
+          0,
+          5000
+        ],
+        "750m": [
+          0,
+          5000
+        ],
+        "all_positions": [
+          0,
+          5000
+        ],
+        "no_inferred": [
+          0,
+          5000
+        ],
+        "no_region_conflict": [
+          0,
+          5000
+        ],
+        "no_household_conflict": [
+          0,
+          5000
+        ]
+      }
+    },
+    {
+      "selection": "lower",
+      "station_name": "면목",
+      "lines": [
+        "7호선"
+      ],
+      "values": {
+        "main": [
+          0,
+          5000
+        ],
+        "650m": [
+          0,
+          5000
+        ],
+        "750m": [
+          0,
+          5000
+        ],
+        "all_positions": [
+          0,
+          5000
+        ],
+        "no_inferred": [
+          0,
+          5000
+        ],
+        "no_region_conflict": [
+          0,
+          5000
+        ],
+        "no_household_conflict": [
+          0,
+          5000
+        ]
+      }
+    },
+    {
+      "selection": "lower",
+      "station_name": "모란",
+      "lines": [
+        "8호선",
+        "수인분당선"
+      ],
+      "values": {
+        "main": [
+          0,
+          5000
+        ],
+        "650m": [
+          0,
+          5000
+        ],
+        "750m": [
+          0,
+          5000
+        ],
+        "all_positions": [
+          0,
+          5000
+        ],
+        "no_inferred": [
+          0,
+          5000
+        ],
+        "no_region_conflict": [
+          0,
+          5000
+        ],
+        "no_household_conflict": [
+          0,
+          5000
+        ]
+      }
+    },
+    {
+      "selection": "lower",
+      "station_name": "서초",
+      "lines": [
+        "2호선"
+      ],
+      "values": {
+        "main": [
+          0,
+          5000
+        ],
+        "650m": [
+          0,
+          5000
+        ],
+        "750m": [
+          0,
+          5000
+        ],
+        "all_positions": [
+          0,
+          5000
+        ],
+        "no_inferred": [
+          0,
+          5000
+        ],
+        "no_region_conflict": [
+          0,
+          5000
+        ],
+        "no_household_conflict": [
+          0,
+          5000
+        ]
+      }
+    },
+    {
+      "selection": "lower",
+      "station_name": "한성백제",
+      "lines": [
+        "9호선"
+      ],
+      "values": {
+        "main": [
+          0,
+          5000
+        ],
+        "650m": null,
+        "750m": null,
+        "all_positions": [
+          0,
+          5000
+        ],
+        "no_inferred": [
+          0,
+          5000
+        ],
+        "no_region_conflict": [
+          0,
+          5000
+        ],
+        "no_household_conflict": [
+          0,
+          5000
+        ]
+      }
+    }
+  ],
+  "line_distribution": [
+    {
+      "line": "1호선",
+      "values": {
+        "q25": [
+          5000,
+          10000
+        ],
+        "median": [
+          5000,
+          10000
+        ],
+        "q75": [
+          5000,
+          10000
+        ]
+      }
+    },
+    {
+      "line": "2호선",
+      "values": {
+        "q25": [
+          0,
+          5000
+        ],
+        "median": [
+          5000,
+          10000
+        ],
+        "q75": [
+          5000,
+          10000
+        ]
+      }
+    },
+    {
+      "line": "3호선",
+      "values": {
+        "q25": null,
+        "median": [
+          5000,
+          10000
+        ],
+        "q75": null
+      }
+    },
+    {
+      "line": "5호선",
+      "values": {
+        "q25": [
+          5000,
+          10000
+        ],
+        "median": [
+          5000,
+          10000
+        ],
+        "q75": [
+          10000,
+          15000
+        ]
+      }
+    },
+    {
+      "line": "7호선",
+      "values": {
+        "q25": [
+          0,
+          5000
+        ],
+        "median": [
+          5000,
+          10000
+        ],
+        "q75": [
+          5000,
+          10000
+        ]
+      }
+    }
+  ]
+}
