@@ -1,0 +1,1636 @@
+{
+  "schema": "metro_age_budget_v1",
+  "public_admitted": true,
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "price_unit": "만원",
+  "interval_width": 10000,
+  "rows": [
+    {
+      "scope": "11",
+      "age": "0_9",
+      "distance": "300",
+      "base": {
+        "q25": [
+          140000,
+          150000
+        ],
+        "median": [
+          170000,
+          180000
+        ],
+        "q75": [
+          190000,
+          200000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          180000,
+          190000
+        ],
+        "drop_largest": [
+          170000,
+          180000
+        ],
+        "no_inferred": [
+          170000,
+          180000
+        ],
+        "no_region_conflict": [
+          170000,
+          180000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "0_9",
+      "distance": "500",
+      "base": {
+        "q25": [
+          130000,
+          140000
+        ],
+        "median": [
+          160000,
+          170000
+        ],
+        "q75": [
+          220000,
+          230000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          180000,
+          190000
+        ],
+        "drop_largest": [
+          160000,
+          170000
+        ],
+        "no_inferred": [
+          160000,
+          170000
+        ],
+        "no_region_conflict": [
+          160000,
+          170000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "0_9",
+      "distance": "700",
+      "base": {
+        "q25": [
+          110000,
+          120000
+        ],
+        "median": [
+          130000,
+          140000
+        ],
+        "q75": [
+          180000,
+          190000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          140000,
+          150000
+        ],
+        "drop_largest": [
+          130000,
+          140000
+        ],
+        "no_inferred": [
+          130000,
+          140000
+        ],
+        "no_region_conflict": [
+          130000,
+          140000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "0_9",
+      "distance": "1000",
+      "base": {
+        "q25": [
+          110000,
+          120000
+        ],
+        "median": [
+          140000,
+          150000
+        ],
+        "q75": [
+          180000,
+          190000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": null,
+        "drop_largest": null,
+        "no_inferred": [
+          140000,
+          150000
+        ],
+        "no_region_conflict": [
+          140000,
+          150000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "0_9",
+      "distance": "1500",
+      "base": {
+        "q25": [
+          100000,
+          110000
+        ],
+        "median": [
+          120000,
+          130000
+        ],
+        "q75": [
+          130000,
+          140000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": null,
+        "drop_largest": [
+          120000,
+          130000
+        ],
+        "no_inferred": [
+          120000,
+          130000
+        ],
+        "no_region_conflict": [
+          120000,
+          130000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "0_9",
+      "distance": "over1500",
+      "base": {
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "sensitivity": {}
+    },
+    {
+      "scope": "11",
+      "age": "10_19",
+      "distance": "300",
+      "base": {
+        "q25": [
+          90000,
+          100000
+        ],
+        "median": [
+          140000,
+          150000
+        ],
+        "q75": [
+          210000,
+          220000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          120000,
+          130000
+        ],
+        "drop_largest": null,
+        "no_inferred": [
+          140000,
+          150000
+        ],
+        "no_region_conflict": [
+          140000,
+          150000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "10_19",
+      "distance": "500",
+      "base": {
+        "q25": [
+          100000,
+          110000
+        ],
+        "median": [
+          140000,
+          150000
+        ],
+        "q75": [
+          190000,
+          200000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          110000,
+          120000
+        ],
+        "drop_largest": null,
+        "no_inferred": [
+          140000,
+          150000
+        ],
+        "no_region_conflict": [
+          140000,
+          150000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "10_19",
+      "distance": "700",
+      "base": {
+        "q25": [
+          90000,
+          100000
+        ],
+        "median": [
+          130000,
+          140000
+        ],
+        "q75": [
+          160000,
+          170000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          100000,
+          110000
+        ],
+        "drop_largest": null,
+        "no_inferred": [
+          130000,
+          140000
+        ],
+        "no_region_conflict": [
+          130000,
+          140000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "10_19",
+      "distance": "1000",
+      "base": {
+        "q25": [
+          80000,
+          90000
+        ],
+        "median": [
+          100000,
+          110000
+        ],
+        "q75": [
+          120000,
+          130000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          90000,
+          100000
+        ],
+        "drop_largest": [
+          100000,
+          110000
+        ],
+        "no_inferred": [
+          100000,
+          110000
+        ],
+        "no_region_conflict": [
+          100000,
+          110000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "10_19",
+      "distance": "1500",
+      "base": {
+        "q25": [
+          80000,
+          90000
+        ],
+        "median": [
+          90000,
+          100000
+        ],
+        "q75": [
+          120000,
+          130000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          80000,
+          90000
+        ],
+        "drop_largest": [
+          90000,
+          100000
+        ],
+        "no_inferred": [
+          90000,
+          100000
+        ],
+        "no_region_conflict": [
+          90000,
+          100000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "10_19",
+      "distance": "over1500",
+      "base": {
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "sensitivity": {}
+    },
+    {
+      "scope": "11",
+      "age": "20_29",
+      "distance": "300",
+      "base": {
+        "q25": [
+          80000,
+          90000
+        ],
+        "median": [
+          100000,
+          110000
+        ],
+        "q75": [
+          150000,
+          160000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          80000,
+          90000
+        ],
+        "drop_largest": [
+          100000,
+          110000
+        ],
+        "no_inferred": [
+          100000,
+          110000
+        ],
+        "no_region_conflict": [
+          100000,
+          110000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "20_29",
+      "distance": "500",
+      "base": {
+        "q25": [
+          70000,
+          80000
+        ],
+        "median": [
+          90000,
+          100000
+        ],
+        "q75": [
+          130000,
+          140000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          80000,
+          90000
+        ],
+        "drop_largest": [
+          90000,
+          100000
+        ],
+        "no_inferred": [
+          90000,
+          100000
+        ],
+        "no_region_conflict": [
+          90000,
+          100000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "20_29",
+      "distance": "700",
+      "base": {
+        "q25": [
+          70000,
+          80000
+        ],
+        "median": [
+          90000,
+          100000
+        ],
+        "q75": [
+          120000,
+          130000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          80000,
+          90000
+        ],
+        "drop_largest": [
+          90000,
+          100000
+        ],
+        "no_inferred": [
+          90000,
+          100000
+        ],
+        "no_region_conflict": [
+          90000,
+          100000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "20_29",
+      "distance": "1000",
+      "base": {
+        "q25": [
+          70000,
+          80000
+        ],
+        "median": [
+          90000,
+          100000
+        ],
+        "q75": [
+          110000,
+          120000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          70000,
+          80000
+        ],
+        "drop_largest": [
+          90000,
+          100000
+        ],
+        "no_inferred": [
+          90000,
+          100000
+        ],
+        "no_region_conflict": [
+          90000,
+          100000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "20_29",
+      "distance": "1500",
+      "base": {
+        "q25": [
+          60000,
+          70000
+        ],
+        "median": [
+          70000,
+          80000
+        ],
+        "q75": [
+          90000,
+          100000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          60000,
+          70000
+        ],
+        "drop_largest": [
+          70000,
+          80000
+        ],
+        "no_inferred": [
+          70000,
+          80000
+        ],
+        "no_region_conflict": [
+          70000,
+          80000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "20_29",
+      "distance": "over1500",
+      "base": {
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "sensitivity": {}
+    },
+    {
+      "scope": "11",
+      "age": "30_plus",
+      "distance": "300",
+      "base": {
+        "q25": [
+          70000,
+          80000
+        ],
+        "median": [
+          100000,
+          110000
+        ],
+        "q75": [
+          150000,
+          160000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          100000,
+          110000
+        ],
+        "drop_largest": [
+          100000,
+          110000
+        ],
+        "no_inferred": [
+          100000,
+          110000
+        ],
+        "no_region_conflict": [
+          100000,
+          110000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "30_plus",
+      "distance": "500",
+      "base": {
+        "q25": [
+          80000,
+          90000
+        ],
+        "median": [
+          110000,
+          120000
+        ],
+        "q75": [
+          150000,
+          160000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          110000,
+          120000
+        ],
+        "drop_largest": [
+          110000,
+          120000
+        ],
+        "no_inferred": [
+          110000,
+          120000
+        ],
+        "no_region_conflict": [
+          110000,
+          120000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "30_plus",
+      "distance": "700",
+      "base": {
+        "q25": [
+          70000,
+          80000
+        ],
+        "median": [
+          110000,
+          120000
+        ],
+        "q75": [
+          170000,
+          180000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": null,
+        "drop_largest": null,
+        "no_inferred": [
+          110000,
+          120000
+        ],
+        "no_region_conflict": [
+          110000,
+          120000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "30_plus",
+      "distance": "1000",
+      "base": {
+        "q25": [
+          60000,
+          70000
+        ],
+        "median": [
+          70000,
+          80000
+        ],
+        "q75": [
+          110000,
+          120000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          70000,
+          80000
+        ],
+        "drop_largest": [
+          70000,
+          80000
+        ],
+        "no_inferred": [
+          70000,
+          80000
+        ],
+        "no_region_conflict": [
+          70000,
+          80000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "30_plus",
+      "distance": "1500",
+      "base": {
+        "q25": [
+          50000,
+          60000
+        ],
+        "median": [
+          60000,
+          70000
+        ],
+        "q75": [
+          110000,
+          120000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          50000,
+          60000
+        ],
+        "drop_largest": null,
+        "no_inferred": [
+          60000,
+          70000
+        ],
+        "no_region_conflict": [
+          60000,
+          70000
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "age": "30_plus",
+      "distance": "over1500",
+      "base": {
+        "q25": null,
+        "median": null,
+        "q75": null
+      },
+      "sensitivity": {}
+    },
+    {
+      "scope": "41",
+      "age": "0_9",
+      "distance": "300",
+      "base": {
+        "q25": [
+          80000,
+          90000
+        ],
+        "median": [
+          90000,
+          100000
+        ],
+        "q75": [
+          110000,
+          120000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": null,
+        "drop_largest": null,
+        "no_inferred": [
+          90000,
+          100000
+        ],
+        "no_region_conflict": [
+          90000,
+          100000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "0_9",
+      "distance": "500",
+      "base": {
+        "q25": [
+          80000,
+          90000
+        ],
+        "median": [
+          90000,
+          100000
+        ],
+        "q75": [
+          120000,
+          130000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          80000,
+          90000
+        ],
+        "drop_largest": [
+          90000,
+          100000
+        ],
+        "no_inferred": [
+          90000,
+          100000
+        ],
+        "no_region_conflict": [
+          90000,
+          100000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "0_9",
+      "distance": "700",
+      "base": {
+        "q25": [
+          70000,
+          80000
+        ],
+        "median": [
+          80000,
+          90000
+        ],
+        "q75": [
+          100000,
+          110000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          80000,
+          90000
+        ],
+        "drop_largest": [
+          80000,
+          90000
+        ],
+        "no_inferred": [
+          80000,
+          90000
+        ],
+        "no_region_conflict": [
+          80000,
+          90000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "0_9",
+      "distance": "1000",
+      "base": {
+        "q25": [
+          60000,
+          70000
+        ],
+        "median": [
+          70000,
+          80000
+        ],
+        "q75": [
+          100000,
+          110000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          70000,
+          80000
+        ],
+        "drop_largest": [
+          70000,
+          80000
+        ],
+        "no_inferred": [
+          70000,
+          80000
+        ],
+        "no_region_conflict": [
+          70000,
+          80000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "0_9",
+      "distance": "1500",
+      "base": {
+        "q25": [
+          60000,
+          70000
+        ],
+        "median": [
+          70000,
+          80000
+        ],
+        "q75": [
+          90000,
+          100000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          60000,
+          70000
+        ],
+        "drop_largest": [
+          70000,
+          80000
+        ],
+        "no_inferred": [
+          70000,
+          80000
+        ],
+        "no_region_conflict": [
+          70000,
+          80000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "0_9",
+      "distance": "over1500",
+      "base": {
+        "q25": [
+          40000,
+          50000
+        ],
+        "median": [
+          60000,
+          70000
+        ],
+        "q75": [
+          70000,
+          80000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          50000,
+          60000
+        ],
+        "drop_largest": [
+          60000,
+          70000
+        ],
+        "no_inferred": [
+          60000,
+          70000
+        ],
+        "no_region_conflict": [
+          60000,
+          70000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "10_19",
+      "distance": "300",
+      "base": {
+        "q25": [
+          40000,
+          50000
+        ],
+        "median": [
+          60000,
+          70000
+        ],
+        "q75": [
+          90000,
+          100000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          50000,
+          60000
+        ],
+        "drop_largest": [
+          60000,
+          70000
+        ],
+        "no_inferred": [
+          60000,
+          70000
+        ],
+        "no_region_conflict": [
+          60000,
+          70000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "10_19",
+      "distance": "500",
+      "base": {
+        "q25": [
+          40000,
+          50000
+        ],
+        "median": [
+          70000,
+          80000
+        ],
+        "q75": [
+          90000,
+          100000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          50000,
+          60000
+        ],
+        "drop_largest": [
+          70000,
+          80000
+        ],
+        "no_inferred": [
+          70000,
+          80000
+        ],
+        "no_region_conflict": [
+          70000,
+          80000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "10_19",
+      "distance": "700",
+      "base": {
+        "q25": [
+          50000,
+          60000
+        ],
+        "median": [
+          60000,
+          70000
+        ],
+        "q75": [
+          90000,
+          100000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          60000,
+          70000
+        ],
+        "drop_largest": [
+          60000,
+          70000
+        ],
+        "no_inferred": [
+          60000,
+          70000
+        ],
+        "no_region_conflict": [
+          60000,
+          70000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "10_19",
+      "distance": "1000",
+      "base": {
+        "q25": [
+          40000,
+          50000
+        ],
+        "median": [
+          70000,
+          80000
+        ],
+        "q75": [
+          90000,
+          100000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          50000,
+          60000
+        ],
+        "drop_largest": [
+          70000,
+          80000
+        ],
+        "no_inferred": [
+          70000,
+          80000
+        ],
+        "no_region_conflict": [
+          70000,
+          80000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "10_19",
+      "distance": "1500",
+      "base": {
+        "q25": [
+          40000,
+          50000
+        ],
+        "median": [
+          60000,
+          70000
+        ],
+        "q75": [
+          80000,
+          90000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          50000,
+          60000
+        ],
+        "drop_largest": [
+          60000,
+          70000
+        ],
+        "no_inferred": [
+          60000,
+          70000
+        ],
+        "no_region_conflict": [
+          60000,
+          70000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "10_19",
+      "distance": "over1500",
+      "base": {
+        "q25": [
+          30000,
+          40000
+        ],
+        "median": [
+          60000,
+          70000
+        ],
+        "q75": [
+          70000,
+          80000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          40000,
+          50000
+        ],
+        "drop_largest": [
+          60000,
+          70000
+        ],
+        "no_inferred": [
+          60000,
+          70000
+        ],
+        "no_region_conflict": [
+          60000,
+          70000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "20_29",
+      "distance": "300",
+      "base": {
+        "q25": [
+          40000,
+          50000
+        ],
+        "median": [
+          50000,
+          60000
+        ],
+        "q75": [
+          70000,
+          80000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          40000,
+          50000
+        ],
+        "drop_largest": [
+          50000,
+          60000
+        ],
+        "no_inferred": [
+          50000,
+          60000
+        ],
+        "no_region_conflict": [
+          50000,
+          60000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "20_29",
+      "distance": "500",
+      "base": {
+        "q25": [
+          40000,
+          50000
+        ],
+        "median": [
+          50000,
+          60000
+        ],
+        "q75": [
+          70000,
+          80000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          40000,
+          50000
+        ],
+        "drop_largest": [
+          50000,
+          60000
+        ],
+        "no_inferred": [
+          50000,
+          60000
+        ],
+        "no_region_conflict": [
+          50000,
+          60000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "20_29",
+      "distance": "700",
+      "base": {
+        "q25": [
+          40000,
+          50000
+        ],
+        "median": [
+          60000,
+          70000
+        ],
+        "q75": [
+          70000,
+          80000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          50000,
+          60000
+        ],
+        "drop_largest": null,
+        "no_inferred": [
+          60000,
+          70000
+        ],
+        "no_region_conflict": null
+      }
+    },
+    {
+      "scope": "41",
+      "age": "20_29",
+      "distance": "1000",
+      "base": {
+        "q25": [
+          40000,
+          50000
+        ],
+        "median": [
+          50000,
+          60000
+        ],
+        "q75": [
+          60000,
+          70000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          40000,
+          50000
+        ],
+        "drop_largest": [
+          50000,
+          60000
+        ],
+        "no_inferred": [
+          50000,
+          60000
+        ],
+        "no_region_conflict": [
+          50000,
+          60000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "20_29",
+      "distance": "1500",
+      "base": {
+        "q25": [
+          30000,
+          40000
+        ],
+        "median": [
+          40000,
+          50000
+        ],
+        "q75": [
+          60000,
+          70000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          40000,
+          50000
+        ],
+        "drop_largest": [
+          40000,
+          50000
+        ],
+        "no_inferred": [
+          40000,
+          50000
+        ],
+        "no_region_conflict": [
+          40000,
+          50000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "20_29",
+      "distance": "over1500",
+      "base": {
+        "q25": [
+          20000,
+          30000
+        ],
+        "median": [
+          30000,
+          40000
+        ],
+        "q75": [
+          40000,
+          50000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          30000,
+          40000
+        ],
+        "drop_largest": [
+          30000,
+          40000
+        ],
+        "no_inferred": [
+          30000,
+          40000
+        ],
+        "no_region_conflict": [
+          30000,
+          40000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "30_plus",
+      "distance": "300",
+      "base": {
+        "q25": [
+          50000,
+          60000
+        ],
+        "median": [
+          60000,
+          70000
+        ],
+        "q75": [
+          80000,
+          90000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          50000,
+          60000
+        ],
+        "drop_largest": null,
+        "no_inferred": [
+          60000,
+          70000
+        ],
+        "no_region_conflict": [
+          60000,
+          70000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "30_plus",
+      "distance": "500",
+      "base": {
+        "q25": [
+          50000,
+          60000
+        ],
+        "median": [
+          70000,
+          80000
+        ],
+        "q75": null
+      },
+      "sensitivity": {
+        "complex_equal": [
+          50000,
+          60000
+        ],
+        "drop_largest": [
+          70000,
+          80000
+        ],
+        "no_inferred": [
+          70000,
+          80000
+        ],
+        "no_region_conflict": [
+          70000,
+          80000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "30_plus",
+      "distance": "700",
+      "base": {
+        "q25": [
+          40000,
+          50000
+        ],
+        "median": [
+          50000,
+          60000
+        ],
+        "q75": [
+          90000,
+          100000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          50000,
+          60000
+        ],
+        "drop_largest": [
+          50000,
+          60000
+        ],
+        "no_inferred": [
+          50000,
+          60000
+        ],
+        "no_region_conflict": [
+          50000,
+          60000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "30_plus",
+      "distance": "1000",
+      "base": {
+        "q25": [
+          40000,
+          50000
+        ],
+        "median": [
+          50000,
+          60000
+        ],
+        "q75": [
+          90000,
+          100000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          40000,
+          50000
+        ],
+        "drop_largest": [
+          50000,
+          60000
+        ],
+        "no_inferred": [
+          50000,
+          60000
+        ],
+        "no_region_conflict": [
+          50000,
+          60000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "30_plus",
+      "distance": "1500",
+      "base": {
+        "q25": [
+          40000,
+          50000
+        ],
+        "median": [
+          50000,
+          60000
+        ],
+        "q75": [
+          70000,
+          80000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          40000,
+          50000
+        ],
+        "drop_largest": [
+          50000,
+          60000
+        ],
+        "no_inferred": [
+          50000,
+          60000
+        ],
+        "no_region_conflict": [
+          50000,
+          60000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "age": "30_plus",
+      "distance": "over1500",
+      "base": {
+        "q25": [
+          20000,
+          30000
+        ],
+        "median": [
+          40000,
+          50000
+        ],
+        "q75": [
+          40000,
+          50000
+        ]
+      },
+      "sensitivity": {
+        "complex_equal": [
+          30000,
+          40000
+        ],
+        "drop_largest": null,
+        "no_inferred": [
+          40000,
+          50000
+        ],
+        "no_region_conflict": [
+          40000,
+          50000
+        ]
+      }
+    }
+  ]
+}

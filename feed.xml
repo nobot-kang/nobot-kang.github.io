@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-10-30T23:38:04+09:00</updated>
+  <updated>2026-10-31T23:00:04+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -11,10 +11,19 @@
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
   <entry>
+    <title>역세권 신축 84형은 얼마일까? 서울·경기 연식과 거리별 거래 가격</title>
+    <id>https://nobot-kang.github.io/posts/metro-age-budget/</id>
+    <published>2026-10-31T23:00:04+09:00</published>
+    <updated>2026-10-31T23:00:04+09:00</updated>
+    <summary>서울·수집 경기의 84형 과거 거래를 연식과 역 거리로 나눴습니다. 중앙값·가운데 50% 위치와 단지 가중 민감도를 보고 현재 매수 예산과 구분합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-age-budget/" />
+    <category term="첫 집의 예산" />
+  </entry>
+  <entry>
     <title>6억 원 이하 역세권 아파트는 얼마나 될까? 서울·경기 거리별 재고</title>
     <id>https://nobot-kang.github.io/posts/metro-budget-stock-distance/</id>
     <published>2026-10-30T23:38:04+09:00</published>
-    <updated>2026-10-30T23:38:04+09:00</updated>
+    <updated>2026-10-31T23:00:04+09:00</updated>
     <summary>서울·수집 경기의 현재 면적 확인 재고를 역 거리와 6억·9억 원 모형 가격 문턱으로 나눴습니다. 가격 확인 분모와 민감도를 함께 읽고 실제 매물과 구분합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-budget-stock-distance/" />
     <category term="첫 집의 예산" />
@@ -1787,7 +1796,7 @@
     <title>서울 구축 59형 vs 경기 신축 84형: 6억·9억 예산 비교</title>
     <id>https://nobot-kang.github.io/posts/same-budget-old-small-new-outer/</id>
     <published>2026-10-11T20:07:29+09:00</published>
-    <updated>2026-10-30T23:38:04+09:00</updated>
+    <updated>2026-10-31T23:00:04+09:00</updated>
     <summary>6억·9억 예산 상한 아래 서울 구축 59형과 경기 외곽 신축 84형의 평균가격·전세가율·거래 빈도를 비교합니다. 짧은 가격 이력과 서로 다른 실제 지출액을 구분해 읽어 보세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/same-budget-old-small-new-outer/" />
     <category term="첫 집의 예산" />
@@ -1841,7 +1850,7 @@
     <title>PIR 추이 읽기: 서울·경기 집값과 소득의 2010~2026년 비교</title>
     <id>https://nobot-kang.github.io/posts/apartment-price-income-history/</id>
     <published>2026-10-11T16:34:09+09:00</published>
-    <updated>2026-10-30T23:38:04+09:00</updated>
+    <updated>2026-10-31T23:00:04+09:00</updated>
     <summary>2010~2026년 서울·수집 경기의 소득 대비 모형가격을 비교합니다. 2019년 소득조사 개편, 물가 조정과의 차이, 같은 단지 비교 및 추정의 한계를 함께 확인하세요.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-price-income-history/" />
     <category term="첫 집의 예산" />
@@ -2003,7 +2012,7 @@
     <title>소형 아파트가 더 올랐을까? 서울·경기 면적별 16년 지수 비교</title>
     <id>https://nobot-kang.github.io/posts/apartment-size-price-index/</id>
     <published>2026-10-10T09:49:25+09:00</published>
-    <updated>2026-10-30T23:38:04+09:00</updated>
+    <updated>2026-10-31T23:00:04+09:00</updated>
     <summary>소형 아파트가 대형보다 더 올랐을까요? 서울·수집 경기의 전용 60㎡ 이하·60~85㎡·85㎡ 초과 자체 지수로 2010~2026년 변화, 하락기 반전과 끝월 민감도를 비교합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartment-size-price-index/" />
     <category term="첫 집의 예산" />
@@ -2057,7 +2066,7 @@
     <title>6억 이하 아파트는 얼마나 있을까? 서울·경기 재고와 매물의 차이</title>
     <id>https://nobot-kang.github.io/posts/apartments-under-600-million/</id>
     <published>2026-10-10T07:18:47+09:00</published>
-    <updated>2026-10-30T23:38:04+09:00</updated>
+    <updated>2026-10-31T23:00:04+09:00</updated>
     <summary>2026년 6월 서울·수집 경기의 6억·9억 원 이하 재고를 모형 가격으로 분류했습니다. 가격을 확인한 분모와 누락, 과거 비교·가격 민감도로 실제 매물 수와의 차이를 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/apartments-under-600-million/" />
     <category term="첫 집의 예산" />
