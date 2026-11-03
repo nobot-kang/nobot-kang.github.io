@@ -1,0 +1,391 @@
+{
+  "schema": "metro_top_decile_stations_v1",
+  "public_admitted": true,
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "count_interval": 5,
+  "share_interval_pp": 10,
+  "rows": [
+    {
+      "kind": "line",
+      "label": "2호선",
+      "values": {
+        "main": [
+          20,
+          25
+        ],
+        "min10": [
+          15,
+          20
+        ],
+        "half2025": [
+          15,
+          20
+        ],
+        "half2026": [
+          15,
+          20
+        ],
+        "no_inferred": null,
+        "no_conflict": null,
+        "no_both": null
+      },
+      "top_share": [
+        0,
+        10
+      ]
+    },
+    {
+      "kind": "line",
+      "label": "3호선",
+      "values": {
+        "main": [
+          40,
+          45
+        ],
+        "min10": [
+          15,
+          20
+        ],
+        "half2025": [
+          10,
+          15
+        ],
+        "half2026": [
+          15,
+          20
+        ],
+        "no_inferred": null,
+        "no_conflict": null,
+        "no_both": null
+      },
+      "top_share": [
+        30,
+        40
+      ]
+    },
+    {
+      "kind": "line",
+      "label": "4호선",
+      "values": {
+        "main": [
+          5,
+          10
+        ],
+        "min10": null,
+        "half2025": null,
+        "half2026": null,
+        "no_inferred": [
+          5,
+          10
+        ],
+        "no_conflict": [
+          5,
+          10
+        ],
+        "no_both": [
+          5,
+          10
+        ]
+      },
+      "top_share": [
+        0,
+        10
+      ]
+    },
+    {
+      "kind": "line",
+      "label": "5호선",
+      "values": {
+        "main": [
+          25,
+          30
+        ],
+        "min10": [
+          10,
+          15
+        ],
+        "half2025": [
+          15,
+          20
+        ],
+        "half2026": [
+          15,
+          20
+        ],
+        "no_inferred": null,
+        "no_conflict": null,
+        "no_both": null
+      },
+      "top_share": [
+        0,
+        10
+      ]
+    },
+    {
+      "kind": "line",
+      "label": "6호선",
+      "values": {
+        "main": [
+          5,
+          10
+        ],
+        "min10": null,
+        "half2025": null,
+        "half2026": null,
+        "no_inferred": [
+          5,
+          10
+        ],
+        "no_conflict": [
+          5,
+          10
+        ],
+        "no_both": [
+          5,
+          10
+        ]
+      },
+      "top_share": [
+        0,
+        10
+      ]
+    },
+    {
+      "kind": "line",
+      "label": "7호선",
+      "values": {
+        "main": [
+          10,
+          15
+        ],
+        "min10": [
+          5,
+          10
+        ],
+        "half2025": [
+          5,
+          10
+        ],
+        "half2026": [
+          5,
+          10
+        ],
+        "no_inferred": null,
+        "no_conflict": null,
+        "no_both": null
+      },
+      "top_share": [
+        0,
+        10
+      ]
+    },
+    {
+      "kind": "line",
+      "label": "9호선",
+      "values": {
+        "main": [
+          20,
+          25
+        ],
+        "min10": [
+          10,
+          15
+        ],
+        "half2025": [
+          15,
+          20
+        ],
+        "half2026": [
+          15,
+          20
+        ],
+        "no_inferred": null,
+        "no_conflict": null,
+        "no_both": null
+      },
+      "top_share": [
+        10,
+        20
+      ]
+    },
+    {
+      "kind": "line",
+      "label": "경의중앙선",
+      "values": {
+        "main": [
+          15,
+          20
+        ],
+        "min10": [
+          5,
+          10
+        ],
+        "half2025": [
+          5,
+          10
+        ],
+        "half2026": [
+          5,
+          10
+        ],
+        "no_inferred": null,
+        "no_conflict": null,
+        "no_both": null
+      },
+      "top_share": [
+        10,
+        20
+      ]
+    },
+    {
+      "kind": "line",
+      "label": "수인분당선",
+      "values": {
+        "main": [
+          10,
+          15
+        ],
+        "min10": [
+          5,
+          10
+        ],
+        "half2025": [
+          5,
+          10
+        ],
+        "half2026": [
+          5,
+          10
+        ],
+        "no_inferred": null,
+        "no_conflict": null,
+        "no_both": null
+      },
+      "top_share": [
+        30,
+        40
+      ]
+    },
+    {
+      "kind": "line",
+      "label": "신분당선",
+      "values": {
+        "main": [
+          5,
+          10
+        ],
+        "min10": null,
+        "half2025": null,
+        "half2026": null,
+        "no_inferred": [
+          5,
+          10
+        ],
+        "no_conflict": [
+          5,
+          10
+        ],
+        "no_both": [
+          5,
+          10
+        ]
+      },
+      "top_share": [
+        40,
+        50
+      ]
+    },
+    {
+      "kind": "station",
+      "label": "애오개",
+      "values": {
+        "main": [
+          5,
+          10
+        ],
+        "min10": null,
+        "half2025": null,
+        "half2026": null,
+        "no_inferred": [
+          5,
+          10
+        ],
+        "no_conflict": [
+          5,
+          10
+        ],
+        "no_both": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "kind": "station",
+      "label": "흑석",
+      "values": {
+        "main": [
+          5,
+          10
+        ],
+        "min10": null,
+        "half2025": null,
+        "half2026": null,
+        "no_inferred": null,
+        "no_conflict": null,
+        "no_both": null
+      }
+    }
+  ],
+  "totals": {
+    "main": [
+      140,
+      145
+    ],
+    "min10": [
+      65,
+      70
+    ],
+    "half2025": [
+      75,
+      80
+    ],
+    "half2026": [
+      80,
+      85
+    ],
+    "no_inferred": [
+      130,
+      135
+    ],
+    "no_conflict": [
+      130,
+      135
+    ],
+    "no_both": [
+      130,
+      135
+    ]
+  },
+  "concentration": {
+    "1": [
+      0,
+      10
+    ],
+    "5": [
+      20,
+      30
+    ],
+    "10": [
+      40,
+      50
+    ],
+    "20": [
+      70,
+      80
+    ]
+  }
+}
