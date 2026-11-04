@@ -1,0 +1,6367 @@
+{
+  "schema": "metro_sale_turnover_v1",
+  "rows": [
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "1000",
+      "mode": "strict",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "1500",
+      "mode": "strict",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "300",
+      "mode": "strict",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "500",
+      "mode": "strict",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "700",
+      "mode": "strict",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "strict",
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "1000",
+      "mode": "strict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "1500",
+      "mode": "strict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "300",
+      "mode": "strict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "500",
+      "mode": "strict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "700",
+      "mode": "strict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "strict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "1000",
+      "mode": "strict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "1500",
+      "mode": "strict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "300",
+      "mode": "strict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "500",
+      "mode": "strict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "700",
+      "mode": "strict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "strict",
+      "interval": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "1000",
+      "mode": "strict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "1500",
+      "mode": "strict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "300",
+      "mode": "strict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "500",
+      "mode": "strict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "700",
+      "mode": "strict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "strict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "1000",
+      "mode": "strict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "1500",
+      "mode": "strict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "300",
+      "mode": "strict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "500",
+      "mode": "strict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "700",
+      "mode": "strict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "strict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "1000",
+      "mode": "strict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "1500",
+      "mode": "strict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "300",
+      "mode": "strict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "500",
+      "mode": "strict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "700",
+      "mode": "strict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "strict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "1000",
+      "mode": "strict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "1500",
+      "mode": "strict",
+      "interval": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "300",
+      "mode": "strict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "500",
+      "mode": "strict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "700",
+      "mode": "strict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "over1500",
+      "mode": "strict",
+      "interval": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "1000",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "1000",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "1000",
+      "mode": "strict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "1500",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "1500",
+      "mode": "strict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "300",
+      "mode": "main",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_inferred",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_region_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "300",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "300",
+      "mode": "strict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "500",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "500",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "500",
+      "mode": "strict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "700",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "700",
+      "mode": "no_household_conflict",
+      "interval": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "700",
+      "mode": "strict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "main",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_inferred",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_region_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "no_household_conflict",
+      "interval": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "41",
+      "band": "over1500",
+      "mode": "strict",
+      "interval": [
+        3,
+        4
+      ]
+    }
+  ],
+  "matched": [
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "1500",
+      "intervals": [
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ]
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "300",
+      "intervals": [
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "500",
+      "intervals": [
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ]
+    },
+    {
+      "year": 2015,
+      "scope": "11",
+      "band": "700",
+      "intervals": [
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "1500",
+      "intervals": [
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "300",
+      "intervals": [
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "500",
+      "intervals": [
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ]
+    },
+    {
+      "year": 2016,
+      "scope": "11",
+      "band": "700",
+      "intervals": [
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "1500",
+      "intervals": [
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "300",
+      "intervals": [
+        [
+          7,
+          8
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "500",
+      "intervals": [
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "year": 2017,
+      "scope": "11",
+      "band": "700",
+      "intervals": [
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "1500",
+      "intervals": [
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "300",
+      "intervals": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "500",
+      "intervals": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "11",
+      "band": "700",
+      "intervals": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "1500",
+      "intervals": [
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "300",
+      "intervals": [
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "500",
+      "intervals": [
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "year": 2019,
+      "scope": "11",
+      "band": "700",
+      "intervals": [
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "1500",
+      "intervals": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "300",
+      "intervals": [
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "500",
+      "intervals": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "year": 2020,
+      "scope": "11",
+      "band": "700",
+      "intervals": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "1500",
+      "intervals": [
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "300",
+      "intervals": [
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "500",
+      "intervals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "year": 2021,
+      "scope": "11",
+      "band": "700",
+      "intervals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "1500",
+      "intervals": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "300",
+      "intervals": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "500",
+      "intervals": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "band": "700",
+      "intervals": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "1500",
+      "intervals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "300",
+      "intervals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "500",
+      "intervals": [
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "year": 2024,
+      "scope": "11",
+      "band": "700",
+      "intervals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "1500",
+      "intervals": [
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "300",
+      "intervals": [
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "500",
+      "intervals": [
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "year": 2025,
+      "scope": "11",
+      "band": "700",
+      "intervals": [
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    }
+  ]
+}
