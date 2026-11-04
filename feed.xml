@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-11-04T07:15:49+09:00</updated>
+  <updated>2026-11-05T07:20:57+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,15 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>역 가까운 아파트는 더 자주 거래될까? 100세대당 연간 매매 빈도</title>
+    <id>https://nobot-kang.github.io/posts/metro-sale-turnover/</id>
+    <published>2026-11-05T07:20:57+09:00</published>
+    <updated>2026-11-05T07:20:57+09:00</updated>
+    <summary>서울·수집 경기의 2015~2025년 역 거리별 매매 빈도를 현재 확인 100세대당 건수로 비교합니다. 같은 해의 지역·연식·규모 조건도 확인합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-sale-turnover/" />
+    <category term="역 거리와 거래의 온도" />
+  </entry>
   <entry>
     <title>역 가까운 아파트는 월세 비중도 높을까? 거리와 면적별 계약 비교</title>
     <id>https://nobot-kang.github.io/posts/metro-monthly-share/</id>
@@ -32,7 +41,7 @@
     <title>역세권 신축 84형은 얼마일까? 서울·경기 연식과 거리별 거래 가격</title>
     <id>https://nobot-kang.github.io/posts/metro-age-budget/</id>
     <published>2026-10-31T23:18:13+09:00</published>
-    <updated>2026-10-31T23:18:13+09:00</updated>
+    <updated>2026-11-01T13:18:09+09:00</updated>
     <summary>서울·수집 경기의 84형 과거 거래를 연식과 역 거리로 나눴습니다. 중앙값·가운데 50% 위치와 단지 가중 민감도를 보고 현재 매수 예산과 구분합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-age-budget/" />
     <category term="첫 집의 예산" />
@@ -41,7 +50,7 @@
     <title>6억 원 이하 역세권 아파트는 얼마나 될까? 서울·경기 거리별 재고</title>
     <id>https://nobot-kang.github.io/posts/metro-budget-stock-distance/</id>
     <published>2026-10-30T23:38:04+09:00</published>
-    <updated>2026-10-31T23:18:13+09:00</updated>
+    <updated>2026-11-01T13:18:09+09:00</updated>
     <summary>서울·수집 경기의 현재 면적 확인 재고를 역 거리와 6억·9억 원 모형 가격 문턱으로 나눴습니다. 가격 확인 분모와 민감도를 함께 읽고 실제 매물과 구분합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-budget-stock-distance/" />
     <category term="첫 집의 예산" />
@@ -68,7 +77,7 @@
     <title>강남까지 환승 없는 단지, 84형도 더 비쌀까?</title>
     <id>https://nobot-kang.github.io/posts/metro-transfer-prices/</id>
     <published>2026-10-30T13:07:43+09:00</published>
-    <updated>2026-10-30T13:07:43+09:00</updated>
+    <updated>2026-11-01T13:18:09+09:00</updated>
     <summary>강남 무환승과 1회 환승 단지의 84형 가격을 같은 구·정거장 구간·연식으로 비교했습니다. 광화문·여의도, 단지 규모와 거리 기준을 바꾼 결과 및 일반열차 운행계통의 한계를 함께 읽습니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-transfer-prices/" />
     <category term="업무지구까지 몇 정거장" />
@@ -77,7 +86,7 @@
     <title>경기 역세권과 서울 외곽 비역세권, 84형 가격은 얼마나 겹칠까?</title>
     <id>https://nobot-kang.github.io/posts/metro-outer-prices/</id>
     <published>2026-10-30T03:30:41+09:00</published>
-    <updated>2026-10-30T03:30:41+09:00</updated>
+    <updated>2026-11-01T13:18:09+09:00</updated>
     <summary>선정한 경기 7개 시의 역 700m 안과 서울 외곽 6개 구의 역 700m 밖 84형 가격 분포를 비교했습니다. 지역·거래 비중·연식·규모와 서울 진입 정거장 수를 나누어 읽습니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-outer-prices/" />
     <category term="경기 철도와 주거입지" />
@@ -86,7 +95,7 @@
     <title>서울과 경기, 한 역 차이면 가격도 갈릴까? 경계 8쌍의 비교</title>
     <id>https://nobot-kang.github.io/posts/metro-border-prices/</id>
     <published>2026-10-30T02:40:23+09:00</published>
-    <updated>2026-10-30T02:40:23+09:00</updated>
+    <updated>2026-11-01T13:18:09+09:00</updated>
     <summary>같은 노선의 서울·경기 인접 역 8쌍에서 직선 700m 안 84형 실거래를 비교했습니다. 단지와 거래의 비중, 반경·좌표에 따라 달라지는 가격비와 연식 구성의 한계를 읽습니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-border-prices/" />
     <category term="호선별로 본 아파트" />
@@ -95,7 +104,7 @@
     <title>역세권 아파트가 먼저 회복했을까? 2021년 고점과 비교 조건</title>
     <id>https://nobot-kang.github.io/posts/metro-peak-recovery/</id>
     <published>2026-10-30T01:36:32+09:00</published>
-    <updated>2026-10-30T01:36:32+09:00</updated>
+    <updated>2026-11-05T07:20:57+09:00</updated>
     <summary>2021년 고점을 기준으로 서울·수집 경기 아파트의 거리별 회복 비율과 시점을 비교했습니다. 미확인 단지를 분모에 남기고 지역·연식·거리 경계를 바꿔 결과의 한계를 살펴봅니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-peak-recovery/" />
     <category term="역 거리와 거래의 온도" />
@@ -104,7 +113,7 @@
     <title>역에서 멀수록 주차가 넉넉할까? 주차면과 등록차량 비교</title>
     <id>https://nobot-kang.github.io/posts/metro-parking-distance/</id>
     <published>2026-10-30T00:09:57+09:00</published>
-    <updated>2026-10-30T00:09:57+09:00</updated>
+    <updated>2026-11-01T13:18:09+09:00</updated>
     <summary>서울·수집 경기의 여섯 역 거리 구간에서 세대당 주차면과 주차면당 등록차량을 비교했습니다. 승인 연대와 지역을 맞춘 차이, 거리 경계·기록 조건에 따른 한계도 함께 읽습니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-parking-distance/" />
     <category term="역세권과 단지 조건" />
@@ -113,7 +122,7 @@
     <title>노선마다 역세권 아파트의 연대는 다를까? 세대·단지 기준 비교</title>
     <id>https://nobot-kang.github.io/posts/metro-line-approval-eras/</id>
     <published>2026-10-29T23:13:43+09:00</published>
-    <updated>2026-10-30T02:40:23+09:00</updated>
+    <updated>2026-11-01T13:18:09+09:00</updated>
     <summary>노선별 직선 700m 안 아파트의 사용승인 연대 구성을 세대·단지 기준으로 비교했습니다. 서울·경기 구성, 승인일 미확인과 경계·세대수 조건의 차이를 함께 읽습니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-line-approval-eras/" />
     <category term="호선별로 본 아파트" />
@@ -122,7 +131,7 @@
     <title>역 가까운 집의 가격 차이, 매매와 전세 중 어느 쪽이 클까?</title>
     <id>https://nobot-kang.github.io/posts/metro-sale-jeonse-comparison/</id>
     <published>2026-10-29T20:11:54+09:00</published>
-    <updated>2026-11-04T07:15:49+09:00</updated>
+    <updated>2026-11-04T19:04:05+09:00</updated>
     <summary>같은 단지·기간·면적의 매매와 신규 전세로 역 700m 안팎 가격비를 비교했습니다. 84형·59형의 차이, 지역·연식 통제와 거리 구간의 표본 부족을 함께 읽습니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-sale-jeonse-comparison/" />
     <category term="역 거리와 전세·월세" />
@@ -131,7 +140,7 @@
     <title>비싼 아파트는 모두 역세권일까? 가격 10분위별 역 거리</title>
     <id>https://nobot-kang.github.io/posts/metro-price-decile-distance/</id>
     <published>2026-10-29T19:19:01+09:00</published>
-    <updated>2026-11-03T18:52:45+09:00</updated>
+    <updated>2026-11-04T19:04:05+09:00</updated>
     <summary>서울·수집 경기 84형 단지 가격 10분위별 현재 역 거리와 노선 분포를 비교했습니다. 높은 가격의 비역세권 비중, 기간별 순위 변화와 지역·연식 통제의 한계를 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-price-decile-distance/" />
     <category term="역 이름으로 읽는 가격 지도" />
@@ -140,7 +149,7 @@
     <title>전세 3억 원이면 역 가까운 집이 더 작을까? 면적·연식과 비교의 한계</title>
     <id>https://nobot-kang.github.io/posts/metro-jeonse-budget-choices/</id>
     <published>2026-10-29T18:34:42+09:00</published>
-    <updated>2026-10-29T20:11:54+09:00</updated>
+    <updated>2026-11-01T13:18:09+09:00</updated>
     <summary>전세 2억·3억·5억 원 주변 신규 계약의 면적과 연식을 같은 지역의 역 700m 안팎에서 비교했습니다. 표본 부족·조건 변경·지역 구성의 한계와 후보 비교 순서를 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-jeonse-budget-choices/" />
     <category term="역 거리와 전세·월세" />
@@ -149,7 +158,7 @@
     <title>경기 신축 대단지는 역에서 얼마나 멀까? 2015년 이후·1,000세대 이상 비교</title>
     <id>https://nobot-kang.github.io/posts/metro-gyeonggi-large-new/</id>
     <published>2026-10-29T17:43:12+09:00</published>
-    <updated>2026-10-30T03:30:41+09:00</updated>
+    <updated>2026-11-01T13:18:09+09:00</updated>
     <summary>2015년 이후 사용승인·1,000세대 이상 경기 아파트의 현재 역 직선거리를 전체 재고와 비교했습니다. 분모·확인 범위와 연도·규모 구성, 지역 비교의 한계를 읽습니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-gyeonggi-large-new/" />
     <category term="경기 철도와 주거입지" />
@@ -158,7 +167,7 @@
     <title>강남까지 같은 정거장 구간이면? 서울·경기 84형 가격과 연식 구성</title>
     <id>https://nobot-kang.github.io/posts/metro-network-regions/</id>
     <published>2026-10-29T16:49:45+09:00</published>
-    <updated>2026-10-30T13:07:43+09:00</updated>
+    <updated>2026-11-01T13:18:09+09:00</updated>
     <summary>강남까지 같은 정거장 구간의 서울·경기 84형 가격을 비교했습니다. 단순 가격 차이와 공통 연식 비교, 조건 변경의 한계와 실제 통근 확인점을 정리합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-network-regions/" />
     <category term="업무지구까지 몇 정거장" />
@@ -167,7 +176,7 @@
     <title>강남·광화문·여의도까지 몇 정거장? 84형 가격과 비교의 한계</title>
     <id>https://nobot-kang.github.io/posts/metro-network-prices/</id>
     <published>2026-10-29T16:13:06+09:00</published>
-    <updated>2026-10-30T13:07:43+09:00</updated>
+    <updated>2026-11-01T13:18:09+09:00</updated>
     <summary>현재 노선망에서 강남·광화문·여의도까지 정거장 구간별 84형 매매 가격을 비교했습니다. 같은 지역·연식 비교와 목적지·거리·층을 바꿨을 때의 한계를 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-network-prices/" />
     <category term="업무지구까지 몇 정거장" />
@@ -176,7 +185,7 @@
     <title>신축 비역세권 vs 구축 역세권: 더 비싼 쪽은 지역마다 달랐다</title>
     <id>https://nobot-kang.github.io/posts/metro-age-tradeoff/</id>
     <published>2026-10-29T15:20:49+09:00</published>
-    <updated>2026-10-30T00:09:57+09:00</updated>
+    <updated>2026-11-01T13:18:09+09:00</updated>
     <summary>같은 지역의 84형에서 10년 이하·역 700m 밖과 20년 이상·500m 안을 비교했습니다. 매매·신규 전세의 지역별 차이, 공통 지역 비교와 조건을 바꿨을 때의 한계를 살펴봅니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-age-tradeoff/" />
     <category term="역세권과 단지 조건" />
@@ -185,7 +194,7 @@
     <title>역세권 전세는 더 비쌀까? 조건에 따라 달라진 84형 보증금</title>
     <id>https://nobot-kang.github.io/posts/metro-jeonse-comparison/</id>
     <published>2026-10-29T14:30:34+09:00</published>
-    <updated>2026-10-29T20:11:54+09:00</updated>
+    <updated>2026-11-01T13:18:09+09:00</updated>
     <summary>서울·수집 경기의 신규 84형 전세 보증금을 직선 700m 안팎으로 비교했습니다. 같은 구·연식 비교와 거리 구간, 조건을 바꿀 때 달라지는 결과와 한계를 살펴봅니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-jeonse-comparison/" />
     <category term="역 거리와 전세·월세" />
@@ -194,7 +203,7 @@
     <title>역 가까운 84형은 얼마나 비쌀까? 같은 구·연식으로 비교한 가격 차이</title>
     <id>https://nobot-kang.github.io/posts/metro-price-comparison/</id>
     <published>2026-10-29T13:39:09+09:00</published>
-    <updated>2026-10-29T14:30:34+09:00</updated>
+    <updated>2026-11-01T13:18:09+09:00</updated>
     <summary>서울·수집 경기의 84형 거래를 역 직선 700m 안팎으로 비교했습니다. 같은 구·연식 비교와 단순 비교가 달라지는 이유, 거리 구간과 조건별 한계를 살펴봅니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-price-comparison/" />
     <category term="역세권 가격 차이" />
@@ -203,7 +212,7 @@
     <title>서울·경기 역세권 비율: 직선 700m 안의 단지·확인 세대수 비교</title>
     <id>https://nobot-kang.github.io/posts/metro-stock-radius/</id>
     <published>2026-10-29T13:07:25+09:00</published>
-    <updated>2026-10-30T17:57:36+09:00</updated>
+    <updated>2026-11-01T13:18:09+09:00</updated>
     <summary>보유한 서울·수집 경기 단지의 역 700m 안 비율을 두 분모로 비교합니다. 반경별 곡선과 61개 지역, 위치·세대수 결손을 읽는 기준입니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-stock-radius/" />
     <category term="역까지의 거리" />
@@ -212,7 +221,7 @@
     <title>신축 아파트는 역에서 멀까? 서울·경기와 단지·세대 기준의 차이</title>
     <id>https://nobot-kang.github.io/posts/metro-stock-age/</id>
     <published>2026-10-29T13:07:25+09:00</published>
-    <updated>2026-10-30T17:57:36+09:00</updated>
+    <updated>2026-11-01T13:18:09+09:00</updated>
     <summary>현재 보유 재고의 준공 연대별 역 거리를 서울·수집 경기로 나눴습니다. 단지·세대수 가중 중앙값과 같은 지역 구성 비교로 판단이 달라지는 조건을 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-stock-age/" />
     <category term="역까지의 거리" />
@@ -257,7 +266,7 @@
     <title>노원 59형에서 강서 84형으로: 면적과 지역을 함께 바꾸는 예산</title>
     <id>https://nobot-kang.github.io/posts/upgrade-nowon-gangseo-size-budget/</id>
     <published>2026-10-25T05:16:25+09:00</published>
-    <updated>2026-10-28T23:34:00+09:00</updated>
+    <updated>2026-11-01T12:28:01+09:00</updated>
     <summary>노원 59형에서 강서 84형으로 옮기는 가상 가구의 면적·지역·자금을 나눕니다. 공통 단지와 전체 가격 비교의 연결, 통근·면적 두 목표와 5년 현금 부족·조건부 예산을 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-nowon-gangseo-size-budget/" />
     <category term="가상 가구 완결 사례" />
@@ -266,7 +275,7 @@
     <title>같은 84형으로 옮긴다면? 빚을 줄일 돈과 남겨 둘 현금</title>
     <id>https://nobot-kang.github.io/posts/upgrade-same-size-debt-cash-buffer/</id>
     <published>2026-10-25T03:34:07+09:00</published>
-    <updated>2026-10-28T23:34:00+09:00</updated>
+    <updated>2026-11-01T12:28:01+09:00</updated>
     <summary>같은 84형으로 옮기는 가상 가구의 부채와 현금을 나눕니다. 12개월 소비를 감당할 최소 차입, 5년 이자와 중간 부족을 비교하고 실제 승인과 계산 경계를 구분합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-same-size-debt-cash-buffer/" />
     <category term="가상 가구 완결 사례" />
@@ -293,7 +302,7 @@
     <title>대출 실행액이 줄었다면? 목표 축소·현금 이체·이사 연기</title>
     <id>https://nobot-kang.github.io/posts/upgrade-loan-reduction-three-options/</id>
     <published>2026-10-25T02:32:45+09:00</published>
-    <updated>2026-10-28T23:34:00+09:00</updated>
+    <updated>2026-11-01T12:28:01+09:00</updated>
     <summary>기대 대출이 줄어든 가상 가구의 세 대안을 같은 시작 자산·5년 말로 비교합니다. 다른 계좌도 모든 안의 순자산에 넣고, 지급계좌 부족과 미확인 견적의 완료 결과를 구분합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-loan-reduction-three-options/" />
     <category term="가상 가구 완결 사례" />
@@ -311,7 +320,7 @@
     <title>아파트 수리 후 5년 더 살기: 그 뒤 이사도 가능할까?</title>
     <id>https://nobot-kang.github.io/posts/upgrade-repair-stay-five-years/</id>
     <published>2026-10-25T01:39:41+09:00</published>
-    <updated>2026-10-28T23:34:00+09:00</updated>
+    <updated>2026-11-01T12:28:01+09:00</updated>
     <summary>수리·잔류와 즉시 이동을 같은 5년으로 비교합니다. 보유 장부와 그 뒤 선택하는 추가 이동을 나누고, 수리비·두 집의 종료 가격 27경로에서 초기 부족과 미래 잔금 부족을 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-repair-stay-five-years/" />
     <category term="가상 가구 완결 사례" />
@@ -338,7 +347,7 @@
     <title>갈아타기 가격 차액 구간이 겹치면? 같은 출발값과 추가 현금 비교</title>
     <id>https://nobot-kang.github.io/posts/upgrade-overlapping-gap-intervals/</id>
     <published>2026-10-24T23:23:34+09:00</published>
-    <updated>2026-10-28T23:34:00+09:00</updated>
+    <updated>2026-11-01T12:28:01+09:00</updated>
     <summary>두 목표의 차액 범위가 겹쳐도 같은 출발 가격을 지우면 순서를 구분할 수 있습니다. 공개 평균 8쌍과 가상 차입 5조건으로 가격 차이와 추가 현금의 순위를 나눠 봅니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-overlapping-gap-intervals/" />
     <category term="후보를 고르는 기준" />
@@ -356,7 +365,7 @@
     <title>갈아타기 결정문 한 장: 두 계약과 중간 현금 남기기</title>
     <id>https://nobot-kang.github.io/posts/upgrade-decision-memo/</id>
     <published>2026-10-24T22:35:35+09:00</published>
-    <updated>2026-10-28T23:34:00+09:00</updated>
+    <updated>2026-11-01T12:28:01+09:00</updated>
     <summary>매도·매수의 두 가격과 은행·보증금·비용·입금일을 한 결정문에 남깁니다. 가상 여덟 사건 경로와 복사용 빈 양식으로 중간 현금 부족과 확인할 조건을 구분합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-decision-memo/" />
     <category term="후보를 고르는 기준" />
@@ -491,7 +500,7 @@
     <title>아파트 다운사이징: 빚을 갚고 남는 현금과 월 납입</title>
     <id>https://nobot-kang.github.io/posts/upgrade-downsize-debt-cash/</id>
     <published>2026-10-24T07:15:43+09:00</published>
-    <updated>2026-10-28T23:34:00+09:00</updated>
+    <updated>2026-11-01T12:28:01+09:00</updated>
     <summary>84형에서 59형으로 줄일 때 기존 빚과 현금·월 납입을 나눕니다. 분당구→강서구의 별도 가상 가구에서 집값 차이와 현금 변화, 정산과 5년 전체의 채무 경계·실패를 비교합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-downsize-debt-cash/" />
     <category term="살림을 바꾸는 이동" />
@@ -527,7 +536,7 @@
     <title>기준 아파트를 바꾸면 갈아타기 차액은 어떻게 달라질까요?</title>
     <id>https://nobot-kang.github.io/posts/upgrade-reference-switch-decomposition/</id>
     <published>2026-10-24T05:40:00+09:00</published>
-    <updated>2026-10-28T23:34:00+09:00</updated>
+    <updated>2026-11-01T12:28:01+09:00</updated>
     <summary>고정 기준과 미리 정한 두 번의 기준 교체를 비교합니다. 같은 대상의 가격 갱신과 기준 교체가 차액에 기여한 부분을 나누고 구간 안에서 확정할 수 없는 방향도 남깁니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-reference-switch-decomposition/" />
     <category term="가격 비교의 기준" />
@@ -545,7 +554,7 @@
     <title>내 집과 목표 집의 가격 날짜가 다르면? 한 달 시차와 차액</title>
     <id>https://nobot-kang.github.io/posts/upgrade-price-date-alignment/</id>
     <published>2026-10-24T03:25:58+09:00</published>
-    <updated>2026-10-28T23:34:00+09:00</updated>
+    <updated>2026-11-01T12:28:01+09:00</updated>
     <summary>같은 가상 두 집의 가격을 같은 달과 한쪽만 전월인 안으로 비교합니다. 12개월 날짜와 누락 후 공통 8개월을 검산하고 계약일·평가 기준일·공개 시점을 나눕니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-price-date-alignment/" />
     <category term="가격 비교의 기준" />
@@ -554,7 +563,7 @@
     <title>두 가격에 5% 차이가 나면? 갈아타기 추가 현금의 범위</title>
     <id>https://nobot-kang.github.io/posts/upgrade-two-price-errors/</id>
     <published>2026-10-24T01:53:22+09:00</published>
-    <updated>2026-10-28T23:34:00+09:00</updated>
+    <updated>2026-11-01T12:28:01+09:00</updated>
     <summary>가상 두 기준값의 ±5%를 같은·반대 방향으로 바꿔 가격 차액과 추가 현금을 비교합니다. 평균오차·개인 신뢰구간과 외생 대출을 구분합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-two-price-errors/" />
     <category term="가격 비교의 기준" />
@@ -698,7 +707,7 @@
     <title>집값이 내려도 갈아타기 실패? 가격 하락과 대출 감소 비교</title>
     <id>https://nobot-kang.github.io/posts/upgrade-falling-price-lower-loan/</id>
     <published>2026-10-23T23:35:13+09:00</published>
-    <updated>2026-10-28T23:34:00+09:00</updated>
+    <updated>2026-11-01T12:28:01+09:00</updated>
     <summary>같은 가상 월세 대기 장부에 목표 집 가격 하락과 새 대출 실행액 감소를 함께 넣습니다. 확인된 자기 재원과 별도 대출 가정의 잔금 부족을 비교합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-falling-price-lower-loan/" />
     <category term="팔고 기다리는 동안" />
@@ -941,7 +950,7 @@
     <title>갈아타기 비용 회수기간: 3·5·10년 거주를 비교하면</title>
     <id>https://nobot-kang.github.io/posts/upgrade-cost-payback/</id>
     <published>2026-10-23T20:41:15+09:00</published>
-    <updated>2026-10-23T22:29:55+09:00</updated>
+    <updated>2026-11-01T12:28:01+09:00</updated>
     <summary>가상 이사 비용과 연간 주거비 절감으로 3·5·10년을 비교합니다. 할인 후 회수와 연간 보유세 차이, 0원·음수 절감의 회수 불가 조건을 구분합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/upgrade-cost-payback/" />
     <category term="갈아타기 자금" />
