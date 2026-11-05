@@ -1,0 +1,416 @@
+{
+  "schema": "metro_multi_line_stock_v1",
+  "public_admitted": true,
+  "rows": [
+    {
+      "scope": "11",
+      "mode": "multi_type",
+      "band": "multiple_groups",
+      "measure": "complex",
+      "bounds": [
+        20,
+        30
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "11",
+      "mode": "multi_type",
+      "band": "multiple_groups",
+      "measure": "household",
+      "bounds": [
+        20,
+        30
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "11",
+      "mode": "multi_type",
+      "band": "one_group",
+      "measure": "complex",
+      "bounds": [
+        0,
+        10
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "11",
+      "mode": "multi_type",
+      "band": "one_group",
+      "measure": "household",
+      "bounds": [
+        0,
+        10
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "11",
+      "mode": "union",
+      "band": "0",
+      "measure": "complex",
+      "bounds": [
+        20,
+        30
+      ],
+      "closed": [
+        false,
+        true
+      ],
+      "reason": null
+    },
+    {
+      "scope": "11",
+      "mode": "union",
+      "band": "0",
+      "measure": "household",
+      "bounds": [
+        20,
+        30
+      ],
+      "closed": [
+        false,
+        true
+      ],
+      "reason": null
+    },
+    {
+      "scope": "11",
+      "mode": "union",
+      "band": "1",
+      "measure": "complex",
+      "bounds": [
+        40,
+        50
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "11",
+      "mode": "union",
+      "band": "1",
+      "measure": "household",
+      "bounds": [
+        40,
+        50
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "11",
+      "mode": "union",
+      "band": "2",
+      "measure": "complex",
+      "bounds": [
+        20,
+        30
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "11",
+      "mode": "union",
+      "band": "2",
+      "measure": "household",
+      "bounds": [
+        20,
+        30
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "11",
+      "mode": "union",
+      "band": "3",
+      "measure": "complex",
+      "bounds": [
+        0,
+        10
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "11",
+      "mode": "union",
+      "band": "3",
+      "measure": "household",
+      "bounds": [
+        0,
+        10
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "41",
+      "mode": "multi_type",
+      "band": "multiple_groups",
+      "measure": "complex",
+      "bounds": [
+        0,
+        10
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "41",
+      "mode": "multi_type",
+      "band": "multiple_groups",
+      "measure": "household",
+      "bounds": [
+        0,
+        10
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "41",
+      "mode": "multi_type",
+      "band": "one_group",
+      "measure": "complex",
+      "bounds": [
+        0,
+        10
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "41",
+      "mode": "multi_type",
+      "band": "one_group",
+      "measure": "household",
+      "bounds": [
+        0,
+        10
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "41",
+      "mode": "union",
+      "band": "0",
+      "measure": "complex",
+      "bounds": [
+        50,
+        70
+      ],
+      "closed": [
+        false,
+        true
+      ],
+      "reason": null
+    },
+    {
+      "scope": "41",
+      "mode": "union",
+      "band": "0",
+      "measure": "household",
+      "bounds": [
+        60,
+        70
+      ],
+      "closed": [
+        false,
+        true
+      ],
+      "reason": null
+    },
+    {
+      "scope": "41",
+      "mode": "union",
+      "band": "1",
+      "measure": "complex",
+      "bounds": [
+        30,
+        40
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "41",
+      "mode": "union",
+      "band": "1",
+      "measure": "household",
+      "bounds": [
+        20,
+        30
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "41",
+      "mode": "union",
+      "band": "2",
+      "measure": "complex",
+      "bounds": [
+        0,
+        10
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "41",
+      "mode": "union",
+      "band": "2",
+      "measure": "household",
+      "bounds": [
+        0,
+        10
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "41",
+      "mode": "union",
+      "band": "3",
+      "measure": "complex",
+      "bounds": null,
+      "closed": null,
+      "reason": "support"
+    },
+    {
+      "scope": "41",
+      "mode": "union",
+      "band": "3",
+      "measure": "household",
+      "bounds": null,
+      "closed": null,
+      "reason": "support"
+    },
+    {
+      "scope": "11",
+      "mode": "union",
+      "band": "2plus",
+      "measure": "complex",
+      "bounds": [
+        30,
+        40
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "11",
+      "mode": "union",
+      "band": "2plus",
+      "measure": "household",
+      "bounds": [
+        20,
+        30
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "41",
+      "mode": "union",
+      "band": "2plus",
+      "measure": "complex",
+      "bounds": [
+        0,
+        10
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    },
+    {
+      "scope": "41",
+      "mode": "union",
+      "band": "2plus",
+      "measure": "household",
+      "bounds": [
+        0,
+        10
+      ],
+      "closed": [
+        true,
+        false
+      ],
+      "reason": null
+    }
+  ],
+  "percentage_denominator": "All location-complete regional complexes; household measure uses known households in those complexes, including for multi_type.",
+  "distance_m": 700
+}
