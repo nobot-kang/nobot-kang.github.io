@@ -1,0 +1,404 @@
+{
+  "schema": "metro_aging_stock_v1",
+  "public_admitted": true,
+  "scope": "Current collected Seoul and Gyeonggi inventory; fixed stock and current station list",
+  "comparison_years": [
+    2026,
+    2030
+  ],
+  "distance_boundaries_m": [
+    300,
+    500,
+    700,
+    1000,
+    1500
+  ],
+  "rows": [
+    {
+      "region": "11",
+      "year": 2026,
+      "band": "0",
+      "count": [
+        50000,
+        100000
+      ],
+      "share": [
+        10,
+        20
+      ]
+    },
+    {
+      "region": "11",
+      "year": 2026,
+      "band": "1",
+      "count": [
+        100000,
+        150000
+      ],
+      "share": [
+        20,
+        30
+      ]
+    },
+    {
+      "region": "11",
+      "year": 2026,
+      "band": "2",
+      "count": [
+        100000,
+        150000
+      ],
+      "share": [
+        20,
+        30
+      ]
+    },
+    {
+      "region": "11",
+      "year": 2026,
+      "band": "3",
+      "count": [
+        50000,
+        100000
+      ],
+      "share": [
+        10,
+        20
+      ]
+    },
+    {
+      "region": "11",
+      "year": 2026,
+      "band": "4",
+      "count": [
+        0,
+        50000
+      ],
+      "share": [
+        0,
+        10
+      ]
+    },
+    {
+      "region": "11",
+      "year": 2026,
+      "band": "5",
+      "count": null,
+      "share": null
+    },
+    {
+      "region": "11",
+      "year": 2026,
+      "band": "missing",
+      "count": null,
+      "share": null
+    },
+    {
+      "region": "11",
+      "year": 2026,
+      "band": "near700",
+      "count": [
+        300000,
+        350000
+      ],
+      "share": [
+        70,
+        80
+      ]
+    },
+    {
+      "region": "11",
+      "year": 2030,
+      "band": "0",
+      "count": [
+        100000,
+        150000
+      ],
+      "share": [
+        10,
+        20
+      ]
+    },
+    {
+      "region": "11",
+      "year": 2030,
+      "band": "1",
+      "count": [
+        200000,
+        250000
+      ],
+      "share": [
+        30,
+        40
+      ]
+    },
+    {
+      "region": "11",
+      "year": 2030,
+      "band": "2",
+      "count": [
+        150000,
+        200000
+      ],
+      "share": [
+        20,
+        30
+      ]
+    },
+    {
+      "region": "11",
+      "year": 2030,
+      "band": "3",
+      "count": [
+        100000,
+        150000
+      ],
+      "share": [
+        10,
+        20
+      ]
+    },
+    {
+      "region": "11",
+      "year": 2030,
+      "band": "4",
+      "count": [
+        50000,
+        100000
+      ],
+      "share": [
+        0,
+        10
+      ]
+    },
+    {
+      "region": "11",
+      "year": 2030,
+      "band": "5",
+      "count": [
+        0,
+        50000
+      ],
+      "share": [
+        0,
+        10
+      ]
+    },
+    {
+      "region": "11",
+      "year": 2030,
+      "band": "missing",
+      "count": null,
+      "share": null
+    },
+    {
+      "region": "11",
+      "year": 2030,
+      "band": "near700",
+      "count": [
+        500000,
+        550000
+      ],
+      "share": [
+        70,
+        80
+      ]
+    },
+    {
+      "region": "41",
+      "year": 2026,
+      "band": "0",
+      "count": [
+        0,
+        50000
+      ],
+      "share": [
+        0,
+        10
+      ]
+    },
+    {
+      "region": "41",
+      "year": 2026,
+      "band": "1",
+      "count": [
+        50000,
+        100000
+      ],
+      "share": [
+        10,
+        20
+      ]
+    },
+    {
+      "region": "41",
+      "year": 2026,
+      "band": "2",
+      "count": [
+        100000,
+        150000
+      ],
+      "share": [
+        20,
+        30
+      ]
+    },
+    {
+      "region": "41",
+      "year": 2026,
+      "band": "3",
+      "count": [
+        100000,
+        150000
+      ],
+      "share": [
+        20,
+        30
+      ]
+    },
+    {
+      "region": "41",
+      "year": 2026,
+      "band": "4",
+      "count": [
+        50000,
+        100000
+      ],
+      "share": [
+        10,
+        20
+      ]
+    },
+    {
+      "region": "41",
+      "year": 2026,
+      "band": "5",
+      "count": [
+        50000,
+        100000
+      ],
+      "share": [
+        10,
+        20
+      ]
+    },
+    {
+      "region": "41",
+      "year": 2026,
+      "band": "missing",
+      "count": null,
+      "share": null
+    },
+    {
+      "region": "41",
+      "year": 2026,
+      "band": "near700",
+      "count": [
+        200000,
+        250000
+      ],
+      "share": [
+        40,
+        50
+      ]
+    },
+    {
+      "region": "41",
+      "year": 2030,
+      "band": "0",
+      "count": [
+        50000,
+        100000
+      ],
+      "share": [
+        0,
+        10
+      ]
+    },
+    {
+      "region": "41",
+      "year": 2030,
+      "band": "1",
+      "count": [
+        100000,
+        150000
+      ],
+      "share": [
+        10,
+        20
+      ]
+    },
+    {
+      "region": "41",
+      "year": 2030,
+      "band": "2",
+      "count": [
+        100000,
+        150000
+      ],
+      "share": [
+        10,
+        20
+      ]
+    },
+    {
+      "region": "41",
+      "year": 2030,
+      "band": "3",
+      "count": [
+        150000,
+        200000
+      ],
+      "share": [
+        20,
+        30
+      ]
+    },
+    {
+      "region": "41",
+      "year": 2030,
+      "band": "4",
+      "count": [
+        100000,
+        150000
+      ],
+      "share": [
+        10,
+        20
+      ]
+    },
+    {
+      "region": "41",
+      "year": 2030,
+      "band": "5",
+      "count": [
+        100000,
+        150000
+      ],
+      "share": [
+        10,
+        20
+      ]
+    },
+    {
+      "region": "41",
+      "year": 2030,
+      "band": "missing",
+      "count": null,
+      "share": null
+    },
+    {
+      "region": "41",
+      "year": 2030,
+      "band": "near700",
+      "count": [
+        300000,
+        350000
+      ],
+      "share": [
+        40,
+        50
+      ]
+    }
+  ]
+}
