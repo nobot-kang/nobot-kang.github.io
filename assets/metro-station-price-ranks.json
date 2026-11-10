@@ -1,0 +1,467 @@
+{
+  "schema": "metro_station_price_ranks_v1",
+  "public_admitted": true,
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "scope": "Seoul and covered Gyeonggi",
+  "eligible_station_groups": 40,
+  "rows": [
+    {
+      "station": "금호",
+      "rank_group": [
+        1,
+        5
+      ],
+      "price_manwon": [
+        180000,
+        200000
+      ],
+      "complexes": [
+        10,
+        15
+      ],
+      "trades": [
+        100,
+        120
+      ],
+      "leave_largest_rank_group": [
+        1,
+        5
+      ]
+    },
+    {
+      "station": "당산",
+      "rank_group": [
+        1,
+        5
+      ],
+      "price_manwon": [
+        170000,
+        180000
+      ],
+      "complexes": [
+        10,
+        15
+      ],
+      "trades": [
+        80,
+        100
+      ],
+      "leave_largest_rank_group": [
+        1,
+        5
+      ]
+    },
+    {
+      "station": "애오개",
+      "rank_group": [
+        1,
+        5
+      ],
+      "price_manwon": [
+        220000,
+        240000
+      ],
+      "complexes": [
+        10,
+        15
+      ],
+      "trades": [
+        80,
+        100
+      ],
+      "leave_largest_rank_group": [
+        1,
+        5
+      ]
+    },
+    {
+      "station": "옥수",
+      "rank_group": [
+        1,
+        5
+      ],
+      "price_manwon": [
+        190000,
+        210000
+      ],
+      "complexes": [
+        10,
+        15
+      ],
+      "trades": [
+        60,
+        80
+      ],
+      "leave_largest_rank_group": null
+    },
+    {
+      "station": "자양",
+      "rank_group": [
+        1,
+        5
+      ],
+      "price_manwon": [
+        160000,
+        170000
+      ],
+      "complexes": [
+        15,
+        20
+      ],
+      "trades": [
+        60,
+        80
+      ],
+      "leave_largest_rank_group": [
+        1,
+        5
+      ]
+    },
+    {
+      "station": "광흥창",
+      "rank_group": [
+        6,
+        10
+      ],
+      "price_manwon": [
+        150000,
+        160000
+      ],
+      "complexes": [
+        15,
+        20
+      ],
+      "trades": [
+        120,
+        140
+      ],
+      "leave_largest_rank_group": [
+        6,
+        10
+      ]
+    },
+    {
+      "station": "명일",
+      "rank_group": [
+        6,
+        10
+      ],
+      "price_manwon": [
+        130000,
+        160000
+      ],
+      "complexes": [
+        15,
+        20
+      ],
+      "trades": [
+        220,
+        240
+      ],
+      "leave_largest_rank_group": null
+    },
+    {
+      "station": "상도",
+      "rank_group": [
+        6,
+        10
+      ],
+      "price_manwon": [
+        150000,
+        160000
+      ],
+      "complexes": [
+        10,
+        15
+      ],
+      "trades": [
+        180,
+        200
+      ],
+      "leave_largest_rank_group": null
+    },
+    {
+      "station": "신풍",
+      "rank_group": [
+        6,
+        10
+      ],
+      "price_manwon": [
+        140000,
+        160000
+      ],
+      "complexes": [
+        10,
+        15
+      ],
+      "trades": [
+        200,
+        220
+      ],
+      "leave_largest_rank_group": [
+        11,
+        15
+      ]
+    },
+    {
+      "station": "오목교",
+      "rank_group": [
+        6,
+        10
+      ],
+      "price_manwon": [
+        150000,
+        160000
+      ],
+      "complexes": [
+        10,
+        15
+      ],
+      "trades": [
+        80,
+        100
+      ],
+      "leave_largest_rank_group": null
+    },
+    {
+      "station": "길음",
+      "rank_group": [
+        11,
+        15
+      ],
+      "price_manwon": [
+        100000,
+        110000
+      ],
+      "complexes": [
+        15,
+        20
+      ],
+      "trades": [
+        240,
+        260
+      ],
+      "leave_largest_rank_group": [
+        16,
+        20
+      ]
+    },
+    {
+      "station": "남성",
+      "rank_group": [
+        11,
+        15
+      ],
+      "price_manwon": [
+        140000,
+        160000
+      ],
+      "complexes": [
+        15,
+        20
+      ],
+      "trades": [
+        160,
+        180
+      ],
+      "leave_largest_rank_group": [
+        11,
+        15
+      ]
+    },
+    {
+      "station": "도림천",
+      "rank_group": [
+        11,
+        15
+      ],
+      "price_manwon": [
+        100000,
+        110000
+      ],
+      "complexes": [
+        15,
+        20
+      ],
+      "trades": [
+        140,
+        160
+      ],
+      "leave_largest_rank_group": [
+        11,
+        15
+      ]
+    },
+    {
+      "station": "사당",
+      "rank_group": [
+        11,
+        15
+      ],
+      "price_manwon": [
+        100000,
+        120000
+      ],
+      "complexes": [
+        10,
+        15
+      ],
+      "trades": [
+        30,
+        50
+      ],
+      "leave_largest_rank_group": [
+        11,
+        20
+      ]
+    },
+    {
+      "station": "양평 (5호선)",
+      "rank_group": [
+        11,
+        15
+      ],
+      "price_manwon": [
+        100000,
+        110000
+      ],
+      "complexes": [
+        15,
+        20
+      ],
+      "trades": [
+        40,
+        60
+      ],
+      "leave_largest_rank_group": [
+        16,
+        20
+      ]
+    },
+    {
+      "station": "염창",
+      "rank_group": [
+        11,
+        15
+      ],
+      "price_manwon": [
+        100000,
+        110000
+      ],
+      "complexes": [
+        25,
+        30
+      ],
+      "trades": [
+        140,
+        160
+      ],
+      "leave_largest_rank_group": [
+        16,
+        20
+      ]
+    },
+    {
+      "station": "구로",
+      "rank_group": [
+        16,
+        20
+      ],
+      "price_manwon": [
+        90000,
+        110000
+      ],
+      "complexes": [
+        15,
+        20
+      ],
+      "trades": [
+        120,
+        140
+      ],
+      "leave_largest_rank_group": [
+        21,
+        25
+      ]
+    },
+    {
+      "station": "등촌",
+      "rank_group": [
+        16,
+        20
+      ],
+      "price_manwon": [
+        100000,
+        110000
+      ],
+      "complexes": [
+        25,
+        30
+      ],
+      "trades": [
+        140,
+        160
+      ],
+      "leave_largest_rank_group": [
+        16,
+        20
+      ]
+    },
+    {
+      "station": "신방화",
+      "rank_group": [
+        16,
+        20
+      ],
+      "price_manwon": [
+        90000,
+        110000
+      ],
+      "complexes": [
+        25,
+        30
+      ],
+      "trades": [
+        180,
+        200
+      ],
+      "leave_largest_rank_group": [
+        16,
+        20
+      ]
+    },
+    {
+      "station": "홍제",
+      "rank_group": [
+        16,
+        20
+      ],
+      "price_manwon": [
+        90000,
+        100000
+      ],
+      "complexes": [
+        15,
+        20
+      ],
+      "trades": [
+        200,
+        220
+      ],
+      "leave_largest_rank_group": [
+        21,
+        25
+      ]
+    }
+  ],
+  "definitions": {
+    "price_manwon": "Median price of 84-type eligible sale contracts in ten thousand won; lower bound included.",
+    "complexes": "Apartment complexes represented among the eligible sale contracts; lower bound included.",
+    "trades": "Eligible sale contracts represented; lower bound included.",
+    "rank_group": "Published rank buckets of five positions among the 40 station groups passing support; both endpoints are included.",
+    "leave_largest_rank_group": "Closed displayed positions when one highest-contributing complex is removed from this station only."
+  }
+}
