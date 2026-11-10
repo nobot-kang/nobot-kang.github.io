@@ -1,0 +1,69 @@
+{
+  "schema": "metro_boundary_sensitivity_v1",
+  "threshold_m": 700,
+  "analysis_date": "2026-11-11",
+  "row_order": [
+    600,
+    650,
+    750,
+    800,
+    "600_800"
+  ],
+  "regions": [
+    {
+      "scope": "11",
+      "percentages": [
+        [
+          8,
+          10
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          15,
+          20
+        ]
+      ]
+    },
+    {
+      "scope": "41",
+      "percentages": [
+        [
+          6,
+          8
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          15,
+          20
+        ]
+      ]
+    }
+  ],
+  "definitions": {
+    "population": "Apartment complexes with all recorded locations confirmed in Seoul and covered Gyeonggi.",
+    "percentages": "Percentage of the regional population that changes classification against the 700m cut; the final row is the total between the 600m and 800m cuts.",
+    "bounds": "The lower endpoint is included and the upper endpoint is excluded."
+  }
+}
