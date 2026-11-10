@@ -1,0 +1,561 @@
+{
+  "schema": "metro_district_distance_v1",
+  "distance_m": 700,
+  "sale_period": "2025-01/2025-12",
+  "definitions": {
+    "stock": "Reuse of Seoul district stock envelopes from metro-stock.json, including uncertainty from incomplete locations.",
+    "sale_share_2025": "Share of eligible sale contracts in complexes within 700m; all recorded locations must be known and the nearest distance is used.",
+    "ranks": "Best and worst possible ranks from published stock envelopes, with withheld peers allowed any value.",
+    "intervals": "Percent bounds include the lower limit. Only 100 is included as an upper limit. Null indicates withholding."
+  },
+  "rows": [
+    {
+      "scope": "11110",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": null,
+      "ranks": {
+        "complex_share": [
+          12,
+          19
+        ],
+        "household_share": null
+      },
+      "district": "종로구",
+      "sale_share_2025": null
+    },
+    {
+      "scope": "11140",
+      "complex_share": [
+        90,
+        100
+      ],
+      "household_share": null,
+      "ranks": {
+        "complex_share": [
+          1,
+          5
+        ],
+        "household_share": null
+      },
+      "district": "중구",
+      "sale_share_2025": null
+    },
+    {
+      "scope": "11170",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": null,
+      "ranks": {
+        "complex_share": [
+          12,
+          19
+        ],
+        "household_share": null
+      },
+      "district": "용산구",
+      "sale_share_2025": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "11200",
+      "complex_share": null,
+      "household_share": null,
+      "ranks": {
+        "complex_share": null,
+        "household_share": null
+      },
+      "district": "성동구",
+      "sale_share_2025": null
+    },
+    {
+      "scope": "11215",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": null,
+      "ranks": {
+        "complex_share": [
+          12,
+          19
+        ],
+        "household_share": null
+      },
+      "district": "광진구",
+      "sale_share_2025": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11230",
+      "complex_share": [
+        50,
+        60
+      ],
+      "household_share": [
+        60,
+        70
+      ],
+      "ranks": {
+        "complex_share": [
+          18,
+          23
+        ],
+        "household_share": [
+          9,
+          21
+        ]
+      },
+      "district": "동대문구",
+      "sale_share_2025": [
+        60,
+        70
+      ]
+    },
+    {
+      "scope": "11260",
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        80,
+        90
+      ],
+      "ranks": {
+        "complex_share": [
+          3,
+          14
+        ],
+        "household_share": [
+          1,
+          13
+        ]
+      },
+      "district": "중랑구",
+      "sale_share_2025": null
+    },
+    {
+      "scope": "11290",
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "ranks": {
+        "complex_share": [
+          3,
+          14
+        ],
+        "household_share": [
+          4,
+          18
+        ]
+      },
+      "district": "성북구",
+      "sale_share_2025": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "11305",
+      "complex_share": null,
+      "household_share": null,
+      "ranks": {
+        "complex_share": null,
+        "household_share": null
+      },
+      "district": "강북구",
+      "sale_share_2025": null
+    },
+    {
+      "scope": "11320",
+      "complex_share": [
+        50,
+        60
+      ],
+      "household_share": [
+        60,
+        70
+      ],
+      "ranks": {
+        "complex_share": [
+          18,
+          23
+        ],
+        "household_share": [
+          9,
+          21
+        ]
+      },
+      "district": "도봉구",
+      "sale_share_2025": [
+        60,
+        70
+      ]
+    },
+    {
+      "scope": "11350",
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "ranks": {
+        "complex_share": [
+          3,
+          14
+        ],
+        "household_share": [
+          4,
+          18
+        ]
+      },
+      "district": "노원구",
+      "sale_share_2025": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11380",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        60,
+        70
+      ],
+      "ranks": {
+        "complex_share": [
+          12,
+          19
+        ],
+        "household_share": [
+          9,
+          21
+        ]
+      },
+      "district": "은평구",
+      "sale_share_2025": [
+        60,
+        70
+      ]
+    },
+    {
+      "scope": "11410",
+      "complex_share": [
+        50,
+        60
+      ],
+      "household_share": [
+        50,
+        60
+      ],
+      "ranks": {
+        "complex_share": [
+          18,
+          23
+        ],
+        "household_share": [
+          12,
+          23
+        ]
+      },
+      "district": "서대문구",
+      "sale_share_2025": [
+        60,
+        80
+      ]
+    },
+    {
+      "scope": "11440",
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        80,
+        90
+      ],
+      "ranks": {
+        "complex_share": [
+          3,
+          14
+        ],
+        "household_share": [
+          1,
+          13
+        ]
+      },
+      "district": "마포구",
+      "sale_share_2025": [
+        90,
+        100
+      ]
+    },
+    {
+      "scope": "11470",
+      "complex_share": [
+        40,
+        50
+      ],
+      "household_share": [
+        40,
+        50
+      ],
+      "ranks": {
+        "complex_share": [
+          21,
+          24
+        ],
+        "household_share": [
+          14,
+          24
+        ]
+      },
+      "district": "양천구",
+      "sale_share_2025": [
+        50,
+        60
+      ]
+    },
+    {
+      "scope": "11500",
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "ranks": {
+        "complex_share": [
+          3,
+          14
+        ],
+        "household_share": [
+          4,
+          18
+        ]
+      },
+      "district": "강서구",
+      "sale_share_2025": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11530",
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "ranks": {
+        "complex_share": [
+          3,
+          14
+        ],
+        "household_share": [
+          4,
+          18
+        ]
+      },
+      "district": "구로구",
+      "sale_share_2025": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "11545",
+      "complex_share": [
+        20,
+        30
+      ],
+      "household_share": [
+        30,
+        40
+      ],
+      "ranks": {
+        "complex_share": [
+          22,
+          25
+        ],
+        "household_share": [
+          15,
+          25
+        ]
+      },
+      "district": "금천구",
+      "sale_share_2025": [
+        40,
+        50
+      ]
+    },
+    {
+      "scope": "11560",
+      "complex_share": null,
+      "household_share": null,
+      "ranks": {
+        "complex_share": null,
+        "household_share": null
+      },
+      "district": "영등포구",
+      "sale_share_2025": [
+        80,
+        90
+      ]
+    },
+    {
+      "scope": "11590",
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": null,
+      "ranks": {
+        "complex_share": [
+          3,
+          14
+        ],
+        "household_share": null
+      },
+      "district": "동작구",
+      "sale_share_2025": null
+    },
+    {
+      "scope": "11620",
+      "complex_share": [
+        60,
+        70
+      ],
+      "household_share": [
+        50,
+        60
+      ],
+      "ranks": {
+        "complex_share": [
+          17,
+          20
+        ],
+        "household_share": [
+          12,
+          23
+        ]
+      },
+      "district": "관악구",
+      "sale_share_2025": [
+        50,
+        60
+      ]
+    },
+    {
+      "scope": "11650",
+      "complex_share": [
+        70,
+        80
+      ],
+      "household_share": [
+        70,
+        80
+      ],
+      "ranks": {
+        "complex_share": [
+          12,
+          19
+        ],
+        "household_share": [
+          4,
+          18
+        ]
+      },
+      "district": "서초구",
+      "sale_share_2025": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "11680",
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": null,
+      "ranks": {
+        "complex_share": [
+          3,
+          14
+        ],
+        "household_share": null
+      },
+      "district": "강남구",
+      "sale_share_2025": [
+        70,
+        80
+      ]
+    },
+    {
+      "scope": "11710",
+      "complex_share": [
+        80,
+        90
+      ],
+      "household_share": null,
+      "ranks": {
+        "complex_share": [
+          3,
+          14
+        ],
+        "household_share": null
+      },
+      "district": "송파구",
+      "sale_share_2025": null
+    },
+    {
+      "scope": "11740",
+      "complex_share": [
+        90,
+        100
+      ],
+      "household_share": [
+        80,
+        90
+      ],
+      "ranks": {
+        "complex_share": [
+          1,
+          5
+        ],
+        "household_share": [
+          1,
+          13
+        ]
+      },
+      "district": "강동구",
+      "sale_share_2025": null
+    }
+  ]
+}
