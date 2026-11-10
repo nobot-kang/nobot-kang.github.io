@@ -1,0 +1,364 @@
+{
+  "rows": [
+    {
+      "scope": "11",
+      "distance": "300",
+      "shares": {
+        "small": [
+          30,
+          40
+        ],
+        "middle": [
+          40,
+          50
+        ],
+        "large": [
+          20,
+          30
+        ],
+        "type59": [
+          10,
+          20
+        ],
+        "type84": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "distance": "700",
+      "shares": {
+        "small": [
+          30,
+          40
+        ],
+        "middle": [
+          40,
+          50
+        ],
+        "large": [
+          20,
+          30
+        ],
+        "type59": [
+          20,
+          30
+        ],
+        "type84": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "distance": "1000",
+      "shares": {
+        "small": [
+          30,
+          40
+        ],
+        "middle": [
+          40,
+          50
+        ],
+        "large": [
+          20,
+          30
+        ],
+        "type59": [
+          10,
+          20
+        ],
+        "type84": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "distance": "1500",
+      "shares": {
+        "small": [
+          30,
+          40
+        ],
+        "middle": [
+          40,
+          50
+        ],
+        "large": [
+          10,
+          20
+        ],
+        "type59": [
+          20,
+          30
+        ],
+        "type84": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "distance": "over1500",
+      "shares": {
+        "small": [
+          40,
+          50
+        ],
+        "middle": [
+          30,
+          40
+        ],
+        "large": [
+          10,
+          20
+        ],
+        "type59": [
+          20,
+          30
+        ],
+        "type84": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "distance": "300",
+      "shares": {
+        "small": [
+          30,
+          40
+        ],
+        "middle": [
+          40,
+          50
+        ],
+        "large": [
+          10,
+          20
+        ],
+        "type59": [
+          20,
+          30
+        ],
+        "type84": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "distance": "700",
+      "shares": {
+        "small": [
+          30,
+          40
+        ],
+        "middle": [
+          40,
+          50
+        ],
+        "large": [
+          10,
+          20
+        ],
+        "type59": [
+          20,
+          30
+        ],
+        "type84": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "distance": "1000",
+      "shares": {
+        "small": [
+          20,
+          30
+        ],
+        "middle": [
+          50,
+          60
+        ],
+        "large": [
+          10,
+          20
+        ],
+        "type59": [
+          20,
+          30
+        ],
+        "type84": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "distance": "1500",
+      "shares": {
+        "small": [
+          20,
+          30
+        ],
+        "middle": [
+          50,
+          60
+        ],
+        "large": [
+          20,
+          30
+        ],
+        "type59": [
+          10,
+          20
+        ],
+        "type84": [
+          40,
+          50
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "distance": "over1500",
+      "shares": {
+        "small": [
+          20,
+          30
+        ],
+        "middle": [
+          50,
+          60
+        ],
+        "large": [
+          10,
+          20
+        ],
+        "type59": [
+          10,
+          20
+        ],
+        "type84": [
+          40,
+          50
+        ]
+      }
+    }
+  ],
+  "differences": [
+    {
+      "scope": "11",
+      "raw": {
+        "small": [
+          -5,
+          0
+        ],
+        "middle": [
+          0,
+          5
+        ],
+        "large": [
+          0,
+          5
+        ],
+        "type59": [
+          -5,
+          0
+        ],
+        "type84": [
+          0,
+          5
+        ]
+      },
+      "matched": {
+        "small": [
+          -5,
+          0
+        ],
+        "middle": [
+          -5,
+          0
+        ],
+        "large": [
+          0,
+          5
+        ],
+        "type59": [
+          -5,
+          0
+        ],
+        "type84": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "raw": {
+        "small": [
+          5,
+          10
+        ],
+        "middle": [
+          -10,
+          -5
+        ],
+        "large": [
+          -5,
+          0
+        ],
+        "type59": [
+          0,
+          5
+        ],
+        "type84": [
+          -10,
+          -5
+        ]
+      },
+      "matched": {
+        "small": [
+          0,
+          5
+        ],
+        "middle": [
+          -10,
+          -5
+        ],
+        "large": [
+          0,
+          5
+        ],
+        "type59": [
+          0,
+          5
+        ],
+        "type84": [
+          -5,
+          0
+        ]
+      }
+    }
+  ],
+  "schema": "metro_size_mix_v1",
+  "public_admitted": true,
+  "scope": "Current measured apartment households with verified completion year; Seoul and retained Gyeonggi",
+  "distance": "All reported locations in one band; 700m or less minus over 1km for comparisons"
+}
