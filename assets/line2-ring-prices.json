@@ -1,0 +1,452 @@
+{
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "rows": [
+    {
+      "station": "시청",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "을지로입구",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "을지로3가",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "을지로4가",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "동대문역사문화공원",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "신당",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "상왕십리",
+      "median_manwon": [
+        130000,
+        150000
+      ],
+      "transactions": [
+        180,
+        200
+      ],
+      "complexes": [
+        15,
+        20
+      ],
+      "leave_largest": true,
+      "status": "shown"
+    },
+    {
+      "station": "왕십리",
+      "median_manwon": [
+        130000,
+        150000
+      ],
+      "transactions": [
+        80,
+        100
+      ],
+      "complexes": [
+        15,
+        20
+      ],
+      "leave_largest": true,
+      "status": "shown"
+    },
+    {
+      "station": "한양대",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "뚝섬",
+      "median_manwon": [
+        150000,
+        170000
+      ],
+      "transactions": [
+        60,
+        80
+      ],
+      "complexes": [
+        10,
+        15
+      ],
+      "leave_largest": true,
+      "status": "shown"
+    },
+    {
+      "station": "성수",
+      "median_manwon": [
+        140000,
+        160000
+      ],
+      "transactions": [
+        40,
+        60
+      ],
+      "complexes": [
+        10,
+        15
+      ],
+      "leave_largest": true,
+      "status": "shown"
+    },
+    {
+      "station": "건대입구",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "구의",
+      "median_manwon": [
+        150000,
+        160000
+      ],
+      "transactions": [
+        40,
+        60
+      ],
+      "complexes": [
+        10,
+        15
+      ],
+      "leave_largest": true,
+      "status": "shown"
+    },
+    {
+      "station": "강변",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "잠실나루",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "잠실",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "잠실새내",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "종합운동장",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "삼성",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "선릉",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "역삼",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "강남",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "교대",
+      "median_manwon": [
+        190000,
+        210000
+      ],
+      "transactions": [
+        40,
+        60
+      ],
+      "complexes": [
+        15,
+        20
+      ],
+      "leave_largest": null,
+      "status": "shown"
+    },
+    {
+      "station": "서초",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "방배",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "사당",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "prior_overlap"
+    },
+    {
+      "station": "낙성대",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "서울대입구",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "봉천",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "신림",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "신대방",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "구로디지털단지",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "대림",
+      "median_manwon": [
+        70000,
+        80000
+      ],
+      "transactions": [
+        60,
+        80
+      ],
+      "complexes": [
+        15,
+        20
+      ],
+      "leave_largest": true,
+      "status": "shown"
+    },
+    {
+      "station": "신도림",
+      "median_manwon": [
+        110000,
+        120000
+      ],
+      "transactions": [
+        180,
+        200
+      ],
+      "complexes": [
+        20,
+        25
+      ],
+      "leave_largest": true,
+      "status": "shown"
+    },
+    {
+      "station": "문래",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "영등포구청",
+      "median_manwon": [
+        140000,
+        150000
+      ],
+      "transactions": [
+        160,
+        180
+      ],
+      "complexes": [
+        20,
+        25
+      ],
+      "leave_largest": true,
+      "status": "shown"
+    },
+    {
+      "station": "당산",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "prior_overlap"
+    },
+    {
+      "station": "합정",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "홍대입구",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "신촌",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    },
+    {
+      "station": "이대",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient_price_band"
+    },
+    {
+      "station": "아현",
+      "median_manwon": [
+        210000,
+        220000
+      ],
+      "transactions": [
+        140,
+        160
+      ],
+      "complexes": [
+        15,
+        20
+      ],
+      "leave_largest": true,
+      "status": "shown"
+    },
+    {
+      "station": "충정로",
+      "median_manwon": null,
+      "transactions": null,
+      "complexes": null,
+      "leave_largest": null,
+      "status": "insufficient"
+    }
+  ],
+  "schema": "line2_ring_prices_v1",
+  "public_admitted": true,
+  "definitions": {
+    "order": "Line 2 main loop, starting at City Hall and moving toward Euljiro 1-ga.",
+    "median_manwon": "Half-open median price interval in ten thousand won for eligible 84-type sales.",
+    "transactions": "Half-open count interval for eligible sales in the station catchment.",
+    "complexes": "Half-open count interval for contributing complexes.",
+    "leave_largest": "True if all qualifying exclusions retained the band; null means not displayed.",
+    "status": "Reason for displaying or withholding the station price band."
+  }
+}
