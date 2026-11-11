@@ -1,0 +1,153 @@
+{
+  "schema": "two_destination_prices_v1",
+  "public_admitted": true,
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "rows": [
+    {
+      "scope": "11",
+      "cbd": "0_10",
+      "gangnam": "0_10",
+      "price": [
+        140000,
+        150000
+      ]
+    },
+    {
+      "scope": "11",
+      "cbd": "0_10",
+      "gangnam": "11_20",
+      "price": [
+        100000,
+        110000
+      ]
+    },
+    {
+      "scope": "11",
+      "cbd": "0_10",
+      "gangnam": "21_plus",
+      "price": null
+    },
+    {
+      "scope": "11",
+      "cbd": "11_20",
+      "gangnam": "0_10",
+      "price": [
+        150000,
+        160000
+      ]
+    },
+    {
+      "scope": "11",
+      "cbd": "11_20",
+      "gangnam": "11_20",
+      "price": [
+        80000,
+        90000
+      ]
+    },
+    {
+      "scope": "11",
+      "cbd": "11_20",
+      "gangnam": "21_plus",
+      "price": null
+    },
+    {
+      "scope": "11",
+      "cbd": "21_plus",
+      "gangnam": "0_10",
+      "price": null
+    },
+    {
+      "scope": "11",
+      "cbd": "21_plus",
+      "gangnam": "11_20",
+      "price": null
+    },
+    {
+      "scope": "11",
+      "cbd": "21_plus",
+      "gangnam": "21_plus",
+      "price": null
+    },
+    {
+      "scope": "41",
+      "cbd": "0_10",
+      "gangnam": "0_10",
+      "price": null
+    },
+    {
+      "scope": "41",
+      "cbd": "0_10",
+      "gangnam": "11_20",
+      "price": [
+        60000,
+        70000
+      ]
+    },
+    {
+      "scope": "41",
+      "cbd": "0_10",
+      "gangnam": "21_plus",
+      "price": null
+    },
+    {
+      "scope": "41",
+      "cbd": "11_20",
+      "gangnam": "0_10",
+      "price": [
+        90000,
+        100000
+      ]
+    },
+    {
+      "scope": "41",
+      "cbd": "11_20",
+      "gangnam": "11_20",
+      "price": [
+        60000,
+        70000
+      ]
+    },
+    {
+      "scope": "41",
+      "cbd": "11_20",
+      "gangnam": "21_plus",
+      "price": [
+        40000,
+        50000
+      ]
+    },
+    {
+      "scope": "41",
+      "cbd": "21_plus",
+      "gangnam": "0_10",
+      "price": null
+    },
+    {
+      "scope": "41",
+      "cbd": "21_plus",
+      "gangnam": "11_20",
+      "price": [
+        60000,
+        70000
+      ]
+    },
+    {
+      "scope": "41",
+      "cbd": "21_plus",
+      "gangnam": "21_plus",
+      "price": [
+        30000,
+        40000
+      ]
+    }
+  ],
+  "definitions": {
+    "cbd": "Stop count band to one of the five published CBD destination stations.",
+    "gangnam": "Stop count band to one of the five published Gangnam destination stations.",
+    "price": "Half-open median price interval in ten thousand won for eligible 84-type sale contracts, or null."
+  }
+}
