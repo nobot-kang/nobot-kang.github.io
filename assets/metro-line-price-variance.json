@@ -1,0 +1,55 @@
+{
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "rows": [
+    {
+      "scope": "11",
+      "station_districts": 209,
+      "between_line_fraction": [
+        30,
+        35
+      ],
+      "within_line_fraction": [
+        65,
+        70
+      ],
+      "partial_line_fraction": [
+        10,
+        15
+      ]
+    },
+    {
+      "scope": "41",
+      "station_districts": 72,
+      "between_line_fraction": [
+        70,
+        75
+      ],
+      "within_line_fraction": [
+        25,
+        30
+      ],
+      "partial_line_fraction": [
+        30,
+        35
+      ]
+    }
+  ],
+  "example": {
+    "district": "\uac15\ub3d9\uad6c",
+    "line": "5\ud638\uc120",
+    "stations": [
+      "\uad7d\uc740\ub2e4\ub9ac",
+      "\uace0\ub355"
+    ],
+    "price_ratio": [
+      2,
+      3
+    ]
+  },
+  "schema": "metro_line_price_variance_v1",
+  "public_admitted": true,
+  "definition": "Half-open percentage intervals for the share of weighted log-price variance. The conditional line share uses within-municipality variance as its denominator."
+}
