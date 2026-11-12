@@ -1,0 +1,198 @@
+{
+  "periods": [
+    2019,
+    2021
+  ],
+  "rows": [
+    {
+      "scope": "11",
+      "band": "0_700",
+      "kind": "distance",
+      "growth": [
+        [
+          35,
+          40
+        ],
+        [
+          40,
+          45
+        ],
+        [
+          50,
+          55
+        ]
+      ]
+    },
+    {
+      "scope": "11",
+      "band": "1501_plus",
+      "kind": "distance",
+      "growth": [
+        [
+          40,
+          50
+        ],
+        [
+          40,
+          50
+        ],
+        [
+          45,
+          60
+        ]
+      ]
+    },
+    {
+      "scope": "11",
+      "band": "701_1500",
+      "kind": "distance",
+      "growth": [
+        [
+          35,
+          40
+        ],
+        [
+          45,
+          50
+        ],
+        [
+          55,
+          60
+        ]
+      ]
+    },
+    {
+      "scope": "11",
+      "band": "far",
+      "kind": "binary",
+      "growth_median": [
+        45,
+        50
+      ],
+      "start_manwon": [
+        55000,
+        60000
+      ],
+      "amount_change_manwon": [
+        25000,
+        30000
+      ]
+    },
+    {
+      "scope": "11",
+      "band": "near",
+      "kind": "binary",
+      "growth_median": [
+        40,
+        45
+      ],
+      "start_manwon": [
+        75000,
+        80000
+      ],
+      "amount_change_manwon": [
+        30000,
+        35000
+      ]
+    },
+    {
+      "scope": "41",
+      "band": "0_700",
+      "kind": "distance",
+      "growth": [
+        [
+          45,
+          50
+        ],
+        [
+          55,
+          60
+        ],
+        [
+          65,
+          70
+        ]
+      ]
+    },
+    {
+      "scope": "41",
+      "band": "1501_plus",
+      "kind": "distance",
+      "growth": [
+        [
+          40,
+          45
+        ],
+        [
+          55,
+          60
+        ],
+        [
+          65,
+          70
+        ]
+      ]
+    },
+    {
+      "scope": "41",
+      "band": "701_1500",
+      "kind": "distance",
+      "growth": [
+        [
+          45,
+          50
+        ],
+        [
+          60,
+          65
+        ],
+        [
+          70,
+          75
+        ]
+      ]
+    },
+    {
+      "scope": "41",
+      "band": "far",
+      "kind": "binary",
+      "growth_median": [
+        55,
+        60
+      ],
+      "start_manwon": [
+        30000,
+        35000
+      ],
+      "amount_change_manwon": [
+        15000,
+        20000
+      ]
+    },
+    {
+      "scope": "41",
+      "band": "near",
+      "kind": "binary",
+      "growth_median": [
+        55,
+        60
+      ],
+      "start_manwon": [
+        35000,
+        40000
+      ],
+      "amount_change_manwon": [
+        20000,
+        25000
+      ]
+    }
+  ],
+  "schema": "boom_distance_prices_v1",
+  "public_admitted": true,
+  "definitions": {
+    "growth": "Half-open percentage ranges for the lower quartile, median, and upper quartile of complex-level price changes.",
+    "start_manwon": "Half-open median starting price interval in ten thousand won.",
+    "amount_change_manwon": "Half-open median amount change interval in ten thousand won.",
+    "growth_median": "Half-open median price change rate interval for the binary 700m comparison."
+  }
+}
