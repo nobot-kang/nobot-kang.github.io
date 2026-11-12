@@ -1,0 +1,112 @@
+{
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "rows": [
+    {
+      "scope": "11",
+      "lines": 2,
+      "control": "district",
+      "region_support": 12,
+      "difference_percent": [
+        0,
+        5
+      ]
+    },
+    {
+      "scope": "11",
+      "lines": 2,
+      "control": "district_distance",
+      "region_support": 5,
+      "difference_percent": [
+        -5,
+        5
+      ]
+    },
+    {
+      "scope": "11",
+      "lines": 2,
+      "control": "district_age_distance",
+      "region_support": null,
+      "difference_percent": null
+    },
+    {
+      "scope": "11",
+      "lines": 3,
+      "control": "district",
+      "region_support": 3,
+      "difference_percent": [
+        15,
+        20
+      ]
+    },
+    {
+      "scope": "11",
+      "lines": 3,
+      "control": "district_distance",
+      "region_support": null,
+      "difference_percent": null
+    },
+    {
+      "scope": "11",
+      "lines": 3,
+      "control": "district_age_distance",
+      "region_support": null,
+      "difference_percent": null
+    },
+    {
+      "scope": "41",
+      "lines": 2,
+      "control": "district",
+      "region_support": 2,
+      "difference_percent": [
+        -5,
+        0
+      ]
+    },
+    {
+      "scope": "41",
+      "lines": 2,
+      "control": "district_distance",
+      "region_support": null,
+      "difference_percent": null
+    },
+    {
+      "scope": "41",
+      "lines": 2,
+      "control": "district_age_distance",
+      "region_support": null,
+      "difference_percent": null
+    },
+    {
+      "scope": "41",
+      "lines": 3,
+      "control": "district",
+      "region_support": null,
+      "difference_percent": null
+    },
+    {
+      "scope": "41",
+      "lines": 3,
+      "control": "district_distance",
+      "region_support": null,
+      "difference_percent": null
+    },
+    {
+      "scope": "41",
+      "lines": 3,
+      "control": "district_age_distance",
+      "region_support": null,
+      "difference_percent": null
+    }
+  ],
+  "sensitivity": [
+    "seoul_three_district_largest_removal_reverses",
+    "gyeonggi_two_district_650m_reverses",
+    "seoul_two_district_distance_complex_weighting_increases"
+  ],
+  "schema": "metro_line_count_prices_v1",
+  "public_admitted": true,
+  "definition": "Percent change from the one-line comparison group, as half-open intervals. Null values indicate fewer than two comparable municipalities."
+}
