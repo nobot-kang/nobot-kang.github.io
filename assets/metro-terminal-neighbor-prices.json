@@ -1,0 +1,95 @@
+{
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "rows": [
+    {
+      "line": "3\ud638\uc120",
+      "stations": [
+        "\uc624\uae08",
+        "\uacbd\ucc30\ubcd1\uc6d0"
+      ],
+      "cbd_stops": [
+        18,
+        17
+      ],
+      "direction": "lower"
+    },
+    {
+      "line": "5\ud638\uc120",
+      "stations": [
+        "\ubc29\ud654",
+        "\uac1c\ud654\uc0b0"
+      ],
+      "cbd_stops": [
+        6,
+        5
+      ],
+      "direction": "lower"
+    },
+    {
+      "line": "5\ud638\uc120",
+      "stations": [
+        "\ub9c8\ucc9c",
+        "\uac70\uc5ec"
+      ],
+      "cbd_stops": [
+        21,
+        20
+      ],
+      "direction": "higher"
+    },
+    {
+      "line": "5\ud638\uc120",
+      "stations": [
+        "\ud558\ub0a8\uac80\ub2e8\uc0b0",
+        "\ud558\ub0a8\uc2dc\uccad"
+      ],
+      "cbd_stops": [
+        24,
+        23
+      ],
+      "direction": "lower"
+    },
+    {
+      "line": "8\ud638\uc120",
+      "stations": [
+        "\ubaa8\ub780",
+        "\uc218\uc9c4"
+      ],
+      "cbd_stops": [
+        17,
+        18
+      ],
+      "direction": "higher"
+    },
+    {
+      "line": "\uc2e0\ubd84\ub2f9\uc120",
+      "stations": [
+        "\uad11\uad50",
+        "\uad11\uad50\uc911\uc559"
+      ],
+      "cbd_stops": [
+        21,
+        20
+      ],
+      "direction": "lower"
+    },
+    {
+      "line": "\uc758\uc815\ubd80\uacbd\uc804\ucca0",
+      "stations": [
+        "\ubc1c\uace1",
+        "\ud68c\ub8e1"
+      ],
+      "cbd_stops": [
+        18,
+        17
+      ],
+      "direction": "higher"
+    }
+  ],
+  "schema": "metro_terminal_neighbor_prices_v1",
+  "public_admitted": true,
+  "definition": "Direction of the terminal-to-neighbor difference in the median of complex-level sale medians. Price amounts are omitted."
+}
