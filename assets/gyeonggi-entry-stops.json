@@ -1,0 +1,620 @@
+{
+  "rows": [
+    {
+      "region": "41111",
+      "name": "\uc218\uc6d0\uc2dc \uc7a5\uc548\uad6c",
+      "outside": null,
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41113",
+      "name": "\uc218\uc6d0\uc2dc \uad8c\uc120\uad6c",
+      "outside": [
+        70,
+        80
+      ],
+      "stops": {
+        "5": null,
+        "10": [
+          30,
+          40
+        ],
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": [
+          60,
+          70
+        ]
+      }
+    },
+    {
+      "region": "41115",
+      "name": "\uc218\uc6d0\uc2dc \ud314\ub2ec\uad6c",
+      "outside": [
+        60,
+        70
+      ],
+      "stops": {
+        "5": null,
+        "10": [
+          60,
+          70
+        ],
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": [
+          30,
+          40
+        ]
+      }
+    },
+    {
+      "region": "41117",
+      "name": "\uc218\uc6d0\uc2dc \uc601\ud1b5\uad6c",
+      "outside": [
+        50,
+        60
+      ],
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41131",
+      "name": "\uc131\ub0a8\uc2dc \uc218\uc815\uad6c",
+      "outside": [
+        30,
+        40
+      ],
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41133",
+      "name": "\uc131\ub0a8\uc2dc \uc911\uc6d0\uad6c",
+      "outside": [
+        40,
+        50
+      ],
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41135",
+      "name": "\uc131\ub0a8\uc2dc \ubd84\ub2f9\uad6c",
+      "outside": [
+        50,
+        60
+      ],
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41150",
+      "name": "\uc758\uc815\ubd80\uc2dc",
+      "outside": [
+        10,
+        20
+      ],
+      "stops": {
+        "5": [
+          50,
+          60
+        ],
+        "10": [
+          20,
+          30
+        ],
+        "20": [
+          10,
+          20
+        ],
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41171",
+      "name": "\uc548\uc591\uc2dc \ub9cc\uc548\uad6c",
+      "outside": [
+        60,
+        70
+      ],
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41173",
+      "name": "\uc548\uc591\uc2dc \ub3d9\uc548\uad6c",
+      "outside": [
+        70,
+        80
+      ],
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41192",
+      "name": "\ubd80\ucc9c\uc2dc \uc6d0\ubbf8\uad6c",
+      "outside": [
+        30,
+        40
+      ],
+      "stops": {
+        "5": [
+          90,
+          100
+        ],
+        "10": [
+          0,
+          10
+        ],
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41194",
+      "name": "\ubd80\ucc9c\uc2dc \uc18c\uc0ac\uad6c",
+      "outside": [
+        30,
+        40
+      ],
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41196",
+      "name": "\ubd80\ucc9c\uc2dc \uc624\uc815\uad6c",
+      "outside": [
+        50,
+        60
+      ],
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41210",
+      "name": "\uad11\uba85\uc2dc",
+      "outside": [
+        60,
+        70
+      ],
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41220",
+      "name": "\ud3c9\ud0dd\uc2dc",
+      "outside": [
+        70,
+        80
+      ],
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": [
+          70,
+          80
+        ],
+        "21_plus": null,
+        "stop_band_unknown": [
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "region": "41271",
+      "name": "\uc548\uc0b0\uc2dc \uc0c1\ub85d\uad6c",
+      "outside": [
+        60,
+        70
+      ],
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41273",
+      "name": "\uc548\uc0b0\uc2dc \ub2e8\uc6d0\uad6c",
+      "outside": null,
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41281",
+      "name": "\uace0\uc591\uc2dc \ub355\uc591\uad6c",
+      "outside": [
+        60,
+        70
+      ],
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41285",
+      "name": "\uace0\uc591\uc2dc \uc77c\uc0b0\ub3d9\uad6c",
+      "outside": [
+        50,
+        60
+      ],
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41287",
+      "name": "\uace0\uc591\uc2dc \uc77c\uc0b0\uc11c\uad6c",
+      "outside": [
+        30,
+        40
+      ],
+      "stops": {
+        "5": [
+          60,
+          70
+        ],
+        "10": [
+          30,
+          40
+        ],
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41290",
+      "name": "\uacfc\ucc9c\uc2dc",
+      "outside": null,
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41310",
+      "name": "\uad6c\ub9ac\uc2dc",
+      "outside": [
+        50,
+        60
+      ],
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41360",
+      "name": "\ub0a8\uc591\uc8fc\uc2dc",
+      "outside": [
+        60,
+        70
+      ],
+      "stops": {
+        "5": [
+          80,
+          90
+        ],
+        "10": [
+          10,
+          20
+        ],
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41410",
+      "name": "\uad70\ud3ec\uc2dc",
+      "outside": [
+        40,
+        50
+      ],
+      "stops": {
+        "5": [
+          10,
+          20
+        ],
+        "10": [
+          80,
+          90
+        ],
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41430",
+      "name": "\uc758\uc655\uc2dc",
+      "outside": null,
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41450",
+      "name": "\ud558\ub0a8\uc2dc",
+      "outside": [
+        50,
+        60
+      ],
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41461",
+      "name": "\uc6a9\uc778\uc2dc \ucc98\uc778\uad6c",
+      "outside": [
+        40,
+        50
+      ],
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41463",
+      "name": "\uc6a9\uc778\uc2dc \uae30\ud765\uad6c",
+      "outside": [
+        60,
+        70
+      ],
+      "stops": {
+        "5": [
+          60,
+          70
+        ],
+        "10": [
+          30,
+          40
+        ],
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41465",
+      "name": "\uc6a9\uc778\uc2dc \uc218\uc9c0\uad6c",
+      "outside": [
+        60,
+        70
+      ],
+      "stops": {
+        "5": [
+          60,
+          70
+        ],
+        "10": [
+          30,
+          40
+        ],
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41480",
+      "name": "\ud30c\uc8fc\uc2dc",
+      "outside": [
+        70,
+        80
+      ],
+      "stops": {
+        "5": null,
+        "10": [
+          80,
+          90
+        ],
+        "20": [
+          10,
+          20
+        ],
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41570",
+      "name": "\uae40\ud3ec\uc2dc",
+      "outside": [
+        50,
+        60
+      ],
+      "stops": {
+        "5": [
+          70,
+          80
+        ],
+        "10": [
+          20,
+          30
+        ],
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41591",
+      "name": "\ud654\uc131\uc2dc \ub9cc\uc138\uad6c",
+      "outside": null,
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41593",
+      "name": "\ud654\uc131\uc2dc \ud6a8\ud589\uad6c",
+      "outside": null,
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41595",
+      "name": "\ud654\uc131\uc2dc \ubcd1\uc810\uad6c",
+      "outside": null,
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41597",
+      "name": "\ud654\uc131\uc2dc \ub3d9\ud0c4\uad6c",
+      "outside": null,
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    },
+    {
+      "region": "41610",
+      "name": "\uad11\uc8fc\uc2dc",
+      "outside": null,
+      "stops": {
+        "5": null,
+        "10": null,
+        "20": null,
+        "21_plus": null,
+        "stop_band_unknown": null
+      }
+    }
+  ],
+  "overall": {
+    "outside": [
+      50,
+      60
+    ],
+    "stops": {
+      "5": [
+        60,
+        70
+      ],
+      "10": [
+        20,
+        30
+      ],
+      "20": [
+        0,
+        10
+      ],
+      "21_plus": null,
+      "stop_band_unknown": [
+        0,
+        10
+      ]
+    }
+  },
+  "schema": "gyeonggi_entry_stops_v1",
+  "public_admitted": true,
+  "definition": "Percentage bands for all complexes outside 700m and stop counts among complexes inside 700m. Null denotes withheld. A band ending at 100 includes 100%."
+}
