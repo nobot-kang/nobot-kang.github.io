@@ -1,0 +1,31 @@
+{
+  "schema": "gangnam_stops_sale_jeonse_v1",
+  "public_admitted": true,
+  "rows": [
+    {
+      "stop_band": "0_5",
+      "districts": 2,
+      "sale": [
+        0,
+        5
+      ],
+      "rent": [
+        -10,
+        -5
+      ]
+    },
+    {
+      "stop_band": "11_15",
+      "districts": 2,
+      "sale": [
+        -20,
+        -15
+      ],
+      "rent": [
+        -15,
+        -10
+      ]
+    }
+  ],
+  "definition": "Same-complex sale and new jeonse price-ratio intervals by Gangnam stop band."
+}
