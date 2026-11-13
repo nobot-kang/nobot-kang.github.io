@@ -1,0 +1,153 @@
+{
+  "schema": "multiple_job_centers_stock_v1",
+  "public_admitted": true,
+  "pairs": [
+    {
+      "destinations": "cbd_gangnam",
+      "comparisons": {
+        "by_max": {
+          "complexes": [
+            2500,
+            2750
+          ],
+          "households": [
+            700000,
+            800000
+          ],
+          "share": [
+            90,
+            95
+          ]
+        },
+        "by_sum": {
+          "complexes": [
+            2500,
+            2750
+          ],
+          "households": [
+            800000,
+            900000
+          ],
+          "share": [
+            90,
+            95
+          ]
+        }
+      }
+    },
+    {
+      "destinations": "cbd_yeouido",
+      "comparisons": {
+        "by_max": {
+          "complexes": [
+            2250,
+            2500
+          ],
+          "households": [
+            700000,
+            800000
+          ],
+          "share": [
+            85,
+            90
+          ]
+        },
+        "by_sum": {
+          "complexes": [
+            2250,
+            2500
+          ],
+          "households": [
+            700000,
+            800000
+          ],
+          "share": [
+            90,
+            95
+          ]
+        }
+      }
+    },
+    {
+      "destinations": "gangnam_yeouido",
+      "comparisons": {
+        "by_max": {
+          "complexes": [
+            2250,
+            2500
+          ],
+          "households": [
+            700000,
+            800000
+          ],
+          "share": [
+            85,
+            90
+          ]
+        },
+        "by_sum": {
+          "complexes": [
+            2500,
+            2750
+          ],
+          "households": [
+            800000,
+            900000
+          ],
+          "share": [
+            90,
+            95
+          ]
+        }
+      }
+    }
+  ],
+  "seoul_25_all": true,
+  "gyeonggi_triple": [
+    {
+      "stops": 20,
+      "share": [
+        65,
+        70
+      ]
+    },
+    {
+      "stops": 25,
+      "share": [
+        85,
+        90
+      ]
+    },
+    {
+      "stops": 30,
+      "share": [
+        95,
+        100
+      ]
+    }
+  ],
+  "gyeonggi_regions": [
+    {
+      "households": [
+        0,
+        10000
+      ],
+      "regions": 6
+    },
+    {
+      "households": [
+        10000,
+        30000
+      ],
+      "regions": 16
+    },
+    {
+      "households": [
+        30000,
+        50000
+      ],
+      "regions": 11
+    }
+  ],
+  "definition": "Stock share and count bands for three destinations and paired routes from the nearest station within 700m."
+}
