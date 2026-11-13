@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-11-14T02:24:36+09:00</updated>
+  <updated>2026-11-14T02:29:07+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -11,10 +11,19 @@
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
   <entry>
+    <title>강남까지 정거장 수에 따라 매매와 전세 가격은 어떻게 다를까?</title>
+    <id>https://nobot-kang.github.io/posts/gangnam-stops-sale-jeonse/</id>
+    <published>2026-11-14T02:29:07+09:00</published>
+    <updated>2026-11-14T02:29:07+09:00</updated>
+    <summary>같은 서울 84형 단지의 매매가격과 신규 전세 보증금을 강남까지 정거장 수로 비교합니다. 연식과 지역을 맞췄을 때 남는 비교도 확인합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/gangnam-stops-sale-jeonse/" />
+    <category term="업무지구까지 몇 정거장" />
+  </entry>
+  <entry>
     <title>세 업무지구 모두 25정거장 안인 아파트는 얼마나 될까?</title>
     <id>https://nobot-kang.github.io/posts/multiple-job-centers-stock/</id>
     <published>2026-11-14T02:24:36+09:00</published>
-    <updated>2026-11-14T02:24:36+09:00</updated>
+    <updated>2026-11-14T02:29:07+09:00</updated>
     <summary>도심·강남·여의도까지 각각 25정거장 안에 닿는 아파트의 비중과 세대수를 비교합니다. 두 업무지구의 개별 기준과 합계 기준도 살펴봅니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/multiple-job-centers-stock/" />
     <category term="업무지구까지 몇 정거장" />
