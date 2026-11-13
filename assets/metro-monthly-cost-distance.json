@@ -1,0 +1,60 @@
+{
+  "period": [
+    "2025-07",
+    "2026-06"
+  ],
+  "rows": [
+    {
+      "scope": "11",
+      "assumed_rate": 3,
+      "monthly_difference_manwon": [
+        55,
+        60
+      ]
+    },
+    {
+      "scope": "11",
+      "assumed_rate": 4.5,
+      "monthly_difference_manwon": [
+        65,
+        70
+      ]
+    },
+    {
+      "scope": "11",
+      "assumed_rate": 6,
+      "monthly_difference_manwon": [
+        70,
+        75
+      ]
+    },
+    {
+      "scope": "41",
+      "assumed_rate": 3,
+      "monthly_difference_manwon": [
+        5,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "assumed_rate": 4.5,
+      "monthly_difference_manwon": [
+        5,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "assumed_rate": 6,
+      "monthly_difference_manwon": [
+        5,
+        10
+      ]
+    }
+  ],
+  "reference_deposit_manwon": 1000,
+  "schema": "metro_monthly_cost_distance_v1",
+  "public_admitted": true,
+  "definition": "Half-open monthly cost difference intervals between the near and far 59-type new-lease groups. Amounts are in ten thousand won."
+}
