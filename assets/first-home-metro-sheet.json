@@ -1,0 +1,56 @@
+{
+  "rows": [
+    {
+      "scope": "11",
+      "values": {
+        "first_m": [
+          400,
+          500
+        ],
+        "second_m": [
+          800,
+          900
+        ],
+        "third_m": [
+          1000,
+          1100
+        ],
+        "lines_700m": 1,
+        "cbd_stops": 9,
+        "cbd_transfers": 1,
+        "gangnam_stops": 10,
+        "gangnam_transfers": 1,
+        "yeouido_stops": 9,
+        "yeouido_transfers": 2
+      }
+    },
+    {
+      "scope": "41",
+      "values": {
+        "first_m": [
+          800,
+          900
+        ],
+        "second_m": [
+          1500,
+          1600
+        ],
+        "third_m": [
+          2100,
+          2200
+        ],
+        "lines_700m": 0,
+        "cbd_stops": 15,
+        "cbd_transfers": 2,
+        "gangnam_stops": 16,
+        "gangnam_transfers": 4,
+        "yeouido_stops": 16,
+        "yeouido_transfers": 3
+      }
+    }
+  ],
+  "reference_date": "2026-10",
+  "schema": "first_home_metro_sheet_v1",
+  "public_admitted": true,
+  "definition": "Broad median distance bands for all confirmed locations and median stop and transfer counts for complexes within 700m."
+}
