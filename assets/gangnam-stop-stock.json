@@ -1,0 +1,139 @@
+{
+  "schema": "gangnam_stop_stock_v1",
+  "public_admitted": true,
+  "rows": [
+    {
+      "scope": "11",
+      "destination": "cbd",
+      "bands": {
+        "10": [
+          70,
+          80
+        ],
+        "15": [
+          110,
+          120
+        ],
+        "20": [
+          120,
+          130
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "destination": "gangnam",
+      "bands": {
+        "5": [
+          20,
+          30
+        ],
+        "10": [
+          60,
+          70
+        ],
+        "15": [
+          110,
+          120
+        ],
+        "20": [
+          120,
+          130
+        ],
+        "25": [
+          120,
+          130
+        ],
+        "30": [
+          120,
+          130
+        ]
+      }
+    },
+    {
+      "scope": "11",
+      "destination": "yeouido",
+      "bands": {
+        "10": [
+          60,
+          70
+        ],
+        "15": [
+          90,
+          100
+        ],
+        "20": [
+          120,
+          130
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "destination": "cbd",
+      "bands": {
+        "10": [
+          20,
+          30
+        ],
+        "15": [
+          30,
+          40
+        ],
+        "20": [
+          60,
+          70
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "destination": "gangnam",
+      "bands": {
+        "5": [
+          0,
+          10
+        ],
+        "10": [
+          10,
+          20
+        ],
+        "15": [
+          40,
+          50
+        ],
+        "20": [
+          70,
+          80
+        ],
+        "25": [
+          80,
+          90
+        ],
+        "30": [
+          80,
+          90
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "destination": "yeouido",
+      "bands": {
+        "10": [
+          10,
+          20
+        ],
+        "15": [
+          30,
+          40
+        ],
+        "20": [
+          60,
+          70
+        ]
+      }
+    }
+  ],
+  "definition": "Cumulative confirmed household count bands by destination and stop limit."
+}
