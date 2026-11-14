@@ -1,0 +1,47 @@
+{
+  "schema": "station_price_composition_v1",
+  "public_admitted": true,
+  "rows": [
+    {
+      "scope": "all",
+      "area": "84",
+      "regions": 34,
+      "amounts": {
+        "raw": [
+          28000,
+          29000
+        ],
+        "within": [
+          12000,
+          13000
+        ],
+        "mix": [
+          15000,
+          16000
+        ]
+      }
+    },
+    {
+      "scope": "41",
+      "area": "59",
+      "regions": 15,
+      "amounts": {
+        "raw": [
+          2000,
+          3000
+        ],
+        "within": [
+          5000,
+          6000
+        ],
+        "mix": [
+          -4000,
+          -3000
+        ]
+      }
+    }
+  ],
+  "checks": 36,
+  "observed_reversal": false,
+  "definition": "Arithmetic mean sale-price gap decomposed into within-district and district composition bands."
+}
