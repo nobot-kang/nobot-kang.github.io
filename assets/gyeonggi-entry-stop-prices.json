@@ -1,0 +1,35 @@
+{
+  "rows": [
+    {
+      "stops": "5",
+      "regions": 15,
+      "q25": [
+        5,
+        6
+      ],
+      "q75": [
+        8,
+        9
+      ],
+      "price_5_10_regions": 13,
+      "young20_regions": 7
+    },
+    {
+      "stops": "10",
+      "regions": 9,
+      "q25": [
+        3,
+        4
+      ],
+      "q75": [
+        7,
+        8
+      ],
+      "price_5_10_regions": 2,
+      "young20_regions": 1
+    }
+  ],
+  "schema": "gyeonggi_entry_stop_prices_v1",
+  "public_admitted": true,
+  "definition": "Enclosing one-hundred-million-KRW price bands for regional quartiles by Seoul entry stop group."
+}
