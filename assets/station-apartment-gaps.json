@@ -1,0 +1,87 @@
+{
+  "schema": "station_apartment_gaps_v1",
+  "public_admitted": true,
+  "rows": [
+    {
+      "scope": "11",
+      "stations": 181,
+      "zero_700": 0,
+      "zero_1000": 0
+    },
+    {
+      "scope": "41",
+      "stations": 156,
+      "zero_700": 17,
+      "zero_1000": 12
+    }
+  ],
+  "lines": [
+    {
+      "line": "\uacbd\uc758\uc911\uc559\uc120",
+      "share_700": [
+        30,
+        40
+      ],
+      "share_1000": [
+        30,
+        40
+      ]
+    },
+    {
+      "line": "4\ud638\uc120",
+      "share_700": [
+        0,
+        20
+      ],
+      "share_1000": [
+        0,
+        20
+      ]
+    },
+    {
+      "line": "1\ud638\uc120",
+      "share_700": [
+        0,
+        20
+      ],
+      "share_1000": [
+        0,
+        20
+      ]
+    },
+    {
+      "line": "\uc218\uc778\ubd84\ub2f9\uc120",
+      "share_700": [
+        0,
+        20
+      ],
+      "share_1000": [
+        0,
+        20
+      ]
+    },
+    {
+      "line": "\uc6a9\uc778\uc5d0\ubc84\ub77c\uc778",
+      "share_700": [
+        0,
+        20
+      ],
+      "share_1000": [
+        0,
+        20
+      ]
+    },
+    {
+      "line": "\uc758\uc815\ubd80\uacbd\uc804\ucca0",
+      "share_700": [
+        0,
+        20
+      ],
+      "share_1000": [
+        0,
+        20
+      ]
+    }
+  ],
+  "definition": "Coverage-constrained counts of stations with no observed apartment complex within 700m or 1km."
+}
