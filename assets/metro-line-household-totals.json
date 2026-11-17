@@ -1,0 +1,284 @@
+{
+  "rows": [
+    {
+      "line": "1\ud638\uc120",
+      "households": [
+        325000,
+        350000
+      ],
+      "station_average": [
+        3000,
+        4000
+      ]
+    },
+    {
+      "line": "5\ud638\uc120",
+      "households": [
+        300000,
+        325000
+      ],
+      "station_average": [
+        7000,
+        8000
+      ]
+    },
+    {
+      "line": "2\ud638\uc120",
+      "households": [
+        225000,
+        250000
+      ],
+      "station_average": [
+        5000,
+        6000
+      ]
+    },
+    {
+      "line": "7\ud638\uc120",
+      "households": [
+        225000,
+        250000
+      ],
+      "station_average": [
+        5000,
+        6000
+      ]
+    },
+    {
+      "line": "3\ud638\uc120",
+      "households": [
+        200000,
+        225000
+      ],
+      "station_average": [
+        5000,
+        6000
+      ]
+    },
+    {
+      "line": "4\ud638\uc120",
+      "households": [
+        200000,
+        225000
+      ],
+      "station_average": [
+        4000,
+        5000
+      ]
+    },
+    {
+      "line": "\uc218\uc778\ubd84\ub2f9\uc120",
+      "households": [
+        200000,
+        225000
+      ],
+      "station_average": [
+        3000,
+        4000
+      ]
+    },
+    {
+      "line": "\uacbd\uc758\uc911\uc559\uc120",
+      "households": [
+        175000,
+        200000
+      ],
+      "station_average": [
+        3000,
+        4000
+      ]
+    },
+    {
+      "line": "6\ud638\uc120",
+      "households": [
+        150000,
+        175000
+      ],
+      "station_average": [
+        5000,
+        6000
+      ]
+    },
+    {
+      "line": "9\ud638\uc120",
+      "households": [
+        150000,
+        175000
+      ],
+      "station_average": [
+        5000,
+        6000
+      ]
+    },
+    {
+      "line": "8\ud638\uc120",
+      "households": [
+        100000,
+        125000
+      ],
+      "station_average": [
+        5000,
+        6000
+      ]
+    },
+    {
+      "line": "\uc2e0\ubd84\ub2f9\uc120",
+      "households": [
+        75000,
+        100000
+      ],
+      "station_average": [
+        5000,
+        6000
+      ]
+    },
+    {
+      "line": "\uacbd\ucd98\uc120",
+      "households": [
+        50000,
+        75000
+      ],
+      "station_average": [
+        2000,
+        3000
+      ]
+    },
+    {
+      "line": "\uc758\uc815\ubd80\uacbd\uc804\ucca0",
+      "households": [
+        50000,
+        75000
+      ],
+      "station_average": [
+        7000,
+        8000
+      ]
+    },
+    {
+      "line": "GTXA",
+      "households": [
+        25000,
+        50000
+      ],
+      "station_average": [
+        3000,
+        4000
+      ]
+    },
+    {
+      "line": "\uae40\ud3ec\uace8\ub4dc\ub77c\uc778",
+      "households": [
+        25000,
+        50000
+      ],
+      "station_average": [
+        3000,
+        4000
+      ]
+    },
+    {
+      "line": "\uc11c\ud574\uc120",
+      "households": [
+        25000,
+        50000
+      ],
+      "station_average": [
+        2000,
+        3000
+      ]
+    },
+    {
+      "line": "\uc2e0\ub9bc\uc120",
+      "households": [
+        25000,
+        50000
+      ],
+      "station_average": [
+        4000,
+        5000
+      ]
+    },
+    {
+      "line": "\uc6a9\uc778\uc5d0\ubc84\ub77c\uc778",
+      "households": [
+        25000,
+        50000
+      ],
+      "station_average": [
+        3000,
+        4000
+      ]
+    },
+    {
+      "line": "\uc6b0\uc774\uc2e0\uc124\uc120",
+      "households": [
+        25000,
+        50000
+      ],
+      "station_average": [
+        4000,
+        5000
+      ]
+    },
+    {
+      "line": "\uacbd\uac15\uc120",
+      "households": [
+        0,
+        25000
+      ],
+      "station_average": [
+        2000,
+        3000
+      ]
+    },
+    {
+      "line": "\uacf5\ud56d\ucca0\ub3c4",
+      "households": [
+        0,
+        25000
+      ],
+      "station_average": [
+        1000,
+        2000
+      ]
+    }
+  ],
+  "regional": [
+    {
+      "line": "1\ud638\uc120",
+      "seoul": [
+        175000,
+        200000
+      ],
+      "gyeonggi": [
+        150000,
+        175000
+      ]
+    },
+    {
+      "line": "5\ud638\uc120",
+      "seoul": [
+        275000,
+        300000
+      ],
+      "gyeonggi": [
+        25000,
+        50000
+      ]
+    },
+    {
+      "line": "\uc218\uc778\ubd84\ub2f9\uc120",
+      "seoul": [
+        50000,
+        75000
+      ],
+      "gyeonggi": [
+        125000,
+        150000
+      ]
+    }
+  ],
+  "schema": "metro_line_household_totals_v1",
+  "public_admitted": true,
+  "definition": "25,000-household bands for unique line totals and 1,000-household bands for station averages."
+}
