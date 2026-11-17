@@ -1,0 +1,54 @@
+{
+  "rows": [
+    {
+      "label": "\uad6c",
+      "regions": 8,
+      "interval": [
+        0,
+        5
+      ]
+    },
+    {
+      "label": "\uad6c\uc640 \uc5ed \uac70\ub9ac \uad6c\uac04",
+      "regions": 7,
+      "interval": [
+        -15,
+        -10
+      ]
+    },
+    {
+      "label": "\uad6c\u00b7\uc5ed \uac70\ub9ac \uad6c\uac04\u00b7\uc5f0\uc2dd",
+      "regions": 4,
+      "interval": [
+        -5,
+        0
+      ]
+    }
+  ],
+  "sensitivity": [
+    {
+      "mode": "650m",
+      "interval": [
+        0,
+        5
+      ]
+    },
+    {
+      "mode": "750m",
+      "interval": [
+        0,
+        5
+      ]
+    },
+    {
+      "mode": "any_transfer",
+      "interval": [
+        0,
+        5
+      ]
+    }
+  ],
+  "schema": "transfer_station_local_prices_v1",
+  "public_admitted": true,
+  "definition": "Five-percentage-point bands for prices near officially confirmed transfer stations."
+}
