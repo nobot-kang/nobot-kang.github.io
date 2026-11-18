@@ -1,0 +1,49 @@
+{
+  "rows": [
+    {
+      "group": "하위",
+      "districts": 4,
+      "percent": [
+        10,
+        15
+      ],
+      "difference_eok": [
+        0,
+        1
+      ]
+    },
+    {
+      "group": "중간",
+      "districts": 6,
+      "percent": [
+        20,
+        25
+      ],
+      "difference_eok": [
+        2,
+        3
+      ]
+    },
+    {
+      "group": "상위",
+      "districts": 4,
+      "percent": [
+        30,
+        35
+      ],
+      "difference_eok": [
+        5,
+        6
+      ]
+    }
+  ],
+  "age_matched_supported": [
+    2,
+    3,
+    1
+  ],
+  "same_age_three_way_available": false,
+  "schema": "district_price_distance_gap_v1",
+  "public_admitted": true,
+  "definition": "서울 25개 구를 가격대별로 나눠 역 700m 안팎의 84형 매매 차이를 비교합니다. 연식까지 맞췄을 때 실제로 비교할 수 있는 구가 몇 곳인지 살펴봅니다."
+}
