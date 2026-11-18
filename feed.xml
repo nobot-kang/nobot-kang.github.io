@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-11-18T22:15:56+09:00</updated>
+  <updated>2026-11-18T22:30:28+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -13,8 +13,8 @@
   <entry>
     <title>역 가까운 84형 아파트는 신고가가 더 자주 나올까?</title>
     <id>https://nobot-kang.github.io/posts/record-high-station-distance/</id>
-    <published>2026-11-18T22:15:56+09:00</published>
-    <updated>2026-11-18T22:15:56+09:00</updated>
+    <published>2026-11-18T22:30:28+09:00</published>
+    <updated>2026-11-18T22:30:28+09:00</updated>
     <summary>2026년 상반기 84형 매매의 신고가 비중을 역 거리로 나눕니다. 2026년 10월 3일 관측 자료에서 같은 시군구와 면적형의 700m 안팎 차이도 비교합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/record-high-station-distance/" />
     <category term="역 거리와 거래의 온도" />
@@ -22,8 +22,8 @@
   <entry>
     <title>같은 구 안에서도 아파트 역 접근성이 얼마나 다를까?</title>
     <id>https://nobot-kang.github.io/posts/metro-legal-dong-distance/</id>
-    <published>2026-11-18T22:15:56+09:00</published>
-    <updated>2026-11-18T22:15:56+09:00</updated>
+    <published>2026-11-18T22:30:28+09:00</published>
+    <updated>2026-11-18T22:30:28+09:00</updated>
     <summary>서울 법정동별로 역까지 직선 700m 안 아파트 세대 비중을 비교합니다. 같은 구 안에서 최저와 최고가 얼마나 벌어지는지 확인하고 구별 범위를 읽습니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-legal-dong-distance/" />
     <category term="역까지의 거리" />
@@ -31,8 +31,8 @@
   <entry>
     <title>경전철만 닿는 역세권, 다른 철도와 집값이 다를까?</title>
     <id>https://nobot-kang.github.io/posts/light-rail-housing/</id>
-    <published>2026-11-18T22:15:56+09:00</published>
-    <updated>2026-11-18T22:15:56+09:00</updated>
+    <published>2026-11-18T22:30:28+09:00</published>
+    <updated>2026-11-18T22:30:28+09:00</updated>
     <summary>직선 700m 안 경전철만 닿는 서울·수집 경기 84형 단지와 다른 철도만 닿는 단지의 가격·연식을 비교합니다. 같은 시군구에서 조건을 맞출 수 있는지도 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/light-rail-housing/" />
     <category term="호선별로 본 아파트" />
@@ -113,7 +113,7 @@
     <title>어떤 노선이 가장 많은 아파트 세대를 지날까?</title>
     <id>https://nobot-kang.github.io/posts/metro-line-household-totals/</id>
     <published>2026-11-17T22:36:37+09:00</published>
-    <updated>2026-11-18T22:15:56+09:00</updated>
+    <updated>2026-11-18T22:30:28+09:00</updated>
     <summary>서울·수집 경기의 노선별 역 700m 안 아파트 세대수를 비교합니다. 같은 단지를 한 번 센 합계와 한 역 주변의 평균을 구분합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/metro-line-household-totals/" />
     <category term="호선별로 본 아파트" />
@@ -131,7 +131,7 @@
     <title>700m 안에 아파트 단지가 없는 역은 어디일까?</title>
     <id>https://nobot-kang.github.io/posts/station-apartment-gaps/</id>
     <published>2026-11-17T22:06:59+09:00</published>
-    <updated>2026-11-18T22:15:56+09:00</updated>
+    <updated>2026-11-18T22:30:28+09:00</updated>
     <summary>서울과 수집 경기에서 역 700m 안에 아파트 단지가 확인되지 않은 곳을 살펴봅니다. 반경을 1km로 넓힌 결과와 과천 경마공원역 사례를 비교합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/station-apartment-gaps/" />
     <category term="역까지의 거리" />
@@ -230,7 +230,7 @@
     <title>2019년에서 2021년까지 역에서 먼 아파트가 더 많이 올랐을까?</title>
     <id>https://nobot-kang.github.io/posts/boom-distance-prices/</id>
     <published>2026-11-12T19:35:47+09:00</published>
-    <updated>2026-11-18T22:15:56+09:00</updated>
+    <updated>2026-11-18T22:30:28+09:00</updated>
     <summary>2019년과 2021년 같은 84형 단지의 상승률과 오른 금액을 현재 역 거리로 나눠 비교합니다. 시작 가격대와 신설 역을 제외했을 때의 차이도 살펴봅니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/boom-distance-prices/" />
     <category term="역 거리와 거래의 온도" />
