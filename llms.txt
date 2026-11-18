@@ -535,9 +535,9 @@
 직선거리·보행 동선, 단지·세대·거래의 분모, 가상 가격 비교와 과거 역망의 시점을 구분합니다.
 
 - [역세권 500m·700m 기준: 직선거리와 도보거리는 어떻게 다를까?](https://nobot-kang.github.io/posts/metro-distance-standard/): 역까지 거리를 비교할 때 출발점·출입구·노선을 맞추는 방법을 설명합니다. 가상 반경 판정으로 직선 700m의 경계와 보행시간의 차이를 확인합니다.
-- [역세권 비율, 단지·세대·거래 중 무엇을 센 숫자일까?](https://nobot-kang.github.io/posts/metro-access-denominators/): 같은 가상 지역에서 역세권 비율이 50%·80%·20%로 달라지는 계산을 확인합니다. 위치·세대수의 빈칸과 거래 기간을 구분하는 방법입니다.
-- [역세권 프리미엄 계산법: 지역·면적·분모를 맞춰 읽는 다섯 가지](https://nobot-kang.github.io/posts/metro-premium-comparison-rules/): 가상 가격으로 20%와 16.7%의 차이, 지역 구성이 섞인 평균을 계산합니다. 실제 집값에 프리미엄 비율을 적용하기 전 확인할 기준입니다.
-- [현재 지도로 과거 역세권을 나누면? 신림선 개통일로 보는 시점 문제](https://nobot-kang.github.io/posts/metro-network-history/): 신림선의 공식 개통일을 통해 현재 역 기준 분류와 거래 당시 접근성을 구분합니다. 개통 기대와 실제 운행, 과거 집값 비교의 확인 사항을 정리합니다.
+- [역세권 비율, 단지·세대·거래 중 무엇을 센 숫자일까?](https://nobot-kang.github.io/posts/metro-access-denominators/): 역세권 비율에서 단지·세대·거래의 분모가 어떻게 다른지 설명합니다. 서울과 수집 경기에서 직선 700m 안에 드는 비중을 세 가지로 비교합니다.
+- [역세권 프리미엄 계산법: 지역·면적·분모를 맞춰 읽는 다섯 가지](https://nobot-kang.github.io/posts/metro-premium-comparison-rules/): 서울 실거래에 다섯 가지 비교 기준을 적용해 역세권 84형 가격 차이가 왜 달라지는지 살펴봅니다. 지역·연식·면적과 거리 경계가 결과에 미치는 영향을 읽습니다.
+- [현재 지도로 과거 역세권을 나누면? 신림선 개통일로 보는 시점 문제](https://nobot-kang.github.io/posts/metro-network-history/): 현재 철도망으로 과거 거래를 해석할 때 무엇이 달라지는지 설명합니다. 2015년 서울 84형 매매를 현재 신림선 포함과 제외로 나누어 실제 비교합니다.
 - [역세권 700m 기준을 바꾸면 단지 분류는 얼마나 달라질까?](https://nobot-kang.github.io/posts/metro-boundary-sensitivity/): 서울과 수집 경기에서 역까지의 직선 700m 기준을 앞뒤 50m·100m 옮겼을 때 안팎 분류가 바뀌는 아파트 단지 비중을 비교합니다.
 - [역세권 평균 집값은 지역을 섞으면 뒤집힐까?](https://nobot-kang.github.io/posts/station-price-composition/): 역 700m 안팎의 59형·84형 평균 가격 차이를 같은 지역 안의 차이와 거래 지역 구성의 몫으로 나눕니다. 평균 방향이 뒤집히는 가상 예시도 살펴봅니다.
 - [500m와 1km에서 아파트 가격 상위 역은 달라질까?](https://nobot-kang.github.io/posts/station-price-radius-ranks/): 500m·700m·1km에서 역 주변 84형 가격의 상위 역이 얼마나 겹치는지 비교합니다. 같은 역만 남긴 순위와 실제 순위 이동 사례도 살펴봅니다.
