@@ -1,0 +1,370 @@
+{
+  "stock": [
+    {
+      "station": "수서",
+      "radius": 700,
+      "complexes": [
+        0,
+        10
+      ],
+      "household_median": null,
+      "approval_median": null
+    },
+    {
+      "station": "수서",
+      "radius": 1500,
+      "complexes": [
+        20,
+        30
+      ],
+      "household_median": [
+        500,
+        600
+      ],
+      "approval_median": [
+        2000,
+        2005
+      ]
+    },
+    {
+      "station": "성남",
+      "radius": 700,
+      "complexes": [
+        10,
+        20
+      ],
+      "household_median": [
+        500,
+        600
+      ],
+      "approval_median": [
+        1990,
+        1995
+      ]
+    },
+    {
+      "station": "성남",
+      "radius": 1500,
+      "complexes": [
+        40,
+        50
+      ],
+      "household_median": [
+        500,
+        600
+      ],
+      "approval_median": [
+        1990,
+        1995
+      ]
+    },
+    {
+      "station": "구성",
+      "radius": 700,
+      "complexes": [
+        0,
+        10
+      ],
+      "household_median": null,
+      "approval_median": null
+    },
+    {
+      "station": "구성",
+      "radius": 1500,
+      "complexes": [
+        40,
+        50
+      ],
+      "household_median": [
+        300,
+        400
+      ],
+      "approval_median": [
+        2000,
+        2005
+      ]
+    },
+    {
+      "station": "동탄",
+      "radius": 700,
+      "complexes": [
+        10,
+        20
+      ],
+      "household_median": [
+        600,
+        700
+      ],
+      "approval_median": [
+        2015,
+        2020
+      ]
+    },
+    {
+      "station": "동탄",
+      "radius": 1500,
+      "complexes": [
+        30,
+        40
+      ],
+      "household_median": [
+        500,
+        600
+      ],
+      "approval_median": [
+        2015,
+        2020
+      ]
+    },
+    {
+      "station": "운정중앙",
+      "radius": 700,
+      "complexes": [
+        0,
+        10
+      ],
+      "household_median": null,
+      "approval_median": null
+    },
+    {
+      "station": "운정중앙",
+      "radius": 1500,
+      "complexes": [
+        20,
+        30
+      ],
+      "household_median": [
+        600,
+        700
+      ],
+      "approval_median": [
+        2015,
+        2020
+      ]
+    },
+    {
+      "station": "킨텍스",
+      "radius": 700,
+      "complexes": [
+        0,
+        10
+      ],
+      "household_median": [
+        700,
+        800
+      ],
+      "approval_median": [
+        2015,
+        2020
+      ]
+    },
+    {
+      "station": "킨텍스",
+      "radius": 1500,
+      "complexes": [
+        30,
+        40
+      ],
+      "household_median": [
+        500,
+        600
+      ],
+      "approval_median": [
+        1995,
+        2000
+      ]
+    },
+    {
+      "station": "대곡",
+      "radius": 700,
+      "complexes": [
+        0,
+        0
+      ],
+      "household_median": null,
+      "approval_median": null
+    },
+    {
+      "station": "대곡",
+      "radius": 1500,
+      "complexes": [
+        20,
+        30
+      ],
+      "household_median": [
+        100,
+        200
+      ],
+      "approval_median": [
+        2000,
+        2005
+      ]
+    },
+    {
+      "station": "연신내",
+      "radius": 700,
+      "complexes": [
+        50,
+        60
+      ],
+      "household_median": [
+        0,
+        100
+      ],
+      "approval_median": [
+        2005,
+        2010
+      ]
+    },
+    {
+      "station": "연신내",
+      "radius": 1500,
+      "complexes": [
+        190,
+        200
+      ],
+      "household_median": [
+        0,
+        100
+      ],
+      "approval_median": [
+        2005,
+        2010
+      ]
+    },
+    {
+      "station": "서울역",
+      "radius": 700,
+      "complexes": [
+        10,
+        20
+      ],
+      "household_median": [
+        0,
+        100
+      ],
+      "approval_median": [
+        2000,
+        2005
+      ]
+    },
+    {
+      "station": "서울역",
+      "radius": 1500,
+      "complexes": [
+        90,
+        100
+      ],
+      "household_median": [
+        0,
+        100
+      ],
+      "approval_median": [
+        2000,
+        2005
+      ]
+    }
+  ],
+  "price": [
+    {
+      "station": "성남",
+      "radius": 1500,
+      "price_eok": [
+        18,
+        19
+      ],
+      "reference_price_eok": [
+        16,
+        17
+      ]
+    },
+    {
+      "station": "동탄",
+      "radius": 1500,
+      "price_eok": [
+        10,
+        11
+      ],
+      "reference_price_eok": [
+        7,
+        8
+      ]
+    },
+    {
+      "station": "킨텍스",
+      "radius": 1500,
+      "price_eok": [
+        9,
+        10
+      ],
+      "reference_price_eok": [
+        4,
+        5
+      ]
+    },
+    {
+      "station": "대곡",
+      "radius": 1500,
+      "price_eok": [
+        5,
+        6
+      ],
+      "reference_price_eok": [
+        7,
+        8
+      ]
+    },
+    {
+      "station": "연신내",
+      "radius": 1500,
+      "price_eok": [
+        8,
+        9
+      ],
+      "reference_price_eok": [
+        9,
+        10
+      ]
+    },
+    {
+      "station": "서울역",
+      "radius": 1500,
+      "price_eok": [
+        17,
+        18
+      ],
+      "reference_price_eok": [
+        13,
+        14
+      ]
+    }
+  ],
+  "reference_stock_examples": [
+    {
+      "station": "연신내",
+      "household_median": [
+        0,
+        100
+      ],
+      "approval_median": [
+        2000,
+        2005
+      ]
+    },
+    {
+      "station": "동탄",
+      "household_median": [
+        700,
+        800
+      ],
+      "approval_median": [
+        2015,
+        2020
+      ]
+    }
+  ],
+  "observation_month": "2026-10",
+  "schema": "gtxa_station_housing_v1",
+  "public_admitted": true,
+  "definition": "2026년 10월 수집 GTX-A 아홉 역의 700m·1.5km 안 아파트 단지 수와 규모·연식을 비교합니다. 84형 가격을 비교할 수 있는 여섯 역도 확인합니다."
+}
