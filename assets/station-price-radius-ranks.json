@@ -1,0 +1,109 @@
+{
+  "overlaps": [
+    {
+      "radii": [
+        500,
+        700
+      ],
+      "common": 10,
+      "all": 3
+    },
+    {
+      "radii": [
+        700,
+        1000
+      ],
+      "common": 10,
+      "all": 5
+    },
+    {
+      "radii": [
+        500,
+        1000
+      ],
+      "common": 10,
+      "all": 3
+    }
+  ],
+  "radius_counts": {
+    "500": [
+      10,
+      20
+    ],
+    "700": [
+      40,
+      50
+    ],
+    "1000": [
+      70,
+      80
+    ]
+  },
+  "common_count": [
+    10,
+    15
+  ],
+  "common_correlation": [
+    0.95,
+    1.0
+  ],
+  "cases": [
+    {
+      "station": "\uc2e0\uc911\ub3d9",
+      "common_rank_change": 0,
+      "ranks": {
+        "500": [
+          16,
+          20
+        ],
+        "700": [
+          31,
+          35
+        ],
+        "1000": [
+          56,
+          60
+        ]
+      }
+    },
+    {
+      "station": "\uc0c1\uacc4",
+      "common_rank_change": 0,
+      "ranks": {
+        "500": [
+          11,
+          15
+        ],
+        "700": [
+          31,
+          35
+        ],
+        "1000": [
+          51,
+          55
+        ]
+      }
+    },
+    {
+      "station": "\ub300\ub9bc",
+      "common_rank_change": 1,
+      "ranks": {
+        "500": [
+          11,
+          15
+        ],
+        "700": [
+          26,
+          30
+        ],
+        "1000": [
+          46,
+          50
+        ]
+      }
+    }
+  ],
+  "schema": "station_price_radius_ranks_v1",
+  "public_admitted": true,
+  "definition": "Top-ten overlap counts and five-rank intervals for selected station rank movements across distance radii."
+}
