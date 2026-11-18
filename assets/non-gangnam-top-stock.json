@@ -1,0 +1,37 @@
+{
+  "rows": [
+    {
+      "top": false,
+      "distance": [
+        500,
+        600
+      ],
+      "multiple": [
+        20,
+        30
+      ],
+      "year": [
+        2000,
+        2010
+      ]
+    },
+    {
+      "top": true,
+      "distance": [
+        300,
+        400
+      ],
+      "multiple": [
+        40,
+        50
+      ],
+      "year": [
+        2010,
+        2020
+      ]
+    }
+  ],
+  "schema": "non_gangnam_top_stock_v1",
+  "public_admitted": true,
+  "definition": "Distance, multiple-line share and construction decade bands for top-price and other complexes outside three Gangnam districts."
+}
