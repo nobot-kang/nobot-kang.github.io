@@ -1,0 +1,95 @@
+{
+  "bands": [
+    {
+      "scope": "11",
+      "radius": 300,
+      "share": [
+        20,
+        25
+      ]
+    },
+    {
+      "scope": "11",
+      "radius": 700,
+      "share": [
+        20,
+        25
+      ]
+    },
+    {
+      "scope": "11",
+      "radius": 1500,
+      "share": [
+        15,
+        20
+      ]
+    },
+    {
+      "scope": "11",
+      "radius": 9999,
+      "share": [
+        5,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "radius": 300,
+      "share": [
+        5,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "radius": 700,
+      "share": [
+        5,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "radius": 1500,
+      "share": [
+        0,
+        5
+      ]
+    },
+    {
+      "scope": "41",
+      "radius": 9999,
+      "share": [
+        0,
+        5
+      ]
+    }
+  ],
+  "matched": {
+    "41": {
+      "districts": 8,
+      "difference_pp_rounded": 4
+    },
+    "11": {
+      "districts": 8,
+      "difference_pp_rounded": -1
+    }
+  },
+  "coverage_rounded": {
+    "11": [
+      95,
+      98
+    ],
+    "41": [
+      99,
+      99
+    ]
+  },
+  "schema": "record_high_station_distance_v1",
+  "public_admitted": true,
+  "definition": "2026년 상반기 84형 매매의 신고가 비중을 역 거리로 나눕니다. 2026년 10월 3일 관측 자료에서 같은 시군구와 면적형의 700m 안팎 차이도 비교합니다.",
+  "seoul_size_control_inside_higher": true,
+  "seoul_era_control_available": false,
+  "gyeonggi_radius_and_history_inside_higher": true,
+  "observation_cutoff": "2026-10-03"
+}
