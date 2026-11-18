@@ -1,0 +1,61 @@
+{
+  "schema": "price_group_rail_profile_v1",
+  "public_admitted": true,
+  "definition": "Nearest-station characteristics within 700m, after ranking eligible Seoul 84-type complexes; broad transfer-share bands.",
+  "rows": [
+    {
+      "band": 3,
+      "stops": {
+        "cbd": 10,
+        "gangnam": 13,
+        "yeouido": 13
+      },
+      "lines": 1
+    },
+    {
+      "band": 7,
+      "stops": {
+        "cbd": 7.0,
+        "gangnam": 11.0,
+        "yeouido": 9.0
+      },
+      "lines": 1.0
+    },
+    {
+      "band": 9,
+      "stops": {
+        "cbd": 7.0,
+        "gangnam": 8.0,
+        "yeouido": 8.0
+      },
+      "lines": 1.0
+    },
+    {
+      "band": 10,
+      "stops": {
+        "cbd": 8.0,
+        "gangnam": 5.0,
+        "yeouido": 9.0
+      },
+      "lines": 1.0
+    }
+  ],
+  "transfer_share": {
+    "3": [
+      10,
+      20
+    ],
+    "10": [
+      20,
+      30
+    ]
+  },
+  "outside": {
+    "low_gangnam": 13,
+    "high_stops": {
+      "cbd": 5,
+      "gangnam": 8,
+      "yeouido": 5
+    }
+  }
+}
