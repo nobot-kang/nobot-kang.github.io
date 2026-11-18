@@ -1,0 +1,114 @@
+{
+  "rows": [
+    {
+      "station": "판교",
+      "price_eok": null,
+      "age": null,
+      "gangnam_stops": 4
+    },
+    {
+      "station": "정자",
+      "price_eok": null,
+      "age": null,
+      "gangnam_stops": 5
+    },
+    {
+      "station": "미금",
+      "price_eok": [
+        17,
+        18
+      ],
+      "age": [
+        30,
+        35
+      ],
+      "gangnam_stops": 6
+    },
+    {
+      "station": "동천",
+      "price_eok": [
+        9,
+        10
+      ],
+      "age": [
+        25,
+        30
+      ],
+      "gangnam_stops": 7
+    },
+    {
+      "station": "수지구청",
+      "price_eok": [
+        10,
+        11
+      ],
+      "age": [
+        20,
+        25
+      ],
+      "gangnam_stops": 8
+    },
+    {
+      "station": "성복",
+      "price_eok": [
+        9,
+        10
+      ],
+      "age": [
+        20,
+        25
+      ],
+      "gangnam_stops": 9
+    },
+    {
+      "station": "상현",
+      "price_eok": null,
+      "age": null,
+      "gangnam_stops": 10
+    },
+    {
+      "station": "광교중앙",
+      "price_eok": null,
+      "age": null,
+      "gangnam_stops": 11
+    },
+    {
+      "station": "광교",
+      "price_eok": null,
+      "age": null,
+      "gangnam_stops": 12
+    }
+  ],
+  "equal_complex_weight": true,
+  "transaction_pooled_comparison_available": false,
+  "radius_price_eok": {
+    "650m": {
+      "미금": 17,
+      "동천": 9,
+      "수지구청": 9,
+      "성복": 10
+    },
+    "750m": {
+      "미금": 17,
+      "동천": 9,
+      "수지구청": 10,
+      "성복": 9
+    },
+    "farthest": {
+      "미금": 17,
+      "동천": 9,
+      "수지구청": 10,
+      "성복": 9
+    },
+    "confirmed": {
+      "미금": 17,
+      "동천": 9,
+      "수지구청": 10,
+      "성복": 9
+    }
+  },
+  "leave_largest_keeps_bands": true,
+  "schema": "shinbundang_gyeonggi_stations_v1",
+  "public_admitted": true,
+  "definition": "신분당선 경기 구간에서 단지별로 같은 비중을 준 84형 매매가격과 연식을 비교합니다. 650m·750m 반경과 최다 거래 단지 제외 결과도 살펴봅니다."
+}

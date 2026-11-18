@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-11-18T22:30:28+09:00</updated>
+  <updated>2026-11-18T22:37:20+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,24 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>신분당선 경기 역 주변 84형, 가격과 연식은 얼마나 다를까?</title>
+    <id>https://nobot-kang.github.io/posts/shinbundang-gyeonggi-stations/</id>
+    <published>2026-11-18T22:37:20+09:00</published>
+    <updated>2026-11-18T22:37:20+09:00</updated>
+    <summary>신분당선 경기 구간에서 단지별로 같은 비중을 준 84형 매매가격과 연식을 비교합니다. 650m·750m 반경과 최다 거래 단지 제외 결과도 살펴봅니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/shinbundang-gyeonggi-stations/" />
+    <category term="경기 철도와 주거입지" />
+  </entry>
+  <entry>
+    <title>역세권이 많은 구는 비쌀까? 구별 상관과 단지 비교의 차이</title>
+    <id>https://nobot-kang.github.io/posts/district-station-share-prices/</id>
+    <published>2026-11-18T22:37:20+09:00</published>
+    <updated>2026-11-18T22:37:20+09:00</updated>
+    <summary>서울 25개 구의 역 700m 안 아파트 비중과 84형 중앙가격을 비교합니다. 구별 상관과 같은 구·연식의 가격 차이가 답하는 질문을 구분합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/district-station-share-prices/" />
+    <category term="역세권 숫자 읽기" />
+  </entry>
   <entry>
     <title>역 가까운 84형 아파트는 신고가가 더 자주 나올까?</title>
     <id>https://nobot-kang.github.io/posts/record-high-station-distance/</id>
@@ -68,7 +86,7 @@
     <title>500m와 1km에서 아파트 가격 상위 역은 달라질까?</title>
     <id>https://nobot-kang.github.io/posts/station-price-radius-ranks/</id>
     <published>2026-11-18T21:29:37+09:00</published>
-    <updated>2026-11-18T21:29:37+09:00</updated>
+    <updated>2026-11-18T22:37:20+09:00</updated>
     <summary>500m·700m·1km에서 역 주변 84형 가격의 상위 역이 얼마나 겹치는지 비교합니다. 같은 역만 남긴 순위와 실제 순위 이동 사례도 살펴봅니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/station-price-radius-ranks/" />
     <category term="역세권 숫자 읽기" />
@@ -86,7 +104,7 @@
     <title>서울까지 정거장 수가 같은 경기 지역의 집값은 비슷할까?</title>
     <id>https://nobot-kang.github.io/posts/gyeonggi-entry-stop-prices/</id>
     <published>2026-11-18T07:40:43+09:00</published>
-    <updated>2026-11-18T07:40:43+09:00</updated>
+    <updated>2026-11-18T22:37:20+09:00</updated>
     <summary>서울 첫 역까지 5정거장 이하 또는 6~10개인 경기 아파트의 84형 가격을 비교합니다. 같은 정거장 구간의 지역별 연식 구성도 봅니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/gyeonggi-entry-stop-prices/" />
     <category term="경기 철도와 주거입지" />
