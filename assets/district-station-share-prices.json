@@ -1,0 +1,282 @@
+{
+  "rows": [
+    {
+      "district": "종로구",
+      "complex_share": [
+        70,
+        80
+      ],
+      "price_eok": [
+        12,
+        14
+      ]
+    },
+    {
+      "district": "중구",
+      "complex_share": [
+        90,
+        100
+      ],
+      "price_eok": [
+        14,
+        16
+      ]
+    },
+    {
+      "district": "용산구",
+      "complex_share": [
+        70,
+        80
+      ],
+      "price_eok": [
+        18,
+        20
+      ]
+    },
+    {
+      "district": "광진구",
+      "complex_share": [
+        70,
+        80
+      ],
+      "price_eok": [
+        16,
+        18
+      ]
+    },
+    {
+      "district": "동대문구",
+      "complex_share": [
+        50,
+        60
+      ],
+      "price_eok": [
+        10,
+        12
+      ]
+    },
+    {
+      "district": "중랑구",
+      "complex_share": [
+        80,
+        90
+      ],
+      "price_eok": [
+        6,
+        8
+      ]
+    },
+    {
+      "district": "성북구",
+      "complex_share": [
+        80,
+        90
+      ],
+      "price_eok": [
+        8,
+        10
+      ]
+    },
+    {
+      "district": "도봉구",
+      "complex_share": [
+        50,
+        60
+      ],
+      "price_eok": [
+        6,
+        8
+      ]
+    },
+    {
+      "district": "노원구",
+      "complex_share": [
+        80,
+        90
+      ],
+      "price_eok": [
+        8,
+        10
+      ]
+    },
+    {
+      "district": "은평구",
+      "complex_share": [
+        70,
+        80
+      ],
+      "price_eok": [
+        8,
+        10
+      ]
+    },
+    {
+      "district": "서대문구",
+      "complex_share": [
+        50,
+        60
+      ],
+      "price_eok": [
+        10,
+        12
+      ]
+    },
+    {
+      "district": "마포구",
+      "complex_share": [
+        80,
+        90
+      ],
+      "price_eok": [
+        14,
+        16
+      ]
+    },
+    {
+      "district": "양천구",
+      "complex_share": [
+        40,
+        50
+      ],
+      "price_eok": [
+        10,
+        12
+      ]
+    },
+    {
+      "district": "강서구",
+      "complex_share": [
+        80,
+        90
+      ],
+      "price_eok": [
+        10,
+        12
+      ]
+    },
+    {
+      "district": "구로구",
+      "complex_share": [
+        80,
+        90
+      ],
+      "price_eok": [
+        8,
+        10
+      ]
+    },
+    {
+      "district": "금천구",
+      "complex_share": [
+        20,
+        30
+      ],
+      "price_eok": [
+        6,
+        8
+      ]
+    },
+    {
+      "district": "동작구",
+      "complex_share": [
+        80,
+        90
+      ],
+      "price_eok": [
+        14,
+        16
+      ]
+    },
+    {
+      "district": "관악구",
+      "complex_share": [
+        60,
+        70
+      ],
+      "price_eok": [
+        8,
+        10
+      ]
+    },
+    {
+      "district": "서초구",
+      "complex_share": [
+        70,
+        80
+      ],
+      "price_eok": [
+        26,
+        28
+      ]
+    },
+    {
+      "district": "강남구",
+      "complex_share": [
+        80,
+        90
+      ],
+      "price_eok": [
+        28,
+        30
+      ]
+    },
+    {
+      "district": "송파구",
+      "complex_share": [
+        80,
+        90
+      ],
+      "price_eok": [
+        20,
+        22
+      ]
+    },
+    {
+      "district": "강동구",
+      "complex_share": [
+        90,
+        100
+      ],
+      "price_eok": [
+        14,
+        16
+      ]
+    }
+  ],
+  "correlations": [
+    {
+      "weight": "complex",
+      "spearman": 0.36,
+      "approximate_leave_one": [
+        0.27,
+        0.44
+      ]
+    },
+    {
+      "weight": "households",
+      "spearman": 0.48,
+      "approximate_leave_one": [
+        0.41,
+        0.54
+      ]
+    }
+  ],
+  "correlation_districts": 25,
+  "display_districts": 22,
+  "within_district_regions": 6,
+  "within_district_difference_percent": [
+    10,
+    15
+  ],
+  "household_radius_correlation": {
+    "650": 0.51,
+    "750": 0.43
+  },
+  "figure_sha256": {
+    "district-station-share-prices.svg": "a03833ffe37e4ec1eeb55dfecab47817adaa3c6a5286e07473cc08ca7cee44a4",
+    "district-station-share-prices-mobile.svg": "ed443d2e6cc315474bcc8659a2842d3694818124b49eb98bbd7b971854efd554"
+  },
+  "schema": "district_station_share_prices_v1",
+  "public_admitted": true,
+  "definition": "서울 25개 구의 역 700m 안 아파트 비중과 84형 중앙가격을 비교합니다. 구별 상관과 같은 구·연식의 가격 차이가 답하는 질문을 구분합니다."
+}
