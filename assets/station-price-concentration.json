@@ -1,0 +1,213 @@
+{
+  "rows": [
+    {
+      "group": "below20",
+      "11": [
+        20,
+        30
+      ],
+      "41": [
+        0,
+        10
+      ]
+    },
+    {
+      "group": "20to30",
+      "11": [
+        30,
+        40
+      ],
+      "41": [
+        30,
+        40
+      ]
+    },
+    {
+      "group": "30plus",
+      "11": [
+        40,
+        50
+      ],
+      "41": [
+        50,
+        60
+      ]
+    }
+  ],
+  "change_cells": [
+    {
+      "scope": "11",
+      "concentration": [
+        10,
+        20
+      ],
+      "change": [
+        0,
+        5
+      ]
+    },
+    {
+      "scope": "11",
+      "concentration": [
+        10,
+        20
+      ],
+      "change": [
+        5,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "concentration": [
+        20,
+        30
+      ],
+      "change": [
+        0,
+        5
+      ]
+    },
+    {
+      "scope": "11",
+      "concentration": [
+        20,
+        30
+      ],
+      "change": [
+        5,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "concentration": [
+        20,
+        30
+      ],
+      "change": [
+        10,
+        15
+      ]
+    },
+    {
+      "scope": "11",
+      "concentration": [
+        30,
+        40
+      ],
+      "change": [
+        0,
+        5
+      ]
+    },
+    {
+      "scope": "11",
+      "concentration": [
+        30,
+        40
+      ],
+      "change": [
+        5,
+        10
+      ]
+    },
+    {
+      "scope": "11",
+      "concentration": [
+        30,
+        40
+      ],
+      "change": [
+        20,
+        25
+      ]
+    },
+    {
+      "scope": "11",
+      "concentration": [
+        40,
+        50
+      ],
+      "change": [
+        30,
+        35
+      ]
+    },
+    {
+      "scope": "41",
+      "concentration": [
+        10,
+        20
+      ],
+      "change": [
+        0,
+        5
+      ]
+    },
+    {
+      "scope": "41",
+      "concentration": [
+        20,
+        30
+      ],
+      "change": [
+        0,
+        5
+      ]
+    },
+    {
+      "scope": "41",
+      "concentration": [
+        20,
+        30
+      ],
+      "change": [
+        5,
+        10
+      ]
+    },
+    {
+      "scope": "41",
+      "concentration": [
+        30,
+        40
+      ],
+      "change": [
+        10,
+        15
+      ]
+    }
+  ],
+  "median_change": {
+    "11": [
+      3,
+      4
+    ],
+    "41": [
+      3,
+      4
+    ]
+  },
+  "comparison_survival": {
+    "11": [
+      0,
+      30
+    ],
+    "41": [
+      0,
+      30
+    ]
+  },
+  "seoul_change_at_least5": [
+    30,
+    40
+  ],
+  "schema": "station_price_concentration_v1",
+  "public_admitted": true,
+  "definition": "Concentration-share bands, broad price-change summaries and anonymous 10pp by 5pp scatter display cells.",
+  "figure_sha256": {
+    "station-price-concentration.svg": "9448e6ed6250e182d888ca3116adb0d742f0068d20227cf3ffd9cf5cc90415f8",
+    "station-price-concentration-mobile.svg": "b8e8b331167d4d671b9c65c81da7a8bca6d91315a911338b7080af861a86643b"
+  }
+}
