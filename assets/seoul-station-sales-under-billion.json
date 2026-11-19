@@ -1,0 +1,28 @@
+{
+  "rows": [
+    {
+      "station": "개봉",
+      "trades_range": [
+        200,
+        250
+      ]
+    },
+    {
+      "station": "등촌",
+      "trades_range": [
+        100,
+        150
+      ]
+    },
+    {
+      "station": "정릉",
+      "trades_range": [
+        200,
+        250
+      ]
+    }
+  ],
+  "schema": "seoul_station_sales_under_billion_v1",
+  "public_admitted": true,
+  "definition": "서울의 84형 10억 원 이하 매매를 역 700m에서 비교합니다. 반경과 거래 집중도를 확인한 뒤 개봉·등촌·정릉 주변에서 거래 건수가 얼마나 남았는지 살펴봅니다."
+}
