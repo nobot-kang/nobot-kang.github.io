@@ -1,0 +1,46 @@
+{
+  "rows": [
+    {
+      "period": [
+        2011,
+        2015
+      ],
+      "ring_districts": 4,
+      "current_districts": 9,
+      "ring_outside_current_inside_share": [
+        60,
+        70
+      ]
+    },
+    {
+      "period": [
+        2016,
+        2020
+      ],
+      "ring_districts": 5,
+      "current_districts": 11,
+      "ring_outside_current_inside_share": [
+        60,
+        70
+      ]
+    },
+    {
+      "period": [
+        2021,
+        2025
+      ],
+      "ring_districts": 2,
+      "current_districts": 6,
+      "ring_outside_current_inside_share": [
+        60,
+        70
+      ]
+    }
+  ],
+  "annual_common_districts": 0,
+  "period_common_districts": 1,
+  "period_650m_common_districts": 0,
+  "schema": "historical_ring_distance_prices_v1",
+  "public_admitted": true,
+  "definition": "2호선 순환역 위치를 고정해 2011~2025년 서울 84형 매매를 나눴습니다. 역 700m 안팎과 현재 전체 역을 기준으로 했을 때 비교 표본이 얼마나 남는지 살펴봅니다."
+}

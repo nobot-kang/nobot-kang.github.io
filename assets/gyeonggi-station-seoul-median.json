@@ -1,0 +1,18 @@
+{
+  "rows": [
+    {
+      "method": "equal_transactions",
+      "stations": 8,
+      "above_seoul": 0
+    },
+    {
+      "method": "equal_complexes",
+      "stations": 13,
+      "above_seoul": 1
+    }
+  ],
+  "single_complex_removal_stable": true,
+  "schema": "gyeonggi_station_seoul_median_v1",
+  "public_admitted": true,
+  "definition": "수집 경기 역 주변 84형과 서울 전체의 거래 중앙가격을 비교합니다. 거래별 비중과 단지별 비중을 적용했을 때 기준선을 넘는 역의 수를 살펴봅니다."
+}
