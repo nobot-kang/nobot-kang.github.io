@@ -1,0 +1,71 @@
+{
+  "rows": [
+    {
+      "distance": "300m 이하",
+      "basic": null,
+      "long_run": null
+    },
+    {
+      "distance": "300m 초과~500m 이하",
+      "basic": [
+        15,
+        20
+      ],
+      "long_run": [
+        20,
+        25
+      ]
+    },
+    {
+      "distance": "500m 초과~700m 이하",
+      "basic": [
+        20,
+        25
+      ],
+      "long_run": [
+        20,
+        25
+      ]
+    },
+    {
+      "distance": "700m 초과~1km 이하",
+      "basic": [
+        20,
+        25
+      ],
+      "long_run": [
+        20,
+        25
+      ]
+    },
+    {
+      "distance": "1km 초과~1.5km 이하",
+      "basic": [
+        20,
+        25
+      ],
+      "long_run": [
+        20,
+        25
+      ]
+    },
+    {
+      "distance": "1.5km 초과",
+      "basic": [
+        20,
+        25
+      ],
+      "long_run": [
+        15,
+        20
+      ]
+    }
+  ],
+  "seoul_supported": false,
+  "five_trades_supported": [
+    "1.5km 초과"
+  ],
+  "schema": "downturn_station_distance_prices_v1",
+  "public_admitted": true,
+  "definition": "2021년 4분기와 2023년 3분기에 거래된 같은 단지의 84형 매매가격을 확인합니다. 역 직선거리와 거래 포함 기준에 따라 변화율을 비교합니다."
+}
