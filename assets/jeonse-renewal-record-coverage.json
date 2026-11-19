@@ -1,0 +1,43 @@
+{
+  "rows": [
+    {
+      "year": 2022,
+      "scope": "11",
+      "recorded_prior_share": [
+        1,
+        2
+      ],
+      "comparison": false
+    },
+    {
+      "year": 2022,
+      "scope": "41",
+      "recorded_prior_share": [
+        0,
+        1
+      ],
+      "comparison": false
+    },
+    {
+      "year": 2023,
+      "scope": "11",
+      "recorded_prior_share": [
+        4,
+        5
+      ],
+      "comparison": false
+    },
+    {
+      "year": 2023,
+      "scope": "41",
+      "recorded_prior_share": [
+        1,
+        2
+      ],
+      "comparison": false
+    }
+  ],
+  "schema": "jeonse_renewal_record_coverage_v1",
+  "public_admitted": true,
+  "definition": "2022~2023년 서울과 수집 경기 84형의 갱신 전세 신고를 봅니다. 종전 보증금과 월세의 기록 비중, 역 거리별로 보증금 변화를 비교할 수 있는 자료 범위를 확인합니다."
+}
