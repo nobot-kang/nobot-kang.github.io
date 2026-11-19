@@ -1,0 +1,25 @@
+{
+  "rows": [
+    {
+      "line": "2호선",
+      "rate": [
+        45,
+        50
+      ]
+    },
+    {
+      "line": "5호선",
+      "rate": [
+        45,
+        50
+      ]
+    }
+  ],
+  "eligible_750m": {
+    "seoul": 3,
+    "gyeonggi": 1
+  },
+  "schema": "rail_line_jeonse_ratio_v1",
+  "public_admitted": true,
+  "definition": "서울 2호선·5호선 주변 84형의 매매와 신규 전세를 여러 분기에서 확인했습니다. 같은 단지의 비율을 먼저 요약하고 노선별 중앙값을 비교합니다."
+}
