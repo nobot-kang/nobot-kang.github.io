@@ -1,0 +1,40 @@
+{
+  "rows": [
+    {
+      "destination": "gangnam",
+      "stops": "0_10",
+      "closer_price_difference_pp": [
+        5,
+        10
+      ]
+    },
+    {
+      "destination": "gangnam",
+      "stops": "11_20",
+      "closer_price_difference_pp": [
+        0,
+        5
+      ]
+    },
+    {
+      "destination": "cbd",
+      "stops": "0_10",
+      "closer_price_difference_pp": [
+        5,
+        10
+      ]
+    },
+    {
+      "destination": "cbd",
+      "stops": "11_20",
+      "closer_price_difference_pp": [
+        5,
+        10
+      ]
+    }
+  ],
+  "supported_stop_comparisons": false,
+  "schema": "station_distance_with_same_stops_v1",
+  "public_admitted": true,
+  "definition": "강남과 도심까지 정거장 구간을 맞춘 서울 84형의 역 거리별 매매가격을 살펴봅니다."
+}

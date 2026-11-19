@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "city": "성남",
+      "line_group": 1,
+      "price_eok": [
+        13,
+        14
+      ],
+      "age_years": [
+        30,
+        35
+      ]
+    },
+    {
+      "city": "성남",
+      "line_group": 2,
+      "price_eok": null,
+      "age_years": null
+    },
+    {
+      "city": "성남",
+      "line_group": 3,
+      "price_eok": null,
+      "age_years": null
+    },
+    {
+      "city": "용인",
+      "line_group": 1,
+      "price_eok": [
+        7,
+        8
+      ],
+      "age_years": [
+        20,
+        25
+      ]
+    },
+    {
+      "city": "용인",
+      "line_group": 2,
+      "price_eok": [
+        10,
+        11
+      ],
+      "age_years": [
+        20,
+        25
+      ]
+    },
+    {
+      "city": "용인",
+      "line_group": 3,
+      "price_eok": null,
+      "age_years": null
+    },
+    {
+      "city": "수원",
+      "line_group": 1,
+      "price_eok": [
+        5,
+        6
+      ],
+      "age_years": [
+        20,
+        25
+      ]
+    },
+    {
+      "city": "수원",
+      "line_group": 2,
+      "price_eok": null,
+      "age_years": null
+    },
+    {
+      "city": "수원",
+      "line_group": 3,
+      "price_eok": null,
+      "age_years": null
+    }
+  ],
+  "yongin_gangnam_stops": [
+    8,
+    9
+  ],
+  "matched_area_and_age_available": false,
+  "schema": "bundang_line_city_prices_v1",
+  "public_admitted": true,
+  "definition": "성남·용인·수원에서 두 노선 중 하나만 닿는 84형 단지의 가격과 연식을 비교합니다."
+}
