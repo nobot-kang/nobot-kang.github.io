@@ -1,0 +1,29 @@
+{
+  "rows": [
+    {
+      "district": "노원구",
+      "price_span_eok": [
+        0,
+        2
+      ]
+    },
+    {
+      "district": "마포구",
+      "price_span_eok": [
+        6,
+        8
+      ]
+    },
+    {
+      "district": "강서구",
+      "price_span_eok": [
+        0,
+        2
+      ]
+    }
+  ],
+  "matched_age_available": false,
+  "schema": "same_district_station_price_spread_v1",
+  "public_admitted": true,
+  "definition": "서울에서 비교 기준을 충족한 세 구의 역 주변 84형 거래 중앙가격 차이를 확인합니다. 개별 역 대신 같은 구의 최저와 최고 차이를 비교합니다."
+}
