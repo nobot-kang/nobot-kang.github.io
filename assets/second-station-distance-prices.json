@@ -1,0 +1,75 @@
+{
+  "sensitivity": [
+    {
+      "mode": "main",
+      "districts": 7,
+      "difference": [
+        0,
+        5
+      ]
+    },
+    {
+      "mode": "first650",
+      "districts": 6,
+      "difference": [
+        5,
+        10
+      ]
+    },
+    {
+      "mode": "first750",
+      "districts": 8,
+      "difference": [
+        5,
+        10
+      ]
+    },
+    {
+      "mode": "second650",
+      "districts": 5,
+      "difference": [
+        0,
+        5
+      ]
+    },
+    {
+      "mode": "second750",
+      "districts": 4,
+      "difference": [
+        10,
+        15
+      ]
+    },
+    {
+      "mode": "confirmed",
+      "districts": 7,
+      "difference": [
+        0,
+        5
+      ]
+    }
+  ],
+  "shared_line_share": {
+    "11": [
+      75,
+      80
+    ],
+    "41": [
+      90,
+      95
+    ]
+  },
+  "matching_districts": {
+    "11": [
+      7,
+      1
+    ],
+    "41": [
+      0,
+      0
+    ]
+  },
+  "schema": "second_station_distance_prices_v1",
+  "public_admitted": true,
+  "definition": "서울과 수집 경기에서 둘째 역 거리와 84형 매매를 비교합니다. 첫째 역 거리와 연식을 맞춘 비교 범위와 두 역의 공통 노선 비중을 확인합니다."
+}
