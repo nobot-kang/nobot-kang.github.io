@@ -1,0 +1,24 @@
+{
+  "rows": [
+    {
+      "mode": "main",
+      "districts": 8,
+      "near_difference_pp": [
+        10,
+        15
+      ]
+    },
+    {
+      "mode": "middle_floors",
+      "districts": 4,
+      "near_difference_pp": [
+        -5,
+        0
+      ]
+    }
+  ],
+  "all_factor_common_districts": 0,
+  "schema": "station_distance_age_size_comparison_v1",
+  "public_admitted": true,
+  "definition": "서울에서 같은 구·연식·세대수 구간의 84형을 역 700m 안팎으로 비교합니다. 중간층만 남긴 비교와 세 조건을 함께 맞췄을 때의 범위도 살펴봅니다."
+}

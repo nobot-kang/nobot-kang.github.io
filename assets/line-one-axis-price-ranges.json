@@ -1,0 +1,45 @@
+{
+  "rows": [
+    {
+      "region": "서울",
+      "axis": "shared",
+      "median_eok": [
+        11,
+        12
+      ],
+      "width_eok": [
+        5,
+        6
+      ]
+    },
+    {
+      "region": "서울",
+      "axis": "gyeongwon",
+      "median_eok": [
+        8,
+        9
+      ],
+      "width_eok": [
+        1,
+        2
+      ]
+    },
+    {
+      "region": "수집 경기",
+      "axis": "gyeongbu_janghang",
+      "median_eok": [
+        5,
+        6
+      ],
+      "width_eok": [
+        2,
+        3
+      ]
+    }
+  ],
+  "common_wider_after_radius_change": true,
+  "common_median_higher_after_omitting_largest": true,
+  "schema": "line_one_axis_price_ranges_v1",
+  "public_admitted": true,
+  "definition": "수도권 전철 1호선의 도심 공통·경원·경부장항 구간을 나눠 가까운 84형 단지의 거래 중앙가격과 가격 폭을 비교합니다. 반경을 바꾼 결과도 확인합니다."
+}
