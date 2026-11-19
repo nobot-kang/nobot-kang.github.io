@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
   <title>파파펭귄 — 부동산 데이터 노트</title>
   <id>https://nobot-kang.github.io/</id>
-  <updated>2026-11-19T23:10:19+09:00</updated>
+  <updated>2026-11-19T23:14:23+09:00</updated>
   <subtitle>아파트 가격과 거래, 전세와 월세를 실제 자료로 확인하는 글</subtitle>
   <link rel="alternate" href="https://nobot-kang.github.io/" />
   <link rel="self" href="https://nobot-kang.github.io/feed.xml" />
@@ -10,6 +10,24 @@
     <name>파파펭귄 (Nobot Kang)</name>
     <uri>https://nobot-kang.github.io/#author</uri>
   </author>
+  <entry>
+    <title>강서·영등포에서 5호선과 9호선 주변의 84형 가격은?</title>
+    <id>https://nobot-kang.github.io/posts/line-five-nine-local-prices/</id>
+    <published>2026-11-19T23:14:23+09:00</published>
+    <updated>2026-11-19T23:14:23+09:00</updated>
+    <summary>강서구와 영등포구에서 같은 연식의 84형 중 두 노선 한쪽만 700m 안에 있는 거래를 비교합니다. 반경과 거래 집중 조건을 바꿔도 같은 방향인지 살펴봅니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/line-five-nine-local-prices/" />
+    <category term="호선별로 본 아파트" />
+  </entry>
+  <entry>
+    <title>역 700m 안팎의 2년 전세 보증금 변화를 확인할 수 있을까?</title>
+    <id>https://nobot-kang.github.io/posts/jeonse-renewal-record-coverage/</id>
+    <published>2026-11-19T23:14:23+09:00</published>
+    <updated>2026-11-19T23:14:23+09:00</updated>
+    <summary>2022~2023년 서울과 수집 경기 84형의 갱신 전세 신고를 봅니다. 종전 보증금과 월세의 기록 비중, 역 거리별로 보증금 변화를 비교할 수 있는 자료 범위를 확인합니다.</summary>
+    <link rel="alternate" href="https://nobot-kang.github.io/posts/jeonse-renewal-record-coverage/" />
+    <category term="역 거리와 전세·월세" />
+  </entry>
   <entry>
     <title>두 노선이 한 환승역에 있을 때와 다른 역에 있을 때 집값은?</title>
     <id>https://nobot-kang.github.io/posts/transfer-or-two-stations-prices/</id>
@@ -41,7 +59,7 @@
     <title>1호선 안에서도 운행 구간마다 84형 가격이 얼마나 벌어질까?</title>
     <id>https://nobot-kang.github.io/posts/line-one-axis-price-ranges/</id>
     <published>2026-11-19T23:10:19+09:00</published>
-    <updated>2026-11-19T23:10:19+09:00</updated>
+    <updated>2026-11-19T23:14:23+09:00</updated>
     <summary>수도권 전철 1호선의 도심 공통·경원·경부장항 구간을 나눠 가까운 84형 단지의 거래 중앙가격과 가격 폭을 비교합니다. 반경을 바꾼 결과도 확인합니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/line-one-axis-price-ranges/" />
     <category term="호선별로 본 아파트" />
@@ -68,7 +86,7 @@
     <title>같은 단지의 전세가율은 역 거리에 따라 달랐을까?</title>
     <id>https://nobot-kang.github.io/posts/quarterly-jeonse-ratio-distance/</id>
     <published>2026-11-19T20:25:11+09:00</published>
-    <updated>2026-11-19T20:25:11+09:00</updated>
+    <updated>2026-11-19T23:14:23+09:00</updated>
     <summary>2026년 2분기에 같은 단지의 84형 매매와 신규 전세가 모두 있었던 경우를 비교합니다. 역 거리별 대표 전세가율과 비교 가능한 표본 범위를 살펴봅니다.</summary>
     <link rel="alternate" href="https://nobot-kang.github.io/posts/quarterly-jeonse-ratio-distance/" />
     <category term="역 거리와 전세·월세" />

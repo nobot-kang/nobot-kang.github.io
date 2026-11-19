@@ -1,0 +1,22 @@
+{
+  "rows": [
+    {
+      "district": "강서구",
+      "difference_pp": [
+        20,
+        30
+      ]
+    },
+    {
+      "district": "영등포구",
+      "difference_pp": [
+        30,
+        40
+      ]
+    }
+  ],
+  "positive_in_sensitivities": true,
+  "schema": "line_five_nine_local_prices_v1",
+  "public_admitted": true,
+  "definition": "강서구와 영등포구에서 같은 연식의 84형 중 두 노선 한쪽만 700m 안에 있는 거래를 비교합니다. 반경과 거래 집중 조건을 바꿔도 같은 방향인지 살펴봅니다."
+}
