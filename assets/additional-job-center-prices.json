@@ -1,0 +1,249 @@
+{
+  "rows": [
+    {
+      "destination": "jamsil",
+      "stops": "0_5",
+      "seoul": [
+        18,
+        19
+      ],
+      "gyeonggi": [
+        9,
+        10
+      ]
+    },
+    {
+      "destination": "jamsil",
+      "stops": "6_10",
+      "seoul": [
+        14,
+        15
+      ],
+      "gyeonggi": [
+        8,
+        9
+      ]
+    },
+    {
+      "destination": "jamsil",
+      "stops": "11_15",
+      "seoul": [
+        9,
+        10
+      ],
+      "gyeonggi": [
+        8,
+        9
+      ]
+    },
+    {
+      "destination": "jamsil",
+      "stops": "16_20",
+      "seoul": [
+        11,
+        12
+      ],
+      "gyeonggi": [
+        5,
+        6
+      ]
+    },
+    {
+      "destination": "jamsil",
+      "stops": "21_plus",
+      "seoul": [
+        9,
+        10
+      ],
+      "gyeonggi": [
+        5,
+        6
+      ]
+    },
+    {
+      "destination": "magok",
+      "stops": "0_5",
+      "seoul": [
+        13,
+        14
+      ],
+      "gyeonggi": [
+        6,
+        7
+      ]
+    },
+    {
+      "destination": "magok",
+      "stops": "6_10",
+      "seoul": [
+        12,
+        13
+      ],
+      "gyeonggi": [
+        7,
+        8
+      ]
+    },
+    {
+      "destination": "magok",
+      "stops": "11_15",
+      "seoul": [
+        11,
+        12
+      ],
+      "gyeonggi": [
+        6,
+        7
+      ]
+    },
+    {
+      "destination": "magok",
+      "stops": "16_20",
+      "seoul": [
+        9,
+        10
+      ],
+      "gyeonggi": [
+        8,
+        9
+      ]
+    },
+    {
+      "destination": "magok",
+      "stops": "21_plus",
+      "seoul": [
+        13,
+        14
+      ],
+      "gyeonggi": [
+        6,
+        7
+      ]
+    },
+    {
+      "destination": "g_valley",
+      "stops": "0_5",
+      "seoul": [
+        10,
+        11
+      ],
+      "gyeonggi": [
+        8,
+        9
+      ]
+    },
+    {
+      "destination": "g_valley",
+      "stops": "6_10",
+      "seoul": [
+        14,
+        15
+      ],
+      "gyeonggi": [
+        6,
+        7
+      ]
+    },
+    {
+      "destination": "g_valley",
+      "stops": "11_15",
+      "seoul": [
+        15,
+        16
+      ],
+      "gyeonggi": [
+        6,
+        7
+      ]
+    },
+    {
+      "destination": "g_valley",
+      "stops": "16_20",
+      "seoul": [
+        9,
+        10
+      ],
+      "gyeonggi": [
+        8,
+        9
+      ]
+    },
+    {
+      "destination": "g_valley",
+      "stops": "21_plus",
+      "seoul": [
+        9,
+        10
+      ],
+      "gyeonggi": [
+        6,
+        7
+      ]
+    },
+    {
+      "destination": "sangam",
+      "stops": "0_5",
+      "seoul": [
+        13,
+        14
+      ],
+      "gyeonggi": [
+        6,
+        7
+      ]
+    },
+    {
+      "destination": "sangam",
+      "stops": "6_10",
+      "seoul": [
+        12,
+        13
+      ],
+      "gyeonggi": [
+        6,
+        7
+      ]
+    },
+    {
+      "destination": "sangam",
+      "stops": "11_15",
+      "seoul": [
+        9,
+        10
+      ],
+      "gyeonggi": [
+        7,
+        8
+      ]
+    },
+    {
+      "destination": "sangam",
+      "stops": "16_20",
+      "seoul": [
+        9,
+        10
+      ],
+      "gyeonggi": [
+        8,
+        9
+      ]
+    },
+    {
+      "destination": "sangam",
+      "stops": "21_plus",
+      "seoul": [
+        17,
+        18
+      ],
+      "gyeonggi": [
+        5,
+        6
+      ]
+    }
+  ],
+  "axis_end": 20,
+  "comparable_three_districts": false,
+  "schema": "additional_job_center_prices_v1",
+  "public_admitted": true,
+  "definition": "잠실·마곡·G밸리·상암까지 정거장 수와 84형 매매 중앙가격을 비교합니다. 같은 시군구와 연식에서 비교할 수 있는 범위도 확인합니다."
+}
